@@ -1,16 +1,74 @@
-MIT License
+OH MY SHOT! NON-COMMERCIAL PUBLIC LICENSE (OMS-NC)
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
 
 Copyright (c) 2026 leoandre91 (https://github.com/leoandrex91)
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+================================================================================
+ESPAÑOL (Términos de la Licencia en Español)
+================================================================================
+Por la presente se otorga permiso, de manera gratuita y libre, a cualquier persona
+que obtenga una copia de este software, código fuente, archivos multimedia y documentación
+asociada (en adelante, el "Software"), bajo los siguientes términos y condiciones:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+1. LIBRE USO Y DISFRUTE:
+   - Se autoriza el uso libre, gratuito e ilimitado del juego para fines personales,
+     privados, sociales, fiestas, reuniones, comunitarios o educativos.
+   - Se permite alojar y desplegar instancias públicas o privadas del juego en la web
+     (ej. GitHub Pages, Netlify, Vercel, servidores personales o locales), siempre y
+     cuando el acceso al juego sea 100% gratuito para todos los usuarios.
+
+2. LIBRE DISTRIBUCIÓN, BIFURCACIÓN (FORK) Y MODIFICACIÓN:
+   - Se autoriza copiar, clonar, bifurcar (fork), estudiar, modificar, traducir y
+     distribuir libremente el Software o adaptaciones del mismo, bajo la condición de
+     mantener la atribución original del autor y compartir bajo estos mismos términos.
+
+3. RESTRICCIÓN COMERCIAL ESTRICTA (PROHIBIDO COBRAR):
+   - Queda TERMINANTEMENTE PROHIBIDO el uso comercial de este código fuente, de sus
+     componentes, mecánicas, cartas o recursos multimedia.
+   - NO está permitido crear juegos, aplicaciones, plataformas, descargas o servicios
+     derivados basados total o parcialmente en este código para COBRAR DINERO por ellos,
+     vender licencias, incluir pasarelas de pago, suscripciones pagas, microtransacciones
+     o cualquier esquema de lucro o monetización directa o indirecta.
+   - Cualquier proyecto o juego derivado debe distribuirse de forma enteramente gratuita.
+   - Cualquier excepción con fines comerciales requiere autorización previa, expresa
+     y por escrito del autor original (leoandre91).
+
+4. ATRIBUCIÓN:
+   - Las copias, redistribuciones o modificaciones deben incluir de manera visible este
+     aviso de derechos de autor y la atribución al autor original:
+     leoandre91 (https://github.com/leoandrex91).
+
+================================================================================
+ENGLISH (Official License Text)
+================================================================================
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software, source code, media assets, and associated documentation files
+(the "Software"), to deal in the Software subject to the following conditions:
+
+1. FREE USE AND NON-COMMERCIAL PURPOSE:
+   You may freely run, play, use, and host this Software for personal, recreational,
+   social, educational, and non-commercial purposes. Hosting public or private web
+   deployments (e.g., GitHub Pages, Netlify, Vercel) is permitted provided access
+   remains completely free of charge.
+
+2. FREE DISTRIBUTION AND MODIFICATION:
+   You may freely copy, fork, modify, translate, and distribute this Software and
+   derivative works, provided that any derivative work is licensed under these
+   same non-commercial terms and preserves original attribution.
+
+3. STRICT PROHIBITION OF COMMERCIAL EXPLOITATION:
+   Commercial use of this Software, its source code, card data, or assets is
+   STRICTLY PROHIBITED.
+   You MAY NOT use this code or create derivative games/apps based on it to:
+   - Charge money, fees, or download prices.
+   - Sell subscriptions, paywalls, or paid licenses.
+   - Integrate payment gateways, ads-for-paywall, or in-app purchases.
+   - Monetize or sell any product or game derived from this codebase.
+   Any game created from or based on this code must remain 100% free of charge.
+
+4. ATTRIBUTION AND SHARE-ALIKE:
+   The above copyright notice and this permission notice shall be prominently included
+   in all copies, redistributions, and substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,

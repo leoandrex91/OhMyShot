@@ -8,7 +8,7 @@
 [![Version](https://img.shields.io/badge/version-0.6.0-ff007f.svg?style=for-the-badge)](package.json)
 [![PWA Ready](https://img.shields.io/badge/PWA-100%25%20Offline-00e5ff.svg?style=for-the-badge)](manifest.webmanifest)
 [![Vanilla JS](https://img.shields.io/badge/Vanilla-ES%20Modules-f59e0b.svg?style=for-the-badge)](src/main.js)
-[![License: MIT](https://img.shields.io/badge/License-MIT-a855f7.svg?style=for-the-badge)](LICENSE)
+[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-a855f7.svg?style=for-the-badge)](LICENSE)
 
 [🎮 Jugar en Vivo](#-cómo-jugarlo-en-vivo) • [✨ Características](#-características-principales) • [📸 Capturas](#-capturas-de-pantalla) • [🕹️ Modos de Juego](#-modos-de-juego) • [🚀 Ejecución Local](#-instalación-y-ejecución-local)
 
@@ -230,6 +230,12 @@ Desarrollado con ❤️ y mucha fiesta por **[leoandre91](https://github.com/leo
 
 ---
 
-## 📄 Licencia
+## 📄 Licencia y Términos de Uso
 
-Este proyecto está bajo la Licencia **MIT**. Consulta el archivo `LICENSE` para más información.
+Este proyecto se distribuye bajo una licencia **Libre de Uso y No Comercial** ([CC BY-NC-SA 4.0](LICENSE) / OMS-NC).
+
+- ✅ **Uso Libre y Gratuito**: Cualquiera puede jugar, ejecutar, disfrutar, traducir y compartir el juego libremente para uso personal, en previas, fiestas, reuniones, eventos comunitarios o educativos.
+- ✅ **Libre Distribución y Modificación**: Puedes clonar, bifurcar (*fork*), modificar el código y aportar mejoras, siempre que mantengas la atribución al autor original y compartas bajo estos mismos términos.
+- ❌ **Uso Comercial Prohibido**: **Está estrictamente prohibido utilizar este código, cartas o recursos para crear juegos o aplicaciones con el fin de cobrar por ellos**, vender descargas, incluir pasarelas de pago, suscripciones de pago o cualquier tipo de monetización lucrativa. Cualquier juego derivado debe ser siempre 100% libre y gratuito.
+
+Para más detalles, consulta el archivo [LICENSE](LICENSE).
