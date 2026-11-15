@@ -3788,7 +3788,7 @@ export class AppShell {
       document.documentElement.style.setProperty('--active-accent', accent);
       stage3d.setSpecialFx(fxMode, specialFxMeta?.hex ?? vm?.typeMeta?.hex ?? 0x754ac1);
       visualFx.syncGameFxState(true, fxMode);
-      audioFx.setMusicMood(fxMode === 'hot' ? 'hot' : 'normal');
+      audioFx.setMusicMood('play');
       this.#fitActiveCardPrompt(cardEl);
 
       if (cardEl && animKey !== this.lastAnimatedCardKey) {
@@ -4522,6 +4522,7 @@ export class AppShell {
     this.creditsModalOpen = false;
     this.creditsOpenedFromSettings = false;
     this.isCountdownLaunching = true;
+    audioFx.setMusicMood('play');
 
     document.body.classList.add('is-countdown-blur', 'is-loading-view');
     overlay.hidden = false;
@@ -5730,6 +5731,7 @@ export class AppShell {
       audioFx.tap();
       this.exitConfirmOpen = false;
       await disableWakeLock();
+      audioFx.setMusicMood('normal');
       this.#navigateWithLoader('menu', 'loaderReturning');
       return;
     }

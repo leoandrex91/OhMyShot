@@ -334,6 +334,7 @@ export const AUDIO_ASSETS = Object.freeze({
   god: './assets/audio/god.m4a',
   bad: './assets/audio/bad.m4a',
   musicBg: './assets/audio/music_bg.m4a',
+  musicBgPlay: './assets/audio/music_bg_play.m4a',
   musicHotBg: './assets/audio/music_hot_bg.m4a'
 });
 

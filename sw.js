@@ -194,6 +194,7 @@ const CORE_ASSETS = [
   './assets/audio/god.m4a',
   './assets/audio/bad.m4a',
   './assets/audio/music_bg.m4a',
+  './assets/audio/music_bg_play.m4a',
   './assets/audio/music_hot_bg.m4a',
   ...AVATAR_ASSETS,
   ...UI_ICON_ASSETS_V1,

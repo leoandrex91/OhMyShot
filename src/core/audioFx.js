@@ -90,6 +90,7 @@ function createMusicTrackEntry(key, url) {
 
 const musicTracks = {
   normal: createMusicTrackEntry('normal', AUDIO_ASSETS.musicBg),
+  play: createMusicTrackEntry('play', AUDIO_ASSETS.musicBgPlay),
   hot: createMusicTrackEntry('hot', AUDIO_ASSETS.musicHotBg)
 };
 
@@ -117,7 +118,7 @@ function getSfxFactor() {
 
 function getMusicGainLevel() {
   const state = store.getState();
-  if (state.screen === 'splash' || state.screen === 'home') return 0;
+  if (state.screen === 'splash') return 0;
   const vol = state.musicVolume ?? 50;
   if (vol <= 0 || document.visibilityState === 'hidden') return 0;
   return Math.max(0, Math.min(1, vol / 100)) * MUSIC_MAX_GAIN;
@@ -182,7 +183,7 @@ function ensureMusicBus(ctx) {
     masterMusicGain.gain.setValueAtTime(0, now);
     masterMusicGain.connect(ctx.destination);
   }
-  for (const key of ['normal', 'hot']) {
+  for (const key of Object.keys(musicTracks)) {
     const track = musicTracks[key];
     if (!track.gainNode) {
       track.gainNode = ctx.createGain();
@@ -235,15 +236,14 @@ function ensureTrackSourceStarted(track, ctx) {
 }
 
 function applyMusicMood(ctx, { immediate = false } = {}) {
-  const normalReady = Boolean(musicTracks.normal.sourceNode);
-  const hotReady = Boolean(musicTracks.hot.sourceNode);
-  if (!normalReady && !hotReady) return;
+  const anyReady = Object.values(musicTracks).some((t) => Boolean(t.sourceNode));
+  if (!anyReady) return;
 
   const now = ctx.currentTime;
   const targetTrack = musicTracks[desiredMood];
 
   if (!musicStartedOnce || immediate) {
-    for (const key of ['normal', 'hot']) {
+    for (const key of Object.keys(musicTracks)) {
       scheduleTrackCrossfade(musicTracks[key], key === desiredMood ? 1 : 0, now, 0);
     }
     appliedMood = desiredMood;
@@ -253,17 +253,21 @@ function applyMusicMood(ctx, { immediate = false } = {}) {
 
   // Espera a que la pista destino haya iniciado su source para cruzar sin silencios
   if (appliedMood !== desiredMood && targetTrack?.sourceNode) {
-    const normalTarget = desiredMood === 'normal' ? 1 : 0;
-    const hotTarget = desiredMood === 'hot' ? 1 : 0;
-    scheduleTrackCrossfade(musicTracks.normal, normalTarget, now, MUSIC_CROSSFADE_SEC);
-    scheduleTrackCrossfade(musicTracks.hot, hotTarget, now, MUSIC_CROSSFADE_SEC);
+    for (const key of Object.keys(musicTracks)) {
+      scheduleTrackCrossfade(
+        musicTracks[key],
+        key === desiredMood ? 1 : 0,
+        now,
+        MUSIC_CROSSFADE_SEC
+      );
+    }
     appliedMood = desiredMood;
   }
 }
 
 function ensureHtmlMusicFallbackElements() {
   if (typeof Audio === 'undefined') return;
-  for (const key of ['normal', 'hot']) {
+  for (const key of Object.keys(musicTracks)) {
     const track = musicTracks[key];
     if (track.htmlEl) continue;
     try {
@@ -279,14 +283,14 @@ function ensureHtmlMusicFallbackElements() {
 }
 
 function updateHtmlMusicFallback(level) {
-  const anyDecodeFailed = musicTracks.normal.decodeFailed || musicTracks.hot.decodeFailed;
+  const anyDecodeFailed = Object.values(musicTracks).some((t) => t.decodeFailed);
   const noWebAudio = typeof (window.AudioContext || window.webkitAudioContext) !== 'function';
   if (!noWebAudio && !anyDecodeFailed) return;
 
   ensureHtmlMusicFallbackElements();
   const shouldPlay = audioUnlocked && level > 0 && document.visibilityState !== 'hidden';
   if (!shouldPlay) {
-    for (const key of ['normal', 'hot']) {
+    for (const key of Object.keys(musicTracks)) {
       musicTracks[key].htmlEl?.pause?.();
     }
     if (htmlFadeTimer) {
@@ -296,7 +300,7 @@ function updateHtmlMusicFallback(level) {
     return;
   }
 
-  for (const key of ['normal', 'hot']) {
+  for (const key of Object.keys(musicTracks)) {
     const track = musicTracks[key];
     if (!track.htmlEl) continue;
     if (track.htmlEl.paused) {
@@ -315,7 +319,7 @@ function updateHtmlMusicFallback(level) {
         return;
       }
       let settled = true;
-      for (const key of ['normal', 'hot']) {
+      for (const key of Object.keys(musicTracks)) {
         const track = musicTracks[key];
         const targetW = key === desiredMood ? 1 : 0;
         const diff = targetW - track.htmlWeight;
@@ -380,7 +384,7 @@ function updateMusicLoop() {
       masterMusicGain.gain.cancelScheduledValues(now);
       masterMusicGain.gain.setTargetAtTime(level, now, tau);
 
-      for (const key of ['normal', 'hot']) {
+      for (const key of Object.keys(musicTracks)) {
         const track = musicTracks[key];
         if (track.audioBuffer) {
           ensureTrackSourceStarted(track, ctx);
@@ -543,8 +547,9 @@ export const audioFx = {
       ensureSampleHtmlPool(sample);
       fetchBytesCached(sample);
     }
-    fetchBytesCached(musicTracks.normal);
-    fetchBytesCached(musicTracks.hot);
+    for (const track of Object.values(musicTracks)) {
+      fetchBytesCached(track);
+    }
   },
 
   unlock() {
@@ -573,7 +578,7 @@ export const audioFx = {
   },
 
   setMusicMood(mood = 'normal') {
-    const nextMood = mood === 'hot' ? 'hot' : 'normal';
+    const nextMood = musicTracks[mood] ? mood : 'normal';
     if (desiredMood === nextMood && appliedMood === nextMood) return;
     desiredMood = nextMood;
     if (audioUnlocked) {
