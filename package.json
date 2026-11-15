@@ -6,7 +6,7 @@
   "type": "module",
   "description": "Oh My Shot! - Aplicacion web PWA de fiesta 100% local con HTML5, CSS y JavaScript puro (Android, iPhone y PC).",
   "scripts": {
-    "build": "node scripts/build-netlify.mjs",
+    "build": "node scripts/build.mjs",
     "dev": "python -m http.server 8080 --bind 0.0.0.0"
   },
   "keywords": [

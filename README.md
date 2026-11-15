@@ -22,23 +22,9 @@
 Puedes jugarlo en vivo desde cualquier dispositivo (celular, tablet o computador) ingresando a:
 👉 **[https://leoandrex91.github.io/OhMyShot/](https://leoandrex91.github.io/OhMyShot/)**
 
-> [!TIP]
-> **Para activarlo en GitHub Pages**:
-> 1. Ve a la pestaña **Settings** de este repositorio en GitHub.
-> 2. En el menú lateral izquierdo, haz clic en **Pages**.
-> 3. En **Build and deployment** > **Source**, selecciona `Deploy from a branch`.
-> 4. Elige la rama `main` y la carpeta `/ (root)`, luego haz clic en **Save**.
-> 5. ¡En 1 minuto tu juego estará disponible en línea en la URL anterior!
-
 ---
 
-### 2. Despliegue en 1 Clic en Netlify o Vercel
-- **Netlify**: El proyecto incluye [netlify.toml](netlify.toml) preconfigurado. Solo conecta este repositorio en Netlify y se desplegará de inmediato.
-- **Vercel**: Importa el repositorio como proyecto estático sin configuración adicional.
-
----
-
-### 3. Instalar como App en tu Celular (PWA Offline)
+### 2. Instalar como App en tu Celular (PWA Offline)
 ¡No necesitas descargar nada desde la tienda de aplicaciones ni gastar datos móviles en la fiesta!
 1. Abre el enlace en tu navegador móvil (**Chrome** en Android o **Safari** en iOS).
 2. Toca el botón de opciones del navegador o el botón **"Instalar App"** en el lobby.
@@ -165,7 +151,7 @@ OhMyShot/
 ├── docs/
 │   └── screenshots/            # Capturas de pantalla para la documentación
 ├── scripts/                    # Scripts auxiliares y de compilación
-│   └── build-netlify.mjs       # Script de build para despliegues en Netlify
+│   └── build.mjs               # Script para empaquetar build estático en dist/
 ├── src/                        # Código fuente modular (Vanilla JS)
 │   ├── cards/                  # Catálogos de cartas organizados por locale
 │   │   ├── es-CO/              # Packs en Español (Colombia)
@@ -203,7 +189,6 @@ OhMyShot/
 │   └── main.js                 # Punto de entrada de la aplicación
 ├── index.html                  # HTML principal de la PWA
 ├── manifest.webmanifest        # Manifiesto PWA para instalación móvil
-├── netlify.toml                # Configuración de despliegue en Netlify
 ├── package.json                # Metadatos del proyecto (v0.6.0)
 └── sw.js                       # Service Worker para funcionamiento 100% offline
 ```

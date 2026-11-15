@@ -1,6 +1,6 @@
 /**
- * Script de build estatico puro HTML5 + CSS + JS (sin dependencias ni servicios externos).
- * Empaqueta la PWA lista para desplegar en cualquier servidor web estatico en `dist/`.
+ * Script de empaquetado estático HTML5 + CSS + JS (100% cliente y offline).
+ * Copia los archivos del juego a la carpeta `dist/` para servir estáticamente.
  */
 import fs from 'node:fs';
 import path from 'node:path';
@@ -8,16 +8,14 @@ import path from 'node:path';
 const ROOT = process.cwd();
 const DIST = path.join(ROOT, 'dist');
 
-const INCLUDE_FILES = ['index.html', 'manifest.webmanifest', 'sw.js'];
+const INCLUDE_FILES = ['index.html', 'manifest.webmanifest', 'sw.js', 'LICENSE', 'README.md'];
 const INCLUDE_DIRS = ['src', 'assets'];
-const EXCLUDED_FILES = new Set(['env.local.js', 'runtime-env.js']);
 
 function copyRecursive(source, destination) {
   const stats = fs.statSync(source);
   if (stats.isDirectory()) {
     fs.mkdirSync(destination, { recursive: true });
     for (const entry of fs.readdirSync(source)) {
-      if (EXCLUDED_FILES.has(entry)) continue;
       copyRecursive(path.join(source, entry), path.join(destination, entry));
     }
     return;
@@ -44,7 +42,7 @@ function main() {
     }
   }
 
-  console.log('[build-static] Build 100% HTML5/CSS/JS completado en dist/');
+  console.log('[build] Archivos estaticos empaquetados con exito en dist/');
 }
 
 main();

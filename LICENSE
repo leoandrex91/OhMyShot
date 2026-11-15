@@ -14,7 +14,7 @@ asociada (en adelante, el "Software"), bajo los siguientes términos y condicion
    - Se autoriza el uso libre, gratuito e ilimitado del juego para fines personales,
      privados, sociales, fiestas, reuniones, comunitarios o educativos.
    - Se permite alojar y desplegar instancias públicas o privadas del juego en la web
-     (ej. GitHub Pages, Netlify, Vercel, servidores personales o locales), siempre y
+     (ej. GitHub Pages o servidores propios), siempre y
      cuando el acceso al juego sea 100% gratuito para todos los usuarios.
 
 2. LIBRE DISTRIBUCIÓN, BIFURCACIÓN (FORK) Y MODIFICACIÓN:
@@ -48,7 +48,7 @@ of this software, source code, media assets, and associated documentation files
 1. FREE USE AND NON-COMMERCIAL PURPOSE:
    You may freely run, play, use, and host this Software for personal, recreational,
    social, educational, and non-commercial purposes. Hosting public or private web
-   deployments (e.g., GitHub Pages, Netlify, Vercel) is permitted provided access
+   deployments (e.g., GitHub Pages or personal static web servers) is permitted provided access
    remains completely free of charge.
 
 2. FREE DISTRIBUTION AND MODIFICATION:

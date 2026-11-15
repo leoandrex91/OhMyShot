@@ -10,8 +10,9 @@ export const PROJECT_META = Object.freeze({
   name: 'Oh My Shot!',
   version: '0.6.0',
   creator: 'leoandre91',
-  githubUser: 'leoandrex91',
-  githubUrl: 'https://github.com/leoandrex91',
+  githubUser: 'leoandrex91/OhMyShot',
+  githubRepo: 'leoandrex91/OhMyShot',
+  githubUrl: 'https://github.com/leoandrex91/OhMyShot',
   supportCoffeeUrl: ''
 });
 
