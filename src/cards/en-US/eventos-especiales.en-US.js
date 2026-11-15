@@ -1,5 +1,5 @@
 /**
- * Oh My Shot! — Previa Mix (en-US)
+ * Oh My Shot! — Cartas Eventos Especiales (en-US)
  * Tipo: eventos especiales
  * Cantidad: 300 cartas
  */
@@ -9,2167 +9,2167 @@ export const eventosEspecialesCards = [
     "id": 3451,
     "intensidad": 1,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 2 turns: Nobody can say 'sí'.",
+    "texto": "PARTY RULE: for the next 2 turns: Nobody can say 'yes'.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Forbidden: yes"
+    "regla": "Prohibited: yes"
   },
   {
     "id": 3452,
     "intensidad": 1,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 3 turns: Everyone must hablar con voz de robot.",
+    "texto": "PARTY RULE: for the next 3 turns: Everyone must speak in a robot voice.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Voz de robot"
+    "regla": "Robot voice"
   },
   {
     "id": 3453,
     "intensidad": 1,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 4 turns: Antes de hablar, hagan palmas.",
+    "texto": "PARTY RULE: for the next 4 turns: Before speaking, clap your hands.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "palmas antes de hablar"
+    "regla": "clapping before speaking"
   },
   {
     "id": 3454,
     "intensidad": 1,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 5 turns: Incluyan una palabra sobre amistad.",
+    "texto": "PARTY RULE: for the next 5 turns: Include a word about friendship.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Palabra de amistad"
+    "regla": "Word of friendship"
   },
   {
     "id": 3455,
     "intensidad": 1,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Respondan solo con preguntas.",
+    "texto": "GROUP EVENT: during the next turn: Respond only with questions.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Solo preguntas"
+    "regla": "Just questions"
   },
   {
     "id": 3456,
     "intensidad": 1,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 2 turns: No usen 'sí' ni 'no'.",
+    "texto": "PARTY RULE: for the next 2 turns: Do not use 'yes' or 'no'.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Sin yes ni no"
+    "regla": "Without yes or no"
   },
   {
     "id": 3457,
     "intensidad": 1,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 3 turns: Hablen en tercera persona.",
+    "texto": "PARTY RULE: for the next 3 turns: Speak in third person.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Tercera persona"
+    "regla": "Third person"
   },
   {
     "id": 3458,
     "intensidad": 1,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 4 turns: Brinden antes de beber.",
+    "texto": "PARTY RULE: for the next 4 turns: Toast before drinking.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Brindar antes de beber"
+    "regla": "Toast before drinking"
   },
   {
     "id": 3459,
     "intensidad": 1,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 5 turns: Terminen cada frase con una rima.",
+    "texto": "PARTY RULE: for the next 5 turns: Finish each sentence with a rhyme.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Cerrar con rima"
+    "regla": "Close with rhyme"
   },
   {
     "id": 3460,
     "intensidad": 1,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Repitan la última palabra anterior.",
+    "texto": "GROUP EVENT: during the next turn: Repeat the last word above.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Repetir última palabra"
+    "regla": "Repeat last word"
   },
   {
     "id": 3461,
     "intensidad": 1,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 2 turns: Imiten el gesto anterior y añadan otro.",
+    "texto": "PARTY RULE: for the next 2 turns: Imitate the previous gesture and add another one.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Cadena de gestos"
+    "regla": "Gesture chain"
   },
   {
     "id": 3462,
     "intensidad": 1,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 3 turns: Cuenten hasta 6 sin hablar a la vez.",
+    "texto": "PARTY RULE: for the next 3 turns: Count to 6 without speaking at a time.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Conteo sin coincidir"
+    "regla": "Unmatched count"
   },
   {
     "id": 3463,
     "intensidad": 1,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 4 turns: Den un cumplido al cerrar su turno.",
+    "texto": "PARTY RULE: for the next 4 turns: Give a compliment at the end of your turn.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Cerrar con cumplido"
+    "regla": "Close with compliment"
   },
   {
     "id": 3464,
     "intensidad": 1,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 5 turns: No usen nombres ni señalen.",
+    "texto": "PARTY RULE: for the next 5 turns: Do not use names or point.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Sin nombres"
+    "regla": "No names"
   },
   {
     "id": 3465,
     "intensidad": 1,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Comiencen con 'confieso que'.",
+    "texto": "GROUP EVENT: during the next turn: Start with 'I confess that'.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Inicio: confieso que"
+    "regla": "Home: I confess that"
   },
   {
     "id": 3466,
     "intensidad": 1,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 2 turns: Mantengan palmas mientras hablan.",
+    "texto": "PARTY RULE: for the next 2 turns: Hold your hands together while speaking.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Mantener palmas"
+    "regla": "Hold palms"
   },
   {
     "id": 3467,
     "intensidad": 1,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 3 turns: Continúen una historia sobre amistad.",
+    "texto": "PARTY RULE: for the next 3 turns: Continue a story about friendship.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Historia de amistad"
+    "regla": "Friendship story"
   },
   {
     "id": 3468,
     "intensidad": 1,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 4 turns: No revisen el teléfono.",
+    "texto": "PARTY RULE: for the next 4 turns: Do not check your phone.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Sin teléfonos"
+    "regla": "No phones"
   },
   {
     "id": 3469,
     "intensidad": 1,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 5 turns: Usen únicamente apodos temporales.",
+    "texto": "PARTY RULE: for the next 5 turns: Use only temporary nicknames.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Apodos temporales"
+    "regla": "Temporary nicknames"
   },
   {
     "id": 3470,
     "intensidad": 1,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Cuenten desde 6 hasta cero antes de responder.",
+    "texto": "GROUP EVENT: during the next turn: Count from 6 to zero before responding.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Cuenta regresiva"
+    "regla": "Countdown"
   },
   {
     "id": 3471,
     "intensidad": 1,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 2 turns: Usen exactamente 6 palabras por frase.",
+    "texto": "PARTY RULE: for the next 2 turns: Use exactly 6 words per sentence.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Frases de 6 palabras"
+    "regla": "6-word phrases"
   },
   {
     "id": 3472,
     "intensidad": 1,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 3 turns: Respondan primero su propia pregunta.",
+    "texto": "PARTY RULE: for the next 3 turns: Answer your own question first.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Responder pregunta propia"
+    "regla": "Answer own question"
   },
   {
     "id": 3473,
     "intensidad": 1,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 4 turns: Usen una emoción diferente por turno.",
+    "texto": "PARTY RULE: for the next 4 turns: Use a different emotion per turn.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Emoción diferente"
+    "regla": "Different emotion"
   },
   {
     "id": 3474,
     "intensidad": 1,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 5 turns: No repitan ningún verbo.",
+    "texto": "PARTY RULE: for the next 5 turns: Do not repeat any verb.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "No repetir verbos"
+    "regla": "Do not repeat verbs"
   },
   {
     "id": 3475,
     "intensidad": 1,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Comiencen susurrando y terminen fuerte.",
+    "texto": "GROUP EVENT: during the next turn: Start whispering and end loud.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Cambiar volumen"
+    "regla": "Change volume"
   },
   {
     "id": 3476,
     "intensidad": 1,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 2 turns: Resuman lo anterior en tres palabras.",
+    "texto": "PARTY RULE: for the next 2 turns: Summarize the above in three words.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Resumen previo"
+    "regla": "Previous summary"
   },
   {
     "id": 3477,
     "intensidad": 1,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 3 turns: Inicien con la última letra anterior.",
+    "texto": "PARTY RULE: for the next 3 turns: Start with the last letter above.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Cadena por letra"
+    "regla": "String by letter"
   },
   {
     "id": 3478,
     "intensidad": 1,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 4 turns: Representen lo que dirán antes de hablar.",
+    "texto": "PARTY RULE: for the next 4 turns: Act out what you will say before speaking.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Mímica previa"
+    "regla": "Previous mimicry"
   },
   {
     "id": 3479,
     "intensidad": 1,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 5 turns: Al oír 'sí', hagan palmas.",
+    "texto": "PARTY RULE: for the next 5 turns: When you hear 'yes', clap your hands.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Señal: yes"
+    "regla": "Signal: yes"
   },
   {
     "id": 3480,
     "intensidad": 1,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Predigan qué dirá la siguiente persona.",
+    "texto": "GROUP EVENT: during the next turn: Predict what the next person will say.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Predicción final"
+    "regla": "Final prediction"
   },
   {
     "id": 3481,
     "intensidad": 2,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 3 turns: Nobody can say 'no'.",
+    "texto": "PARTY RULE: for the next 3 turns: No one can say 'no'.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Forbidden: no"
+    "regla": "Prohibited: no"
   },
   {
     "id": 3482,
     "intensidad": 2,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 4 turns: Everyone must hablar con voz de narrador.",
+    "texto": "PARTY RULE: for the next 4 turns: Everyone must speak in a narrator's voice.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Voz de narrador"
+    "regla": "Narrator voice"
   },
   {
     "id": 3483,
     "intensidad": 2,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 5 turns: Antes de hablar, hagan chasquido.",
+    "texto": "PARTY RULE: for the next 5 turns: Before speaking, click.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "chasquido antes de hablar"
+    "regla": "click before speaking"
   },
   {
     "id": 3484,
     "intensidad": 2,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Incluyan una palabra sobre viajes.",
+    "texto": "GROUP EVENT: during the next turn: Include a word about travel.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Palabra de viajes"
+    "regla": "Travel word"
   },
   {
     "id": 3485,
     "intensidad": 2,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 2 turns: Respondan solo con preguntas.",
+    "texto": "PARTY RULE: for the next 2 turns: Respond only with questions.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Solo preguntas"
+    "regla": "Just questions"
   },
   {
     "id": 3486,
     "intensidad": 2,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 3 turns: No usen 'sí' ni 'no'.",
+    "texto": "PARTY RULE: for the next 3 turns: Do not use 'yes' or 'no'.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Sin yes ni no"
+    "regla": "Without yes or no"
   },
   {
     "id": 3487,
     "intensidad": 2,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 4 turns: Hablen en tercera persona.",
+    "texto": "PARTY RULE: for the next 4 turns: Speak in third person.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Tercera persona"
+    "regla": "Third person"
   },
   {
     "id": 3488,
     "intensidad": 2,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 5 turns: Brinden antes de beber.",
+    "texto": "PARTY RULE: for the next 5 turns: Toast before drinking.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Brindar antes de beber"
+    "regla": "Toast before drinking"
   },
   {
     "id": 3489,
     "intensidad": 2,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Terminen cada frase con una rima.",
+    "texto": "GROUP EVENT: during the next turn: Finish each sentence with a rhyme.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Cerrar con rima"
+    "regla": "Close with rhyme"
   },
   {
     "id": 3490,
     "intensidad": 2,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 2 turns: Repitan la última palabra anterior.",
+    "texto": "PARTY RULE: for the next 2 turns: Repeat the last word above.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Repetir última palabra"
+    "regla": "Repeat last word"
   },
   {
     "id": 3491,
     "intensidad": 2,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 3 turns: Imiten el gesto anterior y añadan otro.",
+    "texto": "PARTY RULE: for the next 3 turns: Imitate the previous gesture and add another one.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Cadena de gestos"
+    "regla": "Gesture chain"
   },
   {
     "id": 3492,
     "intensidad": 2,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 4 turns: Cuenten hasta 7 sin hablar a la vez.",
+    "texto": "PARTY RULE: for the next 4 turns: Count to 7 without speaking at the same time.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Conteo sin coincidir"
+    "regla": "Unmatched count"
   },
   {
     "id": 3493,
     "intensidad": 2,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 5 turns: Den un cumplido al cerrar su turno.",
+    "texto": "PARTY RULE: for the next 5 turns: Give a compliment at the end of your turn.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Cerrar con cumplido"
+    "regla": "Close with compliment"
   },
   {
     "id": 3494,
     "intensidad": 2,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: No usen nombres ni señalen.",
+    "texto": "GROUP EVENT: During the next turn: Do not use names or point.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Sin nombres"
+    "regla": "No names"
   },
   {
     "id": 3495,
     "intensidad": 2,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 2 turns: Comiencen con 'confieso que'.",
+    "texto": "PARTY RULE: for the next 2 turns: Start with 'I confess that'.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Inicio: confieso que"
+    "regla": "Home: I confess that"
   },
   {
     "id": 3496,
     "intensidad": 2,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 3 turns: Mantengan chasquido mientras hablan.",
+    "texto": "PARTY RULE: for the next 3 turns: Keep clicking while talking.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Mantener chasquido"
+    "regla": "Hold Snap"
   },
   {
     "id": 3497,
     "intensidad": 2,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 4 turns: Continúen una historia sobre viajes.",
+    "texto": "PARTY RULE: for the next 4 turns: Continue a story about travel.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Historia de viajes"
+    "regla": "Travel story"
   },
   {
     "id": 3498,
     "intensidad": 2,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 5 turns: No revisen el teléfono.",
+    "texto": "PARTY RULE: for the next 5 turns: Do not check the phone.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Sin teléfonos"
+    "regla": "No phones"
   },
   {
     "id": 3499,
     "intensidad": 2,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Usen únicamente apodos temporales.",
+    "texto": "GROUP EVENT: During the next turn: Use only temporary nicknames.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Apodos temporales"
+    "regla": "Temporary nicknames"
   },
   {
     "id": 3500,
     "intensidad": 2,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 2 turns: Cuenten desde 7 hasta cero antes de responder.",
+    "texto": "PARTY RULE: for the next 2 turns: Count from 7 to zero before responding.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Cuenta regresiva"
+    "regla": "Countdown"
   },
   {
     "id": 3501,
     "intensidad": 2,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 3 turns: Usen exactamente 7 palabras por frase.",
+    "texto": "PARTY RULE: for the next 3 turns: Use exactly 7 words per sentence.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Frases de 7 palabras"
+    "regla": "7 word phrases"
   },
   {
     "id": 3502,
     "intensidad": 2,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 4 turns: Respondan primero su propia pregunta.",
+    "texto": "PARTY RULE: for the next 4 turns: Answer your own question first.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Responder pregunta propia"
+    "regla": "Answer own question"
   },
   {
     "id": 3503,
     "intensidad": 2,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 5 turns: Usen una emoción diferente por turno.",
+    "texto": "PARTY RULE: for the next 5 turns: Use a different emotion per turn.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Emoción diferente"
+    "regla": "Different emotion"
   },
   {
     "id": 3504,
     "intensidad": 2,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: No repitan ningún verbo.",
+    "texto": "GROUP EVENT: during the next turn: Do not repeat any verb.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "No repetir verbos"
+    "regla": "Do not repeat verbs"
   },
   {
     "id": 3505,
     "intensidad": 2,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 2 turns: Comiencen susurrando y terminen fuerte.",
+    "texto": "PARTY RULE: for the next 2 turns: Start whispering and end loud.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Cambiar volumen"
+    "regla": "Change volume"
   },
   {
     "id": 3506,
     "intensidad": 2,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 3 turns: Resuman lo anterior en tres palabras.",
+    "texto": "PARTY RULE: for the next 3 turns: Summarize the above in three words.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Resumen previo"
+    "regla": "Previous summary"
   },
   {
     "id": 3507,
     "intensidad": 2,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 4 turns: Inicien con la última letra anterior.",
+    "texto": "PARTY RULE: for the next 4 turns: Start with the last letter above.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Cadena por letra"
+    "regla": "String by letter"
   },
   {
     "id": 3508,
     "intensidad": 2,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 5 turns: Representen lo que dirán antes de hablar.",
+    "texto": "PARTY RULE: for the next 5 turns: Act out what you will say before speaking.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Mímica previa"
+    "regla": "Previous mimicry"
   },
   {
     "id": 3509,
     "intensidad": 2,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Al oír 'no', hagan chasquido.",
+    "texto": "GROUP EVENT: during the next turn: When you hear 'no', click.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Señal: no"
+    "regla": "Signal: no"
   },
   {
     "id": 3510,
     "intensidad": 2,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 2 turns: Predigan qué dirá la siguiente persona.",
+    "texto": "PARTY RULE: for the next 2 turns: Predict what the next person will say.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Predicción final"
+    "regla": "Final prediction"
   },
   {
     "id": 3511,
     "intensidad": 3,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 4 turns: Nobody can say 'pero'.",
+    "texto": "PARTY RULE: for the next 4 turns: No one can say 'but'.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Forbidden: pero"
+    "regla": "Forbidden: but"
   },
   {
     "id": 3512,
     "intensidad": 3,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 5 turns: Everyone must hablar con voz de villano.",
+    "texto": "PARTY RULE: for the next 5 turns: Everyone must speak in a villain voice.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Voz de villano"
+    "regla": "Villain Voice"
   },
   {
     "id": 3513,
     "intensidad": 3,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Antes de hablar, hagan saludo.",
+    "texto": "GROUP EVENT: during the next turn: Before speaking, greet.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "saludo antes de hablar"
+    "regla": "Greeting before speaking"
   },
   {
     "id": 3514,
     "intensidad": 3,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 2 turns: Incluyan una palabra sobre películas.",
+    "texto": "PARTY RULE: for the next 2 turns: Include a word about movies.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Palabra de películas"
+    "regla": "Movie word"
   },
   {
     "id": 3515,
     "intensidad": 3,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 3 turns: Respondan solo con preguntas.",
+    "texto": "PARTY RULE: for the next 3 turns: Respond only with questions.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Solo preguntas"
+    "regla": "Just questions"
   },
   {
     "id": 3516,
     "intensidad": 3,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 4 turns: No usen 'sí' ni 'no'.",
+    "texto": "PARTY RULE: for the next 4 turns: Do not use 'yes' or 'no'.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Sin yes ni no"
+    "regla": "Without yes or no"
   },
   {
     "id": 3517,
     "intensidad": 3,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 5 turns: Hablen en tercera persona.",
+    "texto": "PARTY RULE: for the next 5 turns: Speak in third person.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Tercera persona"
+    "regla": "Third person"
   },
   {
     "id": 3518,
     "intensidad": 3,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Brinden antes de beber.",
+    "texto": "GROUP EVENT: During the next turn: Toast before drinking.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Brindar antes de beber"
+    "regla": "Toast before drinking"
   },
   {
     "id": 3519,
     "intensidad": 3,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 2 turns: Terminen cada frase con una rima.",
+    "texto": "PARTY RULE: for the next 2 turns: Finish each sentence with a rhyme.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Cerrar con rima"
+    "regla": "Close with rhyme"
   },
   {
     "id": 3520,
     "intensidad": 3,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 3 turns: Repitan la última palabra anterior.",
+    "texto": "PARTY RULE: for the next 3 turns: Repeat the last word above.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Repetir última palabra"
+    "regla": "Repeat last word"
   },
   {
     "id": 3521,
     "intensidad": 3,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 4 turns: Imiten el gesto anterior y añadan otro.",
+    "texto": "PARTY RULE: for the next 4 turns: Imitate the previous gesture and add another one.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Cadena de gestos"
+    "regla": "Gesture chain"
   },
   {
     "id": 3522,
     "intensidad": 3,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 5 turns: Cuenten hasta 8 sin hablar a la vez.",
+    "texto": "PARTY RULE: for the next 5 turns: Count to 8 without speaking at the same time.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Conteo sin coincidir"
+    "regla": "Unmatched count"
   },
   {
     "id": 3523,
     "intensidad": 3,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Den un cumplido al cerrar su turno.",
+    "texto": "GROUP EVENT: During the next turn: Give a compliment at the end of your turn.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Cerrar con cumplido"
+    "regla": "Close with compliment"
   },
   {
     "id": 3524,
     "intensidad": 3,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 2 turns: No usen nombres ni señalen.",
+    "texto": "PARTY RULE: for the next 2 turns: Do not use names or point.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Sin nombres"
+    "regla": "No names"
   },
   {
     "id": 3525,
     "intensidad": 3,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 3 turns: Comiencen con 'confieso que'.",
+    "texto": "PARTY RULE: for the next 3 turns: Start with 'I confess that'.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Inicio: confieso que"
+    "regla": "Home: I confess that"
   },
   {
     "id": 3526,
     "intensidad": 3,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 4 turns: Mantengan saludo mientras hablan.",
+    "texto": "PARTY RULE: for the next 4 turns: Maintain greeting while speaking.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Mantener saludo"
+    "regla": "Keep greeting"
   },
   {
     "id": 3527,
     "intensidad": 3,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 5 turns: Continúen una historia sobre películas.",
+    "texto": "PARTY RULE: for the next 5 turns: Continue a story about movies.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Historia de películas"
+    "regla": "Movie History"
   },
   {
     "id": 3528,
     "intensidad": 3,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: No revisen el teléfono.",
+    "texto": "GROUP EVENT: During the next turn: Don't check your phone.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Sin teléfonos"
+    "regla": "No phones"
   },
   {
     "id": 3529,
     "intensidad": 3,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 2 turns: Usen únicamente apodos temporales.",
+    "texto": "PARTY RULE: for the next 2 turns: Use only temporary nicknames.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Apodos temporales"
+    "regla": "Temporary nicknames"
   },
   {
     "id": 3530,
     "intensidad": 3,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 3 turns: Cuenten desde 8 hasta cero antes de responder.",
+    "texto": "PARTY RULE: for the next 3 turns: Count from 8 to zero before responding.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Cuenta regresiva"
+    "regla": "Countdown"
   },
   {
     "id": 3531,
     "intensidad": 3,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 4 turns: Usen exactamente 8 palabras por frase.",
+    "texto": "PARTY RULE: for the next 4 turns: Use exactly 8 words per sentence.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Frases de 8 palabras"
+    "regla": "8-word phrases"
   },
   {
     "id": 3532,
     "intensidad": 3,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 5 turns: Respondan primero su propia pregunta.",
+    "texto": "PARTY RULE: for the next 5 turns: Answer your own question first.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Responder pregunta propia"
+    "regla": "Answer own question"
   },
   {
     "id": 3533,
     "intensidad": 3,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Usen una emoción diferente por turno.",
+    "texto": "GROUP EVENT: During the next turn: Use a different emotion per turn.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Emoción diferente"
+    "regla": "Different emotion"
   },
   {
     "id": 3534,
     "intensidad": 3,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 2 turns: No repitan ningún verbo.",
+    "texto": "PARTY RULE: for the next 2 turns: Do not repeat any verb.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "No repetir verbos"
+    "regla": "Do not repeat verbs"
   },
   {
     "id": 3535,
     "intensidad": 3,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 3 turns: Comiencen susurrando y terminen fuerte.",
+    "texto": "PARTY RULE: for the next 3 turns: Start whispering and end loud.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Cambiar volumen"
+    "regla": "Change volume"
   },
   {
     "id": 3536,
     "intensidad": 3,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 4 turns: Resuman lo anterior en tres palabras.",
+    "texto": "PARTY RULE: for the next 4 turns: Summarize the above in three words.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Resumen previo"
+    "regla": "Previous summary"
   },
   {
     "id": 3537,
     "intensidad": 3,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 5 turns: Inicien con la última letra anterior.",
+    "texto": "PARTY RULE: for the next 5 turns: Start with the last letter above.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Cadena por letra"
+    "regla": "String by letter"
   },
   {
     "id": 3538,
     "intensidad": 3,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Representen lo que dirán antes de hablar.",
+    "texto": "GROUP EVENT: during the next turn: Act out what you will say before speaking.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Mímica previa"
+    "regla": "Previous mimicry"
   },
   {
     "id": 3539,
     "intensidad": 3,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 2 turns: Al oír 'pero', hagan saludo.",
+    "texto": "PARTY RULE: for the next 2 turns: When you hear 'but', salute.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Señal: pero"
+    "regla": "Signal: but"
   },
   {
     "id": 3540,
     "intensidad": 3,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 3 turns: Predigan qué dirá la siguiente persona.",
+    "texto": "PARTY RULE: for the next 3 turns: Predict what the next person will say.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Predicción final"
+    "regla": "Final prediction"
   },
   {
     "id": 3541,
     "intensidad": 4,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 5 turns: Nobody can say 'literalmente'.",
+    "texto": "PARTY RULE: for the next 5 turns: No one can say 'literally'.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Forbidden: literalmente"
+    "regla": "Forbidden: literally"
   },
   {
     "id": 3542,
     "intensidad": 4,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Everyone must hablar con voz de detective.",
+    "texto": "GROUP EVENT: During the next turn: Everyone must speak in a detective voice.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Voz de detective"
+    "regla": "Detective voice"
   },
   {
     "id": 3543,
     "intensidad": 4,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 2 turns: Antes de hablar, hagan pose.",
+    "texto": "PARTY RULE: for the next 2 turns: Before speaking, strike a pose.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "pose antes de hablar"
+    "regla": "pose before speaking"
   },
   {
     "id": 3544,
     "intensidad": 4,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 3 turns: Incluyan una palabra sobre primeras impresiones.",
+    "texto": "PARTY RULE: for the next 3 turns: Include a word about first impressions.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Palabra de primeras impresiones"
+    "regla": "Word of first impressions"
   },
   {
     "id": 3545,
     "intensidad": 4,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 4 turns: Respondan solo con preguntas.",
+    "texto": "PARTY RULE: for the next 4 turns: Respond only with questions.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Solo preguntas"
+    "regla": "Just questions"
   },
   {
     "id": 3546,
     "intensidad": 4,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 5 turns: No usen 'sí' ni 'no'.",
+    "texto": "PARTY RULE: for the next 5 turns: Do not use 'yes' or 'no'.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Sin yes ni no"
+    "regla": "Without yes or no"
   },
   {
     "id": 3547,
     "intensidad": 4,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Hablen en tercera persona.",
+    "texto": "GROUP EVENT: during the next turn: Speak in third person.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Tercera persona"
+    "regla": "Third person"
   },
   {
     "id": 3548,
     "intensidad": 4,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 2 turns: Brinden antes de beber.",
+    "texto": "PARTY RULE: for the next 2 turns: Toast before drinking.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Brindar antes de beber"
+    "regla": "Toast before drinking"
   },
   {
     "id": 3549,
     "intensidad": 4,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 3 turns: Terminen cada frase con una rima.",
+    "texto": "PARTY RULE: for the next 3 turns: Finish each sentence with a rhyme.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Cerrar con rima"
+    "regla": "Close with rhyme"
   },
   {
     "id": 3550,
     "intensidad": 4,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 4 turns: Repitan la última palabra anterior.",
+    "texto": "PARTY RULE: for the next 4 turns: Repeat the last word above.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Repetir última palabra"
+    "regla": "Repeat last word"
   },
   {
     "id": 3551,
     "intensidad": 4,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 5 turns: Imiten el gesto anterior y añadan otro.",
+    "texto": "PARTY RULE: for the next 5 turns: Imitate the previous gesture and add another one.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Cadena de gestos"
+    "regla": "Gesture chain"
   },
   {
     "id": 3552,
     "intensidad": 4,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Cuenten hasta 9 sin hablar a la vez.",
+    "texto": "GROUP EVENT: during the next turn: Count to 9 without speaking at the same time.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Conteo sin coincidir"
+    "regla": "Unmatched count"
   },
   {
     "id": 3553,
     "intensidad": 4,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 2 turns: Den un cumplido al cerrar su turno.",
+    "texto": "PARTY RULE: for the next 2 turns: Give a compliment when ending your turn.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Cerrar con cumplido"
+    "regla": "Close with compliment"
   },
   {
     "id": 3554,
     "intensidad": 4,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 3 turns: No usen nombres ni señalen.",
+    "texto": "PARTY RULE: for the next 3 turns: Do not use names or point.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Sin nombres"
+    "regla": "No names"
   },
   {
     "id": 3555,
     "intensidad": 4,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 4 turns: Comiencen con 'confieso que'.",
+    "texto": "PARTY RULE: for the next 4 turns: Start with 'I confess that'.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Inicio: confieso que"
+    "regla": "Home: I confess that"
   },
   {
     "id": 3556,
     "intensidad": 4,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 5 turns: Mantengan pose mientras hablan.",
+    "texto": "PARTY RULE: for the next 5 turns: Hold a pose while talking.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Mantener pose"
+    "regla": "Hold pose"
   },
   {
     "id": 3557,
     "intensidad": 4,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Continúen una historia sobre primeras impresiones.",
+    "texto": "GROUP EVENT: During the next turn: Continue a story about first impressions.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Historia de primeras impresiones"
+    "regla": "History of first impressions"
   },
   {
     "id": 3558,
     "intensidad": 4,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 2 turns: No revisen el teléfono.",
+    "texto": "PARTY RULE: for the next 2 turns: Do not check your phone.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Sin teléfonos"
+    "regla": "No phones"
   },
   {
     "id": 3559,
     "intensidad": 4,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 3 turns: Usen únicamente apodos temporales.",
+    "texto": "PARTY RULE: for the next 3 turns: Use only temporary nicknames.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Apodos temporales"
+    "regla": "Temporary nicknames"
   },
   {
     "id": 3560,
     "intensidad": 4,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 4 turns: Cuenten desde 9 hasta cero antes de responder.",
+    "texto": "PARTY RULE: for the next 4 turns: Count from 9 to zero before responding.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Cuenta regresiva"
+    "regla": "Countdown"
   },
   {
     "id": 3561,
     "intensidad": 4,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 5 turns: Usen exactamente 9 palabras por frase.",
+    "texto": "PARTY RULE: for the next 5 turns: Use exactly 9 words per phrase.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Frases de 9 palabras"
+    "regla": "9-word phrases"
   },
   {
     "id": 3562,
     "intensidad": 4,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Respondan primero su propia pregunta.",
+    "texto": "GROUP EVENT: during the next turn: Answer your own question first.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Responder pregunta propia"
+    "regla": "Answer own question"
   },
   {
     "id": 3563,
     "intensidad": 4,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 2 turns: Usen una emoción diferente por turno.",
+    "texto": "PARTY RULE: for the next 2 turns: Use a different emotion per turn.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Emoción diferente"
+    "regla": "Different emotion"
   },
   {
     "id": 3564,
     "intensidad": 4,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 3 turns: No repitan ningún verbo.",
+    "texto": "PARTY RULE: for the next 3 turns: Do not repeat any verb.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "No repetir verbos"
+    "regla": "Do not repeat verbs"
   },
   {
     "id": 3565,
     "intensidad": 4,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 4 turns: Comiencen susurrando y terminen fuerte.",
+    "texto": "PARTY RULE: for the next 4 turns: Start whispering and end loud.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Cambiar volumen"
+    "regla": "Change volume"
   },
   {
     "id": 3566,
     "intensidad": 4,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 5 turns: Resuman lo anterior en tres palabras.",
+    "texto": "PARTY RULE: for the next 5 turns: Summarize the above in three words.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Resumen previo"
+    "regla": "Previous summary"
   },
   {
     "id": 3567,
     "intensidad": 4,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Inicien con la última letra anterior.",
+    "texto": "GROUP EVENT: during the next turn: Start with the last letter above.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Cadena por letra"
+    "regla": "String by letter"
   },
   {
     "id": 3568,
     "intensidad": 4,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 2 turns: Representen lo que dirán antes de hablar.",
+    "texto": "PARTY RULE: for the next 2 turns: Act out what you will say before speaking.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Mímica previa"
+    "regla": "Previous mimicry"
   },
   {
     "id": 3569,
     "intensidad": 4,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 3 turns: Al oír 'literalmente', hagan pose.",
+    "texto": "PARTY RULE: for the next 3 turns: When you hear 'literally', strike a pose.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Señal: literalmente"
+    "regla": "Sign: literally"
   },
   {
     "id": 3570,
     "intensidad": 4,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 4 turns: Predigan qué dirá la siguiente persona.",
+    "texto": "PARTY RULE: for the next 4 turns: Predict what the next person will say.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Predicción final"
+    "regla": "Final prediction"
   },
   {
     "id": 3571,
     "intensidad": 5,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Nobody can say 'obvio'.",
+    "texto": "GROUP EVENT: during the next turn: No one can say 'obvious'.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Forbidden: obvio"
+    "regla": "Forbidden: obvious"
   },
   {
     "id": 3572,
     "intensidad": 5,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 2 turns: Everyone must hablar con voz de influencer.",
+    "texto": "PARTY RULE: for the next 2 turns: Everyone must speak with an influencer voice.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Voz de influencer"
+    "regla": "Influencer voice"
   },
   {
     "id": 3573,
     "intensidad": 5,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 3 turns: Antes de hablar, hagan brindis.",
+    "texto": "PARTY RULE: for the next 3 turns: Before speaking, make a toast.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "brindis antes de hablar"
+    "regla": "toast before speaking"
   },
   {
     "id": 3574,
     "intensidad": 5,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 4 turns: Incluyan una palabra sobre citas.",
+    "texto": "PARTY RULE: for the next 4 turns: Include a word about dating.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Palabra de citas"
+    "regla": "Quotes Word"
   },
   {
     "id": 3575,
     "intensidad": 5,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 5 turns: Respondan solo con preguntas.",
+    "texto": "PARTY RULE: for the next 5 turns: Respond only with questions.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Solo preguntas"
+    "regla": "Just questions"
   },
   {
     "id": 3576,
     "intensidad": 5,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: No usen 'sí' ni 'no'.",
+    "texto": "GROUP EVENT: During the next turn: Do not use 'yes' or 'no'.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Sin yes ni no"
+    "regla": "Without yes or no"
   },
   {
     "id": 3577,
     "intensidad": 5,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 2 turns: Hablen en tercera persona.",
+    "texto": "PARTY RULE: for the next 2 turns: Speak in third person.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Tercera persona"
+    "regla": "Third person"
   },
   {
     "id": 3578,
     "intensidad": 5,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 3 turns: Brinden antes de beber.",
+    "texto": "PARTY RULE: for the next 3 turns: Toast before drinking.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Brindar antes de beber"
+    "regla": "Toast before drinking"
   },
   {
     "id": 3579,
     "intensidad": 5,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 4 turns: Terminen cada frase con una rima.",
+    "texto": "PARTY RULE: for the next 4 turns: Finish each sentence with a rhyme.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Cerrar con rima"
+    "regla": "Close with rhyme"
   },
   {
     "id": 3580,
     "intensidad": 5,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 5 turns: Repitan la última palabra anterior.",
+    "texto": "PARTY RULE: for the next 5 turns: Repeat the last word above.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Repetir última palabra"
+    "regla": "Repeat last word"
   },
   {
     "id": 3581,
     "intensidad": 5,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Imiten el gesto anterior y añadan otro.",
+    "texto": "GROUP EVENT: during the next turn: Imitate the previous gesture and add another one.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Cadena de gestos"
+    "regla": "Gesture chain"
   },
   {
     "id": 3582,
     "intensidad": 5,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 2 turns: Cuenten hasta 10 sin hablar a la vez.",
+    "texto": "PARTY RULE: for the next 2 turns: Count to 10 without speaking at the same time.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Conteo sin coincidir"
+    "regla": "Unmatched count"
   },
   {
     "id": 3583,
     "intensidad": 5,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 3 turns: Den un cumplido al cerrar su turno.",
+    "texto": "PARTY RULE: for the next 3 turns: Give a compliment at the end of your turn.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Cerrar con cumplido"
+    "regla": "Close with compliment"
   },
   {
     "id": 3584,
     "intensidad": 5,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 4 turns: No usen nombres ni señalen.",
+    "texto": "PARTY RULE: for the next 4 turns: Do not use names or point.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Sin nombres"
+    "regla": "No names"
   },
   {
     "id": 3585,
     "intensidad": 5,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 5 turns: Comiencen con 'confieso que'.",
+    "texto": "PARTY RULE: for the next 5 turns: Start with 'I confess that'.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Inicio: confieso que"
+    "regla": "Home: I confess that"
   },
   {
     "id": 3586,
     "intensidad": 5,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Mantengan brindis mientras hablan.",
+    "texto": "GROUP EVENT: During the next turn: Hold a toast while you talk.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Mantener brindis"
+    "regla": "Keep toast"
   },
   {
     "id": 3587,
     "intensidad": 5,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 2 turns: Continúen una historia sobre citas.",
+    "texto": "PARTY RULE: for the next 2 turns: Continue a story about dating.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Historia de citas"
+    "regla": "Dating history"
   },
   {
     "id": 3588,
     "intensidad": 5,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 3 turns: No revisen el teléfono.",
+    "texto": "PARTY RULE: for the next 3 turns: Do not check your phone.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Sin teléfonos"
+    "regla": "No phones"
   },
   {
     "id": 3589,
     "intensidad": 5,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 4 turns: Usen únicamente apodos temporales.",
+    "texto": "PARTY RULE: for the next 4 turns: Use only temporary nicknames.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Apodos temporales"
+    "regla": "Temporary nicknames"
   },
   {
     "id": 3590,
     "intensidad": 5,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 5 turns: Cuenten desde 10 hasta cero antes de responder.",
+    "texto": "PARTY RULE: for the next 5 turns: Count from 10 to zero before responding.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Cuenta regresiva"
+    "regla": "Countdown"
   },
   {
     "id": 3591,
     "intensidad": 5,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Usen exactamente 10 palabras por frase.",
+    "texto": "GROUP EVENT: During the next turn: Use exactly 10 words per sentence.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Frases de 10 palabras"
+    "regla": "10-word phrases"
   },
   {
     "id": 3592,
     "intensidad": 5,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 2 turns: Respondan primero su propia pregunta.",
+    "texto": "PARTY RULE: for the next 2 turns: Answer your own question first.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Responder pregunta propia"
+    "regla": "Answer own question"
   },
   {
     "id": 3593,
     "intensidad": 5,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 3 turns: Usen una emoción diferente por turno.",
+    "texto": "PARTY RULE: for the next 3 turns: Use a different emotion per turn.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Emoción diferente"
+    "regla": "Different emotion"
   },
   {
     "id": 3594,
     "intensidad": 5,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 4 turns: No repitan ningún verbo.",
+    "texto": "PARTY RULE: for the next 4 turns: Do not repeat any verb.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "No repetir verbos"
+    "regla": "Do not repeat verbs"
   },
   {
     "id": 3595,
     "intensidad": 5,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 5 turns: Comiencen susurrando y terminen fuerte.",
+    "texto": "PARTY RULE: for the next 5 turns: Start whispering and end loud.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Cambiar volumen"
+    "regla": "Change volume"
   },
   {
     "id": 3596,
     "intensidad": 5,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Resuman lo anterior en tres palabras.",
+    "texto": "GROUP EVENT: during the next turn: Summarize the above in three words.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Resumen previo"
+    "regla": "Previous summary"
   },
   {
     "id": 3597,
     "intensidad": 5,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 2 turns: Inicien con la última letra anterior.",
+    "texto": "PARTY RULE: for the next 2 turns: Start with the last letter above.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Cadena por letra"
+    "regla": "String by letter"
   },
   {
     "id": 3598,
     "intensidad": 5,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 3 turns: Representen lo que dirán antes de hablar.",
+    "texto": "PARTY RULE: for the next 3 turns: Act out what you will say before speaking.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Mímica previa"
+    "regla": "Previous mimicry"
   },
   {
     "id": 3599,
     "intensidad": 5,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 4 turns: Al oír 'obvio', hagan brindis.",
+    "texto": "PARTY RULE: for the next 4 turns: When you hear 'obvious', make a toast.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Señal: obvio"
+    "regla": "Signal: obvious"
   },
   {
     "id": 3600,
     "intensidad": 5,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 5 turns: Predigan qué dirá la siguiente persona.",
+    "texto": "PARTY RULE: for the next 5 turns: Predict what the next person will say.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-3}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Predicción final"
+    "regla": "Final prediction"
   },
   {
     "id": 3601,
     "intensidad": 6,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 2 turns: Nobody can say 'honestamente'.",
+    "texto": "PARTY RULE: for the next 2 turns: No one can say 'honestly'.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-7}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Forbidden: honestamente"
+    "regla": "Banned: honestly"
   },
   {
     "id": 3602,
     "intensidad": 6,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 3 turns: Everyone must hablar con voz de abogado.",
+    "texto": "PARTY RULE: for the next 3 turns: Everyone must speak with a lawyer's voice.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-7}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Voz de abogado"
+    "regla": "Lawyer's voice"
   },
   {
     "id": 3603,
     "intensidad": 6,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 4 turns: Antes de hablar, hagan reverencia.",
+    "texto": "PARTY RULE: for the next 4 turns: Before speaking, bow.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-7}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "reverencia antes de hablar"
+    "regla": "bow before speaking"
   },
   {
     "id": 3604,
     "intensidad": 6,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 5 turns: Incluyan una palabra sobre decisiones impulsivas.",
+    "texto": "PARTY RULE: for the next 5 turns: Include a word about impulsive decisions.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-7}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Palabra de decisiones impulsivas"
+    "regla": "Word of impulsive decisions"
   },
   {
     "id": 3605,
     "intensidad": 6,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Respondan solo con preguntas.",
+    "texto": "GROUP EVENT: during the next turn: Respond only with questions.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-7}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Solo preguntas"
+    "regla": "Just questions"
   },
   {
     "id": 3606,
     "intensidad": 6,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 2 turns: No usen 'sí' ni 'no'.",
+    "texto": "PARTY RULE: for the next 2 turns: Do not use 'yes' or 'no'.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-7}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Sin yes ni no"
+    "regla": "Without yes or no"
   },
   {
     "id": 3607,
     "intensidad": 6,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 3 turns: Hablen en tercera persona.",
+    "texto": "PARTY RULE: for the next 3 turns: Speak in third person.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-7}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Tercera persona"
+    "regla": "Third person"
   },
   {
     "id": 3608,
     "intensidad": 6,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 4 turns: Brinden antes de beber.",
+    "texto": "PARTY RULE: for the next 4 turns: Toast before drinking.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-7}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Brindar antes de beber"
+    "regla": "Toast before drinking"
   },
   {
     "id": 3609,
     "intensidad": 6,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 5 turns: Terminen cada frase con una rima.",
+    "texto": "PARTY RULE: for the next 5 turns: Finish each sentence with a rhyme.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-7}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Cerrar con rima"
+    "regla": "Close with rhyme"
   },
   {
     "id": 3610,
     "intensidad": 6,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Repitan la última palabra anterior.",
+    "texto": "GROUP EVENT: during the next turn: Repeat the last word above.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-7}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Repetir última palabra"
+    "regla": "Repeat last word"
   },
   {
     "id": 3611,
     "intensidad": 6,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 2 turns: Imiten el gesto anterior y añadan otro.",
+    "texto": "PARTY RULE: for the next 2 turns: Imitate the previous gesture and add another one.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-7}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Cadena de gestos"
+    "regla": "Gesture chain"
   },
   {
     "id": 3612,
     "intensidad": 6,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 3 turns: Cuenten hasta 11 sin hablar a la vez.",
+    "texto": "PARTY RULE: for the next 3 turns: Count to 11 without speaking at the same time.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-7}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Conteo sin coincidir"
+    "regla": "Unmatched count"
   },
   {
     "id": 3613,
     "intensidad": 6,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 4 turns: Den un cumplido al cerrar su turno.",
+    "texto": "PARTY RULE: for the next 4 turns: Give a compliment at the end of your turn.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-7}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Cerrar con cumplido"
+    "regla": "Close with compliment"
   },
   {
     "id": 3614,
     "intensidad": 6,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 5 turns: No usen nombres ni señalen.",
+    "texto": "PARTY RULE: for the next 5 turns: Do not use names or point.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-7}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Sin nombres"
+    "regla": "No names"
   },
   {
     "id": 3615,
     "intensidad": 6,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Comiencen con 'confieso que'.",
+    "texto": "GROUP EVENT: during the next turn: Start with 'I confess that'.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-7}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Inicio: confieso que"
+    "regla": "Home: I confess that"
   },
   {
     "id": 3616,
     "intensidad": 6,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 2 turns: Mantengan reverencia mientras hablan.",
+    "texto": "PARTY RULE: for the next 2 turns: Maintain reverence while speaking.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-7}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Mantener reverencia"
+    "regla": "Maintain reverence"
   },
   {
     "id": 3617,
     "intensidad": 6,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 3 turns: Continúen una historia sobre decisiones impulsivas.",
+    "texto": "PARTY RULE: for the next 3 turns: Continue a story about impulsive decisions.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-7}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Historia de decisiones impulsivas"
+    "regla": "History of impulsive decisions"
   },
   {
     "id": 3618,
     "intensidad": 6,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 4 turns: No revisen el teléfono.",
+    "texto": "PARTY RULE: for the next 4 turns: Do not check your phone.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-7}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Sin teléfonos"
+    "regla": "No phones"
   },
   {
     "id": 3619,
     "intensidad": 6,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 5 turns: Usen únicamente apodos temporales.",
+    "texto": "PARTY RULE: for the next 5 turns: Use only temporary nicknames.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-7}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Apodos temporales"
+    "regla": "Temporary nicknames"
   },
   {
     "id": 3620,
     "intensidad": 6,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Cuenten desde 11 hasta cero antes de responder.",
+    "texto": "GROUP EVENT: During the next turn: Count from 11 to zero before responding.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-7}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Cuenta regresiva"
+    "regla": "Countdown"
   },
   {
     "id": 3621,
     "intensidad": 6,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 2 turns: Usen exactamente 11 palabras por frase.",
+    "texto": "PARTY RULE: for the next 2 turns: Use exactly 11 words per sentence.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-7}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Frases de 11 palabras"
+    "regla": "11-word phrases"
   },
   {
     "id": 3622,
     "intensidad": 6,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 3 turns: Respondan primero su propia pregunta.",
+    "texto": "PARTY RULE: for the next 3 turns: Answer your own question first.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-7}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Responder pregunta propia"
+    "regla": "Answer own question"
   },
   {
     "id": 3623,
     "intensidad": 6,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 4 turns: Usen una emoción diferente por turno.",
+    "texto": "PARTY RULE: for the next 4 turns: Use a different emotion per turn.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-7}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Emoción diferente"
+    "regla": "Different emotion"
   },
   {
     "id": 3624,
     "intensidad": 6,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 5 turns: No repitan ningún verbo.",
+    "texto": "PARTY RULE: for the next 5 turns: Do not repeat any verb.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-7}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "No repetir verbos"
+    "regla": "Do not repeat verbs"
   },
   {
     "id": 3625,
     "intensidad": 6,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Comiencen susurrando y terminen fuerte.",
+    "texto": "GROUP EVENT: during the next turn: Start whispering and end loud.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-7}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Cambiar volumen"
+    "regla": "Change volume"
   },
   {
     "id": 3626,
     "intensidad": 6,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 2 turns: Resuman lo anterior en tres palabras.",
+    "texto": "PARTY RULE: for the next 2 turns: Summarize the above in three words.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-7}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Resumen previo"
+    "regla": "Previous summary"
   },
   {
     "id": 3627,
     "intensidad": 6,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 3 turns: Inicien con la última letra anterior.",
+    "texto": "PARTY RULE: for the next 3 turns: Start with the last letter above.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-7}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Cadena por letra"
+    "regla": "String by letter"
   },
   {
     "id": 3628,
     "intensidad": 6,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 4 turns: Representen lo que dirán antes de hablar.",
+    "texto": "PARTY RULE: for the next 4 turns: Act out what you will say before speaking.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-7}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Mímica previa"
+    "regla": "Previous mimicry"
   },
   {
     "id": 3629,
     "intensidad": 6,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 5 turns: Al oír 'honestamente', hagan reverencia.",
+    "texto": "PARTY RULE: for the next 5 turns: When you hear 'honestly', bow.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-7}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Señal: honestamente"
+    "regla": "Sign: honestly"
   },
   {
     "id": 3630,
     "intensidad": 6,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Predigan qué dirá la siguiente persona.",
+    "texto": "GROUP EVENT: during the next turn: Predict what the next person will say.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-7}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Predicción final"
+    "regla": "Final prediction"
   },
   {
     "id": 3631,
     "intensidad": 7,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 3 turns: Nobody can say 'ex'.",
+    "texto": "PARTY RULE: for the next 3 turns: No one can say 'ex'.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-7}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
@@ -2181,1429 +2181,1429 @@ export const eventosEspecialesCards = [
     "id": 3632,
     "intensidad": 7,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 4 turns: Everyone must hablar con voz de terapeuta.",
+    "texto": "PARTY RULE: for the next 4 turns: Everyone must speak with a therapist voice.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-7}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Voz de terapeuta"
+    "regla": "Therapist voice"
   },
   {
     "id": 3633,
     "intensidad": 7,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 5 turns: Antes de hablar, hagan guiño.",
+    "texto": "PARTY RULE: for the next 5 turns: Before speaking, wink.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-7}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "guiño antes de hablar"
+    "regla": "wink before speaking"
   },
   {
     "id": 3634,
     "intensidad": 7,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Incluyan una palabra sobre relaciones.",
+    "texto": "GROUP EVENT: During the next turn: Include a word about relationships.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-7}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Palabra de relaciones"
+    "regla": "Relationship word"
   },
   {
     "id": 3635,
     "intensidad": 7,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 2 turns: Respondan solo con preguntas.",
+    "texto": "PARTY RULE: for the next 2 turns: Respond only with questions.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-7}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Solo preguntas"
+    "regla": "Just questions"
   },
   {
     "id": 3636,
     "intensidad": 7,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 3 turns: No usen 'sí' ni 'no'.",
+    "texto": "PARTY RULE: for the next 3 turns: Do not use 'yes' or 'no'.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-7}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Sin yes ni no"
+    "regla": "Without yes or no"
   },
   {
     "id": 3637,
     "intensidad": 7,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 4 turns: Hablen en tercera persona.",
+    "texto": "PARTY RULE: for the next 4 turns: Speak in third person.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-7}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Tercera persona"
+    "regla": "Third person"
   },
   {
     "id": 3638,
     "intensidad": 7,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 5 turns: Brinden antes de beber.",
+    "texto": "PARTY RULE: for the next 5 turns: Toast before drinking.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-7}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Brindar antes de beber"
+    "regla": "Toast before drinking"
   },
   {
     "id": 3639,
     "intensidad": 7,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Terminen cada frase con una rima.",
+    "texto": "GROUP EVENT: during the next turn: Finish each sentence with a rhyme.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-7}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Cerrar con rima"
+    "regla": "Close with rhyme"
   },
   {
     "id": 3640,
     "intensidad": 7,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 2 turns: Repitan la última palabra anterior.",
+    "texto": "PARTY RULE: for the next 2 turns: Repeat the last word above.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-7}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Repetir última palabra"
+    "regla": "Repeat last word"
   },
   {
     "id": 3641,
     "intensidad": 7,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 3 turns: Imiten el gesto anterior y añadan otro.",
+    "texto": "PARTY RULE: for the next 3 turns: Imitate the previous gesture and add another one.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-7}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Cadena de gestos"
+    "regla": "Gesture chain"
   },
   {
     "id": 3642,
     "intensidad": 7,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 4 turns: Cuenten hasta 12 sin hablar a la vez.",
+    "texto": "PARTY RULE: for the next 4 turns: Count to 12 without speaking at the same time.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-7}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Conteo sin coincidir"
+    "regla": "Unmatched count"
   },
   {
     "id": 3643,
     "intensidad": 7,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 5 turns: Den un cumplido al cerrar su turno.",
+    "texto": "PARTY RULE: for the next 5 turns: Give a compliment at the end of your turn.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-7}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Cerrar con cumplido"
+    "regla": "Close with compliment"
   },
   {
     "id": 3644,
     "intensidad": 7,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: No usen nombres ni señalen.",
+    "texto": "GROUP EVENT: During the next turn: Do not use names or point.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-7}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Sin nombres"
+    "regla": "No names"
   },
   {
     "id": 3645,
     "intensidad": 7,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 2 turns: Comiencen con 'confieso que'.",
+    "texto": "PARTY RULE: for the next 2 turns: Start with 'I confess that'.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-7}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Inicio: confieso que"
+    "regla": "Home: I confess that"
   },
   {
     "id": 3646,
     "intensidad": 7,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 3 turns: Mantengan guiño mientras hablan.",
+    "texto": "PARTY RULE: for the next 3 turns: Hold wink while talking.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-7}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Mantener guiño"
+    "regla": "Keep wink"
   },
   {
     "id": 3647,
     "intensidad": 7,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 4 turns: Continúen una historia sobre relaciones.",
+    "texto": "PARTY RULE: for the next 4 turns: Continue a story about relationships.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-7}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Historia de relaciones"
+    "regla": "Relationship history"
   },
   {
     "id": 3648,
     "intensidad": 7,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 5 turns: No revisen el teléfono.",
+    "texto": "PARTY RULE: for the next 5 turns: Do not check the phone.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-7}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Sin teléfonos"
+    "regla": "No phones"
   },
   {
     "id": 3649,
     "intensidad": 7,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Usen únicamente apodos temporales.",
+    "texto": "GROUP EVENT: During the next turn: Use only temporary nicknames.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-7}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Apodos temporales"
+    "regla": "Temporary nicknames"
   },
   {
     "id": 3650,
     "intensidad": 7,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 2 turns: Cuenten desde 12 hasta cero antes de responder.",
+    "texto": "PARTY RULE: for the next 2 turns: Count from 12 to zero before responding.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-7}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Cuenta regresiva"
+    "regla": "Countdown"
   },
   {
     "id": 3651,
     "intensidad": 7,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 3 turns: Usen exactamente 12 palabras por frase.",
+    "texto": "PARTY RULE: for the next 3 turns: Use exactly 12 words per sentence.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-7}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Frases de 12 palabras"
+    "regla": "12-word phrases"
   },
   {
     "id": 3652,
     "intensidad": 7,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 4 turns: Respondan primero su propia pregunta.",
+    "texto": "PARTY RULE: for the next 4 turns: Answer your own question first.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-7}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Responder pregunta propia"
+    "regla": "Answer own question"
   },
   {
     "id": 3653,
     "intensidad": 7,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 5 turns: Usen una emoción diferente por turno.",
+    "texto": "PARTY RULE: for the next 5 turns: Use a different emotion per turn.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-7}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Emoción diferente"
+    "regla": "Different emotion"
   },
   {
     "id": 3654,
     "intensidad": 7,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: No repitan ningún verbo.",
+    "texto": "GROUP EVENT: during the next turn: Do not repeat any verb.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-7}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "No repetir verbos"
+    "regla": "Do not repeat verbs"
   },
   {
     "id": 3655,
     "intensidad": 7,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 2 turns: Comiencen susurrando y terminen fuerte.",
+    "texto": "PARTY RULE: for the next 2 turns: Start whispering and end loud.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-7}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Cambiar volumen"
+    "regla": "Change volume"
   },
   {
     "id": 3656,
     "intensidad": 7,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 3 turns: Resuman lo anterior en tres palabras.",
+    "texto": "PARTY RULE: for the next 3 turns: Summarize the above in three words.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-7}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Resumen previo"
+    "regla": "Previous summary"
   },
   {
     "id": 3657,
     "intensidad": 7,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 4 turns: Inicien con la última letra anterior.",
+    "texto": "PARTY RULE: for the next 4 turns: Start with the last letter above.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-7}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Cadena por letra"
+    "regla": "String by letter"
   },
   {
     "id": 3658,
     "intensidad": 7,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 5 turns: Representen lo que dirán antes de hablar.",
+    "texto": "PARTY RULE: for the next 5 turns: Act out what you will say before speaking.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-7}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Mímica previa"
+    "regla": "Previous mimicry"
   },
   {
     "id": 3659,
     "intensidad": 7,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Al oír 'ex', hagan guiño.",
+    "texto": "GROUP EVENT: during the next turn: When you hear 'ex', wink.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-7}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Señal: ex"
+    "regla": "Signal: ex"
   },
   {
     "id": 3660,
     "intensidad": 7,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 2 turns: Predigan qué dirá la siguiente persona.",
+    "texto": "PARTY RULE: for the next 2 turns: Predict what the next person will say.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-7}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Predicción final"
+    "regla": "Final prediction"
   },
   {
     "id": 3661,
     "intensidad": 8,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 4 turns: Nobody can say 'mentira'.",
+    "texto": "PARTY RULE: for the next 4 turns: No one can tell a 'lie'.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-7}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Forbidden: mentira"
+    "regla": "Forbidden: lie"
   },
   {
     "id": 3662,
     "intensidad": 8,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 5 turns: Everyone must hablar con voz de periodista.",
+    "texto": "PARTY RULE: for the next 5 turns: Everyone must speak with a journalist's voice.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-7}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Voz de periodista"
+    "regla": "Journalist's voice"
   },
   {
     "id": 3663,
     "intensidad": 8,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Antes de hablar, hagan gesto dramático.",
+    "texto": "GROUP EVENT: during the next turn: Before speaking, make a dramatic gesture.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-7}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "gesto dramático antes de hablar"
+    "regla": "dramatic gesture before speaking"
   },
   {
     "id": 3664,
     "intensidad": 8,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 2 turns: Incluyan una palabra sobre secretos.",
+    "texto": "PARTY RULE: for the next 2 turns: Include a word about secrets.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-7}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Palabra de secretos"
+    "regla": "Word of secrets"
   },
   {
     "id": 3665,
     "intensidad": 8,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 3 turns: Respondan solo con preguntas.",
+    "texto": "PARTY RULE: for the next 3 turns: Respond only with questions.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-7}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Solo preguntas"
+    "regla": "Just questions"
   },
   {
     "id": 3666,
     "intensidad": 8,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 4 turns: No usen 'sí' ni 'no'.",
+    "texto": "PARTY RULE: for the next 4 turns: Do not use 'yes' or 'no'.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-7}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Sin yes ni no"
+    "regla": "Without yes or no"
   },
   {
     "id": 3667,
     "intensidad": 8,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 5 turns: Hablen en tercera persona.",
+    "texto": "PARTY RULE: for the next 5 turns: Speak in third person.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-7}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Tercera persona"
+    "regla": "Third person"
   },
   {
     "id": 3668,
     "intensidad": 8,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Brinden antes de beber.",
+    "texto": "GROUP EVENT: During the next turn: Toast before drinking.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-7}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Brindar antes de beber"
+    "regla": "Toast before drinking"
   },
   {
     "id": 3669,
     "intensidad": 8,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 2 turns: Terminen cada frase con una rima.",
+    "texto": "PARTY RULE: for the next 2 turns: Finish each sentence with a rhyme.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-7}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Cerrar con rima"
+    "regla": "Close with rhyme"
   },
   {
     "id": 3670,
     "intensidad": 8,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 3 turns: Repitan la última palabra anterior.",
+    "texto": "PARTY RULE: for the next 3 turns: Repeat the last word above.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-7}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Repetir última palabra"
+    "regla": "Repeat last word"
   },
   {
     "id": 3671,
     "intensidad": 8,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 4 turns: Imiten el gesto anterior y añadan otro.",
+    "texto": "PARTY RULE: for the next 4 turns: Imitate the previous gesture and add another one.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-7}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Cadena de gestos"
+    "regla": "Gesture chain"
   },
   {
     "id": 3672,
     "intensidad": 8,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 5 turns: Cuenten hasta 13 sin hablar a la vez.",
+    "texto": "PARTY RULE: for the next 5 turns: Count to 13 without speaking at the same time.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-7}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Conteo sin coincidir"
+    "regla": "Unmatched count"
   },
   {
     "id": 3673,
     "intensidad": 8,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Den un cumplido al cerrar su turno.",
+    "texto": "GROUP EVENT: During the next turn: Give a compliment at the end of your turn.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-7}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Cerrar con cumplido"
+    "regla": "Close with compliment"
   },
   {
     "id": 3674,
     "intensidad": 8,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 2 turns: No usen nombres ni señalen.",
+    "texto": "PARTY RULE: for the next 2 turns: Do not use names or point.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-7}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Sin nombres"
+    "regla": "No names"
   },
   {
     "id": 3675,
     "intensidad": 8,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 3 turns: Comiencen con 'confieso que'.",
+    "texto": "PARTY RULE: for the next 3 turns: Start with 'I confess that'.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-7}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Inicio: confieso que"
+    "regla": "Home: I confess that"
   },
   {
     "id": 3676,
     "intensidad": 8,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 4 turns: Mantengan gesto dramático mientras hablan.",
+    "texto": "PARTY RULE: for the next 4 turns: Maintain a dramatic gesture while speaking.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-7}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Mantener gesto dramático"
+    "regla": "Maintain dramatic gesture"
   },
   {
     "id": 3677,
     "intensidad": 8,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 5 turns: Continúen una historia sobre secretos.",
+    "texto": "PARTY RULE: for the next 5 turns: Continue a story about secrets.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-7}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Historia de secretos"
+    "regla": "History of secrets"
   },
   {
     "id": 3678,
     "intensidad": 8,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: No revisen el teléfono.",
+    "texto": "GROUP EVENT: During the next turn: Don't check your phone.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-7}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Sin teléfonos"
+    "regla": "No phones"
   },
   {
     "id": 3679,
     "intensidad": 8,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 2 turns: Usen únicamente apodos temporales.",
+    "texto": "PARTY RULE: for the next 2 turns: Use only temporary nicknames.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-7}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Apodos temporales"
+    "regla": "Temporary nicknames"
   },
   {
     "id": 3680,
     "intensidad": 8,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 3 turns: Cuenten desde 13 hasta cero antes de responder.",
+    "texto": "PARTY RULE: for the next 3 turns: Count from 13 to zero before responding.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-7}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Cuenta regresiva"
+    "regla": "Countdown"
   },
   {
     "id": 3681,
     "intensidad": 8,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 4 turns: Usen exactamente 13 palabras por frase.",
+    "texto": "PARTY RULE: for the next 4 turns: Use exactly 13 words per sentence.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-7}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Frases de 13 palabras"
+    "regla": "13-word phrases"
   },
   {
     "id": 3682,
     "intensidad": 8,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 5 turns: Respondan primero su propia pregunta.",
+    "texto": "PARTY RULE: for the next 5 turns: Answer your own question first.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-7}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Responder pregunta propia"
+    "regla": "Answer own question"
   },
   {
     "id": 3683,
     "intensidad": 8,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Usen una emoción diferente por turno.",
+    "texto": "GROUP EVENT: During the next turn: Use a different emotion per turn.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-7}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Emoción diferente"
+    "regla": "Different emotion"
   },
   {
     "id": 3684,
     "intensidad": 8,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 2 turns: No repitan ningún verbo.",
+    "texto": "PARTY RULE: for the next 2 turns: Do not repeat any verb.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-7}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "No repetir verbos"
+    "regla": "Do not repeat verbs"
   },
   {
     "id": 3685,
     "intensidad": 8,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 3 turns: Comiencen susurrando y terminen fuerte.",
+    "texto": "PARTY RULE: for the next 3 turns: Start whispering and end loud.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-7}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Cambiar volumen"
+    "regla": "Change volume"
   },
   {
     "id": 3686,
     "intensidad": 8,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 4 turns: Resuman lo anterior en tres palabras.",
+    "texto": "PARTY RULE: for the next 4 turns: Summarize the above in three words.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-7}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Resumen previo"
+    "regla": "Previous summary"
   },
   {
     "id": 3687,
     "intensidad": 8,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 5 turns: Inicien con la última letra anterior.",
+    "texto": "PARTY RULE: for the next 5 turns: Start with the last letter above.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-7}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Cadena por letra"
+    "regla": "String by letter"
   },
   {
     "id": 3688,
     "intensidad": 8,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Representen lo que dirán antes de hablar.",
+    "texto": "GROUP EVENT: during the next turn: Act out what you will say before speaking.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-7}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Mímica previa"
+    "regla": "Previous mimicry"
   },
   {
     "id": 3689,
     "intensidad": 8,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 2 turns: Al oír 'mentira', hagan gesto dramático.",
+    "texto": "PARTY RULE: for the next 2 turns: When you hear 'lie', make a dramatic gesture.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-7}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Señal: mentira"
+    "regla": "Signal: lie"
   },
   {
     "id": 3690,
     "intensidad": 8,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 3 turns: Predigan qué dirá la siguiente persona.",
+    "texto": "PARTY RULE: for the next 3 turns: Predict what the next person will say.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-7}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Predicción final"
+    "regla": "Final prediction"
   },
   {
     "id": 3691,
     "intensidad": 9,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 5 turns: Nobody can say 'perdón'.",
+    "texto": "PARTY RULE: for the next 5 turns: No one can say 'sorry'.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-10}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Forbidden: perdón"
+    "regla": "Forbidden: sorry"
   },
   {
     "id": 3692,
     "intensidad": 9,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Everyone must hablar con voz de juez.",
+    "texto": "GROUP EVENT: during the next turn: Everyone must speak with a judge's voice.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-10}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Voz de juez"
+    "regla": "Judge's voice"
   },
   {
     "id": 3693,
     "intensidad": 9,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 2 turns: Antes de hablar, hagan mano al corazón.",
+    "texto": "PARTY RULE: for the next 2 turns: Before speaking, hold your heart.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-10}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "mano al corazón antes de hablar"
+    "regla": "hand to heart before speaking"
   },
   {
     "id": 3694,
     "intensidad": 9,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 3 turns: Incluyan una palabra sobre confianza.",
+    "texto": "PARTY RULE: for the next 3 turns: Include a word about trust.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-10}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Palabra de confianza"
+    "regla": "Word of trust"
   },
   {
     "id": 3695,
     "intensidad": 9,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 4 turns: Respondan solo con preguntas.",
+    "texto": "PARTY RULE: for the next 4 turns: Respond only with questions.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-10}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Solo preguntas"
+    "regla": "Just questions"
   },
   {
     "id": 3696,
     "intensidad": 9,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 5 turns: No usen 'sí' ni 'no'.",
+    "texto": "PARTY RULE: for the next 5 turns: Do not use 'yes' or 'no'.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-10}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Sin yes ni no"
+    "regla": "Without yes or no"
   },
   {
     "id": 3697,
     "intensidad": 9,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Hablen en tercera persona.",
+    "texto": "GROUP EVENT: during the next turn: Speak in third person.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-10}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Tercera persona"
+    "regla": "Third person"
   },
   {
     "id": 3698,
     "intensidad": 9,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 2 turns: Brinden antes de beber.",
+    "texto": "PARTY RULE: for the next 2 turns: Toast before drinking.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-10}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Brindar antes de beber"
+    "regla": "Toast before drinking"
   },
   {
     "id": 3699,
     "intensidad": 9,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 3 turns: Terminen cada frase con una rima.",
+    "texto": "PARTY RULE: for the next 3 turns: Finish each sentence with a rhyme.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-10}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Cerrar con rima"
+    "regla": "Close with rhyme"
   },
   {
     "id": 3700,
     "intensidad": 9,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 4 turns: Repitan la última palabra anterior.",
+    "texto": "PARTY RULE: for the next 4 turns: Repeat the last word above.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-10}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Repetir última palabra"
+    "regla": "Repeat last word"
   },
   {
     "id": 3701,
     "intensidad": 9,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 5 turns: Imiten el gesto anterior y añadan otro.",
+    "texto": "PARTY RULE: for the next 5 turns: Imitate the previous gesture and add another one.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-10}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Cadena de gestos"
+    "regla": "Gesture chain"
   },
   {
     "id": 3702,
     "intensidad": 9,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Cuenten hasta 14 sin hablar a la vez.",
+    "texto": "GROUP EVENT: during the next turn: Count to 14 without speaking at the same time.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-10}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Conteo sin coincidir"
+    "regla": "Unmatched count"
   },
   {
     "id": 3703,
     "intensidad": 9,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 2 turns: Den un cumplido al cerrar su turno.",
+    "texto": "PARTY RULE: for the next 2 turns: Give a compliment when ending your turn.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-10}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Cerrar con cumplido"
+    "regla": "Close with compliment"
   },
   {
     "id": 3704,
     "intensidad": 9,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 3 turns: No usen nombres ni señalen.",
+    "texto": "PARTY RULE: for the next 3 turns: Do not use names or point.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-10}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Sin nombres"
+    "regla": "No names"
   },
   {
     "id": 3705,
     "intensidad": 9,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 4 turns: Comiencen con 'confieso que'.",
+    "texto": "PARTY RULE: for the next 4 turns: Start with 'I confess that'.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-10}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Inicio: confieso que"
+    "regla": "Home: I confess that"
   },
   {
     "id": 3706,
     "intensidad": 9,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 5 turns: Mantengan mano al corazón mientras hablan.",
+    "texto": "PARTY RULE: for the next 5 turns: Keep your hand on your heart while speaking.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-10}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Mantener mano al corazón"
+    "regla": "Keep hand on heart"
   },
   {
     "id": 3707,
     "intensidad": 9,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Continúen una historia sobre confianza.",
+    "texto": "GROUP EVENT: During the next turn: Continue a story about trust.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-10}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Historia de confianza"
+    "regla": "History of trust"
   },
   {
     "id": 3708,
     "intensidad": 9,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 2 turns: No revisen el teléfono.",
+    "texto": "PARTY RULE: for the next 2 turns: Do not check your phone.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-10}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Sin teléfonos"
+    "regla": "No phones"
   },
   {
     "id": 3709,
     "intensidad": 9,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 3 turns: Usen únicamente apodos temporales.",
+    "texto": "PARTY RULE: for the next 3 turns: Use only temporary nicknames.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-10}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Apodos temporales"
+    "regla": "Temporary nicknames"
   },
   {
     "id": 3710,
     "intensidad": 9,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 4 turns: Cuenten desde 14 hasta cero antes de responder.",
+    "texto": "PARTY RULE: for the next 4 turns: Count from 14 to zero before responding.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-10}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Cuenta regresiva"
+    "regla": "Countdown"
   },
   {
     "id": 3711,
     "intensidad": 9,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 5 turns: Usen exactamente 14 palabras por frase.",
+    "texto": "PARTY RULE: for the next 5 turns: Use exactly 14 words per sentence.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-10}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Frases de 14 palabras"
+    "regla": "14-word phrases"
   },
   {
     "id": 3712,
     "intensidad": 9,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Respondan primero su propia pregunta.",
+    "texto": "GROUP EVENT: during the next turn: Answer your own question first.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-10}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Responder pregunta propia"
+    "regla": "Answer own question"
   },
   {
     "id": 3713,
     "intensidad": 9,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 2 turns: Usen una emoción diferente por turno.",
+    "texto": "PARTY RULE: for the next 2 turns: Use a different emotion per turn.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-10}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Emoción diferente"
+    "regla": "Different emotion"
   },
   {
     "id": 3714,
     "intensidad": 9,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 3 turns: No repitan ningún verbo.",
+    "texto": "PARTY RULE: for the next 3 turns: Do not repeat any verb.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-10}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "No repetir verbos"
+    "regla": "Do not repeat verbs"
   },
   {
     "id": 3715,
     "intensidad": 9,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 4 turns: Comiencen susurrando y terminen fuerte.",
+    "texto": "PARTY RULE: for the next 4 turns: Start whispering and end loud.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-10}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Cambiar volumen"
+    "regla": "Change volume"
   },
   {
     "id": 3716,
     "intensidad": 9,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 5 turns: Resuman lo anterior en tres palabras.",
+    "texto": "PARTY RULE: for the next 5 turns: Summarize the above in three words.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-10}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Resumen previo"
+    "regla": "Previous summary"
   },
   {
     "id": 3717,
     "intensidad": 9,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Inicien con la última letra anterior.",
+    "texto": "GROUP EVENT: during the next turn: Start with the last letter above.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-10}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Cadena por letra"
+    "regla": "String by letter"
   },
   {
     "id": 3718,
     "intensidad": 9,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 2 turns: Representen lo que dirán antes de hablar.",
+    "texto": "PARTY RULE: for the next 2 turns: Act out what you will say before speaking.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-10}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Mímica previa"
+    "regla": "Previous mimicry"
   },
   {
     "id": 3719,
     "intensidad": 9,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 3 turns: Al oír 'perdón', hagan mano al corazón.",
+    "texto": "PARTY RULE: for the next 3 turns: When you hear 'sorry', hold your heart.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-10}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Señal: perdón"
+    "regla": "Signal: sorry"
   },
   {
     "id": 3720,
     "intensidad": 9,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 4 turns: Predigan qué dirá la siguiente persona.",
+    "texto": "PARTY RULE: for the next 4 turns: Predict what the next person will say.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-10}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Predicción final"
+    "regla": "Final prediction"
   },
   {
     "id": 3721,
     "intensidad": 10,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Nobody can say 'consecuencia'.",
+    "texto": "GROUP EVENT: during the next turn: No one can say 'consequence'.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-10}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Forbidden: consecuencia"
+    "regla": "Forbidden: consequence"
   },
   {
     "id": 3722,
     "intensidad": 10,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 2 turns: Everyone must hablar con voz de portavoz.",
+    "texto": "PARTY RULE: for the next 2 turns: Everyone must speak in a spokesperson voice.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-10}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Voz de portavoz"
+    "regla": "Spokesperson voice"
   },
   {
     "id": 3723,
     "intensidad": 10,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 3 turns: Antes de hablar, hagan pose solemne.",
+    "texto": "PARTY RULE: for the next 3 turns: Before speaking, make a solemn pose.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-10}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "pose solemne antes de hablar"
+    "regla": "solemn pose before speaking"
   },
   {
     "id": 3724,
     "intensidad": 10,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 4 turns: Incluyan una palabra sobre verdades difíciles.",
+    "texto": "PARTY RULE: for the next 4 turns: Include a word about difficult truths.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-10}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Palabra de verdades difíciles"
+    "regla": "Word of difficult truths"
   },
   {
     "id": 3725,
     "intensidad": 10,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 5 turns: Respondan solo con preguntas.",
+    "texto": "PARTY RULE: for the next 5 turns: Respond only with questions.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-10}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Solo preguntas"
+    "regla": "Just questions"
   },
   {
     "id": 3726,
     "intensidad": 10,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: No usen 'sí' ni 'no'.",
+    "texto": "GROUP EVENT: During the next turn: Do not use 'yes' or 'no'.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-10}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Sin yes ni no"
+    "regla": "Without yes or no"
   },
   {
     "id": 3727,
     "intensidad": 10,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 2 turns: Hablen en tercera persona.",
+    "texto": "PARTY RULE: for the next 2 turns: Speak in third person.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-10}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Tercera persona"
+    "regla": "Third person"
   },
   {
     "id": 3728,
     "intensidad": 10,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 3 turns: Brinden antes de beber.",
+    "texto": "PARTY RULE: for the next 3 turns: Toast before drinking.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-10}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Brindar antes de beber"
+    "regla": "Toast before drinking"
   },
   {
     "id": 3729,
     "intensidad": 10,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 4 turns: Terminen cada frase con una rima.",
+    "texto": "PARTY RULE: for the next 4 turns: Finish each sentence with a rhyme.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-10}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Cerrar con rima"
+    "regla": "Close with rhyme"
   },
   {
     "id": 3730,
     "intensidad": 10,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 5 turns: Repitan la última palabra anterior.",
+    "texto": "PARTY RULE: for the next 5 turns: Repeat the last word above.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-10}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Repetir última palabra"
+    "regla": "Repeat last word"
   },
   {
     "id": 3731,
     "intensidad": 10,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Imiten el gesto anterior y añadan otro.",
+    "texto": "GROUP EVENT: during the next turn: Imitate the previous gesture and add another one.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-10}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Cadena de gestos"
+    "regla": "Gesture chain"
   },
   {
     "id": 3732,
     "intensidad": 10,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 2 turns: Cuenten hasta 15 sin hablar a la vez.",
+    "texto": "PARTY RULE: for the next 2 turns: Count to 15 without speaking at the same time.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-10}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Conteo sin coincidir"
+    "regla": "Unmatched count"
   },
   {
     "id": 3733,
     "intensidad": 10,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 3 turns: Den un cumplido al cerrar su turno.",
+    "texto": "PARTY RULE: for the next 3 turns: Give a compliment at the end of your turn.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-10}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Cerrar con cumplido"
+    "regla": "Close with compliment"
   },
   {
     "id": 3734,
     "intensidad": 10,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 4 turns: No usen nombres ni señalen.",
+    "texto": "PARTY RULE: for the next 4 turns: Do not use names or point.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-10}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Sin nombres"
+    "regla": "No names"
   },
   {
     "id": 3735,
     "intensidad": 10,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 5 turns: Comiencen con 'confieso que'.",
+    "texto": "PARTY RULE: for the next 5 turns: Start with 'I confess that'.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-10}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Inicio: confieso que"
+    "regla": "Home: I confess that"
   },
   {
     "id": 3736,
     "intensidad": 10,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Mantengan pose solemne mientras hablan.",
+    "texto": "GROUP EVENT: during the next turn: Maintain a solemn pose while speaking.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-10}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Mantener pose solemne"
+    "regla": "Maintain solemn pose"
   },
   {
     "id": 3737,
     "intensidad": 10,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 2 turns: Continúen una historia sobre verdades difíciles.",
+    "texto": "PARTY RULE: for the next 2 turns: Continue a story about difficult truths.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-10}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Historia de verdades difíciles"
+    "regla": "History of difficult truths"
   },
   {
     "id": 3738,
     "intensidad": 10,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 3 turns: No revisen el teléfono.",
+    "texto": "PARTY RULE: for the next 3 turns: Do not check your phone.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-10}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Sin teléfonos"
+    "regla": "No phones"
   },
   {
     "id": 3739,
     "intensidad": 10,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 4 turns: Usen únicamente apodos temporales.",
+    "texto": "PARTY RULE: for the next 4 turns: Use only temporary nicknames.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-10}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Apodos temporales"
+    "regla": "Temporary nicknames"
   },
   {
     "id": 3740,
     "intensidad": 10,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 5 turns: Cuenten desde 15 hasta cero antes de responder.",
+    "texto": "PARTY RULE: for the next 5 turns: Count from 15 to zero before responding.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-10}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Cuenta regresiva"
+    "regla": "Countdown"
   },
   {
     "id": 3741,
     "intensidad": 10,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Usen exactamente 15 palabras por frase.",
+    "texto": "GROUP EVENT: During the next turn: Use exactly 15 words per sentence.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-10}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Frases de 15 palabras"
+    "regla": "15-word phrases"
   },
   {
     "id": 3742,
     "intensidad": 10,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 2 turns: Respondan primero su propia pregunta.",
+    "texto": "PARTY RULE: for the next 2 turns: Answer your own question first.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-10}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Responder pregunta propia"
+    "regla": "Answer own question"
   },
   {
     "id": 3743,
     "intensidad": 10,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 3 turns: Usen una emoción diferente por turno.",
+    "texto": "PARTY RULE: for the next 3 turns: Use a different emotion per turn.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-10}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Emoción diferente"
+    "regla": "Different emotion"
   },
   {
     "id": 3744,
     "intensidad": 10,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 4 turns: No repitan ningún verbo.",
+    "texto": "PARTY RULE: for the next 4 turns: Do not repeat any verb.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-10}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "No repetir verbos"
+    "regla": "Do not repeat verbs"
   },
   {
     "id": 3745,
     "intensidad": 10,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 5 turns: Comiencen susurrando y terminen fuerte.",
+    "texto": "PARTY RULE: for the next 5 turns: Start whispering and end loud.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-10}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Cambiar volumen"
+    "regla": "Change volume"
   },
   {
     "id": 3746,
     "intensidad": 10,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Resuman lo anterior en tres palabras.",
+    "texto": "GROUP EVENT: during the next turn: Summarize the above in three words.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-10}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Resumen previo"
+    "regla": "Previous summary"
   },
   {
     "id": 3747,
     "intensidad": 10,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 2 turns: Inicien con la última letra anterior.",
+    "texto": "PARTY RULE: for the next 2 turns: Start with the last letter above.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-10}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Cadena por letra"
+    "regla": "String by letter"
   },
   {
     "id": 3748,
     "intensidad": 10,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 3 turns: Representen lo que dirán antes de hablar.",
+    "texto": "PARTY RULE: for the next 3 turns: Act out what you will say before speaking.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-10}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Mímica previa"
+    "regla": "Previous mimicry"
   },
   {
     "id": 3749,
     "intensidad": 10,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 4 turns: Al oír 'consecuencia', hagan pose solemne.",
+    "texto": "PARTY RULE: for the next 4 turns: When you hear 'consequence', make a solemn pose.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-10}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Señal: consecuencia"
+    "regla": "Signal: consequence"
   },
   {
     "id": 3750,
     "intensidad": 10,
     "tipo": "eventos especiales",
-    "texto": "PARTY RULE: for the next 5 turns: Predigan qué dirá la siguiente persona.",
+    "texto": "PARTY RULE: for the next 5 turns: Predict what the next person will say.",
     "especial": true,
     "castigo": "If anyone fails to do so [castigo_toma{1-10}] or [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Predicción final"
+    "regla": "Final prediction"
   }
 ];
 

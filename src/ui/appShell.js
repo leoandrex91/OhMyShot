@@ -5610,10 +5610,11 @@ export class AppShell {
 
     if (action === 'editor-delete-card') {
       audioFx.tap();
-      if (window.confirm('¿Seguro que deseas eliminar o descartar esta carta del mazo?')) {
+      const lang = store.get('lang') || 'es';
+      if (window.confirm(t('confirmDeleteCard', lang))) {
         editorController.deleteCurrentCard();
         invalidatePreviaMixCatalogCache();
-        visualFx.showToast('Carta eliminada.');
+        visualFx.showToast(t('cardDeletedToast', lang));
         this.render();
       }
       return;
@@ -5621,10 +5622,11 @@ export class AppShell {
 
     if (action === 'editor-reset-deck') {
       audioFx.tap();
-      if (window.confirm('¿Restablecer este mazo al catálogo original? Se descartarán las cartas creadas y modificaciones locales de este mazo.')) {
+      const lang = store.get('lang') || 'es';
+      if (window.confirm(t('confirmResetDeck', lang))) {
         editorController.resetCurrentDeck();
         invalidatePreviaMixCatalogCache();
-        visualFx.showToast('Mazo restablecido al original.');
+        visualFx.showToast(t('deckResetToast', lang));
         this.render();
       }
       return;

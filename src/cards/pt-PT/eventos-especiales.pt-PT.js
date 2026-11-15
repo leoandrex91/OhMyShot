@@ -1,5 +1,5 @@
 /**
- * Oh My Shot! — Previa Mix (pt-PT)
+ * Oh My Shot! — Cartas Eventos Especiales (pt-PT)
  * Tipo: eventos especiales
  * Cantidad: 300 cartas
  */
@@ -9,7 +9,7 @@ export const eventosEspecialesCards = [
     "id": 3451,
     "intensidad": 1,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Ninguém pode dizer 'sí'.",
+    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Ninguém pode dizer 'sim'.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
@@ -21,355 +21,355 @@ export const eventosEspecialesCards = [
     "id": 3452,
     "intensidad": 1,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Todos devem hablar con voz de robot.",
+    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Todos devem falar com voz de robô.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Voz de robot"
+    "regla": "Voz de robô"
   },
   {
     "id": 3453,
     "intensidad": 1,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Antes de hablar, hagan palmas.",
+    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Antes de falar, batam palmas.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "palmas antes de hablar"
+    "regla": "bater palmas antes de falar"
   },
   {
     "id": 3454,
     "intensidad": 1,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Incluyan una palabra sobre amistad.",
+    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: inclua uma palavra sobre amizade.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Palabra de amistad"
+    "regla": "Palavra de amizade"
   },
   {
     "id": 3455,
     "intensidad": 1,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Respondan solo con preguntas.",
+    "texto": "EVENTO EM GRUPO: durante o próximo turno: Respondam apenas com perguntas.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Solo preguntas"
+    "regla": "Só perguntas"
   },
   {
     "id": 3456,
     "intensidad": 1,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: No usen 'sí' ni 'no'.",
+    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Não usem 'sim' nem 'não'.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Sin sim ni não"
+    "regla": "Sem sim nem não"
   },
   {
     "id": 3457,
     "intensidad": 1,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Hablen en tercera persona.",
+    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Falem na terceira pessoa.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Tercera persona"
+    "regla": "Terceira pessoa"
   },
   {
     "id": 3458,
     "intensidad": 1,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Brinden antes de beber.",
+    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Brindem antes de beber.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Brindar antes de beber"
+    "regla": "Brinde antes de beber"
   },
   {
     "id": 3459,
     "intensidad": 1,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Terminen cada frase con una rima.",
+    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Termine cada frase com uma rima.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Cerrar con rima"
+    "regla": "Fechar com rima"
   },
   {
     "id": 3460,
     "intensidad": 1,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Repitan la última palabra anterior.",
+    "texto": "EVENTO EM GRUPO: durante a próxima ronda: Repitam a última palavra anterior.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Repetir última palabra"
+    "regla": "Repita a última palavra"
   },
   {
     "id": 3461,
     "intensidad": 1,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Imiten el gesto anterior y añadan otro.",
+    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Imite o gesto anterior e adicione outro.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Cadena de gestos"
+    "regla": "Cadeia de gestos"
   },
   {
     "id": 3462,
     "intensidad": 1,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Cuenten hasta 6 sin hablar a la vez.",
+    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Contem até 6 sem falar ao mesmo tempo.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Conteo sin coincidir"
+    "regla": "Contagem sem corresponder"
   },
   {
     "id": 3463,
     "intensidad": 1,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Den un cumplido al cerrar su turno.",
+    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Dê um elogio ao encerrar sua vez.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Cerrar con cumplido"
+    "regla": "Encerrar com elogio"
   },
   {
     "id": 3464,
     "intensidad": 1,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: No usen nombres ni señalen.",
+    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Não usem nomes nem apontem.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Sin nãombres"
+    "regla": "Sem nomes"
   },
   {
     "id": 3465,
     "intensidad": 1,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Comiencen con 'confieso que'.",
+    "texto": "EVENTO EM GRUPO: durante a próxima vez: Comecem com 'confesso que'.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Inicio: confieso que"
+    "regla": "Início: confesso que"
   },
   {
     "id": 3466,
     "intensidad": 1,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Mantengan palmas mientras hablan.",
+    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Mantenha as mãos juntas enquanto fala.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Mantener palmas"
+    "regla": "Manter palmas"
   },
   {
     "id": 3467,
     "intensidad": 1,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Continúen una historia sobre amistad.",
+    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Continue uma história sobre amizade.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Historia de amistad"
+    "regla": "História de amizade"
   },
   {
     "id": 3468,
     "intensidad": 1,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: No revisen el teléfono.",
+    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Não verifique seu telefone.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Sin teléfonãos"
+    "regla": "Sem telefones"
   },
   {
     "id": 3469,
     "intensidad": 1,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Usen únicamente apodos temporales.",
+    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Use apenas apelidos temporários.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Apodos temporales"
+    "regla": "Apelidos temporários"
   },
   {
     "id": 3470,
     "intensidad": 1,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Cuenten desde 6 hasta cero antes de responder.",
+    "texto": "EVENTO EM GRUPO: durante a próxima ronda: Contem de 6 até zero antes de responder.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Cuenta regresiva"
+    "regla": "Contagem regressiva"
   },
   {
     "id": 3471,
     "intensidad": 1,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Usen exactamente 6 palabras por frase.",
+    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Use exatamente 6 palavras por frase.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Frases de 6 palabras"
+    "regla": "Frases de 6 palavras"
   },
   {
     "id": 3472,
     "intensidad": 1,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Respondan primero su propia pregunta.",
+    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Respondam primeiro à sua própria pergunta.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Responder pregunta propia"
+    "regla": "Responder à própria pergunta"
   },
   {
     "id": 3473,
     "intensidad": 1,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Usen una emoción diferente por turno.",
+    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Use uma emoção diferente por turno.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Emoción diferente"
+    "regla": "Emoção diferente"
   },
   {
     "id": 3474,
     "intensidad": 1,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: No repitan ningún verbo.",
+    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Não repitam nenhum verbo.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "No repetir verbos"
+    "regla": "Não repetir verbos"
   },
   {
     "id": 3475,
     "intensidad": 1,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Comiencen susurrando y terminen fuerte.",
+    "texto": "EVENTO EM GRUPO: durante a próxima ronda: Comecem sussurrando e terminem forte.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Cambiar volumen"
+    "regla": "Mudar volume"
   },
   {
     "id": 3476,
     "intensidad": 1,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Resuman lo anterior en tres palabras.",
+    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Resuma o que foi dito acima em três palavras.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Resumen previo"
+    "regla": "Resumo anterior"
   },
   {
     "id": 3477,
     "intensidad": 1,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Inicien con la última letra anterior.",
+    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Comece com a última letra acima.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Cadena por letra"
+    "regla": "Cadeia por letra"
   },
   {
     "id": 3478,
     "intensidad": 1,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Representen lo que dirán antes de hablar.",
+    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Representem o que vão dizer antes de falar.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Mímica previa"
+    "regla": "Mímica prévia"
   },
   {
     "id": 3479,
     "intensidad": 1,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Al oír 'sí', hagan palmas.",
+    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Ao ouvir 'sim', batam palmas.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Señal: sim"
+    "regla": "Sinal: sim"
   },
   {
     "id": 3480,
     "intensidad": 1,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Predigan qué dirá la siguiente persona.",
+    "texto": "EVENTO EM GRUPO: durante o próximo turno: Predigam o que a próxima pessoa dirá.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Predicción final"
+    "regla": "Previsão final"
   },
   {
     "id": 3481,
     "intensidad": 2,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Ninguém pode dizer 'no'.",
+    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Ninguém pode dizer 'não'.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
@@ -381,7 +381,7 @@ export const eventosEspecialesCards = [
     "id": 3482,
     "intensidad": 2,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Todos devem hablar con voz de narrador.",
+    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Todos devem falar com voz de narrador.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
@@ -393,697 +393,697 @@ export const eventosEspecialesCards = [
     "id": 3483,
     "intensidad": 2,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Antes de hablar, hagan chasquido.",
+    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Antes de falar, façam estalar os dedos.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "chasquido antes de hablar"
+    "regla": "estalo antes de falar"
   },
   {
     "id": 3484,
     "intensidad": 2,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Incluyan una palabra sobre viajes.",
+    "texto": "EVENTO EM GRUPO: durante a próxima ronda: Incluam uma palavra sobre viagens.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Palabra de viajes"
+    "regla": "Palavra de viagens"
   },
   {
     "id": 3485,
     "intensidad": 2,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Respondan solo con preguntas.",
+    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Respondam apenas com perguntas.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Solo preguntas"
+    "regla": "Só perguntas"
   },
   {
     "id": 3486,
     "intensidad": 2,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: No usen 'sí' ni 'no'.",
+    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: não usem \"sim\" nem \"não\".",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Sin sim ni não"
+    "regla": "Sem sim nem não"
   },
   {
     "id": 3487,
     "intensidad": 2,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Hablen en tercera persona.",
+    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Falem na terceira pessoa.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Tercera persona"
+    "regla": "Terceira pessoa"
   },
   {
     "id": 3488,
     "intensidad": 2,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Brinden antes de beber.",
+    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Brinde antes de beber.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Brindar antes de beber"
+    "regla": "Brinde antes de beber"
   },
   {
     "id": 3489,
     "intensidad": 2,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Terminen cada frase con una rima.",
+    "texto": "EVENTO EM GRUPO: durante o próximo turno: Termine cada frase com uma rima.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Cerrar con rima"
+    "regla": "Fechar com rima"
   },
   {
     "id": 3490,
     "intensidad": 2,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Repitan la última palabra anterior.",
+    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Repitam a última palavra anterior.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Repetir última palabra"
+    "regla": "Repita a última palavra"
   },
   {
     "id": 3491,
     "intensidad": 2,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Imiten el gesto anterior y añadan otro.",
+    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Imitem o gesto anterior e adicionem outro.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Cadena de gestos"
+    "regla": "Cadeia de gestos"
   },
   {
     "id": 3492,
     "intensidad": 2,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Cuenten hasta 7 sin hablar a la vez.",
+    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Contem até 7 sem falar ao mesmo tempo.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Conteo sin coincidir"
+    "regla": "Contagem sem corresponder"
   },
   {
     "id": 3493,
     "intensidad": 2,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Den un cumplido al cerrar su turno.",
+    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Faça um elogio no final do seu turno.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Cerrar con cumplido"
+    "regla": "Encerrar com elogio"
   },
   {
     "id": 3494,
     "intensidad": 2,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: No usen nombres ni señalen.",
+    "texto": "EVENTO EM GRUPO: durante o próximo turno: Não usem nomes nem apontem.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Sin nãombres"
+    "regla": "Sem nomes"
   },
   {
     "id": 3495,
     "intensidad": 2,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Comiencen con 'confieso que'.",
+    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Comecem com 'confesso que'.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Inicio: confieso que"
+    "regla": "Início: confesso que"
   },
   {
     "id": 3496,
     "intensidad": 2,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Mantengan chasquido mientras hablan.",
+    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Mantenham estalo enquanto falam.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Mantener chasquido"
+    "regla": "Manter estalo"
   },
   {
     "id": 3497,
     "intensidad": 2,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Continúen una historia sobre viajes.",
+    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Continuem uma história sobre viagens.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Historia de viajes"
+    "regla": "História de viagens"
   },
   {
     "id": 3498,
     "intensidad": 2,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: No revisen el teléfono.",
+    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Não verifiquem o telefone.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Sin teléfonãos"
+    "regla": "Sem telefones"
   },
   {
     "id": 3499,
     "intensidad": 2,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Usen únicamente apodos temporales.",
+    "texto": "EVENTO EM GRUPO: durante o próximo turno: Usem apenas apelidos temporários.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Apodos temporales"
+    "regla": "Apelidos temporários"
   },
   {
     "id": 3500,
     "intensidad": 2,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Cuenten desde 7 hasta cero antes de responder.",
+    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Contem de 7 até zero antes de responder.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Cuenta regresiva"
+    "regla": "Contagem regressiva"
   },
   {
     "id": 3501,
     "intensidad": 2,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Usen exactamente 7 palabras por frase.",
+    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Use exatamente 7 palavras por frase.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Frases de 7 palabras"
+    "regla": "Frases de 7 palavras"
   },
   {
     "id": 3502,
     "intensidad": 2,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Respondan primero su propia pregunta.",
+    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Respondam primeiro à sua própria pergunta.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Responder pregunta propia"
+    "regla": "Responder à própria pergunta"
   },
   {
     "id": 3503,
     "intensidad": 2,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Usen una emoción diferente por turno.",
+    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Use uma emoção diferente por turno.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Emoción diferente"
+    "regla": "Emoção diferente"
   },
   {
     "id": 3504,
     "intensidad": 2,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: No repitan ningún verbo.",
+    "texto": "EVENTO EM GRUPO: durante o próximo turno: Não repitam nenhum verbo.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "No repetir verbos"
+    "regla": "Não repetir verbos"
   },
   {
     "id": 3505,
     "intensidad": 2,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Comiencen susurrando y terminen fuerte.",
+    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Comecem sussurrando e terminem alto.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Cambiar volumen"
+    "regla": "Mudar volume"
   },
   {
     "id": 3506,
     "intensidad": 2,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Resuman lo anterior en tres palabras.",
+    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Resumam o anterior em três palavras.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Resumen previo"
+    "regla": "Resumo anterior"
   },
   {
     "id": 3507,
     "intensidad": 2,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Inicien con la última letra anterior.",
+    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Comecem com a última letra anterior.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Cadena por letra"
+    "regla": "Cadeia por letra"
   },
   {
     "id": 3508,
     "intensidad": 2,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Representen lo que dirán antes de hablar.",
+    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Aja o que você vai dizer antes de falar.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Mímica previa"
+    "regla": "Mímica prévia"
   },
   {
     "id": 3509,
     "intensidad": 2,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Al oír 'no', hagan chasquido.",
+    "texto": "EVENTO EM GRUPO: durante a próxima ronda: Ao ouvir 'não', façam estalo.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Señal: não"
+    "regla": "Sinal: não"
   },
   {
     "id": 3510,
     "intensidad": 2,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Predigan qué dirá la siguiente persona.",
+    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Prevejam o que a próxima pessoa dirá.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Predicción final"
+    "regla": "Previsão final"
   },
   {
     "id": 3511,
     "intensidad": 3,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Ninguém pode dizer 'pero'.",
+    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Ninguém pode dizer 'mas'.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Proibido: pero"
+    "regla": "Proibido: mas"
   },
   {
     "id": 3512,
     "intensidad": 3,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Todos devem hablar con voz de villano.",
+    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Todos devem falar com voz de vilão.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Voz de villanão"
+    "regla": "Voz de vilão"
   },
   {
     "id": 3513,
     "intensidad": 3,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Antes de hablar, hagan saludo.",
+    "texto": "EVENTO EM GRUPO: durante a próxima ronda: Antes de falar, façam saudação.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "saludo antes de hablar"
+    "regla": "Saudação antes de falar"
   },
   {
     "id": 3514,
     "intensidad": 3,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Incluyan una palabra sobre películas.",
+    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Incluam uma palavra sobre filmes.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Palabra de películas"
+    "regla": "Palavra de filmes"
   },
   {
     "id": 3515,
     "intensidad": 3,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Respondan solo con preguntas.",
+    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Respondam apenas com perguntas.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Solo preguntas"
+    "regla": "Só perguntas"
   },
   {
     "id": 3516,
     "intensidad": 3,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: No usen 'sí' ni 'no'.",
+    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Não usem 'sim' nem 'não'.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Sin sim ni não"
+    "regla": "Sem sim nem não"
   },
   {
     "id": 3517,
     "intensidad": 3,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Hablen en tercera persona.",
+    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Falem na terceira pessoa.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Tercera persona"
+    "regla": "Terceira pessoa"
   },
   {
     "id": 3518,
     "intensidad": 3,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Brinden antes de beber.",
+    "texto": "EVENTO EM GRUPO: durante a próxima ronda: Brindem antes de beber.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Brindar antes de beber"
+    "regla": "Brinde antes de beber"
   },
   {
     "id": 3519,
     "intensidad": 3,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Terminen cada frase con una rima.",
+    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Termine cada frase com uma rima.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Cerrar con rima"
+    "regla": "Fechar com rima"
   },
   {
     "id": 3520,
     "intensidad": 3,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Repitan la última palabra anterior.",
+    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Repitam a última palavra anterior.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Repetir última palabra"
+    "regla": "Repita a última palavra"
   },
   {
     "id": 3521,
     "intensidad": 3,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Imiten el gesto anterior y añadan otro.",
+    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Imitem o gesto anterior e adicionem outro.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Cadena de gestos"
+    "regla": "Cadeia de gestos"
   },
   {
     "id": 3522,
     "intensidad": 3,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Cuenten hasta 8 sin hablar a la vez.",
+    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Contem até 8 sem falar ao mesmo tempo.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Conteo sin coincidir"
+    "regla": "Contagem sem corresponder"
   },
   {
     "id": 3523,
     "intensidad": 3,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Den un cumplido al cerrar su turno.",
+    "texto": "EVENTO EM GRUPO: durante o próximo turno: Dê um elogio ao encerrar seu turno.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Cerrar con cumplido"
+    "regla": "Encerrar com elogio"
   },
   {
     "id": 3524,
     "intensidad": 3,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: No usen nombres ni señalen.",
+    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Não usem nomes nem apontem.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Sin nãombres"
+    "regla": "Sem nomes"
   },
   {
     "id": 3525,
     "intensidad": 3,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Comiencen con 'confieso que'.",
+    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Comecem com 'confesso que'.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Inicio: confieso que"
+    "regla": "Início: confesso que"
   },
   {
     "id": 3526,
     "intensidad": 3,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Mantengan saludo mientras hablan.",
+    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Mantenham o cumprimento enquanto falam.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Mantener saludo"
+    "regla": "Continue cumprimentando"
   },
   {
     "id": 3527,
     "intensidad": 3,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Continúen una historia sobre películas.",
+    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Continuem uma história sobre filmes.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Historia de películas"
+    "regla": "História do Cinema"
   },
   {
     "id": 3528,
     "intensidad": 3,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: No revisen el teléfono.",
+    "texto": "EVENTO GRUPAL: no próximo turno: Não verifique o telefone.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Sin teléfonãos"
+    "regla": "Sem telefones"
   },
   {
     "id": 3529,
     "intensidad": 3,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Usen únicamente apodos temporales.",
+    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Usem apenas apelidos temporários.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Apodos temporales"
+    "regla": "Apelidos temporários"
   },
   {
     "id": 3530,
     "intensidad": 3,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Cuenten desde 8 hasta cero antes de responder.",
+    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Conte de 8 a zero antes de responder.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Cuenta regresiva"
+    "regla": "Contagem regressiva"
   },
   {
     "id": 3531,
     "intensidad": 3,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Usen exactamente 8 palabras por frase.",
+    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Use exatamente 8 palavras por frase.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Frases de 8 palabras"
+    "regla": "Frases de 8 palavras"
   },
   {
     "id": 3532,
     "intensidad": 3,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Respondan primero su propia pregunta.",
+    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Respondam primeiro à sua própria pergunta.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Responder pregunta propia"
+    "regla": "Responder à própria pergunta"
   },
   {
     "id": 3533,
     "intensidad": 3,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Usen una emoción diferente por turno.",
+    "texto": "EVENTO EM GRUPO: durante o próximo turno: usem uma emoção diferente a cada turno.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Emoción diferente"
+    "regla": "Emoção diferente"
   },
   {
     "id": 3534,
     "intensidad": 3,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: No repitan ningún verbo.",
+    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Não repitam nenhum verbo.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "No repetir verbos"
+    "regla": "Não repetir verbos"
   },
   {
     "id": 3535,
     "intensidad": 3,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Comiencen susurrando y terminen fuerte.",
+    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Comecem sussurrando e terminem forte.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Cambiar volumen"
+    "regla": "Mudar volume"
   },
   {
     "id": 3536,
     "intensidad": 3,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Resuman lo anterior en tres palabras.",
+    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Resumam o anterior em três palavras.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Resumen previo"
+    "regla": "Resumo anterior"
   },
   {
     "id": 3537,
     "intensidad": 3,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Inicien con la última letra anterior.",
+    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: comecem com a última letra anterior.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Cadena por letra"
+    "regla": "Cadeia por letra"
   },
   {
     "id": 3538,
     "intensidad": 3,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Representen lo que dirán antes de hablar.",
+    "texto": "EVENTO EM GRUPO: durante o próximo turno: Representem o que dirão antes de falar.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Mímica previa"
+    "regla": "Mímica prévia"
   },
   {
     "id": 3539,
     "intensidad": 3,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Al oír 'pero', hagan saludo.",
+    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Ao ouvir 'mas', façam saudação.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Señal: pero"
+    "regla": "Sinal: mas"
   },
   {
     "id": 3540,
     "intensidad": 3,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Predigan qué dirá la siguiente persona.",
+    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Prevejam o que a próxima pessoa dirá.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Predicción final"
+    "regla": "Previsão final"
   },
   {
     "id": 3541,
@@ -1101,709 +1101,709 @@ export const eventosEspecialesCards = [
     "id": 3542,
     "intensidad": 4,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Todos devem hablar con voz de detective.",
+    "texto": "EVENTO EM GRUPO: durante o próximo turno: Todos devem falar com voz de detetive.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Voz de detective"
+    "regla": "Voz de detetive"
   },
   {
     "id": 3543,
     "intensidad": 4,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Antes de hablar, hagan pose.",
+    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Antes de falar, faça uma pose.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "pose antes de hablar"
+    "regla": "espere antes de falar"
   },
   {
     "id": 3544,
     "intensidad": 4,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Incluyan una palabra sobre primeras impresiones.",
+    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Incluam uma palavra sobre primeiras impressões.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Palabra de primeras impresiones"
+    "regla": "Palavra de primeiras impressões"
   },
   {
     "id": 3545,
     "intensidad": 4,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Respondan solo con preguntas.",
+    "texto": "EVENTO DE GRUPO: pelos próximos 4 turnos: Responder apenas com perguntas.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Solo preguntas"
+    "regla": "Só perguntas"
   },
   {
     "id": 3546,
     "intensidad": 4,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: No usen 'sí' ni 'no'.",
+    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Não usem 'sim' nem 'não'.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Sin sim ni não"
+    "regla": "Sem sim nem não"
   },
   {
     "id": 3547,
     "intensidad": 4,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Hablen en tercera persona.",
+    "texto": "EVENTO DE GRUPO: durante o próximo turno: Fale na terceira pessoa.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Tercera persona"
+    "regla": "Terceira pessoa"
   },
   {
     "id": 3548,
     "intensidad": 4,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Brinden antes de beber.",
+    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Dê antes de beber.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Brindar antes de beber"
+    "regla": "Brinde antes de beber"
   },
   {
     "id": 3549,
     "intensidad": 4,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Terminen cada frase con una rima.",
+    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Termine cada frase com uma rima.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Cerrar con rima"
+    "regla": "Fechar com rima"
   },
   {
     "id": 3550,
     "intensidad": 4,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Repitan la última palabra anterior.",
+    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Repitam a última palavra anterior.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Repetir última palabra"
+    "regla": "Repita a última palavra"
   },
   {
     "id": 3551,
     "intensidad": 4,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Imiten el gesto anterior y añadan otro.",
+    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Imitem o gesto anterior e adicionem outro.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Cadena de gestos"
+    "regla": "Cadeia de gestos"
   },
   {
     "id": 3552,
     "intensidad": 4,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Cuenten hasta 9 sin hablar a la vez.",
+    "texto": "EVENTO DE GRUPO: durante o próximo turno: Conte até 9 sem falar ao mesmo tempo.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Conteo sin coincidir"
+    "regla": "Contagem sem corresponder"
   },
   {
     "id": 3553,
     "intensidad": 4,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Den un cumplido al cerrar su turno.",
+    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Dê um elogio ao encerrar seu turno.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Cerrar con cumplido"
+    "regla": "Encerrar com elogio"
   },
   {
     "id": 3554,
     "intensidad": 4,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: No usen nombres ni señalen.",
+    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Não usem nomes nem apontem.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Sin nãombres"
+    "regla": "Sem nomes"
   },
   {
     "id": 3555,
     "intensidad": 4,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Comiencen con 'confieso que'.",
+    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Comecem com 'confesso que'.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Inicio: confieso que"
+    "regla": "Início: confesso que"
   },
   {
     "id": 3556,
     "intensidad": 4,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Mantengan pose mientras hablan.",
+    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Mantenham a pose enquanto falam.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Mantener pose"
+    "regla": "Mantenha a pose"
   },
   {
     "id": 3557,
     "intensidad": 4,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Continúen una historia sobre primeras impresiones.",
+    "texto": "EVENTO EM GRUPO: durante o próximo turno: Continuem uma história sobre primeiras impressões.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Historia de primeras impresiones"
+    "regla": "História de primeiras impressões"
   },
   {
     "id": 3558,
     "intensidad": 4,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: No revisen el teléfono.",
+    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Não verifiquem o telefone.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Sin teléfonãos"
+    "regla": "Sem telefones"
   },
   {
     "id": 3559,
     "intensidad": 4,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Usen únicamente apodos temporales.",
+    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: usem apenas apelidos temporários.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Apodos temporales"
+    "regla": "Apelidos temporários"
   },
   {
     "id": 3560,
     "intensidad": 4,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Cuenten desde 9 hasta cero antes de responder.",
+    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Conte de 9 a zero antes de responder.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Cuenta regresiva"
+    "regla": "Contagem regressiva"
   },
   {
     "id": 3561,
     "intensidad": 4,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Usen exactamente 9 palabras por frase.",
+    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Use exatamente 9 palavras por frase.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Frases de 9 palabras"
+    "regla": "Frases de 9 palavras"
   },
   {
     "id": 3562,
     "intensidad": 4,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Respondan primero su propia pregunta.",
+    "texto": "EVENTO EM GRUPO: durante a próxima ronda: Respondam primeiro à sua própria pergunta.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Responder pregunta propia"
+    "regla": "Responder à própria pergunta"
   },
   {
     "id": 3563,
     "intensidad": 4,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Usen una emoción diferente por turno.",
+    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Use uma emoção diferente por turno.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Emoción diferente"
+    "regla": "Emoção diferente"
   },
   {
     "id": 3564,
     "intensidad": 4,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: No repitan ningún verbo.",
+    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Não repitam nenhum verbo.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "No repetir verbos"
+    "regla": "Não repetir verbos"
   },
   {
     "id": 3565,
     "intensidad": 4,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Comiencen susurrando y terminen fuerte.",
+    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Comece sussurrando e termine alto.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Cambiar volumen"
+    "regla": "Mudar volume"
   },
   {
     "id": 3566,
     "intensidad": 4,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Resuman lo anterior en tres palabras.",
+    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Resumam o anterior em três palavras.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Resumen previo"
+    "regla": "Resumo anterior"
   },
   {
     "id": 3567,
     "intensidad": 4,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Inicien con la última letra anterior.",
+    "texto": "EVENTO EM GRUPO: durante o próximo turno: Comecem com a última letra anterior.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Cadena por letra"
+    "regla": "Cadeia por letra"
   },
   {
     "id": 3568,
     "intensidad": 4,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Representen lo que dirán antes de hablar.",
+    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Representem o que vão dizer antes de falar.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Mímica previa"
+    "regla": "Mímica prévia"
   },
   {
     "id": 3569,
     "intensidad": 4,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Al oír 'literalmente', hagan pose.",
+    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Ao ouvir 'literalmente', façam pose.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Señal: literalmente"
+    "regla": "Sinal: literalmente"
   },
   {
     "id": 3570,
     "intensidad": 4,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Predigan qué dirá la siguiente persona.",
+    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Prevejam o que a próxima pessoa dirá.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Predicción final"
+    "regla": "Previsão final"
   },
   {
     "id": 3571,
     "intensidad": 5,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Ninguém pode dizer 'obvio'.",
+    "texto": "EVENTO DE GRUPO: durante o próximo turno: Ninguém pode dizer 'óbvio'.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Proibido: obvio"
+    "regla": "Proibido: óbvio"
   },
   {
     "id": 3572,
     "intensidad": 5,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Todos devem hablar con voz de influencer.",
+    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Todos devem falar com voz de influenciador.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Voz de influencer"
+    "regla": "Voz de influenciador"
   },
   {
     "id": 3573,
     "intensidad": 5,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Antes de hablar, hagan brindis.",
+    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Antes de falar, façam brinde.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "brindis antes de hablar"
+    "regla": "brinde antes de falar"
   },
   {
     "id": 3574,
     "intensidad": 5,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Incluyan una palabra sobre citas.",
+    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Incluam uma palavra sobre encontros.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Palabra de citas"
+    "regla": "Palavra de citações"
   },
   {
     "id": 3575,
     "intensidad": 5,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Respondan solo con preguntas.",
+    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Respondam apenas com perguntas.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Solo preguntas"
+    "regla": "Só perguntas"
   },
   {
     "id": 3576,
     "intensidad": 5,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: No usen 'sí' ni 'no'.",
+    "texto": "EVENTO EM GRUPO: durante a próxima ronda: Não usem 'sim' nem 'não'.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Sin sim ni não"
+    "regla": "Sem sim nem não"
   },
   {
     "id": 3577,
     "intensidad": 5,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Hablen en tercera persona.",
+    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Falem na terceira pessoa.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Tercera persona"
+    "regla": "Terceira pessoa"
   },
   {
     "id": 3578,
     "intensidad": 5,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Brinden antes de beber.",
+    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Ofereçam antes de beber.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Brindar antes de beber"
+    "regla": "Brinde antes de beber"
   },
   {
     "id": 3579,
     "intensidad": 5,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Terminen cada frase con una rima.",
+    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Termine cada frase com uma rima.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Cerrar con rima"
+    "regla": "Fechar com rima"
   },
   {
     "id": 3580,
     "intensidad": 5,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Repitan la última palabra anterior.",
+    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Repitam a última palavra anterior.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Repetir última palabra"
+    "regla": "Repita a última palavra"
   },
   {
     "id": 3581,
     "intensidad": 5,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Imiten el gesto anterior y añadan otro.",
+    "texto": "EVENTO EM GRUPO: durante a próxima ronda: Imitem o gesto anterior e adicionem outro.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Cadena de gestos"
+    "regla": "Cadeia de gestos"
   },
   {
     "id": 3582,
     "intensidad": 5,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Cuenten hasta 10 sin hablar a la vez.",
+    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: contem até 10 sem falar ao mesmo tempo.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Conteo sin coincidir"
+    "regla": "Contagem sem corresponder"
   },
   {
     "id": 3583,
     "intensidad": 5,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Den un cumplido al cerrar su turno.",
+    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Dê um elogio ao encerrar sua vez.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Cerrar con cumplido"
+    "regla": "Encerrar com elogio"
   },
   {
     "id": 3584,
     "intensidad": 5,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: No usen nombres ni señalen.",
+    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Não usem nomes nem apontem.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Sin nãombres"
+    "regla": "Sem nomes"
   },
   {
     "id": 3585,
     "intensidad": 5,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Comiencen con 'confieso que'.",
+    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Comecem com 'confesso que'.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Inicio: confieso que"
+    "regla": "Início: confesso que"
   },
   {
     "id": 3586,
     "intensidad": 5,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Mantengan brindis mientras hablan.",
+    "texto": "EVENTO EM GRUPO: durante a próxima ronda: Mantenham brindes enquanto conversam.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Mantener brindis"
+    "regla": "Manter brinde"
   },
   {
     "id": 3587,
     "intensidad": 5,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Continúen una historia sobre citas.",
+    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Continue uma história sobre namoro.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Historia de citas"
+    "regla": "História de encontros"
   },
   {
     "id": 3588,
     "intensidad": 5,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: No revisen el teléfono.",
+    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Não verifiquem o telefone.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Sin teléfonãos"
+    "regla": "Sem telefones"
   },
   {
     "id": 3589,
     "intensidad": 5,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Usen únicamente apodos temporales.",
+    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Usem apenas apelidos temporários.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Apodos temporales"
+    "regla": "Apelidos temporários"
   },
   {
     "id": 3590,
     "intensidad": 5,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Cuenten desde 10 hasta cero antes de responder.",
+    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Contem de 10 até zero antes de responder.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Cuenta regresiva"
+    "regla": "Contagem regressiva"
   },
   {
     "id": 3591,
     "intensidad": 5,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Usen exactamente 10 palabras por frase.",
+    "texto": "EVENTO EM GRUPO: durante o próximo turno: usem exatamente 10 palavras por frase.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Frases de 10 palabras"
+    "regla": "Frases de 10 palavras"
   },
   {
     "id": 3592,
     "intensidad": 5,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Respondan primero su propia pregunta.",
+    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Respondam primeiro à sua própria pergunta.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Responder pregunta propia"
+    "regla": "Responder à própria pergunta"
   },
   {
     "id": 3593,
     "intensidad": 5,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Usen una emoción diferente por turno.",
+    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Usem uma emoção diferente por turno.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Emoción diferente"
+    "regla": "Emoção diferente"
   },
   {
     "id": 3594,
     "intensidad": 5,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: No repitan ningún verbo.",
+    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Não repitam nenhum verbo.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "No repetir verbos"
+    "regla": "Não repetir verbos"
   },
   {
     "id": 3595,
     "intensidad": 5,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Comiencen susurrando y terminen fuerte.",
+    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Comecem sussurrando e terminem alto.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Cambiar volumen"
+    "regla": "Mudar volume"
   },
   {
     "id": 3596,
     "intensidad": 5,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Resuman lo anterior en tres palabras.",
+    "texto": "EVENTO EM GRUPO: durante o próximo turno: Resumam o anterior em três palavras.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Resumen previo"
+    "regla": "Resumo anterior"
   },
   {
     "id": 3597,
     "intensidad": 5,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Inicien con la última letra anterior.",
+    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Comecem com a última letra anterior.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Cadena por letra"
+    "regla": "Cadeia por letra"
   },
   {
     "id": 3598,
     "intensidad": 5,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Representen lo que dirán antes de hablar.",
+    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Aja o que você vai dizer antes de falar.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Mímica previa"
+    "regla": "Mímica prévia"
   },
   {
     "id": 3599,
     "intensidad": 5,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Al oír 'obvio', hagan brindis.",
+    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Ao ouvir 'óbvio', façam um brinde.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Señal: obvio"
+    "regla": "Sinal: óbvio"
   },
   {
     "id": 3600,
     "intensidad": 5,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Predigan qué dirá la siguiente persona.",
+    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Prevejam o que a próxima pessoa dirá.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-3}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Predicción final"
+    "regla": "Previsão final"
   },
   {
     "id": 3601,
@@ -1821,349 +1821,349 @@ export const eventosEspecialesCards = [
     "id": 3602,
     "intensidad": 6,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Todos devem hablar con voz de abogado.",
+    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Todos devem falar com voz de advogado.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-7}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Voz de abogado"
+    "regla": "Voz do advogado"
   },
   {
     "id": 3603,
     "intensidad": 6,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Antes de hablar, hagan reverencia.",
+    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Antes de falar, façam uma reverência.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-7}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "reverencia antes de hablar"
+    "regla": "reverência antes de falar"
   },
   {
     "id": 3604,
     "intensidad": 6,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Incluyan una palabra sobre decisiones impulsivas.",
+    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Inclua uma palavra sobre decisões impulsivas.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-7}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Palabra de decisiones impulsivas"
+    "regla": "Palavra de decisões impulsivas"
   },
   {
     "id": 3605,
     "intensidad": 6,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Respondan solo con preguntas.",
+    "texto": "EVENTO EM GRUPO: durante o próximo turno: Respondam apenas com perguntas.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-7}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Solo preguntas"
+    "regla": "Só perguntas"
   },
   {
     "id": 3606,
     "intensidad": 6,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: No usen 'sí' ni 'no'.",
+    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Não usem 'sim' nem 'não'.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-7}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Sin sim ni não"
+    "regla": "Sem sim nem não"
   },
   {
     "id": 3607,
     "intensidad": 6,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Hablen en tercera persona.",
+    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Falem na terceira pessoa.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-7}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Tercera persona"
+    "regla": "Terceira pessoa"
   },
   {
     "id": 3608,
     "intensidad": 6,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Brinden antes de beber.",
+    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Brindem antes de beber.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-7}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Brindar antes de beber"
+    "regla": "Brinde antes de beber"
   },
   {
     "id": 3609,
     "intensidad": 6,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Terminen cada frase con una rima.",
+    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Termine cada frase com uma rima.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-7}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Cerrar con rima"
+    "regla": "Fechar com rima"
   },
   {
     "id": 3610,
     "intensidad": 6,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Repitan la última palabra anterior.",
+    "texto": "EVENTO EM GRUPO: durante a próxima ronda: Repitam a última palavra anterior.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-7}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Repetir última palabra"
+    "regla": "Repita a última palavra"
   },
   {
     "id": 3611,
     "intensidad": 6,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Imiten el gesto anterior y añadan otro.",
+    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Imite o gesto anterior e adicione outro.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-7}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Cadena de gestos"
+    "regla": "Cadeia de gestos"
   },
   {
     "id": 3612,
     "intensidad": 6,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Cuenten hasta 11 sin hablar a la vez.",
+    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Contem até 11 sem falar ao mesmo tempo.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-7}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Conteo sin coincidir"
+    "regla": "Contagem sem corresponder"
   },
   {
     "id": 3613,
     "intensidad": 6,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Den un cumplido al cerrar su turno.",
+    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Dê um elogio ao encerrar sua vez.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-7}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Cerrar con cumplido"
+    "regla": "Encerrar com elogio"
   },
   {
     "id": 3614,
     "intensidad": 6,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: No usen nombres ni señalen.",
+    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Não usem nomes nem apontem.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-7}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Sin nãombres"
+    "regla": "Sem nomes"
   },
   {
     "id": 3615,
     "intensidad": 6,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Comiencen con 'confieso que'.",
+    "texto": "EVENTO EM GRUPO: durante a próxima vez: Comecem com 'confesso que'.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-7}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Inicio: confieso que"
+    "regla": "Início: confesso que"
   },
   {
     "id": 3616,
     "intensidad": 6,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Mantengan reverencia mientras hablan.",
+    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Mantenha a reverência enquanto fala.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-7}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Mantener reverencia"
+    "regla": "Manter reverência"
   },
   {
     "id": 3617,
     "intensidad": 6,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Continúen una historia sobre decisiones impulsivas.",
+    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Continuem uma história sobre decisões impulsivas.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-7}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Historia de decisiones impulsivas"
+    "regla": "História de decisões impulsivas"
   },
   {
     "id": 3618,
     "intensidad": 6,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: No revisen el teléfono.",
+    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Não verifique seu telefone.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-7}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Sin teléfonãos"
+    "regla": "Sem telefones"
   },
   {
     "id": 3619,
     "intensidad": 6,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Usen únicamente apodos temporales.",
+    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Use apenas apelidos temporários.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-7}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Apodos temporales"
+    "regla": "Apelidos temporários"
   },
   {
     "id": 3620,
     "intensidad": 6,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Cuenten desde 11 hasta cero antes de responder.",
+    "texto": "EVENTO EM GRUPO: durante a próxima ronda: Contem de 11 até zero antes de responder.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-7}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Cuenta regresiva"
+    "regla": "Contagem regressiva"
   },
   {
     "id": 3621,
     "intensidad": 6,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Usen exactamente 11 palabras por frase.",
+    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Use exatamente 11 palavras por frase.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-7}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Frases de 11 palabras"
+    "regla": "Frases de 11 palavras"
   },
   {
     "id": 3622,
     "intensidad": 6,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Respondan primero su propia pregunta.",
+    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Respondam primeiro à sua própria pergunta.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-7}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Responder pregunta propia"
+    "regla": "Responder à própria pergunta"
   },
   {
     "id": 3623,
     "intensidad": 6,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Usen una emoción diferente por turno.",
+    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Use uma emoção diferente por turno.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-7}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Emoción diferente"
+    "regla": "Emoção diferente"
   },
   {
     "id": 3624,
     "intensidad": 6,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: No repitan ningún verbo.",
+    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Não repitam nenhum verbo.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-7}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "No repetir verbos"
+    "regla": "Não repetir verbos"
   },
   {
     "id": 3625,
     "intensidad": 6,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Comiencen susurrando y terminen fuerte.",
+    "texto": "EVENTO EM GRUPO: durante a próxima ronda: Comecem sussurrando e terminem forte.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-7}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Cambiar volumen"
+    "regla": "Mudar volume"
   },
   {
     "id": 3626,
     "intensidad": 6,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Resuman lo anterior en tres palabras.",
+    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Resuma o que foi dito acima em três palavras.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-7}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Resumen previo"
+    "regla": "Resumo anterior"
   },
   {
     "id": 3627,
     "intensidad": 6,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Inicien con la última letra anterior.",
+    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Comece com a última letra acima.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-7}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Cadena por letra"
+    "regla": "Cadeia por letra"
   },
   {
     "id": 3628,
     "intensidad": 6,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Representen lo que dirán antes de hablar.",
+    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Representem o que vão dizer antes de falar.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-7}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Mímica previa"
+    "regla": "Mímica prévia"
   },
   {
     "id": 3629,
     "intensidad": 6,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Al oír 'honestamente', hagan reverencia.",
+    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: ao ouvir \"honestamente\", façam uma reverência.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-7}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Señal: honestamente"
+    "regla": "Sinal: honestamente"
   },
   {
     "id": 3630,
     "intensidad": 6,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Predigan qué dirá la siguiente persona.",
+    "texto": "EVENTO EM GRUPO: durante o próximo turno: Predigam o que a próxima pessoa dirá.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-7}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Predicción final"
+    "regla": "Previsão final"
   },
   {
     "id": 3631,
@@ -2181,7 +2181,7 @@ export const eventosEspecialesCards = [
     "id": 3632,
     "intensidad": 7,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Todos devem hablar con voz de terapeuta.",
+    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Todos devem falar com voz de terapeuta.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-7}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
@@ -2193,337 +2193,337 @@ export const eventosEspecialesCards = [
     "id": 3633,
     "intensidad": 7,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Antes de hablar, hagan guiño.",
+    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Antes de falar, façam piscadela.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-7}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "guiño antes de hablar"
+    "regla": "piscar antes de falar"
   },
   {
     "id": 3634,
     "intensidad": 7,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Incluyan una palabra sobre relaciones.",
+    "texto": "EVENTO EM GRUPO: durante a próxima ronda: Incluam uma palavra sobre relacionamentos.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-7}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Palabra de relaciones"
+    "regla": "Palavra de relações"
   },
   {
     "id": 3635,
     "intensidad": 7,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Respondan solo con preguntas.",
+    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Respondam apenas com perguntas.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-7}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Solo preguntas"
+    "regla": "Só perguntas"
   },
   {
     "id": 3636,
     "intensidad": 7,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: No usen 'sí' ni 'no'.",
+    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: não usem \"sim\" nem \"não\".",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-7}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Sin sim ni não"
+    "regla": "Sem sim nem não"
   },
   {
     "id": 3637,
     "intensidad": 7,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Hablen en tercera persona.",
+    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Falem na terceira pessoa.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-7}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Tercera persona"
+    "regla": "Terceira pessoa"
   },
   {
     "id": 3638,
     "intensidad": 7,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Brinden antes de beber.",
+    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Brinde antes de beber.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-7}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Brindar antes de beber"
+    "regla": "Brinde antes de beber"
   },
   {
     "id": 3639,
     "intensidad": 7,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Terminen cada frase con una rima.",
+    "texto": "EVENTO EM GRUPO: durante o próximo turno: Termine cada frase com uma rima.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-7}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Cerrar con rima"
+    "regla": "Fechar com rima"
   },
   {
     "id": 3640,
     "intensidad": 7,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Repitan la última palabra anterior.",
+    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Repitam a última palavra anterior.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-7}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Repetir última palabra"
+    "regla": "Repita a última palavra"
   },
   {
     "id": 3641,
     "intensidad": 7,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Imiten el gesto anterior y añadan otro.",
+    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Imitem o gesto anterior e adicionem outro.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-7}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Cadena de gestos"
+    "regla": "Cadeia de gestos"
   },
   {
     "id": 3642,
     "intensidad": 7,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Cuenten hasta 12 sin hablar a la vez.",
+    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Conte até 12 sem falar ao mesmo tempo.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-7}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Conteo sin coincidir"
+    "regla": "Contagem sem corresponder"
   },
   {
     "id": 3643,
     "intensidad": 7,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Den un cumplido al cerrar su turno.",
+    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Faça um elogio no final do seu turno.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-7}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Cerrar con cumplido"
+    "regla": "Encerrar com elogio"
   },
   {
     "id": 3644,
     "intensidad": 7,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: No usen nombres ni señalen.",
+    "texto": "EVENTO EM GRUPO: durante o próximo turno: Não usem nomes nem apontem.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-7}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Sin nãombres"
+    "regla": "Sem nomes"
   },
   {
     "id": 3645,
     "intensidad": 7,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Comiencen con 'confieso que'.",
+    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Comecem com 'confesso que'.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-7}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Inicio: confieso que"
+    "regla": "Início: confesso que"
   },
   {
     "id": 3646,
     "intensidad": 7,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Mantengan guiño mientras hablan.",
+    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Mantenham o piscar de olho enquanto falam.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-7}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Mantener guiño"
+    "regla": "Manter piscadela"
   },
   {
     "id": 3647,
     "intensidad": 7,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Continúen una historia sobre relaciones.",
+    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Continuem uma história sobre relacionamentos.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-7}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Historia de relaciones"
+    "regla": "História de relações"
   },
   {
     "id": 3648,
     "intensidad": 7,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: No revisen el teléfono.",
+    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Não verifiquem o telefone.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-7}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Sin teléfonãos"
+    "regla": "Sem telefones"
   },
   {
     "id": 3649,
     "intensidad": 7,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Usen únicamente apodos temporales.",
+    "texto": "EVENTO EM GRUPO: durante o próximo turno: Usem apenas apelidos temporários.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-7}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Apodos temporales"
+    "regla": "Apelidos temporários"
   },
   {
     "id": 3650,
     "intensidad": 7,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Cuenten desde 12 hasta cero antes de responder.",
+    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Contem de 12 até zero antes de responder.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-7}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Cuenta regresiva"
+    "regla": "Contagem regressiva"
   },
   {
     "id": 3651,
     "intensidad": 7,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Usen exactamente 12 palabras por frase.",
+    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Use exatamente 12 palavras por frase.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-7}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Frases de 12 palabras"
+    "regla": "Frases de 12 palavras"
   },
   {
     "id": 3652,
     "intensidad": 7,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Respondan primero su propia pregunta.",
+    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Respondam primeiro à sua própria pergunta.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-7}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Responder pregunta propia"
+    "regla": "Responder à própria pergunta"
   },
   {
     "id": 3653,
     "intensidad": 7,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Usen una emoción diferente por turno.",
+    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Use uma emoção diferente por turno.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-7}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Emoción diferente"
+    "regla": "Emoção diferente"
   },
   {
     "id": 3654,
     "intensidad": 7,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: No repitan ningún verbo.",
+    "texto": "EVENTO EM GRUPO: durante o próximo turno: Não repitam nenhum verbo.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-7}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "No repetir verbos"
+    "regla": "Não repetir verbos"
   },
   {
     "id": 3655,
     "intensidad": 7,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Comiencen susurrando y terminen fuerte.",
+    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Comecem sussurrando e terminem alto.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-7}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Cambiar volumen"
+    "regla": "Mudar volume"
   },
   {
     "id": 3656,
     "intensidad": 7,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Resuman lo anterior en tres palabras.",
+    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Resumam o anterior em três palavras.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-7}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Resumen previo"
+    "regla": "Resumo anterior"
   },
   {
     "id": 3657,
     "intensidad": 7,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Inicien con la última letra anterior.",
+    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Comecem com a última letra anterior.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-7}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Cadena por letra"
+    "regla": "Cadeia por letra"
   },
   {
     "id": 3658,
     "intensidad": 7,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Representen lo que dirán antes de hablar.",
+    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Aja o que você vai dizer antes de falar.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-7}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Mímica previa"
+    "regla": "Mímica prévia"
   },
   {
     "id": 3659,
     "intensidad": 7,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Al oír 'ex', hagan guiño.",
+    "texto": "EVENTO EM GRUPO: durante o próximo turno: Ao ouvir 'ex', faça um piscar de olho.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-7}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Señal: ex"
+    "regla": "Sinal: ex"
   },
   {
     "id": 3660,
     "intensidad": 7,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Predigan qué dirá la siguiente persona.",
+    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Prevejam o que a próxima pessoa dirá.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-7}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Predicción final"
+    "regla": "Previsão final"
   },
   {
     "id": 3661,
@@ -2541,1069 +2541,1069 @@ export const eventosEspecialesCards = [
     "id": 3662,
     "intensidad": 8,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Todos devem hablar con voz de periodista.",
+    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Todos devem falar com voz de jornalista.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-7}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Voz de periodista"
+    "regla": "Voz do jornalista"
   },
   {
     "id": 3663,
     "intensidad": 8,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Antes de hablar, hagan gesto dramático.",
+    "texto": "EVENTO EM GRUPO: durante o próximo turno: Antes de falar, façam um gesto dramático.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-7}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "gesto dramático antes de hablar"
+    "regla": "gesto dramático antes de falar"
   },
   {
     "id": 3664,
     "intensidad": 8,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Incluyan una palabra sobre secretos.",
+    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Incluam uma palavra sobre segredos.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-7}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Palabra de secretos"
+    "regla": "Palavra de segredos"
   },
   {
     "id": 3665,
     "intensidad": 8,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Respondan solo con preguntas.",
+    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Respondam apenas com perguntas.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-7}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Solo preguntas"
+    "regla": "Só perguntas"
   },
   {
     "id": 3666,
     "intensidad": 8,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: No usen 'sí' ni 'no'.",
+    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Não usem 'sim' nem 'não'.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-7}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Sin sim ni não"
+    "regla": "Sem sim nem não"
   },
   {
     "id": 3667,
     "intensidad": 8,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Hablen en tercera persona.",
+    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Falem na terceira pessoa.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-7}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Tercera persona"
+    "regla": "Terceira pessoa"
   },
   {
     "id": 3668,
     "intensidad": 8,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Brinden antes de beber.",
+    "texto": "EVENTO EM GRUPO: durante a próxima ronda: Brindem antes de beber.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-7}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Brindar antes de beber"
+    "regla": "Brinde antes de beber"
   },
   {
     "id": 3669,
     "intensidad": 8,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Terminen cada frase con una rima.",
+    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Termine cada frase com uma rima.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-7}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Cerrar con rima"
+    "regla": "Fechar com rima"
   },
   {
     "id": 3670,
     "intensidad": 8,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Repitan la última palabra anterior.",
+    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Repitam a última palavra anterior.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-7}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Repetir última palabra"
+    "regla": "Repita a última palavra"
   },
   {
     "id": 3671,
     "intensidad": 8,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Imiten el gesto anterior y añadan otro.",
+    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Imitem o gesto anterior e adicionem outro.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-7}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Cadena de gestos"
+    "regla": "Cadeia de gestos"
   },
   {
     "id": 3672,
     "intensidad": 8,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Cuenten hasta 13 sin hablar a la vez.",
+    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Conte até 13 sem falar ao mesmo tempo.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-7}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Conteo sin coincidir"
+    "regla": "Contagem sem corresponder"
   },
   {
     "id": 3673,
     "intensidad": 8,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Den un cumplido al cerrar su turno.",
+    "texto": "EVENTO EM GRUPO: durante o próximo turno: Dê um elogio ao encerrar seu turno.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-7}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Cerrar con cumplido"
+    "regla": "Encerrar com elogio"
   },
   {
     "id": 3674,
     "intensidad": 8,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: No usen nombres ni señalen.",
+    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Não usem nomes nem apontem.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-7}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Sin nãombres"
+    "regla": "Sem nomes"
   },
   {
     "id": 3675,
     "intensidad": 8,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Comiencen con 'confieso que'.",
+    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Comecem com 'confesso que'.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-7}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Inicio: confieso que"
+    "regla": "Início: confesso que"
   },
   {
     "id": 3676,
     "intensidad": 8,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Mantengan gesto dramático mientras hablan.",
+    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Mantenham gesto dramático enquanto falam.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-7}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Mantener gesto dramático"
+    "regla": "Manter gesto dramático"
   },
   {
     "id": 3677,
     "intensidad": 8,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Continúen una historia sobre secretos.",
+    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Continuem uma história sobre segredos.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-7}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Historia de secretos"
+    "regla": "História de segredos"
   },
   {
     "id": 3678,
     "intensidad": 8,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: No revisen el teléfono.",
+    "texto": "EVENTO GRUPAL: no próximo turno: Não verifique o telefone.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-7}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Sin teléfonãos"
+    "regla": "Sem telefones"
   },
   {
     "id": 3679,
     "intensidad": 8,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Usen únicamente apodos temporales.",
+    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Usem apenas apelidos temporários.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-7}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Apodos temporales"
+    "regla": "Apelidos temporários"
   },
   {
     "id": 3680,
     "intensidad": 8,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Cuenten desde 13 hasta cero antes de responder.",
+    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Contem de 13 até zero antes de responder.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-7}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Cuenta regresiva"
+    "regla": "Contagem regressiva"
   },
   {
     "id": 3681,
     "intensidad": 8,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Usen exactamente 13 palabras por frase.",
+    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: usem exatamente 13 palavras por frase.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-7}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Frases de 13 palabras"
+    "regla": "Frases de 13 palavras"
   },
   {
     "id": 3682,
     "intensidad": 8,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Respondan primero su propia pregunta.",
+    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Respondam primeiro à sua própria pergunta.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-7}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Responder pregunta propia"
+    "regla": "Responder à própria pergunta"
   },
   {
     "id": 3683,
     "intensidad": 8,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Usen una emoción diferente por turno.",
+    "texto": "EVENTO EM GRUPO: durante o próximo turno: usem uma emoção diferente a cada turno.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-7}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Emoción diferente"
+    "regla": "Emoção diferente"
   },
   {
     "id": 3684,
     "intensidad": 8,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: No repitan ningún verbo.",
+    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Não repitam nenhum verbo.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-7}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "No repetir verbos"
+    "regla": "Não repetir verbos"
   },
   {
     "id": 3685,
     "intensidad": 8,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Comiencen susurrando y terminen fuerte.",
+    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Comecem sussurrando e terminem forte.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-7}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Cambiar volumen"
+    "regla": "Mudar volume"
   },
   {
     "id": 3686,
     "intensidad": 8,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Resuman lo anterior en tres palabras.",
+    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Resumam o anterior em três palavras.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-7}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Resumen previo"
+    "regla": "Resumo anterior"
   },
   {
     "id": 3687,
     "intensidad": 8,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Inicien con la última letra anterior.",
+    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: comecem com a última letra anterior.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-7}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Cadena por letra"
+    "regla": "Cadeia por letra"
   },
   {
     "id": 3688,
     "intensidad": 8,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Representen lo que dirán antes de hablar.",
+    "texto": "EVENTO EM GRUPO: durante o próximo turno: Representem o que dirão antes de falar.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-7}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Mímica previa"
+    "regla": "Mímica prévia"
   },
   {
     "id": 3689,
     "intensidad": 8,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Al oír 'mentira', hagan gesto dramático.",
+    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Ao ouvir 'mentira', façam gesto dramático.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-7}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Señal: mentira"
+    "regla": "Sinal: mentira"
   },
   {
     "id": 3690,
     "intensidad": 8,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Predigan qué dirá la siguiente persona.",
+    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Prevejam o que a próxima pessoa dirá.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-7}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Predicción final"
+    "regla": "Previsão final"
   },
   {
     "id": 3691,
     "intensidad": 9,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Ninguém pode dizer 'perdón'.",
+    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Ninguém pode dizer 'desculpa'.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-10}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Proibido: perdón"
+    "regla": "Proibido: perdão"
   },
   {
     "id": 3692,
     "intensidad": 9,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Todos devem hablar con voz de juez.",
+    "texto": "EVENTO EM GRUPO: durante o próximo turno: Todos devem falar com voz de juiz.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-10}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Voz de juez"
+    "regla": "Voz de juiz"
   },
   {
     "id": 3693,
     "intensidad": 9,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Antes de hablar, hagan mano al corazón.",
+    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Antes de falar, segure seu coração.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-10}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "manão al corazón antes de hablar"
+    "regla": "mão no coração antes de falar"
   },
   {
     "id": 3694,
     "intensidad": 9,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Incluyan una palabra sobre confianza.",
+    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Incluam uma palavra sobre confiança.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-10}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Palabra de confianza"
+    "regla": "Palavra de confiança"
   },
   {
     "id": 3695,
     "intensidad": 9,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Respondan solo con preguntas.",
+    "texto": "EVENTO DE GRUPO: pelos próximos 4 turnos: Responder apenas com perguntas.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-10}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Solo preguntas"
+    "regla": "Só perguntas"
   },
   {
     "id": 3696,
     "intensidad": 9,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: No usen 'sí' ni 'no'.",
+    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Não usem 'sim' nem 'não'.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-10}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Sin sim ni não"
+    "regla": "Sem sim nem não"
   },
   {
     "id": 3697,
     "intensidad": 9,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Hablen en tercera persona.",
+    "texto": "EVENTO DE GRUPO: durante o próximo turno: Fale na terceira pessoa.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-10}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Tercera persona"
+    "regla": "Terceira pessoa"
   },
   {
     "id": 3698,
     "intensidad": 9,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Brinden antes de beber.",
+    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Dê antes de beber.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-10}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Brindar antes de beber"
+    "regla": "Brinde antes de beber"
   },
   {
     "id": 3699,
     "intensidad": 9,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Terminen cada frase con una rima.",
+    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Termine cada frase com uma rima.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-10}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Cerrar con rima"
+    "regla": "Fechar com rima"
   },
   {
     "id": 3700,
     "intensidad": 9,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Repitan la última palabra anterior.",
+    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Repitam a última palavra anterior.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-10}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Repetir última palabra"
+    "regla": "Repita a última palavra"
   },
   {
     "id": 3701,
     "intensidad": 9,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Imiten el gesto anterior y añadan otro.",
+    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Imitem o gesto anterior e adicionem outro.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-10}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Cadena de gestos"
+    "regla": "Cadeia de gestos"
   },
   {
     "id": 3702,
     "intensidad": 9,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Cuenten hasta 14 sin hablar a la vez.",
+    "texto": "EVENTO EM GRUPO: durante a próxima ronda: Contem até 14 sem falar ao mesmo tempo.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-10}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Conteo sin coincidir"
+    "regla": "Contagem sem corresponder"
   },
   {
     "id": 3703,
     "intensidad": 9,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Den un cumplido al cerrar su turno.",
+    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Dê um elogio ao encerrar seu turno.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-10}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Cerrar con cumplido"
+    "regla": "Encerrar com elogio"
   },
   {
     "id": 3704,
     "intensidad": 9,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: No usen nombres ni señalen.",
+    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Não usem nomes nem apontem.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-10}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Sin nãombres"
+    "regla": "Sem nomes"
   },
   {
     "id": 3705,
     "intensidad": 9,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Comiencen con 'confieso que'.",
+    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Comecem com 'confesso que'.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-10}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Inicio: confieso que"
+    "regla": "Início: confesso que"
   },
   {
     "id": 3706,
     "intensidad": 9,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Mantengan mano al corazón mientras hablan.",
+    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Mantenham a mão sobre o coração enquanto falam.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-10}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Mantener manão al corazón"
+    "regla": "Manter a mão no coração"
   },
   {
     "id": 3707,
     "intensidad": 9,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Continúen una historia sobre confianza.",
+    "texto": "EVENTO DE GRUPO: Durante o próximo turno: Continue uma história sobre confiança.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-10}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Historia de confianza"
+    "regla": "História de confiança"
   },
   {
     "id": 3708,
     "intensidad": 9,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: No revisen el teléfono.",
+    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Não verifiquem o telefone.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-10}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Sin teléfonãos"
+    "regla": "Sem telefones"
   },
   {
     "id": 3709,
     "intensidad": 9,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Usen únicamente apodos temporales.",
+    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: usem apenas apelidos temporários.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-10}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Apodos temporales"
+    "regla": "Apelidos temporários"
   },
   {
     "id": 3710,
     "intensidad": 9,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Cuenten desde 14 hasta cero antes de responder.",
+    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Conte de 14 a zero antes de responder.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-10}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Cuenta regresiva"
+    "regla": "Contagem regressiva"
   },
   {
     "id": 3711,
     "intensidad": 9,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Usen exactamente 14 palabras por frase.",
+    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Use exatamente 14 palavras por frase.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-10}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Frases de 14 palabras"
+    "regla": "Frases de 14 palavras"
   },
   {
     "id": 3712,
     "intensidad": 9,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Respondan primero su propia pregunta.",
+    "texto": "EVENTO EM GRUPO: durante a próxima ronda: Respondam primeiro à sua própria pergunta.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-10}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Responder pregunta propia"
+    "regla": "Responder à própria pergunta"
   },
   {
     "id": 3713,
     "intensidad": 9,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Usen una emoción diferente por turno.",
+    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Use uma emoção diferente por turno.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-10}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Emoción diferente"
+    "regla": "Emoção diferente"
   },
   {
     "id": 3714,
     "intensidad": 9,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: No repitan ningún verbo.",
+    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Não repitam nenhum verbo.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-10}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "No repetir verbos"
+    "regla": "Não repetir verbos"
   },
   {
     "id": 3715,
     "intensidad": 9,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Comiencen susurrando y terminen fuerte.",
+    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Comece sussurrando e termine alto.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-10}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Cambiar volumen"
+    "regla": "Mudar volume"
   },
   {
     "id": 3716,
     "intensidad": 9,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Resuman lo anterior en tres palabras.",
+    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Resumam o anterior em três palavras.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-10}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Resumen previo"
+    "regla": "Resumo anterior"
   },
   {
     "id": 3717,
     "intensidad": 9,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Inicien con la última letra anterior.",
+    "texto": "EVENTO EM GRUPO: durante o próximo turno: Comecem com a última letra anterior.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-10}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Cadena por letra"
+    "regla": "Cadeia por letra"
   },
   {
     "id": 3718,
     "intensidad": 9,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Representen lo que dirán antes de hablar.",
+    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Representem o que vão dizer antes de falar.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-10}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Mímica previa"
+    "regla": "Mímica prévia"
   },
   {
     "id": 3719,
     "intensidad": 9,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Al oír 'perdón', hagan mano al corazón.",
+    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Ao ouvir 'desculpa', coloquem a mão sobre o coração.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-10}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Señal: perdón"
+    "regla": "Sinal: perdão"
   },
   {
     "id": 3720,
     "intensidad": 9,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Predigan qué dirá la siguiente persona.",
+    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Prevejam o que a próxima pessoa dirá.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-10}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Predicción final"
+    "regla": "Previsão final"
   },
   {
     "id": 3721,
     "intensidad": 10,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Ninguém pode dizer 'consecuencia'.",
+    "texto": "EVENTO EM GRUPO: durante a próxima ronda: Ninguém pode dizer 'consequência'.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-10}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Proibido: consecuencia"
+    "regla": "Proibido: consequência"
   },
   {
     "id": 3722,
     "intensidad": 10,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Todos devem hablar con voz de portavoz.",
+    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Todos devem falar com voz de porta-voz.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-10}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Voz de portavoz"
+    "regla": "Voz do porta-voz"
   },
   {
     "id": 3723,
     "intensidad": 10,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Antes de hablar, hagan pose solemne.",
+    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Antes de falar, façam pose solene.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-10}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "pose solemne antes de hablar"
+    "regla": "pose solene antes de falar"
   },
   {
     "id": 3724,
     "intensidad": 10,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Incluyan una palabra sobre verdades difíciles.",
+    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: inclua uma palavra sobre verdades difíceis.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-10}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Palabra de verdades difíciles"
+    "regla": "Palavra de verdades difíceis"
   },
   {
     "id": 3725,
     "intensidad": 10,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Respondan solo con preguntas.",
+    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Respondam apenas com perguntas.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-10}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Solo preguntas"
+    "regla": "Só perguntas"
   },
   {
     "id": 3726,
     "intensidad": 10,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: No usen 'sí' ni 'no'.",
+    "texto": "EVENTO EM GRUPO: durante a próxima ronda: Não usem 'sim' nem 'não'.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-10}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Sin sim ni não"
+    "regla": "Sem sim nem não"
   },
   {
     "id": 3727,
     "intensidad": 10,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Hablen en tercera persona.",
+    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Falem na terceira pessoa.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-10}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Tercera persona"
+    "regla": "Terceira pessoa"
   },
   {
     "id": 3728,
     "intensidad": 10,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Brinden antes de beber.",
+    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Ofereçam antes de beber.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-10}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Brindar antes de beber"
+    "regla": "Brinde antes de beber"
   },
   {
     "id": 3729,
     "intensidad": 10,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Terminen cada frase con una rima.",
+    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Termine cada frase com uma rima.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-10}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Cerrar con rima"
+    "regla": "Fechar com rima"
   },
   {
     "id": 3730,
     "intensidad": 10,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Repitan la última palabra anterior.",
+    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Repitam a última palavra anterior.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-10}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Repetir última palabra"
+    "regla": "Repita a última palavra"
   },
   {
     "id": 3731,
     "intensidad": 10,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Imiten el gesto anterior y añadan otro.",
+    "texto": "EVENTO EM GRUPO: durante a próxima ronda: Imitem o gesto anterior e adicionem outro.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-10}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Cadena de gestos"
+    "regla": "Cadeia de gestos"
   },
   {
     "id": 3732,
     "intensidad": 10,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Cuenten hasta 15 sin hablar a la vez.",
+    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Contem até 15 sem falar ao mesmo tempo.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-10}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Conteo sin coincidir"
+    "regla": "Contagem sem corresponder"
   },
   {
     "id": 3733,
     "intensidad": 10,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Den un cumplido al cerrar su turno.",
+    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Dê um elogio ao encerrar sua vez.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-10}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Cerrar con cumplido"
+    "regla": "Encerrar com elogio"
   },
   {
     "id": 3734,
     "intensidad": 10,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: No usen nombres ni señalen.",
+    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Não usem nomes nem apontem.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-10}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Sin nãombres"
+    "regla": "Sem nomes"
   },
   {
     "id": 3735,
     "intensidad": 10,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Comiencen con 'confieso que'.",
+    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Comecem com 'confesso que'.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-10}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Inicio: confieso que"
+    "regla": "Início: confesso que"
   },
   {
     "id": 3736,
     "intensidad": 10,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Mantengan pose solemne mientras hablan.",
+    "texto": "EVENTO EM GRUPO: durante o próximo turno: Mantenham postura solene enquanto falam.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-10}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Mantener pose solemne"
+    "regla": "Manter pose solene"
   },
   {
     "id": 3737,
     "intensidad": 10,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Continúen una historia sobre verdades difíciles.",
+    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Continuem uma história sobre verdades difíceis.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-10}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Historia de verdades difíciles"
+    "regla": "História de verdades difíceis"
   },
   {
     "id": 3738,
     "intensidad": 10,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: No revisen el teléfono.",
+    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Não verifiquem o telefone.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-10}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Sin teléfonãos"
+    "regla": "Sem telefones"
   },
   {
     "id": 3739,
     "intensidad": 10,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Usen únicamente apodos temporales.",
+    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Usem apenas apelidos temporários.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-10}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Apodos temporales"
+    "regla": "Apelidos temporários"
   },
   {
     "id": 3740,
     "intensidad": 10,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Cuenten desde 15 hasta cero antes de responder.",
+    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Contem de 15 até zero antes de responder.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-10}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Cuenta regresiva"
+    "regla": "Contagem regressiva"
   },
   {
     "id": 3741,
     "intensidad": 10,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Usen exactamente 15 palabras por frase.",
+    "texto": "EVENTO EM GRUPO: durante o próximo turno: Usem exatamente 15 palavras por frase.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-10}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Frases de 15 palabras"
+    "regla": "Frases de 15 palavras"
   },
   {
     "id": 3742,
     "intensidad": 10,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Respondan primero su propia pregunta.",
+    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Respondam primeiro à sua própria pergunta.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-10}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Responder pregunta propia"
+    "regla": "Responder à própria pergunta"
   },
   {
     "id": 3743,
     "intensidad": 10,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Usen una emoción diferente por turno.",
+    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Usem uma emoção diferente por turno.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-10}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Emoción diferente"
+    "regla": "Emoção diferente"
   },
   {
     "id": 3744,
     "intensidad": 10,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: No repitan ningún verbo.",
+    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Não repitam nenhum verbo.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-10}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "No repetir verbos"
+    "regla": "Não repetir verbos"
   },
   {
     "id": 3745,
     "intensidad": 10,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Comiencen susurrando y terminen fuerte.",
+    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Comecem sussurrando e terminem alto.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-10}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Cambiar volumen"
+    "regla": "Mudar volume"
   },
   {
     "id": 3746,
     "intensidad": 10,
     "tipo": "eventos especiales",
-    "texto": "EVENTO GRUPAL: durante el próximo turno: Resuman lo anterior en tres palabras.",
+    "texto": "EVENTO EM GRUPO: durante o próximo turno: Resumam o anterior em três palavras.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-10}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 1,
-    "regla": "Resumen previo"
+    "regla": "Resumo anterior"
   },
   {
     "id": 3747,
     "intensidad": 10,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Inicien con la última letra anterior.",
+    "texto": "REGRA DA NOITE: durante as próximas 2 rondas: Comecem com a última letra anterior.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-10}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 2,
-    "regla": "Cadena por letra"
+    "regla": "Cadeia por letra"
   },
   {
     "id": 3748,
     "intensidad": 10,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Representen lo que dirán antes de hablar.",
+    "texto": "REGRA DA NOITE: durante as próximas 3 rondas: Aja o que você vai dizer antes de falar.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-10}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 3,
-    "regla": "Mímica previa"
+    "regla": "Mímica prévia"
   },
   {
     "id": 3749,
     "intensidad": 10,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Al oír 'consecuencia', hagan pose solemne.",
+    "texto": "REGRA DA NOITE: durante as próximas 4 rondas: Ao ouvir 'consequência', façam uma pose solene.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-10}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 4,
-    "regla": "Señal: consecuencia"
+    "regla": "Sinal: consequência"
   },
   {
     "id": 3750,
     "intensidad": 10,
     "tipo": "eventos especiales",
-    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Predigan qué dirá la siguiente persona.",
+    "texto": "REGRA DA NOITE: durante as próximas 5 rondas: Prevejam o que a próxima pessoa dirá.",
     "especial": true,
     "castigo": "Se alguém não fizer bebe [castigo_toma{1-10}] ou [castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "grupo",
     "duración_turno": 5,
-    "regla": "Predicción final"
+    "regla": "Previsão final"
   }
 ];
 

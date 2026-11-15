@@ -332,7 +332,11 @@ const DICTIONARY = {
     groupTag: 'TODO EL GRUPO',
     eventActivationMeta: 'Próximos {turns} turnos · Todos participan o eligen penitencia sin alcohol',
     catalogLoadingToast: 'Cargando cartas de Previa Mix...',
-    catalogLoadErrorToast: 'No se pudo cargar el catálogo local. Inténtalo de nuevo.'
+    catalogLoadErrorToast: 'No se pudo cargar el catálogo local. Inténtalo de nuevo.',
+    confirmDeleteCard: '¿Seguro que deseas eliminar o descartar esta carta del mazo?',
+    cardDeletedToast: 'Carta eliminada.',
+    confirmResetDeck: '¿Restablecer este mazo al catálogo original? Se descartarán las cartas creadas y modificaciones locales de este mazo.',
+    deckResetToast: 'Mazo restablecido al original.'
   },
   en: {
     // Splash
@@ -609,7 +613,11 @@ const DICTIONARY = {
     groupTag: 'EVERYONE',
     eventActivationMeta: 'Next {turns} turns · Everyone participates or picks a social forfeit',
     catalogLoadingToast: 'Loading Previa Mix cards...',
-    catalogLoadErrorToast: 'Could not load the local card catalog. Please try again.'
+    catalogLoadErrorToast: 'Could not load the local card catalog. Please try again.',
+    confirmDeleteCard: 'Are you sure you want to delete or discard this card from the deck?',
+    cardDeletedToast: 'Card deleted.',
+    confirmResetDeck: 'Reset this deck to the original catalog? Created cards and local changes will be discarded.',
+    deckResetToast: 'Deck reset to original.'
   },
   pt: {
     // Splash
@@ -886,7 +894,11 @@ const DICTIONARY = {
     groupTag: 'TODO O GRUPO',
     eventActivationMeta: 'Próximos {turns} turnos · Todos participam ou escolhem prenda sem álcool',
     catalogLoadingToast: 'Carregando cartas do Previa Mix...',
-    catalogLoadErrorToast: 'Não foi possível carregar o catálogo local. Tente novamente.'
+    catalogLoadErrorToast: 'Não foi possível carregar o catálogo local. Tente novamente.',
+    confirmDeleteCard: 'Tem certeza de que deseja excluir ou descartar esta carta do baralho?',
+    cardDeletedToast: 'Carta excluída.',
+    confirmResetDeck: 'Restaurar este baralho para o catálogo original? As cartas criadas e modificações locais serão descartadas.',
+    deckResetToast: 'Baralho restaurado para o original.'
   }
 };
 
