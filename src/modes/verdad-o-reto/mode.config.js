@@ -21,9 +21,9 @@ export const VERDAD_O_RETO_MODE_DEFINITION = Object.freeze({
   titleEs: 'Verdad o Reto',
   titleEn: 'Truth or Dare',
   titlePt: 'Verdade ou Desafio',
-  descEs: 'El juego clásico de previa: elige confesar tus mayores secretos o cumplir retos épicos.',
-  descEn: 'The party classic: choose to confess your deepest secrets or face epic dares.',
-  descPt: 'O clássico do esquenta: escolha confessar seus maiores segredos ou encarar desafios épicos.',
+  descEs: 'Un clásico: elige confesar tus mayores secretos o cumplir retos épicos.',
+  descEn: 'A classic: choose to confess your deepest secrets or face epic dares.',
+  descPt: 'Um clássico: escolha confessar seus maiores segredos ou encarar desafios épicos.',
   howToPlayEs: [
     'En cada turno, el jugador protagonista debe elegir entre dos cartas: ¿Verdad o Reto?',
     'Si un jugador elige demasiadas verdades seguidas, se bloqueará la opción y deberá cumplir un Reto obligatorio.',
