@@ -1,4 +1,4 @@
-const CACHE_NAME = 'oh-my-shot-v0.7.0-i18n';
+const CACHE_NAME = 'oh-my-shot-v0.7.01';
 
 const AVATAR_ASSETS = Array.from(
   { length: 36 },
@@ -40,6 +40,7 @@ const CARDS_LOCALE_FILES = [
   './src/cards/cards.loader.js',
   './src/cards/cards.pt-BR.js',
   './src/cards/cards.pt-PT.js',
+  './src/cards/castigos.catalog.js',
   './src/cards/castigos.en-GB.js',
   './src/cards/castigos.en-US.js',
   './src/cards/castigos.es-CO.js',

@@ -17,6 +17,7 @@ import {
   DEFAULT_CASTIGOS_TOMA,
   loadPreviaMixLocale
 } from './previa-mix.locales.js';
+import { getCastigosForLocale } from '../../cards/castigos.catalog.js';
 import { applyOverridesToCards } from '../editor/editor.storage.js';
 import { getCustomCardsForMode } from '../../core/customCards.js';
 import {
@@ -203,13 +204,25 @@ export function pickPenaltyFromToken(token, penaltyList = [], rng = Math.random)
 export function resolveDynamicPenalty(
   template,
   doesDrink = true,
-  castigosToma = DEFAULT_CASTIGOS_TOMA,
-  castigosNotoma = DEFAULT_CASTIGOS_NOTOMA,
-  rng = Math.random
+  castigosToma = null,
+  castigosNotoma = null,
+  rng = Math.random,
+  locale = 'es-CO'
 ) {
   if (!template || typeof template !== 'string') return '';
   const raw = template.trim();
   if (!raw) return '';
+
+  const safeLocale = String(locale || 'es-CO');
+  const baseLang = safeLocale.startsWith('en') ? 'en' : safeLocale.startsWith('pt') ? 'pt' : 'es';
+
+  const localeCastigos = getCastigosForLocale(safeLocale);
+  const effectiveToma = (Array.isArray(castigosToma) && castigosToma.length > 0)
+    ? castigosToma
+    : localeCastigos.castigos_toma;
+  const effectiveNotoma = (Array.isArray(castigosNotoma) && castigosNotoma.length > 0)
+    ? castigosNotoma
+    : localeCastigos.castigos_notoma;
 
   const hasDynamicBracket = /\[\s*[^\]]*?castigo_(?:toma|notoma)[^\]]*?\s*\]/i.test(raw);
 
@@ -222,19 +235,24 @@ export function resolveDynamicPenalty(
 
       if (doesDrink) {
         if (tomaPart) {
-          return pickPenaltyFromToken(tomaPart, castigosToma, rng);
+          return pickPenaltyFromToken(tomaPart, effectiveToma, rng);
         }
         if (notomaPart) {
-          return pickPenaltyFromToken(notomaPart, castigosNotoma, rng);
+          return pickPenaltyFromToken(notomaPart, effectiveNotoma, rng);
         }
       } else {
         if (notomaPart) {
-          return pickPenaltyFromToken(notomaPart, castigosNotoma, rng);
+          return pickPenaltyFromToken(notomaPart, effectiveNotoma, rng);
         }
         if (tomaPart) {
+          const defaultNoAlcoholText = baseLang === 'en'
+            ? 'complete a non-alcoholic forfeit'
+            : baseLang === 'pt'
+              ? 'cumpre um castigo sem álcool'
+              : 'cumple una penitencia sin alcohol';
           return (
-            pickPenaltyFromToken('castigo_notoma{x}', castigosNotoma, rng) ||
-            'cumple una penitencia sin alcohol'
+            pickPenaltyFromToken('castigo_notoma{x}', effectiveNotoma, rng) ||
+            defaultNoAlcoholText
           );
         }
       }
@@ -242,19 +260,28 @@ export function resolveDynamicPenalty(
     });
   }
 
+  // Castigos estáticos o con prefijo
+  const prefixPenalty = baseLang === 'en'
+    ? (safeLocale === 'en-GB' ? 'Forfeit: ' : 'Penalty: ')
+    : 'Castigo: ';
+  const prefixSober = baseLang === 'en'
+    ? 'Forfeit: '
+    : (baseLang === 'pt' ? 'Penitência: ' : 'Penitencia: ');
+  const defaultSoberText = baseLang === 'en'
+    ? 'Non-alcoholic forfeit'
+    : (baseLang === 'pt' ? 'Castigo sem álcool' : 'Penitencia sin alcohol');
+
+  const startsWithPrefix = /^(Si no|Castigo|Penitencia|Penitência|If they|If anyone|Whoever|Penalty|Forfeit|Se não|Se alguém|Quem)/i.test(raw);
+
   if (doesDrink) {
-    return raw.startsWith('Si no') || raw.startsWith('Castigo') || raw.startsWith('Penitencia')
-      ? raw
-      : `Castigo: ${raw}`;
+    return startsWithPrefix ? raw : `${prefixPenalty}${raw}`;
   } else {
-    const isDrinkingPenalty = /(trago|shot|sorbo|cerveza|copa|bebe|toma)/i.test(raw);
-    if (isDrinkingPenalty && castigosNotoma.length > 0) {
-      const alt = pickPenaltyFromToken('castigo_notoma{x}', castigosNotoma, rng);
-      return alt ? `Penitencia: ${alt}` : 'Penitencia sin alcohol';
+    const isDrinkingPenalty = /(trago|shot|sorbo|cerveza|copa|bebe|toma|drink|sip|pint|beer|gole|golo)/i.test(raw);
+    if (isDrinkingPenalty && effectiveNotoma.length > 0) {
+      const alt = pickPenaltyFromToken('castigo_notoma{x}', effectiveNotoma, rng);
+      return alt ? `${prefixSober}${alt}` : defaultSoberText;
     }
-    return raw.startsWith('Si no') || raw.startsWith('Castigo') || raw.startsWith('Penitencia')
-      ? raw
-      : `Penitencia: ${raw}`;
+    return startsWithPrefix ? raw : `${prefixSober}${raw}`;
   }
 }
 
@@ -685,7 +712,9 @@ export const previaMixAdapter = {
           card.castigo,
           playerDoesDrink,
           castigosToma,
-          castigosNotoma
+          castigosNotoma,
+          Math.random,
+          session.locale
         );
         card._cachedPenalty = cardPenaltyText;
         card._cachedPenaltyForDrink = playerDoesDrink;

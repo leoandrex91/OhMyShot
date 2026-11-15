@@ -230,16 +230,30 @@ export const verdadORetoAdapter = {
     let card = pickRandomElement(availablePool) || pool[0];
 
     if (!card) {
-      // Fallback de emergencia para un solo jugador
+      // Fallback de emergencia para un solo jugador con idioma adaptado
+      const isEn = session.locale?.startsWith('en');
+      const isPt = session.locale?.startsWith('pt');
+      let fbText = '';
+      if (effectiveChoice === 'verdad') {
+        fbText = isEn
+          ? '[player] Truth: What is the biggest lie you have ever told at a party?'
+          : isPt
+            ? '[player] Verdade: Qual foi a maior mentira que você já contou em uma festa?'
+            : '[player] Verdad: ¿Cuál ha sido la mentira más grande que has dicho en una fiesta?';
+      } else {
+        fbText = isEn
+          ? '[player] Dare: Imitate someone in the group for 1 minute.'
+          : isPt
+            ? '[player] Desafio: Imite alguém do grupo por 1 minuto.'
+            : '[player] Reto: Imita a alguien del grupo durante 1 minuto.';
+      }
+      const fbCastigo = isEn ? 'one drink' : isPt ? 'um gole' : '1 trago';
       card = {
         id: `vor_fb_${Date.now()}`,
-        texto:
-          effectiveChoice === 'verdad'
-            ? '¿Cuál ha sido la mentira más grande que has dicho en una fiesta?'
-            : 'Imita a alguien del grupo durante 1 minuto o toma 2 tragos.',
+        texto: fbText,
         tipo: effectiveChoice === 'verdad' ? 'verdad' : 'reto',
         intensidad: 5,
-        castigo: '1 trago',
+        castigo: fbCastigo,
         participantes: 'uno'
       };
     }
@@ -322,12 +336,20 @@ export const verdadORetoAdapter = {
       const usedSet = new Set((session.usedCardIds || []).map((id) => String(id)));
       const unusedBonus = bonusPool.filter((c) => !usedSet.has(String(c.id)));
       const availableBonus = unusedBonus.length > 0 ? unusedBonus : bonusPool;
+      const isEn = session.locale?.startsWith('en');
+      const isPt = session.locale?.startsWith('pt');
+      const fbBonusText = isEn
+        ? 'Bonus round! Everyone wearing glasses or a watch takes a sip.'
+        : isPt
+          ? 'Rodada Bônus! Todos que estiverem usando óculos ou relógio tomam um gole.'
+          : '¡Ronda Bonus! Todos los que lleven gafas o reloj toman un shot.';
+      const fbBonusCastigo = isEn ? 'one drink' : isPt ? 'um gole' : '1 trago';
       const rawBonus = pickRandomElement(availableBonus) || {
         id: `bonus_fb_${Date.now()}`,
-        texto: '¡Ronda Bonus! Todos los que lleven gafas o reloj toman un shot.',
+        texto: fbBonusText,
         tipo: 'bonus',
         intensidad: 5,
-        castigo: '1 trago',
+        castigo: fbBonusCastigo,
         participantes: 'grupo'
       };
 
@@ -396,14 +418,14 @@ export const verdadORetoAdapter = {
       return {
         isVorChoice: true,
         turnNumber: session.turn,
-        targetTurns: session.config.targetTurns,
+        targetTurns: session.config?.targetTurns || 45,
         activePlayer,
         consecutiveTruths,
         maxConsecutiveTruths: maxConsecutive,
         truthLocked,
         truthRemaining,
         locale: session.locale,
-        turnOrder: session.config.turnOrder || 'secuencial'
+        turnOrder: session.config?.turnOrder || 'secuencial'
       };
     }
 
@@ -437,7 +459,9 @@ export const verdadORetoAdapter = {
         card.castigo,
         playerDoesDrink,
         castigosToma,
-        castigosNotoma
+        castigosNotoma,
+        Math.random,
+        session.locale
       );
     }
 
@@ -472,12 +496,12 @@ export const verdadORetoAdapter = {
       locale: session.locale,
       typeLabel:
         session.currentChoice === 'verdad'
-          ? 'Verdad'
+          ? (session.locale?.startsWith('en') ? 'Truth' : session.locale?.startsWith('pt') ? 'Verdade' : 'Verdad')
           : session.currentChoice === 'reto'
-            ? 'Reto'
+            ? (session.locale?.startsWith('en') ? 'Dare' : session.locale?.startsWith('pt') ? 'Desafio' : 'Reto')
             : isBonusCard
-              ? 'Bonus'
-              : (card.tipo === 'verdad' ? 'Verdad' : card.tipo === 'reto' ? 'Reto' : 'Bonus'),
+              ? (session.locale?.startsWith('pt') ? 'Bônus' : 'Bonus')
+              : (card.tipo === 'verdad' ? (session.locale?.startsWith('en') ? 'Truth' : session.locale?.startsWith('pt') ? 'Verdade' : 'Verdad') : card.tipo === 'reto' ? (session.locale?.startsWith('en') ? 'Dare' : session.locale?.startsWith('pt') ? 'Desafio' : 'Reto') : 'Bonus'),
       typeMeta,
       fxMode,
       cardIntensity: card.intensidad || 5,

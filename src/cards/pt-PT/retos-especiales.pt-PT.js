@@ -11,7 +11,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio a dois: [player] e [player_x], alternem 5 palavras relacionadas com 'a amizade' sem repetir. Comecem antes que o grupo conte até 4.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -21,7 +21,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio de três: [player], [player_x] e [player_x1], crie uma sequência de 5 gestos e repita-a completamente. Comece antes que o grupo conte até 4.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -31,7 +31,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão dupla: [player] e [player_x], contem uma história sobre 'organizar uma festa' alternando uma palavra por vez. Comecem antes que o grupo conte até 4.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -41,7 +41,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão tripla: [player], [player_x] e [player_x1], representem 'organizar uma festa': os papéis serão apresentador, convidado e repórter. Comecem antes que o grupo conte até 4.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -51,7 +51,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio a dois: [player] e [player_x], inventem uma saudação secreta de 3 movimentos e façam-na sincronizados. Comecem antes que o grupo conte até 4.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -61,7 +61,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio de três: [player], [player_x] e [player_x1], formem uma cena congelada sobre 'a amizade' com poses diferentes. Comecem antes que o grupo conte até 4.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -71,7 +71,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão dupla: [player] e [player_x], um cria movimentos lentos e o outro os imita como um espelho por 18 segundos. Comecem antes que o grupo conte até 4.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -81,7 +81,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão tripla: [player], [player_x] e [player_x1], improvisem um telejornal sobre 'organizar uma festa' como apresentador, convidado e repórter. Comecem antes que o grupo conte até 4.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -91,7 +91,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio a dois: [player] e [player_x], repitam juntos um trava-língua escolhido pelo grupo 2 vezes. Comecem antes que o grupo conte até 4.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -101,7 +101,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio de três: [player], [player_x] e [player_x1], criem um ritmo de 6 sons corporais e executem-no duas vezes. Comecem antes que o grupo conte até 4.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -111,7 +111,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão dupla: [player] e [player_x], conversem por 21 segundos sem dizer 'sim', 'não' ou 'mas'. Comecem antes que o grupo conte até 4.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -121,7 +121,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão tripla: [player], [player_x] e [player_x1], construam uma história de 6 frases sobre 'a amizade' sem se contradizerem. Comecem antes que o grupo conte até 4.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -131,7 +131,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio a dois: [player] e [player_x], vendam um objeto escolhido pelo grupo: uma pessoa apresenta e outra demonstra. Comecem antes que o grupo conte até 4.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -141,7 +141,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio de três: [player], [player_x] e [player_x1], defender três perspectivas sobre a ‘amizade’ utilizando os personagens apresentador, convidado e repórter. Comece antes que o grupo conte até 4.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -151,7 +151,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão dupla: [player] e [player_x], cantem por turnos uma música, continuando de onde a pessoa anterior terminou. Comecem antes que o grupo conte até 4.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -161,7 +161,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão tripla: [player], [player_x] e [player_x1], inventem uma coreografia de 3 passos e terminem na mesma pose. Comecem antes que o grupo conte até 4.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -171,7 +171,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio do casal: [player] e [player_x], respondam três perguntas do grupo de costas e concordem em pelo menos 1. Comece antes que o grupo conte até 4.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -181,7 +181,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio de três: [player], [player_x] e [player_x1], representem 'organizar uma festa' usando apenas sons diferentes. Comecem antes que o grupo conte até 4.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -191,7 +191,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão dupla: [player] e [player_x], façam um brinde conjunto sobre 'a amizade', alternando uma frase sem pausas. Comecem antes que o grupo conte até 4.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -201,7 +201,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão tripla: [player], [player_x] e [player_x1], criem um anúncio de 23 segundos com apresentador, cliente e narrador. Comecem antes que o grupo conte até 4.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -211,7 +211,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio do casal: [player] e [player_x], soletre com os braços uma palavra escolhida pelo grupo sem falar. Comece antes que o grupo conte até 4.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -221,7 +221,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio de três: [player], [player_x] e [player_x1], improvisem uma cena sobre 'organizar uma festa' mostrando três emoções diferentes. Comecem antes que o grupo conte até 4.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -231,7 +231,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão dupla: [player] e [player_x], uma pessoa descreve um objeto sem nomeá-lo e a outra o representa. Comecem antes que o grupo conte até 4.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -241,7 +241,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão tripla: [player], [player_x] e [player_x1], organizem uma entrevista mantendo os papéis de apresentador, convidado e repórter durante 21 segundos. Comecem antes que o grupo conte até 4.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -251,7 +251,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio do casal: [player] e [player_x], digam 5 ideias relacionadas à 'amizade' alternando sem bloquear um ao outro. Comece antes que o grupo conte até 4.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -261,7 +261,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio de três: [player], [player_x] e [player_x1], criem uma máquina humana de três movimentos e três sons. Comecem antes que o grupo conte até 4.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -271,7 +271,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão dupla: [player] e [player_x], inventem quatro versos sobre 'a amizade' e recitem-nos alternadamente. Comecem antes que o grupo conte até 4.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -281,7 +281,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão tripla: [player], [player_x] e [player_x1], representam em câmera lenta 'organizar uma festa' com começo, conflito e fim. Comece antes que o grupo conte até 4.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -291,7 +291,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio a dois: [player] e [player_x], mantenham uma pose dramática enquanto contam juntos de 23 até zero. Comecem antes que o grupo conte até 4.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -301,7 +301,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio de três: [player], [player_x] e [player_x1], combinem um passo de dança, uma frase sobre 'a amizade' e uma pose final sincronizada. Comecem antes que o grupo conte até 4.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -311,7 +311,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio a dois: [player] e [player_x], alternem 6 palavras relacionadas com 'uma viagem caótica' sem repetir. Comecem antes que o grupo conte até 5.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -321,7 +321,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio de três: [player], [player_x] e [player_x1], criem uma sequência de 6 gestos e repitam-na completa. Comecem antes que o grupo conte até 5.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -331,7 +331,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão dupla: [player] e [player_x], contem uma história sobre 'perder um voo', alternando uma palavra por vez. Comecem antes que o grupo conte até 5.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -341,7 +341,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão tripla: [player], [player_x] e [player_x1], representem 'perder um voo': os papéis serão detetive, testemunha e suspeito. Comecem antes que o grupo conte até 5.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -351,7 +351,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio a dois: [player] e [player_x], inventem uma saudação secreta de 4 movimentos e façam-na sincronizados. Comecem antes que o grupo conte até 5.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -361,7 +361,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio de três: [player], [player_x] e [player_x1], formem uma cena congelada sobre 'uma viagem caótica' com poses diferentes. Comecem antes que o grupo conte até 5.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -371,7 +371,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão dupla: [player] e [player_x], um cria movimentos lentos e o outro os imita como um espelho por 17 segundos. Comecem antes que o grupo conte até 5.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -381,7 +381,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão tripla: [player], [player_x] e [player_x1], improvisem um telejornal sobre 'perder um voo' como detetive, testemunha e suspeito. Comecem antes que o grupo conte até 5.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -391,7 +391,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio a dois: [player] e [player_x], repitam juntos um trava-línguas escolhido pelo grupo 2 vezes. Comecem antes que o grupo conte até 5.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -401,7 +401,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio de três: [player], [player_x] e [player_x1], criem um ritmo de 7 sons corporais e executem-no duas vezes. Comecem antes que o grupo conte até 5.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -411,7 +411,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão dupla: [player] e [player_x], conversar por 20 segundos sem dizer 'sim', 'não' ou 'mas'. Comece antes que o grupo conte até 5.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -421,7 +421,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão tripla: [player], [player_x] e [player_x1], construam uma história de 7 frases sobre 'uma viagem caótica' sem se contradizerem. Comecem antes que o grupo conte até 5.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -431,7 +431,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio a dois: [player] e [player_x], vendam um objeto escolhido pelo grupo: uma pessoa apresenta e outra demonstra. Comecem antes que o grupo conte até 5.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -441,7 +441,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio dos três: [player], [player_x] e [player_x1], defendam três perspectivas sobre 'uma viagem caótica' usando os personagens detetive, testemunha e suspeito. Comecem antes que o grupo conte até 5.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -451,7 +451,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão dupla: [player] e [player_x], cantem por turnos uma música, continuando de onde a pessoa anterior terminou. Comecem antes que o grupo conte até 5.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -461,7 +461,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão tripla: [player], [player_x] e [player_x1], inventem uma coreografia de 4 passos e terminem na mesma pose. Comecem antes que o grupo conte até 5.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -471,7 +471,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio do casal: [player] e [player_x], respondam três perguntas do grupo de costas e concordem em pelo menos 1. Comece antes que o grupo conte até 5.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -481,7 +481,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio de três: [player], [player_x] e [player_x1], representem 'perder um voo' usando apenas sons diferentes. Comecem antes que o grupo conte até 5.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -491,7 +491,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão dupla: [player] e [player_x], façam um brinde conjunto sobre 'uma viagem caótica', alternando uma frase sem pausas. Comecem antes que o grupo conte até 5.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -501,7 +501,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão tripla: [player], [player_x] e [player_x1], criem um anúncio de 22 segundos com apresentador, cliente e narrador. Comecem antes que o grupo conte até 5.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -511,7 +511,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio do casal: [player] e [player_x], soletre com os braços uma palavra escolhida pelo grupo sem falar. Comece antes que o grupo conte até 5.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -521,7 +521,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio para três: [player], [player_x] e [player_x1], improvisar uma cena sobre 'perder um voo' mostrando três emoções diferentes. Comece antes que o grupo conte até 5.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -531,7 +531,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão dupla: [player] e [player_x], uma pessoa descreve um objeto sem nomeá-lo e a outra o representa. Comece antes que o grupo conte até 5.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -541,7 +541,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão tripla: [player], [player_x] e [player_x1], organizem uma entrevista mantendo os papéis de detetive, testemunha e suspeito por 20 segundos. Comecem antes que o grupo conte até 5.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -551,7 +551,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio a dois: [player] e [player_x], digam 6 ideias relacionadas com 'uma viagem caótica', alternando sem travar. Comecem antes que o grupo conte até 5.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -561,7 +561,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio de três: [player], [player_x] e [player_x1], criem uma máquina humana de três movimentos e três sons. Comecem antes que o grupo conte até 5.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -571,7 +571,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão dupla: [player] e [player_x], inventar quatro versos sobre 'uma jornada caótica' e recitá-los alternadamente. Comece antes que o grupo conte até 5.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -581,7 +581,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão tripla: [player], [player_x] e [player_x1], representem em câmera lenta 'perder um voo' com início, conflito e final. Comecem antes que o grupo conte até 5.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -591,7 +591,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio de Casal: [player] e [player_x], mantenham uma pose dramática enquanto contam juntos de 26 a zero. Comece antes que o grupo conte até 5.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -601,7 +601,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio dos três: [player], [player_x] e [player_x1], combinem um passo de dança, uma frase sobre \"uma viagem caótica\" e uma pose final sincronizada. Comecem antes que o grupo conte até 5.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -611,7 +611,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio a dois: [player] e [player_x], alternem 7 palavras relacionadas com 'um encontro constrangedor' sem repetir. Comecem antes que o grupo conte até 6.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -621,7 +621,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio de três: [player], [player_x] e [player_x1], crie uma sequência de 7 gestos e repita-a completamente. Comece antes que o grupo conte até 6.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -631,7 +631,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão dupla: [player] e [player_x], contem uma história sobre 'receber uma mensagem estranha' alternando uma palavra por vez. Comecem antes que o grupo conte até 6.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -641,7 +641,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão tripla: [player], [player_x] e [player_x1], representem 'receber uma mensagem estranha': os papéis serão vendedor, cliente e narrador. Comecem antes que o grupo conte até 6.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -651,7 +651,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio a dois: [player] e [player_x], inventem uma saudação secreta de 5 movimentos e façam-na sincronizados. Comecem antes que o grupo conte até 6.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -661,7 +661,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio de três: [player], [player_x] e [player_x1], formam uma cena congelada sobre 'um encontro estranho' com poses diferentes. Comece antes que o grupo conte até 6.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -671,7 +671,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão dupla: [player] e [player_x], um cria movimentos lentos e o outro os imita como um espelho por 16 segundos. Comece antes que o grupo conte até 6.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -681,7 +681,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão tripla: [player], [player_x] e [player_x1], improvisem um jornal sobre 'receber uma mensagem estranha' como vendedor, cliente e narrador. Comecem antes que o grupo conte até 6.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -691,7 +691,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio a dois: [player] e [player_x], repitam juntos um trava-línguas escolhido pelo grupo 3 vezes. Comecem antes que o grupo conte até 6.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -701,7 +701,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio dos três: [player], [player_x] e [player_x1], criem um ritmo de 8 sons corporais e executem-no duas vezes. Comecem antes que o grupo conte até 6.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -711,7 +711,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão dupla: [player] e [player_x], conversem por 19 segundos sem dizer 'sim', 'não' nem 'mas'. Comecem antes que o grupo conte até 6.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -721,7 +721,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão tripla: [player], [player_x] e [player_x1], construam uma história de 8 frases sobre 'um encontro constrangedor' sem se contradizerem. Comecem antes que o grupo conte até 6.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -731,7 +731,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio a dois: [player] e [player_x], vendam um objeto escolhido pelo grupo: uma pessoa apresenta e outra demonstra. Comecem antes que o grupo conte até 6.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -741,7 +741,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio de três: [player], [player_x] e [player_x1], defendam três perspectivas sobre 'um encontro desconfortável' usando os personagens vendedor, cliente e narrador. Comecem antes que o grupo conte até 6.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -751,7 +751,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão dupla: [player] e [player_x], cantem por turnos uma música, continuando de onde a pessoa anterior terminou. Comecem antes que o grupo conte até 6.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -761,7 +761,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão tripla: [player], [player_x] e [player_x1], inventem uma coreografia de 5 passos e terminem na mesma pose. Comecem antes que o grupo conte até 6.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -771,7 +771,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio em casal: [player] e [player_x], respondam de costas três perguntas do grupo e coincidam em pelo menos 1. Comecem antes que o grupo conte até 6.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -781,7 +781,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio de três: [player], [player_x] e [player_x1], representem 'receber uma mensagem estranha' usando apenas sons diferentes. Comecem antes que o grupo conte até 6.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -791,7 +791,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão dupla: [player] e [player_x], fazer um brinde conjunto sobre 'um encontro estranho', alternando uma frase sem pausas. Comece antes que o grupo conte até 6.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -801,7 +801,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão tripla: [player], [player_x] e [player_x1], criem um anúncio de 21 segundos com apresentador, cliente e narrador. Comecem antes que o grupo conte até 6.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -811,7 +811,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio a dois: [player] e [player_x], soletrarem com os braços uma palavra escolhida pelo grupo sem falar. Comecem antes que o grupo conte até 6.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -821,7 +821,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio de três: [player], [player_x] e [player_x1], improvise uma cena sobre 'receber uma mensagem estranha' mostrando três emoções diferentes. Comecem antes que o grupo conte até 6.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -831,7 +831,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão dupla: [player] e [player_x], uma pessoa descreve um objeto sem nomeá-lo e a outra o representa. Comecem antes que o grupo conte até 6.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -841,7 +841,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão tripla: [player], [player_x] e [player_x1], organizar uma entrevista mantendo os papéis de vendedor, cliente e narrador por 19 segundos. Comece antes que o grupo conte até 6.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -851,7 +851,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio a dois: [player] e [player_x], digam 7 ideias relacionadas a 'um encontro constrangedor' alternando sem travar. Comecem antes que o grupo conte até 6.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -861,7 +861,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio de três: [player], [player_x] e [player_x1], criem uma máquina humana de três movimentos e três sons. Comecem antes que o grupo conte até 6.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -871,7 +871,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão dupla: [player] e [player_x], inventem quatro versos sobre 'um encontro constrangedor' e recitem alternando. Comecem antes que o grupo conte até 6.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -881,7 +881,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão tripla: [player], [player_x] e [player_x1], representem em câmera lenta 'receber uma mensagem estranha' com início, conflito e final. Comecem antes que o grupo conte até 6.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -891,7 +891,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio a dois: [player] e [player_x], mantenham uma pose dramática enquanto contam juntos de 29 até zero. Comecem antes que o grupo conte até 6.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -901,7 +901,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio de três: [player], [player_x] e [player_x1], combinem um passo de dança, uma frase sobre 'um encontro constrangedor' e uma pose final sincronizada. Comecem antes que o grupo conte até 6.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -911,7 +911,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio a dois: [player] e [player_x], alternem 8 palavras relacionadas com 'um segredo do grupo' sem repetir. Comecem antes que o grupo conte até 7.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -921,7 +921,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio de três: [player], [player_x] e [player_x1], criem uma sequência de 8 gestos e repitam-na completa. Comecem antes que o grupo conte até 7.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -931,7 +931,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão dupla: [player] e [player_x], contem uma história sobre 'encontrar-se com um ex' alternando uma palavra por vez. Comecem antes que o grupo conte até 7.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -941,7 +941,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão tripla: [player], [player_x] e [player_x1], representem 'encontrar-se com um ex': os papéis serão advogado, acusado e juiz. Comecem antes que o grupo conte até 7.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -951,7 +951,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio em casal: [player] e [player_x], inventem uma saudação secreta de 6 movimentos e façam-na sincronizados. Comecem antes que o grupo conte até 7.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -961,7 +961,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio de três: [player], [player_x] e [player_x1], formem uma cena congelada sobre 'um segredo do grupo' com poses diferentes. Comecem antes que o grupo conte até 7.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -971,7 +971,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão dupla: [player] e [player_x], um cria movimentos lentos e o outro os imita como um espelho por 15 segundos. Comecem antes que o grupo conte até 7.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -981,7 +981,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão tripla: [player], [player_x] e [player_x1], improvisem um noticiário sobre 'encontrar-se com um ex' como advogado, acusado e juiz. Comecem antes que o grupo conte até 7.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -991,7 +991,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio do casal: [player] e [player_x], repetir juntos 3 vezes um trava-língua escolhido pelo grupo. Comece antes que o grupo conte até 7.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -1001,7 +1001,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio dos três: [player], [player_x] e [player_x1], criem um ritmo de 9 sons corporais e executem-no duas vezes. Comecem antes que o grupo conte até 7.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -1011,7 +1011,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão dupla: [player] e [player_x], conversem por 18 segundos sem dizer 'sim', 'não' ou 'mas'. Comecem antes que o grupo conte até 7.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -1021,7 +1021,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão tripla: [player], [player_x] e [player_x1], construam uma história de 9 frases sobre 'um segredo do grupo' sem se contradizerem. Comecem antes que o grupo conte até 7.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -1031,7 +1031,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio a dois: [player] e [player_x], vendam um objeto escolhido pelo grupo: uma pessoa apresenta e outra demonstra. Comecem antes que o grupo conte até 7.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -1041,7 +1041,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio de três: [player], [player_x] e [player_x1], defendam três perspectivas sobre 'um segredo do grupo' usando os personagens advogado, acusado e juiz. Comecem antes que o grupo conte até 7.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -1051,7 +1051,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão dupla: [player] e [player_x], cantem por turnos uma música, continuando de onde a pessoa anterior terminou. Comecem antes que o grupo conte até 7.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -1061,7 +1061,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão tripla: [player], [player_x] e [player_x1], inventar uma coreografia de 6 passos e terminar na mesma pose. Comece antes que o grupo conte até 7.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -1071,7 +1071,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio em casal: [player] e [player_x], respondam de costas a três perguntas do grupo e coincidam em pelo menos 2. Comecem antes que o grupo conte até 7.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -1081,7 +1081,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio três: [player], [player_x] e [player_x1], representam 'encontrar um ex-parceiro' usando apenas sons diferentes. Comece antes que o grupo conte até 7.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -1091,7 +1091,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão dupla: [player] e [player_x], façam um brinde conjunto sobre 'um segredo do grupo', alternando uma frase sem pausas. Comecem antes que o grupo conte até 7.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -1101,7 +1101,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão tripla: [player], [player_x] e [player_x1], criem um anúncio de 20 segundos com apresentador, cliente e narrador. Comecem antes que o grupo conte até 7.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -1111,7 +1111,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio a dois: [player] e [player_x], soletrarem com os braços uma palavra escolhida pelo grupo sem falar. Comecem antes que o grupo conte até 7.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -1121,7 +1121,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio dos três: [player], [player_x] e [player_x1], improvisem uma cena sobre \"encontrar um ex-parceiro\" mostrando três emoções diferentes. Comecem antes que o grupo conte até 7.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -1131,7 +1131,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão dupla: [player] e [player_x], uma pessoa descreve um objeto sem nomeá-lo e a outra o representa. Comecem antes que o grupo conte até 7.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -1141,7 +1141,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão tripla: [player], [player_x] e [player_x1], organizem uma entrevista mantendo os papéis de advogado, acusado e juiz durante 18 segundos. Comecem antes que o grupo conte até 7.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -1151,7 +1151,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio a dois: [player] e [player_x], digam 8 ideias relacionadas com 'um segredo do grupo', alternando sem travar. Comecem antes que o grupo conte até 7.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -1161,7 +1161,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio de três: [player], [player_x] e [player_x1], criem uma máquina humana de três movimentos e três sons. Comecem antes que o grupo conte até 7.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -1171,7 +1171,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão dupla: [player] e [player_x], inventem quatro versos sobre 'um segredo do grupo' e recitem-nos alternadamente. Comecem antes que o grupo conte até 7.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -1181,7 +1181,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão tripla: [player], [player_x] e [player_x1], representem em câmera lenta 'encontrar uma ex-parceira' com início, conflito e fim. Comecem antes que o grupo conte até 7.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -1191,7 +1191,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio a dois: [player] e [player_x], mantenham uma pose dramática enquanto contam juntos de 32 até zero. Comecem antes que o grupo conte até 7.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -1201,7 +1201,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio de três: [player], [player_x] e [player_x1], combinam um passo de dança, uma frase sobre 'um segredo do grupo' e uma pose final sincronizada. Comece antes que o grupo conte até 7.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -1211,7 +1211,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio a dois: [player] e [player_x], alternem 9 palavras relacionadas com 'uma má decisão' sem repetir. Comecem antes que o grupo conte até 8.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -1221,7 +1221,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio de três: [player], [player_x] e [player_x1], crie uma sequência de 9 gestos e repita-a completamente. Comece antes que o grupo conte até 8.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -1231,7 +1231,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão dupla: [player] e [player_x], contem uma história sobre 'explicar uma foto embaraçosa' alternando uma palavra por vez. Comecem antes que o grupo conte até 8.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -1241,7 +1241,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão tripla: [player], [player_x] e [player_x1], representem 'explicar uma foto vergonhosa': os papéis serão influenciador, seguidor e crítico. Comecem antes que o grupo conte até 8.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -1251,7 +1251,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio a dois: [player] e [player_x], inventem uma saudação secreta de 7 movimentos e façam-na sincronizados. Comecem antes que o grupo conte até 8.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -1261,7 +1261,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio de três: [player], [player_x] e [player_x1], formem uma cena congelada sobre 'uma má decisão' com poses diferentes. Comecem antes que o grupo conte até 8.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -1271,7 +1271,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão dupla: [player] e [player_x], um cria movimentos lentos e o outro os imita como um espelho por 14 segundos. Comecem antes que o grupo conte até 8.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -1281,7 +1281,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão tripla: [player], [player_x] e [player_x1], improvisem um noticiário sobre 'explicar uma foto vergonhosa' como influenciador, seguidor e crítico. Comecem antes que o grupo conte até 8.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -1291,7 +1291,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio a dois: [player] e [player_x], repitam juntos um trava-línguas escolhido pelo grupo 4 vezes. Comecem antes que o grupo conte até 8.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -1301,7 +1301,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio de três: [player], [player_x] e [player_x1], criem um ritmo de 10 sons corporais e executem-no duas vezes. Comecem antes que o grupo conte até 8.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -1311,7 +1311,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão dupla: [player] e [player_x], conversem por 17 segundos sem dizer 'sim', 'não' nem 'mas'. Comecem antes que o grupo conte até 8.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -1321,7 +1321,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão tripla: [player], [player_x] e [player_x1], construam uma história de 10 frases sobre 'uma má decisão' sem se contradizer. Comecem antes que o grupo conte até 8.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -1331,7 +1331,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio a dois: [player] e [player_x], vendam um objeto escolhido pelo grupo: uma pessoa apresenta e outra demonstra. Comecem antes que o grupo conte até 8.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -1341,7 +1341,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio de três: [player], [player_x] e [player_x1], defendam três perspectivas sobre 'uma má decisão' usando os personagens influenciador, seguidor e crítico. Comecem antes que o grupo conte até 8.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -1351,7 +1351,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão dupla: [player] e [player_x], cantem por turnos uma música, continuando de onde a pessoa anterior terminou. Comecem antes que o grupo conte até 8.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -1361,7 +1361,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão tripla: [player], [player_x] e [player_x1], inventem uma coreografia de 7 passos e terminem na mesma pose. Comecem antes que o grupo conte até 8.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -1371,7 +1371,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio do casal: [player] e [player_x], respondam três das perguntas do grupo de costas e concordem em pelo menos 2. Comece antes que o grupo conte até 8.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -1381,7 +1381,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio de três: [player], [player_x] e [player_x1], representem 'explicar uma foto vergonhosa' usando apenas sons diferentes. Comecem antes que o grupo conte até 8.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -1391,7 +1391,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão dupla: [player] e [player_x], façam um brinde conjunto sobre 'uma má decisão', alternando uma frase sem pausas. Comecem antes que o grupo conte até 8.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -1401,7 +1401,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão tripla: [player], [player_x] e [player_x1], criem um anúncio de 19 segundos com apresentador, cliente e narrador. Comecem antes que o grupo conte até 8.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -1411,7 +1411,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio a dois: [player] e [player_x], soletrarem com os braços uma palavra escolhida pelo grupo sem falar. Comecem antes que o grupo conte até 8.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -1421,7 +1421,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio de três: [player], [player_x] e [player_x1], improvisem uma cena sobre 'explicar uma foto constrangedora' mostrando três emoções diferentes. Comecem antes que o grupo conte até 8.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -1431,7 +1431,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão dupla: [player] e [player_x], uma pessoa descreve um objeto sem nomeá-lo e a outra o representa. Comecem antes que o grupo conte até 8.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -1441,7 +1441,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão tripla: [player], [player_x] e [player_x1], organizem uma entrevista mantendo os papéis de influenciador, seguidor e crítico durante 17 segundos. Comecem antes que o grupo conte até 8.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -1451,7 +1451,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio a dois: [player] e [player_x], digam 9 ideias relacionadas com 'uma má decisão' alternando sem travar. Comecem antes que o grupo conte até 8.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -1461,7 +1461,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio de três: [player], [player_x] e [player_x1], criar uma máquina humana com três movimentos e três sons. Comece antes que o grupo conte até 8.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -1471,7 +1471,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão dupla: [player] e [player_x], inventar quatro versos sobre 'uma má decisão' e recitá-los alternadamente. Comece antes que o grupo conte até 8.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -1481,7 +1481,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão tripla: [player], [player_x] e [player_x1], atuam em câmera lenta 'explicar uma foto embaraçosa' com começo, conflito e fim. Comece antes que o grupo conte até 8.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -1491,7 +1491,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio a dois: [player] e [player_x], mantenham uma pose dramática enquanto contam juntos de 35 até zero. Comecem antes que o grupo conte até 8.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -1501,7 +1501,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio de três: [player], [player_x] e [player_x1], combinem um passo de dança, uma frase sobre 'uma má decisão' e uma pose final sincronizada. Comecem antes que o grupo conte até 8.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -1511,7 +1511,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio a dois: [player] e [player_x], alternem 10 palavras relacionadas com 'uma segunda chance' sem repetir. Comecem antes que o grupo conte até 9.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -1521,7 +1521,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio de três: [player], [player_x] e [player_x1], criar uma sequência de 10 gestos e repeti-la por completo. Comece antes que o grupo conte até 9.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -1531,7 +1531,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão dupla: [player] e [player_x], contem uma história sobre 'defender uma compra por impulso' alternando uma palavra por vez. Comecem antes que o grupo conte até 9.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -1541,7 +1541,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão tripla: [player], [player_x] e [player_x1], representem 'defender uma compra por impulso': os papéis serão porta-voz, jornalista e assessor. Comecem antes que o grupo conte até 9.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -1551,7 +1551,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio a dois: [player] e [player_x], inventem uma saudação secreta de 8 movimentos e façam-na sincronizados. Comecem antes que o grupo conte até 9.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -1561,7 +1561,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio de três: [player], [player_x] e [player_x1], formem uma cena congelada sobre 'uma segunda chance' com poses diferentes. Comecem antes que o grupo conte até 9.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -1571,7 +1571,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão dupla: [player] e [player_x], um cria movimentos lentos e o outro os imita como um espelho por 13 segundos. Comecem antes que o grupo conte até 9.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -1581,7 +1581,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão tripla: [player], [player_x] e [player_x1], improvisem um telejornal sobre 'defender uma compra por impulso' como porta-voz, jornalista e assessor. Comecem antes que o grupo conte até 9.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -1591,7 +1591,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio a dois: [player] e [player_x], repitam juntos um trava-línguas escolhido pelo grupo 4 vezes. Comecem antes que o grupo conte até 9.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -1601,7 +1601,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio para três: [player], [player_x] e [player_x1], criem um ritmo de 11 sons corporais e executem-no duas vezes. Comecem antes que o grupo conte até 9.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -1611,7 +1611,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão dupla: [player] e [player_x], conversem por 16 segundos sem dizer 'sim', 'não' ou 'mas'. Comecem antes que o grupo conte até 9.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -1621,7 +1621,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão tripla: [player], [player_x] e [player_x1], construir uma história de 11 frases sobre 'uma segunda chance' sem se contradizer. Comece antes que o grupo conte até 9.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -1631,7 +1631,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio a dois: [player] e [player_x], vendam um objeto escolhido pelo grupo: uma pessoa apresenta e outra demonstra. Comecem antes que o grupo conte até 9.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -1641,7 +1641,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio de três: [player], [player_x] e [player_x1], defendam três perspectivas sobre 'uma segunda chance' usando os personagens porta-voz, jornalista e assessor. Comecem antes que o grupo conte até 9.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -1651,7 +1651,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão dupla: [player] e [player_x], cantem por turnos uma música, continuando de onde a pessoa anterior terminou. Comecem antes que o grupo conte até 9.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -1661,7 +1661,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão tripla: [player], [player_x] e [player_x1], inventem uma coreografia de 8 passos e terminem na mesma pose. Comecem antes que o grupo conte até 9.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -1671,7 +1671,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio em casal: [player] e [player_x], respondam de costas a três perguntas do grupo e coincidam em pelo menos 2. Comecem antes que o grupo conte até 9.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -1681,7 +1681,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio de três: [player], [player_x] e [player_x1], representem 'defender uma compra por impulso' usando apenas sons diferentes. Comecem antes que o grupo conte até 9.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -1691,7 +1691,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão dupla: [player] e [player_x], façam um brinde conjunto sobre 'uma segunda chance', alternando uma frase sem pausas. Comecem antes que o grupo conte até 9.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -1701,7 +1701,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão tripla: [player], [player_x] e [player_x1], criem um anúncio de 18 segundos com apresentador, cliente e narrador. Comecem antes que o grupo conte até 9.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -1711,7 +1711,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio a dois: [player] e [player_x], soletrarem com os braços uma palavra escolhida pelo grupo sem falar. Comecem antes que o grupo conte até 9.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -1721,7 +1721,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio de três: [player], [player_x] e [player_x1], improvisar uma cena sobre 'defender uma compra impulsiva' mostrando três emoções diferentes. Comece antes que o grupo conte até 9.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -1731,7 +1731,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão dupla: [player] e [player_x], uma pessoa descreve um objeto sem nomeá-lo e a outra o representa. Comecem antes que o grupo conte até 9.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -1741,7 +1741,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão tripla: [player], [player_x] e [player_x1], organizem uma entrevista mantendo os papéis de porta-voz, jornalista e assessor durante 16 segundos. Comecem antes que o grupo conte até 9.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -1751,7 +1751,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio a dois: [player] e [player_x], digam 10 ideias relacionadas com 'uma segunda chance' alternando sem travar. Comecem antes que o grupo conte até 9.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -1761,7 +1761,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio de três: [player], [player_x] e [player_x1], criem uma máquina humana de três movimentos e três sons. Comecem antes que o grupo conte até 9.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -1771,7 +1771,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão dupla: [player] e [player_x], inventem quatro versos sobre 'uma segunda chance' e recitem-nos alternadamente. Comecem antes que o grupo conte até 9.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -1781,7 +1781,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão tripla: [player], [player_x] e [player_x1], representam em câmera lenta 'defender uma compra impulsiva' com começo, conflito e fim. Comece antes que o grupo conte até 9.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -1791,7 +1791,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio de Casal: [player] e [player_x], mantenham uma pose dramática enquanto contam juntos de 38 a zero. Comece antes que o grupo conte até 9.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -1801,7 +1801,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio de três: [player], [player_x] e [player_x1], combinem um passo de dança, uma frase sobre 'uma segunda chance' e uma pose final sincronizada. Comecem antes que o grupo conte até 9.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -1811,7 +1811,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio a dois: [player] e [player_x], alternem 11 palavras relacionadas com 'uma atração inesperada' sem repetir. Comecem antes que o grupo conte até 10.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -1821,7 +1821,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio de três: [player], [player_x] e [player_x1], criem uma sequência de 11 gestos e repitam-na completa. Comecem antes que o grupo conte até 10.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -1831,7 +1831,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão dupla: [player] e [player_x], contem uma história sobre 'negar ciúmes evidentes' alternando uma palavra por vez. Comecem antes que o grupo conte até 10.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -1841,7 +1841,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão tripla: [player], [player_x] e [player_x1], representam 'negar o ciúme óbvio': os papéis serão de terapeuta, paciente e observador. Comece antes que o grupo conte até 10.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -1851,7 +1851,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio a dois: [player] e [player_x], inventem uma saudação secreta de 9 movimentos e façam-na sincronizados. Comecem antes que o grupo conte até 10.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -1861,7 +1861,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio de três: [player], [player_x] e [player_x1], formem uma cena congelada sobre 'uma atração inesperada' com poses diferentes. Comecem antes que o grupo conte até 10.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -1871,7 +1871,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão dupla: [player] e [player_x], um cria movimentos lentos e o outro os imita como um espelho por 12 segundos. Comecem antes que o grupo conte até 10.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -1881,7 +1881,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão tripla: [player], [player_x] e [player_x1], improvisem um telejornal sobre 'negar ciúmes evidentes' como terapeuta, paciente e observador. Comecem antes que o grupo conte até 10.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -1891,7 +1891,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio do casal: [player] e [player_x], repetir juntos 5 vezes um trava-língua escolhido pelo grupo. Comece antes que o grupo conte até 10.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -1901,7 +1901,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio de três: [player], [player_x] e [player_x1], criem um ritmo de 12 sons corporais e executem-no duas vezes. Comecem antes que o grupo conte até 10.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -1911,7 +1911,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão dupla: [player] e [player_x], conversar por 15 segundos sem dizer 'sim', 'não' ou 'mas'. Comece antes que o grupo conte até 10.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -1921,7 +1921,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão tripla: [player], [player_x] e [player_x1], construam uma história de 12 frases sobre 'uma atração inesperada' sem se contradizerem. Comecem antes que o grupo conte até 10.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -1931,7 +1931,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio a dois: [player] e [player_x], vendam um objeto escolhido pelo grupo: uma pessoa apresenta e a outra demonstra. Comecem antes que o grupo conte até 10.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -1941,7 +1941,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio de três: [player], [player_x] e [player_x1], defendam três perspectivas sobre 'uma atração inesperada' usando os personagens terapeuta, paciente e observador. Comecem antes que o grupo conte até 10.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -1951,7 +1951,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão dupla: [player] e [player_x], cantem por turnos uma música, continuando de onde a pessoa anterior terminou. Comecem antes que o grupo conte até 10.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -1961,7 +1961,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão tripla: [player], [player_x] e [player_x1], inventar uma coreografia de 9 passos e terminar na mesma pose. Comece antes que o grupo conte até 10.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -1971,7 +1971,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio em casal: [player] e [player_x], respondam de costas três perguntas do grupo e coincidam em pelo menos 2. Comecem antes que o grupo conte até 10.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -1981,7 +1981,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio de três: [player], [player_x] e [player_x1], representem 'negar um ciúme evidente' usando apenas sons diferentes. Comecem antes que o grupo conte até 10.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -1991,7 +1991,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão dupla: [player] e [player_x], façam um brinde conjunto sobre 'uma atração inesperada', alternando uma frase sem pausas. Comecem antes que o grupo conte até 10.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -2001,7 +2001,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão tripla: [player], [player_x] e [player_x1], criem um anúncio de 17 segundos com apresentador, cliente e narrador. Comecem antes que o grupo conte até 10.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -2011,7 +2011,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio a dois: [player] e [player_x], soletrarem com os braços uma palavra escolhida pelo grupo sem falar. Comecem antes que o grupo conte até 10.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -2021,7 +2021,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio de três: [player], [player_x] e [player_x1], improvisem uma cena sobre 'negar um ciúme evidente' mostrando três emoções diferentes. Comecem antes que o grupo conte até 10.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -2031,7 +2031,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão dupla: [player] e [player_x], uma pessoa descreve um objeto sem nomeá-lo e a outra o representa. Comece antes que o grupo conte até 10.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -2041,7 +2041,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão tripla: [player], [player_x] e [player_x1], organizem uma entrevista mantendo os papéis de terapeuta, paciente e observador por 15 segundos. Comecem antes que o grupo conte até 10.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -2051,7 +2051,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio do casal: [player] e [player_x], digam 11 ideias relacionadas a 'uma atração inesperada' alternando sem bloqueio. Comece antes que o grupo conte até 10.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -2061,7 +2061,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio de três: [player], [player_x] e [player_x1], criar uma máquina humana com três movimentos e três sons. Comece antes que o grupo conte até 10.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -2071,7 +2071,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão dupla: [player] e [player_x], inventem quatro versos sobre 'uma atração inesperada' e recitem alternando. Comecem antes que o grupo conte até 10.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -2081,7 +2081,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão tripla: [player], [player_x] e [player_x1], representem em câmera lenta 'negar ciúmes evidentes' com início, conflito e fim. Comecem antes que o grupo conte até 10.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -2091,7 +2091,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio a dois: [player] e [player_x], mantenham uma pose dramática enquanto contam juntos de 41 até zero. Comecem antes que o grupo conte até 10.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -2101,7 +2101,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio de três: [player], [player_x] e [player_x1], combinem um passo de dança, uma frase sobre 'uma atração inesperada' e uma pose final sincronizada. Comecem antes que o grupo conte até 10.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -2111,7 +2111,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio a dois: [player] e [player_x], alternem 12 palavras relacionadas com 'uma mentira descoberta' sem repetir. Comecem antes que o grupo conte até 11.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -2121,7 +2121,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio de três: [player], [player_x] e [player_x1], criem uma sequência de 12 gestos e repitam-na completa. Comecem antes que o grupo conte até 11.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -2131,7 +2131,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão dupla: [player] e [player_x], contem uma história sobre 'descobrir duas versões diferentes' alternando uma palavra por vez. Comecem antes que o grupo conte até 11.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -2141,7 +2141,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão tripla: [player], [player_x] e [player_x1], representem 'descobrir duas versões distintas': os papéis serão investigador, envolvido e mediador. Comecem antes que o grupo conte até 11.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -2151,7 +2151,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio a dois: [player] e [player_x], inventem uma saudação secreta de 10 movimentos e façam-na sincronizados. Comecem antes que o grupo conte até 11.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -2161,7 +2161,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio de três: [player], [player_x] e [player_x1], formem uma cena congelada sobre 'uma mentira descoberta' com poses diferentes. Comecem antes que o grupo conte até 11.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -2171,7 +2171,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão dupla: [player] e [player_x], um cria movimentos lentos e o outro os imita como um espelho por 11 segundos. Comecem antes que o grupo conte até 11.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -2181,7 +2181,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão tripla: [player], [player_x] e [player_x1], improvisem um telejornal sobre 'descobrir duas versões distintas' como investigador, envolvido e mediador. Comecem antes que o grupo conte até 11.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -2191,7 +2191,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio do casal: [player] e [player_x], repetir juntos 5 vezes um trava-língua escolhido pelo grupo. Comece antes que o grupo conte até 11.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -2201,7 +2201,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio de três: [player], [player_x] e [player_x1], criem um ritmo de 13 sons corporais e executem-no duas vezes. Comecem antes que o grupo conte até 11.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -2211,7 +2211,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão dupla: [player] e [player_x], conversem por 14 segundos sem dizer 'sim', 'não' ou 'mas'. Comecem antes que o grupo conte até 11.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -2221,7 +2221,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão tripla: [player], [player_x] e [player_x1], construam uma história de 13 frases sobre 'uma mentira descoberta' sem se contradizer. Comecem antes que o grupo conte até 11.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -2231,7 +2231,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio a dois: [player] e [player_x], vendam um objeto escolhido pelo grupo: uma pessoa apresenta e outra demonstra. Comecem antes que o grupo conte até 11.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -2241,7 +2241,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio de três: [player], [player_x] e [player_x1], defendam três perspectivas sobre 'uma mentira descoberta' usando os personagens investigador, implicado e mediador. Comecem antes que o grupo conte até 11.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -2251,7 +2251,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão dupla: [player] e [player_x], se revezam cantando uma música, continuando onde a pessoa anterior terminou. Comece antes que o grupo conte até 11.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -2261,7 +2261,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão tripla: [player], [player_x] e [player_x1], inventem uma coreografia de 10 passos e terminem na mesma pose. Comecem antes que o grupo conte até 11.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -2271,7 +2271,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio em casal: [player] e [player_x], respondam de costas três perguntas do grupo e coincidam em pelo menos 3. Comecem antes que o grupo conte até 11.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -2281,7 +2281,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio de três: [player], [player_x] e [player_x1], representem 'descobrir duas versões diferentes' usando apenas sons diferentes. Comecem antes que o grupo conte até 11.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -2291,7 +2291,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão dupla: [player] e [player_x], façam um brinde conjunto sobre 'uma mentira descoberta', alternando uma frase sem pausas. Comecem antes que o grupo conte até 11.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -2301,7 +2301,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão tripla: [player], [player_x] e [player_x1], criem um anúncio de 16 segundos com apresentador, cliente e narrador. Comecem antes que o grupo conte até 11.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -2311,7 +2311,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio do casal: [player] e [player_x], soletre com os braços uma palavra escolhida pelo grupo sem falar. Comece antes que o grupo conte até 11.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -2321,7 +2321,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio de três: [player], [player_x] e [player_x1], improvisem uma cena sobre 'descobrir duas versões diferentes' mostrando três emoções diferentes. Comecem antes que o grupo conte até 11.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -2331,7 +2331,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão dupla: [player] e [player_x], uma pessoa descreve um objeto sem nomeá-lo e a outra o representa. Comecem antes que o grupo conte até 11.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -2341,7 +2341,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão tripla: [player], [player_x] e [player_x1], organizem uma entrevista mantendo os papéis de investigador, envolvido e mediador durante 14 segundos. Comecem antes que o grupo conte até 11.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -2351,7 +2351,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio a dois: [player] e [player_x], digam 12 ideias relacionadas com 'uma mentira descoberta', alternando sem travar. Comecem antes que o grupo conte até 11.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -2361,7 +2361,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio de três: [player], [player_x] e [player_x1], criem uma máquina humana de três movimentos e três sons. Comecem antes que o grupo conte até 11.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -2371,7 +2371,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão dupla: [player] e [player_x], inventem quatro versos sobre 'uma mentira descoberta' e recitem-nos alternadamente. Comecem antes que o grupo conte até 11.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -2381,7 +2381,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão tripla: [player], [player_x] e [player_x1], representam em câmera lenta a 'descoberta de duas versões diferentes' com começo, conflito e fim. Comece antes que o grupo conte até 11.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -2391,7 +2391,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio a dois: [player] e [player_x], mantenham uma pose dramática enquanto contam juntos de 44 até zero. Comecem antes que o grupo conte até 11.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -2401,7 +2401,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio de três: [player], [player_x] e [player_x1], combinam um passo de dança, uma frase sobre 'uma mentira descoberta' e uma pose final sincronizada. Comece antes que o grupo conte até 11.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -2411,7 +2411,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio do casal: [player] e [player_x], alterne 13 palavras relacionadas a 'confiança quebrada' sem repetir. Comece antes que o grupo conte até 12.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -2421,7 +2421,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio de três: [player], [player_x] e [player_x1], criem uma sequência de 13 gestos e repitam-na completa. Comecem antes que o grupo conte até 12.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -2431,7 +2431,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão dupla: [player] e [player_x], contem uma história sobre 'pedir um pedido de desculpas importante' alternando uma palavra por vez. Comecem antes que o grupo conte até 12.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -2441,7 +2441,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão tripla: [player], [player_x] e [player_x1], representem 'pedir um pedido de desculpas importante': os papéis serão fiscal, testemunha e juiz. Comecem antes que o grupo conte até 12.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -2451,7 +2451,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio do casal: [player] e [player_x], inventar uma saudação secreta com 11 movimentos e fazê-la em sincronia. Comece antes que o grupo conte até 12.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -2461,7 +2461,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio de três: [player], [player_x] e [player_x1], formem uma cena congelada sobre 'a confiança quebrada' com poses diferentes. Comecem antes que o grupo conte até 12.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -2471,7 +2471,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão dupla: [player] e [player_x], um cria movimentos lentos e o outro os imita como um espelho por 10 segundos. Comecem antes que o grupo conte até 12.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -2481,7 +2481,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão tripla: [player], [player_x] e [player_x1], improvisar um noticiário sobre 'pedir desculpas pesadamente' como promotor, testemunha e juiz. Comece antes que o grupo conte até 12.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -2491,7 +2491,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio a dois: [player] e [player_x], repitam juntos um trava-línguas escolhido pelo grupo 6 vezes. Comecem antes que o grupo conte até 12.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -2501,7 +2501,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio de três: [player], [player_x] e [player_x1], criem um ritmo de 14 sons corporais e executem-no duas vezes. Comecem antes que o grupo conte até 12.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -2511,7 +2511,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão dupla: [player] e [player_x], conversem por 13 segundos sem dizer 'sim', 'não' ou 'mas'. Comecem antes que o grupo conte até 12.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -2521,7 +2521,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão tripla: [player], [player_x] e [player_x1], construam uma história de 14 frases sobre 'a confiança quebrada' sem se contradizer. Comecem antes que o grupo conte até 12.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -2531,7 +2531,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio a dois: [player] e [player_x], vendam um objeto escolhido pelo grupo: uma pessoa apresenta e a outra demonstra. Comecem antes que o grupo conte até 12.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -2541,7 +2541,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio de três: [player], [player_x] e [player_x1], defendam três perspectivas sobre 'a confiança quebrada' usando os personagens promotor, testemunha e juiz. Comecem antes que o grupo conte até 12.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -2551,7 +2551,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão dupla: [player] e [player_x], se revezam cantando uma música, continuando onde a pessoa anterior terminou. Comece antes que o grupo conte até 12.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -2561,7 +2561,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão tripla: [player], [player_x] e [player_x1], inventar uma coreografia de 11 passos e terminar na mesma pose. Comece antes que o grupo conte até 12.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -2571,7 +2571,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio em casal: [player] e [player_x], respondam de costas a três perguntas do grupo e coincidam em pelo menos 3. Comecem antes que o grupo conte até 12.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -2581,7 +2581,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio de três: [player], [player_x] e [player_x1], representem 'pedir um grande pedido de desculpas' usando apenas sons diferentes. Comecem antes que o grupo conte até 12.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -2591,7 +2591,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão dupla: [player] e [player_x], façam um brinde conjunto sobre 'a confiança quebrada', alternando uma frase sem pausas. Comecem antes que o grupo conte até 12.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -2601,7 +2601,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão tripla: [player], [player_x] e [player_x1], criem um anúncio de 15 segundos com apresentador, cliente e narrador. Comecem antes que o grupo conte até 12.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -2611,7 +2611,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio a dois: [player] e [player_x], soletrarem com os braços uma palavra escolhida pelo grupo sem falar. Comecem antes que o grupo conte até 12.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -2621,7 +2621,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio de três: [player], [player_x] e [player_x1], improvisar uma cena sobre 'pedir desculpas por algo importante' mostrando três emoções diferentes. Comece antes que o grupo conte até 12.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -2631,7 +2631,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão dupla: [player] e [player_x], uma pessoa descreve um objeto sem nomeá-lo e a outra o representa. Comece antes que o grupo conte até 12.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -2641,7 +2641,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão tripla: [player], [player_x] e [player_x1], organizar uma entrevista ocupando os papéis de promotor, testemunha e juiz por 13 segundos. Comece antes que o grupo conte até 12.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -2651,7 +2651,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio do casal: [player] e [player_x], digam 13 ideias relacionadas a 'confiança quebrada' alternando sem bloqueio. Comece antes que o grupo conte até 12.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -2661,7 +2661,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio de três: [player], [player_x] e [player_x1], criem uma máquina humana de três movimentos e três sons. Comecem antes que o grupo conte até 12.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -2671,7 +2671,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão dupla: [player] e [player_x], inventem quatro versos sobre 'a confiança quebrada' e recitem-nos alternadamente. Comecem antes que o grupo conte até 12.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -2681,7 +2681,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão tripla: [player], [player_x] e [player_x1], atuam em câmera lenta 'pedindo um pedido de desculpas importante' com começo, conflito e fim. Comece antes que o grupo conte até 12.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -2691,7 +2691,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio de Casal: [player] e [player_x], mantenham uma pose dramática enquanto contam juntos de 47 a zero. Comece antes que o grupo conte até 12.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -2701,7 +2701,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio de três: [player], [player_x] e [player_x1], combinem um passo de dança, uma frase sobre 'a confiança quebrada' e uma pose final sincronizada. Comecem antes que o grupo conte até 12.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -2711,7 +2711,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio a dois: [player] e [player_x], alternem 14 palavras relacionadas com 'uma verdade difícil' sem repetir. Comecem antes que o grupo conte até 13.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -2721,7 +2721,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio de três: [player], [player_x] e [player_x1], criem uma sequência de 14 gestos e repitam-na completa. Comecem antes que o grupo conte até 13.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -2731,7 +2731,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão dupla: [player] e [player_x], contem uma história sobre 'enfrentar uma confissão definitiva' alternando uma palavra por vez. Comecem antes que o grupo conte até 13.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -2741,7 +2741,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão tripla: [player], [player_x] e [player_x1], representem 'enfrentar uma confissão definitiva': os papéis serão porta-voz, responsável e mediador. Comecem antes que o grupo conte até 13.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -2751,7 +2751,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio do casal: [player] e [player_x], inventar uma saudação secreta com 12 movimentos e fazê-la em sincronia. Comece antes que o grupo conte até 13.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -2761,7 +2761,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio de três: [player], [player_x] e [player_x1], formem uma cena congelada sobre 'uma verdade difícil' com poses diferentes. Comecem antes que o grupo conte até 13.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -2771,7 +2771,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão dupla: [player] e [player_x], um cria movimentos lentos e o outro os imita como um espelho por 9 segundos. Comecem antes que o grupo conte até 13.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -2781,7 +2781,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão tripla: [player], [player_x] e [player_x1], improvisar um noticiário sobre 'enfrentar uma confissão definitiva' como porta-voz, responsável e mediador. Comece antes que o grupo conte até 13.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -2791,7 +2791,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio a dois: [player] e [player_x], repitam juntos um trava-línguas escolhido pelo grupo 6 vezes. Comecem antes que o grupo conte até 13.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -2801,7 +2801,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio de três: [player], [player_x] e [player_x1], criem um ritmo de 15 sons corporais e executem-no duas vezes. Comecem antes que o grupo conte até 13.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -2811,7 +2811,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão dupla: [player] e [player_x], conversem por 12 segundos sem dizer 'sim', 'não' ou 'mas'. Comecem antes que o grupo conte até 13.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -2821,7 +2821,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão tripla: [player], [player_x] e [player_x1], construir uma história de 15 frases sobre 'uma verdade difícil' sem se contradizer. Comece antes que o grupo conte até 13.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -2831,7 +2831,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio a dois: [player] e [player_x], vendam um objeto escolhido pelo grupo: uma pessoa apresenta e outra demonstra. Comecem antes que o grupo conte até 13.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -2841,7 +2841,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio de três: [player], [player_x] e [player_x1], defendam três perspectivas sobre 'uma verdade difícil' usando os personagens porta-voz, responsável e mediador. Comecem antes que o grupo conte até 13.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -2851,7 +2851,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão dupla: [player] e [player_x], se revezam cantando uma música, continuando onde a pessoa anterior terminou. Comece antes que o grupo conte até 13.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -2861,7 +2861,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão tripla: [player], [player_x] e [player_x1], inventem uma coreografia de 12 passos e terminem na mesma pose. Comecem antes que o grupo conte até 13.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -2871,7 +2871,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio em casal: [player] e [player_x], respondam de costas três perguntas do grupo e coincidam em pelo menos 3. Comecem antes que o grupo conte até 13.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -2881,7 +2881,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio três: [player], [player_x] e [player_x1], representam 'enfrentar uma confissão definitiva' usando apenas sons diferentes. Comece antes que o grupo conte até 13.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -2891,7 +2891,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão dupla: [player] e [player_x], façam um brinde conjunto sobre 'uma verdade difícil', alternando uma frase sem pausas. Comecem antes que o grupo conte até 13.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -2901,7 +2901,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão tripla: [player], [player_x] e [player_x1], criem um anúncio de 14 segundos com apresentador, cliente e narrador. Comecem antes que o grupo conte até 13.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -2911,7 +2911,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio a dois: [player] e [player_x], soletrarem com os braços uma palavra escolhida pelo grupo sem falar. Comecem antes que o grupo conte até 13.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -2921,7 +2921,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio de três: [player], [player_x] e [player_x1], improvisem uma cena sobre 'enfrentar uma confissão definitiva' mostrando três emoções diferentes. Comecem antes que o grupo conte até 13.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -2931,7 +2931,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão dupla: [player] e [player_x], uma pessoa descreve um objeto sem nomeá-lo e a outra o representa. Comecem antes que o grupo conte até 13.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -2941,7 +2941,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão tripla: [player], [player_x] e [player_x1], organizem uma entrevista mantendo os papéis de porta-voz, responsável e mediador durante 12 segundos. Comecem antes que o grupo conte até 13.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -2951,7 +2951,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio a dois: [player] e [player_x], digam 14 ideias relacionadas com 'uma verdade difícil' alternando sem travar. Comecem antes que o grupo conte até 13.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -2961,7 +2961,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio de três: [player], [player_x] e [player_x1], criem uma máquina humana de três movimentos e três sons. Comecem antes que o grupo conte até 13.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -2971,7 +2971,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão dupla: [player] e [player_x], inventem quatro versos sobre 'uma verdade difícil' e recitem-nos alternadamente. Comecem antes que o grupo conte até 13.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -2981,7 +2981,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Missão tripla: [player], [player_x] e [player_x1], representem em câmera lenta 'enfrentar uma confissão definitiva' com início, conflito e fim. Comecem antes que o grupo conte até 13.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   },
@@ -2991,7 +2991,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio de Casal: [player] e [player_x], mantenham uma pose dramática enquanto contam juntos de 50 a zero. Comece antes que o grupo conte até 13.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "dos"
   },
@@ -3001,7 +3001,7 @@ export const retosEspecialesCards = [
     "tipo": "retos especiales",
     "texto": "Desafio de três: [player], [player_x] e [player_x1], combinem um passo de dança, uma frase sobre 'uma verdade difícil' e uma pose final sincronizada. Comecem antes que o grupo conte até 13.",
     "especial": true,
-    "castigo": "Quem não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Quem não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 3,
     "participantes": "tres"
   }

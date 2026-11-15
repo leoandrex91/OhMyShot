@@ -11,7 +11,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Nomeie 3 exemplos de animais em 15 segundos.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -21,7 +21,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Cite 3 palavras relacionadas à amizade sem repetir.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -31,7 +31,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Convença o grupo de que 'um guardanapo' é essencial e mencione 3 razões.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -41,7 +41,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Repete 'três tristes tigres' 2 vezes sem errar.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -51,7 +51,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] soletra 'sol' ao contrário sem pausas.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -61,7 +61,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Conte regressivamente a partir de 35, omitindo múltiplos de 3.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -71,7 +71,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Resolva mentalmente 28 + 16 - 4.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -81,7 +81,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Imita um apresentador de notícias durante 19 segundos.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -91,7 +91,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Representa em silêncio a situação 'chegar atrasado a uma reunião' até que a adivinhem.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -101,7 +101,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Representa 'chegar atrasado a uma reunião' usando apenas sons.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -111,7 +111,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Vende um guardanapo como se custasse uma fortuna.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -121,7 +121,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Crie um slogan para um guardanapo.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -131,7 +131,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Faça um brinde de duas frases sobre amizade.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -141,7 +141,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Defende durante 23 segundos uma opinião impopular sobre a amizade.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -151,7 +151,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Inventa uma história de 6 frases sobre chegar atrasado a uma reunião.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -161,7 +161,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Componha quatro versos que incluam 'sol'.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -171,7 +171,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Improvise quatro versos de rap sobre amizade.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -181,7 +181,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Canta um coro conhecido no estilo robô.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -191,7 +191,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Dance no estilo robô por 18 segundos.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -201,7 +201,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Passear na passarela usando um guardanapo como acessório.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -211,7 +211,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Mantenha uma pose dramática por 17 segundos sem rir.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -221,7 +221,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Faça o grupo rir em menos de 17 segundos sem tocar em ninguém.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -231,7 +231,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Fale como apresentador de notícias até sua próxima vez.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -241,7 +241,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Não diga 'sim' até o seu próximo turno.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -251,7 +251,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Cria uma regra de festa válida até o seu próximo turno.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -261,7 +261,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Pede três palavras ao grupo e improvisa uma história com elas.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -271,7 +271,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Faz um discurso de premiação por ser especialista em amizade.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -281,7 +281,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Improvisa um pedido de desculpas convincente por ter causado esta situação: 'chegar atrasado a uma reunião'.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -291,7 +291,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Dá um conselho sério sobre a amizade atuando como apresentador de notícias.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -301,7 +301,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Conta uma história sobre uma música que anima sem usar 'eu'.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -311,7 +311,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Conta duas verdades e uma mentira sobre uma música que te anima; o grupo adivinha a mentira.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -321,7 +321,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Responda a uma pergunta do grupo sobre amizade em cinco segundos.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -331,7 +331,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Dedica um elogio diferente a 3 pessoas.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -341,7 +341,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Imitar uma pessoa do grupo até que adivinhem.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -351,7 +351,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Imita uma celebridade escolhida pelo grupo.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -361,7 +361,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Faça uma ação em câmera lenta de estar atrasado para uma reunião.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -371,7 +371,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Crie uma sequência de 5 palmas e repita.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -381,7 +381,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Diga os meses de trás para frente antes que contem até 21.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -391,7 +391,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Recite o alfabeto, pulando cada terceira letra.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -401,7 +401,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Cite 3 erros que podem piorar esta situação: 'chegar atrasado para uma reunião'.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -411,7 +411,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Explica a amizade como se estivesse falando com um extraterrestre.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -421,7 +421,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Transforma chegar atrasado a uma reunião em uma manchete de notícia.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -431,7 +431,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Faça uma pose diferente para cada letra de 'sol'.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -441,7 +441,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Descreve um guardanapo sem dizer seu nome até que adivinhem.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -451,7 +451,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Invente o nome e a receita de uma bebida inspirada na amizade.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -461,7 +461,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Representa com uma reação dramática esta situação: 'chegar atrasado a uma reunião'.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -471,7 +471,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Deixe que o grupo escolha uma emoção e conte sobre chegar atrasado a uma reunião expressando-a.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -481,7 +481,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Convence o grupo de que você é a melhor pessoa para resolver a amizade.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -491,7 +491,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Combine uma frase âncora de notícias, um passo de robô e uma pose dramática.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -501,7 +501,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Confessa uma música que te anima ou te representa durante 19 segundos como você evitaria responder.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -511,7 +511,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Cite 4 exemplos de países em 14 segundos.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -521,7 +521,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Diga 4 palavras relacionadas a boas decisões sem repetir.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -531,7 +531,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Convence o grupo de que 'um copo vazio' é indispensável e menciona 4 razões.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -541,7 +541,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Repita 'Pablito acertou um prego' 2 vezes sem errar.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -551,7 +551,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Soletra 'casa' de trás para frente sem pausas.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -561,7 +561,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Conte regressivamente a partir de 40, pulando múltiplos de 4.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -571,7 +571,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Resolva mentalmente 39 + 23 - 5.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -581,7 +581,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Imita um apresentador de concursos durante 18 segundos.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -591,7 +591,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Representa em silêncio a situação 'perder o autocarro' até que adivinhem.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -601,7 +601,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Representa 'perder o autocarro' usando apenas sons.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -611,7 +611,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Vende um copo vazio como se custasse uma fortuna.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -621,7 +621,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Crie um slogan para um copo vazio.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -631,7 +631,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Faça um brinde de duas frases sobre as boas decisões.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -641,7 +641,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Defenda por 22 segundos uma opinião impopular sobre boas decisões.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -651,7 +651,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Inventa uma história de 7 frases sobre perder o autocarro.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -661,7 +661,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Componha quatro versos que incluam 'casa'.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -671,7 +671,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Improvisa quatro linhas de rap sobre as boas decisões.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -681,7 +681,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Canta um coro conhecido em estilo câmera lenta.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -691,7 +691,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Dança no estilo câmera lenta por 17 segundos.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -701,7 +701,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Faça uma caminhada na passarela carregando um copo vazio como acessório.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -711,7 +711,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Mantenha uma pose dramática por 16 segundos sem rir.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -721,7 +721,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Faça o grupo rir em menos de 16 segundos sem tocar em ninguém.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -731,7 +731,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Fala como apresentador de concursos até a sua próxima vez.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -741,7 +741,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Não diga 'mas' até sua próxima vez.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -751,7 +751,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Cria uma regra de festa válida até sua próxima vez e começa antes que o grupo conte até 5.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -761,7 +761,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Pede três palavras ao grupo e improvisa uma história com elas, começando antes que o grupo conte até 5.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -771,7 +771,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Dá um discurso de premiação por ser especialista em boas decisões.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -781,7 +781,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Improvise um pedido de desculpas convincente por ter causado esta situação: 'perder o autocarro'.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -791,7 +791,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Dá conselhos sérios sobre boas decisões, atuando como apresentador de game show.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -801,7 +801,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Conte uma anedota sobre uma comida popular que você não gosta sem usar 'I'.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -811,7 +811,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Conta duas verdades e uma mentira sobre uma comida popular que você não gosta; o grupo adivinha a mentira.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -821,7 +821,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Responda a uma pergunta do grupo sobre boas decisões em cinco segundos.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -831,7 +831,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Dedica um elogio diferente a 4 pessoas.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -841,7 +841,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Imita uma pessoa do grupo até que adivinhem e começa antes que o grupo conte até 5.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -851,7 +851,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Imita uma celebridade escolhida pelo grupo e começa antes que o grupo conte até 5.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -861,7 +861,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Faça uma atuação em câmera lenta de perder o autocarro.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -871,7 +871,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Crie uma sequência de 6 palmas e repita-a.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -881,7 +881,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Diga os meses de trás para frente antes que eles contem até 20.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -891,7 +891,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Recite o alfabeto omitindo cada terceira letra e comece antes que o grupo conte até 5.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -901,7 +901,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Nomeie 4 erros que poderiam piorar esta situação: 'perder o autocarro'.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -911,7 +911,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Explica as boas decisões como se estivesse falando com um extraterrestre.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -921,7 +921,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Transforma perder o autocarro em uma manchete de notícias.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -931,7 +931,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Faça uma pose diferente para cada letra de 'casa'.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -941,7 +941,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Descreva um copo vazio sem dizer seu nome até que eles adivinhem.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -951,7 +951,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Inventa o nome e a receita de uma bebida inspirada nas boas decisões.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -961,7 +961,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Represente esta situação com uma reação dramática: 'perder o autocarro'.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -971,7 +971,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Deixa o grupo escolher uma emoção e conta perder o autocarro expressando-a.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -981,7 +981,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Convence o grupo de que você é a melhor pessoa para tomar as boas decisões.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -991,7 +991,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Combina uma frase de apresentador de quiz, um passo em câmera lenta e uma pose dramática.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1001,7 +1001,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Confesse a uma comida popular que você não gosta ou represente por 18 segundos como você evitaria responder.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1011,7 +1011,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Cite 5 exemplos de letras maiúsculas em 13 segundos.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1021,7 +1021,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Diga 5 palavras relacionadas a um encontro desastroso sem repetir.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1031,7 +1031,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Convença o grupo de que 'uma colher' é essencial e mencione 5 razões.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1041,7 +1041,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Repita 'compadre, compre um coco para mim' 3 vezes sem errar.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1051,7 +1051,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Soletra 'corazón' de trás para frente sem pausas.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1061,7 +1061,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Conte regressivamente a partir de 45, omitindo múltiplos de 5.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1071,7 +1071,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Resolva mentalmente 50 + 30 - 6.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1081,7 +1081,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Imita um vendedor de televisão durante 17 segundos.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1091,7 +1091,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Representa em silêncio a situação 'receber uma mensagem inesperada' até que adivinhem.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1101,7 +1101,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Representa 'receber uma mensagem inesperada' usando apenas sons.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1111,7 +1111,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Vende uma colher como se custasse uma fortuna.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1121,7 +1121,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Crie um slogan para uma colher.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1131,7 +1131,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Faça um brinde de duas frases sobre um encontro desastroso.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1141,7 +1141,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Defenda por 21 segundos uma opinião impopular sobre uma citação desastrosa.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1151,7 +1151,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Inventa uma história de 8 frases sobre receber uma mensagem inesperada.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1161,7 +1161,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Componha quatro versos que incluam 'coração'.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1171,7 +1171,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Improvisa quatro linhas de rap sobre um encontro desastroso.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1181,7 +1181,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Canta um refrão conhecido no estilo discoteca.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1191,7 +1191,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Dança no estilo discoteca por 16 segundos.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1201,7 +1201,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Faça uma caminhada na passarela carregando uma colher como acessório.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1211,7 +1211,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Mantenha uma pose dramática por 15 segundos sem rir.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1221,7 +1221,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Faça o grupo rir em menos de 15 segundos sem tocar em ninguém.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1231,7 +1231,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Fala como vendedor de televisão até sua próxima vez.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1241,7 +1241,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Não diga 'então' até a sua próxima vez.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1251,7 +1251,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Cria uma regra de festa válida até sua próxima vez e começa antes que o grupo conte até 6.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1261,7 +1261,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Peça três palavras ao grupo e improvise uma história com eles e comece antes que o grupo conte até 6.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1271,7 +1271,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Dá um discurso de premiação por ser especialista em um encontro desastroso.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1281,7 +1281,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Improvise um pedido de desculpas convincente por ter causado esta situação: 'receber uma mensagem inesperada'.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1291,7 +1291,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Dê conselhos sérios sobre um encontro desastroso enquanto atua como vendedor de televisão.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1301,7 +1301,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Conta uma história sobre um filme que fez chorar sem usar 'eu'.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1311,7 +1311,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Conta duas verdades e uma mentira sobre um filme que te fez chorar; o grupo adivinha a mentira.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1321,7 +1321,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Responde em cinco segundos a uma pergunta do grupo sobre um encontro desastroso.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1331,7 +1331,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Dedica um elogio diferente a 5 pessoas.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1341,7 +1341,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Imita uma pessoa do grupo até que adivinhem e começa antes que o grupo conte até 6.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1351,7 +1351,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Imita uma celebridade escolhida pelo grupo e começa antes que o grupo conte até 6.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1361,7 +1361,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Faça uma performance em câmera lenta de receber uma mensagem inesperada.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1371,7 +1371,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Crie uma sequência de 7 palmas e repita-a.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1381,7 +1381,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Diga os meses de trás para frente antes que contem até 19.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1391,7 +1391,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Recite o alfabeto, pulando cada terceira letra, e comece antes que o grupo conte até 6.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1401,7 +1401,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Cite 5 erros que podem piorar esta situação: 'receber uma mensagem inesperada'.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1411,7 +1411,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Explique uma citação desastrosa como se estivesse falando com um extraterrestre.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1421,7 +1421,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Transforma receber uma mensagem inesperada em uma manchete de notícias.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1431,7 +1431,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Faça uma pose diferente para cada letra de 'corazó'.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1441,7 +1441,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Descreva uma colher sem dizer seu nome até que eles adivinhem.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1451,7 +1451,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Invente o nome e a receita de um drink inspirado em um encontro desastroso.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1461,7 +1461,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Representa com uma reação dramática esta situação: 'receber uma mensagem inesperada'.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1471,7 +1471,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Deixe que o grupo escolha uma emoção e conte receber uma mensagem inesperada expressando-a.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1481,7 +1481,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Convence o grupo de que você é a melhor pessoa para resolver um encontro desastroso.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1491,7 +1491,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Combina uma frase de vendedor de televisão, um passo de discoteca e uma pose dramática.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1501,7 +1501,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Conte sobre um filme que fez você chorar ou represente por 17 segundos como você evitaria responder.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1511,7 +1511,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Nomeie 6 exemplos de cidades famosas em 12 segundos.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1521,7 +1521,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Diga 6 palavras relacionadas a uma primeira impressão equivocada sem repetir.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1531,7 +1531,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Convença o grupo de que 'uma garrafa' é essencial e mencione 6 razões.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1541,7 +1541,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Repete 'o céu está ladrilhado' 3 vezes sem errar.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1551,7 +1551,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Soletre 'paixão' ao contrário, sem pausas.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1561,7 +1561,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Conte regressivamente a partir de 50, pulando os múltiplos de 2.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1571,7 +1571,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Resolva mentalmente 61 + 37 - 7.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1581,7 +1581,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Imite um detetive de novela por 16 segundos.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1591,7 +1591,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Representa silenciosamente a situação 'ver um ex-parceiro em uma festa' até que adivinhem.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1601,7 +1601,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Representa 'ver um ex-parceiro em uma festa' usando apenas sons.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1611,7 +1611,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Venda uma garrafa como se custasse uma fortuna.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1621,7 +1621,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Crie um slogan para uma garrafa.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1631,7 +1631,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Faça um brinde de duas frases sobre uma primeira impressão equivocada.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1641,7 +1641,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Defende durante 20 segundos uma opinião impopular sobre uma primeira impressão equivocada.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1651,7 +1651,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Inventa uma história de 9 frases sobre ver um ex-parceiro em uma festa.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1661,7 +1661,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Componha quatro versos que incluam 'paixão'.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1671,7 +1671,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Improvisa quatro linhas de rap sobre uma primeira impressão equivocada.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1681,7 +1681,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Canta um coro conhecido no estilo reggaeton dramático.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1691,7 +1691,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Dance em estilo reggaeton dramático por 15 segundos.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1701,7 +1701,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Faça uma caminhada na passarela carregando uma garrafa como acessório.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1711,7 +1711,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Mantenha uma pose dramática por 14 segundos sem rir.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1721,7 +1721,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Faça o grupo rir em menos de 14 segundos sem tocar em ninguém.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1731,7 +1731,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Fale como um detetive de novela até o seu próximo turno.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1741,7 +1741,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Não diga 'literalmente' até seu próximo turno.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1751,7 +1751,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Cria uma regra de festa válida até sua próxima vez e começa antes que o grupo conte até 7.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1761,7 +1761,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Peça três palavras ao grupo e improvise uma história com eles e comece antes que o grupo conte até 7.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1771,7 +1771,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Dá um discurso de premiação por ser especialista em uma primeira impressão equivocada.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1781,7 +1781,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Improvisa um pedido de desculpas convincente por ter causado esta situação: 'ver um(a) ex em uma festa'.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1791,7 +1791,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Dá um conselho sério sobre uma primeira impressão equivocada atuando como detetive de novela.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1801,7 +1801,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Conta uma história sobre um gosto que dá vergonha admitir sem usar 'eu'.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1811,7 +1811,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Conta duas verdades e uma mentira sobre um gosto que você tem vergonha de admitir; o grupo tenta adivinhar a mentira.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1821,7 +1821,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Responde em cinco segundos a uma pergunta do grupo sobre uma primeira impressão equivocada.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1831,7 +1831,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Dedica um elogio diferente a 6 pessoas.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1841,7 +1841,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Imita uma pessoa do grupo até que adivinhem e começa antes que o grupo conte até 7.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1851,7 +1851,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Imita uma celebridade escolhida pelo grupo e começa antes que o grupo conte até 7.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1861,7 +1861,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Faça uma atuação em câmera lenta ao ver um ex-parceiro em uma festa.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1871,7 +1871,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Crie uma sequência de 8 palmas e repita-a.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1881,7 +1881,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Diga os meses de trás para frente antes que contem até 18.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1891,7 +1891,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Recite o alfabeto omitindo cada terceira letra e comece antes que o grupo conte até 7.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1901,7 +1901,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Nomeie 6 erros que poderiam piorar esta situação: 'ver um(a) ex em uma festa'.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1911,7 +1911,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Explique uma primeira impressão equivocada como se estivesse falando com um alienígena.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1921,7 +1921,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Transforma ver um ex-parceiro em uma festa em um título de notícia.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1931,7 +1931,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Faça uma pose diferente para cada letra de 'paixão'.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1941,7 +1941,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Descreve uma garrafa sem dizer seu nome até que a adivinhem.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1951,7 +1951,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Inventa o nome e a receita de uma bebida inspirada em uma primeira impressão equivocada.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1961,7 +1961,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Representa com uma reação dramática esta situação: 'ver um(a) ex em uma festa'.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1971,7 +1971,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Deixa o grupo escolher uma emoção e conta como é ver um ex-parceiro(a) em uma festa expressando-a.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1981,7 +1981,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Convence o grupo de que você é a melhor pessoa para resolver uma primeira impressão equivocada.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -1991,7 +1991,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Combina uma frase de detetive de novela, um passo de reggaeton dramático e uma pose dramática.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2001,7 +2001,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Confessa um gosto que te dá vergonha admitir ou representa durante 16 segundos como você evitaria responder.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2011,7 +2011,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Nomeie 7 exemplos de obras literárias em 11 segundos.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2021,7 +2021,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Diga 7 palavras relacionadas a um encontro impossível sem repetir.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2031,7 +2031,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Convence o grupo de que 'um telefone invisível' é indispensável e menciona 7 razões.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2041,7 +2041,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Repete 'Erre com erre cigarro' 4 vezes sem errar.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2051,7 +2051,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Soletra 'tentação' de trás para frente sem pausas.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2061,7 +2061,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Conta regressivamente a partir de 55, pulando múltiplos de 3.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2071,7 +2071,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Resolva mentalmente 72 + 44 - 8.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2081,7 +2081,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Imita um influenciador em crise por 15 segundos.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2091,7 +2091,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Represente em silêncio a situação \"encontrar uma foto constrangedora\" até que adivinhem.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2101,7 +2101,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Representa 'encontrar uma foto vergonhosa' usando apenas sons.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2111,7 +2111,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Vende um telefone invisível como se custasse uma fortuna.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2121,7 +2121,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Crie um slogan para um telefone invisível.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2131,7 +2131,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Faça um brinde de duas frases sobre um encontro impossível.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2141,7 +2141,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Defende durante 19 segundos uma opinião impopular sobre uma citação impossível.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2151,7 +2151,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Invente uma história de 10 frases sobre encontrar uma foto embaraçosa.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2161,7 +2161,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Componha quatro versos que incluam 'tentação'.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2171,7 +2171,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Improvise quatro versos de rap sobre um encontro impossível.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2181,7 +2181,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Cante um conhecido refrão estilo salsa sem música.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2191,7 +2191,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Dança no estilo salsa sem música por 14 segundos.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2201,7 +2201,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Faça uma caminhada na passarela carregando um telefone invisível como acessório.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2211,7 +2211,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Mantenha uma pose dramática por 13 segundos sem rir.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2221,7 +2221,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Faça o grupo rir em menos de 13 segundos sem tocar em ninguém.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2231,7 +2231,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Fala como influencer em crise até sua próxima vez.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2241,7 +2241,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Não diga 'óbvio' até a sua próxima vez.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2251,7 +2251,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Cria uma regra de festa válida até sua próxima vez e começa antes que o grupo conte até 8.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2261,7 +2261,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Peça ao grupo três palavras e improvise uma história com eles e comece antes que o grupo conte até 8.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2271,7 +2271,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Dá um discurso de premiação por ser especialista em uma citação impossível.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2281,7 +2281,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Improvisa um pedido de desculpas convincente por ter causado esta situação: 'encontrar uma foto embaraçosa'.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2291,7 +2291,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Dá um conselho sério sobre um encontro impossível atuando como influencer em crise.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2301,7 +2301,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Conta uma anedota sobre um amor platônico famoso sem usar 'eu'.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2311,7 +2311,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Conta duas verdades e uma mentira sobre um amor platônico famoso; o grupo adivinha a mentira.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2321,7 +2321,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Responde em cinco segundos a uma pergunta do grupo sobre um encontro impossível.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2331,7 +2331,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Faça um elogio diferente para 6 pessoas e comece antes que o grupo conte até 8.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2341,7 +2341,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Imite uma pessoa do grupo até que ela adivinhe e comece antes que o grupo conte até 8.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2351,7 +2351,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Imita uma celebridade escolhida pelo grupo e começa antes que o grupo conte até 8.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2361,7 +2361,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Faça um ato em câmera lenta para encontrar uma foto embaraçosa.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2371,7 +2371,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Crie uma sequência de 9 palmas e repita-a.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2381,7 +2381,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Diga os meses de trás para frente antes que contem até 17.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2391,7 +2391,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Recita o alfabeto omitindo cada terceira letra e comece antes que o grupo conte até 8.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2401,7 +2401,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Nomeie 7 erros que poderiam piorar esta situação: 'encontrar uma foto constrangedora'.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2411,7 +2411,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Explica uma citação impossível como se estivesse falando com um extraterrestre.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2421,7 +2421,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Converte encontrar uma foto embaraçosa em uma manchete de notícias.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2431,7 +2431,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Faça uma pose diferente para cada letra de 'tentac'.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2441,7 +2441,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Descreve um telefone invisível sem dizer o seu nome até que adivinhem.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2451,7 +2451,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Inventa o nome e a receita de uma bebida inspirada em uma citação impossível.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2461,7 +2461,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Representa com uma reação dramática esta situação: 'encontrar uma foto constrangedora'.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2471,7 +2471,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Deixe o grupo escolher uma emoção e peça-lhes para encontrarem uma foto embaraçosa que a expresse.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2481,7 +2481,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Convença o grupo de que você é a melhor pessoa para resolver um encontro impossível.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2491,7 +2491,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Combina uma frase de influencer em crise, um passo de salsa sem música e uma pose dramática.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2501,7 +2501,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Confessa um amor platônico famoso ou representa durante 15 segundos como evitaria responder.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-3} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-3} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2511,7 +2511,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Nomeie 8 exemplos de conceitos científicos em 10 segundos.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2521,7 +2521,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Diga 8 palavras relacionadas a segundas oportunidades sem repetir.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2531,7 +2531,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Convence o grupo de que 'um recibo suspeito' é indispensável e menciona 8 razões.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2541,7 +2541,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Repete 'o cachorro de São Roque não tem rabo' 4 vezes sem errar.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2551,7 +2551,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Soletra 'prohibido' ao contrário sem pausas.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2561,7 +2561,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Conte regressivamente a partir de 60, omitindo múltiplos de 4.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2571,7 +2571,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Resolva mentalmente 83 + 51 - 9.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2581,7 +2581,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Imitar um advogado fazendo uma má decisão por 14 segundos.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2591,7 +2591,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Representa silenciosamente a situação 'explicar uma compra por impulso' até que adivinhem.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2601,7 +2601,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Representa 'explicar uma compra impulsiva' usando apenas sons.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2611,7 +2611,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Venda um recibo suspeito como se custasse uma fortuna.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2621,7 +2621,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Crie um slogan para um recibo suspeito.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2631,7 +2631,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Faça um brinde de duas frases sobre segundas chances.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2641,7 +2641,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Defende durante 18 segundos uma opinião impopular sobre as segundas chances.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2651,7 +2651,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Inventa uma história de 11 frases sobre explicar uma compra por impulso.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2661,7 +2661,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Componha quatro versos que incluam 'proibido'.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2671,7 +2671,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Improvisa quatro linhas de rap sobre as segundas oportunidades.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2681,7 +2681,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Canta um refrão conhecido ao estilo dança sedutora.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2691,7 +2691,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Dança no estilo dança sedutora por 13 segundos.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2701,7 +2701,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Desfilar na passarela carregando um recibo suspeito como adereço.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2711,7 +2711,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Mantenha uma pose dramática por 12 segundos sem rir.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2721,7 +2721,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Faça o grupo rir em menos de 12 segundos sem tocar em ninguém.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2731,7 +2731,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Fala como advogado de uma má decisão até o seu próximo turno.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2741,7 +2741,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Não diga 'honestamente' até o seu próximo turno.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2751,7 +2751,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Crie uma regra de grupo válida até seu próximo turno e comece antes que o grupo conte até 9.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2761,7 +2761,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Peça três palavras ao grupo e improvise uma história com elas, começando antes que o grupo conte até 9.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2771,7 +2771,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Dá um discurso de premiação por ser especialista em segundas chances.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2781,7 +2781,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Inventa um pedido de desculpas convincente por ter causado essa situação: 'explicar uma compra impulsiva'.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2791,7 +2791,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Dá um conselho sério sobre segundas oportunidades atuando como advogado de uma má decisão.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2801,7 +2801,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Conte uma anedota sobre uma desculpa repetida sem usar 'eu'.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2811,7 +2811,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Conta duas verdades e uma mentira sobre uma desculpa repetida; o grupo adivinha a mentira.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2821,7 +2821,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Responde em cinco segundos a uma pergunta do grupo sobre as segundas chances.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2831,7 +2831,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Dedique um elogio diferente a 6 pessoas e comece antes que o grupo conte até 9.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2841,7 +2841,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Imita uma pessoa do grupo até que adivinhem e começa antes que o grupo conte até 9.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2851,7 +2851,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Imite uma celebridade escolhida pelo grupo e comece antes que o grupo conte até 9.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2861,7 +2861,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Faça uma performance em câmera lenta explicando uma compra por impulso.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2871,7 +2871,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Crie uma sequência de 10 palmadinhas e repita-a.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2881,7 +2881,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Diga os meses de trás para frente antes que contem até 16.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2891,7 +2891,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Recita o alfabeto omitindo cada terceira letra e comece antes que o grupo conte até 9.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2901,7 +2901,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Nomeie 8 erros que poderiam piorar esta situação: 'explicar uma compra impulsiva'.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2911,7 +2911,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Explique as segundas chances como se estivesse falando com um extraterrestre.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2921,7 +2921,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Transforme explicar uma compra por impulso em uma manchete de notícias.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2931,7 +2931,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Faça uma pose diferente para cada letra de 'prohib'.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2941,7 +2941,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Descreva um recibo suspeito sem dizer seu nome até que eles o adivinhem.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2951,7 +2951,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Inventa o nome e a receita de uma bebida inspirada nas segundas chances.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2961,7 +2961,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Represente esta situação com uma reação dramática: 'explique uma compra impulsiva'.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2971,7 +2971,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Deixe que o grupo escolha uma emoção e conte explicar uma compra impulsiva expressando-a.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2981,7 +2981,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Convence o grupo de que você é a melhor pessoa para resolver as segundas chances.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -2991,7 +2991,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Combina uma frase de advogado de uma má decisão, um passo de dança sedutor e uma pose dramática.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3001,7 +3001,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Confesse uma desculpa repetida ou represente por 14 segundos como você evitaria responder.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3011,7 +3011,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Nomeie 9 exemplos de filósofos em 9 segundos.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3021,7 +3021,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Diga 9 palavras relacionadas a uma decisão sentimental sem repetir.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3031,7 +3031,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Convença o grupo de que 'uma carta de amor anônima' é essencial e mencione 9 motivos.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3041,7 +3041,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Repete 'parra tinha uma cadela' 5 vezes sem errar.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3051,7 +3051,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Soletre 'desejo' ao contrário, sem pausas.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3061,7 +3061,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Conta regressivamente a partir de 65, pulando múltiplos de 5.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3071,7 +3071,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Resolva mentalmente 94 + 58 - 10.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3081,7 +3081,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Imita um terapeuta sentimental durante 13 segundos.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3091,7 +3091,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Representa em silêncio a situação 'negar uma atração evidente' até que adivinhem.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3101,7 +3101,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Representa 'negar uma atração evidente' usando apenas sons.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3111,7 +3111,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Vende uma carta de amor anônima como se custasse uma fortuna.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3121,7 +3121,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Cria um slogan para uma carta de amor anônima.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3131,7 +3131,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Faça um brinde de duas frases sobre uma decisão sentimental.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3141,7 +3141,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Defende durante 17 segundos uma opinião impopular sobre uma decisão sentimental.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3151,7 +3151,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Inventa uma história de 12 frases sobre negar uma atração evidente.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3161,7 +3161,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Componha quatro versos que incluam 'desejo'.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3171,7 +3171,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Improvise quatro versos de rap sobre uma decisão sentimental.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3181,7 +3181,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Canta um coro conhecido no estilo dança da conquista.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3191,7 +3191,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Dança no estilo dança de conquista por 12 segundos.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3201,7 +3201,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Faça uma caminhada na passarela carregando uma carta de amor anônima como acessório.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3211,7 +3211,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Mantenha uma pose dramática por 11 segundos sem rir.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3221,7 +3221,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Faça o grupo rir em menos de 11 segundos sem tocar em ninguém.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3231,7 +3231,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Fale como um terapeuta sentimental até seu próximo turno.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3241,7 +3241,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Não diga 'ex' até seu próximo turno.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3251,7 +3251,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Cria uma regra de festa válida até sua próxima vez e começa antes que o grupo conte até 10.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3261,7 +3261,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Pede três palavras ao grupo e improvisa uma história com elas e começa antes que o grupo conte até 10.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3271,7 +3271,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Dá um discurso de prêmio por ser especialista em uma decisão sentimental.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3281,7 +3281,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Improvisa um pedido de desculpas convincente por ter causado esta situação: 'negar uma atração evidente'.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3291,7 +3291,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Dá um conselho sério sobre uma decisão sentimental atuando como terapeuta sentimental.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3301,7 +3301,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Conta uma anedota sobre algo que faz para chamar atenção sem usar 'eu'.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3311,7 +3311,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Conta duas verdades e uma mentira sobre algo que você faz para chamar atenção; o grupo adivinha a mentira.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3321,7 +3321,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Responde em cinco segundos a uma pergunta do grupo sobre uma decisão sentimental.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3331,7 +3331,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Dedique um elogio diferente a 6 pessoas e comece antes que o grupo conte até 10.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3341,7 +3341,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Imita uma pessoa do grupo até que adivinhem e começa antes que o grupo conte até 10.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3351,7 +3351,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Imita uma celebridade escolhida pelo grupo e começa antes que o grupo conte até 10.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3361,7 +3361,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Faça uma performance em câmera lenta de negar uma atração evidente.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3371,7 +3371,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Crie uma sequência de 11 palmas e repita.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3381,7 +3381,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Diga os meses de trás para frente antes de contar até 15.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3391,7 +3391,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Recite o alfabeto omitindo cada terceira letra e comece antes que o grupo conte até 10.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3401,7 +3401,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Nomeie 9 erros que poderiam piorar esta situação: 'negar uma atração evidente'.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3411,7 +3411,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Explica uma decisão sentimental como se estivesse falando com um extraterrestre.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3421,7 +3421,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Transforma negar uma atração evidente em um título de notícia.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3431,7 +3431,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Faça uma pose diferente para cada letra de 'deseo'.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3441,7 +3441,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Descreve uma carta de amor anônima sem dizer seu nome até que adivinhem.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3451,7 +3451,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Inventa o nome e a receita de uma bebida inspirada em uma decisão sentimental.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3461,7 +3461,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Representa com uma reação dramática esta situação: 'negar uma atração evidente'.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3471,7 +3471,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Deixe que o grupo escolha uma emoção e tente negar uma atração evidente expressando-a.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3481,7 +3481,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Convença o grupo de que você é a melhor pessoa para resolver uma decisão sentimental.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3491,7 +3491,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Combina uma frase de terapeuta sentimental, um passo de dança de conquista e uma pose dramática.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3501,7 +3501,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Confesse algo que você faz para chamar atenção ou represente durante 13 segundos como evitaria responder.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3511,7 +3511,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Cite 10 exemplos de ganhadores do Prêmio Nobel em 8 segundos.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3521,7 +3521,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Diga 10 palavras relacionadas a uma confissão difícil sem repetir.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3531,7 +3531,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Convence o grupo de que 'um anel misterioso' é indispensável e menciona 10 razões.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3541,7 +3541,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Repita 'quando contar histórias, conte quantas histórias você conta' 5 vezes sem cometer erros.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3551,7 +3551,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Soletra 'engaño' de trás para frente sem pausas.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3561,7 +3561,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Conta regressivamente a partir de 70, pulando múltiplos de 2.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3571,7 +3571,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Resolva mentalmente 105 + 65 - 11.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3581,7 +3581,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Imite um jornalista de um romance secreto por 12 segundos.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3591,7 +3591,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Representa em silêncio a situação 'descobrir uma mentira em um encontro' até que adivinhem.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3601,7 +3601,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Representa 'descobrir uma mentira em um encontro' usando apenas sons.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3611,7 +3611,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Venda um anel misterioso como se custasse uma fortuna.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3621,7 +3621,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Crie um slogan para um anel misterioso.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3631,7 +3631,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Faça um brinde de duas frases sobre uma confissão difícil.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3641,7 +3641,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Defende por 16 segundos uma opinião impopular sobre uma confissão difícil.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3651,7 +3651,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Invente uma história de 13 frases sobre descobrir uma mentira em um encontro.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3661,7 +3661,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Componha quatro versos que incluam 'engano'.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3671,7 +3671,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Improvisa quatro linhas de rap sobre uma confissão difícil.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3681,7 +3681,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Canta um refrão conhecido ao estilo dança de ruptura.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3691,7 +3691,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Dance no estilo de dança de separação por 11 segundos.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3701,7 +3701,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Faça uma caminhada na passarela usando um anel misterioso como acessório.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3711,7 +3711,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Mantenha uma pose dramática por 10 segundos sem rir.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3721,7 +3721,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Faça o grupo rir em menos de 10 segundos sem tocar em ninguém.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3731,7 +3731,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Fala como jornalista de um romance secreto até a sua próxima vez.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3741,7 +3741,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Não diga 'mentira' até a sua próxima vez.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3751,7 +3751,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Crie uma regra de grupo válida até seu próximo turno e comece antes que o grupo conte até 11.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3761,7 +3761,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Pede três palavras ao grupo e improvisa uma história com elas e começa antes que o grupo conte até 11.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3771,7 +3771,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Dá um discurso de premiação por ser especialista em uma confissão difícil.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3781,7 +3781,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Improvisa um pedido de desculpas convincente por ter causado esta situação: 'descobrir uma mentira em um encontro'.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3791,7 +3791,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Dá um conselho sério sobre uma confissão difícil, atuando como jornalista de um romance secreto.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3801,7 +3801,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Conte uma anedota sobre um sinal de alerta ignorado sem usar 'I'.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3811,7 +3811,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Conta duas verdades e uma mentira sobre um sinal de alerta ignorado; o grupo adivinha a mentira.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3821,7 +3821,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Responde em cinco segundos a uma pergunta do grupo sobre uma confissão difícil.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3831,7 +3831,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Dedique um elogio diferente a 6 pessoas e comece antes que o grupo conte até 11.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3841,7 +3841,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Imite uma pessoa do grupo até que ela adivinhe e comece antes que o grupo conte até 11.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3851,7 +3851,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Imite uma celebridade escolhida pelo grupo e comece antes que o grupo conte até 11.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3861,7 +3861,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Faça uma atuação em câmera lenta de descobrir uma mentira em um encontro.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3871,7 +3871,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Crie uma sequência de 12 palmas e repita-a.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3881,7 +3881,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Diga os meses de trás para frente antes que contem até 14.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3891,7 +3891,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Recite o alfabeto omitindo cada terceira letra e comece antes que o grupo conte até 11.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3901,7 +3901,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Nomeie 10 erros que poderiam piorar esta situação: 'descobrir uma mentira em um encontro'.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3911,7 +3911,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Explica uma confissão difícil como se estivesse falando com um extraterrestre.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3921,7 +3921,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Converte descobrir uma mentira em um encontro em uma manchete de notícia.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3931,7 +3931,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Faça uma pose diferente para cada letra de 'engaño'.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3941,7 +3941,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Descreve um anel misterioso sem dizer seu nome até que adivinhem.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3951,7 +3951,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Inventa o nome e a receita de uma bebida inspirada em uma confissão difícil.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3961,7 +3961,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Representa com uma reação dramática esta situação: 'descobrir uma mentira em um encontro'.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3971,7 +3971,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Deixa o grupo escolher uma emoção e tenta descobrir uma mentira em um encontro expressando-a.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3981,7 +3981,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Convence o grupo de que você é a melhor pessoa para resolver uma confissão difícil.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -3991,7 +3991,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Combina uma frase de jornalista de um romance secreto, um passo de dança de separação e uma pose dramática.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4001,7 +4001,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Confessa um sinal de alerta ignorado ou representa durante 12 segundos como você evitaria responder.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-7} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-7} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4011,7 +4011,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Nomeie 11 exemplos de paradoxos em 7 segundos.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4021,7 +4021,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Diga 11 palavras relacionadas a uma decisão com consequências sem repeti-las.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4031,7 +4031,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Convence o grupo de que 'um chat secreto' é indispensável e menciona 11 razões.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4041,7 +4041,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Repete 'poquito a poquito Paquito empaca copitos' 6 vezes sem errar.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4051,7 +4051,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Soletre \"traição\" ao contrário sem pausas.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4061,7 +4061,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Conte regressivamente a partir de 75, omitindo múltiplos de 3.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4071,7 +4071,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Resolva mentalmente 116 + 72 - 12.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4081,7 +4081,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Imita um juiz de uma discussão sentimental durante 11 segundos.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4091,7 +4091,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Representar silenciosamente a situação 'enfrentando duas versões diferentes' até que eles adivinhem.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4101,7 +4101,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Representa 'enfrentar duas versões diferentes' usando apenas sons.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4111,7 +4111,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Vende um chat secreto como se custasse uma fortuna.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4121,7 +4121,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Crie um slogan para um bate-papo secreto.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4131,7 +4131,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Faça um brinde de duas frases sobre uma decisão com consequências.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4141,7 +4141,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Defender por 15 segundos uma opinião impopular sobre uma decisão com consequências.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4151,7 +4151,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Invente uma história de 14 frases sobre como confrontar duas versões diferentes.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4161,7 +4161,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Componha quatro versos que incluam 'traição'.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4171,7 +4171,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Improvisa quatro linhas de rap sobre uma decisão com consequências.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4181,7 +4181,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Cante um refrão familiar de desculpas em estilo de dança.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4191,7 +4191,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Dança no estilo dança de pedido de desculpas por 10 segundos.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4201,7 +4201,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Faça uma caminhada na passarela levando um batom secreto como acessório.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4211,7 +4211,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Mantenha uma pose dramática por 9 segundos sem rir.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4221,7 +4221,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Faça o grupo rir em menos de 9 segundos sem tocar em ninguém.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4231,7 +4231,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Fala como juiz de uma discussão sentimental até a sua próxima vez.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4241,7 +4241,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Não diga 'desculpe' até a sua próxima vez.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4251,7 +4251,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Cria uma regra de festa válida até sua próxima vez e começa antes que o grupo conte até 12.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4261,7 +4261,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Pede três palavras ao grupo e improvisa uma história com elas, começando antes que o grupo conte até 12.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4271,7 +4271,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Dá um discurso de premiação por ser especialista em uma decisão com consequências.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4281,7 +4281,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Improvisa um pedido de desculpas convincente por ter causado esta situação: 'enfrentar duas versões distintas'.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4291,7 +4291,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Dar conselhos sérios sobre uma decisão com consequências, agindo como juiz em uma discussão sentimental.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4301,7 +4301,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Conta uma anedota sobre uma conversa evitada sem usar 'eu'.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4311,7 +4311,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Conta duas verdades e uma mentira sobre uma conversa evitada; o grupo adivinha a mentira.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4321,7 +4321,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Responde em cinco segundos a uma pergunta do grupo sobre uma decisão com consequências.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4331,7 +4331,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Dedique um elogio diferente a 6 pessoas e comece antes que o grupo conte até 12.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4341,7 +4341,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Imita uma pessoa do grupo até que adivinhem e começa antes que o grupo conte até 12.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4351,7 +4351,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Imite uma celebridade escolhida pelo grupo e comece antes que o grupo conte até 12.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4361,7 +4361,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Faça uma atuação em câmera lenta enfrentando duas versões diferentes.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4371,7 +4371,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Crie uma sequência de 13 palmas e repita-a.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4381,7 +4381,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Diga os meses de trás para frente antes que contem até 13.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4391,7 +4391,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Recite o alfabeto omitindo cada terceira letra e comece antes que o grupo conte até 12.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4401,7 +4401,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Nomeie 11 erros que poderiam piorar esta situação: 'enfrentar duas versões diferentes'.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4411,7 +4411,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Explique uma decisão com consequências como se estivesse falando com um alienígena.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4421,7 +4421,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Converte enfrentar duas versões distintas em um título de notícia.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4431,7 +4431,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Faça uma pose diferente para cada letra de 'traici'.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4441,7 +4441,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Descreve um chat secreto sem dizer seu nome até que o adivinhem.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4451,7 +4451,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Inventa o nome e a receita de uma bebida inspirada em uma decisão com consequências.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4461,7 +4461,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Representa com uma reação dramática esta situação: 'enfrentar duas versões distintas'.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4471,7 +4471,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Deixe o grupo escolher uma emoção e peça-lhes para confrontarem duas versões diferentes que a expressam.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4481,7 +4481,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Convence o grupo de que você é a melhor pessoa para resolver uma decisão com consequências.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4491,7 +4491,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Combina a frase de um juiz a partir de uma discussão sentimental, um passo de dança apologético e uma pose dramática.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4501,7 +4501,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Confessa uma conversa evitada ou representa durante 11 segundos como você evitaria responder.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4511,7 +4511,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Cite 12 exemplos de problemas matemáticos em 6 segundos.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4521,7 +4521,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Diga 12 palavras relacionadas a uma verdade impopular sem repetir.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4531,7 +4531,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Convence o grupo de que 'uma evidência misteriosa' é indispensável e menciona 12 razões.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4541,7 +4541,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Repete 'se seu gosto gostasse do gosto que meu gosto gosta' 6 vezes sem errar.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4551,7 +4551,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Soletra 'consequência' ao contrário sem pausas.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4561,7 +4561,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Conta regressivamente a partir de 80, pulando múltiplos de 4.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4571,7 +4571,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Resolva mentalmente 127 + 79 - 13.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4581,7 +4581,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Imite um porta-voz após um escândalo por 10 segundos.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4591,7 +4591,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Representa em silêncio a situação 'pedir perdão por uma traição' até que adivinhem.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4601,7 +4601,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Representa 'pedir perdão por uma traição' usando apenas sons.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4611,7 +4611,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Vende uma evidência misteriosa como se custasse uma fortuna.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4621,7 +4621,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Crie um slogan para uma evidência misteriosa.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4631,7 +4631,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Faça um brinde de duas frases sobre uma verdade impopular.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4641,7 +4641,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Defende durante 14 segundos uma opinião impopular sobre uma verdade impopular.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4651,7 +4651,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Inventa uma história de 15 frases sobre pedir perdão por uma traição.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4661,7 +4661,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Componha quatro versos que incluam 'consequência'.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4671,7 +4671,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Improvisa quatro linhas de rap sobre uma verdade impopular.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4681,7 +4681,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Cante um refrão familiar no estilo de dança da última chance.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4691,7 +4691,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Dança no estilo dança da última oportunidade por 9 segundos.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4701,7 +4701,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Faça uma caminhada na passarela usando uma evidência misteriosa como acessório.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4711,7 +4711,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Mantenha uma pose dramática por 8 segundos sem rir.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4721,7 +4721,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Faça o grupo rir em menos de 8 segundos sem tocar em ninguém.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4731,7 +4731,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Fala como porta-voz depois de um escândalo até sua próxima vez.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4741,7 +4741,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Não diga 'consequência' até seu próximo turno.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4751,7 +4751,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Cria uma regra de festa válida até sua próxima vez e começa antes que o grupo conte até 13.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4761,7 +4761,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Pede três palavras ao grupo e improvisa uma história com elas e começa antes que o grupo conte até 13.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4771,7 +4771,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Faça um discurso de premiação por ser um especialista em uma verdade impopular.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4781,7 +4781,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Improvisa um pedido de desculpas convincente por ter causado esta situação: 'pedir perdão por uma traição'.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4791,7 +4791,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Dá um conselho sério sobre uma verdade impopular, atuando como porta-voz após um escândalo.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4801,7 +4801,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Conta uma anedota sobre uma verdade que costuma suavizar sem usar 'eu'.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4811,7 +4811,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Conta duas verdades e uma mentira sobre uma verdade que você costuma suavizar; o grupo adivinha a mentira.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4821,7 +4821,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Responda a uma pergunta do grupo sobre uma verdade impopular em cinco segundos.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4831,7 +4831,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Dedique um elogio diferente a 6 pessoas e comece antes que o grupo conte até 13.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4841,7 +4841,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Imite uma pessoa do grupo até que ela adivinhe e comece antes que o grupo conte até 13.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4851,7 +4851,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Imite uma celebridade escolhida pelo grupo e comece antes que o grupo conte até 13.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4861,7 +4861,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Faça uma atuação em câmera lenta pedindo desculpas por uma traição.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4871,7 +4871,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Crie uma sequência de 14 batidas de palmas e repita-a.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4881,7 +4881,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Diga os meses de trás para frente antes de contar até 12.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4891,7 +4891,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Recite o alfabeto omitindo cada terceira letra e comece antes que o grupo conte até 13.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4901,7 +4901,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Nomeie 12 erros que poderiam piorar esta situação: 'pedir desculpas por uma traição'.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4911,7 +4911,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Explique uma verdade impopular como se você estivesse conversando com um alienígena.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4921,7 +4921,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Transforma o pedido de desculpas por uma traição em uma manchete de jornal.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4931,7 +4931,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Faça uma pose diferente para cada letra de 'consec'.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4941,7 +4941,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Descreve uma evidência misteriosa sem dizer seu nome até que adivinhem.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4951,7 +4951,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Inventa o nome e a receita de uma bebida inspirada em uma verdade impopular.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4961,7 +4961,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Representa com uma reação dramática esta situação: 'pedir desculpas por uma traição'.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4971,7 +4971,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Deixa o grupo escolher uma emoção e conta como pedir perdão por uma traição, expressando-a.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4981,7 +4981,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Convença o grupo de que você é a melhor pessoa para resolver uma verdade impopular.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -4991,7 +4991,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Combine uma frase de porta-voz após um escândalo, um passo de dança de última chance e uma pose dramática.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   },
@@ -5001,7 +5001,7 @@ export const retoCards = [
     "tipo": "reto",
     "texto": "[player] Confesse uma verdade que você costuma amenizar ou represente por 10 segundos como você evitaria responder.",
     "especial": false,
-    "castigo": "Se não cumprir bebe [castigo_toma{1-10} || castigo_notoma{x}]",
+    "castigo": "Se não cumprir [castigo_toma{1-10} || castigo_notoma{x}]",
     "min_jugadores": 2,
     "participantes": "uno"
   }

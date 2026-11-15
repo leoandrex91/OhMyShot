@@ -98,6 +98,14 @@ export function applyOverridesToCards(deckKey, baseCards = []) {
     }
   }
 
+  // Preservar metadatos y listas de castigos del array base
+  if (baseCards.castigos_toma) working.castigos_toma = baseCards.castigos_toma;
+  if (baseCards.castigos_notoma) working.castigos_notoma = baseCards.castigos_notoma;
+  if (baseCards.verdadCards) working.verdadCards = baseCards.verdadCards;
+  if (baseCards.retoCards) working.retoCards = baseCards.retoCards;
+  if (baseCards.retosEspecialesCards) working.retosEspecialesCards = baseCards.retosEspecialesCards;
+  if (baseCards.bonusCards) working.bonusCards = baseCards.bonusCards;
+
   return working;
 }
 

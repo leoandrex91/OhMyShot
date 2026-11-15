@@ -12,7 +12,7 @@ export const clasicoCards = [
     "texto": "Qual é a capital da Argentina? [?]",
     "resp": "Buenos Aires",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -23,7 +23,7 @@ export const clasicoCards = [
     "texto": "Qual planeta é conhecido como o planeta vermelho?",
     "resp": "Marte",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -34,7 +34,7 @@ export const clasicoCards = [
     "texto": "Em que país está localizada a Torre Eiffel?",
     "resp": "Francia",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -45,7 +45,7 @@ export const clasicoCards = [
     "texto": "Quantos lados tem um hexágono? [?]",
     "resp": "6 lados",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -56,7 +56,7 @@ export const clasicoCards = [
     "texto": "Qual é o maior oceano do mundo? [?]",
     "resp": "Oceano Pacífico",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -67,7 +67,7 @@ export const clasicoCards = [
     "texto": "Qual órgão do corpo humano bombeia o sangue? [?]",
     "resp": "Corazón",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -78,7 +78,7 @@ export const clasicoCards = [
     "texto": "Qual é o idioma oficial do Brasil? [?]",
     "resp": "Portugués",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -89,7 +89,7 @@ export const clasicoCards = [
     "texto": "Em que país fica Machu Picchu?",
     "resp": "Paquistão",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -100,7 +100,7 @@ export const clasicoCards = [
     "texto": "Quantos jogadores um time de futebol tem em campo no início de uma partida? [?]",
     "resp": "11 jogadores",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -111,7 +111,7 @@ export const clasicoCards = [
     "texto": "Quem pintou a Mona Lisa? [?]",
     "resp": "Leonardo da Vinci",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -122,7 +122,7 @@ export const clasicoCards = [
     "texto": "Qual é a capital do México? [?]",
     "resp": "Cidade do México",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -133,7 +133,7 @@ export const clasicoCards = [
     "texto": "Qual animal é conhecido como o rei da selva? [?]",
     "resp": "Leão",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -144,7 +144,7 @@ export const clasicoCards = [
     "texto": "Quantos graus tem um ângulo reto? [?]",
     "resp": "90 graus",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -155,7 +155,7 @@ export const clasicoCards = [
     "texto": "Em que continente fica o Egito? [?]",
     "resp": "África",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -166,7 +166,7 @@ export const clasicoCards = [
     "texto": "Qual é o país de origem da pizza? [?]",
     "resp": "Italia",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -177,7 +177,7 @@ export const clasicoCards = [
     "texto": "Qual instrumento é utilizado para medir a temperatura?",
     "resp": "Termómetro",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -188,7 +188,7 @@ export const clasicoCards = [
     "texto": "Qual é o satélite natural da Terra? [?]",
     "resp": "A Lua",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -199,7 +199,7 @@ export const clasicoCards = [
     "texto": "Qual país é famoso pelo Cristo Redentor do Rio de Janeiro?",
     "resp": "Brasil",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -210,7 +210,7 @@ export const clasicoCards = [
     "texto": "Quantas cores o arco-íris tem tradicionalmente? [?]",
     "resp": "7 cores",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -221,7 +221,7 @@ export const clasicoCards = [
     "texto": "Qual esporte Lionel Messi pratica? [?]",
     "resp": "Futebol",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -232,7 +232,7 @@ export const clasicoCards = [
     "texto": "Qual gás as plantas absorvem durante a fotossíntese? [?]",
     "resp": "Dióxido de carbono (CO₂)",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -243,7 +243,7 @@ export const clasicoCards = [
     "texto": "Qual é a capital do Peru? [?]",
     "resp": "Lima",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -254,7 +254,7 @@ export const clasicoCards = [
     "texto": "Qual animal terrestre tem o pescoço mais longo? [?]",
     "resp": "Jirafa",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -265,7 +265,7 @@ export const clasicoCards = [
     "texto": "Em que país está localizada a Estátua da Liberdade?",
     "resp": "Estados Unidos",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -276,7 +276,7 @@ export const clasicoCards = [
     "texto": "Quantas horas tem um dia? [?]",
     "resp": "24 horas",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -287,7 +287,7 @@ export const clasicoCards = [
     "texto": "Qual parte da planta absorve principalmente a água do solo? [?]",
     "resp": "Raiz",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -298,7 +298,7 @@ export const clasicoCards = [
     "texto": "Qual é a moeda oficial dos Estados Unidos?",
     "resp": "dólar americano",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -309,7 +309,7 @@ export const clasicoCards = [
     "texto": "Qual continente tem mais países? [?]",
     "resp": "África",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -320,7 +320,7 @@ export const clasicoCards = [
     "texto": "Como se chama o processo pelo qual a água se transforma em gelo? [?]",
     "resp": "Congelamento ou solidificação",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -331,7 +331,7 @@ export const clasicoCards = [
     "texto": "Qual país latino-americano tem forma longa e estreita junto ao oceano Pacífico? [?]",
     "resp": "Chile",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -342,7 +342,7 @@ export const clasicoCards = [
     "texto": "Qual órgão do corpo humano usamos principalmente para respirar?",
     "resp": "Pulmões",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -353,7 +353,7 @@ export const clasicoCards = [
     "texto": "Qual é a capital do Chile? [?]",
     "resp": "Santiago",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -364,7 +364,7 @@ export const clasicoCards = [
     "texto": "Que instrumento musical tem teclas brancas e pretas? [?]",
     "resp": "Piano",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -375,7 +375,7 @@ export const clasicoCards = [
     "texto": "Que país ganhou a Copa do Mundo de Futebol de 2022? [?]",
     "resp": "Argentina",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -386,7 +386,7 @@ export const clasicoCards = [
     "texto": "Qual é o metal precioso amarelo comumente usado em joias? [?]",
     "resp": "Oro",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -397,7 +397,7 @@ export const clasicoCards = [
     "texto": "Qual planeta está mais próximo do Sol? [?]",
     "resp": "Mercúrio",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -408,7 +408,7 @@ export const clasicoCards = [
     "texto": "Em que país está localizada a cidade de Cartagena das Índias?",
     "resp": "Colômbia",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -419,7 +419,7 @@ export const clasicoCards = [
     "texto": "Qual é o resultado da multiplicação de 9 por 8? [?]",
     "resp": "72",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -430,7 +430,7 @@ export const clasicoCards = [
     "texto": "Que animal produz o mel? [?]",
     "resp": "Abelha",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -441,7 +441,7 @@ export const clasicoCards = [
     "texto": "Qual é a língua mais falada na Argentina? [?]",
     "resp": "Español",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -452,7 +452,7 @@ export const clasicoCards = [
     "texto": "Que famoso navio afundou em 1912 após bater em um iceberg? [?]",
     "resp": "Titanic",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -463,7 +463,7 @@ export const clasicoCards = [
     "texto": "Que parte do corpo humano contém o cérebro? [?]",
     "resp": "Cabeça (crânio)",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -474,7 +474,7 @@ export const clasicoCards = [
     "texto": "Em que país se originou o tango?",
     "resp": "Argentina e Uruguai (região do Rio da Prata)",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -485,7 +485,7 @@ export const clasicoCards = [
     "texto": "Qual oceano banha a costa ocidental da América do Sul?",
     "resp": "Oceano Pacífico",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -496,7 +496,7 @@ export const clasicoCards = [
     "texto": "Quantos anos tem uma década?",
     "resp": "10 anos",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -507,7 +507,7 @@ export const clasicoCards = [
     "texto": "Qual famoso personagem de videogames é um encanador italiano que costuma vestir vermelho? [?]",
     "resp": "Mário? ",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -518,7 +518,7 @@ export const clasicoCards = [
     "texto": "Qual vitamina a pele produz principalmente ao se expor à luz solar? [?]",
     "resp": "Vitamina D",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -529,7 +529,7 @@ export const clasicoCards = [
     "texto": "Qual é o maior país da América do Sul em área? [?]",
     "resp": "Brasil",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -540,7 +540,7 @@ export const clasicoCards = [
     "texto": "Qual aparelho é usado para observar objetos muito pequenos, como células?",
     "resp": "Microscopio",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -551,7 +551,7 @@ export const clasicoCards = [
     "texto": "Em que continente fica o Japão?",
     "resp": "Asia",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -562,7 +562,7 @@ export const clasicoCards = [
     "texto": "Qual é a capital do Uruguai? [?]",
     "resp": "Montevideo",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -573,7 +573,7 @@ export const clasicoCards = [
     "texto": "Qual cientista formulou a lei da gravidade?",
     "resp": "Isaac Newton",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -584,7 +584,7 @@ export const clasicoCards = [
     "texto": "Em que país estão localizadas as ruínas de Chichén Itzá? [?]",
     "resp": "México",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -595,7 +595,7 @@ export const clasicoCards = [
     "texto": "Quantos ossos tem normalmente o corpo humano adulto? [?]",
     "resp": "206 ossos",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -606,7 +606,7 @@ export const clasicoCards = [
     "texto": "Qual planeta é famoso por seus anéis? [?]",
     "resp": "Saturno",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -617,7 +617,7 @@ export const clasicoCards = [
     "texto": "Quem escreveu Dom Quixote de la Mancha? [?]",
     "resp": "Miguel de Cervantes Saavedra",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -628,7 +628,7 @@ export const clasicoCards = [
     "texto": "Qual é o país mais populoso da América do Sul? [?]",
     "resp": "Brasil",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -639,7 +639,7 @@ export const clasicoCards = [
     "texto": "Em que ano Cristóvão Colombo chegou à América?",
     "resp": "1492",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -650,7 +650,7 @@ export const clasicoCards = [
     "texto": "Qual instrumento é usado para medir a pressão atmosférica? [?]",
     "resp": "Barómetro",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -661,7 +661,7 @@ export const clasicoCards = [
     "texto": "Qual país tem Quito como capital?",
     "resp": "Equador",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -672,7 +672,7 @@ export const clasicoCards = [
     "texto": "Qual é o maior órgão do corpo humano? [?]",
     "resp": "A pele",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -683,7 +683,7 @@ export const clasicoCards = [
     "texto": "Qual time ganhou a Copa do Mundo de Futebol de 2014? [?]",
     "resp": "Alemania",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -694,7 +694,7 @@ export const clasicoCards = [
     "texto": "Como se chama o processo pelo qual as plantas produzem seu alimento usando a luz solar?",
     "resp": "Fotosíntesis",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -705,7 +705,7 @@ export const clasicoCards = [
     "texto": "Em que país nasceu a cantora Shakira?",
     "resp": "Colômbia",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -716,7 +716,7 @@ export const clasicoCards = [
     "texto": "Qual elemento químico tem o símbolo O?",
     "resp": "Oxigênio",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -727,7 +727,7 @@ export const clasicoCards = [
     "texto": "Qual é a capital da Venezuela? [?]",
     "resp": "Caracas",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -738,7 +738,7 @@ export const clasicoCards = [
     "texto": "Qual famoso cientista desenvolveu a teoria da relatividade? [?]",
     "resp": "Albert Einstein",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -749,7 +749,7 @@ export const clasicoCards = [
     "texto": "Em que país estão localizadas as pirâmides de Gizé?",
     "resp": "Egipto",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -760,7 +760,7 @@ export const clasicoCards = [
     "texto": "Quantos jogadores de cada equipe participam de uma partida de basquete na quadra?",
     "resp": "5 jogadores",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -771,7 +771,7 @@ export const clasicoCards = [
     "texto": "Qual é o maior continente do planeta? [?]",
     "resp": "Asia",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -782,7 +782,7 @@ export const clasicoCards = [
     "texto": "Qual famoso pintor cortou parte de uma orelha?",
     "resp": "Vincent van Gogh",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -793,7 +793,7 @@ export const clasicoCards = [
     "texto": "Qual oceano separa a América da Europa?",
     "resp": "Oceano Atlântico",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -804,7 +804,7 @@ export const clasicoCards = [
     "texto": "Qual é a moeda oficial do Japão?",
     "resp": "Yen",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -815,7 +815,7 @@ export const clasicoCards = [
     "texto": "Em que país nasceu o jogador de futebol Cristiano Ronaldo?",
     "resp": "Portugal",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -826,7 +826,7 @@ export const clasicoCards = [
     "texto": "Qual parte do corpo humano conecta os músculos aos ossos? [?]",
     "resp": "Tendones",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -837,7 +837,7 @@ export const clasicoCards = [
     "texto": "Como se chama o movimento que a Terra realiza ao redor do Sol?",
     "resp": "Tradução",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -848,7 +848,7 @@ export const clasicoCards = [
     "texto": "Qual civilização antiga construiu o Coliseu? [?]",
     "resp": "Civilização romana",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -859,7 +859,7 @@ export const clasicoCards = [
     "texto": "Qual é a capital do Paraguai? [?]",
     "resp": "Suposição",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -870,7 +870,7 @@ export const clasicoCards = [
     "texto": "Qual é o mamífero mais grande do planeta? [?]",
     "resp": "Baleia azul",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -881,7 +881,7 @@ export const clasicoCards = [
     "texto": "Quantos lados tem um octágono? [?]",
     "resp": "8 lados",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -892,7 +892,7 @@ export const clasicoCards = [
     "texto": "Qual empresa criou o sistema operacional Windows? [?]",
     "resp": "Microsoft",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -903,7 +903,7 @@ export const clasicoCards = [
     "texto": "Em que país fica a cidade de Medellín? [?]",
     "resp": "Colômbia",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -914,7 +914,7 @@ export const clasicoCards = [
     "texto": "Qual metal é facilmente atraído por um ímã comum? [?]",
     "resp": "Hierro",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -925,7 +925,7 @@ export const clasicoCards = [
     "texto": "Qual é a montanha mais alta do mundo acima do nível do mar? [?]",
     "resp": "Monte Everest",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -936,7 +936,7 @@ export const clasicoCards = [
     "texto": "Quem foi o primeiro ser humano a pisar na Lua? [?]",
     "resp": "Neil Armstrong",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -947,7 +947,7 @@ export const clasicoCards = [
     "texto": "Qual é o idioma oficial da França?",
     "resp": "Francés",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -958,7 +958,7 @@ export const clasicoCards = [
     "texto": "Qual órgão do corpo humano produz insulina?",
     "resp": "Pâncreas",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -969,7 +969,7 @@ export const clasicoCards = [
     "texto": "Qual país latino-americano tem San José como capital? [?]",
     "resp": "Costa Rica",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -980,7 +980,7 @@ export const clasicoCards = [
     "texto": "Qual famoso filme de animação tem como protagonistas Woody e Buzz Lightyear? [?]",
     "resp": "Toy Story",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -991,7 +991,7 @@ export const clasicoCards = [
     "texto": "Qual é o resultado de elevar 5 ao quadrado? [?]",
     "resp": "25",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -1002,7 +1002,7 @@ export const clasicoCards = [
     "texto": "Qual gás é o mais abundante na atmosfera terrestre? [?]",
     "resp": "Nitrógeno",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -1013,7 +1013,7 @@ export const clasicoCards = [
     "texto": "Em que país está localizado o monumento conhecido como o Taj Mahal?",
     "resp": "Índia",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -1024,7 +1024,7 @@ export const clasicoCards = [
     "texto": "Qual escritor colombiano ganhou o Prêmio Nobel de Literatura em 1982? [?]",
     "resp": "Gabriel García Márquez",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -1035,7 +1035,7 @@ export const clasicoCards = [
     "texto": "Qual é o maior planeta do sistema solar? [?]",
     "resp": "Júpiter",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -1046,7 +1046,7 @@ export const clasicoCards = [
     "texto": "Como se chama o instrumento que permite observar estrelas e planetas distantes?",
     "resp": "Telescópio",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -1057,7 +1057,7 @@ export const clasicoCards = [
     "texto": "Qual país é conhecido mundialmente pelo carnaval do Rio de Janeiro? [?]",
     "resp": "Brasil",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -1068,7 +1068,7 @@ export const clasicoCards = [
     "texto": "Qual vitamina é encontrada abundantemente em frutas cítricas como as laranjas? [?]",
     "resp": "Vitamina C",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -1079,7 +1079,7 @@ export const clasicoCards = [
     "texto": "Como se chama a linha imaginária que divide a Terra em hemisfério norte e hemisfério sul? [?]",
     "resp": "Linha do equador",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -1090,7 +1090,7 @@ export const clasicoCards = [
     "texto": "Qual esporte é praticado no torneio de Wimbledon?",
     "resp": "Tenis",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -1101,7 +1101,7 @@ export const clasicoCards = [
     "texto": "Que acontecimento histórico começou na Europa em 1939 e terminou em 1945?",
     "resp": "Segunda Guerra Mundial",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -1112,7 +1112,7 @@ export const clasicoCards = [
     "texto": "Qual rio atravessa a cidade de Paris?",
     "resp": "Rio Sena",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -1123,7 +1123,7 @@ export const clasicoCards = [
     "texto": "Em que cidade foram realizados os Jogos Olímpicos de 2016? [?]",
     "resp": "Rio de Janeiro",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -1134,7 +1134,7 @@ export const clasicoCards = [
     "texto": "Em que cidade está localizada a sede do governo boliviano? [?]",
     "resp": "La Paz",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -1145,7 +1145,7 @@ export const clasicoCards = [
     "texto": "Qual oceano fica a leste da África? [?]",
     "resp": "Oceano Índico",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -1156,7 +1156,7 @@ export const clasicoCards = [
     "texto": "Qual é o planeta mais quente do sistema solar? [?]",
     "resp": "Venus",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -1167,7 +1167,7 @@ export const clasicoCards = [
     "texto": "Que número representa a letra X em números romanos? [?]",
     "resp": "10",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -1178,7 +1178,7 @@ export const clasicoCards = [
     "texto": "Qual país europeu tem Lisboa como capital? [?]",
     "resp": "Portugal",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -1189,7 +1189,7 @@ export const clasicoCards = [
     "texto": "Qual é o único mamífero capaz de voar de forma sustentada? [?]",
     "resp": "O morcego",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -1200,7 +1200,7 @@ export const clasicoCards = [
     "texto": "Como se chama uma figura geométrica de cinco lados?",
     "resp": "Pentágono",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -1211,7 +1211,7 @@ export const clasicoCards = [
     "texto": "Qual é o principal composto do sal de cozinha?",
     "resp": "Cloreto de sódio",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -1222,7 +1222,7 @@ export const clasicoCards = [
     "texto": "Quem escreveu a saga de livros de Harry Potter? [?]",
     "resp": "J. K. Rowling",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -1233,7 +1233,7 @@ export const clasicoCards = [
     "texto": "A que século pertence o ano 2001? [?]",
     "resp": "Século XXI",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -1244,7 +1244,7 @@ export const clasicoCards = [
     "texto": "Qual cordilheira atravessa grande parte do oeste da América do Sul? [?]",
     "resp": "Cordilheira dos Andes",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -1255,7 +1255,7 @@ export const clasicoCards = [
     "texto": "Qual país tem Atenas como capital? [?]",
     "resp": "Grecia",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -1266,7 +1266,7 @@ export const clasicoCards = [
     "texto": "Em que país foi realizada a primeira Copa do Mundo de Futebol? [?]",
     "resp": "Uruguay",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -1277,7 +1277,7 @@ export const clasicoCards = [
     "texto": "Em que país se encontram as pirâmides de Teotihuacán?",
     "resp": "México",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -1288,7 +1288,7 @@ export const clasicoCards = [
     "texto": "Qual estrutura das células humanas contém a maior parte do DNA?",
     "resp": "O núcleo",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -1299,7 +1299,7 @@ export const clasicoCards = [
     "texto": "Qual lago fica entre o Peru e a Bolívia? [?]",
     "resp": "Lago Titicaca",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -1310,7 +1310,7 @@ export const clasicoCards = [
     "texto": "Qual gás as plantas liberam durante a fotossíntese? [?]",
     "resp": "Oxigênio",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -1321,7 +1321,7 @@ export const clasicoCards = [
     "texto": "Que elemento químico o símbolo Fe representa? [?]",
     "resp": "Hierro",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -1332,7 +1332,7 @@ export const clasicoCards = [
     "texto": "Quantos segundos tem uma hora? [?]",
     "resp": "3600 segundos",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -1343,7 +1343,7 @@ export const clasicoCards = [
     "texto": "Qual é a capital da Espanha? [?]",
     "resp": "Madrid",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -1354,7 +1354,7 @@ export const clasicoCards = [
     "texto": "A que país pertencem as ilhas Galápagos?",
     "resp": "Equador",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -1365,7 +1365,7 @@ export const clasicoCards = [
     "texto": "Qual teorema é usado para calcular os lados de um triângulo retângulo? [?]",
     "resp": "Teorema de Pitágoras",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -1376,7 +1376,7 @@ export const clasicoCards = [
     "texto": "Quem escreveu O Pequeno Príncipe? [?]",
     "resp": "Antoine de Saint-Exupéry",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -1387,7 +1387,7 @@ export const clasicoCards = [
     "texto": "Quem esculpiu a famosa estátua de Davi que se encontra em Florença?",
     "resp": "Miguel Ângelo",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -1398,7 +1398,7 @@ export const clasicoCards = [
     "texto": "Qual é a função principal dos glóbulos vermelhos? [?]",
     "resp": "Transportar oxigênio",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -1409,7 +1409,7 @@ export const clasicoCards = [
     "texto": "Qual é a capital do Panamá? [?]",
     "resp": "Cidade do Panamá",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -1420,7 +1420,7 @@ export const clasicoCards = [
     "texto": "Em que país se originou a samba?",
     "resp": "Brasil",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -1431,7 +1431,7 @@ export const clasicoCards = [
     "texto": "Quem foi o primeiro ser humano a viajar ao espaço? [?]",
     "resp": "Iuri Gagarin",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -1442,7 +1442,7 @@ export const clasicoCards = [
     "texto": "A que grupo de animais pertence o sapo?",
     "resp": "Anfibios",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -1453,7 +1453,7 @@ export const clasicoCards = [
     "texto": "Qual idioma é falado principalmente no Egito? [?]",
     "resp": "Árabe",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -1464,7 +1464,7 @@ export const clasicoCards = [
     "texto": "Quais células sanguíneas ajudam a defender o organismo contra infecções?",
     "resp": "Glóbulos brancos",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -1475,7 +1475,7 @@ export const clasicoCards = [
     "texto": "Quais são os três estados clássicos da matéria? [?]",
     "resp": "Sólido, líquido e gasoso",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -1486,7 +1486,7 @@ export const clasicoCards = [
     "texto": "Qual é a unidade de força no Sistema Internacional? [?]",
     "resp": "Newton",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -1497,7 +1497,7 @@ export const clasicoCards = [
     "texto": "Qual é a capital da Alemanha? [?]",
     "resp": "Berlín",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -1508,7 +1508,7 @@ export const clasicoCards = [
     "texto": "A qual poeta grego se atribui A Odisseia? [?]",
     "resp": "Homero",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -1519,7 +1519,7 @@ export const clasicoCards = [
     "texto": "Qual é a maior artéria do corpo humano? [?]",
     "resp": "A aorta",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -1530,7 +1530,7 @@ export const clasicoCards = [
     "texto": "Qual é o primeiro número primo depois do 7? [?]",
     "resp": "11",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -1541,7 +1541,7 @@ export const clasicoCards = [
     "texto": "Qual foi a capital do Império Inca? [?]",
     "resp": "Cusco",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -1552,7 +1552,7 @@ export const clasicoCards = [
     "texto": "Que pigmento dá a cor verde às plantas?",
     "resp": "Clorofila",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -1563,7 +1563,7 @@ export const clasicoCards = [
     "texto": "Que cidade italiana é famosa por seus canais e gôndolas? [?]",
     "resp": "Venecia",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -1574,7 +1574,7 @@ export const clasicoCards = [
     "texto": "Qual país é famoso pela arte do origami?",
     "resp": "Japón",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -1585,7 +1585,7 @@ export const clasicoCards = [
     "texto": "Em qual país fica o canal que conecta o oceano Atlântico ao Pacífico?",
     "resp": "Panamá",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -1596,7 +1596,7 @@ export const clasicoCards = [
     "texto": "Qual esporte é praticado no torneio de Roland Garros? [?]",
     "resp": "Tenis",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -1607,7 +1607,7 @@ export const clasicoCards = [
     "texto": "Como se chama a mudança de estado de sólido para líquido?",
     "resp": "Fusión",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -1618,7 +1618,7 @@ export const clasicoCards = [
     "texto": "Quantos oceanos são comumente reconhecidos na Terra?",
     "resp": "5 oceanos",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -1629,7 +1629,7 @@ export const clasicoCards = [
     "texto": "Que animal aparece no logotipo da WWF, a organização de conservação da natureza? [?]",
     "resp": "Um panda gigante",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -1640,7 +1640,7 @@ export const clasicoCards = [
     "texto": "A que continente pertence geograficamente Madagascar?",
     "resp": "África",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -1651,7 +1651,7 @@ export const clasicoCards = [
     "texto": "Que instrumento registra os movimentos de um terremoto? [?]",
     "resp": "Sismógrafo",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -1662,7 +1662,7 @@ export const clasicoCards = [
     "texto": "Qual é o rio com maior vazão de água do mundo? [?]",
     "resp": "Rio Amazonas",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -1673,7 +1673,7 @@ export const clasicoCards = [
     "texto": "Em que ano foi fundada a Organização das Nações Unidas (ONU)? [?]",
     "resp": "1945",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -1684,7 +1684,7 @@ export const clasicoCards = [
     "texto": "Qual é a capital da Nova Zelândia? [?]",
     "resp": "Wellington",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -1695,7 +1695,7 @@ export const clasicoCards = [
     "texto": "[player], [player_x] e [player_x1], respondam: Em qual país atual a civilização da Grécia antiga se desenvolveu principalmente? [?]",
     "resp": "Grecia",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -1706,7 +1706,7 @@ export const clasicoCards = [
     "texto": "Qual composto químico tem a fórmula CO2? [?]",
     "resp": "Dióxido de carbono",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -1717,7 +1717,7 @@ export const clasicoCards = [
     "texto": "[player] e [player_x], respondam: Quem pintou o quadro A Noite Estrelada? [?]",
     "resp": "Vincent van Gogh",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -1728,7 +1728,7 @@ export const clasicoCards = [
     "texto": "Que mar separa a Europa do norte da África?",
     "resp": "Mar Mediterrâneo",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -1739,7 +1739,7 @@ export const clasicoCards = [
     "texto": "Que dia e mês se celebra a independência do México?",
     "resp": "16 de setembro",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -1750,7 +1750,7 @@ export const clasicoCards = [
     "texto": "[player], [player_x] e [player_x1], respondam: Quem escreveu Romeu e Julieta? [?]",
     "resp": "William Shakespeare",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -1761,7 +1761,7 @@ export const clasicoCards = [
     "texto": "Qual é o osso mais longo do corpo humano? [?]",
     "resp": "Fémur",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -1772,7 +1772,7 @@ export const clasicoCards = [
     "texto": "Em que unidade se mede a frequência de uma onda? [?]",
     "resp": "Hertz (Hz)",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -1783,7 +1783,7 @@ export const clasicoCards = [
     "texto": "[todos], respondam ao mesmo tempo: Qual é a unidade de energia no Sistema Internacional? [?]",
     "resp": "Julio (joule)",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -1794,7 +1794,7 @@ export const clasicoCards = [
     "texto": "Qual cientista descobriu a penicilina em 1928? [?]",
     "resp": "Alexandre Fleming",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -1805,7 +1805,7 @@ export const clasicoCards = [
     "texto": "Qual é a capital de Cuba? [?]",
     "resp": "Havana",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -1816,7 +1816,7 @@ export const clasicoCards = [
     "texto": "Que escritor argentino escreveu O Aleph?",
     "resp": "Jorge Luís Borges",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -1827,7 +1827,7 @@ export const clasicoCards = [
     "texto": "[player], [player_x] e [player_x1], respondam: Qual é a maior ilha do mundo, sem contar a Austrália como continente? [?]",
     "resp": "Groenlandia",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -1838,7 +1838,7 @@ export const clasicoCards = [
     "texto": "Qual é a capital de Honduras? [?]",
     "resp": "Tegucigalpa",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -1849,7 +1849,7 @@ export const clasicoCards = [
     "texto": "[player] e [player_x], respondam: Qual oceano cerca as ilhas do Havaí? [?]",
     "resp": "Oceano Pacífico",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -1860,7 +1860,7 @@ export const clasicoCards = [
     "texto": "[todos], respondam ao mesmo tempo: Como se chama a rocha derretida que se encontra abaixo da superfície terrestre? [?]",
     "resp": "Magma",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -1871,7 +1871,7 @@ export const clasicoCards = [
     "texto": "Qual é a capital da República Dominicana?",
     "resp": "Santo Domingo",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -1882,7 +1882,7 @@ export const clasicoCards = [
     "texto": "[player] e [player_x], respondam: Qual era o sobrenome do imperador francês Napoleão? [?]",
     "resp": "Bonaparte",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -1893,7 +1893,7 @@ export const clasicoCards = [
     "texto": "O que significam as siglas ADN? [?]",
     "resp": "Ácido desoxirribonucleico",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -1904,7 +1904,7 @@ export const clasicoCards = [
     "texto": "[player], [player_x] e [player_x1], respondam: A que movimento artístico pertenceu Salvador Dalí? [?]",
     "resp": "Surrealismo",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -1915,7 +1915,7 @@ export const clasicoCards = [
     "texto": "[todos], respondam ao mesmo tempo: Em que país fica o Museu do Prado? [?]",
     "resp": "España",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -1926,7 +1926,7 @@ export const clasicoCards = [
     "texto": "[player], [player_x] e [player_x1], respondam: Em que ano ocorreu a batalha de Boyacá, decisiva para a independência da Colômbia? [?]",
     "resp": "1819",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -1937,7 +1937,7 @@ export const clasicoCards = [
     "texto": "Quem escreveu A casa dos espíritos?",
     "resp": "Isabel Allende",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -1948,7 +1948,7 @@ export const clasicoCards = [
     "texto": "[all], responda ao mesmo tempo: Qual é o nome da célula especializada em transmitir impulsos nervosos? [?]",
     "resp": "Neurona",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -1959,7 +1959,7 @@ export const clasicoCards = [
     "texto": "[player] e [player_x], respondam: Qual país lançou o primeiro satélite artificial, Sputnik 1? [?]",
     "resp": "A União Soviética",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -1970,7 +1970,7 @@ export const clasicoCards = [
     "texto": "Qual é a capital da Guatemala? [?]",
     "resp": "Cidade da Guatemala",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -1981,7 +1981,7 @@ export const clasicoCards = [
     "texto": "Qual é o maior deserto quente do mundo? [?]",
     "resp": "El Sahara",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -1992,7 +1992,7 @@ export const clasicoCards = [
     "texto": "[player] e [player_x], respondam: Como se chamam as grandes peças da litosfera terrestre cujo movimento causa muitos terremotos? [?]",
     "resp": "Placas tectônicas",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -2003,7 +2003,7 @@ export const clasicoCards = [
     "texto": "[todos], respondam ao mesmo tempo: Qual líder da independência sul-americana é conhecido como O Libertador? [?]",
     "resp": "Simón Bolívar",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -2014,7 +2014,7 @@ export const clasicoCards = [
     "texto": "[player] e [player_x], responda: Quais são os dois dígitos que o sistema numérico binário usa? [?]",
     "resp": "0 e 1",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -2025,7 +2025,7 @@ export const clasicoCards = [
     "texto": "[todos], respondam ao mesmo tempo: Qual órgão do corpo humano produz a bile? [?]",
     "resp": "O fígado",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -2036,7 +2036,7 @@ export const clasicoCards = [
     "texto": "[player] e [player_x], respondam: Quem compôs a Nona Sinfonia? [?]",
     "resp": "Ludwig van Beethoven",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -2047,7 +2047,7 @@ export const clasicoCards = [
     "texto": "[player] e [player_x], respondam: Qual instrumento é usado para medir a velocidade do vento? [?]",
     "resp": "Anemómetro",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -2058,7 +2058,7 @@ export const clasicoCards = [
     "texto": "Em qual país fica a cidade de Petra, famosa por suas construções esculpidas na rocha? [?]",
     "resp": "Jordania",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -2069,7 +2069,7 @@ export const clasicoCards = [
     "texto": "[todos], respondam ao mesmo tempo: Qual é a capital da Nicarágua? [?]",
     "resp": "Managua",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -2080,7 +2080,7 @@ export const clasicoCards = [
     "texto": "Qual é a fórmula química do cloreto de sódio? [?]",
     "resp": "Cloreto de Sódio",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -2091,7 +2091,7 @@ export const clasicoCards = [
     "texto": "[player], [player_x] e [player_x1], respondam: Quanto somam os ângulos internos de um triângulo? [?]",
     "resp": "180 graus",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -2102,7 +2102,7 @@ export const clasicoCards = [
     "texto": "[all], responda ao mesmo tempo: Em que país está localizado o Monte Fuji? [?]",
     "resp": "Japón",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -2113,7 +2113,7 @@ export const clasicoCards = [
     "texto": "[player], [player_x] e [player_x1], responda: Quem pintou Las meninas? [?]",
     "resp": "Diego Velázquez",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -2124,7 +2124,7 @@ export const clasicoCards = [
     "texto": "Qual camada da atmosfera ajuda a nos proteger da radiação ultravioleta? [?]",
     "resp": "A camada de ozônio",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -2135,7 +2135,7 @@ export const clasicoCards = [
     "texto": "Qual oceano banha a costa leste da Argentina?",
     "resp": "Oceano Atlântico",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -2146,7 +2146,7 @@ export const clasicoCards = [
     "texto": "[player], [player_x] e [player_x1], respondam: Qual civilização construiu Machu Picchu? [?]",
     "resp": "A civilização inca",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -2157,7 +2157,7 @@ export const clasicoCards = [
     "texto": "Qual é a capital da Irlanda? [?]",
     "resp": "Dublín",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -2168,7 +2168,7 @@ export const clasicoCards = [
     "texto": "Que fonte de energia os painéis solares fotovoltaicos aproveitam?",
     "resp": "A luz solar",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -2179,7 +2179,7 @@ export const clasicoCards = [
     "texto": "Qual empresário é um dos principais cofundadores do Facebook? [?]",
     "resp": "Mark Zuckerberg",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -2190,7 +2190,7 @@ export const clasicoCards = [
     "texto": "Que ciência estuda os seres vivos?",
     "resp": "Biología",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -2201,7 +2201,7 @@ export const clasicoCards = [
     "texto": "[player] e [player_x], respondam: Qual país centro-americano tem como capital San Salvador? [?]",
     "resp": "El Salvador",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -2212,7 +2212,7 @@ export const clasicoCards = [
     "texto": "[todos], respondam ao mesmo tempo: Em que ano caiu Constantinopla diante do Império Otomano? [?]",
     "resp": "1453",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -2223,7 +2223,7 @@ export const clasicoCards = [
     "texto": "Qual organela celular produz a maior parte do ATP durante a respiração celular? [?]",
     "resp": "A mitocôndria",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -2234,7 +2234,7 @@ export const clasicoCards = [
     "texto": "Quem escreveu A cidade e os cachorros? [?]",
     "resp": "Mário Vargas Llosa",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -2245,7 +2245,7 @@ export const clasicoCards = [
     "texto": "[todos], respondam ao mesmo tempo: Qual é o rio mais longo da Europa? [?]",
     "resp": "Rio Volga",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -2256,7 +2256,7 @@ export const clasicoCards = [
     "texto": "Qual país tem como capital Budapeste? [?]",
     "resp": "Hungria",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -2267,7 +2267,7 @@ export const clasicoCards = [
     "texto": "Quanto somam os ângulos internos de um quadrilátero?",
     "resp": "360 graus",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -2278,7 +2278,7 @@ export const clasicoCards = [
     "texto": "___TODOS___, responda ao mesmo tempo: Qual filósofo grego escreveu a alegoria da caverna? [?]",
     "resp": "Platón",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -2289,7 +2289,7 @@ export const clasicoCards = [
     "texto": "Em que país fica o templo de Abu Simbel? [?]",
     "resp": "Egipto",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -2300,7 +2300,7 @@ export const clasicoCards = [
     "texto": "[player], [player_x] e [player_x1], respondam: Em que país nasceu a pintora Frida Kahlo? [?]",
     "resp": "México",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -2311,7 +2311,7 @@ export const clasicoCards = [
     "texto": "[todos], respondam ao mesmo tempo: Qual elemento químico tem o símbolo Hg? [?]",
     "resp": "Mercúrio",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -2322,7 +2322,7 @@ export const clasicoCards = [
     "texto": "[player], [player_x] e [player_x1], respondam: Qual é a capital da Noruega? [?]",
     "resp": "Oslo",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -2333,7 +2333,7 @@ export const clasicoCards = [
     "texto": "[todos], respondam ao mesmo tempo: Qual escritora mexicana escreveu Primeiro sonho? [?]",
     "resp": "Sor Juana Inés de la Cruz",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -2344,7 +2344,7 @@ export const clasicoCards = [
     "texto": "Que ciência estuda os fósseis? [?]",
     "resp": "Paleontologia",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -2355,7 +2355,7 @@ export const clasicoCards = [
     "texto": "[player] e [player_x], respondam: Em que ano os primeiros seres humanos chegaram à Lua? [?]",
     "resp": "1969",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -2366,7 +2366,7 @@ export const clasicoCards = [
     "texto": "[todos], respondam ao mesmo tempo: Qual composto químico tem a fórmula NH3? [?]",
     "resp": "Amoníaco",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -2377,7 +2377,7 @@ export const clasicoCards = [
     "texto": "[player] e [player_x], respondam: Qual mar separa a península arábica do nordeste da África? [?]",
     "resp": "Mar Rojo",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -2388,7 +2388,7 @@ export const clasicoCards = [
     "texto": "[player] e [player_x], respondam: Que compositor famoso escreveu As Quatro Estações? [?]",
     "resp": "Antonio Vivaldi",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -2399,7 +2399,7 @@ export const clasicoCards = [
     "texto": "[player], [player_x] e [player_x1], respondam: Qual país africano tem Rabat como capital? [?]",
     "resp": "Marrocos",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -2410,7 +2410,7 @@ export const clasicoCards = [
     "texto": "Qual romance de George Orwell descreve uma sociedade vigiada pelo Grande Irmão? [?]",
     "resp": "1984",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -2421,7 +2421,7 @@ export const clasicoCards = [
     "texto": "Que tipo de ligação química é formada quando dois átomos compartilham elétrons?",
     "resp": "Ligação covalente",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -2432,7 +2432,7 @@ export const clasicoCards = [
     "texto": "Que ilha chilena é famosa por suas enormes estátuas chamadas moai? [?]",
     "resp": "Ilha de Páscoa ou Rapa Nui",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -2443,7 +2443,7 @@ export const clasicoCards = [
     "texto": "[player], [player_x] e [player_x1], respondam: Qual planeta leva mais tempo para girar em seu eixo do que para completar uma órbita ao redor do Sol? [?]",
     "resp": "Venus",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -2454,7 +2454,7 @@ export const clasicoCards = [
     "texto": "[player], [player_x] e [player_x1], respondam: Qual sistema do corpo humano é composto por glândulas que produzem hormônios? [?]",
     "resp": "Sistema endócrino",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -2465,7 +2465,7 @@ export const clasicoCards = [
     "texto": "[player], [player_x] e [player_x1], respondam: Qual é a capital da Rússia? [?]",
     "resp": "Moscú",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -2476,7 +2476,7 @@ export const clasicoCards = [
     "texto": "Quem pintou a obra O Grito?",
     "resp": "Edvard Munch",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -2487,7 +2487,7 @@ export const clasicoCards = [
     "texto": "Qual civilização construiu a antiga cidade de Tikal?",
     "resp": "A civilização maia",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -2498,7 +2498,7 @@ export const clasicoCards = [
     "texto": "[player] e [player_x], respondam: Em que país fica o salar de Uyuni? [?]",
     "resp": "Bolivia",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -2509,7 +2509,7 @@ export const clasicoCards = [
     "texto": "Qual é a capital da Islândia? [?]",
     "resp": "Reikiavik",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -2520,7 +2520,7 @@ export const clasicoCards = [
     "texto": "Qual é a moeda oficial do Reino Unido? [?]",
     "resp": "Libra esterlina",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -2531,7 +2531,7 @@ export const clasicoCards = [
     "texto": "[player] e [player_x], respondam: Qual glândula do corpo humano regula grande parte do metabolismo por meio de seus hormônios? [?]",
     "resp": "Tireóides",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -2542,7 +2542,7 @@ export const clasicoCards = [
     "texto": "Quanto somam os ângulos internos de um pentágono? [?]",
     "resp": "540 graus",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -2553,7 +2553,7 @@ export const clasicoCards = [
     "texto": "Em que ano começou a Revolução Francesa? [?]",
     "resp": "1789",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -2564,7 +2564,7 @@ export const clasicoCards = [
     "texto": "[all], respondam ao mesmo tempo: Quem escreveu o romance Frankenstein? [?]",
     "resp": "Mary Shelley",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -2575,7 +2575,7 @@ export const clasicoCards = [
     "texto": "Qual escala é utilizada para classificar a dureza dos minerais? [?]",
     "resp": "Escala de Mohs",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -2586,7 +2586,7 @@ export const clasicoCards = [
     "texto": "Quem foi o primeiro presidente dos Estados Unidos? [?]",
     "resp": "George Washington",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -2597,7 +2597,7 @@ export const clasicoCards = [
     "texto": "[player] e [player_x], respondam: Qual estrutura do ouvido interno transforma vibrações sonoras em sinais nervosos? [?]",
     "resp": "A cóclea",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -2608,7 +2608,7 @@ export const clasicoCards = [
     "texto": "Qual idioma é falado principalmente no Irã?",
     "resp": "Persa ou farsi",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -2619,7 +2619,7 @@ export const clasicoCards = [
     "texto": "Qual é a capital do Quênia? [?]",
     "resp": "Nairobi",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -2630,7 +2630,7 @@ export const clasicoCards = [
     "texto": "[player] e [player_x], respondam: Qual astrônomo renascentista propôs um modelo heliocêntrico do sistema solar? [?]",
     "resp": "Nicolau Copérnico",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -2641,7 +2641,7 @@ export const clasicoCards = [
     "texto": "Como se chama uma faixa estreita de terra que conecta duas extensões de terra maiores?",
     "resp": "Istmo",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -2652,7 +2652,7 @@ export const clasicoCards = [
     "texto": "Quem escreveu o romance Rayuela?",
     "resp": "Julio Cortázar",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -2663,7 +2663,7 @@ export const clasicoCards = [
     "texto": "[todos], respondam ao mesmo tempo: Em que país está localizado o templo de Angkor Wat? [?]",
     "resp": "Camboya",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -2674,7 +2674,7 @@ export const clasicoCards = [
     "texto": "Qual elemento químico tem o símbolo K?",
     "resp": "Potasio",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -2685,7 +2685,7 @@ export const clasicoCards = [
     "texto": "[player], [player_x] e [player_x1], respondam: Qual cientista formulou as leis da hereditariedade através de experimentos com ervilhas? [?]",
     "resp": "Gregor Mendel",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -2696,7 +2696,7 @@ export const clasicoCards = [
     "texto": "[player] e [player_x], respondam: Em que ano caiu o Muro de Berlim? [?]",
     "resp": "1989",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -2707,7 +2707,7 @@ export const clasicoCards = [
     "texto": "[player], [player_x] e [player_x1], respondam: Qual antiga cidade romana foi sepultada pela erupção do Vesúvio no ano 79? [?]",
     "resp": "Pompeya",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -2718,7 +2718,7 @@ export const clasicoCards = [
     "texto": "Qual continente, além da América do Sul e da África, é atravessado pelo Trópico de Capricórnio? [?]",
     "resp": "Oceanía",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -2729,7 +2729,7 @@ export const clasicoCards = [
     "texto": "[player] e [player_x], respondam: Em qual antiga civilização o papel foi inventado? [?]",
     "resp": "A civilização chinesa",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -2740,7 +2740,7 @@ export const clasicoCards = [
     "texto": "Qual partícula subatômica tem carga elétrica negativa? [?]",
     "resp": "Electrón",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -2751,7 +2751,7 @@ export const clasicoCards = [
     "texto": "Que país tem Ancara como capital? [?]",
     "resp": "Turquía",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -2762,7 +2762,7 @@ export const clasicoCards = [
     "texto": "Em que ano foi assinado o Tratado de Versalhes que impôs condições de paz à Alemanha após a Primeira Guerra Mundial? [?]",
     "resp": "1919",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -2773,7 +2773,7 @@ export const clasicoCards = [
     "texto": "[player], [player_x] e [player_x1], respondam: Qual é a forma da estrutura molecular do DNA? [?]",
     "resp": "Dupla hélice",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -2784,7 +2784,7 @@ export const clasicoCards = [
     "texto": "Qual império europeu teve Viena como uma de suas principais capitais até 1918? [?]",
     "resp": "Império Austro-Húngaro",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -2795,7 +2795,7 @@ export const clasicoCards = [
     "texto": "Qual glândula do cérebro produz principalmente a melatonina?",
     "resp": "Glândula pineal",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -2806,7 +2806,7 @@ export const clasicoCards = [
     "texto": "Qual é o número atômico do carbono? [?]",
     "resp": "6",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -2817,7 +2817,7 @@ export const clasicoCards = [
     "texto": "[player], [player_x] e [player_x1], respondam: Qual inventor é famoso por suas contribuições para o desenvolvimento de sistemas elétricos de corrente alternada? [?]",
     "resp": "Nikola Tesla",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -2828,7 +2828,7 @@ export const clasicoCards = [
     "texto": "[todos], respondam ao mesmo tempo: Qual poema épico de Virgílio narra a viagem do herói Eneias para a Itália? [?]",
     "resp": "La Eneida",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -2839,7 +2839,7 @@ export const clasicoCards = [
     "texto": "A qual país pertence o arquipélago de Svalbard? [?]",
     "resp": "Noruega",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -2850,7 +2850,7 @@ export const clasicoCards = [
     "texto": "[todos], respondam ao mesmo tempo: Qual ramo da matemática estuda as derivadas e as integrais? [?]",
     "resp": "Cálculo",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -2861,7 +2861,7 @@ export const clasicoCards = [
     "texto": "[todos], respondam ao mesmo tempo: Qual rei francês era conhecido como o Rei Sol? [?]",
     "resp": "Luís XIV",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -2872,7 +2872,7 @@ export const clasicoCards = [
     "texto": "[todos], respondam ao mesmo tempo: Em que século começou a Revolução Industrial na Grã-Bretanha? [?]",
     "resp": "século XVIII",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -2883,7 +2883,7 @@ export const clasicoCards = [
     "texto": "Que grupo de bactérias pode realizar a fotossíntese e produzir oxigênio? [?]",
     "resp": "Cianobacterias",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -2894,7 +2894,7 @@ export const clasicoCards = [
     "texto": "[player] e [player_x], respondam: Qual cidade italiana foi o centro de uma poderosa república marítima durante a Idade Média? [?]",
     "resp": "Venecia",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -2905,7 +2905,7 @@ export const clasicoCards = [
     "texto": "Qual gás nobre tem o número atômico 2? [?]",
     "resp": "Hélio",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -2916,7 +2916,7 @@ export const clasicoCards = [
     "texto": "[player], [player_x] e [player_x1], respondam: Que filósofo escreveu O contrato social? [?]",
     "resp": "Jean-Jacques Rousseau",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -2927,7 +2927,7 @@ export const clasicoCards = [
     "texto": "Qual tecido do corpo humano produz a maioria dos glóbulos vermelhos? [?]",
     "resp": "Medula óssea vermelha",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -2938,7 +2938,7 @@ export const clasicoCards = [
     "texto": "Em que ano foi adotada a Declaração Universal dos Direitos Humanos? [?]",
     "resp": "1948",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -2949,7 +2949,7 @@ export const clasicoCards = [
     "texto": "Qual é a montanha mais alta da África? [?]",
     "resp": "Monte Kilimanjaro",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -2960,7 +2960,7 @@ export const clasicoCards = [
     "texto": "[player] e [player_x], respondam: Qual compositor polonês é famoso por seus noturnos para piano? [?]",
     "resp": "Frédéric Chopin",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -2971,7 +2971,7 @@ export const clasicoCards = [
     "texto": "[player] e [player_x], respondam: Como se chama o processo pelo qual uma bactéria incorpora DNA livre do seu ambiente? [?]",
     "resp": "Transformação bacteriana",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -2982,7 +2982,7 @@ export const clasicoCards = [
     "texto": "Qual país asiático era anteriormente conhecido como Ceilão?",
     "resp": "Sri Lanka",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -2993,7 +2993,7 @@ export const clasicoCards = [
     "texto": "Que invenção Johannes Gutenberg aperfeiçoou na Europa durante o século XV? [?]",
     "resp": "A impressora de tipos móveis",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -3004,7 +3004,7 @@ export const clasicoCards = [
     "texto": "O que diferencia os isótopos de um mesmo elemento químico?",
     "resp": "Seu número de nêutrons",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -3015,7 +3015,7 @@ export const clasicoCards = [
     "texto": "Que estreito separa Espanha de Marrocos? [?]",
     "resp": "Estreito de Gibraltar",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -3026,7 +3026,7 @@ export const clasicoCards = [
     "texto": "[player], [player_x] e [player_x1], respondam: Qual cientista descobriu que os planetas se movem ao redor do Sol seguindo órbitas elípticas? [?]",
     "resp": "Johannes Kepler",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -3037,7 +3037,7 @@ export const clasicoCards = [
     "texto": "[player], [player_x] e [player_x1], respondam: Quem pintou A persistência da memória, o famoso quadro dos relógios derretidos? [?]",
     "resp": "Salvador Dalí",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -3048,7 +3048,7 @@ export const clasicoCards = [
     "texto": "[all], responda ao mesmo tempo: Qual é o estado de oxidação de um elemento químico em sua forma elementar? [?]",
     "resp": "Cero",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -3059,7 +3059,7 @@ export const clasicoCards = [
     "texto": "Em que país nasceu o poeta Pablo Neruda? [?]",
     "resp": "Chile",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -3070,7 +3070,7 @@ export const clasicoCards = [
     "texto": "Qual civilização pré-inca construiu a cidade de Chan Chan no Peru? [?]",
     "resp": "A civilização chimú",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -3081,7 +3081,7 @@ export const clasicoCards = [
     "texto": "[todos], respondam ao mesmo tempo: Em que cidade está localizada a sede da Corte Internacional de Justiça? [?]",
     "resp": "Haia",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -3092,7 +3092,7 @@ export const clasicoCards = [
     "texto": "[player] e [player_x], respondam: Qual é o nome do processo de morte celular programada? [?]",
     "resp": "Apoptose",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -3103,7 +3103,7 @@ export const clasicoCards = [
     "texto": "Qual astrônomo observou quatro grandes luas de Júpiter em 1610?",
     "resp": "Galileu Galilei",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -3114,7 +3114,7 @@ export const clasicoCards = [
     "texto": "Como se chama o estudo estatístico que contabiliza a população de um país? [?]",
     "resp": "Censo",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -3125,7 +3125,7 @@ export const clasicoCards = [
     "texto": "Qual tratado de 1494 dividiu as zonas de expansão entre Espanha e Portugal? [?]",
     "resp": "Tratado de Tordesilhas",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -3136,7 +3136,7 @@ export const clasicoCards = [
     "texto": "Qual rio atravessa a cidade de Londres?",
     "resp": "Rio Tâmisa",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -3147,7 +3147,7 @@ export const clasicoCards = [
     "texto": "[player] e [player_x], respondam: Qual é a maior lua de Saturno? [?]",
     "resp": "Titán",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -3158,7 +3158,7 @@ export const clasicoCards = [
     "texto": "[player] e [player_x], respondam: Que tipo de energia tem um objeto devido à sua posição em um campo gravitacional? [?]",
     "resp": "Energia potencial gravitacional",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -3169,7 +3169,7 @@ export const clasicoCards = [
     "texto": "[player], [player_x] e [player_x1], respondam: Quem escreveu Crônica de uma morte anunciada? [?]",
     "resp": "Gabriel García Márquez",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -3180,7 +3180,7 @@ export const clasicoCards = [
     "texto": "[player] e [player_x], respondam: Como se chama a perda de água na forma de vapor pelas folhas das plantas? [?]",
     "resp": "Transpiración",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -3191,7 +3191,7 @@ export const clasicoCards = [
     "texto": "Quem compôs a ópera A flauta mágica? [?]",
     "resp": "Wolfgang Amadeus Mozart",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -3202,7 +3202,7 @@ export const clasicoCards = [
     "texto": "[player] e [player_x], respondam: Qual país africano tem Adis Abeba como capital? [?]",
     "resp": "Etiopía",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -3213,7 +3213,7 @@ export const clasicoCards = [
     "texto": "Qual é o principal mineral que confere dureza aos ossos e dentes? [?]",
     "resp": "Hidroxiapatita",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -3224,7 +3224,7 @@ export const clasicoCards = [
     "texto": "[todos], respondam ao mesmo tempo: Qual ciência estuda o clima e suas variações a longo prazo? [?]",
     "resp": "Climatología",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -3235,7 +3235,7 @@ export const clasicoCards = [
     "texto": "[player] e [player_x], respondam: Qual imperador romano participou do acordo conhecido como Édito de Milão do ano 313? [?]",
     "resp": "Constantino I",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -3246,7 +3246,7 @@ export const clasicoCards = [
     "texto": "Que magnitude física é medida em pascais? [?]",
     "resp": "Presión",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -3257,7 +3257,7 @@ export const clasicoCards = [
     "texto": "Qual camada interna da Terra é composta principalmente de ferro e níquel? [?]",
     "resp": "O núcleo terrestre",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -3268,7 +3268,7 @@ export const clasicoCards = [
     "texto": "[player], [player_x] e [player_x1], respondam: Em que país fica o Vale dos Reis, onde foram enterrados numerosos faraós? [?]",
     "resp": "Egipto",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -3279,7 +3279,7 @@ export const clasicoCards = [
     "texto": "[player], [player_x] e [player_x1], respondam: Qual cientista é conhecido como um dos pais da química moderna por seus estudos sobre a conservação da massa? [?]",
     "resp": "Antoine Lavoisier",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -3290,7 +3290,7 @@ export const clasicoCards = [
     "texto": "[todos], respondam ao mesmo tempo: Qual muralista mexicano pintou O homem controlador do universo? [?]",
     "resp": "Diego Rivera",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -3301,7 +3301,7 @@ export const clasicoCards = [
     "texto": "Qual foi a capital do Império Bizantino? [?]",
     "resp": "Constantinopla",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -3312,7 +3312,7 @@ export const clasicoCards = [
     "texto": "Qual filósofo grego foi professor de Alexandre, o Grande? [?]",
     "resp": "Aristóteles",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -3323,7 +3323,7 @@ export const clasicoCards = [
     "texto": "Qual cientista propôs a teoria da deriva continental? [?]",
     "resp": "Alfred Wegener",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -3334,7 +3334,7 @@ export const clasicoCards = [
     "texto": "[todos], respondam ao mesmo tempo: Qual unidade do Sistema Internacional é usada para medir a resistência elétrica? [?]",
     "resp": "Ohmio",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -3345,7 +3345,7 @@ export const clasicoCards = [
     "texto": "[todos], respondam ao mesmo tempo: Qual império sul-americano desenvolveu a extensa rede de estradas conhecida como Qhapaq Ñan? [?]",
     "resp": "Império Inca",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -3356,7 +3356,7 @@ export const clasicoCards = [
     "texto": "[player] e [player_x], respondam: Qual escritor chileno recebeu o Prêmio Nobel de Literatura em 1945? [?]",
     "resp": "Gabriela Mistral",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -3367,7 +3367,7 @@ export const clasicoCards = [
     "texto": "Qual físico alemão introduziu a ideia dos quanta de energia em 1900?",
     "resp": "Max Planck",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -3378,7 +3378,7 @@ export const clasicoCards = [
     "texto": "Que tratado assinado em 1957 estabeleceu a Comunidade Econômica Europeia? [?]",
     "resp": "Tratado sobre o Funcionamento da União Europeia",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -3389,7 +3389,7 @@ export const clasicoCards = [
     "texto": "[player] e [player_x], respondam: Quem escreveu A Divina Comédia? [?]",
     "resp": "Dante Alighieri",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -3400,7 +3400,7 @@ export const clasicoCards = [
     "texto": "Que substâncias os linfócitos B produzem quando se diferenciam em células plasmáticas? [?]",
     "resp": "Anticuerpos",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -3411,7 +3411,7 @@ export const clasicoCards = [
     "texto": "[player], [player_x] e [player_x1], respondam: Qual país europeu utiliza o esloti ou zloty como moeda? [?]",
     "resp": "Polonia",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -3422,7 +3422,7 @@ export const clasicoCards = [
     "texto": "Quais são os nomes dos animais que são mais ativos durante o nascer e o pôr do sol? [?]",
     "resp": "Crepúsculos",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -3433,7 +3433,7 @@ export const clasicoCards = [
     "texto": "Qual cientista descobriu os elementos rádio e polônio junto com Pierre Curie? [?]",
     "resp": "Marie Curie",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -3444,7 +3444,7 @@ export const clasicoCards = [
     "texto": "[player], [player_x] e [player_x1], respondam: A que reino biológico pertencem os fungos? [?]",
     "resp": "Reino dos Fungos",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -3455,7 +3455,7 @@ export const clasicoCards = [
     "texto": "[player], [player_x] e [player_x1], respondam: Qual antiga civilização da Mesopotâmia desenvolveu a escrita cuneiforme? [?]",
     "resp": "A civilização suméria",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -3466,7 +3466,7 @@ export const clasicoCards = [
     "texto": "[todos], respondam ao mesmo tempo: Qual famosa novela começa com a frase 'Em um lugar da Mancha, de cujo nome não quero me lembrar'? [?]",
     "resp": "Dom Quixote de La Mancha",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -3477,7 +3477,7 @@ export const clasicoCards = [
     "texto": "[player] e [player_x], respondam: Qual lei estabelece que a pressão de um gás é inversamente proporcional ao seu volume quando a temperatura permanece constante? [?]",
     "resp": "Lei de Boyle-Mariotte",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -3488,7 +3488,7 @@ export const clasicoCards = [
     "texto": "Qual é a capital da Mongólia? [?]",
     "resp": "Ulaan Bator",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -3499,7 +3499,7 @@ export const clasicoCards = [
     "texto": "Qual navegador completou a primeira circunavegação do mundo após a morte de Fernão de Magalhães? [?]",
     "resp": "Juan Sebastián Elcano",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -3510,7 +3510,7 @@ export const clasicoCards = [
     "texto": "Qual ramo da geologia estuda os terremotos? [?]",
     "resp": "Sismología",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -3521,7 +3521,7 @@ export const clasicoCards = [
     "texto": "[player] e [player_x], respondam: Qual país africano era historicamente conhecido como Abissínia? [??]",
     "resp": "Etiopía",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -3532,7 +3532,7 @@ export const clasicoCards = [
     "texto": "[player], [player_x] e [player_x1], respondam: Qual é o valor aproximado do número de Avogadro? [?]",
     "resp": "6,022 × 10²³",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -3543,7 +3543,7 @@ export const clasicoCards = [
     "texto": "Que movimento artístico representa os objetos por meio de formas geométricas e perspectivas fragmentadas? [?]",
     "resp": "Cubismo",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -3554,7 +3554,7 @@ export const clasicoCards = [
     "texto": "[player] e [player_x], respondam: Que escritor mexicano Pedro Páramo escreveu? [?]",
     "resp": "Juan Rulfo",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -3565,7 +3565,7 @@ export const clasicoCards = [
     "texto": "O que estabelece o código genético?",
     "resp": "A correspondência entre códons e aminoácidos, além dos sinais de terminação",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -3576,7 +3576,7 @@ export const clasicoCards = [
     "texto": "[player], [player_x] e [player_x1], respondam: Em que continente surgiu o Homo sapiens? [?]",
     "resp": "África",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -3587,7 +3587,7 @@ export const clasicoCards = [
     "texto": "Com qual imperador romano se considera que a Pax Romana começou? [?]",
     "resp": "Augusto",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -3598,7 +3598,7 @@ export const clasicoCards = [
     "texto": "[player] e [player_x], respondam: Qual é a maior ilha do arquipélago japonês? [?]",
     "resp": "Honshu",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -3609,7 +3609,7 @@ export const clasicoCards = [
     "texto": "Como se chama a região ao redor de uma estrela onde poderia existir água líquida na superfície de um planeta sob condições adequadas?",
     "resp": "Área de estar",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -3620,7 +3620,7 @@ export const clasicoCards = [
     "texto": "Como se chamam as glândulas que ficam acima dos rins?",
     "resp": "Glândulas suprarrenais",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -3631,7 +3631,7 @@ export const clasicoCards = [
     "texto": "Em qual cidade espanhola está localizada a Alhambra Palace? [?]",
     "resp": "Granada",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -3642,7 +3642,7 @@ export const clasicoCards = [
     "texto": "___TODOS___, responda ao mesmo tempo: Quais características um polígono deve ter para ser considerado regular? [?]",
     "resp": "Ter todos os seus lados e ângulos iguais",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -3653,7 +3653,7 @@ export const clasicoCards = [
     "texto": "Qual romance de Aldous Huxley descreve uma sociedade controlada por meio de engenharia social e condicionamento? [?]",
     "resp": "Um mundo feliz",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -3664,7 +3664,7 @@ export const clasicoCards = [
     "texto": "Qual elemento químico não metálico é líquido à temperatura ambiente? [?]",
     "resp": "Bromo",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -3675,7 +3675,7 @@ export const clasicoCards = [
     "texto": "[todos], respondam ao mesmo tempo: Qual país foi governado pela dinastia Pahlavi até 1979? [?]",
     "resp": "Irán",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -3686,7 +3686,7 @@ export const clasicoCards = [
     "texto": "[player] e [player_x], respondam: Qual escala de temperatura utiliza o zero absoluto como ponto de partida? [?]",
     "resp": "Escala Kelvin",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -3697,7 +3697,7 @@ export const clasicoCards = [
     "texto": "[player] e [player_x], respondam: Qual tecido vegetal transporta principalmente água e minerais das raízes? [?]",
     "resp": "Xilema",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -3708,7 +3708,7 @@ export const clasicoCards = [
     "texto": "[player] e [player_x], respondam: Qual batalha de 1824 foi decisiva para consolidar a independência do Peru e de grande parte da América do Sul? [?]",
     "resp": "Batalha de Ayacucho",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -3719,7 +3719,7 @@ export const clasicoCards = [
     "texto": "[player], [player_x] e [player_x1], respondam: Qual é o nome do ponto de uma órbita onde um planeta está mais próximo do Sol? [?]",
     "resp": "Perihelio",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -3730,7 +3730,7 @@ export const clasicoCards = [
     "texto": "[player], [player_x] e [player_x1], respondam: Qual médico inglês descreveu corretamente a circulação sistêmica do sangue no século XVII? [?]",
     "resp": "William Harvey",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -3741,7 +3741,7 @@ export const clasicoCards = [
     "texto": "[todos], respondam ao mesmo tempo: Qual artista renascentista pintou A Escola de Atenas? [?]",
     "resp": "Rafael Sanzio",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -3752,7 +3752,7 @@ export const clasicoCards = [
     "texto": "Que disciplina científica estuda a origem, estrutura e evolução do universo? [?]",
     "resp": "Cosmología",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -3763,7 +3763,7 @@ export const clasicoCards = [
     "texto": "Qual partícula subatômica tem carga elétrica positiva? [?]",
     "resp": "Protón",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -3774,7 +3774,7 @@ export const clasicoCards = [
     "texto": "[todos], respondam ao mesmo tempo: Qual cidade romana foi enterrada pela erupção do Vesúvio junto com Pompeia? [?]",
     "resp": "Herculano",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -3785,7 +3785,7 @@ export const clasicoCards = [
     "texto": "Que escritor francês escreveu Os Miseráveis?",
     "resp": "Víctor Hugo",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -3796,7 +3796,7 @@ export const clasicoCards = [
     "texto": "[todos], respondam ao mesmo tempo: Como se chama o desgaste e transporte de materiais da superfície terrestre causado pelo vento? [?]",
     "resp": "Erosão eólica",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -3807,7 +3807,7 @@ export const clasicoCards = [
     "texto": "Qual elemento químico tem o número atômico 26? [?]",
     "resp": "Hierro",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -3818,7 +3818,7 @@ export const clasicoCards = [
     "texto": "[player], [player_x] e [player_x1], respondam: Que tipo de falha geológica é a falha de San Andrés na Califórnia? [?]",
     "resp": "Falta transformadora",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -3829,7 +3829,7 @@ export const clasicoCards = [
     "texto": "Qual deserto do norte do Chile é famoso por seus observatórios astronômicos e sua extrema aridez?",
     "resp": "Deserto do Atacama",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -3840,7 +3840,7 @@ export const clasicoCards = [
     "texto": "Qual conquistador espanhol liderou a campanha que terminou com a queda de Tenochtitlan em 1521? [?]",
     "resp": "Hernán Cortés",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -3851,7 +3851,7 @@ export const clasicoCards = [
     "texto": "Que filósofo francês escreveu Discurso do método? [?]",
     "resp": "René Descartes",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -3862,7 +3862,7 @@ export const clasicoCards = [
     "texto": "[player], [player_x] e [player_x1], respondam: Qual químico russo apresentou uma versão influente da tabela periódica dos elementos em 1869? [?]",
     "resp": "Dmitri Mendeléyev",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -3873,7 +3873,7 @@ export const clasicoCards = [
     "texto": "Qual aliança militar internacional foi fundada em 1949 pelos Estados Unidos, Canadá e vários países europeus? [?]",
     "resp": "OTAN",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -3884,7 +3884,7 @@ export const clasicoCards = [
     "texto": "Qual físico formulou o princípio da incerteza na mecânica quântica? [?]",
     "resp": "Werner Heisenberg",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -3895,7 +3895,7 @@ export const clasicoCards = [
     "texto": "Qual dinastia chinesa construiu muitas das seções mais conhecidas da Grande Muralha que sobrevivem até hoje? [?]",
     "resp": "Dinastia Ming",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -3906,7 +3906,7 @@ export const clasicoCards = [
     "texto": "[player] e [player_x], respondam: Como se chama o lugar onde se encontram os limites de três placas tectônicas? [?]",
     "resp": "Ponto triplo",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -3917,7 +3917,7 @@ export const clasicoCards = [
     "texto": "[player] e [player_x], respondam: Qual filósofo e matemático francês popularizou o sistema de coordenadas cartesianas? [?]",
     "resp": "René Descartes",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -3928,7 +3928,7 @@ export const clasicoCards = [
     "texto": "[player] e [player_x], respondam: Que processo de divisão celular normalmente produz duas células filhas geneticamente iguais? [?]",
     "resp": "Mitosis",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -3939,7 +3939,7 @@ export const clasicoCards = [
     "texto": "[all], respondam ao mesmo tempo: Qual partícula é o quantum do campo eletromagnético? [?]",
     "resp": "Fotón",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -3950,7 +3950,7 @@ export const clasicoCards = [
     "texto": "[player], [player_x] e [player_x1], respondam: Qual foi a capital do califado abássida durante grande parte de sua história? [?]",
     "resp": "Bagdad",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -3961,7 +3961,7 @@ export const clasicoCards = [
     "texto": "[player] e [player_x], respondam: Qual escritora britânica escreveu Orgulho e Preconceito? [?]",
     "resp": "Jane Austen",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -3972,7 +3972,7 @@ export const clasicoCards = [
     "texto": "[todos], respondam ao mesmo tempo: Qual naturalista sueco popularizou o sistema de nomenclatura binomial usado para nomear espécies? [?]",
     "resp": "Carlos Linneo",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -3983,7 +3983,7 @@ export const clasicoCards = [
     "texto": "O que é o albedo de uma superfície?",
     "resp": "A proporção de radiação que reflete",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -3994,7 +3994,7 @@ export const clasicoCards = [
     "texto": "[player] e [player_x], respondam: Qual conflito medieval envolveu principalmente a Inglaterra e a França entre 1337 e 1453? [?]",
     "resp": "Guerra dos Cem Anos",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -4005,7 +4005,7 @@ export const clasicoCards = [
     "texto": "Quais são os dois países da América do Sul que não têm acesso direto ao mar? [?]",
     "resp": "Bolívia e Paraguai",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -4016,7 +4016,7 @@ export const clasicoCards = [
     "texto": "Qual escala é utilizada para expressar a acidez ou alcalinidade de uma solução? [?]",
     "resp": "Escala de pH",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -4027,7 +4027,7 @@ export const clasicoCards = [
     "texto": "Qual antiga civilização se desenvolveu ao redor da cidade de Caral, na costa peruana? [?]",
     "resp": "Civilização Caral ou Norte Chico",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -4038,7 +4038,7 @@ export const clasicoCards = [
     "texto": "Qual instrumento é usado para medir a intensidade da corrente elétrica? [?]",
     "resp": "Amperímetro",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -4049,7 +4049,7 @@ export const clasicoCards = [
     "texto": "Qual civilização da Idade do Bronze construiu o palácio de Cnossos, em Creta? [?]",
     "resp": "Civilização minoica",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -4060,7 +4060,7 @@ export const clasicoCards = [
     "texto": "Que filósofo alemão escreveu Assim Falou Zaratustra? [?]",
     "resp": "Friedrich Nietzsche",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -4071,7 +4071,7 @@ export const clasicoCards = [
     "texto": "[todos], respondam ao mesmo tempo: Qual teoria geológica explica o movimento das placas que compõem a litosfera terrestre? [?]",
     "resp": "Placas Tectônicas",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -4082,7 +4082,7 @@ export const clasicoCards = [
     "texto": "Qual país foi governado pela dinastia Qing até 1912? [?]",
     "resp": "China",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -4093,7 +4093,7 @@ export const clasicoCards = [
     "texto": "[player] e [player_x], respondam: Que efeito explica o aparente desvio dos ventos e das correntes oceânicas devido à rotação da Terra? [?]",
     "resp": "Efecto Coriolis",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -4104,7 +4104,7 @@ export const clasicoCards = [
     "texto": "[player] e [player_x], respondam: Qual substância forma uma parte fundamental do exoesqueleto dos insetos? [?]",
     "resp": "Quitina",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -4115,7 +4115,7 @@ export const clasicoCards = [
     "texto": "Qual período geológico da era Mesozoica ocorreu imediatamente antes do Jurássico?",
     "resp": "Triásico",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -4126,7 +4126,7 @@ export const clasicoCards = [
     "texto": "[player], [player_x] e [player_x1], respondam: Qual astrônomo formulou as três leis do movimento planetário? [?]",
     "resp": "Johannes Kepler",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -4137,7 +4137,7 @@ export const clasicoCards = [
     "texto": "[player] e [player_x], respondam: Qual astrônoma americana foi fundamental para desenvolver o sistema moderno de classificação espectral das estrelas? [?]",
     "resp": "Annie Jump Cannon",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -4148,7 +4148,7 @@ export const clasicoCards = [
     "texto": "Qual romance de Laura Esquivel combina receitas de cozinha, amor e realismo mágico?",
     "resp": "Como água para chocolate",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -4159,7 +4159,7 @@ export const clasicoCards = [
     "texto": "[todos], respondam ao mesmo tempo: Qual país asiático, cuja capital histórica é Jacarta, esteve sob domínio colonial neerlandês? [?]",
     "resp": "Indonesia",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -4170,7 +4170,7 @@ export const clasicoCards = [
     "texto": "Qual elemento químico tem o símbolo W?",
     "resp": "Tungstênio ou tungstênio",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -4181,7 +4181,7 @@ export const clasicoCards = [
     "texto": "O que representa o índice de refração de um material?",
     "resp": "A relação entre a velocidade da luz no vácuo e sua velocidade nesse material",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -4192,7 +4192,7 @@ export const clasicoCards = [
     "texto": "[todos], respondam ao mesmo tempo: Qual império persa teve Persépolis como um de seus principais centros cerimoniais? [?]",
     "resp": "Império aquemênida",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -4203,7 +4203,7 @@ export const clasicoCards = [
     "texto": "[player], [player_x] e [player_x1], respondam: Em que ano se considera tradicionalmente que caiu o Império Romano do Ocidente? [?]",
     "resp": "476 d.C.",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -4214,7 +4214,7 @@ export const clasicoCards = [
     "texto": "[player], [player_x] e [player_x1], respondam: Qual naturalista propôs de maneira independente uma teoria de evolução por seleção natural semelhante à de Charles Darwin? [?]",
     "resp": "Alfred Russel Wallace",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -4225,7 +4225,7 @@ export const clasicoCards = [
     "texto": "[player], [player_x] e [player_x1], responda: Qual isótopo radioativo é comumente usado para determinar a idade de restos orgânicos? [?]",
     "resp": "Carbono-14",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -4236,7 +4236,7 @@ export const clasicoCards = [
     "texto": "[player], [player_x] e [player_x1], responda: Qual cidade europeia foi dividida por um muro construído em 1961? [?]",
     "resp": "Berlín",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -4247,7 +4247,7 @@ export const clasicoCards = [
     "texto": "[todos], respondam ao mesmo tempo: Qual obra de Igor Stravinsky provocou uma grande controvérsia durante sua estreia em Paris em 1913? [?]",
     "resp": "A consagração da primavera",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -4258,7 +4258,7 @@ export const clasicoCards = [
     "texto": "Que interação fundamental mantém prótons e nêutrons juntos no núcleo atômico? [?]",
     "resp": "A interação nuclear forte",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -4269,7 +4269,7 @@ export const clasicoCards = [
     "texto": "[todos], respondam ao mesmo tempo: Qual país africano derrotou o exército italiano na batalha de Adwa de 1896? [?]",
     "resp": "Etiopía",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -4280,7 +4280,7 @@ export const clasicoCards = [
     "texto": "Qual filósofo grego fundou a escola conhecida como Liceu?",
     "resp": "Aristóteles",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -4291,7 +4291,7 @@ export const clasicoCards = [
     "texto": "[player] e [player_x], respondam: Qual lei da termodinâmica estabelece que a entropia total de um sistema isolado nunca diminui? [?]",
     "resp": "Segunda lei da termodinâmica",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -4302,7 +4302,7 @@ export const clasicoCards = [
     "texto": "[todos], respondam ao mesmo tempo: Qual tratado assinado em 1992 estabeleceu formalmente a União Europeia? [?]",
     "resp": "Tratado de Maastricht",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -4313,7 +4313,7 @@ export const clasicoCards = [
     "texto": "[player], [player_x] e [player_x1], respondam: Qual astrônomo estadunidense deu nome à lei que relaciona a distância das galáxias com sua velocidade de afastamento? [?]",
     "resp": "Edwin Hubble",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -4324,7 +4324,7 @@ export const clasicoCards = [
     "texto": "Como se chamam as rochas formadas pelo resfriamento e solidificação do magma ou da lava? [?]",
     "resp": "Rochas ígneas",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -4335,7 +4335,7 @@ export const clasicoCards = [
     "texto": "Qual é a unidade de capacitância elétrica no Sistema Internacional? [?]",
     "resp": "Faradio",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -4346,7 +4346,7 @@ export const clasicoCards = [
     "texto": "Qual disciplina estuda os signos e seus processos de significação?",
     "resp": "Semiótica",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -4357,7 +4357,7 @@ export const clasicoCards = [
     "texto": "Qual batalha de 1815 marcou a derrota definitiva de Napoleão Bonaparte?",
     "resp": "Batalha de Waterloo",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -4368,7 +4368,7 @@ export const clasicoCards = [
     "texto": "Qual rio atravessa a cidade de Budapeste? [?]",
     "resp": "Rio Danúbio",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -4379,7 +4379,7 @@ export const clasicoCards = [
     "texto": "Qual animal marinho tem três corações e sangue azul? [?]",
     "resp": "Pulpo",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -4390,7 +4390,7 @@ export const clasicoCards = [
     "texto": "Qual cientista francês desenvolveu uma vacina contra a raiva aplicada com sucesso em 1885? [?]",
     "resp": "Louis Pasteur",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -4401,7 +4401,7 @@ export const clasicoCards = [
     "texto": "Qual indicador econômico é comumente usado para medir a variação dos preços de uma cesta de bens e serviços de consumo? [?]",
     "resp": "Índice de Preços ao Consumidor (IPC)",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -4412,7 +4412,7 @@ export const clasicoCards = [
     "texto": "[player] e [player_x], respondam: Qual matemático formulou os famosos teoremas da incompletude em 1931? [?]",
     "resp": "Kurt Gödel",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -4423,7 +4423,7 @@ export const clasicoCards = [
     "texto": "[player] e [player_x], respondam: Que evento ocorreu em Praga em 1618 que ajudou a desencadear a Guerra dos Trinta Anos? [?]",
     "resp": "A segunda defenestração de Praga",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -4434,7 +4434,7 @@ export const clasicoCards = [
     "texto": "[player], [player_x] e [player_x1], respondam: Que filósofo alemão escreveu Crítica da razão pura? [?]",
     "resp": "Immanuel Kant",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -4445,7 +4445,7 @@ export const clasicoCards = [
     "texto": "Qual estilo arquitetônico medieval se caracteriza por arcos apontados, abóbadas de cruzaria e arcobotantes? [?]",
     "resp": "Arquitetura gótica",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -4456,7 +4456,7 @@ export const clasicoCards = [
     "texto": "[player] e [player_x], respondam: Qual é o nome do isótopo do hidrogênio que tem um próton e um nêutron? [?]",
     "resp": "Deuterio",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -4467,7 +4467,7 @@ export const clasicoCards = [
     "texto": "[player], [player_x] e [player_x1], respondam: Qual é o nome da descontinuidade geológica que separa a crosta terrestre do manto? [?]",
     "resp": "Descontinuidade de Mohorovičić ou Moho",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -4478,7 +4478,7 @@ export const clasicoCards = [
     "texto": "[player], [player_x] e [player_x1], respondam: Qual filósofo francês escreveu O Segundo Sexo? [?]",
     "resp": "Simone de Beauvoir",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -4489,7 +4489,7 @@ export const clasicoCards = [
     "texto": "___TODOS___, responda ao mesmo tempo: Que corrente oceânica fria influencia consideravelmente o clima das costas do Peru e do Chile? [?]",
     "resp": "Corrente de Humboldt",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -4500,7 +4500,7 @@ export const clasicoCards = [
     "texto": "Qual médico inglês desenvolveu a primeira vacina contra a varíola no final do século XVIII?",
     "resp": "Edward Jenner",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -4511,7 +4511,7 @@ export const clasicoCards = [
     "texto": "Qual império construiu o Taj Mahal durante o século XVII? [?]",
     "resp": "Império Mogol",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -4522,7 +4522,7 @@ export const clasicoCards = [
     "texto": "Qual lei dos gases relaciona diretamente a pressão e a temperatura quando o volume permanece constante?",
     "resp": "Lei de Gay-Lussac",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -4533,7 +4533,7 @@ export const clasicoCards = [
     "texto": "Qual era o nome da capital do Império Mexica ou Asteca? [?]",
     "resp": "Tenochtitlan",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -4544,7 +4544,7 @@ export const clasicoCards = [
     "texto": "[player] e [player_x], respondam: Qual físico formulou o princípio da exclusão que leva seu sobrenome? [?]",
     "resp": "Wolfgang Pauli",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -4555,7 +4555,7 @@ export const clasicoCards = [
     "texto": "Em que ano a União Soviética foi oficialmente dissolvida?",
     "resp": "1991",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -4566,7 +4566,7 @@ export const clasicoCards = [
     "texto": "[todos], respondam ao mesmo tempo: Qual filósofo alemão escreveu Ser e tempo? [?]",
     "resp": "Martin Heidegger",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -4577,7 +4577,7 @@ export const clasicoCards = [
     "texto": "Em que ano Martinho Lutero publicou suas 95 teses, evento associado ao início da Reforma Protestante?",
     "resp": "1517",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -4588,7 +4588,7 @@ export const clasicoCards = [
     "texto": "Que rio atravessa a cidade de Bagdá? [?]",
     "resp": "Rio Tigre",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -4599,7 +4599,7 @@ export const clasicoCards = [
     "texto": "[todos], respondam ao mesmo tempo: Que cientista britânica ganhou o Prêmio Nobel de Química de 1964 por seus estudos de estruturas moleculares por meio de raios X? [?]",
     "resp": "Dorothy Crowfoot Hodgkin",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -4610,7 +4610,7 @@ export const clasicoCards = [
     "texto": "[player], [player_x] e [player_x1], respondam: Qual filósofo fundou a escola estóica em Atenas? [?]",
     "resp": "Zenão de Cítio",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -4621,7 +4621,7 @@ export const clasicoCards = [
     "texto": "[player] e [player_x], respondam: Qual missão espacial levou seres humanos à superfície da Lua pela primeira vez? [?]",
     "resp": "Apolo 11",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -4632,7 +4632,7 @@ export const clasicoCards = [
     "texto": "Qual metal tem a maior condutividade elétrica em temperatura ambiente? [?]",
     "resp": "Plata",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -4643,7 +4643,7 @@ export const clasicoCards = [
     "texto": "[player], [player_x] e [player_x1], respondam: Qual é o nome do processo nuclear em que dois núcleos leves se unem para formar um mais pesado? [?]",
     "resp": "Fusão nuclear",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -4654,7 +4654,7 @@ export const clasicoCards = [
     "texto": "[player], [player_x] e [player_x1], respondam: Qual país africano obteve sua independência de Portugal em 1975 e tem como capital Luanda? [?]",
     "resp": "Angola",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -4665,7 +4665,7 @@ export const clasicoCards = [
     "texto": "Qual camada da atmosfera terrestre está imediatamente acima da estratosfera?",
     "resp": "Mesosfera",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -4676,7 +4676,7 @@ export const clasicoCards = [
     "texto": "[todos], respondam ao mesmo tempo: Qual famosa equação de Einstein expressa a equivalência entre massa e energia? [?]",
     "resp": "E = mc²",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -4687,7 +4687,7 @@ export const clasicoCards = [
     "texto": "Que escritor italiano escreveu O nome da rosa?",
     "resp": "Umberto Eco",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -4698,7 +4698,7 @@ export const clasicoCards = [
     "texto": "Qual é a capital da Namíbia? [?]",
     "resp": "Windhoek",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -4709,7 +4709,7 @@ export const clasicoCards = [
     "texto": "Qual tratado de 1898 pôs fim à guerra entre Espanha e Estados Unidos? [?]",
     "resp": "Tratado de Paris",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -4720,7 +4720,7 @@ export const clasicoCards = [
     "texto": "[player] e [player_x], resposta: Qual é a estrela mais próxima do Sol? [?]",
     "resp": "Próxima Centauri",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -4731,7 +4731,7 @@ export const clasicoCards = [
     "texto": "[all], responda ao mesmo tempo: Qual supercontinente começou a se desintegrar durante a era Mesozóica? [?]",
     "resp": "Pangea",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -4742,7 +4742,7 @@ export const clasicoCards = [
     "texto": "Qual paralelo foi utilizado inicialmente como linha divisória entre a Coreia do Norte e a Coreia do Sul após a Segunda Guerra Mundial?",
     "resp": "Paralelo 38",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -4753,7 +4753,7 @@ export const clasicoCards = [
     "texto": "[player], [player_x] e [player_x1], respondam: Que pintor neerlandês realizou a famosa obra O Jardim das Delícias? [?]",
     "resp": "O Bosco ou Hieronymus Bosch",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -4764,7 +4764,7 @@ export const clasicoCards = [
     "texto": "[player] e [player_x], respondam: Qual doença é causada por uma deficiência grave de vitamina C? [?]",
     "resp": "Escorbuto",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -4775,7 +4775,7 @@ export const clasicoCards = [
     "texto": "Qual matemático russo foi um dos fundadores da geometria hiperbólica? [?]",
     "resp": "Nikolái Lobachevski",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -4786,7 +4786,7 @@ export const clasicoCards = [
     "texto": "[player], [player_x] e [player_x1], respondam: Que ramo da geologia estuda as águas subterrâneas, sua distribuição e movimento? [?]",
     "resp": "Hidrogeologia",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -4797,7 +4797,7 @@ export const clasicoCards = [
     "texto": "[todos], respondam ao mesmo tempo: Qual é o número atômico do urânio? [?]",
     "resp": "92",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -4808,7 +4808,7 @@ export const clasicoCards = [
     "texto": "Qual naturalista publicou A Origem das Espécies em 1859? [?]",
     "resp": "Charles Darwin",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -4819,7 +4819,7 @@ export const clasicoCards = [
     "texto": "[all], responda ao mesmo tempo: Qual império africano medieval foi governado pelo famoso imperador Mansa Musa? [?]",
     "resp": "Império do Mali",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -4830,7 +4830,7 @@ export const clasicoCards = [
     "texto": "Qual cientista explicou o efeito fotoelétrico usando a ideia de quanta de luz em 1905? [?]",
     "resp": "Albert Einstein",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -4841,7 +4841,7 @@ export const clasicoCards = [
     "texto": "Que fenômeno solar causa a aurora boreal ao interagir com o campo magnético e a atmosfera da Terra? [?]",
     "resp": "A chegada de partículas carregadas do vento solar",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -4852,7 +4852,7 @@ export const clasicoCards = [
     "texto": "Em qual cidade alemã foram realizados os famosos julgamentos contra líderes nazistas após a Segunda Guerra Mundial? [?]",
     "resp": "Núremberg",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -4863,7 +4863,7 @@ export const clasicoCards = [
     "texto": "[all], responda ao mesmo tempo: Que tratado assinado em Washington em 1949 deu origem à OTAN? [?]",
     "resp": "Tratado do Atlântico Norte",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -4874,7 +4874,7 @@ export const clasicoCards = [
     "texto": "Qual grupo sanguíneo é considerado doador universal de glóbulos vermelhos?",
     "resp": "Ou negativo",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -4885,7 +4885,7 @@ export const clasicoCards = [
     "texto": "[player] e [player_x], respondam: Qual teoria explica que as mitocôndrias e os cloroplastos se originaram a partir de organismos que viviam dentro de outras células? [?]",
     "resp": "Teoria endossimbiótica",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -4896,7 +4896,7 @@ export const clasicoCards = [
     "texto": "Qual dirigente soviético impulsionou as reformas conhecidas como perestroika e glásnost?",
     "resp": "Mikhail Gorbachev",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -4907,7 +4907,7 @@ export const clasicoCards = [
     "texto": "Qual mineral é composto por dióxido de silício e tem a fórmula SiO2? [?]",
     "resp": "Cuarzo",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -4918,7 +4918,7 @@ export const clasicoCards = [
     "texto": "[player] e [player_x], respondam: Quem se tornou presidente da África do Sul em 1994 após as primeiras eleições nacionais com sufrágio universal? [?]",
     "resp": "Nelson Mandela",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -4929,7 +4929,7 @@ export const clasicoCards = [
     "texto": "Em que país foi escrita a Constituição federal de 1787, ainda em vigor com emendas? [?]",
     "resp": "Estados Unidos",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -4940,7 +4940,7 @@ export const clasicoCards = [
     "texto": "Qual é o nome da extinção em massa que ocorreu há aproximadamente 66 milhões de anos e exterminou os dinossauros não-aviários? [?]",
     "resp": "Extinção Cretáceo-Paleógeno",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -4951,7 +4951,7 @@ export const clasicoCards = [
     "texto": "Qual filósofo inglês escreveu Leviatã, uma das obras fundamentais da filosofia política moderna? [?]",
     "resp": "Thomas Hobbes",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -4962,7 +4962,7 @@ export const clasicoCards = [
     "texto": "[todos], respondam ao mesmo tempo: Qual conjunto de tratados assinados em 1648 pôs fim à Guerra dos Trinta Anos? [?]",
     "resp": "Paz de Vestfália",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -4973,7 +4973,7 @@ export const clasicoCards = [
     "texto": "[player] e [player_x], respondam: Que filósofo alemão escreveu O mundo como vontade e representação? [?]",
     "resp": "Arthur Schopenhauer",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -4984,7 +4984,7 @@ export const clasicoCards = [
     "texto": "Qual astrônoma descobriu a relação entre o período e a luminosidade das estrelas variáveis cefeidas?",
     "resp": "Henrietta Swan Leavitt",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -4995,7 +4995,7 @@ export const clasicoCards = [
     "texto": "[all], responda ao mesmo tempo: Qual czar russo decretou a emancipação dos servos em 1861? [?]",
     "resp": "Alekandre II",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -5006,7 +5006,7 @@ export const clasicoCards = [
     "texto": "Qual arquiteto americano projetou a famosa Fallingwater House, também conhecida como Fallingwater? [?]",
     "resp": "Frank Lloyd Wright",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -5017,7 +5017,7 @@ export const clasicoCards = [
     "texto": "[player] e [player_x], respondam: Qual escritor guatemalteco recebeu o Prêmio Nobel de Literatura em 1967? [?]",
     "resp": "Miguel Ángel Asturias",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -5028,7 +5028,7 @@ export const clasicoCards = [
     "texto": "[player] e [player_x], respondam: Qual lei do eletromagnetismo relaciona o fluxo elétrico através de uma superfície fechada com a carga elétrica contida? [?]",
     "resp": "Lei de Gauss",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -5039,7 +5039,7 @@ export const clasicoCards = [
     "texto": "Que tratado assinado em 1713 foi fundamental para encerrar a Guerra da Sucessão Espanhola? [?]",
     "resp": "Tratado de Utrecht",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -5050,7 +5050,7 @@ export const clasicoCards = [
     "texto": "___TODOS___, responda ao mesmo tempo: Em que período geológico surgiram os primeiros dinossauros? [?]",
     "resp": "Triásico",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -5061,7 +5061,7 @@ export const clasicoCards = [
     "texto": "Qual país foi o primeiro a reconhecer o direito de voto das mulheres em eleições parlamentares nacionais, em 1893? [?]",
     "resp": "Nueva Zelanda",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -5072,7 +5072,7 @@ export const clasicoCards = [
     "texto": "Qual matemático britânico conseguiu demonstrar o último teorema de Fermat na década de 1990? [?]",
     "resp": "Andrew Wiles",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -5083,7 +5083,7 @@ export const clasicoCards = [
     "texto": "[player], [player_x] e [player_x1], responda: Que dinastia governou a Rússia até a Revolução de 1917? [?]",
     "resp": "Dinastia Romanov",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -5094,7 +5094,7 @@ export const clasicoCards = [
     "texto": "Que astrofísica descobriu os primeiros pulsares em 1967 durante suas investigações de radioastronomia?",
     "resp": "Jocelyn Bell Burnell",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -5105,7 +5105,7 @@ export const clasicoCards = [
     "texto": "[player], [player_x] e [player_x1], respondam: Como é conhecida a antiga rede de rotas comerciais que conectava a China com a Ásia Central e o Mediterrâneo? [?]",
     "resp": "Rota da Seda",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -5116,7 +5116,7 @@ export const clasicoCards = [
     "texto": "[player], [player_x] e [player_x1], respondam: Como se chama a descontinuidade que separa o manto terrestre do núcleo externo? [?]",
     "resp": "Descontinuidade de Gutenberg",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -5127,7 +5127,7 @@ export const clasicoCards = [
     "texto": "[player], [player_x] e [player_x1], respondam: Qual líder haitiano proclamou a independência do Haiti em 1804? [?]",
     "resp": "Jean-Jacques Dessalines",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -5138,7 +5138,7 @@ export const clasicoCards = [
     "texto": "[player], [player_x] e [player_x1], respondam: Qual escritor argentino publicou o livro de contos Ficciones em 1944? [?]",
     "resp": "Jorge Luís Borges",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -5149,7 +5149,7 @@ export const clasicoCards = [
     "texto": "Qual é o nome do processo evolutivo no qual as frequências alélicas mudam por causas aleatórias? [?]",
     "resp": "Deriva genética",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -5160,7 +5160,7 @@ export const clasicoCards = [
     "texto": "[todos], respondam ao mesmo tempo: Que físico austríaco formulou em 1926 uma equação fundamental da mecânica quântica que leva seu sobrenome? [?]",
     "resp": "Erwin Schrödinger",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -5171,7 +5171,7 @@ export const clasicoCards = [
     "texto": "Qual sistema de escrita é utilizado atualmente em idiomas como o russo, o búlgaro e o ucraniano? [?]",
     "resp": "Alfabeto cirílico",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -5182,7 +5182,7 @@ export const clasicoCards = [
     "texto": "Qual pacto internacional assinado em 1928 buscava renunciar à guerra como instrumento de política nacional? [?]",
     "resp": "Pacto Briand-Kellogg",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -5193,7 +5193,7 @@ export const clasicoCards = [
     "texto": "[todos], respondam ao mesmo tempo: Qual compositor italiano criou a ópera L'Orfeo, estreada em 1607? [?]",
     "resp": "Claudio Monteverdi",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -5204,7 +5204,7 @@ export const clasicoCards = [
     "texto": "Qual corrente oceânica quente transporta água da região do golfo do México para o Atlântico Norte?",
     "resp": "Corrente do Golfo",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -5215,7 +5215,7 @@ export const clasicoCards = [
     "texto": "Qual escritor brasileiro escreveu Memórias Póstumas de Brás Cubas?",
     "resp": "Machado de Assis",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -5226,7 +5226,7 @@ export const clasicoCards = [
     "texto": "[player], [player_x] e [player_x1], respondam: Qual elemento químico foi descoberto por Marie e Pierre Curie e recebeu o nome em homenagem à Polônia? [?]",
     "resp": "Polonio",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -5237,7 +5237,7 @@ export const clasicoCards = [
     "texto": "Qual cidade egípcia ficou famosa por abrigar uma das bibliotecas mais importantes da Antiguidade? [?]",
     "resp": "Alejandría",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -5248,7 +5248,7 @@ export const clasicoCards = [
     "texto": "[player] e [player_x], respondam: Que matemático escocês desenvolveu os logaritmos e publicou seus trabalhos no início do século XVII? [?]",
     "resp": "John Napier ou Juan Neper",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -5259,7 +5259,7 @@ export const clasicoCards = [
     "texto": "Que documento assinado na Inglaterra em 1215 estabeleceu importantes limitações ao poder do monarca? [?]",
     "resp": "Carta Magna",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -5270,7 +5270,7 @@ export const clasicoCards = [
     "texto": "[player], [player_x] e [player_x1], respondam: Que civilização mesoamericana construiu a cidade de Copán, localizada na atual Honduras? [?]",
     "resp": "Civilização maia",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -5281,7 +5281,7 @@ export const clasicoCards = [
     "texto": "[all], responda ao mesmo tempo: Qual conceito cosmológico é usado para explicar a expansão acelerada do universo? [?]",
     "resp": "Energia escura",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -5292,7 +5292,7 @@ export const clasicoCards = [
     "texto": "Qual foi a última dinastia imperial que governou a China antes de se estabelecer a república em 1912? [?]",
     "resp": "Dinastia Qing",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -5303,7 +5303,7 @@ export const clasicoCards = [
     "texto": "[all], responda ao mesmo tempo: Como é chamada uma célula que possui dois conjuntos completos de cromossomos? [?]",
     "resp": "Diploide",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -5314,7 +5314,7 @@ export const clasicoCards = [
     "texto": "Qual filósofo e economista alemão escreveu o primeiro volume de O Capital? [?]",
     "resp": "Karl Marx",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -5325,7 +5325,7 @@ export const clasicoCards = [
     "texto": "[player] e [player_x], respondam: Qual bioquímico descreveu o ciclo do ácido cítrico, fundamental para a respiração celular? [?]",
     "resp": "Hans Adolf Krebs",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -5336,7 +5336,7 @@ export const clasicoCards = [
     "texto": "[player], [player_x] e [player_x1], respondam: Qual país atual ocupa grande parte do território onde se desenvolveu a antiga Mesopotâmia? [?]",
     "resp": "Irak",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -5347,7 +5347,7 @@ export const clasicoCards = [
     "texto": "[player] e [player_x], respondam: Qual imperador romano participou da promulgação do Édito de Tessalônica no ano 380, que estabeleceu o cristianismo niceno como religião oficial do Império? [?]",
     "resp": "Teodósio I",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -5358,7 +5358,7 @@ export const clasicoCards = [
     "texto": "Qual mineral ocupa o nível 10 na escala de dureza de Mohs? [?]",
     "resp": "Diamante",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -5369,7 +5369,7 @@ export const clasicoCards = [
     "texto": "Qual acordo internacional assinado em 1959 estabeleceu o uso pacífico da Antártica e a cooperação científica? [?]",
     "resp": "Tratado da Antártida",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -5380,7 +5380,7 @@ export const clasicoCards = [
     "texto": "[todos], respondam ao mesmo tempo: Quais dois físicos detectaram experimentalmente o neutrino em 1956? [?]",
     "resp": "Clyde Cowan e Frederick Reines",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -5391,7 +5391,7 @@ export const clasicoCards = [
     "texto": "[player] e [player_x], respondam: Em que país africano estão as ruínas da antiga cidade de Grande Zimbábue? [?]",
     "resp": "Zimbabue",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -5402,7 +5402,7 @@ export const clasicoCards = [
     "texto": "Qual filósofo da ciência escreveu A Estrutura das Revoluções Científicas? [?]",
     "resp": "Thomas Kuhn",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -5413,7 +5413,7 @@ export const clasicoCards = [
     "texto": "[player] e [player_x], respondam: Que lei física estabelece que a energia total irradiada por um corpo negro é proporcional à quarta potência de sua temperatura absoluta? [?]",
     "resp": "Lei de Stefan-Boltzmann",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -5424,7 +5424,7 @@ export const clasicoCards = [
     "texto": "Como é conhecido o movimento editorial e literário das décadas de 1960 e 1970 que internacionalizou escritores latino-americanos como García Márquez, Cortázar e Vargas Llosa?",
     "resp": "Boom latino-americano",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -5435,7 +5435,7 @@ export const clasicoCards = [
     "texto": "Qual arqueólogo britânico descobriu a tumba de Tutancâmon em 1922? [?]",
     "resp": "Howard Carter",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -5446,7 +5446,7 @@ export const clasicoCards = [
     "texto": "Qual filósofo francês defendeu a separação de poderes em sua obra O espírito das leis?",
     "resp": "Montesquieu",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -5457,7 +5457,7 @@ export const clasicoCards = [
     "texto": "[player] e [player_x], respondam: Qual partícula elemental, cuja existência foi confirmada experimentalmente no CERN em 2012, está associada ao mecanismo pelo qual certas partículas adquirem massa? [?]",
     "resp": "Bóson de Higgs",
     "especial": false,
-    "castigo": "Se errarem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errarem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -5468,7 +5468,7 @@ export const clasicoCards = [
     "texto": "Qual país do Caribe se tornou em 1804 a primeira república independente surgida de uma revolução de pessoas escravizadas? [?]",
     "resp": "Haiti",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -5479,7 +5479,7 @@ export const clasicoCards = [
     "texto": "Qual escola filosófica da Grécia antiga defendia a busca de uma vida feliz por meio de prazeres moderados e a ausência de sofrimento?",
     "resp": "Epicureísmo",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -5490,7 +5490,7 @@ export const clasicoCards = [
     "texto": "Que antigo oceano se estendia entre as massas continentais de Laurásia e Gondwana? [?]",
     "resp": "Oceano de Tétis",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -5501,7 +5501,7 @@ export const clasicoCards = [
     "texto": "Qual número matemático, aproximadamente igual a 2,71828, é a base dos logaritmos naturais? [?]",
     "resp": "Número e o número de Euler",
     "especial": false,
-    "castigo": "Se errar toma [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se errar [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -5511,7 +5511,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Qual plano simples você mais gosta com seus amigos?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -5521,7 +5521,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Que apelido carinhoso seus amigos te deram?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -5531,7 +5531,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você prefere sair para comer ou fazer uma reunião em casa com amigos?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -5541,7 +5541,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Que música te lembra seu grupo de amigos?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -5551,7 +5551,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Qual amigo te fez rir mais recentemente?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -5561,7 +5561,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Que comida nunca falta em uma reunião com seus amigos?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -5571,7 +5571,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você é quem organiza os planos ou quem espera o convite?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -5581,7 +5581,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Que atividade nova você gostaria de experimentar com seus amigos?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -5591,7 +5591,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Que viagem curta você gostaria de fazer com seu grupo?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -5601,7 +5601,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Que filme você assistiria de novo com seus amigos?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -5611,7 +5611,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Qual é a sua lembrança favorita de um passeio com amigos?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -5621,7 +5621,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Qual jogo de tabuleiro você joga melhor entre seus amigos?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -5631,7 +5631,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Qual amigo você conhece há mais tempo?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -5641,7 +5641,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Qual frase vocês usam tanto entre si que já é uma piada interna?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -5651,7 +5651,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Qual qualidade você mais valoriza em um bom amigo?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -5661,7 +5661,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Quem costuma demorar mais para responder mensagens no seu grupo?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -5671,7 +5671,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Qual é o plano mais improvisado que você já fez com amigos?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -5681,7 +5681,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Que amizade começou por uma coincidência estranha?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -5691,7 +5691,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "O que seus amigos te emprestaram que você ainda tem?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -5701,7 +5701,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Alguma vez você esqueceu o aniversário de um amigo?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -5711,7 +5711,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Qual amigo lhe deu um gosto musical inesperado?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -5721,7 +5721,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Qual foi a viagem mais divertida com amigos?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -5731,7 +5731,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Qual costume dos seus amigos você acabou adotando?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -5741,7 +5741,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Qual plano com amigos parecia ruim e acabou sendo ótimo?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -5751,7 +5751,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já fingiu conhecer uma música para cantar com seu grupo?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -5761,7 +5761,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "A qual dos seus amigos você pediria uma receita?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -5771,7 +5771,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Qual objeto você perderia primeiro em um passeio com amigos?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -5781,7 +5781,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Qual discussão absurda já durou demais no seu grupo?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -5791,7 +5791,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Alguma vez você já adormeceu durante uma reunião?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -5801,7 +5801,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Qual amigo tem um gosto mais diferente do seu para sair?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -5811,7 +5811,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Qual é o seu pequeno irritante dos seus amigos que você acha engraçado?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -5821,7 +5821,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Que conselho de um amigo você ignorou e depois se arrependeu?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -5831,7 +5831,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Quando foi a última vez que você cancelou um plano por preguiça?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -5841,7 +5841,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Qual amigo te surpreende quando mostra seu lado sério?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -5851,7 +5851,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já sentiu ciúmes de um programa para o qual não foi convidado?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -5861,7 +5861,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Qual foi o presente mais inesperado que você recebeu de um amigo?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -5871,7 +5871,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Alguma vez você confundiu uma brincadeira entre amigos com algo sério?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -5881,7 +5881,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Quem dos seus amigos é o mais difícil de convencer a sair?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -5891,7 +5891,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já usou um amigo como desculpa para evitar um compromisso?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -5901,7 +5901,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Qual tema provoca os debates mais longos em seu grupo?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -5911,7 +5911,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Alguma vez você se arrependeu de apresentar dois amigos?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -5921,7 +5921,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Qual hábito seu você sabe que seus amigos brincando criticam em você?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -5931,7 +5931,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "A qual dos seus amigos você confiaria a escolha das suas roupas para um encontro?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -5941,7 +5941,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Que passeio com amigos estava fora do seu orçamento?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -5951,7 +5951,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Qual foi a primeira impressão mais equivocada que você teve de um amigo?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -5961,7 +5961,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Qual amigo deixou você esperando mais tempo sem avisar?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -5971,7 +5971,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Qual de vocês dois costuma dar mais desculpas para cancelar planos?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -5981,7 +5981,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três seria o primeiro a contar um fofoca sem querer?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -5991,7 +5991,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[all]: Qual grupo de amizade começou com uma primeira impressão errada?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -6001,7 +6001,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Qual hábito dos seus amigos te irrita embora você quase nunca diga?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -6011,7 +6011,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Qual de vocês dois esqueceria primeiro um favor pendente?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -6021,7 +6021,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Qual de vocês três teria mais chances de perder as chaves em uma festa?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -6031,7 +6031,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[todos]: Que tipo de piada do grupo já deveria se aposentar?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -6041,7 +6041,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Que mensagem de um amigo você ignorou de propósito?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -6051,7 +6051,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Que plano vocês fariam juntos para consertar uma saída que deu errado?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -6061,7 +6061,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Qual de vocês três escolheria para explicar uma mancada na frente de todos?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -6071,7 +6071,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[todos]: Quem costuma desaparecer quando chega a conta?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -6081,7 +6081,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Qual apelido que o grupo te deu na verdade você não gosta?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -6091,7 +6091,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Qual de vocês dois exagera mais nas histórias de festa?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -6101,7 +6101,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Qual de vocês três seria pior em guardar um segredo de uma festa de aniversário surpresa?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -6111,7 +6111,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Qual foi a última vez que você ficou chateado com um amigo e não disse nada?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -6121,7 +6121,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Qual de vocês geralmente quer ter a última palavra em uma discussão?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -6131,7 +6131,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Qual de vocês três demoraria mais para pedir desculpas por orgulho?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -6141,7 +6141,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[todos]: Que tipo de comentário entre amigos ultrapassa um limite para vocês?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -6151,7 +6151,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já fingiu estar ocupado para não sair com um amigo em particular?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -6161,7 +6161,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Qual de vocês dois inventou mais desculpas para sair cedo de uma festa?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -6171,7 +6171,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três seria mais provável de estragar um segredo por contar uma piada?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -6181,7 +6181,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[todos]: Que comportamento o grupo consideraria uma falta de lealdade?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -6191,7 +6191,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Qual amigo já te fez sentir fora de lugar alguma vez?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -6201,7 +6201,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Que verdade incômoda vocês poderiam contar um ao outro sem acabarem brigando?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -6211,7 +6211,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três seria o melhor mediador de uma briga entre amigos?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -6221,7 +6221,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[todos]: Quem leva mais a sério as brincadeiras pesadas?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -6231,7 +6231,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Que convite você aceitou apenas para não fazer alguém se sentir mal?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -6241,7 +6241,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Qual de vocês dois fica mais competitivo quando há um prêmio?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -6251,7 +6251,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três mudaria de plano mais rápido por um encontro romântico?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -6261,7 +6261,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "De que decepção com um amigo você ainda se lembra, mesmo já tendo superado?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -6271,7 +6271,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Quem de vocês dois seria mais capaz de falar pelas costas do outro depois de uma briga?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -6281,7 +6281,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Qual de vocês três teria mais dificuldade em admitir que errou na frente do grupo?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -6291,7 +6291,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[todos]: Qual promessa entre amigos vocês consideram imperdoável quebrar?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -6301,7 +6301,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já se sentiu como se fosse a segunda escolha de um amigo?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -6311,7 +6311,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Que situação poderia testar a confiança entre vocês dois?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -6321,7 +6321,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Qual de vocês três ficaria calmo se dois amigos se beijassem inesperadamente?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -6331,7 +6331,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[todos]: Quem tem sido mais dramático por um mal-entendido entre amigos?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -6341,7 +6341,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você escondeu uma conquista para não despertar a inveja de um amigo?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -6351,7 +6351,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Qual de vocês dois seria mais provável de descobrir uma mentira do outro?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -6361,7 +6361,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três abandonaria um encontro para ajudar um amigo em apuros?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -6371,7 +6371,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[todos]: Qual amizade do grupo vocês consideram que mudou mais com os anos?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -6381,7 +6381,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Que crítica sobre você feita por um amigo acabou sendo verdadeira?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -6391,7 +6391,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Qual limite pessoal vocês deveriam respeitar mais um do outro?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -6401,7 +6401,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três dirigiria pior se dois amigos saíssem às escondidas?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -6411,7 +6411,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já gostou de alguém que também interessava a um amigo?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -6421,7 +6421,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Qual de vocês dois se atreveria primeiro a admitir que sente ciúmes do outro?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -6431,7 +6431,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três seria mais propenso a se apaixonar por alguém do círculo próximo?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -6441,7 +6441,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[todos]: Deveria-se contar ao grupo quando dois amigos começam a namorar?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -6451,7 +6451,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você escondeu uma opinião sobre o parceiro de um amigo para evitar problemas?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -6461,7 +6461,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: O que fariam se ambos recebessem um convite romântico da mesma pessoa?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -6471,7 +6471,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três poderia guardar melhor uma confissão romântica alheia?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -6481,7 +6481,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "___TODOS___: Quem mais mudou seu jeito de ser para agradar alguém?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -6491,7 +6491,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você preferiu ficar em silêncio quando um amigo cometia um erro sentimental?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -6501,7 +6501,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Qual de vocês dois seria mais difícil de convencer a perdoar uma traição?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -6511,7 +6511,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três seria mais honesto se visse o parceiro de um amigo flertando?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -6521,7 +6521,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[todos]: Que regra vocês colocariam para evitar conflitos amorosos dentro do grupo?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -6531,7 +6531,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Alguma vez você sentiu que uma amizade exigia mais de você do que lhe dava?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -6541,7 +6541,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: O que vocês nunca perdoariam um no outro em uma amizade?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -6551,7 +6551,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três colocaria limites primeiro em um amigo excessivamente possessivo?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -6561,7 +6561,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já sentiu atração por alguém do grupo e decidiu não agir?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -6571,7 +6571,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Qual de vocês dois confiaria primeiro um segredo capaz de mudar uma amizade?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -6581,7 +6581,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três seria mais capaz de escolher um relacionamento amoroso acima do grupo?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -6591,7 +6591,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[todos]: O que fariam se descobrissem que duas pessoas do grupo tiveram algo e esconderam?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -6601,7 +6601,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Que conversa desconfortável com um amigo você tem adiado por muito tempo?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -6611,7 +6611,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: O que fariam se descobrissem que ambos falaram mal um do outro em diferentes momentos?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -6621,7 +6621,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três se atreveria a confessar um interesse romântico na frente de todos?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -6631,7 +6631,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[todos]: O que vocês consideram pior: esconder uma verdade dolorosa ou contá-la sem tato?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -6641,7 +6641,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já flertou com alguém só porque sabia que essa pessoa gostava de um amigo?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -6651,7 +6651,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Quem de vocês dois lidaria pior se fosse deixado de fora de um plano importante?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -6661,7 +6661,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Qual de vocês três saberia melhor como separar uma discussão do resto da amizade?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -6671,7 +6671,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[todos]: Quem vocês acham que suportou uma amizade que já não lhe fazia bem?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -6681,7 +6681,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já guardou um segredo que fez você se sentir desleal com outro amigo?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -6691,7 +6691,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: O que fariam se uma pessoa tentasse enfrentá-los com versões diferentes de uma história?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -6701,7 +6701,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três seria mais provável de fazer as pazes depois de uma traição menor?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -6711,7 +6711,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Qual verdade sobre uma amizade você nunca disse por medo de perdê-la?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -6721,7 +6721,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Quem de vocês dois seria mais capaz de admitir que alguma vez sentiu inveja do outro?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -6731,7 +6731,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três teria mais dificuldade em aceitar que alguém do grupo beijasse seu ex?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -6741,7 +6741,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[todos]: Que comportamento faria uma amizade próxima se tornar alguém de quem vocês se afastariam?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -6751,7 +6751,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já pensou que um amigo usa você quando precisa de algo?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -6761,7 +6761,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: O que eles diriam se soubessem que esta é a última oportunidade de falar com sinceridade?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -6771,7 +6771,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três seria mais propenso a se envolver em um triângulo amoroso do grupo?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -6781,7 +6781,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[all]: Qual segredo de convivência seria mais difícil de ouvir de um amigo?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -6791,7 +6791,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você se sentiu atraído pelo parceiro atual ou anterior de um amigo?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -6801,7 +6801,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Quem de vocês dois pediria primeiro explicações por uma mensagem comprometedora?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -6811,7 +6811,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Que regra vocês três acordariam se dois se interessassem pela mesma pessoa?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -6821,7 +6821,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[todos]: O que vocês fariam se alguém do grupo revelasse um segredo íntimo sem permissão?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -6831,7 +6831,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Que relação de amizade você mantém mais por história compartilhada do que por afinidade atual?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -6841,7 +6841,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Qual pergunta pessoal vocês nunca tiveram coragem de fazer diretamente?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -6851,7 +6851,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três se arriscaria mais para proteger a reputação de um amigo?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -6861,7 +6861,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Que amizade próxima você terminaria hoje se deixasse de se sentir obrigado a mantê-la?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -6871,7 +6871,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Que verdade difícil poderia ser revelada sem usá-la posteriormente em uma briga?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -6881,7 +6881,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três seria capaz de reconhecer publicamente que prejudicou uma amizade?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -6891,7 +6891,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[all]: O que você faria se dois amigos muito próximos exigissem que você tomasse partido em um rompimento?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -6901,7 +6901,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já desejou em segredo que um casal de amigos terminasse porque isso afetava o grupo?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -6911,7 +6911,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Como vocês reagiriam se um confessasse ter escondido algo que mudou a vida do outro?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -6921,7 +6921,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três enfrentaria primeiro as consequências de uma decisão desleal?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -6931,7 +6931,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[todos]: Que situação amorosa dentro do grupo seria impossível ignorar sem se afastar?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -6941,7 +6941,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Que amizade você recuperou por medo de ficar sozinho e não por verdadeiro desejo?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -6951,7 +6951,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Poderiam se perdoar se descobrissem que vêm se comparando e competindo há anos?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -6961,7 +6961,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Que verdade sobre a dinâmica de vocês os três deveriam dizer, mesmo que seja desconfortável?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -6971,7 +6971,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[all]: Quem estaria disposto a reconhecer que foi um mau amigo em uma situação específica?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -6981,7 +6981,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Qual é a coisa mais egoísta que você já fez dentro de uma amizade?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -6991,7 +6991,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: O que você faria se um confessasse ter tido sentimentos românticos pelo outro durante anos?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -7001,7 +7001,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três teria coragem de pedir perdão agora por uma ferida que ninguém menciona?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -7011,7 +7011,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Alguma vez você cumprimentou alguém que na verdade estava cumprimentando outra pessoa?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -7021,7 +7021,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já tropeçou na frente de várias pessoas sem cair?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -7031,7 +7031,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já pronunciou mal uma palavra na frente de todos?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -7041,7 +7041,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já teve comida entre os dentes sem perceber?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -7051,7 +7051,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você esqueceu o nome de alguém justamente quando ia apresentá-lo?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -7061,7 +7061,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já bateu palmas quando ninguém mais bateu palmas?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -7071,7 +7071,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você entrou por engano em uma sala errada?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -7081,7 +7081,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Alguma vez você já vestiu uma peça de roupa do avesso e saiu assim?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -7091,7 +7091,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você enviou saudações para o número errado?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -7101,7 +7101,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Qual foi a última coisa que caiu de suas mãos em público?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -7111,7 +7111,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Alguma vez você caminhou na direção oposta procurando uma saída?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -7121,7 +7121,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já riu em um momento em que deveria estar sério?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -7131,7 +7131,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já soltou um grande bocejo em uma reunião?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -7141,7 +7141,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já confundiu duas pessoas por sua semelhança?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -7151,7 +7151,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Que pequeno acidente te fez passar vergonha em uma refeição?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -7161,7 +7161,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já enviou um áudio pensando que estava gravando para outra pessoa?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -7171,7 +7171,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Alguma vez uma sacola de compras se rasgou com você na rua?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -7181,7 +7181,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você disse 'igualmente' quando alguém lhe desejou bom apetite?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -7191,7 +7191,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já cantou uma música sem saber que alguém estava ouvindo você?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -7201,7 +7201,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você contou uma piada e ninguém riu?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -7211,7 +7211,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Alguma vez você entrou no andar errado em um elevador e fingiu que era normal?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -7221,7 +7221,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você chamou um professor ou chefe de 'mãe' ou 'pai' por acidente?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -7231,7 +7231,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Alguma vez você derramou uma bebida por tentar se exibir?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -7241,7 +7241,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você cumprimentou com um beijo quando a outra pessoa ofereceu a mão?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -7251,7 +7251,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já cometeu algum erro em uma videochamada porque estava com o microfone aberto?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -7261,7 +7261,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você confundiu o banheiro masculino com o feminino por distração?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -7271,7 +7271,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Alguma vez você já ficou olhando para alguém porque pensou que o conhecia?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -7281,7 +7281,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já usou uma palavra inventada com total certeza?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -7291,7 +7291,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já enviou um emoji com um significado que não entendia?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -7301,7 +7301,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já se despediu e depois caminhou com a mesma pessoa por vários minutos?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -7311,7 +7311,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Qual foi sua queda mais espetacular na frente de estranhos?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -7321,7 +7321,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você disse algo sobre alguém sem perceber que estava atrás de você?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -7331,7 +7331,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já foi pego praticando uma conversa em frente ao espelho?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -7341,7 +7341,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você enviou uma foto ridícula para o chat errado?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -7351,7 +7351,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Alguma vez você esqueceu de desligar um alarme vergonhoso em público?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -7361,7 +7361,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Seu estômago roncou muito alto durante um momento de silêncio?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -7371,7 +7371,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já fingiu entender uma explicação e depois ficou em evidência?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -7381,7 +7381,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já confundiu um encontro romântico com um passeio de amizade?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -7391,7 +7391,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já usou um filtro de câmera sem perceber durante uma reunião virtual?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -7401,7 +7401,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já disse o nome errado ao parabenizar alguém?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -7411,7 +7411,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já entrou em um estabelecimento pensando que era outro e ficou com vergonha?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -7421,7 +7421,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Alguma vez gravaram você dançando quando você achava que ninguém estava te olhando?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -7431,7 +7431,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já esqueceu o preço de algo e teve que devolvê-lo no caixa?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -7441,7 +7441,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já riu de uma mensagem que não era para você?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -7451,7 +7451,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já confundiu alguém com seu irmão ou irmã e falou com confiança com ele(a)?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -7461,7 +7461,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Qual foi a pior foto sua que alguém postou sem avisar?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -7471,7 +7471,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Qual de vocês dois teve o encontro com os silêncios mais constrangedores?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -7481,7 +7481,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três reagiria pior se a roupa rasgasse em uma festa?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -7491,7 +7491,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[all]: Quem se lembra de um erro que ainda te faz rir nervosamente?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -7501,7 +7501,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Alguma vez te descobriram olhando seu reflexo em uma janela alheia?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -7511,7 +7511,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: O que fariam se um enviasse acidentalmente ao outro uma captura falando sobre ele?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -7521,7 +7521,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três seria mais capaz de fingir que conhece alguém para não passar vergonha?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -7531,7 +7531,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[todos]: Que situação embaraçosa aconteceu com vários do grupo em uma festa?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -7541,7 +7541,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você escolheu a pessoa errada quando enviou uma mensagem amorosa?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -7551,7 +7551,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Qual de vocês dois ficaria mais vermelho se dedicassem um karaokê ao outro na frente do grupo?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -7561,7 +7561,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: A quem de vocês três confiariam para resgatar um encontro que começa desastrosamente?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -7571,7 +7571,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[todos]: Quem chamou mais atenção em público sem querer?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -7581,7 +7581,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Qual elogio te fizeram e você respondeu da pior forma possível?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -7591,7 +7591,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Qual de vocês dois já passou mais vergonha tentando impressionar alguém?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -7601,7 +7601,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três fingiria pior uma crise de riso numa cerimônia?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -7611,7 +7611,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já teve um encontro em que ficou com comida grudada no rosto?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -7621,7 +7621,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Qual de vocês dois teria mais problemas para explicar uma mensagem enviada por engano?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -7631,7 +7631,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Qual de vocês três ousaria contar primeiro sobre sua pior rejeição amorosa?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -7641,7 +7641,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[all]: O que você faria se a galeria de fotos de alguém fosse acidentalmente projetada em uma tela?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -7651,7 +7651,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Alguma vez você foi pego procurando o perfil de uma pessoa que estava bem ao lado?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -7661,7 +7661,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: O que fariam se um ouvisse sem querer o outro ensaiando uma declaração romântica?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -7671,7 +7671,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Qual de vocês três reagiria com mais calma se um segredo fosse revelado em uma reunião?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -7681,7 +7681,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[all]: Quem teve o momento mais estranho em um bate-papo em grupo?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -7691,7 +7691,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Qual foi o comentário mais infeliz que você fez enquanto tentava flertar?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -7701,7 +7701,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Qual de vocês dois inventou uma desculpa mais absurda para sair de um encontro?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -7711,7 +7711,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Qual de vocês três poderia contar melhor um fracasso romântico sem ficar envergonhado?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -7721,7 +7721,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[todos]: Que reação teria o grupo se duas pessoas aparecessem vestidas exatamente iguais para um encontro?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -7731,7 +7731,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já ficou mal com alguém por causa do corretor automático do celular?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -7741,7 +7741,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Quem de vocês dois foi pego olhando demais uma foto alheia?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -7751,7 +7751,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três seria mais propenso a cumprimentar com confiança demais um(a) ex-parceiro(a)?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -7761,7 +7761,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já viu uma mensagem romântica que não era para você e reagiu como se fosse?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -7771,7 +7771,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Qual de vocês dois teve a pior experiência com um beijo que saiu desajeitado?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -7781,7 +7781,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Qual de vocês três poderia contar sobre um encontro fracassado sem culpar o outro?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -7791,7 +7791,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[todos]: O que vocês fariam se uma tela mostrasse a última mensagem de paquera enviada por alguém do grupo?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -7801,7 +7801,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você inventou uma emergência para escapar de um encontro desconfortável?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -7811,7 +7811,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: O que vocês fariam se um ligasse acidentalmente para o outro enquanto falava sobre sua vida amorosa?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -7821,7 +7821,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três fingiria melhor não ter visto uma foto comprometedora?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -7831,7 +7831,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[todos]: Quem já contou uma história embaraçosa e depois se arrependeu de dar tantos detalhes?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -7841,7 +7841,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já teve um beijo rejeitado em um momento em que estava certo do seu charme?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -7851,7 +7851,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Qual de vocês dois ficaria mais nervoso ao conhecer a família de alguém de quem gosta?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -7861,7 +7861,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três seria mais provável de confundir uma paquera com mera gentileza?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -7871,7 +7871,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[all]: O que é mais vergonhoso para o grupo: um áudio romântico enviado por engano ou uma mensagem lida em voz alta?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -7881,7 +7881,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você saiu de um encontro e descobriu que suas roupas estavam manchadas o tempo todo?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -7891,7 +7891,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Que história poderiam contar juntos que ambos lembram de maneira muito diferente?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -7901,7 +7901,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três saberia consertar melhor um comentário romântico mal interpretado?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -7911,7 +7911,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Qual foi a situação mais embaraçosa que você viveu ao encontrar um ex sem esperar?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -7921,7 +7921,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Qual de vocês dois teria mais chances de confessar uma paixão à primeira vista no pior momento?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -7931,7 +7931,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três fingiria pior se alguém do grupo achasse atraente?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -7941,7 +7941,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[todos]: O que fariam se um ex-parceiro de alguém chegasse inesperadamente à festa?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -7951,7 +7951,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Alguma vez te pegaram preparando um encontro que você havia negado ter?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -7961,7 +7961,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: O que fariam se ambos tivessem dado o mesmo pretexto para não se verem e se encontrassem fora?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -7971,7 +7971,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três poderia rir de um flerte mal-sucedido se tornar público?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -7981,7 +7981,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[all]: Quem ficaria mais incomodado se alguém lesse suas mensagens antigas de paquera?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -7991,7 +7991,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já confundiu o interesse romântico de alguém e acabou se declarando sem reciprocidade?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -8001,7 +8001,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Qual de vocês dois contaria primeiro que teve um encontro com alguém que o outro conhece?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -8011,7 +8011,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Qual de vocês três seria o mais desajeitado ao tentar beijar alguém pela primeira vez?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -8021,7 +8021,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[todos]: O que fariam se alguém confessasse ter tido um encontro secreto com outra pessoa do grupo?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -8031,7 +8031,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já ficou exposto por curtir uma foto muito antiga de alguém?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -8041,7 +8041,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Como vocês reagiriam se um terceiro dissesse que vocês dois parecem um casal?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -8051,7 +8051,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Qual de vocês três ficaria mais nervoso ao receber um pedido romântico em público?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -8061,7 +8061,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você teve que se esconder para evitar conhecer duas pessoas com quem estava namorando?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -8071,7 +8071,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Qual de vocês dois suportaria pior que uma mensagem de flerte antiga fosse revelada?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -8081,7 +8081,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três já conseguiu confundir mais um relacionamento casual com algo sério?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -8091,7 +8091,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[all]: O que você faria se alguém mostrasse uma captura de tela que contradissesse uma história romântica contada aqui?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -8101,7 +8101,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já foi pego flertando com alguém que você não queria que o grupo conhecesse?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -8111,7 +8111,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: O que você faria se descobrisse que gosta da mesma pessoa ao mesmo tempo?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -8121,7 +8121,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Qual de vocês três teria maior probabilidade de esquecer o nome de um namorado depois de beijá-lo?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -8131,7 +8131,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[todos]: Quem poderia reconhecer sem muita vergonha que insistiu demais em um relacionamento fracassado?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -8141,7 +8141,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você disse algo constrangedor durante um momento de intimidade romântica?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -8151,7 +8151,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Qual de vocês dois teria mais chances de tropeçar bem antes de um beijo esperado?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -8161,7 +8161,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três poderia admitir mais facilmente que um antigo encontro o deixou no visto?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -8171,7 +8171,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[todos]: Qual situação seria mais difícil de explicar: dois encontros no mesmo dia ou mensagens trocadas por engano?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -8181,7 +8181,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você foi descoberto escondendo uma conversa romântica dos outros amigos?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -8191,7 +8191,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: O que fariam se alguém interpretasse uma foto de vocês dois como prova de um romance?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -8201,7 +8201,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três lidaria melhor com um encontro acidental com dois ex-companheiros em uma reunião?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -8211,7 +8211,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "O que você disse tentando seduzir alguém que ainda te dá vergonha de lembrar?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -8221,7 +8221,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Qual de vocês dois contaria primeiro que beijou alguém e depois fingiu que nunca aconteceu?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -8231,7 +8231,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três reagiria pior ao descobrir que seu encontro contou detalhes privados?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -8241,7 +8241,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[todos]: O que fariam se uma pessoa do grupo revelasse que antes gostava de outra que está presente?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -8251,7 +8251,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Alguma vez alguém te surpreendeu em uma situação romântica que você queria manter privada?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -8261,7 +8261,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Como vocês reagiriam se ambos soubessem um segredo sentimental um do outro e alguém perguntasse sobre ele?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -8271,7 +8271,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três poderia suportar melhor que uma velha carta romântica reaparecesse em público?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -8281,7 +8281,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "___TODOS___: Que situação íntima, sem fornecer detalhes privados, seria mais desconfortável de explicar à família?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -8291,7 +8291,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Qual foi a desculpa mais vergonhosa que você usou depois de um encontro decepcionante?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -8301,7 +8301,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Qual de vocês dois seria capaz de admitir um momento de ciúmes que deu muito errado?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -8311,7 +8311,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três se atreveria a relatar uma rejeição romântica especialmente humilhante?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -8321,7 +8321,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[todos]: O que vocês fariam se descobrissem que duas pessoas estiveram mandando indiretas uma para a outra durante toda a noite?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -8331,7 +8331,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já teve um encontro constrangedor com alguém depois de beijá-lo e fingir que nada aconteceu?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -8341,7 +8341,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: O que fariam se um descobrisse que o outro leu acidentalmente uma mensagem romântica privada?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -8351,7 +8351,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três seria mais capaz de rir do seu pior erro tentando impressionar alguém?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -8361,7 +8361,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Qual foi a ocasião em que uma mentira romântica sua foi exposta da maneira mais embaraçosa?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -8371,7 +8371,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: O que admitiriam se aparecesse uma prova de que alguma vez competiram pela mesma pessoa?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -8381,7 +8381,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três se atreveria a contar um beijo secreto que mudou a dinâmica do grupo?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -8391,7 +8391,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[todos]: O que vocês fariam se alguém reconhecesse ter mantido dois interesses românticos dentro do grupo ao mesmo tempo?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -8401,7 +8401,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você foi descoberto tendo um relacionamento que negou publicamente?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -8411,7 +8411,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Como reagiriam se soubessem que um falou sobre os sentimentos privados do outro sem permissão?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -8421,7 +8421,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três suportaria melhor que perguntassem na frente de todos sobre um encontro secreto?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -8431,7 +8431,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[todos]: Que situação o grupo consideraria privada demais para transformá-la em uma história de festa?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -8441,7 +8441,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Qual foi o momento em que você se sentiu mais exposto por tentar impressionar alguém?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -8451,7 +8451,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: O que vocês fariam se descobrissem que um inventou uma versão falsa de uma história sobre o outro?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -8461,7 +8461,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Qual de vocês três seria mais capaz de explicar calmamente um mal-entendido amoroso entre vocês?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -8471,7 +8471,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[todos]: O que vocês fariam se duas pessoas revelassem versões opostas de uma mesma noite e ambas estivessem presentes?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -8481,7 +8481,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Qual episódio da sua vida sentimental você preferiria que nunca se tornasse assunto de conversa?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -8491,7 +8491,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Qual de vocês dois teria mais dificuldade em admitir que foi rejeitado depois de insistir demais?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -8501,7 +8501,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Que história embaraçosa os três poderiam contar sem expor segredos de alguém que não quer participar?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -8511,7 +8511,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Qual série popular você ainda não viu?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -8521,7 +8521,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Que comida você adora mesmo que para outros pareça estranha?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -8531,7 +8531,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Que música você sabe de cor e tem vergonha de admitir?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -8541,7 +8541,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Qual é o seu hábito mais infantil?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -8551,7 +8551,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Qual habilidade simples você ainda não domina?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -8561,7 +8561,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Que palavra você pronunciou incorretamente durante anos?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -8571,7 +8571,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Qual desenho animado você continua aproveitando?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -8581,7 +8581,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Qual filme famoso você nunca terminou de assistir?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -8591,7 +8591,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Que combinação estranha de alimentos você gosta?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -8601,7 +8601,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Qual é o objeto mais desnecessário que você guarda?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -8611,7 +8611,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Qual atividade te dá preguiça mesmo quando você tem tempo?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -8621,7 +8621,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Que moda antiga você gostaria que voltasse?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -8631,7 +8631,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Qual artista você ouve em segredo?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -8641,7 +8641,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Que coisinha você compra para se mimar?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -8651,7 +8651,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Qual é um talento inútil que você tem?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -8661,7 +8661,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já fingiu que gostou de um presente que na verdade não queria?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -8671,7 +8671,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Qual aplicativo você usa mais tempo do que admite?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -8681,7 +8681,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Alguma vez você já buscou seu próprio nome na internet?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -8691,7 +8691,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Que pequena despesa você acha difícil de justificar?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -8701,7 +8701,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já leu o final de uma história antes de terminá-la?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -8711,7 +8711,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Qual é a sua desculpa favorita para ficar em casa?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -8721,7 +8721,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Qual celebridade você gostava quando era adolescente?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -8731,7 +8731,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Que música você coloca várias vezes mesmo já tendo ouvido demais?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -8741,7 +8741,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já fingiu entender uma piada só para não perguntar?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -8751,7 +8751,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Qual alimento você come diretamente do recipiente quando ninguém está vendo?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -8761,7 +8761,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Que série você terminou só para não sair pela metade?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -8771,7 +8771,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Que tarefa doméstica você sempre adia?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -8781,7 +8781,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Já conferiu quantos seguidores alguém ganhou ou perdeu por curiosidade?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -8791,7 +8791,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Que compra por impulso você acabou aproveitando?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -8801,7 +8801,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Qual é o medinho que você acha ridículo, mas ainda tem?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -8811,7 +8811,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já ensaiou uma resposta engenhosa que nunca chegou a usar?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -8821,7 +8821,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "A quem você silenciou nas redes para não ver suas publicações?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -8831,7 +8831,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Que gosto musical você negaria na frente de pessoas que quer impressionar?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -8841,7 +8841,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já disse que estava a caminho quando ainda estava em casa?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -8851,7 +8851,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Que talento você exagera quando se apresenta a desconhecidos?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -8861,7 +8861,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já fingiu ter um compromisso para terminar uma conversa?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -8871,7 +8871,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Que boato você ouviu e quis acreditar rápido demais?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -8881,7 +8881,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "De quem você viu o perfil recentemente por pura curiosidade?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -8891,7 +8891,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "De que elogio você se lembra porque fez você se sentir bem demais?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -8901,7 +8901,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já mentiu sobre quantas vezes assistiu a um filme?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -8911,7 +8911,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "De qual pequena vitória pessoal você mais se gaba?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -8921,7 +8921,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você apagou uma publicação porque não recebeu a atenção que esperava?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -8931,7 +8931,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Qual mania sua você esconde durante um primeiro encontro?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -8941,7 +8941,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Que ideia você mudou para se encaixar com outras pessoas?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -8951,7 +8951,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Qual foi a última vez que você fingiu surpresa?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -8961,7 +8961,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Qual opinião impopular você tem dificuldade em admitir na frente dos seus amigos?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -8971,7 +8971,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Qual de vocês fingiu mais concordar com o outro?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -8981,7 +8981,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três seria o primeiro a admitir que agiu por pura inveja?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -8991,7 +8991,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[todos]: Que pequeno segredo cotidiano qualquer um poderia confessar sem ser julgado?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -9001,7 +9001,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Que mensagem você escreveu e apagou por medo da resposta?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -9011,7 +9011,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Qual prazer secreto vocês compartilham mesmo nunca tendo comentado?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -9021,7 +9021,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Qual de vocês três reconhece mais facilmente que busca a aprovação dos outros?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -9031,7 +9031,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[todos]: Quem fingiu que adorou um plano quando na verdade estava entediado?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -9041,7 +9041,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Qual elogio você fingiu não ouvir porque ficou envergonhado?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -9051,7 +9051,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Qual de vocês dois revisou mais vezes uma conversa antiga por nostalgia?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -9061,7 +9061,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Qual de vocês três admite ter ensaiado frases para impressionar alguém?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -9071,7 +9071,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[todos]: Que hábito de redes sociais vocês ficariam envergonhados de mostrar no seu tempo de tela?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -9081,7 +9081,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você fez uma compra só para parecer mais interessante?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -9091,7 +9091,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Qual característica do outro você admira e quase nunca fala em voz alta?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -9101,7 +9101,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três admitiria primeiro que exagerou em uma conquista pessoal?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -9111,7 +9111,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já sentiu ciúmes pela atenção que um amigo recebeu?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -9121,7 +9121,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Qual de vocês dois mudou mais a sua personalidade diante de alguém atraente?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -9131,7 +9131,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três admitiria que já gostou de receber atenção de alguém de quem não gostava?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -9141,7 +9141,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[all]: Qual é a insegurança social que vários membros do grupo provavelmente compartilham?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -9151,7 +9151,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você revisou repetidamente quem viu uma história que você publicou?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -9161,7 +9161,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Que ideia errada eles tinham um do outro antes de se conhecerem melhor?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -9171,7 +9171,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Qual de vocês três deixou uma dica romântica que era óbvia demais?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -9181,7 +9181,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[todos]: Quem fingiu indiferença quando alguém se importava muito com ele?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -9191,7 +9191,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Qual defeito seu você costuma disfarçar de virtude?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -9201,7 +9201,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Qual de vocês dois é mais capaz de confessar que sentiu ciúmes de uma amizade?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -9211,7 +9211,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três admitiria primeiro que já buscou a aprovação de um ex-parceiro?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -9221,7 +9221,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[all]: Qual confissão inocente mudaria mais a imagem que vocês têm de alguém do grupo?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -9231,7 +9231,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já manteve uma conversa só porque gostava de se sentir desejado?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -9241,7 +9241,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Que mentira piedosa sobre sua amizade poderiam esclarecer hoje?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -9251,7 +9251,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Qual de vocês três aceitaria com menos vergonha o fato de terem se apaixonado rápido demais?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -9261,7 +9261,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Que sentimento você escondeu para não parecer vulnerável?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -9271,7 +9271,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Qual de vocês dois já sentiu alguma vez uma competição silenciosa com o outro?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -9281,7 +9281,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três admitiria primeiro que já espionou as redes de um(a) ex-parceiro(a)?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -9291,7 +9291,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[todos]: Qual tema pessoal é difícil de falar mesmo entre bons amigos?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -9301,7 +9301,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já manteve o interesse de alguém sabendo que não queria um relacionamento?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -9311,7 +9311,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Que confissão sobre sua primeira impressão do outro poderia surpreendê-los?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -9321,7 +9321,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três fingiu estar bem depois de uma rejeição amorosa?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -9331,7 +9331,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[todos]: Quem deu conselhos de amor que não segue em sua própria vida?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -9341,7 +9341,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Que decisão você tomou por orgulho mesmo sabendo que não era a certa para você?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -9351,7 +9351,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Qual de vocês dois seria mais capaz de reconhecer que sentiu atração por alguém inesperado?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -9361,7 +9361,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três admitiria que idealizou demais alguém?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -9371,7 +9371,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[todos]: Qual emoção é mais difícil para vocês reconhecer: ciúmes, vergonha ou medo de rejeição?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -9381,7 +9381,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já disse 'sinto sua falta' sem realmente sentir?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -9391,7 +9391,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Que coisa vocês gostariam de se perguntar, mas não tiveram coragem por pudor?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -9401,7 +9401,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três admitiria primeiro que tem uma conversa pendente com alguém?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -9411,7 +9411,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já gostou de alguém sabendo que essa pessoa estava saindo com outra?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -9421,7 +9421,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Qual de vocês dois seria mais capaz de confessar um interesse romântico inesperado?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -9431,7 +9431,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Qual de vocês três admitiria que flertou só para testar se conseguiria conquistar alguém?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -9441,7 +9441,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[todos]: Que confissão sobre uma paixão antiga surpreenderia mais o grupo?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -9451,7 +9451,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você escondeu um encontro porque tinha medo da opinião dos seus amigos?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -9461,7 +9461,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: O que fariam se descobrissem que uma vez se interessaram pela mesma pessoa?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -9471,7 +9471,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três admitiria ter enviado uma indireta romântica para alguém presente?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -9481,7 +9481,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[all]: Quem disse que eles superaram alguém quando isso ainda não era verdade?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -9491,7 +9491,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Alguma vez você deixou de falar com alguém para que essa pessoa te procurasse primeiro?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -9501,7 +9501,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Qual reação teriam se o outro confessasse que gostou de alguém do seu círculo próximo?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -9511,7 +9511,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três aceitaria primeiro que já beijou alguém e depois se arrependeu?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -9521,7 +9521,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[all]: Que confissão sobre um encontro fracassado seria aceitável compartilhar sem expor terceiros?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -9531,7 +9531,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já confundiu atenção física com sentimentos românticos?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -9541,7 +9541,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Qual de vocês dois seria mais honesto ao reconhecer que alguma vez quis provocar ciúmes?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -9551,7 +9551,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três confessaria primeiro que deu sinais mistos a alguém?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -9561,7 +9561,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Que pessoa te atraiu e você nunca imaginou que poderia gostar?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -9571,7 +9571,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Qual de vocês dois poderia admitir que escondeu seus sentimentos para manter uma amizade?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -9581,7 +9581,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Qual de vocês três admitiria ter sentido uma conexão romântica com duas pessoas ao mesmo tempo?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -9591,7 +9591,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[todos]: O que vocês fariam se alguém do grupo confessasse que alguma vez se sentiu atraído por outra pessoa presente?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -9601,7 +9601,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já beijou alguém sabendo que isso complicaria suas amizades?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -9611,7 +9611,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Que verdade sentimental vocês gostariam de poder contar um ao outro sem mudar seu relacionamento?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -9621,7 +9621,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três reconheceria mais facilmente que já procurou um ex-parceiro por solidão?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -9631,7 +9631,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[todos]: Quem acha que desperdiçou uma oportunidade romântica por medo do que os outros vão dizer?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -9641,7 +9641,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já se sentiu atraído por alguém do seu ambiente de trabalho ou acadêmico e escondeu isso?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -9651,7 +9651,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Qual de vocês dois seria capaz de confessar que alguma vez sentiu ciúmes sem ter direito de reclamar?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -9661,7 +9661,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três deu uma segunda chance mais por nostalgia do que por convicção?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -9671,7 +9671,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[todos]: Que segredo romântico poderia mudar a percepção que têm de uma história passada?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -9681,7 +9681,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já escolheu um relacionamento por conforto mesmo não estando apaixonado?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -9691,7 +9691,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Como reagiriam se um confessasse que teve medo de perder o outro como amigo?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -9701,7 +9701,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três admitiria primeiro que já fantasiou sobre uma vida diferente com alguém conhecido?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -9711,7 +9711,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Que sentimento em relação a alguém próximo você preferiu não reconhecer em voz alta?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -9721,7 +9721,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Qual de vocês dois teria mais dificuldade em admitir um erro que magoou o outro?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -9731,7 +9731,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três seria capaz de confessar que sentiu atração pelo ex-parceiro de um amigo?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -9741,7 +9741,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[todos]: O que vocês fariam se alguém confessasse ter escondido durante anos um interesse romântico por outra pessoa do grupo?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -9751,7 +9751,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já manteve um relacionamento com medo de ficar sozinho?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -9761,7 +9761,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Que verdade sobre seus ciúmes ou inseguranças poderiam compartilhar sem se julgarem?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -9771,7 +9771,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três admitiria ter usado o flerte para escapar de um problema emocional?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -9781,7 +9781,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[todos]: Qual confissão seria mais difícil de ouvir de alguém que admiram?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -9791,7 +9791,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "A quem você deve um pedido de desculpas que ainda não foi capaz de dar?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -9801,7 +9801,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Qual de vocês dois poderia reconhecer que já sentiu uma atração inconveniente dentro do grupo?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -9811,7 +9811,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três admitiria ter querido beijar alguém e ter se arrependido de não ter feito isso?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -9821,7 +9821,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[todos]: Qual limite consideram indispensável respeitar quando alguém faz uma confissão íntima?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -9831,7 +9831,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Qual decisão sentimental você preferiria mudar se pudesse voltar ao passado?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -9841,7 +9841,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: O que seria mais difícil para você aceitar: uma confissão tardia ou uma verdade escondida há anos?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -9851,7 +9851,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três seria mais direto em admitir que nunca deixou de pensar em um ex-parceiro?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -9861,7 +9861,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Que desejo pessoal você escondeu por medo de mudar a imagem que os outros têm de você?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -9871,7 +9871,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Qual de vocês dois poderia confessar um sentimento difícil sem esperar que o outro corresponda?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -9881,7 +9881,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três seria capaz de admitir publicamente que prejudicou um relacionamento por egoísmo?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -9891,7 +9891,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[all]: O que você faria se alguém confessasse uma atração mútua que os outros nunca suspeitaram?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -9901,7 +9901,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você continuou com alguém depois de perceber que seus sentimentos haviam mudado completamente?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -9911,7 +9911,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Qual verdade importante sobre a amizade de vocês ainda falta dizer um ao outro?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -9921,7 +9921,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Qual de vocês três lidaria melhor com a confissão de que outro sentiu ciúmes dele durante anos?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -9931,7 +9931,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[all]: Que tipo de confissão deveria ficar apenas entre aqueles que a escutam e nunca sair do jogo?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -9941,7 +9941,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Qual tem sido a sua maior contradição entre o que você diz buscar no amor e o que você escolhe?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -9951,7 +9951,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: O que vocês sentiriam se alguém reconhecesse que escondeu algo importante para não perder a amizade?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -9961,7 +9961,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três se atreveria a reconhecer que um relacionamento terminou por falta de honestidade?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -9971,7 +9971,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[todos]: O que vocês fariam se alguém pedisse para falar sinceramente sobre uma história sentimental que envolve o grupo?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -9981,7 +9981,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Que relacionamento você manteve por orgulho quando soube que tinha que se despedir?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -9991,7 +9991,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Qual segredo emocional vocês compartilhariam apenas se tivessem certeza de que não haverá zombarias?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -10001,7 +10001,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Que confissão os três podem fazer que fortaleça sua confiança em vez de colocá-la à prova?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -10011,7 +10011,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Quem deste grupo ri mais alto?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -10021,7 +10021,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Quem neste grupo chega aos planos mais cedo?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -10031,7 +10031,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Quem neste grupo sabe mais músicas de cor?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -10041,7 +10041,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Quem neste grupo seria o melhor guia turístico?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -10051,7 +10051,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Quem deste grupo tira mais fotografias?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -10061,7 +10061,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Quem deste grupo faz o melhor café da manhã?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -10071,7 +10071,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Quem deste grupo conta as melhores piadas?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -10081,7 +10081,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Quem neste grupo escolheria um filme para todos?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -10091,7 +10091,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Quem neste grupo dorme mais nos finais de semana?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -10101,7 +10101,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Quem deste grupo seria o melhor apresentador de televisão?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -10111,7 +10111,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Quem deste grupo tem a risada mais contagiante?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -10121,7 +10121,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Quem deste grupo se orienta melhor em uma cidade desconhecida?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -10131,7 +10131,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Quem deste grupo levaria mais coisas para um passeio de um dia?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -10141,7 +10141,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Quem neste grupo aprenderia a coreografia primeiro?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -10151,7 +10151,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Quem neste grupo seria o melhor anfitrião para uma reunião?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -10161,7 +10161,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Quem deste grupo esquece mais facilmente onde deixou o celular?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -10171,7 +10171,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Quem deste grupo gastaria seu dinheiro primeiro em comida?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -10181,7 +10181,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Quem deste grupo sobreviveria melhor uma semana sem internet?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -10191,7 +10191,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Quem deste grupo enviaria mais memes em um dia?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -10201,7 +10201,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Quem deste grupo ficaria dormindo durante um filme?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -10211,7 +10211,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Quem deste grupo escolheria o pior nome para um animal de estimação?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -10221,7 +10221,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Quem deste grupo inventaria uma receita estranha que daria certo?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -10231,7 +10231,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Quem deste grupo se perderia dentro de um shopping?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -10241,7 +10241,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Quem deste grupo teria mais probabilidade de ganhar um concurso de karaokê?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -10251,7 +10251,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Quem deste grupo começaria uma coleção de objetos raríssimos?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -10261,7 +10261,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Quem deste grupo esqueceria de comprar o ingrediente principal de uma receita?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -10271,7 +10271,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Quem deste grupo se tornaria famoso por um vídeo engraçado?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -10281,7 +10281,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Quem deste grupo demoraria mais para decidir o que pedir em um restaurante?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -10291,7 +10291,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Quem deste grupo falaria com um desconhecido como se fossem amigos há anos?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -10301,7 +10301,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Quem deste grupo se emocionaria mais com uma surpresa simples?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -10311,7 +10311,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Quem neste grupo comete mais erros ao enviar mensagens de voz?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -10321,7 +10321,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Quem neste grupo exagera mais ao contar uma anedota?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -10331,7 +10331,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Quem deste grupo seria mais dramático diante de um inseto pequeno?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -10341,7 +10341,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Quem neste grupo pede desculpas mesmo quando não foi culpado?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -10351,7 +10351,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Quem neste grupo é mais competitivo jogando videogame?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -10361,7 +10361,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Quem deste grupo faria uma compra por impulso em uma loja de lembranças?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -10371,7 +10371,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Quem neste grupo se sairia melhor em uma entrevista improvisada?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -10381,7 +10381,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Quem neste grupo inventaria a desculpa mais criativa para não acordar cedo?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -10391,7 +10391,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Quem deste grupo repetiria uma história sem se lembrar de que já a contou?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -10401,7 +10401,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Quem deste grupo organizaria uma viagem e esqueceria uma reserva?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -10411,7 +10411,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Quem deste grupo demoraria menos para fazer novos amigos?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -10421,7 +10421,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Quem deste grupo se assustaria mais em um filme de terror?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -10431,7 +10431,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Quem deste grupo revelaria um presente surpresa sem querer?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -10441,7 +10441,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Quem deste grupo faria mais perguntas durante um filme?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -10451,7 +10451,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Quem deste grupo mudaria de opinião após ver uma promoção?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -10461,7 +10461,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Quem neste grupo seria pior em manter fofocas inofensivas?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -10471,7 +10471,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Qual de vocês dois cancelaria um plano por simples preguiça?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -10481,7 +10481,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três faria primeiro papelão na pista de dança?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -10491,7 +10491,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[all]: Quem do grupo acabaria virando protagonista de um meme?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -10501,7 +10501,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Quem deste grupo seria pego falando sozinho em público?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -10511,7 +10511,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Qual de vocês dois seria mais capaz de enviar uma mensagem para o chat errado?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -10521,7 +10521,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três inventaria a desculpa mais absurda para chegar atrasado?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -10531,7 +10531,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[todos]: Quem é mais propenso a contar uma história que o deixa mal na foto?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -10541,7 +10541,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Quem deste grupo se ofenderia com uma piada inofensiva?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -10551,7 +10551,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Qual de vocês dois tem mais probabilidade de discutir por escolher a música?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -10561,7 +10561,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três se sairia pior tentando impressionar alguém com uma dança?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -10571,7 +10571,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[todos]: Quem levaria a sério demais um jogo que era apenas para se divertir?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -10581,7 +10581,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Quem desse grupo mais confere como eles aparecem nas fotos?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -10591,7 +10591,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Qual de vocês dois fingiria melhor que não errou?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -10601,7 +10601,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três gastaria mais dinheiro tentando parecer elegante para um encontro?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -10611,7 +10611,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Quem neste grupo poderia se apaixonar depois de apenas um encontro?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -10621,7 +10621,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Qual de vocês dois ficaria mais com ciúmes se fossem excluídos de um plano?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -10631,7 +10631,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três falaria primeiro sobre uma paixão secreta?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -10641,7 +10641,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[todos]: Quem deu a pior primeira impressão e depois agradou?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -10651,7 +10651,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Quem deste grupo teria mais encontros fracassados por nervosismo?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -10661,7 +10661,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Qual de vocês dois seria mais ousado em enviar uma dica romântica óbvia?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -10671,7 +10671,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três seria mais provável de flertar sem perceber?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -10681,7 +10681,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[todos]: Quem se arruma mais quando sabe que vai encontrar alguém de quem gosta?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -10691,7 +10691,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Quem deste grupo tem mais probabilidade de voltar com um ex?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -10701,7 +10701,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Qual de vocês dois admitiria primeiro que tem um amor platônico?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -10711,7 +10711,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três faria uma cena por um mal-entendido romântico?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -10721,7 +10721,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[todos]: Quem é mais capaz de fazer uma confissão inesperada no final da festa?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -10731,7 +10731,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Quem deste grupo esconderia que um encontro foi um desastre?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -10741,7 +10741,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Qual de vocês dois fica mais nervoso ao receber um elogio direto?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -10751,7 +10751,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Qual de vocês três mostraria para alguém que realmente gosta?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -10761,7 +10761,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Quem deste grupo teria mais dificuldades para superar uma rejeição?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -10771,7 +10771,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Qual de vocês dois guardaria uma conversa romântica por anos?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -10781,7 +10781,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três teria mais probabilidade de se apaixonar por um amigo próximo?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -10791,7 +10791,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[todos]: Quem mudaria de planos para encontrar-se com uma pessoa por quem se sente atraído?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -10801,7 +10801,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Quem deste grupo flertaria com alguém apenas para receber atenção?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -10811,7 +10811,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Qual de vocês dois ficaria mais possessivo em um relacionamento se não trabalhasse suas inseguranças?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -10821,7 +10821,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três confessaria primeiro que ainda pensa no(a) ex?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -10831,7 +10831,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[todos]: Quem tem mais chances de se apaixonar por alguém que não é adequado para ele?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -10841,7 +10841,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Quem deste grupo quebraria primeiro o silêncio depois de uma briga amorosa?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -10851,7 +10851,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Qual de vocês dois seria mais provável de esconder um encontro para evitar perguntas?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -10861,7 +10861,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três seria o primeiro a pedir desculpas por um comentário de ciúmes?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -10871,7 +10871,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[all]: Quem poderia conquistar alguém apenas conversando a noite toda?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -10881,7 +10881,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Quem deste grupo sairia com alguém em quem seus amigos não confiam?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -10891,7 +10891,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Qual de vocês dois esconderia melhor que está interessado em alguém do círculo?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -10901,7 +10901,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três seria mais incapaz de disfarçar uma atração inesperada?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -10911,7 +10911,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Quem deste grupo tem mais probabilidade de beijar alguém do seu círculo de amigos?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -10921,7 +10921,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Qual de vocês dois se atreveria primeiro a admitir que alguma vez sentiu atração por outro amigo?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -10931,7 +10931,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três seria mais propenso a ter um romance secreto?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -10941,7 +10941,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[todos]: Quem já fingiu estar interessado em alguém para despertar ciúmes em outra pessoa?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -10951,7 +10951,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Quem nesse grupo namoraria o ex-parceiro de um conhecido?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -10961,7 +10961,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Qual de vocês dois teria mais probabilidade de enviar uma mensagem romântica à meia-noite?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -10971,7 +10971,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três arriscaria uma amizade por uma conexão amorosa intensa?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -10981,7 +10981,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[todos]: Quem se arrependeria menos de um beijo inesperado entre pessoas do grupo?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -10991,7 +10991,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Quem deste grupo seria mais provável de sair com alguém muito mais velho?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -11001,7 +11001,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Qual de vocês dois diria primeiro 'gosto de você' sem saber se é recíproco?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -11011,7 +11011,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três seria mais capaz de manter um relacionamento casual sem confundi-lo com amor?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -11021,7 +11021,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[todos]: Quem teria mais dificuldades em esconder que gosta de alguém presente?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -11031,7 +11031,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Quem neste grupo mudou mais de atitude por um interesse romântico?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -11041,7 +11041,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Qual de vocês dois seria mais provável de sentir ciúmes sem ter um relacionamento formal?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -11051,7 +11051,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três poderia acabar envolvido em um triângulo amoroso involuntário?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -11061,7 +11061,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Quem neste grupo seria mais capaz de reconhecer que se sente atraído por alguém presente?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -11071,7 +11071,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Qual de vocês dois correria mais risco de se envolver com alguém do passado do outro?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -11081,7 +11081,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três seria mais provável manter em segredo um beijo com alguém conhecido?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -11091,7 +11091,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[todos]: Quem poderia admitir que teve sentimentos por alguém que todos consideravam apenas seu amigo?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -11101,7 +11101,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Quem neste grupo seria mais capaz de esconder um relacionamento por meses?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -11111,7 +11111,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Qual de vocês dois confessaria primeiro que já teve ciúmes do outro?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -11121,7 +11121,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três seria mais provável de aceitar um encontro mesmo sabendo que seria complicado?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -11131,7 +11131,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[todos]: Quem geralmente guarda mais segredos românticos sem contar ao grupo?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -11141,7 +11141,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Quem deste grupo estaria disposto a tentar um relacionamento à distância por uma conexão forte?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -11151,7 +11151,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Qual de vocês dois resistiria menos à tentação de procurar um(a) ex-parceiro(a)?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -11161,7 +11161,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três se arriscaria a confessar sentimentos no meio de uma festa?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -11171,7 +11171,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[all]: Quem seria mais capaz de beijar alguém depois de anos de amizade, se ambos quisessem?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -11181,7 +11181,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Quem deste grupo se apaixonaria por uma pessoa emocionalmente inacessível?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -11191,7 +11191,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Qual de vocês dois teria maior probabilidade de dar sinais confusos por medo de se comprometer?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -11201,7 +11201,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Qual de vocês três lidaria melhor com alguém que rejeita uma abordagem romântica?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -11211,7 +11211,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Quem neste grupo seria mais capaz de esconder uma atração que poderia causar conflito?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -11221,7 +11221,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Qual de vocês dois admitiria mais facilmente que alguma vez sentiu inveja da vida amorosa do outro?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -11231,7 +11231,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três poderia confessar que beijou alguém e depois negou que isso aconteceu?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -11241,7 +11241,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[todos]: Quem seria mais provável de manter uma amizade por sentimentos românticos não correspondidos?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -11251,7 +11251,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Quem neste grupo tomaria a decisão sentimental mais impulsiva se ninguém o julgasse?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -11261,7 +11261,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Qual de vocês dois teria coragem de perguntar diretamente se o outro alguma vez sentiu atração por ele?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -11271,7 +11271,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três seria mais capaz de reconhecer um interesse por um ex-parceiro de alguém próximo?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -11281,7 +11281,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[todos]: Quem teria mais chances de descobrir um segredo romântico dentro do grupo?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -11291,7 +11291,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Quem deste grupo poderia terminar um relacionamento por um encantamento repentino?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -11301,7 +11301,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Qual de vocês dois suportaria mais se descobrisse que o outro escondeu um caso de amor importante?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -11311,7 +11311,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Qual de vocês três correria mais risco de confessar um amor não correspondido?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -11321,7 +11321,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[todos]: Quem deu mais sinais confusos para pessoas que se interessavam romanticamente?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -11331,7 +11331,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Quem deste grupo teria mais problemas se suas conversas românticas se tornassem públicas?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -11341,7 +11341,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Qual de vocês dois preferiria confessar uma verdade desconfortável antes de continuar fingindo?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -11351,7 +11351,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três seria o melhor intermediário em uma tensão romântica entre os outros dois?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -11361,7 +11361,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Quem deste grupo seria mais provável de desistir de uma amizade por um relacionamento amoroso?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -11371,7 +11371,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Qual de vocês dois seria capaz de admitir uma verdade que poderia mudar sua amizade para sempre?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -11381,7 +11381,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três se atreveria a reconhecer que machucou alguém por manter duas opções românticas abertas?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -11391,7 +11391,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[todos]: Quem seria capaz de confessar uma atração inesperada mesmo que os outros se surpreendessem?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -11401,7 +11401,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Quem neste grupo tomaria a decisão mais controversa para seguir seus sentimentos?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -11411,7 +11411,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Qual de vocês dois enfrentaria primeiro o boato de que algum dia houve atração entre vocês?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -11421,7 +11421,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três saberia lidar melhor com o fato de dois de vocês desenvolverem sentimentos mútuos?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -11431,7 +11431,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[all]: Quem teria mais dificuldade em perdoar uma grande mentira amorosa?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -11441,7 +11441,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Quem deste grupo seria mais provável de esconder que voltou com alguém que criticou muito?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -11451,7 +11451,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Qual de vocês dois poderia ouvir uma confissão sentimental dolorosa sem usá-la contra o outro?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -11461,7 +11461,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três admitiria primeiro que uma decisão romântica antiga prejudicou o grupo?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -11471,7 +11471,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[all]: Quem assumiria a responsabilidade primeiro se uma história de amor dividisse amizades?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -11481,7 +11481,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Quem nesse grupo é mais propenso a guardar um segredo por medo de decepcionar todo mundo?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -11491,7 +11491,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Qual de vocês dois seria mais sincero se descobrisse que ambos estão interessados na mesma pessoa?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -11501,7 +11501,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três seria capaz de pedir desculpas por esconder um sentimento que afetou os outros?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -11511,7 +11511,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já disse que gostou de uma comida só por educação?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -11521,7 +11521,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você disse que se lembrava de alguém quando não era verdade?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -11531,7 +11531,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já fingiu entender um filme que te confundiu?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -11541,7 +11541,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já respondeu 'já quase chego' quando ainda faltava bastante?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -11551,7 +11551,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já inventou uma desculpa para não atender uma ligação?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -11561,7 +11561,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você disse que não estava com fome e depois comeu de outro prato?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -11571,7 +11571,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já exagerou sobre quanto dormiu no fim de semana?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -11581,7 +11581,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já fingiu saber a letra de uma música?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -11591,7 +11591,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já disse que estava ocupado só para descansar?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -11601,7 +11601,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já deu uma opinião positiva sobre um presente que não gostou?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -11611,7 +11611,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Alguma vez você disse 'eu vi' sobre um vídeo que não abriu?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -11621,7 +11621,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você fingiu que entendeu uma instrução para não perguntar novamente?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -11631,7 +11631,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Alguma vez você disse que estava ouvindo quando se distraiu?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -11641,7 +11641,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você afirmou que a comida não estava picante, embora estivesse te ardendo?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -11651,7 +11651,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já negou ter terminado a última parte de alguma coisa?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -11661,7 +11661,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já mentiu sobre uma tarefa que esqueceu de fazer?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -11671,7 +11671,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já disse que seu celular estava sem bateria e isso não era verdade?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -11681,7 +11681,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você exagerou uma conquista pequena ao contá-la para seus amigos?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -11691,7 +11691,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Alguma vez você fingiu ter experiência em algo para que deixassem você tentar?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -11701,7 +11701,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você inventou uma desculpa para não emprestar um objeto?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -11711,7 +11711,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já disse que concordava só para acabar com uma discussão?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -11721,7 +11721,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já fingiu que conhecia um restaurante que nunca tinha visitado?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -11731,7 +11731,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já disse que ia para a academia quando não foi?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -11741,7 +11741,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você mentiu sobre a quantidade de capítulos que assistiu de uma série?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -11751,7 +11751,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já fingiu não saber de uma fofoca que já conhecia?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -11761,7 +11761,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já disse que uma foto ficou boa mesmo você não gostando?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -11771,7 +11771,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já inventou uma história simples para explicar um atraso?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -11781,7 +11781,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você negou ter revisado o perfil de alguém nas redes sociais?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -11791,7 +11791,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Alguma vez você fingiu surpresa quando já conhecia uma notícia?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -11801,7 +11801,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você mentiu sobre por que não queria ir a uma reunião?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -11811,7 +11811,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Qual foi a desculpa menos credível que você usou para cancelar um plano?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -11821,7 +11821,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você disse que não viu uma mensagem mesmo já a tendo lido?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -11831,7 +11831,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já mentiu sobre o preço de algo que comprou?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -11841,7 +11841,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já exagerou quanto sabe sobre um assunto para impressionar alguém?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -11851,7 +11851,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já contou uma versão melhorada de uma história para causar uma boa impressão?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -11861,7 +11861,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você fingiu estar doente para evitar um compromisso social?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -11871,7 +11871,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já escondeu um pequeno erro esperando que ninguém notasse?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -11881,7 +11881,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você disse que não se importava com algo que na verdade te incomodava?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -11891,7 +11891,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Alguma vez você deu um elogio que não sentia?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -11901,7 +11901,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você inventou que tinha um compromisso para não ficar disponível?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -11911,7 +11911,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já disse que gostava de alguém quando não gostava?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -11921,7 +11921,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já mentiu sobre ter assistido a uma série para participar de uma conversa?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -11931,7 +11931,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já disse que não tinha dinheiro quando podia pagar?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -11941,7 +11941,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você mudou um detalhe de uma anedota para que parecesse mais divertida?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -11951,7 +11951,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você culpou o trânsito por um atraso causado por acordar tarde?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -11961,7 +11961,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Qual mentira pequena descobriram em você por um detalhe absurdo?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -11971,7 +11971,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Qual de vocês dois inventou mais desculpas para não sair?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -11981,7 +11981,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três seria mais fácil de descobrir mentindo pelos gestos?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -11991,7 +11991,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[todos]: Qual é a mentira social que vocês consideram mais comum dentro do grupo?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -12001,7 +12001,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já fingiu que não se interessava por alguém para evitar brincadeiras?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -12011,7 +12011,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Qual de vocês exagera mais suas anedotas quando quer impressionar?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -12021,7 +12021,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três poderia detectar mais rápido uma desculpa inventada?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -12031,7 +12031,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[todos]: Quem disse 'estou a caminho' quando ainda estava escolhendo roupas?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -12041,7 +12041,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já afirmou que tinha outros planos para agir de forma interessante?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -12051,7 +12051,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Que mentira inocente vocês contariam um ao outro para evitar mágoas durante uma refeição horrível?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -12061,7 +12061,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três conseguiria manter uma história inventada por mais tempo sem se contradizer?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -12071,7 +12071,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[all]: Quem seria o primeiro a rir se fosse pego contando uma mentira trivial?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -12081,7 +12081,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você mudou a história de como conheceu alguém para soar melhor?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -12091,7 +12091,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Qual de vocês dois teria mais chances de fingir que esqueceu uma mensagem embaraçosa?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -12101,7 +12101,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três admitiria primeiro que exagerou uma história na frente dos outros?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -12111,7 +12111,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já mentiu sobre com quem estava para evitar perguntas?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -12121,7 +12121,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Qual de vocês dois já fingiu mais vezes que não estava com ciúmes?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -12131,7 +12131,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três seria capaz de sustentar uma álibi absurda durante toda uma festa?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -12141,7 +12141,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[all]: Qual mentira sobre um passeio vocês acham que alguém do grupo já usou?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -12151,7 +12151,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você inventou uma desculpa para não ver uma pessoa específica?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -12161,7 +12161,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: O que fariam se descobrissem que ambos mentiram para evitar o mesmo plano?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -12171,7 +12171,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três seria mais provável de negar uma cantada evidente?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -12181,7 +12181,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[todos]: Quem exagerou mais suas histórias para parecer interessante diante de alguém?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -12191,7 +12191,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Alguma vez você disse que estava solteiro quando sua situação sentimental estava complicada?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -12201,7 +12201,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Qual de vocês dois seria mais capaz de reconhecer uma mentira antes que ela seja descoberta?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -12211,7 +12211,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três ficaria mais nervoso se pedissem para repetir exatamente a sua versão?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -12221,7 +12221,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[todos]: Qual mentira sobre dinheiro vocês consideram mais frequente entre amigos?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -12231,7 +12231,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já mentiu sobre seus sentimentos para não ter uma conversa difícil?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -12241,7 +12241,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Que explicação dariam se alguém encontrasse uma contradição na história do outro?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -12251,7 +12251,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três precisaria de mais ajuda para lembrar de uma desculpa que inventou?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-3} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-3} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -12261,7 +12261,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você negou sentir ciúme quando na realidade isso estava consumindo você?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -12271,7 +12271,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Qual de vocês dois seria mais provável de esconder um encontro por medo das críticas?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -12281,7 +12281,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três seria melhor detectando uma história romântica falsa?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -12291,7 +12291,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[todos]: Qual mentira se torna mais grave quando afeta a confiança do grupo?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -12301,7 +12301,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já escondeu que ainda falava com um ex-parceiro?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -12311,7 +12311,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: O que fariam se um descobrisse que o outro inventou uma desculpa para não vê-lo?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -12321,7 +12321,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três contaria primeiro a verdade depois de uma mentira sentimental?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -12331,7 +12331,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[todos]: Quem se beneficiou de um mal-entendido sem esclarecê-lo imediatamente?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -12341,7 +12341,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já disse 'já superei' quando ainda estava pensando em alguém?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -12351,7 +12351,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Qual de vocês dois seria mais provável de ocultar um interesse romântico para evitar conflitos?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -12361,7 +12361,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três mentiria pior diante de uma pergunta direta sobre sua vida amorosa?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -12371,7 +12371,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[todos]: O que é pior entre amigos: uma mentira para evitar drama ou uma omissão deliberada?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -12381,7 +12381,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você inventou detalhes sobre um encontro porque temia que a verdade soasse entediante?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -12391,7 +12391,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: O que eles se perguntariam se suspeitassem que um está escondendo um problema com o outro?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -12401,7 +12401,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Qual de vocês três seria mais honesto ao admitir que manipulou uma história a seu favor?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -12411,7 +12411,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você escondeu o fato de ter beijado alguém para que essa pessoa não mudasse de opinião sobre você?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -12421,7 +12421,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Qual de vocês dois seria mais capaz de descobrir uma mentira amorosa do outro?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -12431,7 +12431,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três teria mais dificuldade em admitir que ainda está interessado em um ex-parceiro?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -12441,7 +12441,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[todos]: Como reagiriam se soubessem que duas pessoas do grupo mentiram sobre um encontro?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -12451,7 +12451,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já mentiu sobre suas intenções ao iniciar um relacionamento?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -12461,7 +12461,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: O que vocês fariam se um descobrisse que o outro escondeu uma conversa que o envolvia?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -12471,7 +12471,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Qual de vocês três teria maior probabilidade de manter uma história romântica em segredo?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -12481,7 +12481,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[all]: Que mentira romântica você acha que é mais prejudicial, mesmo que seja contada para evitar problemas?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -12491,7 +12491,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já fingiu não conhecer alguém com quem teve um relacionamento romântico?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -12501,7 +12501,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Qual de vocês dois seria mais capaz de admitir que provocou ciúmes deliberadamente?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -12511,7 +12511,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três conseguiria sustentar por mais tempo a mentira de que 'somos apenas amigos'?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -12521,7 +12521,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[todos]: Quem negou uma atração evidente que o resto já tinha notado?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -12531,7 +12531,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já negou que gostava de alguém enquanto tentava se aproximar dessa pessoa?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -12541,7 +12541,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Como resolveriam uma situação em que ambos deram versões diferentes da mesma noite?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -12551,7 +12551,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três confessaria primeiro se tivesse exagerado uma história para ganhar aprovação?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -12561,7 +12561,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já escondeu uma verdade importante em um relacionamento para evitar uma discussão?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -12571,7 +12571,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Qual de vocês dois teria mais dificuldade em admitir que mentiu por ciúmes?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -12581,7 +12581,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três ousaria admitir que fingiu sentimentos românticos?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -12591,7 +12591,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[todos]: O que fariam se uma mentira antiga de alguém do grupo viesse à tona esta noite?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -12601,7 +12601,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já fingiu que um relacionamento não significava nada quando na verdade você se importava?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -12611,7 +12611,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: O que vocês fariam se descobrissem que um de vocês falou sobre um assunto particular do outro e depois negou?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -12621,7 +12621,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três confessaria primeiro uma mentira que causa uma má impressão sobre alguém?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -12631,7 +12631,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[all]: Qual mentira nunca deveria ser justificada com a frase 'era para te proteger'?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -12641,7 +12641,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já deu a duas pessoas versões diferentes de uma mesma situação sentimental?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -12651,7 +12651,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Qual de vocês dois seria mais capaz de detectar quando o outro está escondendo algo por vergonha?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -12661,7 +12661,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três seria mais provável de negar uma atração que todos consideram óbvia?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -12671,7 +12671,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[todos]: O que vocês fariam se alguém admitisse ter inventado uma história para impressionar o grupo?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -12681,7 +12681,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você escondeu uma decepção importante para evitar que alguém se sentisse culpado?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -12691,7 +12691,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Qual mentira entre vocês vocês considerariam mais difícil de perdoar?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -12701,7 +12701,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Qual de vocês três admitiria primeiro uma mentira que fez você parecer bem às custas de outra pessoa?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-7} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-7} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -12711,7 +12711,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Qual mentira sobre sua vida sentimental você gostaria de ter esclarecido antes?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -12721,7 +12721,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Qual de vocês dois seria mais capaz de admitir que escondeu algo por medo de perder a amizade?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -12731,7 +12731,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Qual de vocês três enfrentaria mais corajosamente uma contradição que todos descobriram?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -12741,7 +12741,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[todos]: O que fariam se uma mentira romântica colocasse duas pessoas do grupo uma contra a outra?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -12751,7 +12751,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você permitiu que alguém acreditasse em uma versão falsa sua porque isso te favorecia?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -12761,7 +12761,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Que verdade poderiam se contar se soubessem que uma mentira antiga prejudicou a confiança?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -12771,7 +12771,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três seria mais capaz de pedir desculpas por ter escondido um encontro relevante?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -12781,7 +12781,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[todos]: Que tipo de mentira pode destruir anos de confiança mesmo que inicialmente não pareça grave?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -12791,7 +12791,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você já negou que uma pessoa importava para você para não reconhecer que ela te machucou?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -12801,7 +12801,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Qual de vocês dois teria mais dificuldade em dizer a verdade se soubesse que isso decepcionaria o outro?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -12811,7 +12811,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Qual de vocês três admitiria que usou uma mentira para evitar um rompimento?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -12821,7 +12821,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[todos]: Quem seria mais capaz de explicar uma mentira importante sem tentar se justificar?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -12831,7 +12831,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Qual verdade pessoal você tem adiado dizer por medo de uma reação negativa?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -12841,7 +12841,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: O que vocês fariam se alguém confessasse que uma antiga história compartilhada não aconteceu como sempre contaram?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -12851,7 +12851,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três reconheceria primeiro que uma omissão também pode ser uma forma de mentir?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -12861,7 +12861,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Que mentira importante fez você perder a confiança de alguém?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -12871,7 +12871,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: O que vocês fariam se um admitisse que escondeu uma verdade capaz de mudar a amizade de vocês?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -12881,7 +12881,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Qual de vocês três teria coragem de confessar uma mentira sentimental da qual se arrependa profundamente?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -12891,7 +12891,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[all]: O que vocês fariam se duas pessoas do grupo descobrissem que receberam versões incompatíveis da mesma história?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -12901,7 +12901,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você manteve uma mentira por tanto tempo que depois já não sabia como corrigi-la?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -12911,7 +12911,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Qual de vocês dois seria capaz de reconhecer publicamente que mentiu para proteger seu orgulho?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -12921,7 +12921,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Quem de vocês três poderia assumir as consequências de uma verdade incômoda sem culpar os outros?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -12931,7 +12931,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[todos]: Qual mentira vocês consideram um ponto sem retorno para um relacionamento a dois?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -12941,7 +12941,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Que coisa importante você escondeu porque temia que deixassem de te amar?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -12951,7 +12951,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Como reconstruiriam a confiança se alguém descobrisse uma mentira que afetou o outro durante anos?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -12961,7 +12961,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Qual de vocês três seria mais honesto sobre uma decisão passada que magoou um amigo?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   },
@@ -12971,7 +12971,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[todos]: O que fariam se uma confissão desta noite contradissesse algo que todos deram como certo?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "grupo",
     "min_jugadores": 2
   },
@@ -12981,7 +12981,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "Você contou uma versão de um rompimento que omitiu deliberadamente sua responsabilidade?",
     "especial": false,
-    "castigo": "Se não responder toma [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responder [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "uno",
     "min_jugadores": 2
   },
@@ -12991,7 +12991,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player] e [player_x]: Que verdade vocês gostariam de poder contar um ao outro sem medo de perder o respeito um do outro?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "dos",
     "min_jugadores": 2
   },
@@ -13001,7 +13001,7 @@ export const clasicoCards = [
     "tipo": "clásico",
     "texto": "[player], [player_x] e [player_x1]: Qual de vocês três poderia admitir uma mentira dolorosa sem exigir perdão imediato?",
     "especial": false,
-    "castigo": "Se não responderem tomam [castigo_toma{1-10} || castigo_notoma{x}].",
+    "castigo": "Se não responderem [castigo_toma{1-10} || castigo_notoma{x}].",
     "participantes": "tres",
     "min_jugadores": 3
   }

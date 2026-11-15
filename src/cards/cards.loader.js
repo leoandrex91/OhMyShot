@@ -2,6 +2,7 @@ import {
   castigos_toma as defaultToma,
   castigos_notoma as defaultNotoma
 } from './castigos.es-CO.js';
+import { getCastigosForLocale } from './castigos.catalog.js';
 
 export const DEFAULT_CASTIGOS_TOMA = Object.freeze(defaultToma);
 export const DEFAULT_CASTIGOS_NOTOMA = Object.freeze(defaultNotoma);
@@ -51,12 +52,13 @@ export async function loadCardsLocale(locale = 'es-CO') {
   }
 
   const questions = mod.questions || mod.default || [];
+  const fallbackCastigos = getCastigosForLocale(locale);
   questions.castigos_toma = Array.isArray(mod.castigos_toma) && mod.castigos_toma.length
     ? mod.castigos_toma
-    : DEFAULT_CASTIGOS_TOMA;
+    : fallbackCastigos.castigos_toma;
   questions.castigos_notoma = Array.isArray(mod.castigos_notoma) && mod.castigos_notoma.length
     ? mod.castigos_notoma
-    : DEFAULT_CASTIGOS_NOTOMA;
+    : fallbackCastigos.castigos_notoma;
 
   questions.verdadCards = Array.isArray(mod.verdadCards) && mod.verdadCards.length
     ? mod.verdadCards

@@ -433,14 +433,14 @@ export function getCardTypeLabel(card,locale='es-CO'){
   const idx=TYPES.indexOf(card?.tipo);
   return (card?.especial?'★ ':'')+(TYPE_LABELS[locale]??TYPE_LABELS['es-CO'])[idx];
 }
-export const PENALTY_LABELS={
- 'es-CO':{'sorbo':'sorbo','medio trago':'medio trago','1 trago':'1 trago'},
- 'es-MX':{'sorbo':'sorbito','medio trago':'medio trago','1 trago':'1 trago'},
- 'es-ES':{'sorbo':'sorbo','medio trago':'medio trago','1 trago':'1 trago'},
- 'en-US':{'sorbo':'a sip','medio trago':'half a drink','1 trago':'one drink'},
- 'en-GB':{'sorbo':'a sip','medio trago':'half a drink','1 trago':'one drink'},
- 'pt-BR':{'sorbo':'um gole','medio trago':'meio copo','1 trago':'um copo'},
- 'pt-PT':{'sorbo':'um gole','medio trago':'meia bebida','1 trago':'uma bebida'},
+export const PENALTY_LABELS = {
+  'es-CO': { 'sorbo': 'sorbo', 'medio trago': 'medio trago', '1 trago': '1 trago', 'half a drink': 'medio trago', 'one drink': '1 trago', 'a sip': 'sorbo' },
+  'es-MX': { 'sorbo': 'sorbito', 'medio trago': 'medio trago', '1 trago': '1 trago', 'half a drink': 'medio trago', 'one drink': '1 trago', 'a sip': 'sorbito' },
+  'es-ES': { 'sorbo': 'sorbo', 'medio trago': 'medio trago', '1 trago': '1 trago', 'half a drink': 'medio trago', 'one drink': '1 trago', 'a sip': 'sorbo' },
+  'en-US': { 'sorbo': 'a sip', 'medio trago': 'half a drink', '1 trago': 'one drink', 'half a drink': 'half a drink', 'one drink': 'one drink', 'a sip': 'a sip', '1 drink': '1 drink', 'meio gole': 'half a drink' },
+  'en-GB': { 'sorbo': 'a sip', 'medio trago': 'half a drink', '1 trago': 'one drink', 'half a drink': 'half a drink', 'one drink': 'one drink', 'a sip': 'a sip', '1 drink': '1 drink', 'meio gole': 'half a drink' },
+  'pt-BR': { 'sorbo': 'um gole', 'medio trago': 'meio copo', '1 trago': 'um copo', 'half a drink': 'meio gole', 'one drink': 'um copo', 'a sip': 'um gole', '1 drink': 'um gole', 'meio gole': 'meio gole' },
+  'pt-PT': { 'sorbo': 'um gole', 'medio trago': 'meia bebida', '1 trago': 'uma bebida', 'half a drink': 'meio golo', 'one drink': 'uma bebida', 'a sip': 'um gole', '1 drink': 'um golo', 'meio gole': 'meio golo' }
 };
 export function getOptionalPenaltyLabel(castigo,locale='es-CO'){
  return (PENALTY_LABELS[locale]??PENALTY_LABELS['es-CO'])[castigo]??castigo;
