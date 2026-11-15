@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover"
+    />
+    <meta name="theme-color" content="#100B22" />
+    <meta name="application-name" content="Oh My Shot!" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Oh My Shot!" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta
+      name="description"
+      content="Oh My Shot! - Tus amigos. Tus reglas. Tu noche. Aplicacion web PWA 100% local para Android, iPhone y PC."
+    />
+    <title>Oh My Shot! — Party Game</title>
+
+    <link rel="icon" type="image/webp" href="./assets/icons/app.webp" />
+    <link rel="shortcut icon" type="image/webp" href="./assets/icons/app.webp" />
+    <link rel="icon" type="image/png" sizes="192x192" href="./assets/icons/icon-192.png" />
+    <link rel="icon" type="image/png" sizes="512x512" href="./assets/icons/icon-512.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/icons/apple-touch-icon.png" />
+    <link rel="preload" as="image" href="./assets/imgs/logo_principal.webp" />
+    <link rel="manifest" href="./manifest.webmanifest" />
+
+    <!-- Tipografia y Design System 100% local (HTML5 + CSS puro) -->
+    <link rel="stylesheet" href="./src/styles/tokens.css" />
+    <link rel="stylesheet" href="./src/styles/base.css" />
+    <link rel="stylesheet" href="./src/styles/components.css" />
+  </head>
+  <body>
+    <div class="bg-video-wrap" aria-hidden="true">
+      <video
+        id="bg-video"
+        class="bg-video"
+        autoplay
+        muted
+        loop
+        playsinline
+        webkit-playsinline="true"
+        disablepictureinpicture
+        controlslist="nodownload nofullscreen noremoteplayback"
+        preload="auto"
+        aria-hidden="true"
+      ></video>
+    </div>
+    <div class="bg-video-scrim" aria-hidden="true"></div>
+    <canvas id="stage-3d" aria-hidden="true"></canvas>
+    <div id="lens-fx-layer" class="lens-fx-layer" aria-hidden="true">
+      <div class="lens-orb lens-orb-a"></div>
+      <div class="lens-orb lens-orb-b"></div>
+      <div class="lens-anamorphic-streak"></div>
+      <div class="lens-vignette"></div>
+    </div>
+    <div class="lens-hot-flames-bed" aria-hidden="true"></div>
+    <div id="fx-flash-overlay" aria-hidden="true"></div>
+
+    <div id="app"></div>
+
+    <div
+      id="screen-loader"
+      class="screen-loader"
+      role="status"
+      aria-live="polite"
+      aria-busy="true"
+      hidden
+    ></div>
+
+    <div
+      id="launch-countdown-overlay"
+      class="launch-countdown-overlay"
+      role="dialog"
+      aria-modal="true"
+      aria-live="assertive"
+      aria-busy="true"
+      hidden
+    ></div>
+
+    <div
+      id="swipe-feedback-overlay"
+      class="swipe-feedback-overlay"
+      role="status"
+      aria-live="polite"
+      aria-hidden="true"
+      hidden
+    ></div>
+
+    <div id="toast-container" class="toast-container" aria-live="polite"></div>
+
+    <script>
+      if (window.location.protocol === 'file:') {
+        document.getElementById('app').innerHTML =
+          '<div class="glass-panel" style="max-width:560px;margin:40px auto;text-align:center;">' +
+          '<h2 style="margin-bottom:10px;color:#FF4FA3;">Ejecuta Oh My Shot! desde un servidor local</h2>' +
+          '<p style="color:#B9AECF;line-height:1.5;margin-bottom:14px;">Los navegadores bloquean ES Modules al abrir archivos con <code>file://</code>. Inicia el servidor local en la carpeta del proyecto:</p>' +
+          '<pre style="background:#100B22;color:#F9F7FF;padding:12px;border-radius:14px;border:1px solid #49365F;overflow:auto;">python -m http.server 4173</pre>' +
+          '<p style="color:#B9AECF;margin-top:12px;">Luego abre <strong style="color:#47E9D2;">http://localhost:4173</strong></p>' +
+          '</div>';
+      }
+    </script>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>

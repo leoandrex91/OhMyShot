@@ -1,0 +1,18 @@
+# Local secrets & runtime overrides
+.env
+.env.local
+.env.*.local
+src/config/env.local.js
+src/config/runtime-env.js
+
+# Build & Dependencies
+dist/
+node_modules/
+
+# OS & Editor artifacts
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
+

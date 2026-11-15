@@ -1,0 +1,566 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+  background-color: var(--oms-background);
+  overscroll-behavior: none;
+  overscroll-behavior-x: none;
+  overscroll-behavior-y: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100dvh;
+  background-color: var(--oms-background);
+  background-image:
+    radial-gradient(ellipse at 22% 3%, rgba(255, 79, 163, 0.1) 0%, transparent 44%),
+    radial-gradient(ellipse at 88% 85%, rgba(71, 233, 210, 0.08) 0%, transparent 42%);
+  color: var(--oms-text-primary);
+  font-family: var(--oms-font-body);
+  overflow-x: clip;
+  overscroll-behavior: none;
+  overscroll-behavior-x: none;
+  overscroll-behavior-y: none;
+  touch-action: pan-y;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-overflow-scrolling: touch;
+  -webkit-font-smoothing: antialiased;
+}
+
+input,
+textarea {
+  user-select: text;
+  -webkit-user-select: text;
+}
+
+h1,
+h2,
+h3,
+h4,
+.font-display {
+  font-family: var(--oms-font-heading);
+  margin: 0;
+  letter-spacing: -0.01em;
+}
+
+p {
+  margin: 0;
+}
+
+button,
+input,
+select {
+  font: inherit;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  user-select: none;
+}
+
+button:focus-visible,
+input:focus-visible,
+[tabindex]:focus-visible {
+  outline: 2px solid var(--oms-primary);
+  outline-offset: 2px;
+}
+
+/* Video de fondo responsivo segun orientacion (vertical vs horizontal) */
+.bg-video-wrap {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100dvh;
+  z-index: var(--z-video);
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+  opacity: 0.38;
+  filter: saturate(1.12) contrast(1.04);
+  transition: opacity 0.45s ease, filter 0.6s ease;
+}
+
+/* Recorta la franja inferior del video vertical para ocultar textos de paleta incrustados */
+.bg-video[data-format='vertical'] {
+  height: 116%;
+  object-position: center top;
+}
+
+body.is-loading-view .bg-video {
+  opacity: 0.74;
+}
+
+body.is-boot-black .bg-video-wrap,
+body.is-boot-black .bg-video-scrim,
+body.is-boot-black #stage-3d,
+body.is-boot-black #lens-fx-layer {
+  opacity: 0 !important;
+  visibility: hidden;
+}
+
+body.is-home-calm .bg-video {
+  opacity: 0.14;
+}
+
+body.is-home-calm .bg-video-scrim {
+  opacity: 0.92;
+}
+
+body.is-home-calm #stage-3d,
+body.is-home-calm #lens-fx-layer {
+  opacity: 0 !important;
+}
+
+body[data-in-game='true'][data-card-fx='hot'] .bg-video {
+  opacity: 0.14;
+  filter: sepia(0.85) hue-rotate(-24deg) saturate(1.35) contrast(1.04);
+}
+
+@keyframes omsFireFlowA {
+  0%,
+  100% {
+    transform: translate3d(-1.5%, 1%, 0) scale(1.02);
+  }
+  50% {
+    transform: translate3d(2%, -2%, 0) scale(1.05);
+  }
+}
+
+@keyframes omsFireFlowB {
+  0%,
+  100% {
+    transform: translate3d(1.8%, 0.8%, 0) scale(1.02);
+  }
+  50% {
+    transform: translate3d(-2.2%, -2.4%, 0) scale(1.05);
+  }
+}
+
+.bg-video-scrim {
+  position: fixed;
+  inset: 0;
+  z-index: var(--z-scrim);
+  pointer-events: none;
+  overflow: hidden;
+  background: radial-gradient(
+      circle at 50% 20%,
+      rgba(32, 21, 54, 0.36) 0%,
+      rgba(16, 11, 34, 0.78) 76%
+    ),
+    linear-gradient(
+      180deg,
+      rgba(16, 11, 34, 0.42) 0%,
+      rgba(16, 11, 34, 0.8) 88%,
+      rgba(16, 11, 34, 0.94) 100%
+    );
+  transition: opacity 0.35s ease;
+}
+
+.bg-video-scrim::before {
+  content: '';
+  position: fixed;
+  inset: -14%;
+  pointer-events: none;
+  opacity: 0;
+  background:
+    radial-gradient(ellipse 56% 52% at 24% 72%, rgba(255, 62, 18, 0.56) 0%, rgba(190, 18, 24, 0.25) 48%, transparent 78%),
+    radial-gradient(ellipse 52% 48% at 78% 34%, rgba(255, 118, 22, 0.46) 0%, rgba(220, 34, 24, 0.22) 52%, transparent 78%),
+    linear-gradient(
+      180deg,
+      rgba(56, 6, 10, 0.76) 0%,
+      rgba(128, 18, 14, 0.68) 54%,
+      rgba(205, 52, 12, 0.78) 100%
+    );
+  will-change: transform, opacity;
+  transition: opacity 0.55s ease;
+}
+
+.bg-video-scrim::after {
+  content: '';
+  position: fixed;
+  inset: -16%;
+  pointer-events: none;
+  opacity: 0;
+  mix-blend-mode: screen;
+  background:
+    radial-gradient(ellipse 54% 48% at 72% 76%, rgba(255, 108, 18, 0.55) 0%, rgba(255, 36, 36, 0.24) 50%, transparent 78%),
+    radial-gradient(ellipse 46% 44% at 32% 26%, rgba(255, 42, 32, 0.48) 0%, transparent 72%);
+  will-change: transform, opacity;
+  transition: opacity 0.55s ease;
+}
+
+body.is-loading-view .bg-video-scrim {
+  opacity: 0.52;
+}
+
+body[data-in-game='true'][data-card-fx='hot'] .bg-video-scrim::before {
+  opacity: 0.94;
+  animation: omsFireFlowA 28s ease-in-out infinite;
+}
+
+body[data-in-game='true'][data-card-fx='hot'] .bg-video-scrim::after {
+  opacity: 0.65;
+  animation: omsFireFlowB 34s ease-in-out infinite;
+}
+
+/* Canvas 3D con esfera de particulas + efectos especiales */
+#stage-3d {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100dvh;
+  z-index: var(--z-stage);
+  pointer-events: none;
+  opacity: 0.86;
+  transition: opacity 0.45s ease;
+}
+
+body[data-in-game='true']:not([data-card-fx='ambient']) #stage-3d {
+  opacity: 0.96;
+}
+
+/* Capa optica de lentes sin parpadeos ni vibracion de brillo */
+@keyframes omsLensOrbDriftA {
+  0%,
+  100% {
+    transform: translate3d(0px, 0px, 0) scale(1);
+  }
+  50% {
+    transform: translate3d(-18px, 14px, 0) scale(1.06);
+  }
+}
+
+@keyframes omsLensOrbDriftB {
+  0%,
+  100% {
+    transform: translate3d(0px, 0px, 0) scale(1);
+  }
+  50% {
+    transform: translate3d(16px, -14px, 0) scale(1.06);
+  }
+}
+
+@keyframes omsLensStreakBreathe {
+  0%,
+  100% {
+    transform: rotate(-11deg) translate3d(-1%, 0px, 0) scale(1);
+  }
+  50% {
+    transform: rotate(-11deg) translate3d(1%, 6px, 0) scale(1.03);
+  }
+}
+
+@keyframes omsCssOnlyFire {
+  0% {
+    background-position:
+      center 0px,
+      center 0px,
+      50% 100%,
+      center center;
+  }
+  100% {
+    background-position:
+      center -500px,
+      center -650px,
+      50% 100%,
+      center center;
+  }
+}
+
+@keyframes omsFireOrbA {
+  0%,
+  100% {
+    transform: translate3d(0px, 8px, 0) scale(1);
+  }
+  50% {
+    transform: translate3d(-14px, -12px, 0) scale(1.05);
+  }
+}
+
+@keyframes omsFireOrbB {
+  0%,
+  100% {
+    transform: translate3d(0px, 5px, 0) scale(1.01);
+  }
+  50% {
+    transform: translate3d(16px, -14px, 0) scale(1.06);
+  }
+}
+
+.lens-fx-layer {
+  position: fixed;
+  inset: 0;
+  z-index: var(--z-lens);
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.lens-orb {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(44px);
+  mix-blend-mode: screen;
+  will-change: transform;
+  transition: background 0.6s ease, opacity 0.6s ease;
+}
+
+.lens-orb-a {
+  width: clamp(220px, 42vw, 440px);
+  height: clamp(220px, 42vw, 440px);
+  top: -8%;
+  right: -10%;
+  opacity: 0.2;
+  background: radial-gradient(circle, var(--active-accent) 0%, transparent 70%);
+  animation: omsLensOrbDriftA 16s ease-in-out infinite;
+}
+
+.lens-orb-b {
+  width: clamp(200px, 38vw, 390px);
+  height: clamp(200px, 38vw, 390px);
+  bottom: -10%;
+  left: -12%;
+  opacity: 0.17;
+  background: radial-gradient(circle, var(--oms-accent-mint) 0%, transparent 72%);
+  animation: omsLensOrbDriftB 19s ease-in-out infinite;
+}
+
+.lens-anamorphic-streak {
+  position: absolute;
+  top: 22%;
+  left: -15%;
+  width: 130%;
+  height: 110px;
+  opacity: 0.11;
+  transform: rotate(-11deg);
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(71, 233, 210, 0.22) 24%,
+    var(--active-accent) 50%,
+    rgba(255, 209, 102, 0.2) 76%,
+    transparent 100%
+  );
+  filter: blur(28px);
+  mix-blend-mode: screen;
+  transition: background 0.6s ease, opacity 0.6s ease;
+  animation: omsLensStreakBreathe 18s ease-in-out infinite;
+}
+
+.lens-hot-flames-bed {
+  --glitter: url('../../assets/imgs/silver-glitter-background.webp');
+  --gradientPos: 50% 100%;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 20%;
+  height: 20dvh;
+  max-height: 20%;
+  z-index: calc(var(--z-lens) + 1);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  overflow: hidden;
+  background: none;
+  mix-blend-mode: color-dodge;
+  transition: opacity 0.65s ease, visibility 0.65s ease;
+}
+
+.lens-hot-flames-bed::before {
+  content: '';
+  position: absolute;
+  inset: 0 -16px -10px -16px;
+  background-image:
+    var(--glitter),
+    var(--glitter),
+    linear-gradient(
+      0deg,
+      rgb(255, 145, 0) 0px,
+      #ff8951 8px,
+      #dcbc169c 34%,
+      transparent 74%
+    ),
+    radial-gradient(
+      ellipse at bottom,
+      transparent 34%,
+      black 70%
+    );
+  background-size:
+    350px 500px,
+    400px 650px,
+    100% 100%,
+    100% 100%;
+  background-blend-mode: hard-light, color-dodge, multiply;
+  background-position:
+    center 0px,
+    center 0px,
+    var(--gradientPos, 50% 100%),
+    center center;
+  background-repeat: repeat, repeat, no-repeat, no-repeat;
+  filter: brightness(3.7) blur(7px) contrast(6);
+  box-shadow: inset 0 -40px 50px -60px #c56363;
+  will-change: background-position;
+}
+
+.lens-hot-flames-bed::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(
+    to bottom,
+    #000000 0%,
+    rgba(0, 0, 0, 0.82) 24%,
+    rgba(0, 0, 0, 0.35) 48%,
+    transparent 72%
+  );
+}
+
+/* FX especiales en fondo SOLO dentro de partidas (cuando la carta es HOT / Especial / Evento / Duelo) */
+body[data-in-game='true'][data-card-fx='hot'] .lens-hot-flames-bed {
+  opacity: 1;
+  visibility: visible;
+}
+
+body[data-in-game='true'][data-card-fx='hot'] .lens-hot-flames-bed::before {
+  animation: omsCssOnlyFire 1.75s linear infinite;
+}
+
+body[data-in-game='true'][data-card-fx='hot'] .lens-orb-a {
+  opacity: 0.22;
+  background: radial-gradient(circle, rgba(255, 42, 32, 0.72) 0%, rgba(255, 96, 22, 0.32) 52%, transparent 74%);
+  animation: omsFireOrbA 24s ease-in-out infinite;
+}
+
+body[data-in-game='true'][data-card-fx='hot'] .lens-orb-b {
+  opacity: 0.22;
+  background: radial-gradient(circle, rgba(255, 108, 18, 0.68) 0%, rgba(255, 162, 28, 0.28) 54%, transparent 74%);
+  animation: omsFireOrbB 28s ease-in-out infinite;
+}
+
+body[data-in-game='true'][data-card-fx='hot'] .lens-anamorphic-streak {
+  opacity: 0.12;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(255, 42, 42, 0.3) 24%,
+    rgba(255, 118, 24, 0.56) 50%,
+    rgba(255, 176, 32, 0.3) 76%,
+    transparent 100%
+  );
+}
+
+body[data-in-game='true'][data-card-fx='hot'] .lens-vignette {
+  box-shadow: inset 0 40px 110px rgba(72, 6, 8, 0.45);
+}
+
+body[data-in-game='true'][data-card-fx='event'] .lens-orb-a {
+  opacity: 0.26;
+  background: radial-gradient(circle, rgba(255, 209, 102, 0.88) 0%, rgba(71, 233, 210, 0.36) 46%, transparent 72%);
+}
+
+body[data-in-game='true'][data-card-fx='event'] .lens-anamorphic-streak {
+  opacity: 0.16;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(255, 209, 102, 0.36) 26%,
+    rgba(255, 255, 255, 0.52) 50%,
+    rgba(71, 233, 210, 0.38) 74%,
+    transparent 100%
+  );
+}
+
+body[data-in-game='true'][data-card-fx='duel'] .lens-orb-a {
+  opacity: 0.26;
+  background: radial-gradient(circle, rgba(239, 106, 86, 0.88) 0%, transparent 70%);
+}
+
+body[data-in-game='true'][data-card-fx='duel'] .lens-orb-b {
+  opacity: 0.24;
+  background: radial-gradient(circle, rgba(71, 233, 210, 0.88) 0%, transparent 70%);
+}
+
+body[data-in-game='true'][data-card-fx='intense'] .lens-orb-a {
+  opacity: 0.26;
+  background: radial-gradient(circle, rgba(117, 74, 193, 0.9) 0%, rgba(255, 79, 163, 0.4) 48%, transparent 72%);
+}
+
+.lens-vignette {
+  position: absolute;
+  inset: 0;
+  box-shadow: inset 0 0 110px rgba(10, 6, 20, 0.65);
+  transition: box-shadow 0.55s ease;
+}
+
+/* Capa radial sutil de pulso */
+#fx-flash-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: var(--z-fx);
+  pointer-events: none;
+  opacity: 0;
+  background: radial-gradient(circle at center, transparent 40%, var(--active-accent) 135%);
+}
+
+#app {
+  position: relative;
+  z-index: var(--z-app);
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  padding: calc(env(safe-area-inset-top, 0px) + 14px) clamp(14px, 4vw, 24px)
+    calc(env(safe-area-inset-bottom, 0px) + 16px);
+  max-width: 1040px;
+  margin: 0 auto;
+  overflow-x: clip;
+}
+
+@media (orientation: landscape) and (max-height: 540px) {
+  #app {
+    padding: calc(env(safe-area-inset-top, 0px) + 6px) max(14px, env(safe-area-inset-right, 0px))
+      calc(env(safe-area-inset-bottom, 0px) + 8px) max(14px, env(safe-area-inset-left, 0px));
+  }
+}
+
+#app > main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}

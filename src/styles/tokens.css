@@ -1,0 +1,153 @@
+/* ==========================================================================
+   Oh My Shot! — Design Tokens Centralizados (Manual UX/UI v1.0)
+   Fuente única de color, tipografía local, espaciado, radios y tamaños táctiles.
+   ========================================================================== */
+@font-face {
+  font-family: 'OMS Titulos';
+  src:
+    url('../../assets/fonts/titulos.woff2') format('woff2'),
+    url('../../assets/fonts/titulos.woff') format('woff');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'OMS Texto';
+  src:
+    url('../../assets/fonts/texto.woff2') format('woff2'),
+    url('../../assets/fonts/texto.woff') format('woff');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  /* Paleta oficial Oh My Shot Design Kit v1.0 */
+  --oms-midnight: #100B22;
+  --oms-dark-grape: #201536;
+  --oms-surface-elevated: #302148;
+  --oms-shot-pink: #FF4FA3;
+  --oms-party-coral: #FF6D5A;
+  --oms-electric-yellow: #FFD166;
+  --oms-mint-pop: #47E9D2;
+  --oms-soft-white: #F9F7FF;
+  --oms-lavender-gray: #B9AECF;
+  --oms-border: #49365F;
+
+  /* Colores por modo / categoría */
+  --oms-confessions: #168F83;
+  --oms-duel: #EF6A56;
+  --oms-chaos: #754AC1;
+  --oms-white: #FFFFFF;
+
+  /* Aliases semánticos (--oms-*) */
+  --oms-background: var(--oms-midnight);
+  --oms-surface: var(--oms-dark-grape);
+  --oms-surface-raised: var(--oms-surface-elevated);
+  --oms-primary: var(--oms-shot-pink);
+  --oms-secondary: var(--oms-party-coral);
+  --oms-accent: var(--oms-electric-yellow);
+  --oms-accent-mint: var(--oms-mint-pop);
+  --oms-text-primary: var(--oms-soft-white);
+  --oms-text-secondary: var(--oms-lavender-gray);
+  --oms-text-on-vibrant: var(--oms-midnight);
+
+  /* Gradientes oficiales */
+  --oms-gradient-party: linear-gradient(150deg, #FF4FA3 0%, #FF6D5A 100%);
+  --oms-gradient-hot: linear-gradient(135deg, #FF3B30 0%, #FF771C 56%, #FFB32C 100%);
+  --oms-gradient-electric: linear-gradient(135deg, #47E9D2 0%, #578CFF 100%);
+  --oms-gradient-gold: linear-gradient(135deg, #FFD166 0%, #FF965A 100%);
+  --oms-gradient-night: linear-gradient(160deg, #302148 0%, #100B22 100%);
+  --oms-hot-red: #FF2438;
+  --oms-hot-orange: #FF6E1A;
+  --oms-hot-amber: #FFB020;
+
+  /* Tipografía personalizada del juego (fuentes locales en assets/fonts) */
+  --oms-font-heading: 'OMS Titulos', system-ui, -apple-system, sans-serif;
+  --oms-font-body: 'OMS Texto', system-ui, -apple-system, sans-serif;
+
+  /* Escala espacial base 4 dp */
+  --oms-space-1: 4px;
+  --oms-space-2: 8px;
+  --oms-space-3: 12px;
+  --oms-space-4: 16px;
+  --oms-space-6: 24px;
+  --oms-space-8: 32px;
+  --oms-space-12: 48px;
+
+  /* Radios y targets táctiles */
+  --oms-radius-input: 14px;
+  --oms-radius-button: 18px;
+  --oms-radius-card: 28px;
+  --oms-radius-pill: 999px;
+  --oms-control-height: 56px;
+  --oms-target-min: 48px;
+  --oms-avatar-size: 48px;
+
+  /* Mapeo a variables usadas por los estilos de la app (sin duplicar hexes) */
+  --bg-deep: var(--oms-background);
+  --bg-surface: var(--oms-surface);
+  --bg-surface-strong: var(--oms-surface-raised);
+  --bg-glass: rgba(48, 33, 72, 0.84);
+  --border-subtle: var(--oms-border);
+  --border-glow: var(--oms-primary);
+
+  --text-primary: var(--oms-text-primary);
+  --text-secondary: var(--oms-text-secondary);
+  --text-muted: var(--oms-text-secondary);
+
+  --neon-cyan: var(--oms-mint-pop);
+  --neon-pink: var(--oms-shot-pink);
+  --neon-amber: var(--oms-electric-yellow);
+  --neon-green: var(--oms-mint-pop);
+  --neon-violet: var(--oms-chaos);
+  --neon-red: var(--oms-party-coral);
+
+  --active-accent: var(--oms-primary);
+  --active-card-bg: var(--oms-gradient-party);
+  --active-card-ink: var(--oms-text-on-vibrant);
+
+  /* Factor de escala accesible para dispositivo compartido (Normal +30%, Grande +50%) */
+  --text-scale: 1.3;
+  --lens-x: 0px;
+  --lens-y: 0px;
+
+  --font-display: var(--oms-font-heading);
+  --font-body: var(--oms-font-body);
+
+  --radius-sm: var(--oms-radius-input);
+  --radius-md: var(--oms-radius-button);
+  --radius-lg: var(--oms-radius-card);
+  --radius-pill: var(--oms-radius-pill);
+
+  --shadow-card: 0 22px 54px rgba(10, 7, 22, 0.72);
+  --shadow-neon: 0 12px 34px rgba(255, 79, 163, 0.22);
+
+  --z-video: 0;
+  --z-scrim: 1;
+  --z-stage: 2;
+  --z-lens: 3;
+  --z-fx: 5;
+  --z-app: 10;
+  --z-modal: 50;
+  --z-loader: 65;
+  --z-countdown: 75;
+  --z-toast: 80;
+  --swipe-blur-px: 0px;
+  --swipe-brightness: 1;
+}
+
+body.text-xl {
+  --text-scale: 1.5;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *:not(.screen-loader-ring):not(.screen-loader-logo):not(.splash-halo):not(.splash-logo-main):not(.splash-floor-shadow):not(.splash-sparkle):not(.hold-progress-bar):not(.game-card-icon-img):not(.instructions-hero-icon-img):not(.launch-countdown-img):not(.launch-countdown-halo):not(.launch-countdown-shadow):not(.launch-countdown-sparkle):not(.lens-hot-flames-bed):not(.card-decor-emoji):not(.swipe-feedback-img):not(.swipe-feedback-halo):not(.swipe-feedback-shadow),
+  *:not(.screen-loader-ring):not(.screen-loader-logo):not(.splash-halo):not(.splash-logo-main):not(.splash-floor-shadow):not(.splash-sparkle):not(.hold-progress-bar):not(.game-card-icon-img):not(.instructions-hero-icon-img):not(.launch-countdown-img):not(.launch-countdown-halo):not(.launch-countdown-shadow):not(.launch-countdown-sparkle):not(.lens-hot-flames-bed):not(.card-decor-emoji):not(.swipe-feedback-img):not(.swipe-feedback-halo):not(.swipe-feedback-shadow)::before,
+  *:not(.screen-loader-ring):not(.screen-loader-logo):not(.splash-halo):not(.splash-logo-main):not(.splash-floor-shadow):not(.splash-sparkle):not(.hold-progress-bar):not(.game-card-icon-img):not(.instructions-hero-icon-img):not(.launch-countdown-img):not(.launch-countdown-halo):not(.launch-countdown-shadow):not(.launch-countdown-sparkle):not(.lens-hot-flames-bed):not(.card-decor-emoji):not(.swipe-feedback-img):not(.swipe-feedback-halo):not(.swipe-feedback-shadow)::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

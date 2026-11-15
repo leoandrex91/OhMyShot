@@ -1,0 +1,23 @@
+{
+  "name": "oh-my-shot",
+  "version": "0.6.0",
+  "private": true,
+  "author": "leoandre91 (https://github.com/leoandrex91)",
+  "type": "module",
+  "description": "Oh My Shot! - Aplicacion web PWA de fiesta 100% local con HTML5, CSS y JavaScript puro (Android, iPhone y PC).",
+  "scripts": {
+    "build": "node scripts/build-netlify.mjs",
+    "dev": "python -m http.server 8080 --bind 0.0.0.0"
+  },
+  "keywords": [
+    "party-game",
+    "html5",
+    "css3",
+    "javascript",
+    "indexeddb",
+    "offline-first",
+    "pwa"
+  ],
+  "license": "MIT"
+}
+
