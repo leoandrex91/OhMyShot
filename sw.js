@@ -1,4 +1,4 @@
-const CACHE_NAME = 'oh-my-shot-v0.6.0';
+const CACHE_NAME = 'oh-my-shot-v0.6.1';
 
 const AVATAR_ASSETS = Array.from(
   { length: 36 },
