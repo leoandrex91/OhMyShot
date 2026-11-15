@@ -3776,6 +3776,10 @@ export class AppShell {
     );
 
     if (state.screen === 'play') {
+      if (state.localGame?.finished) {
+        audioFx.setMusicMood('normal');
+        return;
+      }
       const adapter = getModeAdapter(state.activeGameModeId);
       const vm = adapter?.buildTurnViewModel?.(state.localGame?.session, state.localPlayers);
       const cardEl = document.querySelector('#active-swipe-card');
@@ -3788,7 +3792,8 @@ export class AppShell {
       document.documentElement.style.setProperty('--active-accent', accent);
       stage3d.setSpecialFx(fxMode, specialFxMeta?.hex ?? vm?.typeMeta?.hex ?? 0x754ac1);
       visualFx.syncGameFxState(true, fxMode);
-      audioFx.setMusicMood('play');
+      const isHotCard = fxMode === 'hot' || card?.tipo === 'hot' || card?.category === 'hot';
+      audioFx.setMusicMood(isHotCard ? 'hot' : 'play');
       this.#fitActiveCardPrompt(cardEl);
 
       if (cardEl && animKey !== this.lastAnimatedCardKey) {

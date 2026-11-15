@@ -582,6 +582,14 @@ export const audioFx = {
     if (desiredMood === nextMood && appliedMood === nextMood) return;
     desiredMood = nextMood;
     if (audioUnlocked) {
+      const ctx = getAudioContext({ allowCreate: false });
+      if (ctx) {
+        ensureMusicBus(ctx);
+        const track = musicTracks[nextMood];
+        if (track?.audioBuffer) {
+          ensureTrackSourceStarted(track, ctx);
+        }
+      }
       updateMusicLoop();
     }
   },
