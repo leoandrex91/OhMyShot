@@ -5,7 +5,7 @@
 **La aplicación web progresiva (PWA) definitiva de juegos para previas y fiestas entre amigos.**  
 *100% local, interactiva, moderna, sin dependencias pesadas y con estética cyberpunk / neón party.*
 
-[![Version](https://img.shields.io/badge/version-0.6.2-ff007f.svg?style=for-the-badge)](package.json)
+[![Version](https://img.shields.io/badge/version-0.7.0-ff007f.svg?style=for-the-badge)](package.json)
 [![PWA Ready](https://img.shields.io/badge/PWA-100%25%20Offline-00e5ff.svg?style=for-the-badge)](manifest.webmanifest)
 [![Vanilla JS](https://img.shields.io/badge/Vanilla-ES%20Modules-f59e0b.svg?style=for-the-badge)](src/main.js)
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-a855f7.svg?style=for-the-badge)](LICENSE)
@@ -189,7 +189,7 @@ OhMyShot/
 │   └── main.js                 # Punto de entrada de la aplicación
 ├── index.html                  # HTML principal de la PWA
 ├── manifest.webmanifest        # Manifiesto PWA para instalación móvil
-├── package.json                # Metadatos del proyecto (v0.6.0)
+├── package.json                # Metadatos del proyecto (v0.7.0)
 └── sw.js                       # Service Worker para funcionamiento 100% offline
 ```
 

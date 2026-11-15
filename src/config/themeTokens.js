@@ -4,11 +4,11 @@
  * `src/config/constants.js` y las carpetas independientes en `src/modes/*`.
  */
 
-export const APP_VERSION = '0.6.2';
+export const APP_VERSION = '0.7.0';
 
 export const PROJECT_META = Object.freeze({
   name: 'Oh My Shot!',
-  version: '0.6.2',
+  version: '0.7.0',
   creator: 'leoandre91',
   githubUser: 'leoandrex91/OhMyShot',
   githubRepo: 'leoandrex91/OhMyShot',

@@ -375,7 +375,8 @@ export const verdadORetoAdapter = {
     if (!session) return null;
 
     const localMap = new Map(localPlayers.map((p) => [String(p.id), p]));
-    const activeRaw = session.players[session.activePlayerIndex] || session.players[0] || { id: 'p1', name: 'Jugador 1' };
+    const playersList = Array.isArray(session?.players) ? session.players : [];
+    const activeRaw = playersList[session?.activePlayerIndex] || playersList[0] || { id: 'p1', name: 'Jugador 1' };
     const fullActive = localMap.get(String(activeRaw.id)) || activeRaw;
     const activePlayer = {
       id: String(activeRaw.id),

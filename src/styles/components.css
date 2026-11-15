@@ -6422,22 +6422,22 @@ body.is-swipe-feedback .bg-video-wrap {
 @keyframes omsShadowBurst {
   0% {
     opacity: 0;
-    transform: scale(0.2);
+    transform: translateX(-50%) scale(0.2);
   }
 
   28% {
     opacity: 0.85;
-    transform: scale(1.1);
+    transform: translateX(-50%) scale(1.1);
   }
 
   78% {
     opacity: 0.7;
-    transform: scale(1);
+    transform: translateX(-50%) scale(1);
   }
 
   100% {
     opacity: 0.6;
-    transform: scale(0.95);
+    transform: translateX(-50%) scale(0.95);
   }
 }
 
@@ -6506,17 +6506,18 @@ body.is-swipe-feedback .bg-video-wrap {
   position: absolute;
   bottom: -22px;
   left: 50%;
+  transform: translateX(-50%);
   z-index: 0;
   width: 72%;
-  height: 34px;
+  height: 32px;
   border-radius: 50%;
   background: radial-gradient(ellipse at center,
-      rgba(3, 1, 10, 0.96) 0%,
-      rgba(8, 4, 20, 0.86) 46%,
-      rgba(16, 11, 34, 0.4) 70%,
+      rgba(3, 1, 10, 0.95) 0%,
+      rgba(8, 4, 20, 0.82) 46%,
+      rgba(16, 11, 34, 0.35) 70%,
       transparent 84%);
-  box-shadow: 0 2px 24px rgba(0, 0, 0, 0.85);
-  filter: blur(5px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.85);
+  filter: blur(6px);
   pointer-events: none;
   animation: omsShadowBurst 0.72s cubic-bezier(0.22, 1, 0.36, 1) both !important;
 }
@@ -6534,12 +6535,16 @@ body.is-swipe-feedback .bg-video-wrap {
 
 .swipe-feedback-img.is-god {
   filter:
-    drop-shadow(0 10px 0 rgba(8, 3, 20, 0.96)) drop-shadow(0 24px 30px rgba(0, 0, 0, 0.92)) drop-shadow(0 0 34px rgba(71, 233, 210, 0.78));
+    drop-shadow(0 8px 18px rgba(0, 0, 0, 0.65))
+    drop-shadow(0 18px 32px rgba(8, 3, 20, 0.9))
+    drop-shadow(0 0 32px rgba(71, 233, 210, 0.85));
 }
 
 .swipe-feedback-img.is-bad {
   filter:
-    drop-shadow(0 10px 0 rgba(8, 3, 20, 0.96)) drop-shadow(0 24px 30px rgba(0, 0, 0, 0.92)) drop-shadow(0 0 34px rgba(255, 75, 114, 0.78));
+    drop-shadow(0 8px 18px rgba(0, 0, 0, 0.65))
+    drop-shadow(0 18px 32px rgba(8, 3, 20, 0.9))
+    drop-shadow(0 0 32px rgba(255, 75, 114, 0.85));
 }
 
 @media (orientation: landscape) and (max-height: 540px) {
@@ -6594,198 +6599,6 @@ body.is-card-swiping #stage-3d,
 body.is-card-swiping .bg-video-wrap {
   filter: blur(var(--swipe-blur-px, 0px)) brightness(var(--swipe-brightness, 1));
   will-change: filter;
-}
-
-body.is-swipe-feedback .topbar,
-body.is-swipe-feedback .play-hud,
-body.is-swipe-feedback .play-dock-wrap,
-body.is-swipe-feedback .play-footer-hint,
-body.is-swipe-feedback .deck-stage-actions,
-body.is-swipe-feedback .swipe-helper-text,
-body.is-swipe-feedback #stage-3d,
-body.is-swipe-feedback .bg-video-wrap {
-  filter: blur(14px) brightness(0.78);
-  transition: filter 0.1s ease;
-}
-
-.swipe-feedback-overlay {
-  position: fixed;
-  inset: 0;
-  z-index: 70;
-  display: grid;
-  place-items: center;
-  pointer-events: none;
-  user-select: none;
-}
-
-.swipe-feedback-overlay[hidden] {
-  display: none !important;
-}
-
-.swipe-feedback-stage {
-  position: relative;
-  width: min(290px, 74vw);
-  aspect-ratio: 1 / 1;
-  display: grid;
-  place-items: center;
-  overflow: visible;
-  pointer-events: none;
-}
-
-@keyframes omsHaloBurst {
-  0% {
-    opacity: 0;
-    transform: scale(0.3);
-  }
-
-  24% {
-    opacity: 0.95;
-    transform: scale(1.15);
-  }
-
-  75% {
-    opacity: 0.8;
-    transform: scale(1.02);
-  }
-
-  100% {
-    opacity: 0.7;
-    transform: scale(1.1);
-  }
-}
-
-@keyframes omsShadowBurst {
-  0% {
-    opacity: 0;
-    transform: scale(0.2);
-  }
-
-  28% {
-    opacity: 0.85;
-    transform: scale(1.1);
-  }
-
-  78% {
-    opacity: 0.7;
-    transform: scale(1);
-  }
-
-  100% {
-    opacity: 0.6;
-    transform: scale(0.95);
-  }
-}
-
-@keyframes omsSwipeFeedbackPop {
-  0% {
-    opacity: 0;
-    transform: translateY(28px) scale(0.18) rotate(-6deg);
-  }
-
-  24% {
-    opacity: 1;
-    transform: translateY(-14px) scale(1.22) rotate(3deg);
-  }
-
-  44% {
-    opacity: 1;
-    transform: translateY(-2px) scale(0.96) rotate(-1.5deg);
-  }
-
-  64% {
-    opacity: 1;
-    transform: translateY(0) scale(1.05) rotate(1deg);
-  }
-
-  80% {
-    opacity: 1;
-    transform: translateY(0) scale(1) rotate(0deg);
-  }
-
-  92% {
-    opacity: 1;
-    transform: translateY(-2px) scale(1.02);
-  }
-
-  100% {
-    opacity: 0.95;
-    transform: translateY(0) scale(1);
-  }
-}
-
-.swipe-feedback-halo {
-  position: absolute;
-  inset: -18px;
-  border-radius: 50%;
-  filter: blur(24px);
-  animation: omsHaloBurst 0.72s cubic-bezier(0.22, 1, 0.36, 1) both !important;
-}
-
-.swipe-feedback-halo.is-god {
-  background: radial-gradient(circle,
-      rgba(71, 233, 210, 0.65) 0%,
-      rgba(255, 209, 102, 0.44) 44%,
-      rgba(255, 79, 163, 0.28) 68%,
-      transparent 80%);
-}
-
-.swipe-feedback-halo.is-bad {
-  background: radial-gradient(circle,
-      rgba(255, 75, 114, 0.72) 0%,
-      rgba(255, 107, 123, 0.48) 44%,
-      rgba(117, 74, 193, 0.3) 68%,
-      transparent 80%);
-}
-
-.swipe-feedback-shadow {
-  position: absolute;
-  bottom: -22px;
-  left: 50%;
-  z-index: 0;
-  width: 72%;
-  height: 34px;
-  border-radius: 50%;
-  background: radial-gradient(ellipse at center,
-      rgba(3, 1, 10, 0.96) 0%,
-      rgba(8, 4, 20, 0.86) 46%,
-      rgba(16, 11, 34, 0.4) 70%,
-      transparent 84%);
-  box-shadow: 0 2px 24px rgba(0, 0, 0, 0.85);
-  filter: blur(5px);
-  pointer-events: none;
-  animation: omsShadowBurst 0.72s cubic-bezier(0.22, 1, 0.36, 1) both !important;
-}
-
-.swipe-feedback-img {
-  position: relative;
-  z-index: 1;
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  transform-origin: center center;
-  will-change: transform, opacity;
-  animation: omsSwipeFeedbackPop 0.72s cubic-bezier(0.22, 1, 0.36, 1) both !important;
-}
-
-.swipe-feedback-img.is-god {
-  filter:
-    drop-shadow(0 10px 0 rgba(8, 3, 20, 0.96)) drop-shadow(0 24px 30px rgba(0, 0, 0, 0.92)) drop-shadow(0 0 34px rgba(71, 233, 210, 0.78));
-}
-
-.swipe-feedback-img.is-bad {
-  filter:
-    drop-shadow(0 10px 0 rgba(8, 3, 20, 0.96)) drop-shadow(0 24px 30px rgba(0, 0, 0, 0.92)) drop-shadow(0 0 34px rgba(255, 75, 114, 0.78));
-}
-
-@media (orientation: landscape) and (max-height: 540px) {
-  .swipe-feedback-stage {
-    width: min(210px, 56dvh);
-  }
-
-  .swipe-feedback-shadow {
-    bottom: -16px;
-    height: 26px;
-  }
 }
 
 /* ==========================================================================
