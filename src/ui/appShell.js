@@ -1460,6 +1460,53 @@ export class AppShell {
             </a>
           </div>
         </article>
+
+        <article class="glass-panel home-changelog-card">
+          <div class="home-changelog-head">
+            <div class="home-changelog-badge">
+              ${renderUiIconHtml(UI_ICONS.sparkles, 'ui-icon-xs')}
+              <span>${escapeHtml(t('homeChangelogBadge', lang))}</span>
+            </div>
+            <a
+              href="${escapeHtml(PROJECT_META.githubUrl)}/blob/main/CHANGELOG.md"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="home-changelog-link"
+              aria-label="${escapeHtml(t('homeChangelogViewFull', lang))}"
+            >
+              <span>CHANGELOG.md</span>
+              ${renderUiIconHtml(UI_ICONS.arrowRight, 'ui-icon-xs')}
+            </a>
+          </div>
+
+          <h3 class="home-changelog-title">${escapeHtml(t('homeChangelogTitle', lang))}</h3>
+
+          <div class="home-changelog-releases">
+            <div class="home-changelog-item">
+              <div class="home-changelog-item-head">
+                <span class="changelog-version-tag changelog-version-tag-latest">v0.7.01</span>
+                <strong class="changelog-version-title">${escapeHtml(t('homeChangelogV0701Title', lang))}</strong>
+              </div>
+              <ul class="home-changelog-list">
+                <li>${escapeHtml(t('homeChangelogV0701Item1', lang))}</li>
+                <li>${escapeHtml(t('homeChangelogV0701Item2', lang))}</li>
+                <li>${escapeHtml(t('homeChangelogV0701Item3', lang))}</li>
+              </ul>
+            </div>
+
+            <div class="home-changelog-item">
+              <div class="home-changelog-item-head">
+                <span class="changelog-version-tag">v0.7.0</span>
+                <strong class="changelog-version-title">${escapeHtml(t('homeChangelogV070Title', lang))}</strong>
+              </div>
+              <ul class="home-changelog-list">
+                <li>${escapeHtml(t('homeChangelogV070Item1', lang))}</li>
+                <li>${escapeHtml(t('homeChangelogV070Item2', lang))}</li>
+                <li>${escapeHtml(t('homeChangelogV070Item3', lang))}</li>
+              </ul>
+            </div>
+          </div>
+        </article>
       </section>
     `;
   }

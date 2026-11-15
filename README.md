@@ -190,6 +190,7 @@ OhMyShot/
 ├── index.html                  # HTML principal de la PWA
 ├── manifest.webmanifest        # Manifiesto PWA para instalación móvil
 ├── package.json                # Metadatos del proyecto (v0.7.01)
+├── CHANGELOG.md                # Historial completo de versiones y cambios
 └── sw.js                       # Service Worker para funcionamiento 100% offline
 ```
 
@@ -205,6 +206,10 @@ OhMyShot/
 - **Screen Wake Lock API**: Previene el bloqueo o suspensión automática de la pantalla del celular durante la partida.
 
 ---
+
+## 📜 Registro de Cambios (Changelog)
+
+Consulta el historial detallado de todas las versiones, mejoras y correcciones desde la `v0.1.0` hasta la última versión en [CHANGELOG.md](CHANGELOG.md).
 
 ## 👤 Autor
 
