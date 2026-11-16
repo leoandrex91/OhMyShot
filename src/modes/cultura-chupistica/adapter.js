@@ -253,7 +253,8 @@ export const culturaChupisticaAdapter = {
 
     session.currentCardIndex = (session.currentCardIndex + 1) % session.deck.length;
     session.currentTurn += 1;
-    session.activeStarterIdx = (session.activeStarterIdx + 1) % localPlayers.length;
+    const count = (localPlayers && localPlayers.length > 0) ? localPlayers.length : (session.players?.length || 1);
+    session.activeStarterIdx = ((session.activeStarterIdx ?? 0) + 1) % count;
     session.roundState = session.currentTurn > session.targetTurns ? 'game_over' : 'active';
     session.lastFailedPlayer = null;
     session.lastPenalty = null;

@@ -220,6 +220,50 @@ export class AppShell {
     }
   }
 
+  #handleCulturaCardSwipe(session) {
+    if (!session || this.isAdvancingCard) return;
+    const state = store.getState();
+    const trackFails = session.config?.trackFails !== false;
+    this.#stopCulturaTimer();
+
+    if (trackFails) {
+      audioFx.tap();
+      const adapter = getModeAdapter('cultura-chupistica');
+      adapter?.openFailModal(session);
+      store.setState({
+        localGame: {
+          ...state.localGame,
+          session
+        }
+      });
+    } else {
+      this.#advanceCulturaNoFails(session);
+    }
+  }
+
+  #advanceCulturaNoFails(session) {
+    if (!session) return;
+    const state = store.getState();
+    audioFx.god();
+    visualFx.triggerLensFlare?.(DESIGN_TOKENS.shotMint);
+    stage3d.pulse(0x47e9d2);
+    const adapter = getModeAdapter('cultura-chupistica');
+    adapter?.advanceToNextRound(session, state.localPlayers);
+    if (session.roundState === 'game_over') {
+      audioFx.partyBurst();
+      visualFx.triggerConfetti('party');
+    } else {
+      this.#resetCulturaTimer();
+      this.#startCulturaTimerIfNeeded(session);
+    }
+    store.setState({
+      localGame: {
+        ...state.localGame,
+        session
+      }
+    });
+  }
+
   #clearPreloaderTimers() {
     while (this.preloaderTimers.length) {
       clearTimeout(this.preloaderTimers.pop());
@@ -670,6 +714,14 @@ export class AppShell {
     const card = vm?.card || null;
     const animKey = `${vm?.turnNumber || 0}-${card?.id || ''}`;
     const isDiceBlocked = Boolean(vm?.isDiceCard && !this.diceRolledForCardKey[animKey]);
+
+    if (state.activeGameModeId === 'cultura-chupistica') {
+      if (e.key === 'ArrowRight' || e.key === 'ArrowLeft' || (e.key === ' ' && document.activeElement?.tagName !== 'BUTTON')) {
+        e.preventDefault();
+        this.#handleCulturaCardSwipe(state.localGame?.session);
+        return;
+      }
+    }
 
     if (e.key === 'ArrowRight' || (e.key === ' ' && document.activeElement?.tagName !== 'BUTTON')) {
       e.preventDefault();
@@ -3519,8 +3571,11 @@ export class AppShell {
             </div>
 
             <div class="cultura-fail-modal-actions">
-              <button class="btn btn-secondary" data-action="cultura-cancel-fail" type="button" style="width: 100%;">
-                <span>${escapeHtml(t('cancelBtn', lang))}</span>
+              <button class="btn btn-primary btn-cultura-none-failed" data-action="cultura-pass-none" type="button">
+                <span>${escapeHtml(t('culturaNoneFailedBtn', lang))}</span>
+              </button>
+              <button class="btn btn-ghost btn-cultura-cancel" data-action="cultura-cancel-fail" type="button">
+                <span>${escapeHtml(t('culturaContinueTopicBtn', lang))}</span>
               </button>
             </div>
           </div>
@@ -3570,6 +3625,7 @@ export class AppShell {
 
     return `
       <section class="play-stage cultura-play-stage">
+        <div id="swipe-vignette-overlay" class="swipe-vignette-overlay" aria-hidden="true"></div>
         <div class="play-hud cultura-hud">
           <div class="play-progress-row">
             <span class="count-pill">${escapeHtml(t('roundLabel', lang))} ${vm.currentTurn}/${vm.targetTurns}</span>
@@ -3597,38 +3653,45 @@ export class AppShell {
           </div>
         </div>
 
-        <div class="deck-stage-center cultura-deck-stage">
-          <div class="cultura-card">
-            <div class="cultura-card-glow" aria-hidden="true"></div>
-            <div class="cultura-card-header">
-              <span class="cultura-cat-badge">${escapeHtml((vm.categoria || 'clasico').toUpperCase())}</span>
-              <span class="cultura-lvl-badge">${escapeHtml(t('levelLabel', lang))} ${vm.intensidad}</span>
-            </div>
+        <div class="deck-stage-center">
+          <div class="swipe-card-stage">
+            <div
+              class="swipe-card is-light-ink"
+              id="active-swipe-card"
+              data-card-fx="ambient"
+              aria-live="polite"
+              style="--active-card-bg: linear-gradient(155deg, #1b0a33 0%, #301057 50%, #4a157e 100%); --active-card-ink: var(--oms-white); --active-accent: #a855f7;"
+            >
+              <span class="card-specular-glare" aria-hidden="true"></span>
+              <span class="card-holo-rim" aria-hidden="true"></span>
+              <div class="card-header-meta">
+                <div class="card-player-pill">
+                  ${renderAvatarHtml(vm.starterPlayer?.avatarEmoji, 'avatar-img avatar-mini-img', '')}
+                  <span class="card-player-name">${escapeHtml(vm.starterPlayer?.name)}</span>
+                  <span class="cultura-turn-dir">↻</span>
+                </div>
+                <div class="card-header-badges">
+                  <span class="card-type-badge">${escapeHtml((vm.categoria || 'clasico').toUpperCase())}</span>
+                  <span class="card-lvl-badge">${escapeHtml(t('levelLabel', lang))} ${cardLevel}</span>
+                </div>
+              </div>
 
-            <div class="cultura-card-body">
-              <p class="cultura-ritual-prefix">${escapeHtml(vm.ritualPrefix)}</p>
-              <h1 class="cultura-topic-title">${escapeHtml(vm.tema)}</h1>
-              <p class="cultura-ritual-connector">${escapeHtml(vm.ritualConnector)}</p>
-            </div>
-
-            <div class="cultura-card-footer-actions">
-              <button type="button" class="btn btn-cultura-pass" data-action="cultura-pass-turn">
-                <span class="cultura-btn-icon">👉</span>
-                <span class="cultura-btn-text">${escapeHtml(t('culturaPassBtn', lang))}</span>
-              </button>
-
-              ${vm.trackFails ? `
-              <button type="button" class="btn btn-cultura-fail" data-action="cultura-open-fail-modal">
-                <span class="cultura-btn-icon">💥</span>
-                <span class="cultura-btn-text">${escapeHtml(t('culturaFailBtn', lang))}</span>
-              </button>
-              ` : `
-              <button type="button" class="btn btn-secondary cultura-next-btn" data-action="cultura-next-round">
-                <span>${escapeHtml(t('culturaNextRoundBtn', lang))}</span>
-              </button>
-              `}
+              <div class="card-body-fit">
+                <div class="card-decor-emoji" aria-hidden="true">${modeInfo.iconImg ? renderUiIconHtml(modeInfo.iconImg, 'ui-icon-card') : '🍻'}</div>
+                <div class="card-prompt-fit">
+                  <div class="card-prompt-text cultura-prompt-text">
+                    <span class="cultura-ritual-prefix">${escapeHtml(vm.ritualPrefix)}</span>
+                    <h2 class="cultura-topic-title">${escapeHtml(vm.tema)}</h2>
+                    <span class="cultura-ritual-connector">${escapeHtml(vm.ritualConnector)}</span>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
+        </div>
+
+        <div class="play-footer-hint">
+          <div class="swipe-helper-text">${escapeHtml(t('culturaSwipeHint', lang))}</div>
         </div>
 
         ${failModalHtml}
@@ -4241,7 +4304,8 @@ export class AppShell {
     );
 
     if (state.screen === 'play') {
-      if (state.activeGameModeId === 'cultura-chupistica') {
+      const isCultura = state.activeGameModeId === 'cultura-chupistica';
+      if (isCultura) {
         const session = state.localGame?.session;
         document.documentElement.style.setProperty('--active-accent', '#a855f7');
         audioFx.setMusicMood('play');
@@ -4252,7 +4316,6 @@ export class AppShell {
         } else {
           this.#stopCulturaTimer();
         }
-        return;
       }
 
       if (state.localGame?.finished) {
@@ -4263,16 +4326,18 @@ export class AppShell {
       const vm = adapter?.buildTurnViewModel?.(state.localGame?.session, state.localPlayers);
       const cardEl = document.querySelector('#active-swipe-card');
       const card = vm?.card || null;
-      const animKey = `${vm?.turnNumber || 0}-${card?.id || ''}`;
+      const animKey = `${vm?.turnNumber || vm?.currentTurn || 0}-${card?.id || ''}`;
       const fxMode = vm?.fxMode || 'ambient';
       const specialFxMeta = SPECIAL_CARD_FX[fxMode] || null;
-      const accent = specialFxMeta?.accent || vm?.typeMeta?.color || DESIGN_TOKENS.chaosPurple;
+      const accent = isCultura ? '#a855f7' : (specialFxMeta?.accent || vm?.typeMeta?.color || DESIGN_TOKENS.chaosPurple);
 
       document.documentElement.style.setProperty('--active-accent', accent);
       stage3d.setSpecialFx(fxMode, specialFxMeta?.hex ?? vm?.typeMeta?.hex ?? 0x754ac1);
       visualFx.syncGameFxState(true, fxMode);
       const isHotCard = fxMode === 'hot' || card?.tipo === 'hot' || card?.category === 'hot';
-      audioFx.setMusicMood(isHotCard ? 'hot' : 'play');
+      if (!isCultura) {
+        audioFx.setMusicMood(isHotCard ? 'hot' : 'play');
+      }
       this.#fitActiveCardPrompt(cardEl);
 
       if (cardEl && animKey !== this.lastAnimatedCardKey) {
@@ -4296,37 +4361,48 @@ export class AppShell {
         !this.settingsModalOpen &&
         !this.creditsModalOpen
       ) {
-        const isDiceBlocked = Boolean(vm.isDiceCard && !this.diceRolledForCardKey[animKey]);
-        this.detachSwipe = attachCardSwipe(cardEl, {
-          canSwipeLeft: isDiceBlocked
-            ? false
-            : vm.isEventActivation
-              ? Boolean(vm.canComplete)
-              : Boolean(vm.canSkip),
-          canSwipeRight: isDiceBlocked ? false : Boolean(vm.canComplete),
-          onBlockedSwipe: (direction) => {
-            if (isDiceBlocked) {
-              audioFx.tap();
-              visualFx.showToast('¡Debes lanzar el dado primero! 🎲');
-              return;
-            }
-            this.#notifyBlockedTurn(vm, direction);
-          },
-          onDragProgress: (info) => this.#onCardDragProgress(info, vm),
-          onDragEnd: () => this.#onCardDragEnd(),
-          onSwipeLeft: () =>
-            this.#advanceCard({
-              skipped: !vm.isEventActivation,
-              fromSwipe: true,
-              feedbackType: vm.isEventActivation ? 'god' : 'bad'
-            }),
-          onSwipeRight: () =>
-            this.#advanceCard({
-              skipped: false,
-              fromSwipe: true,
-              feedbackType: 'god'
-            })
-        });
+        if (isCultura) {
+          this.detachSwipe = attachCardSwipe(cardEl, {
+            canSwipeLeft: true,
+            canSwipeRight: true,
+            onDragProgress: (info) => this.#onCardDragProgress(info, vm),
+            onDragEnd: () => this.#onCardDragEnd(),
+            onSwipeLeft: () => this.#handleCulturaCardSwipe(state.localGame?.session),
+            onSwipeRight: () => this.#handleCulturaCardSwipe(state.localGame?.session)
+          });
+        } else {
+          const isDiceBlocked = Boolean(vm.isDiceCard && !this.diceRolledForCardKey[animKey]);
+          this.detachSwipe = attachCardSwipe(cardEl, {
+            canSwipeLeft: isDiceBlocked
+              ? false
+              : vm.isEventActivation
+                ? Boolean(vm.canComplete)
+                : Boolean(vm.canSkip),
+            canSwipeRight: isDiceBlocked ? false : Boolean(vm.canComplete),
+            onBlockedSwipe: (direction) => {
+              if (isDiceBlocked) {
+                audioFx.tap();
+                visualFx.showToast('¡Debes lanzar el dado primero! 🎲');
+                return;
+              }
+              this.#notifyBlockedTurn(vm, direction);
+            },
+            onDragProgress: (info) => this.#onCardDragProgress(info, vm),
+            onDragEnd: () => this.#onCardDragEnd(),
+            onSwipeLeft: () =>
+              this.#advanceCard({
+                skipped: !vm.isEventActivation,
+                fromSwipe: true,
+                feedbackType: vm.isEventActivation ? 'god' : 'bad'
+              }),
+            onSwipeRight: () =>
+              this.#advanceCard({
+                skipped: false,
+                fromSwipe: true,
+                feedbackType: 'god'
+              })
+          });
+        }
       }
     } else {
       this.lastAnimatedCardKey = '';
@@ -5399,21 +5475,10 @@ export class AppShell {
       return;
     }
 
-    if (action === 'cultura-pass-turn') {
+    if (action === 'cultura-pass-none') {
       const session = state.localGame?.session;
       if (!session) return;
-      audioFx.tap();
-      const players = state.localPlayers;
-      if (players && players.length > 0) {
-        session.activeStarterIdx = ((session.activeStarterIdx ?? 0) + 1) % players.length;
-      }
-      this.#resetCulturaTimer();
-      store.setState({
-        localGame: {
-          ...state.localGame,
-          session
-        }
-      });
+      this.#advanceCulturaNoFails(session);
       return;
     }
 
