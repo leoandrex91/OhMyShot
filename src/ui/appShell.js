@@ -1593,25 +1593,25 @@ export class AppShell {
           <div class="home-changelog-releases">
             <div class="home-changelog-item">
               <div class="home-changelog-item-head">
-                <span class="changelog-version-tag changelog-version-tag-latest">v0.8.0</span>
+                <span class="changelog-version-tag changelog-version-tag-latest">v0.8.1</span>
+                <strong class="changelog-version-title">${escapeHtml(t('homeChangelogV081Title', lang))}</strong>
+              </div>
+              <ul class="home-changelog-list">
+                <li>${escapeHtml(t('homeChangelogV081Item1', lang))}</li>
+                <li>${escapeHtml(t('homeChangelogV081Item2', lang))}</li>
+                <li>${escapeHtml(t('homeChangelogV081Item3', lang))}</li>
+              </ul>
+            </div>
+
+            <div class="home-changelog-item">
+              <div class="home-changelog-item-head">
+                <span class="changelog-version-tag">v0.8.0</span>
                 <strong class="changelog-version-title">${escapeHtml(t('homeChangelogV080Title', lang))}</strong>
               </div>
               <ul class="home-changelog-list">
                 <li>${escapeHtml(t('homeChangelogV080Item1', lang))}</li>
                 <li>${escapeHtml(t('homeChangelogV080Item2', lang))}</li>
                 <li>${escapeHtml(t('homeChangelogV080Item3', lang))}</li>
-              </ul>
-            </div>
-
-            <div class="home-changelog-item">
-              <div class="home-changelog-item-head">
-                <span class="changelog-version-tag">v0.7.01</span>
-                <strong class="changelog-version-title">${escapeHtml(t('homeChangelogV0701Title', lang))}</strong>
-              </div>
-              <ul class="home-changelog-list">
-                <li>${escapeHtml(t('homeChangelogV0701Item1', lang))}</li>
-                <li>${escapeHtml(t('homeChangelogV0701Item2', lang))}</li>
-                <li>${escapeHtml(t('homeChangelogV0701Item3', lang))}</li>
               </ul>
             </div>
           </div>

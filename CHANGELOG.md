@@ -6,29 +6,73 @@ El formato se basa en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/
 
 ---
 
+## [0.8.1] - 2026-11-16
+
+### Añadido
+- **Consolidación de Arquitectura a 3 Idiomas Canónicos**:
+  - Simplificación radical del sistema de idiomas eliminando variantes regionales fragmentadas (`es-CO`, `es-ES`, `es-MX`, `en-US`, `en-GB`, `pt-BR`, `pt-PT`) en favor de 3 idiomas universales puros: **Español (`es`)**, **Inglés (`en`)** y **Portugués (`pt`)**.
+  - Catálogo consolidado de **19.134 cartas activas**, con exactamente 6.378 cartas por idioma a través de 11 categorías (`clasico`, `duelo`, `yo-nunca`, `quien-es-mas-probable`, `verdad`, `reto`, `retos-especiales`, `eventos-especiales`, `hot`, `bonus`, `cultura-chupistica`).
+  - Menú de selección y cambio en tiempo real de idioma en ajustes con banderas oficiales (🇪🇸 Español, 🇺🇸 English, 🇧🇷 Português).
+- **Estandarización de Identificadores de Cartas (Card IDs)**:
+  - Nueva nomenclatura con prefijo único por categoría y contadores secuenciales reiniciados desde 1 para cada mazo:
+    - Clásico: `cla_1` ... `cla_N`
+    - Duelo: `due_1` ... `due_N`
+    - Yo Nunca: `yon_1` ... `yon_N`
+    - Quién es Más Probable: `qmp_1` ... `qmp_N`
+    - Verdad: `ver_1` ... `ver_N`
+    - Reto: `ret_1` ... `ret_N`
+    - Retos Especiales: `res_1` ... `res_N`
+    - Eventos Especiales: `eve_1` ... `eve_N`
+    - Hot: `hot_1` ... `hot_N`
+    - Bonus: `bon_1` ... `bon_N`
+    - Cultura Chupística: `chup_1` ... `chup_N`
+  - Adaptación total del motor de juego y de todos los adaptadores (`previa-mix`, `verdad-o-reto`, `yo-nunca`, `quien`, `cultura-chupistica`) para procesar los nuevos IDs de manera consistente.
+- **Loaders Asíncronos Reales en Pantalla & Precarga Proactiva**:
+  - Implementación de loaders visuales reales (`#showScreenLoader` / `#hideScreenLoader`) con anillo de neón giratorio, logotipo pulsante y mensajes contextuales ("Barajando cartas y preparando mesa...").
+  - Al pulsar *"Comenzar partida"*, la interfaz muestra de inmediato el loader visual mientras espera de forma asíncrona real (`await`) la compilación del mazo, eliminando por completo la congelación percibida en celulares antes de la cuenta 3, 2, 1, GO.
+  - Precarga de cartas en segundo plano durante la pantalla de bienvenida y en el selector de modo de juego para una transición instantánea.
+
+### Corregido
+- **Modo Cultura Chupística - Pulido Integral de UX y Renderizado**:
+  - Se corrigió el problema visual donde las cartas intermedias no renderizaban el contenido temático.
+  - Se retiró el botón estático de pasar en favor del gesto universal de deslizamiento (*swipe*) a cualquier dirección para mantener la consistencia con los demás modos.
+  - Al deslizar la carta, se abre de inmediato el selector de jugador para registrar quién falló, incluyendo un botón destacado **"Ninguno"** para avanzar de carta limpiamente sin asignar fallos.
+  - Se ampliaron las opciones de temporizador de turno: **Tiempo Libre / Infinito** (por defecto), **5 seg**, **10 seg**, **15 seg** y **Personalizado (1 a 60 seg)**.
+  - Se corrigieron los desbordamientos visuales de botones y campos en el menú de configuración de Cultura Chupística.
+- **Resolución de Error 404 de Carga Inicial**:
+  - Eliminada la importación residual de `editor.storage.js` en `src/modes/previa-mix/adapter.js` que impedía el arranque en navegadores.
+
+### Limpieza y Optimización
+- **Eliminación Masiva de Archivos Huérfanos y Código Obsoleto**:
+  - Eliminación de 121 archivos huérfanos y más de 408.000 líneas de código en desuso:
+    - 7 carpetas de dialectos regionales en `src/cards/`.
+    - 28 archivos puente y catálogos obsoletos (`bonus.*.js`, `cards.*.js`, etc.).
+    - 14 archivos no utilizados en `src/modes/previa-mix/locales/`.
+    - Carpeta y controladores del prototipo de editor (`src/modes/editor/`).
+    - Archivos del motor en desuso (`src/engine/`).
+  - Actualización del Service Worker (`sw.js`) a la versión `oh-my-shot-v0.8.1` con catálogo limpio de assets locales.
+
+---
+
 ## [0.8.0] - 2026-11-15
 
 ### Añadido
 - **Nuevo Modo Oficial "Cultura Chupística"**:
   - Implementación completa del modo de juego tradicional de rondas por categorías para fiestas y previas.
-  - Generación de **14.000 cartas temáticas únicas** (exactamente 2.000 cartas distribuidas en 10 niveles de intensidad por país/idioma en `es-CO`, `es-MX`, `es-ES`, `en-US`, `en-GB`, `pt-BR` y `pt-PT`).
+  - Generación de **2.128 cartas temáticas curadas** distribuidas en 10 niveles de intensidad por idioma (`es`, `en`, `pt`).
   - **Cero ejemplos en cartas**: Los temas se presentan 100% limpios sin revelar respuestas spoiler.
-  - **Cantos rituales localizados dinámicamente**:
-    - Colombia y Latinoamérica (`es-CO`): *"Cultura Chupística de [Categoría], como por ejemplo:"*
-    - México (`es-MX`): *"Caricachupas presenta: [Categoría], como por ejemplo:"*
-    - España (`es-ES`): *"Cultura Chupística de [Categoría], como por ejemplo:"*
-    - Estados Unidos y Reino Unido (`en-US`, `en-GB`): *"Categories of [Category], such as:"*
-    - Brasil y Portugal (`pt-BR`, `pt-PT`): *"Cultura Chupística / Cultura do Gole de [Categoria], como por exemplo:"*
-  - **Temporizador configurable**:
-    - Opción de tiempo infinito / libre (por defecto) para mantener el compás natural con palmadas entre amigos.
-    - Opciones de temporizador de turno con cuenta atrás de 4s (Descontrol), 6s (Normal) y 8s (Tranqui).
+  - **Cantos rituales adaptados por idioma**:
+    - Español (`es`): *"Cultura Chupística de [Categoría], como por ejemplo:"*
+    - Inglés (`en`): *"Categories of [Category], such as:"*
+    - Portugués (`pt`): *"Cultura Chupística de [Categoria], como por exemplo:"*
+  - **Temporizador de turnos flexible**:
+    - Opción de tiempo libre / infinito (por defecto) o intervalos configurables con cuenta atrás y alerta sonora.
   - **Sistema de seguimiento de fallos y puntos**:
-    - Botón táctil gigante *"¡Pasa! 👉"* para avanzar el turno por el círculo de jugadores.
-    - Botón táctil *"💥 ¡Alguien Falló!"* que despliega un modal selector de jugador para registrar quién repitió, dudó o se equivocó.
+    - Deslizamiento táctil multidireccional idéntico a todos los modos para pasar de carta o registrar fallos.
     - Asignación de castigos dinámicos respetando la preferencia del jugador (con o sin alcohol).
-    - **Podio y Marcador Final**: Pantalla de fin de partida que corona a la *"🏆 Mente Rápida"* (menos fallos) y al *"🍻 El Más Prendido / Rey del Shot"* (más fallos), con tabla de posiciones completa.
+    - **Podio y Marcador Final**: Pantalla de fin de partida que corona a la *"🏆 Mente Rápida"* (menos fallos) y al *"🍻 Rey del Shot"* (más fallos), con tabla de posiciones completa.
   - Selector de rondas objetivo (10 a 100 temas) y configuración en el modal de ajustes de modo.
-  - Soporte completo en Service Worker (`v0.8.0`) y precarga offline de todos los catálogos.
+  - Soporte completo en Service Worker y funcionamiento 100% offline.
 
 ---
 
