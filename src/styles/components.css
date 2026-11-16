@@ -9086,23 +9086,58 @@ body.is-card-swiping .bg-video-wrap {
    ========================================================================== */
 
 .cultura-play-stage {
+  position: relative;
+  overflow: visible;
+  flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: center;
-  min-height: calc(100vh - 120px);
+  align-items: stretch !important;
+  min-height: 0;
   width: 100%;
   padding: 8px 14px 20px;
   box-sizing: border-box;
-  gap: 12px;
+  gap: 8px;
 }
 
-.cultura-hud {
+.cultura-play-stage .cultura-hud {
   width: 100%;
-  max-width: 480px;
+  max-width: 430px;
+  margin: 0 auto;
+}
+
+.cultura-play-stage .deck-stage-center {
+  width: 100% !important;
+  max-width: 430px !important;
+  margin: 0 auto !important;
+  flex: 1;
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  min-height: 0;
+}
+
+.cultura-play-stage .swipe-card-stage {
+  width: 100% !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cultura-play-stage .swipe-card {
+  width: min(100%, 430px, calc(var(--card-max-h) * 5 / 6)) !important;
+  aspect-ratio: 5 / 6 !important;
+  height: auto !important;
+  min-height: 0 !important;
+}
+
+.cultura-play-stage .play-footer-hint {
+  width: 100%;
+  max-width: 430px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
 }
 
 .cultura-timer-pill {
