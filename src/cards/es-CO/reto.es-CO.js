@@ -6,7 +6,7 @@
 
 export const retoCards = [
   {
-    "id": 2651,
+    "id": "ret_1",
     "intensidad": 1,
     "tipo": "reto",
     "texto": "[player] Nombra 3 ejemplos de animales en 15 segundos.",
@@ -16,7 +16,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2652,
+    "id": "ret_2",
     "intensidad": 1,
     "tipo": "reto",
     "texto": "[player] Di 3 palabras relacionadas con la amistad sin repetir.",
@@ -26,7 +26,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2653,
+    "id": "ret_3",
     "intensidad": 1,
     "tipo": "reto",
     "texto": "[player] Convence al grupo de que 'una servilleta' es indispensable y menciona 3 razones.",
@@ -36,7 +36,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2654,
+    "id": "ret_4",
     "intensidad": 1,
     "tipo": "reto",
     "texto": "[player] Repite 'tres tristes tigres' 2 veces sin equivocarte.",
@@ -46,7 +46,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2655,
+    "id": "ret_5",
     "intensidad": 1,
     "tipo": "reto",
     "texto": "[player] Deletrea 'sol' al revés sin pausas.",
@@ -56,7 +56,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2656,
+    "id": "ret_6",
     "intensidad": 1,
     "tipo": "reto",
     "texto": "[player] Cuenta hacia atrás desde 35 omitiendo múltiplos de 3.",
@@ -66,7 +66,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2657,
+    "id": "ret_7",
     "intensidad": 1,
     "tipo": "reto",
     "texto": "[player] Resuelve mentalmente 28 + 16 - 4.",
@@ -76,7 +76,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2658,
+    "id": "ret_8",
     "intensidad": 1,
     "tipo": "reto",
     "texto": "[player] Imita a un presentador de noticias durante 19 segundos.",
@@ -86,7 +86,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2659,
+    "id": "ret_9",
     "intensidad": 1,
     "tipo": "reto",
     "texto": "[player] Representa en silencio la situación 'llegar tarde a una reunión' hasta que la adivinen.",
@@ -96,7 +96,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2660,
+    "id": "ret_10",
     "intensidad": 1,
     "tipo": "reto",
     "texto": "[player] Representa 'llegar tarde a una reunión' usando solo sonidos.",
@@ -106,7 +106,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2661,
+    "id": "ret_11",
     "intensidad": 1,
     "tipo": "reto",
     "texto": "[player] Vende una servilleta como si costara una fortuna.",
@@ -116,7 +116,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2662,
+    "id": "ret_12",
     "intensidad": 1,
     "tipo": "reto",
     "texto": "[player] Crea un eslogan para una servilleta.",
@@ -126,7 +126,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2663,
+    "id": "ret_13",
     "intensidad": 1,
     "tipo": "reto",
     "texto": "[player] Haz un brindis de dos frases sobre la amistad.",
@@ -136,7 +136,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2664,
+    "id": "ret_14",
     "intensidad": 1,
     "tipo": "reto",
     "texto": "[player] Defiende durante 23 segundos una opinión impopular sobre la amistad.",
@@ -146,7 +146,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2665,
+    "id": "ret_15",
     "intensidad": 1,
     "tipo": "reto",
     "texto": "[player] Inventa una historia de 6 frases sobre llegar tarde a una reunión.",
@@ -156,7 +156,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2666,
+    "id": "ret_16",
     "intensidad": 1,
     "tipo": "reto",
     "texto": "[player] Compón cuatro versos que incluyan 'sol'.",
@@ -166,7 +166,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2667,
+    "id": "ret_17",
     "intensidad": 1,
     "tipo": "reto",
     "texto": "[player] Improvisa cuatro líneas de rap sobre la amistad.",
@@ -176,7 +176,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2668,
+    "id": "ret_18",
     "intensidad": 1,
     "tipo": "reto",
     "texto": "[player] Canta un coro conocido al estilo robot.",
@@ -186,7 +186,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2669,
+    "id": "ret_19",
     "intensidad": 1,
     "tipo": "reto",
     "texto": "[player] Baila al estilo robot durante 18 segundos.",
@@ -196,7 +196,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2670,
+    "id": "ret_20",
     "intensidad": 1,
     "tipo": "reto",
     "texto": "[player] Haz una caminata de pasarela llevando una servilleta como accesorio.",
@@ -206,7 +206,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2671,
+    "id": "ret_21",
     "intensidad": 1,
     "tipo": "reto",
     "texto": "[player] Mantén una pose dramática durante 17 segundos sin reír.",
@@ -216,7 +216,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2672,
+    "id": "ret_22",
     "intensidad": 1,
     "tipo": "reto",
     "texto": "[player] Haz reír al grupo en menos de 17 segundos sin tocar a nadie.",
@@ -226,7 +226,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2673,
+    "id": "ret_23",
     "intensidad": 1,
     "tipo": "reto",
     "texto": "[player] Habla como presentador de noticias hasta tu próximo turno.",
@@ -236,7 +236,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2674,
+    "id": "ret_24",
     "intensidad": 1,
     "tipo": "reto",
     "texto": "[player] No digas 'sí' hasta tu próximo turno.",
@@ -246,7 +246,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2675,
+    "id": "ret_25",
     "intensidad": 1,
     "tipo": "reto",
     "texto": "[player] Crea una regla de fiesta válida hasta tu próximo turno.",
@@ -256,7 +256,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2676,
+    "id": "ret_26",
     "intensidad": 1,
     "tipo": "reto",
     "texto": "[player] Pide tres palabras al grupo e improvisa una historia con ellas.",
@@ -266,7 +266,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2677,
+    "id": "ret_27",
     "intensidad": 1,
     "tipo": "reto",
     "texto": "[player] Da un discurso de premio por ser experto en la amistad.",
@@ -276,7 +276,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2678,
+    "id": "ret_28",
     "intensidad": 1,
     "tipo": "reto",
     "texto": "[player] Improvisa una disculpa convincente por haber causado esta situación: 'llegar tarde a una reunión'.",
@@ -286,7 +286,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2679,
+    "id": "ret_29",
     "intensidad": 1,
     "tipo": "reto",
     "texto": "[player] Da un consejo serio sobre la amistad actuando como presentador de noticias.",
@@ -296,7 +296,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2680,
+    "id": "ret_30",
     "intensidad": 1,
     "tipo": "reto",
     "texto": "[player] Cuenta una anécdota sobre una canción que te anima sin usar 'yo'.",
@@ -306,7 +306,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2681,
+    "id": "ret_31",
     "intensidad": 1,
     "tipo": "reto",
     "texto": "[player] Cuenta dos verdades y una mentira sobre una canción que te anima; el grupo adivina la mentira.",
@@ -316,7 +316,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2682,
+    "id": "ret_32",
     "intensidad": 1,
     "tipo": "reto",
     "texto": "[player] Responde en cinco segundos una pregunta del grupo sobre la amistad.",
@@ -326,7 +326,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2683,
+    "id": "ret_33",
     "intensidad": 1,
     "tipo": "reto",
     "texto": "[player] Dedica un cumplido diferente a 3 personas.",
@@ -336,7 +336,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2684,
+    "id": "ret_34",
     "intensidad": 1,
     "tipo": "reto",
     "texto": "[player] Imita a una persona del grupo hasta que la adivinen.",
@@ -346,7 +346,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2685,
+    "id": "ret_35",
     "intensidad": 1,
     "tipo": "reto",
     "texto": "[player] Imita a una celebridad elegida por el grupo.",
@@ -356,7 +356,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2686,
+    "id": "ret_36",
     "intensidad": 1,
     "tipo": "reto",
     "texto": "[player] Haz una actuación en cámara lenta de llegar tarde a una reunión.",
@@ -366,7 +366,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2687,
+    "id": "ret_37",
     "intensidad": 1,
     "tipo": "reto",
     "texto": "[player] Crea una secuencia de 5 palmadas y repítela.",
@@ -376,7 +376,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2688,
+    "id": "ret_38",
     "intensidad": 1,
     "tipo": "reto",
     "texto": "[player] Di los meses al revés antes de que cuenten hasta 21.",
@@ -386,7 +386,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2689,
+    "id": "ret_39",
     "intensidad": 1,
     "tipo": "reto",
     "texto": "[player] Recita el alfabeto omitiendo cada tercera letra.",
@@ -396,7 +396,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2690,
+    "id": "ret_40",
     "intensidad": 1,
     "tipo": "reto",
     "texto": "[player] Nombra 3 errores que podrían empeorar esta situación: 'llegar tarde a una reunión'.",
@@ -406,7 +406,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2691,
+    "id": "ret_41",
     "intensidad": 1,
     "tipo": "reto",
     "texto": "[player] Explica la amistad como si hablaras con un extraterrestre.",
@@ -416,7 +416,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2692,
+    "id": "ret_42",
     "intensidad": 1,
     "tipo": "reto",
     "texto": "[player] Convierte llegar tarde a una reunión en un titular de noticias.",
@@ -426,7 +426,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2693,
+    "id": "ret_43",
     "intensidad": 1,
     "tipo": "reto",
     "texto": "[player] Haz una pose distinta por cada letra de 'sol'.",
@@ -436,7 +436,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2694,
+    "id": "ret_44",
     "intensidad": 1,
     "tipo": "reto",
     "texto": "[player] Describe una servilleta sin decir su nombre hasta que lo adivinen.",
@@ -446,7 +446,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2695,
+    "id": "ret_45",
     "intensidad": 1,
     "tipo": "reto",
     "texto": "[player] Inventa el nombre y la receta de una bebida inspirada en la amistad.",
@@ -456,7 +456,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2696,
+    "id": "ret_46",
     "intensidad": 1,
     "tipo": "reto",
     "texto": "[player] Representa con una reacción dramática esta situación: 'llegar tarde a una reunión'.",
@@ -466,7 +466,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2697,
+    "id": "ret_47",
     "intensidad": 1,
     "tipo": "reto",
     "texto": "[player] Deja que el grupo elija una emoción y cuenta llegar tarde a una reunión expresándola.",
@@ -476,7 +476,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2698,
+    "id": "ret_48",
     "intensidad": 1,
     "tipo": "reto",
     "texto": "[player] Convence al grupo de que eres la mejor persona para resolver la amistad.",
@@ -486,7 +486,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2699,
+    "id": "ret_49",
     "intensidad": 1,
     "tipo": "reto",
     "texto": "[player] Combina una frase de presentador de noticias, un paso de robot y una pose dramática.",
@@ -496,7 +496,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2700,
+    "id": "ret_50",
     "intensidad": 1,
     "tipo": "reto",
     "texto": "[player] Confiesa una canción que te anima o representa durante 19 segundos cómo evitarías responder.",
@@ -506,7 +506,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2701,
+    "id": "ret_51",
     "intensidad": 2,
     "tipo": "reto",
     "texto": "[player] Nombra 4 ejemplos de países en 14 segundos.",
@@ -516,7 +516,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2702,
+    "id": "ret_52",
     "intensidad": 2,
     "tipo": "reto",
     "texto": "[player] Di 4 palabras relacionadas con las buenas decisiones sin repetir.",
@@ -526,7 +526,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2703,
+    "id": "ret_53",
     "intensidad": 2,
     "tipo": "reto",
     "texto": "[player] Convence al grupo de que 'un vaso vacío' es indispensable y menciona 4 razones.",
@@ -536,7 +536,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2704,
+    "id": "ret_54",
     "intensidad": 2,
     "tipo": "reto",
     "texto": "[player] Repite 'Pablito clavó un clavito' 2 veces sin equivocarte.",
@@ -546,7 +546,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2705,
+    "id": "ret_55",
     "intensidad": 2,
     "tipo": "reto",
     "texto": "[player] Deletrea 'casa' al revés sin pausas.",
@@ -556,7 +556,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2706,
+    "id": "ret_56",
     "intensidad": 2,
     "tipo": "reto",
     "texto": "[player] Cuenta hacia atrás desde 40 omitiendo múltiplos de 4.",
@@ -566,7 +566,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2707,
+    "id": "ret_57",
     "intensidad": 2,
     "tipo": "reto",
     "texto": "[player] Resuelve mentalmente 39 + 23 - 5.",
@@ -576,7 +576,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2708,
+    "id": "ret_58",
     "intensidad": 2,
     "tipo": "reto",
     "texto": "[player] Imita a un presentador de concursos durante 18 segundos.",
@@ -586,7 +586,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2709,
+    "id": "ret_59",
     "intensidad": 2,
     "tipo": "reto",
     "texto": "[player] Representa en silencio la situación 'perder el autobús' hasta que la adivinen.",
@@ -596,7 +596,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2710,
+    "id": "ret_60",
     "intensidad": 2,
     "tipo": "reto",
     "texto": "[player] Representa 'perder el autobús' usando solo sonidos.",
@@ -606,7 +606,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2711,
+    "id": "ret_61",
     "intensidad": 2,
     "tipo": "reto",
     "texto": "[player] Vende un vaso vacío como si costara una fortuna.",
@@ -616,7 +616,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2712,
+    "id": "ret_62",
     "intensidad": 2,
     "tipo": "reto",
     "texto": "[player] Crea un eslogan para un vaso vacío.",
@@ -626,7 +626,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2713,
+    "id": "ret_63",
     "intensidad": 2,
     "tipo": "reto",
     "texto": "[player] Haz un brindis de dos frases sobre las buenas decisiones.",
@@ -636,7 +636,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2714,
+    "id": "ret_64",
     "intensidad": 2,
     "tipo": "reto",
     "texto": "[player] Defiende durante 22 segundos una opinión impopular sobre las buenas decisiones.",
@@ -646,7 +646,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2715,
+    "id": "ret_65",
     "intensidad": 2,
     "tipo": "reto",
     "texto": "[player] Inventa una historia de 7 frases sobre perder el autobús.",
@@ -656,7 +656,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2716,
+    "id": "ret_66",
     "intensidad": 2,
     "tipo": "reto",
     "texto": "[player] Compón cuatro versos que incluyan 'casa'.",
@@ -666,7 +666,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2717,
+    "id": "ret_67",
     "intensidad": 2,
     "tipo": "reto",
     "texto": "[player] Improvisa cuatro líneas de rap sobre las buenas decisiones.",
@@ -676,7 +676,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2718,
+    "id": "ret_68",
     "intensidad": 2,
     "tipo": "reto",
     "texto": "[player] Canta un coro conocido al estilo cámara lenta.",
@@ -686,7 +686,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2719,
+    "id": "ret_69",
     "intensidad": 2,
     "tipo": "reto",
     "texto": "[player] Baila al estilo cámara lenta durante 17 segundos.",
@@ -696,7 +696,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2720,
+    "id": "ret_70",
     "intensidad": 2,
     "tipo": "reto",
     "texto": "[player] Haz una caminata de pasarela llevando un vaso vacío como accesorio.",
@@ -706,7 +706,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2721,
+    "id": "ret_71",
     "intensidad": 2,
     "tipo": "reto",
     "texto": "[player] Mantén una pose dramática durante 16 segundos sin reír.",
@@ -716,7 +716,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2722,
+    "id": "ret_72",
     "intensidad": 2,
     "tipo": "reto",
     "texto": "[player] Haz reír al grupo en menos de 16 segundos sin tocar a nadie.",
@@ -726,7 +726,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2723,
+    "id": "ret_73",
     "intensidad": 2,
     "tipo": "reto",
     "texto": "[player] Habla como presentador de concursos hasta tu próximo turno.",
@@ -736,7 +736,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2724,
+    "id": "ret_74",
     "intensidad": 2,
     "tipo": "reto",
     "texto": "[player] No digas 'pero' hasta tu próximo turno.",
@@ -746,7 +746,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2725,
+    "id": "ret_75",
     "intensidad": 2,
     "tipo": "reto",
     "texto": "[player] Crea una regla de fiesta válida hasta tu próximo turno y comienza antes de que el grupo cuente hasta 5.",
@@ -756,7 +756,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2726,
+    "id": "ret_76",
     "intensidad": 2,
     "tipo": "reto",
     "texto": "[player] Pide tres palabras al grupo e improvisa una historia con ellas y comienza antes de que el grupo cuente hasta 5.",
@@ -766,7 +766,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2727,
+    "id": "ret_77",
     "intensidad": 2,
     "tipo": "reto",
     "texto": "[player] Da un discurso de premio por ser experto en las buenas decisiones.",
@@ -776,7 +776,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2728,
+    "id": "ret_78",
     "intensidad": 2,
     "tipo": "reto",
     "texto": "[player] Improvisa una disculpa convincente por haber causado esta situación: 'perder el autobús'.",
@@ -786,7 +786,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2729,
+    "id": "ret_79",
     "intensidad": 2,
     "tipo": "reto",
     "texto": "[player] Da un consejo serio sobre las buenas decisiones actuando como presentador de concursos.",
@@ -796,7 +796,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2730,
+    "id": "ret_80",
     "intensidad": 2,
     "tipo": "reto",
     "texto": "[player] Cuenta una anécdota sobre una comida popular que no te gusta sin usar 'yo'.",
@@ -806,7 +806,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2731,
+    "id": "ret_81",
     "intensidad": 2,
     "tipo": "reto",
     "texto": "[player] Cuenta dos verdades y una mentira sobre una comida popular que no te gusta; el grupo adivina la mentira.",
@@ -816,7 +816,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2732,
+    "id": "ret_82",
     "intensidad": 2,
     "tipo": "reto",
     "texto": "[player] Responde en cinco segundos una pregunta del grupo sobre las buenas decisiones.",
@@ -826,7 +826,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2733,
+    "id": "ret_83",
     "intensidad": 2,
     "tipo": "reto",
     "texto": "[player] Dedica un cumplido diferente a 4 personas.",
@@ -836,7 +836,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2734,
+    "id": "ret_84",
     "intensidad": 2,
     "tipo": "reto",
     "texto": "[player] Imita a una persona del grupo hasta que la adivinen y comienza antes de que el grupo cuente hasta 5.",
@@ -846,7 +846,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2735,
+    "id": "ret_85",
     "intensidad": 2,
     "tipo": "reto",
     "texto": "[player] Imita a una celebridad elegida por el grupo y comienza antes de que el grupo cuente hasta 5.",
@@ -856,7 +856,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2736,
+    "id": "ret_86",
     "intensidad": 2,
     "tipo": "reto",
     "texto": "[player] Haz una actuación en cámara lenta de perder el autobús.",
@@ -866,7 +866,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2737,
+    "id": "ret_87",
     "intensidad": 2,
     "tipo": "reto",
     "texto": "[player] Crea una secuencia de 6 palmadas y repítela.",
@@ -876,7 +876,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2738,
+    "id": "ret_88",
     "intensidad": 2,
     "tipo": "reto",
     "texto": "[player] Di los meses al revés antes de que cuenten hasta 20.",
@@ -886,7 +886,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2739,
+    "id": "ret_89",
     "intensidad": 2,
     "tipo": "reto",
     "texto": "[player] Recita el alfabeto omitiendo cada tercera letra y comienza antes de que el grupo cuente hasta 5.",
@@ -896,7 +896,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2740,
+    "id": "ret_90",
     "intensidad": 2,
     "tipo": "reto",
     "texto": "[player] Nombra 4 errores que podrían empeorar esta situación: 'perder el autobús'.",
@@ -906,7 +906,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2741,
+    "id": "ret_91",
     "intensidad": 2,
     "tipo": "reto",
     "texto": "[player] Explica las buenas decisiones como si hablaras con un extraterrestre.",
@@ -916,7 +916,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2742,
+    "id": "ret_92",
     "intensidad": 2,
     "tipo": "reto",
     "texto": "[player] Convierte perder el autobús en un titular de noticias.",
@@ -926,7 +926,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2743,
+    "id": "ret_93",
     "intensidad": 2,
     "tipo": "reto",
     "texto": "[player] Haz una pose distinta por cada letra de 'casa'.",
@@ -936,7 +936,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2744,
+    "id": "ret_94",
     "intensidad": 2,
     "tipo": "reto",
     "texto": "[player] Describe un vaso vacío sin decir su nombre hasta que lo adivinen.",
@@ -946,7 +946,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2745,
+    "id": "ret_95",
     "intensidad": 2,
     "tipo": "reto",
     "texto": "[player] Inventa el nombre y la receta de una bebida inspirada en las buenas decisiones.",
@@ -956,7 +956,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2746,
+    "id": "ret_96",
     "intensidad": 2,
     "tipo": "reto",
     "texto": "[player] Representa con una reacción dramática esta situación: 'perder el autobús'.",
@@ -966,7 +966,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2747,
+    "id": "ret_97",
     "intensidad": 2,
     "tipo": "reto",
     "texto": "[player] Deja que el grupo elija una emoción y cuenta perder el autobús expresándola.",
@@ -976,7 +976,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2748,
+    "id": "ret_98",
     "intensidad": 2,
     "tipo": "reto",
     "texto": "[player] Convence al grupo de que eres la mejor persona para resolver las buenas decisiones.",
@@ -986,7 +986,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2749,
+    "id": "ret_99",
     "intensidad": 2,
     "tipo": "reto",
     "texto": "[player] Combina una frase de presentador de concursos, un paso de cámara lenta y una pose dramática.",
@@ -996,7 +996,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2750,
+    "id": "ret_100",
     "intensidad": 2,
     "tipo": "reto",
     "texto": "[player] Confiesa una comida popular que no te gusta o representa durante 18 segundos cómo evitarías responder.",
@@ -1006,7 +1006,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2751,
+    "id": "ret_101",
     "intensidad": 3,
     "tipo": "reto",
     "texto": "[player] Nombra 5 ejemplos de capitales en 13 segundos.",
@@ -1016,7 +1016,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2752,
+    "id": "ret_102",
     "intensidad": 3,
     "tipo": "reto",
     "texto": "[player] Di 5 palabras relacionadas con una cita desastrosa sin repetir.",
@@ -1026,7 +1026,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2753,
+    "id": "ret_103",
     "intensidad": 3,
     "tipo": "reto",
     "texto": "[player] Convence al grupo de que 'una cuchara' es indispensable y menciona 5 razones.",
@@ -1036,7 +1036,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2754,
+    "id": "ret_104",
     "intensidad": 3,
     "tipo": "reto",
     "texto": "[player] Repite 'compadre, cómprame un coco' 3 veces sin equivocarte.",
@@ -1046,7 +1046,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2755,
+    "id": "ret_105",
     "intensidad": 3,
     "tipo": "reto",
     "texto": "[player] Deletrea 'corazón' al revés sin pausas.",
@@ -1056,7 +1056,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2756,
+    "id": "ret_106",
     "intensidad": 3,
     "tipo": "reto",
     "texto": "[player] Cuenta hacia atrás desde 45 omitiendo múltiplos de 5.",
@@ -1066,7 +1066,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2757,
+    "id": "ret_107",
     "intensidad": 3,
     "tipo": "reto",
     "texto": "[player] Resuelve mentalmente 50 + 30 - 6.",
@@ -1076,7 +1076,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2758,
+    "id": "ret_108",
     "intensidad": 3,
     "tipo": "reto",
     "texto": "[player] Imita a un vendedor de televisión durante 17 segundos.",
@@ -1086,7 +1086,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2759,
+    "id": "ret_109",
     "intensidad": 3,
     "tipo": "reto",
     "texto": "[player] Representa en silencio la situación 'recibir un mensaje inesperado' hasta que la adivinen.",
@@ -1096,7 +1096,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2760,
+    "id": "ret_110",
     "intensidad": 3,
     "tipo": "reto",
     "texto": "[player] Representa 'recibir un mensaje inesperado' usando solo sonidos.",
@@ -1106,7 +1106,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2761,
+    "id": "ret_111",
     "intensidad": 3,
     "tipo": "reto",
     "texto": "[player] Vende una cuchara como si costara una fortuna.",
@@ -1116,7 +1116,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2762,
+    "id": "ret_112",
     "intensidad": 3,
     "tipo": "reto",
     "texto": "[player] Crea un eslogan para una cuchara.",
@@ -1126,7 +1126,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2763,
+    "id": "ret_113",
     "intensidad": 3,
     "tipo": "reto",
     "texto": "[player] Haz un brindis de dos frases sobre una cita desastrosa.",
@@ -1136,7 +1136,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2764,
+    "id": "ret_114",
     "intensidad": 3,
     "tipo": "reto",
     "texto": "[player] Defiende durante 21 segundos una opinión impopular sobre una cita desastrosa.",
@@ -1146,7 +1146,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2765,
+    "id": "ret_115",
     "intensidad": 3,
     "tipo": "reto",
     "texto": "[player] Inventa una historia de 8 frases sobre recibir un mensaje inesperado.",
@@ -1156,7 +1156,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2766,
+    "id": "ret_116",
     "intensidad": 3,
     "tipo": "reto",
     "texto": "[player] Compón cuatro versos que incluyan 'corazón'.",
@@ -1166,7 +1166,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2767,
+    "id": "ret_117",
     "intensidad": 3,
     "tipo": "reto",
     "texto": "[player] Improvisa cuatro líneas de rap sobre una cita desastrosa.",
@@ -1176,7 +1176,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2768,
+    "id": "ret_118",
     "intensidad": 3,
     "tipo": "reto",
     "texto": "[player] Canta un coro conocido al estilo discoteca.",
@@ -1186,7 +1186,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2769,
+    "id": "ret_119",
     "intensidad": 3,
     "tipo": "reto",
     "texto": "[player] Baila al estilo discoteca durante 16 segundos.",
@@ -1196,7 +1196,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2770,
+    "id": "ret_120",
     "intensidad": 3,
     "tipo": "reto",
     "texto": "[player] Haz una caminata de pasarela llevando una cuchara como accesorio.",
@@ -1206,7 +1206,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2771,
+    "id": "ret_121",
     "intensidad": 3,
     "tipo": "reto",
     "texto": "[player] Mantén una pose dramática durante 15 segundos sin reír.",
@@ -1216,7 +1216,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2772,
+    "id": "ret_122",
     "intensidad": 3,
     "tipo": "reto",
     "texto": "[player] Haz reír al grupo en menos de 15 segundos sin tocar a nadie.",
@@ -1226,7 +1226,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2773,
+    "id": "ret_123",
     "intensidad": 3,
     "tipo": "reto",
     "texto": "[player] Habla como vendedor de televisión hasta tu próximo turno.",
@@ -1236,7 +1236,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2774,
+    "id": "ret_124",
     "intensidad": 3,
     "tipo": "reto",
     "texto": "[player] No digas 'entonces' hasta tu próximo turno.",
@@ -1246,7 +1246,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2775,
+    "id": "ret_125",
     "intensidad": 3,
     "tipo": "reto",
     "texto": "[player] Crea una regla de fiesta válida hasta tu próximo turno y comienza antes de que el grupo cuente hasta 6.",
@@ -1256,7 +1256,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2776,
+    "id": "ret_126",
     "intensidad": 3,
     "tipo": "reto",
     "texto": "[player] Pide tres palabras al grupo e improvisa una historia con ellas y comienza antes de que el grupo cuente hasta 6.",
@@ -1266,7 +1266,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2777,
+    "id": "ret_127",
     "intensidad": 3,
     "tipo": "reto",
     "texto": "[player] Da un discurso de premio por ser experto en una cita desastrosa.",
@@ -1276,7 +1276,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2778,
+    "id": "ret_128",
     "intensidad": 3,
     "tipo": "reto",
     "texto": "[player] Improvisa una disculpa convincente por haber causado esta situación: 'recibir un mensaje inesperado'.",
@@ -1286,7 +1286,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2779,
+    "id": "ret_129",
     "intensidad": 3,
     "tipo": "reto",
     "texto": "[player] Da un consejo serio sobre una cita desastrosa actuando como vendedor de televisión.",
@@ -1296,7 +1296,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2780,
+    "id": "ret_130",
     "intensidad": 3,
     "tipo": "reto",
     "texto": "[player] Cuenta una anécdota sobre una película que te hizo llorar sin usar 'yo'.",
@@ -1306,7 +1306,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2781,
+    "id": "ret_131",
     "intensidad": 3,
     "tipo": "reto",
     "texto": "[player] Cuenta dos verdades y una mentira sobre una película que te hizo llorar; el grupo adivina la mentira.",
@@ -1316,7 +1316,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2782,
+    "id": "ret_132",
     "intensidad": 3,
     "tipo": "reto",
     "texto": "[player] Responde en cinco segundos una pregunta del grupo sobre una cita desastrosa.",
@@ -1326,7 +1326,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2783,
+    "id": "ret_133",
     "intensidad": 3,
     "tipo": "reto",
     "texto": "[player] Dedica un cumplido diferente a 5 personas.",
@@ -1336,7 +1336,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2784,
+    "id": "ret_134",
     "intensidad": 3,
     "tipo": "reto",
     "texto": "[player] Imita a una persona del grupo hasta que la adivinen y comienza antes de que el grupo cuente hasta 6.",
@@ -1346,7 +1346,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2785,
+    "id": "ret_135",
     "intensidad": 3,
     "tipo": "reto",
     "texto": "[player] Imita a una celebridad elegida por el grupo y comienza antes de que el grupo cuente hasta 6.",
@@ -1356,7 +1356,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2786,
+    "id": "ret_136",
     "intensidad": 3,
     "tipo": "reto",
     "texto": "[player] Haz una actuación en cámara lenta de recibir un mensaje inesperado.",
@@ -1366,7 +1366,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2787,
+    "id": "ret_137",
     "intensidad": 3,
     "tipo": "reto",
     "texto": "[player] Crea una secuencia de 7 palmadas y repítela.",
@@ -1376,7 +1376,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2788,
+    "id": "ret_138",
     "intensidad": 3,
     "tipo": "reto",
     "texto": "[player] Di los meses al revés antes de que cuenten hasta 19.",
@@ -1386,7 +1386,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2789,
+    "id": "ret_139",
     "intensidad": 3,
     "tipo": "reto",
     "texto": "[player] Recita el alfabeto omitiendo cada tercera letra y comienza antes de que el grupo cuente hasta 6.",
@@ -1396,7 +1396,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2790,
+    "id": "ret_140",
     "intensidad": 3,
     "tipo": "reto",
     "texto": "[player] Nombra 5 errores que podrían empeorar esta situación: 'recibir un mensaje inesperado'.",
@@ -1406,7 +1406,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2791,
+    "id": "ret_141",
     "intensidad": 3,
     "tipo": "reto",
     "texto": "[player] Explica una cita desastrosa como si hablaras con un extraterrestre.",
@@ -1416,7 +1416,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2792,
+    "id": "ret_142",
     "intensidad": 3,
     "tipo": "reto",
     "texto": "[player] Convierte recibir un mensaje inesperado en un titular de noticias.",
@@ -1426,7 +1426,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2793,
+    "id": "ret_143",
     "intensidad": 3,
     "tipo": "reto",
     "texto": "[player] Haz una pose distinta por cada letra de 'corazó'.",
@@ -1436,7 +1436,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2794,
+    "id": "ret_144",
     "intensidad": 3,
     "tipo": "reto",
     "texto": "[player] Describe una cuchara sin decir su nombre hasta que lo adivinen.",
@@ -1446,7 +1446,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2795,
+    "id": "ret_145",
     "intensidad": 3,
     "tipo": "reto",
     "texto": "[player] Inventa el nombre y la receta de una bebida inspirada en una cita desastrosa.",
@@ -1456,7 +1456,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2796,
+    "id": "ret_146",
     "intensidad": 3,
     "tipo": "reto",
     "texto": "[player] Representa con una reacción dramática esta situación: 'recibir un mensaje inesperado'.",
@@ -1466,7 +1466,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2797,
+    "id": "ret_147",
     "intensidad": 3,
     "tipo": "reto",
     "texto": "[player] Deja que el grupo elija una emoción y cuenta recibir un mensaje inesperado expresándola.",
@@ -1476,7 +1476,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2798,
+    "id": "ret_148",
     "intensidad": 3,
     "tipo": "reto",
     "texto": "[player] Convence al grupo de que eres la mejor persona para resolver una cita desastrosa.",
@@ -1486,7 +1486,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2799,
+    "id": "ret_149",
     "intensidad": 3,
     "tipo": "reto",
     "texto": "[player] Combina una frase de vendedor de televisión, un paso de discoteca y una pose dramática.",
@@ -1496,7 +1496,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2800,
+    "id": "ret_150",
     "intensidad": 3,
     "tipo": "reto",
     "texto": "[player] Confiesa una película que te hizo llorar o representa durante 17 segundos cómo evitarías responder.",
@@ -1506,7 +1506,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2801,
+    "id": "ret_151",
     "intensidad": 4,
     "tipo": "reto",
     "texto": "[player] Nombra 6 ejemplos de ciudades famosas en 12 segundos.",
@@ -1516,7 +1516,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2802,
+    "id": "ret_152",
     "intensidad": 4,
     "tipo": "reto",
     "texto": "[player] Di 6 palabras relacionadas con una primera impresión equivocada sin repetir.",
@@ -1526,7 +1526,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2803,
+    "id": "ret_153",
     "intensidad": 4,
     "tipo": "reto",
     "texto": "[player] Convence al grupo de que 'una botella' es indispensable y menciona 6 razones.",
@@ -1536,7 +1536,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2804,
+    "id": "ret_154",
     "intensidad": 4,
     "tipo": "reto",
     "texto": "[player] Repite 'el cielo está enladrillado' 3 veces sin equivocarte.",
@@ -1546,7 +1546,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2805,
+    "id": "ret_155",
     "intensidad": 4,
     "tipo": "reto",
     "texto": "[player] Deletrea 'pasión' al revés sin pausas.",
@@ -1556,7 +1556,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2806,
+    "id": "ret_156",
     "intensidad": 4,
     "tipo": "reto",
     "texto": "[player] Cuenta hacia atrás desde 50 omitiendo múltiplos de 2.",
@@ -1566,7 +1566,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2807,
+    "id": "ret_157",
     "intensidad": 4,
     "tipo": "reto",
     "texto": "[player] Resuelve mentalmente 61 + 37 - 7.",
@@ -1576,7 +1576,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2808,
+    "id": "ret_158",
     "intensidad": 4,
     "tipo": "reto",
     "texto": "[player] Imita a un detective de telenovela durante 16 segundos.",
@@ -1586,7 +1586,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2809,
+    "id": "ret_159",
     "intensidad": 4,
     "tipo": "reto",
     "texto": "[player] Representa en silencio la situación 'ver a una expareja en una fiesta' hasta que la adivinen.",
@@ -1596,7 +1596,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2810,
+    "id": "ret_160",
     "intensidad": 4,
     "tipo": "reto",
     "texto": "[player] Representa 'ver a una expareja en una fiesta' usando solo sonidos.",
@@ -1606,7 +1606,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2811,
+    "id": "ret_161",
     "intensidad": 4,
     "tipo": "reto",
     "texto": "[player] Vende una botella como si costara una fortuna.",
@@ -1616,7 +1616,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2812,
+    "id": "ret_162",
     "intensidad": 4,
     "tipo": "reto",
     "texto": "[player] Crea un eslogan para una botella.",
@@ -1626,7 +1626,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2813,
+    "id": "ret_163",
     "intensidad": 4,
     "tipo": "reto",
     "texto": "[player] Haz un brindis de dos frases sobre una primera impresión equivocada.",
@@ -1636,7 +1636,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2814,
+    "id": "ret_164",
     "intensidad": 4,
     "tipo": "reto",
     "texto": "[player] Defiende durante 20 segundos una opinión impopular sobre una primera impresión equivocada.",
@@ -1646,7 +1646,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2815,
+    "id": "ret_165",
     "intensidad": 4,
     "tipo": "reto",
     "texto": "[player] Inventa una historia de 9 frases sobre ver a una expareja en una fiesta.",
@@ -1656,7 +1656,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2816,
+    "id": "ret_166",
     "intensidad": 4,
     "tipo": "reto",
     "texto": "[player] Compón cuatro versos que incluyan 'pasión'.",
@@ -1666,7 +1666,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2817,
+    "id": "ret_167",
     "intensidad": 4,
     "tipo": "reto",
     "texto": "[player] Improvisa cuatro líneas de rap sobre una primera impresión equivocada.",
@@ -1676,7 +1676,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2818,
+    "id": "ret_168",
     "intensidad": 4,
     "tipo": "reto",
     "texto": "[player] Canta un coro conocido al estilo reguetón dramático.",
@@ -1686,7 +1686,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2819,
+    "id": "ret_169",
     "intensidad": 4,
     "tipo": "reto",
     "texto": "[player] Baila al estilo reguetón dramático durante 15 segundos.",
@@ -1696,7 +1696,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2820,
+    "id": "ret_170",
     "intensidad": 4,
     "tipo": "reto",
     "texto": "[player] Haz una caminata de pasarela llevando una botella como accesorio.",
@@ -1706,7 +1706,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2821,
+    "id": "ret_171",
     "intensidad": 4,
     "tipo": "reto",
     "texto": "[player] Mantén una pose dramática durante 14 segundos sin reír.",
@@ -1716,7 +1716,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2822,
+    "id": "ret_172",
     "intensidad": 4,
     "tipo": "reto",
     "texto": "[player] Haz reír al grupo en menos de 14 segundos sin tocar a nadie.",
@@ -1726,7 +1726,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2823,
+    "id": "ret_173",
     "intensidad": 4,
     "tipo": "reto",
     "texto": "[player] Habla como detective de telenovela hasta tu próximo turno.",
@@ -1736,7 +1736,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2824,
+    "id": "ret_174",
     "intensidad": 4,
     "tipo": "reto",
     "texto": "[player] No digas 'literalmente' hasta tu próximo turno.",
@@ -1746,7 +1746,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2825,
+    "id": "ret_175",
     "intensidad": 4,
     "tipo": "reto",
     "texto": "[player] Crea una regla de fiesta válida hasta tu próximo turno y comienza antes de que el grupo cuente hasta 7.",
@@ -1756,7 +1756,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2826,
+    "id": "ret_176",
     "intensidad": 4,
     "tipo": "reto",
     "texto": "[player] Pide tres palabras al grupo e improvisa una historia con ellas y comienza antes de que el grupo cuente hasta 7.",
@@ -1766,7 +1766,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2827,
+    "id": "ret_177",
     "intensidad": 4,
     "tipo": "reto",
     "texto": "[player] Da un discurso de premio por ser experto en una primera impresión equivocada.",
@@ -1776,7 +1776,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2828,
+    "id": "ret_178",
     "intensidad": 4,
     "tipo": "reto",
     "texto": "[player] Improvisa una disculpa convincente por haber causado esta situación: 'ver a una expareja en una fiesta'.",
@@ -1786,7 +1786,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2829,
+    "id": "ret_179",
     "intensidad": 4,
     "tipo": "reto",
     "texto": "[player] Da un consejo serio sobre una primera impresión equivocada actuando como detective de telenovela.",
@@ -1796,7 +1796,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2830,
+    "id": "ret_180",
     "intensidad": 4,
     "tipo": "reto",
     "texto": "[player] Cuenta una anécdota sobre un gusto que te da pena admitir sin usar 'yo'.",
@@ -1806,7 +1806,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2831,
+    "id": "ret_181",
     "intensidad": 4,
     "tipo": "reto",
     "texto": "[player] Cuenta dos verdades y una mentira sobre un gusto que te da pena admitir; el grupo adivina la mentira.",
@@ -1816,7 +1816,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2832,
+    "id": "ret_182",
     "intensidad": 4,
     "tipo": "reto",
     "texto": "[player] Responde en cinco segundos una pregunta del grupo sobre una primera impresión equivocada.",
@@ -1826,7 +1826,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2833,
+    "id": "ret_183",
     "intensidad": 4,
     "tipo": "reto",
     "texto": "[player] Dedica un cumplido diferente a 6 personas.",
@@ -1836,7 +1836,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2834,
+    "id": "ret_184",
     "intensidad": 4,
     "tipo": "reto",
     "texto": "[player] Imita a una persona del grupo hasta que la adivinen y comienza antes de que el grupo cuente hasta 7.",
@@ -1846,7 +1846,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2835,
+    "id": "ret_185",
     "intensidad": 4,
     "tipo": "reto",
     "texto": "[player] Imita a una celebridad elegida por el grupo y comienza antes de que el grupo cuente hasta 7.",
@@ -1856,7 +1856,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2836,
+    "id": "ret_186",
     "intensidad": 4,
     "tipo": "reto",
     "texto": "[player] Haz una actuación en cámara lenta de ver a una expareja en una fiesta.",
@@ -1866,7 +1866,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2837,
+    "id": "ret_187",
     "intensidad": 4,
     "tipo": "reto",
     "texto": "[player] Crea una secuencia de 8 palmadas y repítela.",
@@ -1876,7 +1876,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2838,
+    "id": "ret_188",
     "intensidad": 4,
     "tipo": "reto",
     "texto": "[player] Di los meses al revés antes de que cuenten hasta 18.",
@@ -1886,7 +1886,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2839,
+    "id": "ret_189",
     "intensidad": 4,
     "tipo": "reto",
     "texto": "[player] Recita el alfabeto omitiendo cada tercera letra y comienza antes de que el grupo cuente hasta 7.",
@@ -1896,7 +1896,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2840,
+    "id": "ret_190",
     "intensidad": 4,
     "tipo": "reto",
     "texto": "[player] Nombra 6 errores que podrían empeorar esta situación: 'ver a una expareja en una fiesta'.",
@@ -1906,7 +1906,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2841,
+    "id": "ret_191",
     "intensidad": 4,
     "tipo": "reto",
     "texto": "[player] Explica una primera impresión equivocada como si hablaras con un extraterrestre.",
@@ -1916,7 +1916,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2842,
+    "id": "ret_192",
     "intensidad": 4,
     "tipo": "reto",
     "texto": "[player] Convierte ver a una expareja en una fiesta en un titular de noticias.",
@@ -1926,7 +1926,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2843,
+    "id": "ret_193",
     "intensidad": 4,
     "tipo": "reto",
     "texto": "[player] Haz una pose distinta por cada letra de 'pasión'.",
@@ -1936,7 +1936,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2844,
+    "id": "ret_194",
     "intensidad": 4,
     "tipo": "reto",
     "texto": "[player] Describe una botella sin decir su nombre hasta que lo adivinen.",
@@ -1946,7 +1946,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2845,
+    "id": "ret_195",
     "intensidad": 4,
     "tipo": "reto",
     "texto": "[player] Inventa el nombre y la receta de una bebida inspirada en una primera impresión equivocada.",
@@ -1956,7 +1956,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2846,
+    "id": "ret_196",
     "intensidad": 4,
     "tipo": "reto",
     "texto": "[player] Representa con una reacción dramática esta situación: 'ver a una expareja en una fiesta'.",
@@ -1966,7 +1966,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2847,
+    "id": "ret_197",
     "intensidad": 4,
     "tipo": "reto",
     "texto": "[player] Deja que el grupo elija una emoción y cuenta ver a una expareja en una fiesta expresándola.",
@@ -1976,7 +1976,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2848,
+    "id": "ret_198",
     "intensidad": 4,
     "tipo": "reto",
     "texto": "[player] Convence al grupo de que eres la mejor persona para resolver una primera impresión equivocada.",
@@ -1986,7 +1986,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2849,
+    "id": "ret_199",
     "intensidad": 4,
     "tipo": "reto",
     "texto": "[player] Combina una frase de detective de telenovela, un paso de reguetón dramático y una pose dramática.",
@@ -1996,7 +1996,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2850,
+    "id": "ret_200",
     "intensidad": 4,
     "tipo": "reto",
     "texto": "[player] Confiesa un gusto que te da pena admitir o representa durante 16 segundos cómo evitarías responder.",
@@ -2006,7 +2006,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2851,
+    "id": "ret_201",
     "intensidad": 5,
     "tipo": "reto",
     "texto": "[player] Nombra 7 ejemplos de obras literarias en 11 segundos.",
@@ -2016,7 +2016,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2852,
+    "id": "ret_202",
     "intensidad": 5,
     "tipo": "reto",
     "texto": "[player] Di 7 palabras relacionadas con una cita imposible sin repetir.",
@@ -2026,7 +2026,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2853,
+    "id": "ret_203",
     "intensidad": 5,
     "tipo": "reto",
     "texto": "[player] Convence al grupo de que 'un teléfono invisible' es indispensable y menciona 7 razones.",
@@ -2036,7 +2036,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2854,
+    "id": "ret_204",
     "intensidad": 5,
     "tipo": "reto",
     "texto": "[player] Repite 'Erre con erre cigarro' 4 veces sin equivocarte.",
@@ -2046,7 +2046,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2855,
+    "id": "ret_205",
     "intensidad": 5,
     "tipo": "reto",
     "texto": "[player] Deletrea 'tentación' al revés sin pausas.",
@@ -2056,7 +2056,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2856,
+    "id": "ret_206",
     "intensidad": 5,
     "tipo": "reto",
     "texto": "[player] Cuenta hacia atrás desde 55 omitiendo múltiplos de 3.",
@@ -2066,7 +2066,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2857,
+    "id": "ret_207",
     "intensidad": 5,
     "tipo": "reto",
     "texto": "[player] Resuelve mentalmente 72 + 44 - 8.",
@@ -2076,7 +2076,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2858,
+    "id": "ret_208",
     "intensidad": 5,
     "tipo": "reto",
     "texto": "[player] Imita a un influencer en crisis durante 15 segundos.",
@@ -2086,7 +2086,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2859,
+    "id": "ret_209",
     "intensidad": 5,
     "tipo": "reto",
     "texto": "[player] Representa en silencio la situación 'encontrar una foto vergonzosa' hasta que la adivinen.",
@@ -2096,7 +2096,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2860,
+    "id": "ret_210",
     "intensidad": 5,
     "tipo": "reto",
     "texto": "[player] Representa 'encontrar una foto vergonzosa' usando solo sonidos.",
@@ -2106,7 +2106,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2861,
+    "id": "ret_211",
     "intensidad": 5,
     "tipo": "reto",
     "texto": "[player] Vende un teléfono invisible como si costara una fortuna.",
@@ -2116,7 +2116,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2862,
+    "id": "ret_212",
     "intensidad": 5,
     "tipo": "reto",
     "texto": "[player] Crea un eslogan para un teléfono invisible.",
@@ -2126,7 +2126,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2863,
+    "id": "ret_213",
     "intensidad": 5,
     "tipo": "reto",
     "texto": "[player] Haz un brindis de dos frases sobre una cita imposible.",
@@ -2136,7 +2136,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2864,
+    "id": "ret_214",
     "intensidad": 5,
     "tipo": "reto",
     "texto": "[player] Defiende durante 19 segundos una opinión impopular sobre una cita imposible.",
@@ -2146,7 +2146,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2865,
+    "id": "ret_215",
     "intensidad": 5,
     "tipo": "reto",
     "texto": "[player] Inventa una historia de 10 frases sobre encontrar una foto vergonzosa.",
@@ -2156,7 +2156,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2866,
+    "id": "ret_216",
     "intensidad": 5,
     "tipo": "reto",
     "texto": "[player] Compón cuatro versos que incluyan 'tentación'.",
@@ -2166,7 +2166,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2867,
+    "id": "ret_217",
     "intensidad": 5,
     "tipo": "reto",
     "texto": "[player] Improvisa cuatro líneas de rap sobre una cita imposible.",
@@ -2176,7 +2176,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2868,
+    "id": "ret_218",
     "intensidad": 5,
     "tipo": "reto",
     "texto": "[player] Canta un coro conocido al estilo salsa sin música.",
@@ -2186,7 +2186,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2869,
+    "id": "ret_219",
     "intensidad": 5,
     "tipo": "reto",
     "texto": "[player] Baila al estilo salsa sin música durante 14 segundos.",
@@ -2196,7 +2196,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2870,
+    "id": "ret_220",
     "intensidad": 5,
     "tipo": "reto",
     "texto": "[player] Haz una caminata de pasarela llevando un teléfono invisible como accesorio.",
@@ -2206,7 +2206,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2871,
+    "id": "ret_221",
     "intensidad": 5,
     "tipo": "reto",
     "texto": "[player] Mantén una pose dramática durante 13 segundos sin reír.",
@@ -2216,7 +2216,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2872,
+    "id": "ret_222",
     "intensidad": 5,
     "tipo": "reto",
     "texto": "[player] Haz reír al grupo en menos de 13 segundos sin tocar a nadie.",
@@ -2226,7 +2226,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2873,
+    "id": "ret_223",
     "intensidad": 5,
     "tipo": "reto",
     "texto": "[player] Habla como influencer en crisis hasta tu próximo turno.",
@@ -2236,7 +2236,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2874,
+    "id": "ret_224",
     "intensidad": 5,
     "tipo": "reto",
     "texto": "[player] No digas 'obvio' hasta tu próximo turno.",
@@ -2246,7 +2246,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2875,
+    "id": "ret_225",
     "intensidad": 5,
     "tipo": "reto",
     "texto": "[player] Crea una regla de fiesta válida hasta tu próximo turno y comienza antes de que el grupo cuente hasta 8.",
@@ -2256,7 +2256,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2876,
+    "id": "ret_226",
     "intensidad": 5,
     "tipo": "reto",
     "texto": "[player] Pide tres palabras al grupo e improvisa una historia con ellas y comienza antes de que el grupo cuente hasta 8.",
@@ -2266,7 +2266,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2877,
+    "id": "ret_227",
     "intensidad": 5,
     "tipo": "reto",
     "texto": "[player] Da un discurso de premio por ser experto en una cita imposible.",
@@ -2276,7 +2276,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2878,
+    "id": "ret_228",
     "intensidad": 5,
     "tipo": "reto",
     "texto": "[player] Improvisa una disculpa convincente por haber causado esta situación: 'encontrar una foto vergonzosa'.",
@@ -2286,7 +2286,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2879,
+    "id": "ret_229",
     "intensidad": 5,
     "tipo": "reto",
     "texto": "[player] Da un consejo serio sobre una cita imposible actuando como influencer en crisis.",
@@ -2296,7 +2296,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2880,
+    "id": "ret_230",
     "intensidad": 5,
     "tipo": "reto",
     "texto": "[player] Cuenta una anécdota sobre un amor platónico famoso sin usar 'yo'.",
@@ -2306,7 +2306,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2881,
+    "id": "ret_231",
     "intensidad": 5,
     "tipo": "reto",
     "texto": "[player] Cuenta dos verdades y una mentira sobre un amor platónico famoso; el grupo adivina la mentira.",
@@ -2316,7 +2316,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2882,
+    "id": "ret_232",
     "intensidad": 5,
     "tipo": "reto",
     "texto": "[player] Responde en cinco segundos una pregunta del grupo sobre una cita imposible.",
@@ -2326,7 +2326,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2883,
+    "id": "ret_233",
     "intensidad": 5,
     "tipo": "reto",
     "texto": "[player] Dedica un cumplido diferente a 6 personas y comienza antes de que el grupo cuente hasta 8.",
@@ -2336,7 +2336,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2884,
+    "id": "ret_234",
     "intensidad": 5,
     "tipo": "reto",
     "texto": "[player] Imita a una persona del grupo hasta que la adivinen y comienza antes de que el grupo cuente hasta 8.",
@@ -2346,7 +2346,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2885,
+    "id": "ret_235",
     "intensidad": 5,
     "tipo": "reto",
     "texto": "[player] Imita a una celebridad elegida por el grupo y comienza antes de que el grupo cuente hasta 8.",
@@ -2356,7 +2356,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2886,
+    "id": "ret_236",
     "intensidad": 5,
     "tipo": "reto",
     "texto": "[player] Haz una actuación en cámara lenta de encontrar una foto vergonzosa.",
@@ -2366,7 +2366,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2887,
+    "id": "ret_237",
     "intensidad": 5,
     "tipo": "reto",
     "texto": "[player] Crea una secuencia de 9 palmadas y repítela.",
@@ -2376,7 +2376,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2888,
+    "id": "ret_238",
     "intensidad": 5,
     "tipo": "reto",
     "texto": "[player] Di los meses al revés antes de que cuenten hasta 17.",
@@ -2386,7 +2386,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2889,
+    "id": "ret_239",
     "intensidad": 5,
     "tipo": "reto",
     "texto": "[player] Recita el alfabeto omitiendo cada tercera letra y comienza antes de que el grupo cuente hasta 8.",
@@ -2396,7 +2396,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2890,
+    "id": "ret_240",
     "intensidad": 5,
     "tipo": "reto",
     "texto": "[player] Nombra 7 errores que podrían empeorar esta situación: 'encontrar una foto vergonzosa'.",
@@ -2406,7 +2406,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2891,
+    "id": "ret_241",
     "intensidad": 5,
     "tipo": "reto",
     "texto": "[player] Explica una cita imposible como si hablaras con un extraterrestre.",
@@ -2416,7 +2416,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2892,
+    "id": "ret_242",
     "intensidad": 5,
     "tipo": "reto",
     "texto": "[player] Convierte encontrar una foto vergonzosa en un titular de noticias.",
@@ -2426,7 +2426,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2893,
+    "id": "ret_243",
     "intensidad": 5,
     "tipo": "reto",
     "texto": "[player] Haz una pose distinta por cada letra de 'tentac'.",
@@ -2436,7 +2436,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2894,
+    "id": "ret_244",
     "intensidad": 5,
     "tipo": "reto",
     "texto": "[player] Describe un teléfono invisible sin decir su nombre hasta que lo adivinen.",
@@ -2446,7 +2446,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2895,
+    "id": "ret_245",
     "intensidad": 5,
     "tipo": "reto",
     "texto": "[player] Inventa el nombre y la receta de una bebida inspirada en una cita imposible.",
@@ -2456,7 +2456,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2896,
+    "id": "ret_246",
     "intensidad": 5,
     "tipo": "reto",
     "texto": "[player] Representa con una reacción dramática esta situación: 'encontrar una foto vergonzosa'.",
@@ -2466,7 +2466,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2897,
+    "id": "ret_247",
     "intensidad": 5,
     "tipo": "reto",
     "texto": "[player] Deja que el grupo elija una emoción y cuenta encontrar una foto vergonzosa expresándola.",
@@ -2476,7 +2476,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2898,
+    "id": "ret_248",
     "intensidad": 5,
     "tipo": "reto",
     "texto": "[player] Convence al grupo de que eres la mejor persona para resolver una cita imposible.",
@@ -2486,7 +2486,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2899,
+    "id": "ret_249",
     "intensidad": 5,
     "tipo": "reto",
     "texto": "[player] Combina una frase de influencer en crisis, un paso de salsa sin música y una pose dramática.",
@@ -2496,7 +2496,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2900,
+    "id": "ret_250",
     "intensidad": 5,
     "tipo": "reto",
     "texto": "[player] Confiesa un amor platónico famoso o representa durante 15 segundos cómo evitarías responder.",
@@ -2506,7 +2506,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2901,
+    "id": "ret_251",
     "intensidad": 6,
     "tipo": "reto",
     "texto": "[player] Nombra 8 ejemplos de conceptos científicos en 10 segundos.",
@@ -2516,7 +2516,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2902,
+    "id": "ret_252",
     "intensidad": 6,
     "tipo": "reto",
     "texto": "[player] Di 8 palabras relacionadas con las segundas oportunidades sin repetir.",
@@ -2526,7 +2526,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2903,
+    "id": "ret_253",
     "intensidad": 6,
     "tipo": "reto",
     "texto": "[player] Convence al grupo de que 'un recibo sospechoso' es indispensable y menciona 8 razones.",
@@ -2536,7 +2536,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2904,
+    "id": "ret_254",
     "intensidad": 6,
     "tipo": "reto",
     "texto": "[player] Repite 'el perro de San Roque no tiene rabo' 4 veces sin equivocarte.",
@@ -2546,7 +2546,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2905,
+    "id": "ret_255",
     "intensidad": 6,
     "tipo": "reto",
     "texto": "[player] Deletrea 'prohibido' al revés sin pausas.",
@@ -2556,7 +2556,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2906,
+    "id": "ret_256",
     "intensidad": 6,
     "tipo": "reto",
     "texto": "[player] Cuenta hacia atrás desde 60 omitiendo múltiplos de 4.",
@@ -2566,7 +2566,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2907,
+    "id": "ret_257",
     "intensidad": 6,
     "tipo": "reto",
     "texto": "[player] Resuelve mentalmente 83 + 51 - 9.",
@@ -2576,7 +2576,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2908,
+    "id": "ret_258",
     "intensidad": 6,
     "tipo": "reto",
     "texto": "[player] Imita a un abogado de una mala decisión durante 14 segundos.",
@@ -2586,7 +2586,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2909,
+    "id": "ret_259",
     "intensidad": 6,
     "tipo": "reto",
     "texto": "[player] Representa en silencio la situación 'explicar una compra impulsiva' hasta que la adivinen.",
@@ -2596,7 +2596,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2910,
+    "id": "ret_260",
     "intensidad": 6,
     "tipo": "reto",
     "texto": "[player] Representa 'explicar una compra impulsiva' usando solo sonidos.",
@@ -2606,7 +2606,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2911,
+    "id": "ret_261",
     "intensidad": 6,
     "tipo": "reto",
     "texto": "[player] Vende un recibo sospechoso como si costara una fortuna.",
@@ -2616,7 +2616,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2912,
+    "id": "ret_262",
     "intensidad": 6,
     "tipo": "reto",
     "texto": "[player] Crea un eslogan para un recibo sospechoso.",
@@ -2626,7 +2626,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2913,
+    "id": "ret_263",
     "intensidad": 6,
     "tipo": "reto",
     "texto": "[player] Haz un brindis de dos frases sobre las segundas oportunidades.",
@@ -2636,7 +2636,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2914,
+    "id": "ret_264",
     "intensidad": 6,
     "tipo": "reto",
     "texto": "[player] Defiende durante 18 segundos una opinión impopular sobre las segundas oportunidades.",
@@ -2646,7 +2646,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2915,
+    "id": "ret_265",
     "intensidad": 6,
     "tipo": "reto",
     "texto": "[player] Inventa una historia de 11 frases sobre explicar una compra impulsiva.",
@@ -2656,7 +2656,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2916,
+    "id": "ret_266",
     "intensidad": 6,
     "tipo": "reto",
     "texto": "[player] Compón cuatro versos que incluyan 'prohibido'.",
@@ -2666,7 +2666,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2917,
+    "id": "ret_267",
     "intensidad": 6,
     "tipo": "reto",
     "texto": "[player] Improvisa cuatro líneas de rap sobre las segundas oportunidades.",
@@ -2676,7 +2676,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2918,
+    "id": "ret_268",
     "intensidad": 6,
     "tipo": "reto",
     "texto": "[player] Canta un coro conocido al estilo baile seductor.",
@@ -2686,7 +2686,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2919,
+    "id": "ret_269",
     "intensidad": 6,
     "tipo": "reto",
     "texto": "[player] Baila al estilo baile seductor durante 13 segundos.",
@@ -2696,7 +2696,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2920,
+    "id": "ret_270",
     "intensidad": 6,
     "tipo": "reto",
     "texto": "[player] Haz una caminata de pasarela llevando un recibo sospechoso como accesorio.",
@@ -2706,7 +2706,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2921,
+    "id": "ret_271",
     "intensidad": 6,
     "tipo": "reto",
     "texto": "[player] Mantén una pose dramática durante 12 segundos sin reír.",
@@ -2716,7 +2716,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2922,
+    "id": "ret_272",
     "intensidad": 6,
     "tipo": "reto",
     "texto": "[player] Haz reír al grupo en menos de 12 segundos sin tocar a nadie.",
@@ -2726,7 +2726,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2923,
+    "id": "ret_273",
     "intensidad": 6,
     "tipo": "reto",
     "texto": "[player] Habla como abogado de una mala decisión hasta tu próximo turno.",
@@ -2736,7 +2736,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2924,
+    "id": "ret_274",
     "intensidad": 6,
     "tipo": "reto",
     "texto": "[player] No digas 'honestamente' hasta tu próximo turno.",
@@ -2746,7 +2746,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2925,
+    "id": "ret_275",
     "intensidad": 6,
     "tipo": "reto",
     "texto": "[player] Crea una regla de fiesta válida hasta tu próximo turno y comienza antes de que el grupo cuente hasta 9.",
@@ -2756,7 +2756,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2926,
+    "id": "ret_276",
     "intensidad": 6,
     "tipo": "reto",
     "texto": "[player] Pide tres palabras al grupo e improvisa una historia con ellas y comienza antes de que el grupo cuente hasta 9.",
@@ -2766,7 +2766,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2927,
+    "id": "ret_277",
     "intensidad": 6,
     "tipo": "reto",
     "texto": "[player] Da un discurso de premio por ser experto en las segundas oportunidades.",
@@ -2776,7 +2776,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2928,
+    "id": "ret_278",
     "intensidad": 6,
     "tipo": "reto",
     "texto": "[player] Improvisa una disculpa convincente por haber causado esta situación: 'explicar una compra impulsiva'.",
@@ -2786,7 +2786,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2929,
+    "id": "ret_279",
     "intensidad": 6,
     "tipo": "reto",
     "texto": "[player] Da un consejo serio sobre las segundas oportunidades actuando como abogado de una mala decisión.",
@@ -2796,7 +2796,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2930,
+    "id": "ret_280",
     "intensidad": 6,
     "tipo": "reto",
     "texto": "[player] Cuenta una anécdota sobre una excusa repetida sin usar 'yo'.",
@@ -2806,7 +2806,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2931,
+    "id": "ret_281",
     "intensidad": 6,
     "tipo": "reto",
     "texto": "[player] Cuenta dos verdades y una mentira sobre una excusa repetida; el grupo adivina la mentira.",
@@ -2816,7 +2816,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2932,
+    "id": "ret_282",
     "intensidad": 6,
     "tipo": "reto",
     "texto": "[player] Responde en cinco segundos una pregunta del grupo sobre las segundas oportunidades.",
@@ -2826,7 +2826,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2933,
+    "id": "ret_283",
     "intensidad": 6,
     "tipo": "reto",
     "texto": "[player] Dedica un cumplido diferente a 6 personas y comienza antes de que el grupo cuente hasta 9.",
@@ -2836,7 +2836,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2934,
+    "id": "ret_284",
     "intensidad": 6,
     "tipo": "reto",
     "texto": "[player] Imita a una persona del grupo hasta que la adivinen y comienza antes de que el grupo cuente hasta 9.",
@@ -2846,7 +2846,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2935,
+    "id": "ret_285",
     "intensidad": 6,
     "tipo": "reto",
     "texto": "[player] Imita a una celebridad elegida por el grupo y comienza antes de que el grupo cuente hasta 9.",
@@ -2856,7 +2856,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2936,
+    "id": "ret_286",
     "intensidad": 6,
     "tipo": "reto",
     "texto": "[player] Haz una actuación en cámara lenta de explicar una compra impulsiva.",
@@ -2866,7 +2866,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2937,
+    "id": "ret_287",
     "intensidad": 6,
     "tipo": "reto",
     "texto": "[player] Crea una secuencia de 10 palmadas y repítela.",
@@ -2876,7 +2876,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2938,
+    "id": "ret_288",
     "intensidad": 6,
     "tipo": "reto",
     "texto": "[player] Di los meses al revés antes de que cuenten hasta 16.",
@@ -2886,7 +2886,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2939,
+    "id": "ret_289",
     "intensidad": 6,
     "tipo": "reto",
     "texto": "[player] Recita el alfabeto omitiendo cada tercera letra y comienza antes de que el grupo cuente hasta 9.",
@@ -2896,7 +2896,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2940,
+    "id": "ret_290",
     "intensidad": 6,
     "tipo": "reto",
     "texto": "[player] Nombra 8 errores que podrían empeorar esta situación: 'explicar una compra impulsiva'.",
@@ -2906,7 +2906,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2941,
+    "id": "ret_291",
     "intensidad": 6,
     "tipo": "reto",
     "texto": "[player] Explica las segundas oportunidades como si hablaras con un extraterrestre.",
@@ -2916,7 +2916,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2942,
+    "id": "ret_292",
     "intensidad": 6,
     "tipo": "reto",
     "texto": "[player] Convierte explicar una compra impulsiva en un titular de noticias.",
@@ -2926,7 +2926,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2943,
+    "id": "ret_293",
     "intensidad": 6,
     "tipo": "reto",
     "texto": "[player] Haz una pose distinta por cada letra de 'prohib'.",
@@ -2936,7 +2936,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2944,
+    "id": "ret_294",
     "intensidad": 6,
     "tipo": "reto",
     "texto": "[player] Describe un recibo sospechoso sin decir su nombre hasta que lo adivinen.",
@@ -2946,7 +2946,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2945,
+    "id": "ret_295",
     "intensidad": 6,
     "tipo": "reto",
     "texto": "[player] Inventa el nombre y la receta de una bebida inspirada en las segundas oportunidades.",
@@ -2956,7 +2956,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2946,
+    "id": "ret_296",
     "intensidad": 6,
     "tipo": "reto",
     "texto": "[player] Representa con una reacción dramática esta situación: 'explicar una compra impulsiva'.",
@@ -2966,7 +2966,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2947,
+    "id": "ret_297",
     "intensidad": 6,
     "tipo": "reto",
     "texto": "[player] Deja que el grupo elija una emoción y cuenta explicar una compra impulsiva expresándola.",
@@ -2976,7 +2976,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2948,
+    "id": "ret_298",
     "intensidad": 6,
     "tipo": "reto",
     "texto": "[player] Convence al grupo de que eres la mejor persona para resolver las segundas oportunidades.",
@@ -2986,7 +2986,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2949,
+    "id": "ret_299",
     "intensidad": 6,
     "tipo": "reto",
     "texto": "[player] Combina una frase de abogado de una mala decisión, un paso de baile seductor y una pose dramática.",
@@ -2996,7 +2996,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2950,
+    "id": "ret_300",
     "intensidad": 6,
     "tipo": "reto",
     "texto": "[player] Confiesa una excusa repetida o representa durante 14 segundos cómo evitarías responder.",
@@ -3006,7 +3006,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2951,
+    "id": "ret_301",
     "intensidad": 7,
     "tipo": "reto",
     "texto": "[player] Nombra 9 ejemplos de filósofos en 9 segundos.",
@@ -3016,7 +3016,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2952,
+    "id": "ret_302",
     "intensidad": 7,
     "tipo": "reto",
     "texto": "[player] Di 9 palabras relacionadas con una decisión sentimental sin repetir.",
@@ -3026,7 +3026,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2953,
+    "id": "ret_303",
     "intensidad": 7,
     "tipo": "reto",
     "texto": "[player] Convence al grupo de que 'una carta de amor anónima' es indispensable y menciona 9 razones.",
@@ -3036,7 +3036,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2954,
+    "id": "ret_304",
     "intensidad": 7,
     "tipo": "reto",
     "texto": "[player] Repite 'parra tenía una perra' 5 veces sin equivocarte.",
@@ -3046,7 +3046,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2955,
+    "id": "ret_305",
     "intensidad": 7,
     "tipo": "reto",
     "texto": "[player] Deletrea 'deseo' al revés sin pausas.",
@@ -3056,7 +3056,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2956,
+    "id": "ret_306",
     "intensidad": 7,
     "tipo": "reto",
     "texto": "[player] Cuenta hacia atrás desde 65 omitiendo múltiplos de 5.",
@@ -3066,7 +3066,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2957,
+    "id": "ret_307",
     "intensidad": 7,
     "tipo": "reto",
     "texto": "[player] Resuelve mentalmente 94 + 58 - 10.",
@@ -3076,7 +3076,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2958,
+    "id": "ret_308",
     "intensidad": 7,
     "tipo": "reto",
     "texto": "[player] Imita a un terapeuta sentimental durante 13 segundos.",
@@ -3086,7 +3086,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2959,
+    "id": "ret_309",
     "intensidad": 7,
     "tipo": "reto",
     "texto": "[player] Representa en silencio la situación 'negar una atracción evidente' hasta que la adivinen.",
@@ -3096,7 +3096,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2960,
+    "id": "ret_310",
     "intensidad": 7,
     "tipo": "reto",
     "texto": "[player] Representa 'negar una atracción evidente' usando solo sonidos.",
@@ -3106,7 +3106,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2961,
+    "id": "ret_311",
     "intensidad": 7,
     "tipo": "reto",
     "texto": "[player] Vende una carta de amor anónima como si costara una fortuna.",
@@ -3116,7 +3116,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2962,
+    "id": "ret_312",
     "intensidad": 7,
     "tipo": "reto",
     "texto": "[player] Crea un eslogan para una carta de amor anónima.",
@@ -3126,7 +3126,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2963,
+    "id": "ret_313",
     "intensidad": 7,
     "tipo": "reto",
     "texto": "[player] Haz un brindis de dos frases sobre una decisión sentimental.",
@@ -3136,7 +3136,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2964,
+    "id": "ret_314",
     "intensidad": 7,
     "tipo": "reto",
     "texto": "[player] Defiende durante 17 segundos una opinión impopular sobre una decisión sentimental.",
@@ -3146,7 +3146,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2965,
+    "id": "ret_315",
     "intensidad": 7,
     "tipo": "reto",
     "texto": "[player] Inventa una historia de 12 frases sobre negar una atracción evidente.",
@@ -3156,7 +3156,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2966,
+    "id": "ret_316",
     "intensidad": 7,
     "tipo": "reto",
     "texto": "[player] Compón cuatro versos que incluyan 'deseo'.",
@@ -3166,7 +3166,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2967,
+    "id": "ret_317",
     "intensidad": 7,
     "tipo": "reto",
     "texto": "[player] Improvisa cuatro líneas de rap sobre una decisión sentimental.",
@@ -3176,7 +3176,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2968,
+    "id": "ret_318",
     "intensidad": 7,
     "tipo": "reto",
     "texto": "[player] Canta un coro conocido al estilo baile de conquista.",
@@ -3186,7 +3186,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2969,
+    "id": "ret_319",
     "intensidad": 7,
     "tipo": "reto",
     "texto": "[player] Baila al estilo baile de conquista durante 12 segundos.",
@@ -3196,7 +3196,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2970,
+    "id": "ret_320",
     "intensidad": 7,
     "tipo": "reto",
     "texto": "[player] Haz una caminata de pasarela llevando una carta de amor anónima como accesorio.",
@@ -3206,7 +3206,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2971,
+    "id": "ret_321",
     "intensidad": 7,
     "tipo": "reto",
     "texto": "[player] Mantén una pose dramática durante 11 segundos sin reír.",
@@ -3216,7 +3216,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2972,
+    "id": "ret_322",
     "intensidad": 7,
     "tipo": "reto",
     "texto": "[player] Haz reír al grupo en menos de 11 segundos sin tocar a nadie.",
@@ -3226,7 +3226,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2973,
+    "id": "ret_323",
     "intensidad": 7,
     "tipo": "reto",
     "texto": "[player] Habla como terapeuta sentimental hasta tu próximo turno.",
@@ -3236,7 +3236,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2974,
+    "id": "ret_324",
     "intensidad": 7,
     "tipo": "reto",
     "texto": "[player] No digas 'ex' hasta tu próximo turno.",
@@ -3246,7 +3246,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2975,
+    "id": "ret_325",
     "intensidad": 7,
     "tipo": "reto",
     "texto": "[player] Crea una regla de fiesta válida hasta tu próximo turno y comienza antes de que el grupo cuente hasta 10.",
@@ -3256,7 +3256,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2976,
+    "id": "ret_326",
     "intensidad": 7,
     "tipo": "reto",
     "texto": "[player] Pide tres palabras al grupo e improvisa una historia con ellas y comienza antes de que el grupo cuente hasta 10.",
@@ -3266,7 +3266,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2977,
+    "id": "ret_327",
     "intensidad": 7,
     "tipo": "reto",
     "texto": "[player] Da un discurso de premio por ser experto en una decisión sentimental.",
@@ -3276,7 +3276,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2978,
+    "id": "ret_328",
     "intensidad": 7,
     "tipo": "reto",
     "texto": "[player] Improvisa una disculpa convincente por haber causado esta situación: 'negar una atracción evidente'.",
@@ -3286,7 +3286,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2979,
+    "id": "ret_329",
     "intensidad": 7,
     "tipo": "reto",
     "texto": "[player] Da un consejo serio sobre una decisión sentimental actuando como terapeuta sentimental.",
@@ -3296,7 +3296,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2980,
+    "id": "ret_330",
     "intensidad": 7,
     "tipo": "reto",
     "texto": "[player] Cuenta una anécdota sobre algo que haces para llamar la atención sin usar 'yo'.",
@@ -3306,7 +3306,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2981,
+    "id": "ret_331",
     "intensidad": 7,
     "tipo": "reto",
     "texto": "[player] Cuenta dos verdades y una mentira sobre algo que haces para llamar la atención; el grupo adivina la mentira.",
@@ -3316,7 +3316,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2982,
+    "id": "ret_332",
     "intensidad": 7,
     "tipo": "reto",
     "texto": "[player] Responde en cinco segundos una pregunta del grupo sobre una decisión sentimental.",
@@ -3326,7 +3326,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2983,
+    "id": "ret_333",
     "intensidad": 7,
     "tipo": "reto",
     "texto": "[player] Dedica un cumplido diferente a 6 personas y comienza antes de que el grupo cuente hasta 10.",
@@ -3336,7 +3336,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2984,
+    "id": "ret_334",
     "intensidad": 7,
     "tipo": "reto",
     "texto": "[player] Imita a una persona del grupo hasta que la adivinen y comienza antes de que el grupo cuente hasta 10.",
@@ -3346,7 +3346,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2985,
+    "id": "ret_335",
     "intensidad": 7,
     "tipo": "reto",
     "texto": "[player] Imita a una celebridad elegida por el grupo y comienza antes de que el grupo cuente hasta 10.",
@@ -3356,7 +3356,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2986,
+    "id": "ret_336",
     "intensidad": 7,
     "tipo": "reto",
     "texto": "[player] Haz una actuación en cámara lenta de negar una atracción evidente.",
@@ -3366,7 +3366,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2987,
+    "id": "ret_337",
     "intensidad": 7,
     "tipo": "reto",
     "texto": "[player] Crea una secuencia de 11 palmadas y repítela.",
@@ -3376,7 +3376,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2988,
+    "id": "ret_338",
     "intensidad": 7,
     "tipo": "reto",
     "texto": "[player] Di los meses al revés antes de que cuenten hasta 15.",
@@ -3386,7 +3386,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2989,
+    "id": "ret_339",
     "intensidad": 7,
     "tipo": "reto",
     "texto": "[player] Recita el alfabeto omitiendo cada tercera letra y comienza antes de que el grupo cuente hasta 10.",
@@ -3396,7 +3396,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2990,
+    "id": "ret_340",
     "intensidad": 7,
     "tipo": "reto",
     "texto": "[player] Nombra 9 errores que podrían empeorar esta situación: 'negar una atracción evidente'.",
@@ -3406,7 +3406,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2991,
+    "id": "ret_341",
     "intensidad": 7,
     "tipo": "reto",
     "texto": "[player] Explica una decisión sentimental como si hablaras con un extraterrestre.",
@@ -3416,7 +3416,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2992,
+    "id": "ret_342",
     "intensidad": 7,
     "tipo": "reto",
     "texto": "[player] Convierte negar una atracción evidente en un titular de noticias.",
@@ -3426,7 +3426,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2993,
+    "id": "ret_343",
     "intensidad": 7,
     "tipo": "reto",
     "texto": "[player] Haz una pose distinta por cada letra de 'deseo'.",
@@ -3436,7 +3436,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2994,
+    "id": "ret_344",
     "intensidad": 7,
     "tipo": "reto",
     "texto": "[player] Describe una carta de amor anónima sin decir su nombre hasta que lo adivinen.",
@@ -3446,7 +3446,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2995,
+    "id": "ret_345",
     "intensidad": 7,
     "tipo": "reto",
     "texto": "[player] Inventa el nombre y la receta de una bebida inspirada en una decisión sentimental.",
@@ -3456,7 +3456,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2996,
+    "id": "ret_346",
     "intensidad": 7,
     "tipo": "reto",
     "texto": "[player] Representa con una reacción dramática esta situación: 'negar una atracción evidente'.",
@@ -3466,7 +3466,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2997,
+    "id": "ret_347",
     "intensidad": 7,
     "tipo": "reto",
     "texto": "[player] Deja que el grupo elija una emoción y cuenta negar una atracción evidente expresándola.",
@@ -3476,7 +3476,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2998,
+    "id": "ret_348",
     "intensidad": 7,
     "tipo": "reto",
     "texto": "[player] Convence al grupo de que eres la mejor persona para resolver una decisión sentimental.",
@@ -3486,7 +3486,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 2999,
+    "id": "ret_349",
     "intensidad": 7,
     "tipo": "reto",
     "texto": "[player] Combina una frase de terapeuta sentimental, un paso de baile de conquista y una pose dramática.",
@@ -3496,7 +3496,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3000,
+    "id": "ret_350",
     "intensidad": 7,
     "tipo": "reto",
     "texto": "[player] Confiesa algo que haces para llamar la atención o representa durante 13 segundos cómo evitarías responder.",
@@ -3506,7 +3506,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3001,
+    "id": "ret_351",
     "intensidad": 8,
     "tipo": "reto",
     "texto": "[player] Nombra 10 ejemplos de premios Nobel en 8 segundos.",
@@ -3516,7 +3516,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3002,
+    "id": "ret_352",
     "intensidad": 8,
     "tipo": "reto",
     "texto": "[player] Di 10 palabras relacionadas con una confesión difícil sin repetir.",
@@ -3526,7 +3526,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3003,
+    "id": "ret_353",
     "intensidad": 8,
     "tipo": "reto",
     "texto": "[player] Convence al grupo de que 'un anillo misterioso' es indispensable y menciona 10 razones.",
@@ -3536,7 +3536,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3004,
+    "id": "ret_354",
     "intensidad": 8,
     "tipo": "reto",
     "texto": "[player] Repite 'cuando cuentes cuentos, cuenta cuántos cuentos cuentas' 5 veces sin equivocarte.",
@@ -3546,7 +3546,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3005,
+    "id": "ret_355",
     "intensidad": 8,
     "tipo": "reto",
     "texto": "[player] Deletrea 'engaño' al revés sin pausas.",
@@ -3556,7 +3556,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3006,
+    "id": "ret_356",
     "intensidad": 8,
     "tipo": "reto",
     "texto": "[player] Cuenta hacia atrás desde 70 omitiendo múltiplos de 2.",
@@ -3566,7 +3566,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3007,
+    "id": "ret_357",
     "intensidad": 8,
     "tipo": "reto",
     "texto": "[player] Resuelve mentalmente 105 + 65 - 11.",
@@ -3576,7 +3576,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3008,
+    "id": "ret_358",
     "intensidad": 8,
     "tipo": "reto",
     "texto": "[player] Imita a un periodista de un romance secreto durante 12 segundos.",
@@ -3586,7 +3586,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3009,
+    "id": "ret_359",
     "intensidad": 8,
     "tipo": "reto",
     "texto": "[player] Representa en silencio la situación 'descubrir una mentira en una cita' hasta que la adivinen.",
@@ -3596,7 +3596,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3010,
+    "id": "ret_360",
     "intensidad": 8,
     "tipo": "reto",
     "texto": "[player] Representa 'descubrir una mentira en una cita' usando solo sonidos.",
@@ -3606,7 +3606,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3011,
+    "id": "ret_361",
     "intensidad": 8,
     "tipo": "reto",
     "texto": "[player] Vende un anillo misterioso como si costara una fortuna.",
@@ -3616,7 +3616,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3012,
+    "id": "ret_362",
     "intensidad": 8,
     "tipo": "reto",
     "texto": "[player] Crea un eslogan para un anillo misterioso.",
@@ -3626,7 +3626,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3013,
+    "id": "ret_363",
     "intensidad": 8,
     "tipo": "reto",
     "texto": "[player] Haz un brindis de dos frases sobre una confesión difícil.",
@@ -3636,7 +3636,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3014,
+    "id": "ret_364",
     "intensidad": 8,
     "tipo": "reto",
     "texto": "[player] Defiende durante 16 segundos una opinión impopular sobre una confesión difícil.",
@@ -3646,7 +3646,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3015,
+    "id": "ret_365",
     "intensidad": 8,
     "tipo": "reto",
     "texto": "[player] Inventa una historia de 13 frases sobre descubrir una mentira en una cita.",
@@ -3656,7 +3656,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3016,
+    "id": "ret_366",
     "intensidad": 8,
     "tipo": "reto",
     "texto": "[player] Compón cuatro versos que incluyan 'engaño'.",
@@ -3666,7 +3666,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3017,
+    "id": "ret_367",
     "intensidad": 8,
     "tipo": "reto",
     "texto": "[player] Improvisa cuatro líneas de rap sobre una confesión difícil.",
@@ -3676,7 +3676,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3018,
+    "id": "ret_368",
     "intensidad": 8,
     "tipo": "reto",
     "texto": "[player] Canta un coro conocido al estilo baile de ruptura.",
@@ -3686,7 +3686,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3019,
+    "id": "ret_369",
     "intensidad": 8,
     "tipo": "reto",
     "texto": "[player] Baila al estilo baile de ruptura durante 11 segundos.",
@@ -3696,7 +3696,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3020,
+    "id": "ret_370",
     "intensidad": 8,
     "tipo": "reto",
     "texto": "[player] Haz una caminata de pasarela llevando un anillo misterioso como accesorio.",
@@ -3706,7 +3706,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3021,
+    "id": "ret_371",
     "intensidad": 8,
     "tipo": "reto",
     "texto": "[player] Mantén una pose dramática durante 10 segundos sin reír.",
@@ -3716,7 +3716,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3022,
+    "id": "ret_372",
     "intensidad": 8,
     "tipo": "reto",
     "texto": "[player] Haz reír al grupo en menos de 10 segundos sin tocar a nadie.",
@@ -3726,7 +3726,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3023,
+    "id": "ret_373",
     "intensidad": 8,
     "tipo": "reto",
     "texto": "[player] Habla como periodista de un romance secreto hasta tu próximo turno.",
@@ -3736,7 +3736,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3024,
+    "id": "ret_374",
     "intensidad": 8,
     "tipo": "reto",
     "texto": "[player] No digas 'mentira' hasta tu próximo turno.",
@@ -3746,7 +3746,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3025,
+    "id": "ret_375",
     "intensidad": 8,
     "tipo": "reto",
     "texto": "[player] Crea una regla de fiesta válida hasta tu próximo turno y comienza antes de que el grupo cuente hasta 11.",
@@ -3756,7 +3756,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3026,
+    "id": "ret_376",
     "intensidad": 8,
     "tipo": "reto",
     "texto": "[player] Pide tres palabras al grupo e improvisa una historia con ellas y comienza antes de que el grupo cuente hasta 11.",
@@ -3766,7 +3766,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3027,
+    "id": "ret_377",
     "intensidad": 8,
     "tipo": "reto",
     "texto": "[player] Da un discurso de premio por ser experto en una confesión difícil.",
@@ -3776,7 +3776,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3028,
+    "id": "ret_378",
     "intensidad": 8,
     "tipo": "reto",
     "texto": "[player] Improvisa una disculpa convincente por haber causado esta situación: 'descubrir una mentira en una cita'.",
@@ -3786,7 +3786,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3029,
+    "id": "ret_379",
     "intensidad": 8,
     "tipo": "reto",
     "texto": "[player] Da un consejo serio sobre una confesión difícil actuando como periodista de un romance secreto.",
@@ -3796,7 +3796,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3030,
+    "id": "ret_380",
     "intensidad": 8,
     "tipo": "reto",
     "texto": "[player] Cuenta una anécdota sobre una señal de alerta ignorada sin usar 'yo'.",
@@ -3806,7 +3806,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3031,
+    "id": "ret_381",
     "intensidad": 8,
     "tipo": "reto",
     "texto": "[player] Cuenta dos verdades y una mentira sobre una señal de alerta ignorada; el grupo adivina la mentira.",
@@ -3816,7 +3816,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3032,
+    "id": "ret_382",
     "intensidad": 8,
     "tipo": "reto",
     "texto": "[player] Responde en cinco segundos una pregunta del grupo sobre una confesión difícil.",
@@ -3826,7 +3826,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3033,
+    "id": "ret_383",
     "intensidad": 8,
     "tipo": "reto",
     "texto": "[player] Dedica un cumplido diferente a 6 personas y comienza antes de que el grupo cuente hasta 11.",
@@ -3836,7 +3836,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3034,
+    "id": "ret_384",
     "intensidad": 8,
     "tipo": "reto",
     "texto": "[player] Imita a una persona del grupo hasta que la adivinen y comienza antes de que el grupo cuente hasta 11.",
@@ -3846,7 +3846,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3035,
+    "id": "ret_385",
     "intensidad": 8,
     "tipo": "reto",
     "texto": "[player] Imita a una celebridad elegida por el grupo y comienza antes de que el grupo cuente hasta 11.",
@@ -3856,7 +3856,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3036,
+    "id": "ret_386",
     "intensidad": 8,
     "tipo": "reto",
     "texto": "[player] Haz una actuación en cámara lenta de descubrir una mentira en una cita.",
@@ -3866,7 +3866,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3037,
+    "id": "ret_387",
     "intensidad": 8,
     "tipo": "reto",
     "texto": "[player] Crea una secuencia de 12 palmadas y repítela.",
@@ -3876,7 +3876,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3038,
+    "id": "ret_388",
     "intensidad": 8,
     "tipo": "reto",
     "texto": "[player] Di los meses al revés antes de que cuenten hasta 14.",
@@ -3886,7 +3886,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3039,
+    "id": "ret_389",
     "intensidad": 8,
     "tipo": "reto",
     "texto": "[player] Recita el alfabeto omitiendo cada tercera letra y comienza antes de que el grupo cuente hasta 11.",
@@ -3896,7 +3896,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3040,
+    "id": "ret_390",
     "intensidad": 8,
     "tipo": "reto",
     "texto": "[player] Nombra 10 errores que podrían empeorar esta situación: 'descubrir una mentira en una cita'.",
@@ -3906,7 +3906,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3041,
+    "id": "ret_391",
     "intensidad": 8,
     "tipo": "reto",
     "texto": "[player] Explica una confesión difícil como si hablaras con un extraterrestre.",
@@ -3916,7 +3916,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3042,
+    "id": "ret_392",
     "intensidad": 8,
     "tipo": "reto",
     "texto": "[player] Convierte descubrir una mentira en una cita en un titular de noticias.",
@@ -3926,7 +3926,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3043,
+    "id": "ret_393",
     "intensidad": 8,
     "tipo": "reto",
     "texto": "[player] Haz una pose distinta por cada letra de 'engaño'.",
@@ -3936,7 +3936,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3044,
+    "id": "ret_394",
     "intensidad": 8,
     "tipo": "reto",
     "texto": "[player] Describe un anillo misterioso sin decir su nombre hasta que lo adivinen.",
@@ -3946,7 +3946,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3045,
+    "id": "ret_395",
     "intensidad": 8,
     "tipo": "reto",
     "texto": "[player] Inventa el nombre y la receta de una bebida inspirada en una confesión difícil.",
@@ -3956,7 +3956,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3046,
+    "id": "ret_396",
     "intensidad": 8,
     "tipo": "reto",
     "texto": "[player] Representa con una reacción dramática esta situación: 'descubrir una mentira en una cita'.",
@@ -3966,7 +3966,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3047,
+    "id": "ret_397",
     "intensidad": 8,
     "tipo": "reto",
     "texto": "[player] Deja que el grupo elija una emoción y cuenta descubrir una mentira en una cita expresándola.",
@@ -3976,7 +3976,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3048,
+    "id": "ret_398",
     "intensidad": 8,
     "tipo": "reto",
     "texto": "[player] Convence al grupo de que eres la mejor persona para resolver una confesión difícil.",
@@ -3986,7 +3986,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3049,
+    "id": "ret_399",
     "intensidad": 8,
     "tipo": "reto",
     "texto": "[player] Combina una frase de periodista de un romance secreto, un paso de baile de ruptura y una pose dramática.",
@@ -3996,7 +3996,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3050,
+    "id": "ret_400",
     "intensidad": 8,
     "tipo": "reto",
     "texto": "[player] Confiesa una señal de alerta ignorada o representa durante 12 segundos cómo evitarías responder.",
@@ -4006,7 +4006,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3051,
+    "id": "ret_401",
     "intensidad": 9,
     "tipo": "reto",
     "texto": "[player] Nombra 11 ejemplos de paradojas en 7 segundos.",
@@ -4016,7 +4016,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3052,
+    "id": "ret_402",
     "intensidad": 9,
     "tipo": "reto",
     "texto": "[player] Di 11 palabras relacionadas con una decisión con consecuencias sin repetir.",
@@ -4026,7 +4026,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3053,
+    "id": "ret_403",
     "intensidad": 9,
     "tipo": "reto",
     "texto": "[player] Convence al grupo de que 'un chat secreto' es indispensable y menciona 11 razones.",
@@ -4036,7 +4036,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3054,
+    "id": "ret_404",
     "intensidad": 9,
     "tipo": "reto",
     "texto": "[player] Repite 'poquito a poquito Paquito empaca copitos' 6 veces sin equivocarte.",
@@ -4046,7 +4046,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3055,
+    "id": "ret_405",
     "intensidad": 9,
     "tipo": "reto",
     "texto": "[player] Deletrea 'traición' al revés sin pausas.",
@@ -4056,7 +4056,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3056,
+    "id": "ret_406",
     "intensidad": 9,
     "tipo": "reto",
     "texto": "[player] Cuenta hacia atrás desde 75 omitiendo múltiplos de 3.",
@@ -4066,7 +4066,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3057,
+    "id": "ret_407",
     "intensidad": 9,
     "tipo": "reto",
     "texto": "[player] Resuelve mentalmente 116 + 72 - 12.",
@@ -4076,7 +4076,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3058,
+    "id": "ret_408",
     "intensidad": 9,
     "tipo": "reto",
     "texto": "[player] Imita a un juez de una discusión sentimental durante 11 segundos.",
@@ -4086,7 +4086,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3059,
+    "id": "ret_409",
     "intensidad": 9,
     "tipo": "reto",
     "texto": "[player] Representa en silencio la situación 'enfrentar dos versiones distintas' hasta que la adivinen.",
@@ -4096,7 +4096,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3060,
+    "id": "ret_410",
     "intensidad": 9,
     "tipo": "reto",
     "texto": "[player] Representa 'enfrentar dos versiones distintas' usando solo sonidos.",
@@ -4106,7 +4106,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3061,
+    "id": "ret_411",
     "intensidad": 9,
     "tipo": "reto",
     "texto": "[player] Vende un chat secreto como si costara una fortuna.",
@@ -4116,7 +4116,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3062,
+    "id": "ret_412",
     "intensidad": 9,
     "tipo": "reto",
     "texto": "[player] Crea un eslogan para un chat secreto.",
@@ -4126,7 +4126,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3063,
+    "id": "ret_413",
     "intensidad": 9,
     "tipo": "reto",
     "texto": "[player] Haz un brindis de dos frases sobre una decisión con consecuencias.",
@@ -4136,7 +4136,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3064,
+    "id": "ret_414",
     "intensidad": 9,
     "tipo": "reto",
     "texto": "[player] Defiende durante 15 segundos una opinión impopular sobre una decisión con consecuencias.",
@@ -4146,7 +4146,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3065,
+    "id": "ret_415",
     "intensidad": 9,
     "tipo": "reto",
     "texto": "[player] Inventa una historia de 14 frases sobre enfrentar dos versiones distintas.",
@@ -4156,7 +4156,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3066,
+    "id": "ret_416",
     "intensidad": 9,
     "tipo": "reto",
     "texto": "[player] Compón cuatro versos que incluyan 'traición'.",
@@ -4166,7 +4166,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3067,
+    "id": "ret_417",
     "intensidad": 9,
     "tipo": "reto",
     "texto": "[player] Improvisa cuatro líneas de rap sobre una decisión con consecuencias.",
@@ -4176,7 +4176,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3068,
+    "id": "ret_418",
     "intensidad": 9,
     "tipo": "reto",
     "texto": "[player] Canta un coro conocido al estilo baile de disculpa.",
@@ -4186,7 +4186,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3069,
+    "id": "ret_419",
     "intensidad": 9,
     "tipo": "reto",
     "texto": "[player] Baila al estilo baile de disculpa durante 10 segundos.",
@@ -4196,7 +4196,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3070,
+    "id": "ret_420",
     "intensidad": 9,
     "tipo": "reto",
     "texto": "[player] Haz una caminata de pasarela llevando un chat secreto como accesorio.",
@@ -4206,7 +4206,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3071,
+    "id": "ret_421",
     "intensidad": 9,
     "tipo": "reto",
     "texto": "[player] Mantén una pose dramática durante 9 segundos sin reír.",
@@ -4216,7 +4216,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3072,
+    "id": "ret_422",
     "intensidad": 9,
     "tipo": "reto",
     "texto": "[player] Haz reír al grupo en menos de 9 segundos sin tocar a nadie.",
@@ -4226,7 +4226,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3073,
+    "id": "ret_423",
     "intensidad": 9,
     "tipo": "reto",
     "texto": "[player] Habla como juez de una discusión sentimental hasta tu próximo turno.",
@@ -4236,7 +4236,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3074,
+    "id": "ret_424",
     "intensidad": 9,
     "tipo": "reto",
     "texto": "[player] No digas 'perdón' hasta tu próximo turno.",
@@ -4246,7 +4246,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3075,
+    "id": "ret_425",
     "intensidad": 9,
     "tipo": "reto",
     "texto": "[player] Crea una regla de fiesta válida hasta tu próximo turno y comienza antes de que el grupo cuente hasta 12.",
@@ -4256,7 +4256,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3076,
+    "id": "ret_426",
     "intensidad": 9,
     "tipo": "reto",
     "texto": "[player] Pide tres palabras al grupo e improvisa una historia con ellas y comienza antes de que el grupo cuente hasta 12.",
@@ -4266,7 +4266,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3077,
+    "id": "ret_427",
     "intensidad": 9,
     "tipo": "reto",
     "texto": "[player] Da un discurso de premio por ser experto en una decisión con consecuencias.",
@@ -4276,7 +4276,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3078,
+    "id": "ret_428",
     "intensidad": 9,
     "tipo": "reto",
     "texto": "[player] Improvisa una disculpa convincente por haber causado esta situación: 'enfrentar dos versiones distintas'.",
@@ -4286,7 +4286,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3079,
+    "id": "ret_429",
     "intensidad": 9,
     "tipo": "reto",
     "texto": "[player] Da un consejo serio sobre una decisión con consecuencias actuando como juez de una discusión sentimental.",
@@ -4296,7 +4296,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3080,
+    "id": "ret_430",
     "intensidad": 9,
     "tipo": "reto",
     "texto": "[player] Cuenta una anécdota sobre una conversación evitada sin usar 'yo'.",
@@ -4306,7 +4306,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3081,
+    "id": "ret_431",
     "intensidad": 9,
     "tipo": "reto",
     "texto": "[player] Cuenta dos verdades y una mentira sobre una conversación evitada; el grupo adivina la mentira.",
@@ -4316,7 +4316,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3082,
+    "id": "ret_432",
     "intensidad": 9,
     "tipo": "reto",
     "texto": "[player] Responde en cinco segundos una pregunta del grupo sobre una decisión con consecuencias.",
@@ -4326,7 +4326,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3083,
+    "id": "ret_433",
     "intensidad": 9,
     "tipo": "reto",
     "texto": "[player] Dedica un cumplido diferente a 6 personas y comienza antes de que el grupo cuente hasta 12.",
@@ -4336,7 +4336,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3084,
+    "id": "ret_434",
     "intensidad": 9,
     "tipo": "reto",
     "texto": "[player] Imita a una persona del grupo hasta que la adivinen y comienza antes de que el grupo cuente hasta 12.",
@@ -4346,7 +4346,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3085,
+    "id": "ret_435",
     "intensidad": 9,
     "tipo": "reto",
     "texto": "[player] Imita a una celebridad elegida por el grupo y comienza antes de que el grupo cuente hasta 12.",
@@ -4356,7 +4356,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3086,
+    "id": "ret_436",
     "intensidad": 9,
     "tipo": "reto",
     "texto": "[player] Haz una actuación en cámara lenta de enfrentar dos versiones distintas.",
@@ -4366,7 +4366,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3087,
+    "id": "ret_437",
     "intensidad": 9,
     "tipo": "reto",
     "texto": "[player] Crea una secuencia de 13 palmadas y repítela.",
@@ -4376,7 +4376,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3088,
+    "id": "ret_438",
     "intensidad": 9,
     "tipo": "reto",
     "texto": "[player] Di los meses al revés antes de que cuenten hasta 13.",
@@ -4386,7 +4386,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3089,
+    "id": "ret_439",
     "intensidad": 9,
     "tipo": "reto",
     "texto": "[player] Recita el alfabeto omitiendo cada tercera letra y comienza antes de que el grupo cuente hasta 12.",
@@ -4396,7 +4396,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3090,
+    "id": "ret_440",
     "intensidad": 9,
     "tipo": "reto",
     "texto": "[player] Nombra 11 errores que podrían empeorar esta situación: 'enfrentar dos versiones distintas'.",
@@ -4406,7 +4406,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3091,
+    "id": "ret_441",
     "intensidad": 9,
     "tipo": "reto",
     "texto": "[player] Explica una decisión con consecuencias como si hablaras con un extraterrestre.",
@@ -4416,7 +4416,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3092,
+    "id": "ret_442",
     "intensidad": 9,
     "tipo": "reto",
     "texto": "[player] Convierte enfrentar dos versiones distintas en un titular de noticias.",
@@ -4426,7 +4426,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3093,
+    "id": "ret_443",
     "intensidad": 9,
     "tipo": "reto",
     "texto": "[player] Haz una pose distinta por cada letra de 'traici'.",
@@ -4436,7 +4436,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3094,
+    "id": "ret_444",
     "intensidad": 9,
     "tipo": "reto",
     "texto": "[player] Describe un chat secreto sin decir su nombre hasta que lo adivinen.",
@@ -4446,7 +4446,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3095,
+    "id": "ret_445",
     "intensidad": 9,
     "tipo": "reto",
     "texto": "[player] Inventa el nombre y la receta de una bebida inspirada en una decisión con consecuencias.",
@@ -4456,7 +4456,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3096,
+    "id": "ret_446",
     "intensidad": 9,
     "tipo": "reto",
     "texto": "[player] Representa con una reacción dramática esta situación: 'enfrentar dos versiones distintas'.",
@@ -4466,7 +4466,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3097,
+    "id": "ret_447",
     "intensidad": 9,
     "tipo": "reto",
     "texto": "[player] Deja que el grupo elija una emoción y cuenta enfrentar dos versiones distintas expresándola.",
@@ -4476,7 +4476,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3098,
+    "id": "ret_448",
     "intensidad": 9,
     "tipo": "reto",
     "texto": "[player] Convence al grupo de que eres la mejor persona para resolver una decisión con consecuencias.",
@@ -4486,7 +4486,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3099,
+    "id": "ret_449",
     "intensidad": 9,
     "tipo": "reto",
     "texto": "[player] Combina una frase de juez de una discusión sentimental, un paso de baile de disculpa y una pose dramática.",
@@ -4496,7 +4496,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3100,
+    "id": "ret_450",
     "intensidad": 9,
     "tipo": "reto",
     "texto": "[player] Confiesa una conversación evitada o representa durante 11 segundos cómo evitarías responder.",
@@ -4506,7 +4506,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3101,
+    "id": "ret_451",
     "intensidad": 10,
     "tipo": "reto",
     "texto": "[player] Nombra 12 ejemplos de problemas matemáticos en 6 segundos.",
@@ -4516,7 +4516,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3102,
+    "id": "ret_452",
     "intensidad": 10,
     "tipo": "reto",
     "texto": "[player] Di 12 palabras relacionadas con una verdad impopular sin repetir.",
@@ -4526,7 +4526,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3103,
+    "id": "ret_453",
     "intensidad": 10,
     "tipo": "reto",
     "texto": "[player] Convence al grupo de que 'una evidencia misteriosa' es indispensable y menciona 12 razones.",
@@ -4536,7 +4536,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3104,
+    "id": "ret_454",
     "intensidad": 10,
     "tipo": "reto",
     "texto": "[player] Repite 'si tu gusto gustara del gusto que gusta mi gusto' 6 veces sin equivocarte.",
@@ -4546,7 +4546,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3105,
+    "id": "ret_455",
     "intensidad": 10,
     "tipo": "reto",
     "texto": "[player] Deletrea 'consecuencia' al revés sin pausas.",
@@ -4556,7 +4556,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3106,
+    "id": "ret_456",
     "intensidad": 10,
     "tipo": "reto",
     "texto": "[player] Cuenta hacia atrás desde 80 omitiendo múltiplos de 4.",
@@ -4566,7 +4566,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3107,
+    "id": "ret_457",
     "intensidad": 10,
     "tipo": "reto",
     "texto": "[player] Resuelve mentalmente 127 + 79 - 13.",
@@ -4576,7 +4576,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3108,
+    "id": "ret_458",
     "intensidad": 10,
     "tipo": "reto",
     "texto": "[player] Imita a un portavoz después de un escándalo durante 10 segundos.",
@@ -4586,7 +4586,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3109,
+    "id": "ret_459",
     "intensidad": 10,
     "tipo": "reto",
     "texto": "[player] Representa en silencio la situación 'pedir perdón por una traición' hasta que la adivinen.",
@@ -4596,7 +4596,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3110,
+    "id": "ret_460",
     "intensidad": 10,
     "tipo": "reto",
     "texto": "[player] Representa 'pedir perdón por una traición' usando solo sonidos.",
@@ -4606,7 +4606,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3111,
+    "id": "ret_461",
     "intensidad": 10,
     "tipo": "reto",
     "texto": "[player] Vende una evidencia misteriosa como si costara una fortuna.",
@@ -4616,7 +4616,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3112,
+    "id": "ret_462",
     "intensidad": 10,
     "tipo": "reto",
     "texto": "[player] Crea un eslogan para una evidencia misteriosa.",
@@ -4626,7 +4626,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3113,
+    "id": "ret_463",
     "intensidad": 10,
     "tipo": "reto",
     "texto": "[player] Haz un brindis de dos frases sobre una verdad impopular.",
@@ -4636,7 +4636,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3114,
+    "id": "ret_464",
     "intensidad": 10,
     "tipo": "reto",
     "texto": "[player] Defiende durante 14 segundos una opinión impopular sobre una verdad impopular.",
@@ -4646,7 +4646,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3115,
+    "id": "ret_465",
     "intensidad": 10,
     "tipo": "reto",
     "texto": "[player] Inventa una historia de 15 frases sobre pedir perdón por una traición.",
@@ -4656,7 +4656,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3116,
+    "id": "ret_466",
     "intensidad": 10,
     "tipo": "reto",
     "texto": "[player] Compón cuatro versos que incluyan 'consecuencia'.",
@@ -4666,7 +4666,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3117,
+    "id": "ret_467",
     "intensidad": 10,
     "tipo": "reto",
     "texto": "[player] Improvisa cuatro líneas de rap sobre una verdad impopular.",
@@ -4676,7 +4676,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3118,
+    "id": "ret_468",
     "intensidad": 10,
     "tipo": "reto",
     "texto": "[player] Canta un coro conocido al estilo baile de última oportunidad.",
@@ -4686,7 +4686,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3119,
+    "id": "ret_469",
     "intensidad": 10,
     "tipo": "reto",
     "texto": "[player] Baila al estilo baile de última oportunidad durante 9 segundos.",
@@ -4696,7 +4696,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3120,
+    "id": "ret_470",
     "intensidad": 10,
     "tipo": "reto",
     "texto": "[player] Haz una caminata de pasarela llevando una evidencia misteriosa como accesorio.",
@@ -4706,7 +4706,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3121,
+    "id": "ret_471",
     "intensidad": 10,
     "tipo": "reto",
     "texto": "[player] Mantén una pose dramática durante 8 segundos sin reír.",
@@ -4716,7 +4716,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3122,
+    "id": "ret_472",
     "intensidad": 10,
     "tipo": "reto",
     "texto": "[player] Haz reír al grupo en menos de 8 segundos sin tocar a nadie.",
@@ -4726,7 +4726,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3123,
+    "id": "ret_473",
     "intensidad": 10,
     "tipo": "reto",
     "texto": "[player] Habla como portavoz después de un escándalo hasta tu próximo turno.",
@@ -4736,7 +4736,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3124,
+    "id": "ret_474",
     "intensidad": 10,
     "tipo": "reto",
     "texto": "[player] No digas 'consecuencia' hasta tu próximo turno.",
@@ -4746,7 +4746,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3125,
+    "id": "ret_475",
     "intensidad": 10,
     "tipo": "reto",
     "texto": "[player] Crea una regla de fiesta válida hasta tu próximo turno y comienza antes de que el grupo cuente hasta 13.",
@@ -4756,7 +4756,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3126,
+    "id": "ret_476",
     "intensidad": 10,
     "tipo": "reto",
     "texto": "[player] Pide tres palabras al grupo e improvisa una historia con ellas y comienza antes de que el grupo cuente hasta 13.",
@@ -4766,7 +4766,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3127,
+    "id": "ret_477",
     "intensidad": 10,
     "tipo": "reto",
     "texto": "[player] Da un discurso de premio por ser experto en una verdad impopular.",
@@ -4776,7 +4776,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3128,
+    "id": "ret_478",
     "intensidad": 10,
     "tipo": "reto",
     "texto": "[player] Improvisa una disculpa convincente por haber causado esta situación: 'pedir perdón por una traición'.",
@@ -4786,7 +4786,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3129,
+    "id": "ret_479",
     "intensidad": 10,
     "tipo": "reto",
     "texto": "[player] Da un consejo serio sobre una verdad impopular actuando como portavoz después de un escándalo.",
@@ -4796,7 +4796,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3130,
+    "id": "ret_480",
     "intensidad": 10,
     "tipo": "reto",
     "texto": "[player] Cuenta una anécdota sobre una verdad que sueles suavizar sin usar 'yo'.",
@@ -4806,7 +4806,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3131,
+    "id": "ret_481",
     "intensidad": 10,
     "tipo": "reto",
     "texto": "[player] Cuenta dos verdades y una mentira sobre una verdad que sueles suavizar; el grupo adivina la mentira.",
@@ -4816,7 +4816,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3132,
+    "id": "ret_482",
     "intensidad": 10,
     "tipo": "reto",
     "texto": "[player] Responde en cinco segundos una pregunta del grupo sobre una verdad impopular.",
@@ -4826,7 +4826,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3133,
+    "id": "ret_483",
     "intensidad": 10,
     "tipo": "reto",
     "texto": "[player] Dedica un cumplido diferente a 6 personas y comienza antes de que el grupo cuente hasta 13.",
@@ -4836,7 +4836,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3134,
+    "id": "ret_484",
     "intensidad": 10,
     "tipo": "reto",
     "texto": "[player] Imita a una persona del grupo hasta que la adivinen y comienza antes de que el grupo cuente hasta 13.",
@@ -4846,7 +4846,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3135,
+    "id": "ret_485",
     "intensidad": 10,
     "tipo": "reto",
     "texto": "[player] Imita a una celebridad elegida por el grupo y comienza antes de que el grupo cuente hasta 13.",
@@ -4856,7 +4856,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3136,
+    "id": "ret_486",
     "intensidad": 10,
     "tipo": "reto",
     "texto": "[player] Haz una actuación en cámara lenta de pedir perdón por una traición.",
@@ -4866,7 +4866,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3137,
+    "id": "ret_487",
     "intensidad": 10,
     "tipo": "reto",
     "texto": "[player] Crea una secuencia de 14 palmadas y repítela.",
@@ -4876,7 +4876,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3138,
+    "id": "ret_488",
     "intensidad": 10,
     "tipo": "reto",
     "texto": "[player] Di los meses al revés antes de que cuenten hasta 12.",
@@ -4886,7 +4886,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3139,
+    "id": "ret_489",
     "intensidad": 10,
     "tipo": "reto",
     "texto": "[player] Recita el alfabeto omitiendo cada tercera letra y comienza antes de que el grupo cuente hasta 13.",
@@ -4896,7 +4896,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3140,
+    "id": "ret_490",
     "intensidad": 10,
     "tipo": "reto",
     "texto": "[player] Nombra 12 errores que podrían empeorar esta situación: 'pedir perdón por una traición'.",
@@ -4906,7 +4906,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3141,
+    "id": "ret_491",
     "intensidad": 10,
     "tipo": "reto",
     "texto": "[player] Explica una verdad impopular como si hablaras con un extraterrestre.",
@@ -4916,7 +4916,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3142,
+    "id": "ret_492",
     "intensidad": 10,
     "tipo": "reto",
     "texto": "[player] Convierte pedir perdón por una traición en un titular de noticias.",
@@ -4926,7 +4926,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3143,
+    "id": "ret_493",
     "intensidad": 10,
     "tipo": "reto",
     "texto": "[player] Haz una pose distinta por cada letra de 'consec'.",
@@ -4936,7 +4936,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3144,
+    "id": "ret_494",
     "intensidad": 10,
     "tipo": "reto",
     "texto": "[player] Describe una evidencia misteriosa sin decir su nombre hasta que lo adivinen.",
@@ -4946,7 +4946,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3145,
+    "id": "ret_495",
     "intensidad": 10,
     "tipo": "reto",
     "texto": "[player] Inventa el nombre y la receta de una bebida inspirada en una verdad impopular.",
@@ -4956,7 +4956,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3146,
+    "id": "ret_496",
     "intensidad": 10,
     "tipo": "reto",
     "texto": "[player] Representa con una reacción dramática esta situación: 'pedir perdón por una traición'.",
@@ -4966,7 +4966,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3147,
+    "id": "ret_497",
     "intensidad": 10,
     "tipo": "reto",
     "texto": "[player] Deja que el grupo elija una emoción y cuenta pedir perdón por una traición expresándola.",
@@ -4976,7 +4976,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3148,
+    "id": "ret_498",
     "intensidad": 10,
     "tipo": "reto",
     "texto": "[player] Convence al grupo de que eres la mejor persona para resolver una verdad impopular.",
@@ -4986,7 +4986,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3149,
+    "id": "ret_499",
     "intensidad": 10,
     "tipo": "reto",
     "texto": "[player] Combina una frase de portavoz después de un escándalo, un paso de baile de última oportunidad y una pose dramática.",
@@ -4996,7 +4996,7 @@ export const retoCards = [
     "participantes": "uno"
   },
   {
-    "id": 3150,
+    "id": "ret_500",
     "intensidad": 10,
     "tipo": "reto",
     "texto": "[player] Confiesa una verdad que sueles suavizar o representa durante 10 segundos cómo evitarías responder.",

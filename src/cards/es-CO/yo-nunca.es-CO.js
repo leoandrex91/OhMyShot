@@ -6,7 +6,7 @@
 
 export const yoNuncaCards = [
   {
-    "id": 1551,
+    "id": "yon_1",
     "intensidad": 1,
     "tipo": "yo nunca",
     "texto": "Yo nunca he fingido entender un chiste para no quedar mal",
@@ -16,7 +16,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1552,
+    "id": "yon_2",
     "intensidad": 1,
     "tipo": "yo nunca",
     "texto": "Yo nunca he enviado un mensaje al chat equivocado y he intentado borrarlo antes de que lo vieran",
@@ -26,7 +26,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1553,
+    "id": "yon_3",
     "intensidad": 1,
     "tipo": "yo nunca",
     "texto": "Yo nunca he ensayado una conversación completa estando a solas",
@@ -36,7 +36,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1554,
+    "id": "yon_4",
     "intensidad": 1,
     "tipo": "yo nunca",
     "texto": "Yo nunca he revisado el teléfono aunque sabía que no había llegado ninguna notificación",
@@ -46,7 +46,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1555,
+    "id": "yon_5",
     "intensidad": 1,
     "tipo": "yo nunca",
     "texto": "Yo nunca he asentido como si hubiera escuchado algo que en realidad no entendí",
@@ -56,7 +56,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1556,
+    "id": "yon_6",
     "intensidad": 1,
     "tipo": "yo nunca",
     "texto": "Yo nunca he olvidado el nombre de alguien pocos minutos después de conocerlo",
@@ -66,7 +66,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1557,
+    "id": "yon_7",
     "intensidad": 1,
     "tipo": "yo nunca",
     "texto": "Yo nunca he fingido estar ocupado para evitar un saludo incómodo",
@@ -76,7 +76,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1558,
+    "id": "yon_8",
     "intensidad": 1,
     "tipo": "yo nunca",
     "texto": "Yo nunca he culpado al autocorrector por un mensaje que escribí conscientemente",
@@ -86,7 +86,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1559,
+    "id": "yon_9",
     "intensidad": 1,
     "tipo": "yo nunca",
     "texto": "Yo nunca he guardado un recuerdo absurdo porque me daba pena tirarlo",
@@ -96,7 +96,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1560,
+    "id": "yon_10",
     "intensidad": 1,
     "tipo": "yo nunca",
     "texto": "Yo nunca he buscado mi propio nombre en internet por curiosidad",
@@ -106,7 +106,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1561,
+    "id": "yon_11",
     "intensidad": 1,
     "tipo": "yo nunca",
     "texto": "Yo nunca he cantado una canción con la letra equivocada y mucha seguridad",
@@ -116,7 +116,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1562,
+    "id": "yon_12",
     "intensidad": 1,
     "tipo": "yo nunca",
     "texto": "Yo nunca he llegado demasiado temprano y he esperado afuera para que nadie lo notara",
@@ -126,7 +126,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1563,
+    "id": "yon_13",
     "intensidad": 1,
     "tipo": "yo nunca",
     "texto": "Yo nunca he fingido haber visto una película para poder participar en la conversación",
@@ -136,7 +136,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1564,
+    "id": "yon_14",
     "intensidad": 1,
     "tipo": "yo nunca",
     "texto": "Yo nunca he fotografiado la comida mientras todos esperaban para empezar",
@@ -146,7 +146,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1565,
+    "id": "yon_15",
     "intensidad": 1,
     "tipo": "yo nunca",
     "texto": "Yo nunca he cambiado de ropa tres veces antes de salir",
@@ -156,7 +156,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1566,
+    "id": "yon_16",
     "intensidad": 1,
     "tipo": "yo nunca",
     "texto": "Yo nunca he hablado con una mascota como si pudiera responderme",
@@ -166,7 +166,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1567,
+    "id": "yon_17",
     "intensidad": 1,
     "tipo": "yo nunca",
     "texto": "Yo nunca he hecho una lista importante y luego la he perdido",
@@ -176,7 +176,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1568,
+    "id": "yon_18",
     "intensidad": 1,
     "tipo": "yo nunca",
     "texto": "Yo nunca he usado el clima como excusa para no salir",
@@ -186,7 +186,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1569,
+    "id": "yon_19",
     "intensidad": 1,
     "tipo": "yo nunca",
     "texto": "Yo nunca he practicado una expresión frente al espejo antes de una foto",
@@ -196,7 +196,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1570,
+    "id": "yon_20",
     "intensidad": 1,
     "tipo": "yo nunca",
     "texto": "Yo nunca he dejado una pestaña del navegador abierta durante semanas porque algún día la leería",
@@ -206,7 +206,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1571,
+    "id": "yon_21",
     "intensidad": 1,
     "tipo": "yo nunca",
     "texto": "Yo nunca he regresado a comprobar una puerta que ya sabía que había cerrado",
@@ -216,7 +216,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1572,
+    "id": "yon_22",
     "intensidad": 1,
     "tipo": "yo nunca",
     "texto": "Yo nunca he inventado una palabra y he actuado como si fuera real",
@@ -226,7 +226,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1573,
+    "id": "yon_23",
     "intensidad": 1,
     "tipo": "yo nunca",
     "texto": "Yo nunca he guardado una caja vacía pensando que algún día sería útil",
@@ -236,7 +236,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1574,
+    "id": "yon_24",
     "intensidad": 1,
     "tipo": "yo nunca",
     "texto": "Yo nunca he empezado a reír a solas por recordar algo de hace años",
@@ -246,7 +246,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1575,
+    "id": "yon_25",
     "intensidad": 1,
     "tipo": "yo nunca",
     "texto": "Yo nunca he fingido reconocer a alguien que claramente me conocía",
@@ -256,7 +256,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1576,
+    "id": "yon_26",
     "intensidad": 1,
     "tipo": "yo nunca",
     "texto": "Yo nunca he llevado una prenda al revés sin darme cuenta",
@@ -266,7 +266,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1577,
+    "id": "yon_27",
     "intensidad": 1,
     "tipo": "yo nunca",
     "texto": "Yo nunca he entrado a una habitación y he olvidado por completo para qué iba",
@@ -276,7 +276,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1578,
+    "id": "yon_28",
     "intensidad": 1,
     "tipo": "yo nunca",
     "texto": "Yo nunca he escrito un mensaje largo y lo he borrado sin enviarlo",
@@ -286,7 +286,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1579,
+    "id": "yon_29",
     "intensidad": 1,
     "tipo": "yo nunca",
     "texto": "Yo nunca he imaginado una discusión y la he ganado en mi cabeza",
@@ -296,7 +296,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1580,
+    "id": "yon_30",
     "intensidad": 1,
     "tipo": "yo nunca",
     "texto": "Yo nunca he creado una historia completa antes de dormir que nunca ocurrió",
@@ -306,7 +306,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1581,
+    "id": "yon_31",
     "intensidad": 2,
     "tipo": "yo nunca",
     "texto": "Yo nunca he saludado con entusiasmo a alguien que no estaba saludándome",
@@ -316,7 +316,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1582,
+    "id": "yon_32",
     "intensidad": 2,
     "tipo": "yo nunca",
     "texto": "Yo nunca he empujado una puerta que decía claramente 'halar'",
@@ -326,7 +326,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1583,
+    "id": "yon_33",
     "intensidad": 2,
     "tipo": "yo nunca",
     "texto": "Yo nunca he tropezado en un piso completamente plano y he mirado alrededor",
@@ -336,7 +336,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1584,
+    "id": "yon_34",
     "intensidad": 2,
     "tipo": "yo nunca",
     "texto": "Yo nunca he derramado una bebida mientras intentaba brindar",
@@ -346,7 +346,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1585,
+    "id": "yon_35",
     "intensidad": 2,
     "tipo": "yo nunca",
     "texto": "Yo nunca he fingido una llamada para evitar un silencio incómodo",
@@ -356,7 +356,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1586,
+    "id": "yon_36",
     "intensidad": 2,
     "tipo": "yo nunca",
     "texto": "Yo nunca he olvidado la billetera después de haber pedido algo",
@@ -366,7 +366,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1587,
+    "id": "yon_37",
     "intensidad": 2,
     "tipo": "yo nunca",
     "texto": "Yo nunca he pasado de largo mi parada por estar distraído",
@@ -376,7 +376,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1588,
+    "id": "yon_38",
     "intensidad": 2,
     "tipo": "yo nunca",
     "texto": "Yo nunca he usado medias diferentes sin notarlo hasta mucho después",
@@ -386,7 +386,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1589,
+    "id": "yon_39",
     "intensidad": 2,
     "tipo": "yo nunca",
     "texto": "Yo nunca he tomado una foto con la cámara tapada",
@@ -396,7 +396,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1590,
+    "id": "yon_40",
     "intensidad": 2,
     "tipo": "yo nunca",
     "texto": "Yo nunca he buscado mis gafas mientras las llevaba puestas",
@@ -406,7 +406,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1591,
+    "id": "yon_41",
     "intensidad": 2,
     "tipo": "yo nunca",
     "texto": "Yo nunca me he quedado fuera de casa por olvidar las llaves",
@@ -416,7 +416,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1592,
+    "id": "yon_42",
     "intensidad": 2,
     "tipo": "yo nunca",
     "texto": "Yo nunca he llamado a alguien por el nombre equivocado más de una vez",
@@ -426,7 +426,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1593,
+    "id": "yon_43",
     "intensidad": 2,
     "tipo": "yo nunca",
     "texto": "Yo nunca he enviado un sticker completamente inapropiado para la conversación",
@@ -436,7 +436,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1594,
+    "id": "yon_44",
     "intensidad": 2,
     "tipo": "yo nunca",
     "texto": "Yo nunca me he quedado dormido durante una película que yo mismo elegí",
@@ -446,7 +446,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1595,
+    "id": "yon_45",
     "intensidad": 2,
     "tipo": "yo nunca",
     "texto": "Yo nunca he dicho 'ya voy en camino' cuando todavía no había salido",
@@ -456,7 +456,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1596,
+    "id": "yon_46",
     "intensidad": 2,
     "tipo": "yo nunca",
     "texto": "Yo nunca he escondido algo que rompí esperando que nadie lo notara",
@@ -466,7 +466,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1597,
+    "id": "yon_47",
     "intensidad": 2,
     "tipo": "yo nunca",
     "texto": "Yo nunca he contado la misma anécdota dos veces a las mismas personas",
@@ -476,7 +476,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1598,
+    "id": "yon_48",
     "intensidad": 2,
     "tipo": "yo nunca",
     "texto": "Yo nunca he caminado en la dirección equivocada después de despedirme",
@@ -486,7 +486,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1599,
+    "id": "yon_49",
     "intensidad": 2,
     "tipo": "yo nunca",
     "texto": "Yo nunca he seguido saludando porque no sabía si el saludo era para mí",
@@ -496,7 +496,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1600,
+    "id": "yon_50",
     "intensidad": 2,
     "tipo": "yo nunca",
     "texto": "Yo nunca he bailado pensando que nadie me estaba mirando",
@@ -506,7 +506,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1601,
+    "id": "yon_51",
     "intensidad": 2,
     "tipo": "yo nunca",
     "texto": "Yo nunca he quemado una comida que parecía imposible de arruinar",
@@ -516,7 +516,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1602,
+    "id": "yon_52",
     "intensidad": 2,
     "tipo": "yo nunca",
     "texto": "Yo nunca he usado la calculadora para una operación vergonzosamente sencilla",
@@ -526,7 +526,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1603,
+    "id": "yon_53",
     "intensidad": 2,
     "tipo": "yo nunca",
     "texto": "Yo nunca he guardado algo en el refrigerador que no pertenecía allí",
@@ -536,7 +536,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1604,
+    "id": "yon_54",
     "intensidad": 2,
     "tipo": "yo nunca",
     "texto": "Yo nunca he tardado demasiado en entender un chiste evidente",
@@ -546,7 +546,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1605,
+    "id": "yon_55",
     "intensidad": 2,
     "tipo": "yo nunca",
     "texto": "Yo nunca he respondido una pregunta que no estaba dirigida a mí",
@@ -556,7 +556,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1606,
+    "id": "yon_56",
     "intensidad": 2,
     "tipo": "yo nunca",
     "texto": "Yo nunca he fingido conocer una dirección para no admitir que estaba perdido",
@@ -566,7 +566,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1607,
+    "id": "yon_57",
     "intensidad": 2,
     "tipo": "yo nunca",
     "texto": "Yo nunca he olvidado el paraguas el único día que realmente lo necesitaba",
@@ -576,7 +576,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1608,
+    "id": "yon_58",
     "intensidad": 2,
     "tipo": "yo nunca",
     "texto": "Yo nunca me han descubierto mientras intentaba tomarme una selfie",
@@ -586,7 +586,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1609,
+    "id": "yon_59",
     "intensidad": 2,
     "tipo": "yo nunca",
     "texto": "Yo nunca me he reído mientras bebía y ha salido todo mal",
@@ -596,7 +596,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1610,
+    "id": "yon_60",
     "intensidad": 2,
     "tipo": "yo nunca",
     "texto": "Yo nunca he confundido dos nombres durante la misma conversación",
@@ -606,7 +606,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1611,
+    "id": "yon_61",
     "intensidad": 3,
     "tipo": "yo nunca",
     "texto": "Yo nunca he silenciado un chat grupal y luego me he quejado de no enterarme de nada",
@@ -616,7 +616,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1612,
+    "id": "yon_62",
     "intensidad": 3,
     "tipo": "yo nunca",
     "texto": "Yo nunca he revisado un perfil tan antiguo que casi doy 'me gusta' por accidente",
@@ -626,7 +626,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1613,
+    "id": "yon_63",
     "intensidad": 3,
     "tipo": "yo nunca",
     "texto": "Yo nunca he tomado una captura de una conversación y casi se la envío a la misma persona",
@@ -636,7 +636,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1614,
+    "id": "yon_64",
     "intensidad": 3,
     "tipo": "yo nunca",
     "texto": "Yo nunca he ensayado una excusa para cancelar un plan",
@@ -646,7 +646,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1615,
+    "id": "yon_65",
     "intensidad": 3,
     "tipo": "yo nunca",
     "texto": "Yo nunca he dicho 'tenemos que vernos' sin intención real de organizar algo",
@@ -656,7 +656,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1616,
+    "id": "yon_66",
     "intensidad": 3,
     "tipo": "yo nunca",
     "texto": "Yo nunca he ignorado una llamada y luego he escrito '¿qué pasó?'",
@@ -666,7 +666,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1617,
+    "id": "yon_67",
     "intensidad": 3,
     "tipo": "yo nunca",
     "texto": "Yo nunca he criticado una canción y después la he añadido a mi lista",
@@ -676,7 +676,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1618,
+    "id": "yon_68",
     "intensidad": 3,
     "tipo": "yo nunca",
     "texto": "Yo nunca he borrado una publicación porque recibió pocos 'me gusta'",
@@ -686,7 +686,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1619,
+    "id": "yon_69",
     "intensidad": 3,
     "tipo": "yo nunca",
     "texto": "Yo nunca he usado una foto antigua para hacer parecer que era reciente",
@@ -696,7 +696,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1620,
+    "id": "yon_70",
     "intensidad": 3,
     "tipo": "yo nunca",
     "texto": "Yo nunca he revisado varias veces quién vio una historia",
@@ -706,7 +706,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1621,
+    "id": "yon_71",
     "intensidad": 3,
     "tipo": "yo nunca",
     "texto": "Yo nunca he publicado una indirecta esperando que una persona específica la entendiera",
@@ -716,7 +716,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1622,
+    "id": "yon_72",
     "intensidad": 3,
     "tipo": "yo nunca",
     "texto": "Yo nunca he dejado de seguir a alguien y luego he vuelto por curiosidad",
@@ -726,7 +726,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1623,
+    "id": "yon_73",
     "intensidad": 3,
     "tipo": "yo nunca",
     "texto": "Yo nunca he fingido no ver un mensaje aunque aparecía como leído",
@@ -736,7 +736,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1624,
+    "id": "yon_74",
     "intensidad": 3,
     "tipo": "yo nunca",
     "texto": "Yo nunca he buscado información de alguien antes de conocerlo en persona",
@@ -746,7 +746,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1625,
+    "id": "yon_75",
     "intensidad": 3,
     "tipo": "yo nunca",
     "texto": "Yo nunca he cambiado de camino para evitar una conversación superficial",
@@ -756,7 +756,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1626,
+    "id": "yon_76",
     "intensidad": 3,
     "tipo": "yo nunca",
     "texto": "Yo nunca me he reído de un chiste malo de alguien con autoridad",
@@ -766,7 +766,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1627,
+    "id": "yon_77",
     "intensidad": 3,
     "tipo": "yo nunca",
     "texto": "Yo nunca he culpado a la batería para terminar una conversación",
@@ -776,7 +776,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1628,
+    "id": "yon_78",
     "intensidad": 3,
     "tipo": "yo nunca",
     "texto": "Yo nunca he salido de un grupo y me he arrepentido casi inmediatamente",
@@ -786,7 +786,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1629,
+    "id": "yon_79",
     "intensidad": 3,
     "tipo": "yo nunca",
     "texto": "Yo nunca he silenciado a una persona sin decírselo",
@@ -796,7 +796,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1630,
+    "id": "yon_80",
     "intensidad": 3,
     "tipo": "yo nunca",
     "texto": "Yo nunca he adelantado una serie que veía con otra persona y he fingido sorpresa",
@@ -806,7 +806,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1631,
+    "id": "yon_81",
     "intensidad": 3,
     "tipo": "yo nunca",
     "texto": "Yo nunca he dicho 'cinco minutos' cuando aún no estaba listo",
@@ -816,7 +816,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1632,
+    "id": "yon_82",
     "intensidad": 3,
     "tipo": "yo nunca",
     "texto": "Yo nunca he aceptado términos y condiciones sin leer una sola línea",
@@ -826,7 +826,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1633,
+    "id": "yon_83",
     "intensidad": 3,
     "tipo": "yo nunca",
     "texto": "Yo nunca he exagerado lo ocupado que estaba para no responder",
@@ -836,7 +836,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1634,
+    "id": "yon_84",
     "intensidad": 3,
     "tipo": "yo nunca",
     "texto": "Yo nunca he copiado una opinión para encajar en la conversación",
@@ -846,7 +846,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1635,
+    "id": "yon_85",
     "intensidad": 3,
     "tipo": "yo nunca",
     "texto": "Yo nunca he conservado algo prestado mucho más tiempo del acordado",
@@ -856,7 +856,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1636,
+    "id": "yon_86",
     "intensidad": 3,
     "tipo": "yo nunca",
     "texto": "Yo nunca he fingido conocer un lugar de moda del que nunca había oído hablar",
@@ -866,7 +866,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1637,
+    "id": "yon_87",
     "intensidad": 3,
     "tipo": "yo nunca",
     "texto": "Yo nunca he usado un filtro evidente y he negado haberlo usado",
@@ -876,7 +876,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1638,
+    "id": "yon_88",
     "intensidad": 3,
     "tipo": "yo nunca",
     "texto": "Yo nunca he creado otra cuenta para mirar un perfil sin ser reconocido",
@@ -886,7 +886,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1639,
+    "id": "yon_89",
     "intensidad": 3,
     "tipo": "yo nunca",
     "texto": "Yo nunca he revisado el perfil de la nueva pareja de una expareja",
@@ -896,7 +896,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1640,
+    "id": "yon_90",
     "intensidad": 3,
     "tipo": "yo nunca",
     "texto": "Yo nunca he juzgado a alguien por su música y luego he descubierto que me gustaba",
@@ -906,7 +906,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1641,
+    "id": "yon_91",
     "intensidad": 4,
     "tipo": "yo nunca",
     "texto": "Yo nunca he cancelado un plan solo porque prefería quedarme en casa",
@@ -916,7 +916,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1642,
+    "id": "yon_92",
     "intensidad": 4,
     "tipo": "yo nunca",
     "texto": "Yo nunca he sentido alivio cuando otra persona canceló un plan que yo no quería",
@@ -926,7 +926,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1643,
+    "id": "yon_93",
     "intensidad": 4,
     "tipo": "yo nunca",
     "texto": "Yo nunca he fingido que me gustaba un regalo para no herir a quien lo dio",
@@ -936,7 +936,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1644,
+    "id": "yon_94",
     "intensidad": 4,
     "tipo": "yo nunca",
     "texto": "Yo nunca he contado un secreto diciendo 'solo se lo diré a una persona'",
@@ -946,7 +946,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1645,
+    "id": "yon_95",
     "intensidad": 4,
     "tipo": "yo nunca",
     "texto": "Yo nunca he usado a un amigo como excusa para evitar un compromiso",
@@ -956,7 +956,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1646,
+    "id": "yon_96",
     "intensidad": 4,
     "tipo": "yo nunca",
     "texto": "Yo nunca he evitado a alguien porque le debía dinero o un favor",
@@ -966,7 +966,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1647,
+    "id": "yon_97",
     "intensidad": 4,
     "tipo": "yo nunca",
     "texto": "Yo nunca he olvidado un cumpleaños y he fingido que tenía preparada una felicitación",
@@ -976,7 +976,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1648,
+    "id": "yon_98",
     "intensidad": 4,
     "tipo": "yo nunca",
     "texto": "Yo nunca he sentido celos de un plan al que no fui invitado",
@@ -986,7 +986,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1649,
+    "id": "yon_99",
     "intensidad": 4,
     "tipo": "yo nunca",
     "texto": "Yo nunca he hablado de un amigo justo antes de que apareciera",
@@ -996,7 +996,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1650,
+    "id": "yon_100",
     "intensidad": 4,
     "tipo": "yo nunca",
     "texto": "Yo nunca he aceptado un plan sabiendo que probablemente lo cancelaría",
@@ -1006,7 +1006,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1651,
+    "id": "yon_101",
     "intensidad": 4,
     "tipo": "yo nunca",
     "texto": "Yo nunca he fingido recordar una historia que ya me habían contado",
@@ -1016,7 +1016,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1652,
+    "id": "yon_102",
     "intensidad": 4,
     "tipo": "yo nunca",
     "texto": "Yo nunca he prestado algo y he querido recuperarlo sin atreverme a pedirlo",
@@ -1026,7 +1026,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1653,
+    "id": "yon_103",
     "intensidad": 4,
     "tipo": "yo nunca",
     "texto": "Yo nunca he mantenido una mala primera impresión durante demasiado tiempo",
@@ -1036,7 +1036,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1654,
+    "id": "yon_104",
     "intensidad": 4,
     "tipo": "yo nunca",
     "texto": "Yo nunca he comparado en secreto dos amistades",
@@ -1046,7 +1046,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1655,
+    "id": "yon_105",
     "intensidad": 4,
     "tipo": "yo nunca",
     "texto": "Yo nunca he ocultado una molestia para evitar una conversación incómoda",
@@ -1056,7 +1056,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1656,
+    "id": "yon_106",
     "intensidad": 4,
     "tipo": "yo nunca",
     "texto": "Yo nunca he apoyado una idea en público y la he criticado en privado",
@@ -1066,7 +1066,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1657,
+    "id": "yon_107",
     "intensidad": 4,
     "tipo": "yo nunca",
     "texto": "Yo nunca he dejado a un amigo en visto a propósito",
@@ -1076,7 +1076,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1658,
+    "id": "yon_108",
     "intensidad": 4,
     "tipo": "yo nunca",
     "texto": "Yo nunca he rechazado una invitación esperando que apareciera un plan mejor",
@@ -1086,7 +1086,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1659,
+    "id": "yon_109",
     "intensidad": 4,
     "tipo": "yo nunca",
     "texto": "Yo nunca he inventado una excusa para no presentar a dos personas",
@@ -1096,7 +1096,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1660,
+    "id": "yon_110",
     "intensidad": 4,
     "tipo": "yo nunca",
     "texto": "Yo nunca he mentido sobre lo que pensaba de la pareja de un amigo",
@@ -1106,7 +1106,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1661,
+    "id": "yon_111",
     "intensidad": 4,
     "tipo": "yo nunca",
     "texto": "Yo nunca me he sentido excluido sin preguntar qué había pasado",
@@ -1116,7 +1116,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1662,
+    "id": "yon_112",
     "intensidad": 4,
     "tipo": "yo nunca",
     "texto": "Yo nunca he elegido dónde sentarme para evitar a alguien",
@@ -1126,7 +1126,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1663,
+    "id": "yon_113",
     "intensidad": 4,
     "tipo": "yo nunca",
     "texto": "Yo nunca he usado 'estoy cansado' cuando en realidad no quería ver a una persona",
@@ -1136,7 +1136,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1664,
+    "id": "yon_114",
     "intensidad": 4,
     "tipo": "yo nunca",
     "texto": "Yo nunca he competido silenciosamente con un amigo",
@@ -1146,7 +1146,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1665,
+    "id": "yon_115",
     "intensidad": 4,
     "tipo": "yo nunca",
     "texto": "Yo nunca me ha molestado que un consejo que ignoré resultara correcto",
@@ -1156,7 +1156,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1666,
+    "id": "yon_116",
     "intensidad": 4,
     "tipo": "yo nunca",
     "texto": "Yo nunca he pedido perdón sin sentir que yo tenía la culpa",
@@ -1166,7 +1166,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1667,
+    "id": "yon_117",
     "intensidad": 4,
     "tipo": "yo nunca",
     "texto": "Yo nunca he esperado una disculpa sin explicar por qué estaba molesto",
@@ -1176,7 +1176,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1668,
+    "id": "yon_118",
     "intensidad": 4,
     "tipo": "yo nunca",
     "texto": "Yo nunca he mantenido una amistad más por costumbre que por cercanía",
@@ -1186,7 +1186,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1669,
+    "id": "yon_119",
     "intensidad": 4,
     "tipo": "yo nunca",
     "texto": "Yo nunca he fingido estar de acuerdo para que terminara una discusión",
@@ -1196,7 +1196,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1670,
+    "id": "yon_120",
     "intensidad": 4,
     "tipo": "yo nunca",
     "texto": "Yo nunca he sentido que un amigo me reemplazó y no lo he dicho",
@@ -1206,7 +1206,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1671,
+    "id": "yon_121",
     "intensidad": 5,
     "tipo": "yo nunca",
     "texto": "Yo nunca he coqueteado con alguien solo para recibir atención",
@@ -1216,7 +1216,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1672,
+    "id": "yon_122",
     "intensidad": 5,
     "tipo": "yo nunca",
     "texto": "Yo nunca he besado a alguien y después he fingido que no significó nada",
@@ -1226,7 +1226,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1673,
+    "id": "yon_123",
     "intensidad": 5,
     "tipo": "yo nunca",
     "texto": "Yo nunca he dado mi número sin intención de responder",
@@ -1236,7 +1236,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1674,
+    "id": "yon_124",
     "intensidad": 5,
     "tipo": "yo nunca",
     "texto": "Yo nunca he usado a un amigo como excusa para escapar de una mala cita",
@@ -1246,7 +1246,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1675,
+    "id": "yon_125",
     "intensidad": 5,
     "tipo": "yo nunca",
     "texto": "Yo nunca he mentido sobre mi edad en una aplicación o red social",
@@ -1256,7 +1256,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1676,
+    "id": "yon_126",
     "intensidad": 5,
     "tipo": "yo nunca",
     "texto": "Yo nunca he exagerado algún dato de mi perfil para parecer más interesante",
@@ -1266,7 +1266,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1677,
+    "id": "yon_127",
     "intensidad": 5,
     "tipo": "yo nunca",
     "texto": "Yo nunca he aceptado por accidente a alguien y luego he seguido la conversación",
@@ -1276,7 +1276,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1678,
+    "id": "yon_128",
     "intensidad": 5,
     "tipo": "yo nunca",
     "texto": "Yo nunca he coincidido con un conocido en una aplicación y he fingido no verlo",
@@ -1286,7 +1286,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1679,
+    "id": "yon_129",
     "intensidad": 5,
     "tipo": "yo nunca",
     "texto": "Yo nunca he investigado a una cita antes de conocerla",
@@ -1296,7 +1296,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1680,
+    "id": "yon_130",
     "intensidad": 5,
     "tipo": "yo nunca",
     "texto": "Yo nunca he cancelado una cita a última hora por un plan que parecía mejor",
@@ -1306,7 +1306,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1681,
+    "id": "yon_131",
     "intensidad": 5,
     "tipo": "yo nunca",
     "texto": "Yo nunca he ido a una cita solo por curiosidad",
@@ -1316,7 +1316,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1682,
+    "id": "yon_132",
     "intensidad": 5,
     "tipo": "yo nunca",
     "texto": "Yo nunca he confundido el nombre de dos personas con las que estaba hablando",
@@ -1326,7 +1326,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1683,
+    "id": "yon_133",
     "intensidad": 5,
     "tipo": "yo nunca",
     "texto": "Yo nunca he enviado el mismo mensaje coqueto a más de una persona",
@@ -1336,7 +1336,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1684,
+    "id": "yon_134",
     "intensidad": 5,
     "tipo": "yo nunca",
     "texto": "Yo nunca he usado una foto demasiado antigua en un perfil",
@@ -1346,7 +1346,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1685,
+    "id": "yon_135",
     "intensidad": 5,
     "tipo": "yo nunca",
     "texto": "Yo nunca me he quedado en una fiesta solo para ver si llegaba alguien",
@@ -1356,7 +1356,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1686,
+    "id": "yon_136",
     "intensidad": 5,
     "tipo": "yo nunca",
     "texto": "Yo nunca he fingido que me gustaba una canción para impresionar",
@@ -1366,7 +1366,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1687,
+    "id": "yon_137",
     "intensidad": 5,
     "tipo": "yo nunca",
     "texto": "Yo nunca he tomado algo para reunir valor antes de hablarle a alguien",
@@ -1376,7 +1376,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1688,
+    "id": "yon_138",
     "intensidad": 5,
     "tipo": "yo nunca",
     "texto": "Yo nunca he escrito a alguien después de beber y me he arrepentido al despertar",
@@ -1386,7 +1386,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1689,
+    "id": "yon_139",
     "intensidad": 5,
     "tipo": "yo nunca",
     "texto": "Yo nunca he borrado un mensaje a la mañana siguiente esperando que no lo hubieran leído",
@@ -1396,7 +1396,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1690,
+    "id": "yon_140",
     "intensidad": 5,
     "tipo": "yo nunca",
     "texto": "Yo nunca he fingido recordar a alguien de una fiesta",
@@ -1406,7 +1406,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1691,
+    "id": "yon_141",
     "intensidad": 5,
     "tipo": "yo nunca",
     "texto": "Yo nunca he hecho una promesa durante una fiesta que no pensaba cumplir",
@@ -1416,7 +1416,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1692,
+    "id": "yon_142",
     "intensidad": 5,
     "tipo": "yo nunca",
     "texto": "Yo nunca me he ido de una reunión sin despedirme de nadie",
@@ -1426,7 +1426,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1693,
+    "id": "yon_143",
     "intensidad": 5,
     "tipo": "yo nunca",
     "texto": "Yo nunca me he escondido de alguien en una fiesta",
@@ -1436,7 +1436,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1694,
+    "id": "yon_144",
     "intensidad": 5,
     "tipo": "yo nunca",
     "texto": "Yo nunca he participado en un juego sin entender las reglas",
@@ -1446,7 +1446,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1695,
+    "id": "yon_145",
     "intensidad": 5,
     "tipo": "yo nunca",
     "texto": "Yo nunca he culpado a la bebida por un comentario que sí quería hacer",
@@ -1456,7 +1456,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1696,
+    "id": "yon_146",
     "intensidad": 5,
     "tipo": "yo nunca",
     "texto": "Yo nunca he perdido algo en una fiesta y he acusado a la persona equivocada",
@@ -1466,7 +1466,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1697,
+    "id": "yon_147",
     "intensidad": 5,
     "tipo": "yo nunca",
     "texto": "Yo nunca he contado la misma historia en distintas rondas como si fuera nueva",
@@ -1476,7 +1476,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1698,
+    "id": "yon_148",
     "intensidad": 5,
     "tipo": "yo nunca",
     "texto": "Yo nunca he coqueteado con alguien para provocar celos",
@@ -1486,7 +1486,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1699,
+    "id": "yon_149",
     "intensidad": 5,
     "tipo": "yo nunca",
     "texto": "Yo nunca he besado a un amigo y complicado la relación",
@@ -1496,7 +1496,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1700,
+    "id": "yon_150",
     "intensidad": 5,
     "tipo": "yo nunca",
     "texto": "Yo nunca he seguido en una fiesta aunque quería irme para no parecer aburrido",
@@ -1506,7 +1506,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1701,
+    "id": "yon_151",
     "intensidad": 6,
     "tipo": "yo nunca",
     "texto": "Yo nunca he ocultado que seguía hablando con una expareja",
@@ -1516,7 +1516,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1702,
+    "id": "yon_152",
     "intensidad": 6,
     "tipo": "yo nunca",
     "texto": "Yo nunca he dicho que había superado a alguien cuando seguía pendiente",
@@ -1526,7 +1526,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1703,
+    "id": "yon_153",
     "intensidad": 6,
     "tipo": "yo nunca",
     "texto": "Yo nunca he vuelto con alguien aun sabiendo que la relación no funcionaba",
@@ -1536,7 +1536,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1704,
+    "id": "yon_154",
     "intensidad": 6,
     "tipo": "yo nunca",
     "texto": "Yo nunca he mantenido a alguien como opción por si otro plan fallaba",
@@ -1546,7 +1546,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1705,
+    "id": "yon_155",
     "intensidad": 6,
     "tipo": "yo nunca",
     "texto": "Yo nunca he comparado en silencio a mi pareja con una expareja",
@@ -1556,7 +1556,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1706,
+    "id": "yon_156",
     "intensidad": 6,
     "tipo": "yo nunca",
     "texto": "Yo nunca he mirado una notificación ajena sabiendo que no debía hacerlo",
@@ -1566,7 +1566,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1707,
+    "id": "yon_157",
     "intensidad": 6,
     "tipo": "yo nunca",
     "texto": "Yo nunca he mentido sobre quién estaba presente en una fiesta",
@@ -1576,7 +1576,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1708,
+    "id": "yon_158",
     "intensidad": 6,
     "tipo": "yo nunca",
     "texto": "Yo nunca he borrado una conversación para evitar preguntas",
@@ -1586,7 +1586,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1709,
+    "id": "yon_159",
     "intensidad": 6,
     "tipo": "yo nunca",
     "texto": "Yo nunca he minimizado una relación cuando hablaba con otras personas",
@@ -1596,7 +1596,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1710,
+    "id": "yon_160",
     "intensidad": 6,
     "tipo": "yo nunca",
     "texto": "Yo nunca he dicho 'te quiero' sin estar completamente seguro",
@@ -1606,7 +1606,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1711,
+    "id": "yon_161",
     "intensidad": 6,
     "tipo": "yo nunca",
     "texto": "Yo nunca he seguido en una relación por miedo a estar solo",
@@ -1616,7 +1616,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1712,
+    "id": "yon_162",
     "intensidad": 6,
     "tipo": "yo nunca",
     "texto": "Yo nunca he desaparecido en lugar de explicar que había perdido el interés",
@@ -1626,7 +1626,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1713,
+    "id": "yon_163",
     "intensidad": 6,
     "tipo": "yo nunca",
     "texto": "Yo nunca he vuelto a escribir después de haber desaparecido sin explicación",
@@ -1636,7 +1636,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1714,
+    "id": "yon_164",
     "intensidad": 6,
     "tipo": "yo nunca",
     "texto": "Yo nunca he guardado en secreto un regalo de una expareja",
@@ -1646,7 +1646,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1715,
+    "id": "yon_165",
     "intensidad": 6,
     "tipo": "yo nunca",
     "texto": "Yo nunca he seguido a alguien en redes solo porque me parecía atractivo",
@@ -1656,7 +1656,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1716,
+    "id": "yon_166",
     "intensidad": 6,
     "tipo": "yo nunca",
     "texto": "Yo nunca he provocado celos deliberadamente",
@@ -1666,7 +1666,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1717,
+    "id": "yon_167",
     "intensidad": 6,
     "tipo": "yo nunca",
     "texto": "Yo nunca he negado una atracción que todos ya habían notado",
@@ -1676,7 +1676,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1718,
+    "id": "yon_168",
     "intensidad": 6,
     "tipo": "yo nunca",
     "texto": "Yo nunca he dado señales contradictorias para mantener el interés de alguien",
@@ -1686,7 +1686,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1719,
+    "id": "yon_169",
     "intensidad": 6,
     "tipo": "yo nunca",
     "texto": "Yo nunca he aceptado una cita para intentar olvidar a otra persona",
@@ -1696,7 +1696,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1720,
+    "id": "yon_170",
     "intensidad": 6,
     "tipo": "yo nunca",
     "texto": "Yo nunca he besado a alguien mientras pensaba en otra persona",
@@ -1706,7 +1706,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1721,
+    "id": "yon_171",
     "intensidad": 6,
     "tipo": "yo nunca",
     "texto": "Yo nunca he hablado mal de una expareja mientras todavía la extrañaba",
@@ -1716,7 +1716,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1722,
+    "id": "yon_172",
     "intensidad": 6,
     "tipo": "yo nunca",
     "texto": "Yo nunca he ocultado un rechazo para evitar que mis amigos se enteraran",
@@ -1726,7 +1726,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1723,
+    "id": "yon_173",
     "intensidad": 6,
     "tipo": "yo nunca",
     "texto": "Yo nunca he fingido querer algo casual cuando buscaba una relación",
@@ -1736,7 +1736,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1724,
+    "id": "yon_174",
     "intensidad": 6,
     "tipo": "yo nunca",
     "texto": "Yo nunca he fingido buscar algo serio cuando todavía tenía dudas",
@@ -1746,7 +1746,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1725,
+    "id": "yon_175",
     "intensidad": 6,
     "tipo": "yo nunca",
     "texto": "Yo nunca he pedido a un amigo que investigara a la persona que me gustaba",
@@ -1756,7 +1756,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1726,
+    "id": "yon_176",
     "intensidad": 6,
     "tipo": "yo nunca",
     "texto": "Yo nunca he publicado una indirecta dirigida a una sola persona",
@@ -1766,7 +1766,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1727,
+    "id": "yon_177",
     "intensidad": 6,
     "tipo": "yo nunca",
     "texto": "Yo nunca he releído una conversación antigua demasiadas veces",
@@ -1776,7 +1776,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1728,
+    "id": "yon_178",
     "intensidad": 6,
     "tipo": "yo nunca",
     "texto": "Yo nunca he guardado un contacto con un nombre falso",
@@ -1786,7 +1786,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1729,
+    "id": "yon_179",
     "intensidad": 6,
     "tipo": "yo nunca",
     "texto": "Yo nunca he mantenido una conversación en secreto porque sabía que causaría problemas",
@@ -1796,7 +1796,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1730,
+    "id": "yon_180",
     "intensidad": 6,
     "tipo": "yo nunca",
     "texto": "Yo nunca he esperado que alguien adivinara mis sentimientos sin decirlos",
@@ -1806,7 +1806,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1731,
+    "id": "yon_181",
     "intensidad": 7,
     "tipo": "yo nunca",
     "texto": "Yo nunca he besado a dos personas del mismo grupo",
@@ -1816,7 +1816,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1732,
+    "id": "yon_182",
     "intensidad": 7,
     "tipo": "yo nunca",
     "texto": "Yo nunca he salido con la expareja de un amigo",
@@ -1826,7 +1826,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1733,
+    "id": "yon_183",
     "intensidad": 7,
     "tipo": "yo nunca",
     "texto": "Yo nunca me ha atraído la pareja de una persona cercana",
@@ -1836,7 +1836,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1734,
+    "id": "yon_184",
     "intensidad": 7,
     "tipo": "yo nunca",
     "texto": "Yo nunca he enviado una confesión y luego he puesto el teléfono en modo avión",
@@ -1846,7 +1846,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1735,
+    "id": "yon_185",
     "intensidad": 7,
     "tipo": "yo nunca",
     "texto": "Yo nunca he vuelto con la misma expareja más de una vez",
@@ -1856,7 +1856,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1736,
+    "id": "yon_186",
     "intensidad": 7,
     "tipo": "yo nunca",
     "texto": "Yo nunca he dicho el nombre equivocado en un momento romántico",
@@ -1866,7 +1866,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1737,
+    "id": "yon_187",
     "intensidad": 7,
     "tipo": "yo nunca",
     "texto": "Yo nunca he mentido sobre mi estado sentimental",
@@ -1876,7 +1876,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1738,
+    "id": "yon_188",
     "intensidad": 7,
     "tipo": "yo nunca",
     "texto": "Yo nunca he descubierto que yo era 'la otra persona' en una relación",
@@ -1886,7 +1886,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1739,
+    "id": "yon_189",
     "intensidad": 7,
     "tipo": "yo nunca",
     "texto": "Yo nunca he seguido viendo a alguien a pesar de señales de alerta evidentes",
@@ -1896,7 +1896,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1740,
+    "id": "yon_190",
     "intensidad": 7,
     "tipo": "yo nunca",
     "texto": "Yo nunca he ocultado una relación al grupo de amigos",
@@ -1906,7 +1906,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1741,
+    "id": "yon_191",
     "intensidad": 7,
     "tipo": "yo nunca",
     "texto": "Yo nunca he intentado poner celosa a una persona a propósito",
@@ -1916,7 +1916,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1742,
+    "id": "yon_192",
     "intensidad": 7,
     "tipo": "yo nunca",
     "texto": "Yo nunca he publicado una historia esperando que una sola persona reaccionara",
@@ -1926,7 +1926,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1743,
+    "id": "yon_193",
     "intensidad": 7,
     "tipo": "yo nunca",
     "texto": "Yo nunca he bloqueado y desbloqueado a alguien por impulso",
@@ -1936,7 +1936,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1744,
+    "id": "yon_194",
     "intensidad": 7,
     "tipo": "yo nunca",
     "texto": "Yo nunca he revisado la actividad de alguien para saber con quién estaba",
@@ -1946,7 +1946,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1745,
+    "id": "yon_195",
     "intensidad": 7,
     "tipo": "yo nunca",
     "texto": "Yo nunca he besado a alguien por un reto y me ha gustado",
@@ -1956,7 +1956,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1746,
+    "id": "yon_196",
     "intensidad": 7,
     "tipo": "yo nunca",
     "texto": "Yo nunca he rechazado a alguien y luego he sentido celos al verlo con otra persona",
@@ -1966,7 +1966,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1747,
+    "id": "yon_197",
     "intensidad": 7,
     "tipo": "yo nunca",
     "texto": "Yo nunca he salido con alguien pese a que todos mis amigos me advirtieron",
@@ -1976,7 +1976,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1748,
+    "id": "yon_198",
     "intensidad": 7,
     "tipo": "yo nunca",
     "texto": "Yo nunca he mantenido un amor secreto durante años",
@@ -1986,7 +1986,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1749,
+    "id": "yon_199",
     "intensidad": 7,
     "tipo": "yo nunca",
     "texto": "Yo nunca he fingido indiferencia después de un rechazo",
@@ -1996,7 +1996,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1750,
+    "id": "yon_200",
     "intensidad": 7,
     "tipo": "yo nunca",
     "texto": "Yo nunca he competido con un amigo por la atención de alguien",
@@ -2006,7 +2006,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1751,
+    "id": "yon_201",
     "intensidad": 7,
     "tipo": "yo nunca",
     "texto": "Yo nunca he cancelado un plan con amigos por una cita",
@@ -2016,7 +2016,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1752,
+    "id": "yon_202",
     "intensidad": 7,
     "tipo": "yo nunca",
     "texto": "Yo nunca he usado una aplicación de citas durante una 'pausa' de la relación",
@@ -2026,7 +2026,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1753,
+    "id": "yon_203",
     "intensidad": 7,
     "tipo": "yo nunca",
     "texto": "Yo nunca he hablado con dos personas al mismo tiempo con las mismas intenciones",
@@ -2036,7 +2036,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1754,
+    "id": "yon_204",
     "intensidad": 7,
     "tipo": "yo nunca",
     "texto": "Yo nunca he prometido exclusividad antes de estar preparado",
@@ -2046,7 +2046,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1755,
+    "id": "yon_205",
     "intensidad": 7,
     "tipo": "yo nunca",
     "texto": "Yo nunca he dicho que no sentía celos cuando era evidente que sí",
@@ -2056,7 +2056,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1756,
+    "id": "yon_206",
     "intensidad": 7,
     "tipo": "yo nunca",
     "texto": "Yo nunca he imaginado una relación con un amigo cercano",
@@ -2066,7 +2066,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1757,
+    "id": "yon_207",
     "intensidad": 7,
     "tipo": "yo nunca",
     "texto": "Yo nunca he ocultado un beso que podía cambiar la dinámica del grupo",
@@ -2076,7 +2076,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1758,
+    "id": "yon_208",
     "intensidad": 7,
     "tipo": "yo nunca",
     "texto": "Yo nunca he retomado una conversación solo porque me sentía solo",
@@ -2086,7 +2086,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1759,
+    "id": "yon_209",
     "intensidad": 7,
     "tipo": "yo nunca",
     "texto": "Yo nunca he mentido sobre dónde pasé la noche",
@@ -2096,7 +2096,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1760,
+    "id": "yon_210",
     "intensidad": 7,
     "tipo": "yo nunca",
     "texto": "Yo nunca me he arrepentido durante años de no haber besado a alguien",
@@ -2106,7 +2106,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1761,
+    "id": "yon_211",
     "intensidad": 8,
     "tipo": "yo nunca",
     "texto": "Yo nunca he leído una conversación privada que no era para mí",
@@ -2116,7 +2116,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1762,
+    "id": "yon_212",
     "intensidad": 8,
     "tipo": "yo nunca",
     "texto": "Yo nunca he compartido un secreto diciendo que no revelaría nombres",
@@ -2126,7 +2126,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1763,
+    "id": "yon_213",
     "intensidad": 8,
     "tipo": "yo nunca",
     "texto": "Yo nunca he omitido una verdad importante para proteger mi imagen",
@@ -2136,7 +2136,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1764,
+    "id": "yon_214",
     "intensidad": 8,
     "tipo": "yo nunca",
     "texto": "Yo nunca he permitido que otra persona cargara con una culpa que era mía",
@@ -2146,7 +2146,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1765,
+    "id": "yon_215",
     "intensidad": 8,
     "tipo": "yo nunca",
     "texto": "Yo nunca he contado una versión manipulada de un conflicto",
@@ -2156,7 +2156,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1766,
+    "id": "yon_216",
     "intensidad": 8,
     "tipo": "yo nunca",
     "texto": "Yo nunca he guardado una captura para usarla en una discusión futura",
@@ -2166,7 +2166,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1767,
+    "id": "yon_217",
     "intensidad": 8,
     "tipo": "yo nunca",
     "texto": "Yo nunca he mentido para evitar una consecuencia que terminó afectando a alguien más",
@@ -2176,7 +2176,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1768,
+    "id": "yon_218",
     "intensidad": 8,
     "tipo": "yo nunca",
     "texto": "Yo nunca he confrontado a alguien por un rumor sin comprobarlo",
@@ -2186,7 +2186,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1769,
+    "id": "yon_219",
     "intensidad": 8,
     "tipo": "yo nunca",
     "texto": "Yo nunca he negado algo evidente hasta que aparecieron pruebas",
@@ -2196,7 +2196,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1770,
+    "id": "yon_220",
     "intensidad": 8,
     "tipo": "yo nunca",
     "texto": "Yo nunca he usado información confidencial durante una discusión",
@@ -2206,7 +2206,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1771,
+    "id": "yon_221",
     "intensidad": 8,
     "tipo": "yo nunca",
     "texto": "Yo nunca he ocultado a un amigo una traición que le afectaba",
@@ -2216,7 +2216,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1772,
+    "id": "yon_222",
     "intensidad": 8,
     "tipo": "yo nunca",
     "texto": "Yo nunca he defendido a alguien en público y lo he criticado en privado",
@@ -2226,7 +2226,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1773,
+    "id": "yon_223",
     "intensidad": 8,
     "tipo": "yo nunca",
     "texto": "Yo nunca he prometido guardar un secreto y he terminado contándolo",
@@ -2236,7 +2236,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1774,
+    "id": "yon_224",
     "intensidad": 8,
     "tipo": "yo nunca",
     "texto": "Yo nunca he dicho que perdoné algo pero lo he usado después en otra pelea",
@@ -2246,7 +2246,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1775,
+    "id": "yon_225",
     "intensidad": 8,
     "tipo": "yo nunca",
     "texto": "Yo nunca he mantenido contacto con alguien sabiendo que incomodaba a una persona importante",
@@ -2256,7 +2256,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1776,
+    "id": "yon_226",
     "intensidad": 8,
     "tipo": "yo nunca",
     "texto": "Yo nunca he roto un pacto que yo mismo propuse",
@@ -2266,7 +2266,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1777,
+    "id": "yon_227",
     "intensidad": 8,
     "tipo": "yo nunca",
     "texto": "Yo nunca he fingido sorpresa ante un secreto que ya conocía",
@@ -2276,7 +2276,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1778,
+    "id": "yon_228",
     "intensidad": 8,
     "tipo": "yo nunca",
     "texto": "Yo nunca he intentado poner al grupo en contra de alguien",
@@ -2286,7 +2286,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1779,
+    "id": "yon_229",
     "intensidad": 8,
     "tipo": "yo nunca",
     "texto": "Yo nunca he excluido deliberadamente a una persona de un plan",
@@ -2296,7 +2296,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1780,
+    "id": "yon_230",
     "intensidad": 8,
     "tipo": "yo nunca",
     "texto": "Yo nunca he guardado silencio al presenciar una situación injusta",
@@ -2306,7 +2306,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1781,
+    "id": "yon_231",
     "intensidad": 8,
     "tipo": "yo nunca",
     "texto": "Yo nunca he usado la culpa para conseguir lo que quería",
@@ -2316,7 +2316,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1782,
+    "id": "yon_232",
     "intensidad": 8,
     "tipo": "yo nunca",
     "texto": "Yo nunca he pedido perdón solo por miedo a perder a alguien",
@@ -2326,7 +2326,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1783,
+    "id": "yon_233",
     "intensidad": 8,
     "tipo": "yo nunca",
     "texto": "Yo nunca he contado dos versiones incompatibles de la misma historia",
@@ -2336,7 +2336,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1784,
+    "id": "yon_234",
     "intensidad": 8,
     "tipo": "yo nunca",
     "texto": "Yo nunca he borrado pruebas para sostener una mentira",
@@ -2346,7 +2346,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1785,
+    "id": "yon_235",
     "intensidad": 8,
     "tipo": "yo nunca",
     "texto": "Yo nunca he mentido cuando me hicieron una pregunta directa",
@@ -2356,7 +2356,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1786,
+    "id": "yon_236",
     "intensidad": 8,
     "tipo": "yo nunca",
     "texto": "Yo nunca he permitido que creciera un rumor porque me beneficiaba",
@@ -2366,7 +2366,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1787,
+    "id": "yon_237",
     "intensidad": 8,
     "tipo": "yo nunca",
     "texto": "Yo nunca he usado una inseguridad ajena como parte de una broma",
@@ -2376,7 +2376,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1788,
+    "id": "yon_238",
     "intensidad": 8,
     "tipo": "yo nunca",
     "texto": "Yo nunca he tomado una decisión importante por el grupo sin consultarlo",
@@ -2386,7 +2386,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1789,
+    "id": "yon_239",
     "intensidad": 8,
     "tipo": "yo nunca",
     "texto": "Yo nunca he mantenido una amistad únicamente por conveniencia",
@@ -2396,7 +2396,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1790,
+    "id": "yon_240",
     "intensidad": 8,
     "tipo": "yo nunca",
     "texto": "Yo nunca he puesto a prueba la lealtad de alguien sin que lo supiera",
@@ -2406,7 +2406,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1791,
+    "id": "yon_241",
     "intensidad": 9,
     "tipo": "yo nunca",
     "texto": "Yo nunca he traicionado la confianza de alguien y nunca lo he confesado",
@@ -2416,7 +2416,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1792,
+    "id": "yon_242",
     "intensidad": 9,
     "tipo": "yo nunca",
     "texto": "Yo nunca he sido infiel emocional o físicamente",
@@ -2426,7 +2426,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1793,
+    "id": "yon_243",
     "intensidad": 9,
     "tipo": "yo nunca",
     "texto": "Yo nunca he ayudado a ocultar una infidelidad",
@@ -2436,7 +2436,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1794,
+    "id": "yon_244",
     "intensidad": 9,
     "tipo": "yo nunca",
     "texto": "Yo nunca he estado con alguien sabiendo que tenía una relación",
@@ -2446,7 +2446,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1795,
+    "id": "yon_245",
     "intensidad": 9,
     "tipo": "yo nunca",
     "texto": "Yo nunca he mentido sobre una parte importante de mi pasado a una pareja",
@@ -2456,7 +2456,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1796,
+    "id": "yon_246",
     "intensidad": 9,
     "tipo": "yo nunca",
     "texto": "Yo nunca he manipulado una ruptura para que la otra persona pareciera culpable",
@@ -2466,7 +2466,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1797,
+    "id": "yon_247",
     "intensidad": 9,
     "tipo": "yo nunca",
     "texto": "Yo nunca he terminado una amistad por un rumor sin pedir explicaciones",
@@ -2476,7 +2476,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1798,
+    "id": "yon_248",
     "intensidad": 9,
     "tipo": "yo nunca",
     "texto": "Yo nunca he usado a alguien como relación de rebote sabiendo que podía lastimarlo",
@@ -2486,7 +2486,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1799,
+    "id": "yon_249",
     "intensidad": 9,
     "tipo": "yo nunca",
     "texto": "Yo nunca he dicho algo cruel con la intención de herir",
@@ -2496,7 +2496,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1800,
+    "id": "yon_250",
     "intensidad": 9,
     "tipo": "yo nunca",
     "texto": "Yo nunca he revelado un secreto por venganza",
@@ -2506,7 +2506,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1801,
+    "id": "yon_251",
     "intensidad": 9,
     "tipo": "yo nunca",
     "texto": "Yo nunca he guardado silencio mientras acusaban injustamente a un amigo",
@@ -2516,7 +2516,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1802,
+    "id": "yon_252",
     "intensidad": 9,
     "tipo": "yo nunca",
     "texto": "Yo nunca he elegido popularidad o estatus por encima de una amistad",
@@ -2526,7 +2526,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1803,
+    "id": "yon_253",
     "intensidad": 9,
     "tipo": "yo nunca",
     "texto": "Yo nunca he fingido apoyar a alguien mientras esperaba que fracasara",
@@ -2536,7 +2536,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1804,
+    "id": "yon_254",
     "intensidad": 9,
     "tipo": "yo nunca",
     "texto": "Yo nunca he saboteado un plan por celos",
@@ -2546,7 +2546,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1805,
+    "id": "yon_255",
     "intensidad": 9,
     "tipo": "yo nunca",
     "texto": "Yo nunca he usado el amor o la amistad como presión",
@@ -2556,7 +2556,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1806,
+    "id": "yon_256",
     "intensidad": 9,
     "tipo": "yo nunca",
     "texto": "Yo nunca he amenazado con irme solo para controlar una discusión",
@@ -2566,7 +2566,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1807,
+    "id": "yon_257",
     "intensidad": 9,
     "tipo": "yo nunca",
     "texto": "Yo nunca he hecho que alguien dudara de su propia versión para evitar mi responsabilidad",
@@ -2576,7 +2576,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1808,
+    "id": "yon_258",
     "intensidad": 9,
     "tipo": "yo nunca",
     "texto": "Yo nunca he negado una disculpa que sabía que debía",
@@ -2586,7 +2586,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1809,
+    "id": "yon_259",
     "intensidad": 9,
     "tipo": "yo nunca",
     "texto": "Yo nunca he juzgado duramente a alguien por algo que yo también hice",
@@ -2596,7 +2596,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1810,
+    "id": "yon_260",
     "intensidad": 9,
     "tipo": "yo nunca",
     "texto": "Yo nunca he mantenido una mentira durante años",
@@ -2606,7 +2606,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1811,
+    "id": "yon_261",
     "intensidad": 9,
     "tipo": "yo nunca",
     "texto": "Yo nunca me he atribuido el mérito del trabajo de otra persona",
@@ -2616,7 +2616,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1812,
+    "id": "yon_262",
     "intensidad": 9,
     "tipo": "yo nunca",
     "texto": "Yo nunca he dejado que un amigo tomara una decisión seria con información incompleta",
@@ -2626,7 +2626,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1813,
+    "id": "yon_263",
     "intensidad": 9,
     "tipo": "yo nunca",
     "texto": "Yo nunca he contactado a una expareja para interferir en su nueva relación",
@@ -2636,7 +2636,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1814,
+    "id": "yon_264",
     "intensidad": 9,
     "tipo": "yo nunca",
     "texto": "Yo nunca he ocultado una atracción que podía dividir al grupo",
@@ -2646,7 +2646,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1815,
+    "id": "yon_265",
     "intensidad": 9,
     "tipo": "yo nunca",
     "texto": "Yo nunca he perdonado algo solo para conservar una ventaja",
@@ -2656,7 +2656,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1816,
+    "id": "yon_266",
     "intensidad": 9,
     "tipo": "yo nunca",
     "texto": "Yo nunca he cortado el contacto para evitar asumir mi responsabilidad",
@@ -2666,7 +2666,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1817,
+    "id": "yon_267",
     "intensidad": 9,
     "tipo": "yo nunca",
     "texto": "Yo nunca he vuelto a buscar a alguien únicamente porque necesitaba algo",
@@ -2676,7 +2676,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1818,
+    "id": "yon_268",
     "intensidad": 9,
     "tipo": "yo nunca",
     "texto": "Yo nunca he culpado al alcohol por una decisión que tomé conscientemente",
@@ -2686,7 +2686,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1819,
+    "id": "yon_269",
     "intensidad": 9,
     "tipo": "yo nunca",
     "texto": "Yo nunca he usado información privada para ganar una discusión",
@@ -2696,7 +2696,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1820,
+    "id": "yon_270",
     "intensidad": 9,
     "tipo": "yo nunca",
     "texto": "Yo nunca me he arrepentido de decir la verdad solo por las consecuencias",
@@ -2706,7 +2706,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1821,
+    "id": "yon_271",
     "intensidad": 10,
     "tipo": "yo nunca",
     "texto": "Yo nunca he confesado una infidelidad únicamente porque estaba a punto de ser descubierto",
@@ -2716,7 +2716,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1822,
+    "id": "yon_272",
     "intensidad": 10,
     "tipo": "yo nunca",
     "texto": "Yo nunca he mantenido dos relaciones al mismo tiempo",
@@ -2726,7 +2726,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1823,
+    "id": "yon_273",
     "intensidad": 10,
     "tipo": "yo nunca",
     "texto": "Yo nunca he mentido sobre mis intenciones para evitar que alguien se alejara",
@@ -2736,7 +2736,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1824,
+    "id": "yon_274",
     "intensidad": 10,
     "tipo": "yo nunca",
     "texto": "Yo nunca he roto la confianza de mi mejor amigo por una relación",
@@ -2746,7 +2746,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1825,
+    "id": "yon_275",
     "intensidad": 10,
     "tipo": "yo nunca",
     "texto": "Yo nunca he abandonado a alguien en un momento difícil por miedo a involucrarme",
@@ -2756,7 +2756,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1826,
+    "id": "yon_276",
     "intensidad": 10,
     "tipo": "yo nunca",
     "texto": "Yo nunca he revelado un secreto íntimo para protegerme",
@@ -2766,7 +2766,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1827,
+    "id": "yon_277",
     "intensidad": 10,
     "tipo": "yo nunca",
     "texto": "Yo nunca he fingido amor por miedo a quedarme solo",
@@ -2776,7 +2776,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1828,
+    "id": "yon_278",
     "intensidad": 10,
     "tipo": "yo nunca",
     "texto": "Yo nunca he provocado una ruptura y he ocultado mi participación",
@@ -2786,7 +2786,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1829,
+    "id": "yon_279",
     "intensidad": 10,
     "tipo": "yo nunca",
     "texto": "Yo nunca he tomado una decisión importante por venganza",
@@ -2796,7 +2796,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1830,
+    "id": "yon_280",
     "intensidad": 10,
     "tipo": "yo nunca",
     "texto": "Yo nunca he manipulado a mis amigos para que eligieran un bando",
@@ -2806,7 +2806,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1831,
+    "id": "yon_281",
     "intensidad": 10,
     "tipo": "yo nunca",
     "texto": "Yo nunca he destruido pruebas para evitar una consecuencia seria",
@@ -2816,7 +2816,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1832,
+    "id": "yon_282",
     "intensidad": 10,
     "tipo": "yo nunca",
     "texto": "Yo nunca he aceptado el perdón de alguien sin contarle toda la verdad",
@@ -2826,7 +2826,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1833,
+    "id": "yon_283",
     "intensidad": 10,
     "tipo": "yo nunca",
     "texto": "Yo nunca he prometido cambiar sabiendo que no estaba dispuesto a hacerlo",
@@ -2836,7 +2836,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1834,
+    "id": "yon_284",
     "intensidad": 10,
     "tipo": "yo nunca",
     "texto": "Yo nunca he regresado a una relación solo para recuperar el control",
@@ -2846,7 +2846,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1835,
+    "id": "yon_285",
     "intensidad": 10,
     "tipo": "yo nunca",
     "texto": "Yo nunca he aprovechado la vulnerabilidad de alguien para conseguir algo",
@@ -2856,7 +2856,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1836,
+    "id": "yon_286",
     "intensidad": 10,
     "tipo": "yo nunca",
     "texto": "Yo nunca he negado públicamente una relación por vergüenza",
@@ -2866,7 +2866,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1837,
+    "id": "yon_287",
     "intensidad": 10,
     "tipo": "yo nunca",
     "texto": "Yo nunca he mantenido a alguien como un secreto",
@@ -2876,7 +2876,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1838,
+    "id": "yon_288",
     "intensidad": 10,
     "tipo": "yo nunca",
     "texto": "Yo nunca he culpado deliberadamente a una persona inocente",
@@ -2886,7 +2886,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1839,
+    "id": "yon_289",
     "intensidad": 10,
     "tipo": "yo nunca",
     "texto": "Yo nunca he terminado una relación desapareciendo por completo",
@@ -2896,7 +2896,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1840,
+    "id": "yon_290",
     "intensidad": 10,
     "tipo": "yo nunca",
     "texto": "Yo nunca he minimizado un límite que sabía que era importante para alguien",
@@ -2906,7 +2906,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1841,
+    "id": "yon_291",
     "intensidad": 10,
     "tipo": "yo nunca",
     "texto": "Yo nunca he presionado a alguien para tomar una decisión que no quería",
@@ -2916,7 +2916,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1842,
+    "id": "yon_292",
     "intensidad": 10,
     "tipo": "yo nunca",
     "texto": "Yo nunca he repetido conscientemente una conducta que ya había lastimado a alguien",
@@ -2926,7 +2926,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1843,
+    "id": "yon_293",
     "intensidad": 10,
     "tipo": "yo nunca",
     "texto": "Yo nunca he permitido que alguien creyera una historia falsa durante años",
@@ -2936,7 +2936,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1844,
+    "id": "yon_294",
     "intensidad": 10,
     "tipo": "yo nunca",
     "texto": "Yo nunca he elegido una mentira sabiendo que destruiría la confianza si se descubría",
@@ -2946,7 +2946,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1845,
+    "id": "yon_295",
     "intensidad": 10,
     "tipo": "yo nunca",
     "texto": "Yo nunca he ocultado información que habría cambiado la decisión de otra persona",
@@ -2956,7 +2956,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1846,
+    "id": "yon_296",
     "intensidad": 10,
     "tipo": "yo nunca",
     "texto": "Yo nunca he pedido perdón sin estar dispuesto a reparar el daño",
@@ -2966,7 +2966,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1847,
+    "id": "yon_297",
     "intensidad": 10,
     "tipo": "yo nunca",
     "texto": "Yo nunca he querido confesar algo solo para aliviar mi propia culpa",
@@ -2976,7 +2976,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1848,
+    "id": "yon_298",
     "intensidad": 10,
     "tipo": "yo nunca",
     "texto": "Yo nunca he perdido una relación importante por orgullo",
@@ -2986,7 +2986,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1849,
+    "id": "yon_299",
     "intensidad": 10,
     "tipo": "yo nunca",
     "texto": "Yo nunca he preferido tener la razón antes que conservar a alguien",
@@ -2996,7 +2996,7 @@ export const yoNuncaCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1850,
+    "id": "yon_300",
     "intensidad": 10,
     "tipo": "yo nunca",
     "texto": "Yo nunca he sabido que todavía le debo una verdad importante a una persona",

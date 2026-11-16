@@ -274,14 +274,35 @@ export class EditorController {
     this.isEditing = true;
     this.isNewCard = true;
 
-    // Calcular siguiente ID único
-    const maxNumId = this.allCards.reduce((max, c) => {
-      const n = Number(c.id);
-      return Number.isFinite(n) && n > max ? n : max;
-    }, 0);
-    const newId = maxNumId > 0 ? maxNumId + 1 : `custom_${Date.now()}`;
-
     const defaultTipo = this.filterType !== 'all' ? this.filterType : 'clásico';
+
+    const PREFIX_BY_TYPE = {
+      'clásico': 'cla',
+      'duelo': 'due',
+      'yo nunca': 'yon',
+      'quien es más probable': 'qmp',
+      'verdad': 'ver',
+      'reto': 'ret',
+      'retos especiales': 'res',
+      'eventos especiales': 'eve',
+      'hot': 'hot',
+      'bonus': 'bon',
+      'cultura chupistica': 'chup'
+    };
+    const pfx = PREFIX_BY_TYPE[defaultTipo] || 'cla';
+
+    // Calcular siguiente ID único para la categoría
+    let maxNumId = 0;
+    for (const c of this.allCards) {
+      const sid = String(c?.id || '');
+      if (sid.startsWith(`${pfx}_`)) {
+        const val = parseInt(sid.replace(`${pfx}_`, ''), 10);
+        if (!isNaN(val) && val > maxNumId) maxNumId = val;
+      } else if (c?.tipo === defaultTipo && Number.isFinite(Number(sid)) && Number(sid) > maxNumId) {
+        maxNumId = Number(sid);
+      }
+    }
+    const newId = maxNumId > 0 ? `${pfx}_${maxNumId + 1}` : `custom_${Date.now()}`;
 
     this.editingCard = {
       id: newId,

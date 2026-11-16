@@ -6,7 +6,7 @@
 
 export const eventosEspecialesCards = [
   {
-    "id": 3451,
+    "id": "eve_1",
     "intensidad": 1,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 2 turnos: Nadie puede decir 'sí'.",
@@ -18,7 +18,7 @@ export const eventosEspecialesCards = [
     "regla": "Prohibido: sí"
   },
   {
-    "id": 3452,
+    "id": "eve_2",
     "intensidad": 1,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 3 turnos: Todos deben hablar con voz de robot.",
@@ -30,7 +30,7 @@ export const eventosEspecialesCards = [
     "regla": "Voz de robot"
   },
   {
-    "id": 3453,
+    "id": "eve_3",
     "intensidad": 1,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 4 turnos: Antes de hablar, hagan palmas.",
@@ -42,7 +42,7 @@ export const eventosEspecialesCards = [
     "regla": "palmas antes de hablar"
   },
   {
-    "id": 3454,
+    "id": "eve_4",
     "intensidad": 1,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 5 turnos: Incluyan una palabra sobre amistad.",
@@ -54,7 +54,7 @@ export const eventosEspecialesCards = [
     "regla": "Palabra de amistad"
   },
   {
-    "id": 3455,
+    "id": "eve_5",
     "intensidad": 1,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante el próximo turno: Respondan solo con preguntas.",
@@ -66,7 +66,7 @@ export const eventosEspecialesCards = [
     "regla": "Solo preguntas"
   },
   {
-    "id": 3456,
+    "id": "eve_6",
     "intensidad": 1,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 2 turnos: No usen 'sí' ni 'no'.",
@@ -78,7 +78,7 @@ export const eventosEspecialesCards = [
     "regla": "Sin sí ni no"
   },
   {
-    "id": 3457,
+    "id": "eve_7",
     "intensidad": 1,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 3 turnos: Hablen en tercera persona.",
@@ -90,7 +90,7 @@ export const eventosEspecialesCards = [
     "regla": "Tercera persona"
   },
   {
-    "id": 3458,
+    "id": "eve_8",
     "intensidad": 1,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 4 turnos: Brinden antes de beber.",
@@ -102,7 +102,7 @@ export const eventosEspecialesCards = [
     "regla": "Brindar antes de beber"
   },
   {
-    "id": 3459,
+    "id": "eve_9",
     "intensidad": 1,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 5 turnos: Terminen cada frase con una rima.",
@@ -114,7 +114,7 @@ export const eventosEspecialesCards = [
     "regla": "Cerrar con rima"
   },
   {
-    "id": 3460,
+    "id": "eve_10",
     "intensidad": 1,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante el próximo turno: Repitan la última palabra anterior.",
@@ -126,7 +126,7 @@ export const eventosEspecialesCards = [
     "regla": "Repetir última palabra"
   },
   {
-    "id": 3461,
+    "id": "eve_11",
     "intensidad": 1,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 2 turnos: Imiten el gesto anterior y añadan otro.",
@@ -138,7 +138,7 @@ export const eventosEspecialesCards = [
     "regla": "Cadena de gestos"
   },
   {
-    "id": 3462,
+    "id": "eve_12",
     "intensidad": 1,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 3 turnos: Cuenten hasta 6 sin hablar a la vez.",
@@ -150,7 +150,7 @@ export const eventosEspecialesCards = [
     "regla": "Conteo sin coincidir"
   },
   {
-    "id": 3463,
+    "id": "eve_13",
     "intensidad": 1,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 4 turnos: Den un cumplido al cerrar su turno.",
@@ -162,7 +162,7 @@ export const eventosEspecialesCards = [
     "regla": "Cerrar con cumplido"
   },
   {
-    "id": 3464,
+    "id": "eve_14",
     "intensidad": 1,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 5 turnos: No usen nombres ni señalen.",
@@ -174,7 +174,7 @@ export const eventosEspecialesCards = [
     "regla": "Sin nombres"
   },
   {
-    "id": 3465,
+    "id": "eve_15",
     "intensidad": 1,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante el próximo turno: Comiencen con 'confieso que'.",
@@ -186,7 +186,7 @@ export const eventosEspecialesCards = [
     "regla": "Inicio: confieso que"
   },
   {
-    "id": 3466,
+    "id": "eve_16",
     "intensidad": 1,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 2 turnos: Mantengan palmas mientras hablan.",
@@ -198,7 +198,7 @@ export const eventosEspecialesCards = [
     "regla": "Mantener palmas"
   },
   {
-    "id": 3467,
+    "id": "eve_17",
     "intensidad": 1,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 3 turnos: Continúen una historia sobre amistad.",
@@ -210,7 +210,7 @@ export const eventosEspecialesCards = [
     "regla": "Historia de amistad"
   },
   {
-    "id": 3468,
+    "id": "eve_18",
     "intensidad": 1,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 4 turnos: No revisen el teléfono.",
@@ -222,7 +222,7 @@ export const eventosEspecialesCards = [
     "regla": "Sin teléfonos"
   },
   {
-    "id": 3469,
+    "id": "eve_19",
     "intensidad": 1,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 5 turnos: Usen únicamente apodos temporales.",
@@ -234,7 +234,7 @@ export const eventosEspecialesCards = [
     "regla": "Apodos temporales"
   },
   {
-    "id": 3470,
+    "id": "eve_20",
     "intensidad": 1,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante el próximo turno: Cuenten desde 6 hasta cero antes de responder.",
@@ -246,7 +246,7 @@ export const eventosEspecialesCards = [
     "regla": "Cuenta regresiva"
   },
   {
-    "id": 3471,
+    "id": "eve_21",
     "intensidad": 1,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 2 turnos: Usen exactamente 6 palabras por frase.",
@@ -258,7 +258,7 @@ export const eventosEspecialesCards = [
     "regla": "Frases de 6 palabras"
   },
   {
-    "id": 3472,
+    "id": "eve_22",
     "intensidad": 1,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 3 turnos: Respondan primero su propia pregunta.",
@@ -270,7 +270,7 @@ export const eventosEspecialesCards = [
     "regla": "Responder pregunta propia"
   },
   {
-    "id": 3473,
+    "id": "eve_23",
     "intensidad": 1,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 4 turnos: Usen una emoción diferente por turno.",
@@ -282,7 +282,7 @@ export const eventosEspecialesCards = [
     "regla": "Emoción diferente"
   },
   {
-    "id": 3474,
+    "id": "eve_24",
     "intensidad": 1,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 5 turnos: No repitan ningún verbo.",
@@ -294,7 +294,7 @@ export const eventosEspecialesCards = [
     "regla": "No repetir verbos"
   },
   {
-    "id": 3475,
+    "id": "eve_25",
     "intensidad": 1,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante el próximo turno: Comiencen susurrando y terminen fuerte.",
@@ -306,7 +306,7 @@ export const eventosEspecialesCards = [
     "regla": "Cambiar volumen"
   },
   {
-    "id": 3476,
+    "id": "eve_26",
     "intensidad": 1,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 2 turnos: Resuman lo anterior en tres palabras.",
@@ -318,7 +318,7 @@ export const eventosEspecialesCards = [
     "regla": "Resumen previo"
   },
   {
-    "id": 3477,
+    "id": "eve_27",
     "intensidad": 1,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 3 turnos: Inicien con la última letra anterior.",
@@ -330,7 +330,7 @@ export const eventosEspecialesCards = [
     "regla": "Cadena por letra"
   },
   {
-    "id": 3478,
+    "id": "eve_28",
     "intensidad": 1,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 4 turnos: Representen lo que dirán antes de hablar.",
@@ -342,7 +342,7 @@ export const eventosEspecialesCards = [
     "regla": "Mímica previa"
   },
   {
-    "id": 3479,
+    "id": "eve_29",
     "intensidad": 1,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 5 turnos: Al oír 'sí', hagan palmas.",
@@ -354,7 +354,7 @@ export const eventosEspecialesCards = [
     "regla": "Señal: sí"
   },
   {
-    "id": 3480,
+    "id": "eve_30",
     "intensidad": 1,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante el próximo turno: Predigan qué dirá la siguiente persona.",
@@ -366,7 +366,7 @@ export const eventosEspecialesCards = [
     "regla": "Predicción final"
   },
   {
-    "id": 3481,
+    "id": "eve_31",
     "intensidad": 2,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 3 turnos: Nadie puede decir 'no'.",
@@ -378,7 +378,7 @@ export const eventosEspecialesCards = [
     "regla": "Prohibido: no"
   },
   {
-    "id": 3482,
+    "id": "eve_32",
     "intensidad": 2,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 4 turnos: Todos deben hablar con voz de narrador.",
@@ -390,7 +390,7 @@ export const eventosEspecialesCards = [
     "regla": "Voz de narrador"
   },
   {
-    "id": 3483,
+    "id": "eve_33",
     "intensidad": 2,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 5 turnos: Antes de hablar, hagan chasquido.",
@@ -402,7 +402,7 @@ export const eventosEspecialesCards = [
     "regla": "chasquido antes de hablar"
   },
   {
-    "id": 3484,
+    "id": "eve_34",
     "intensidad": 2,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante el próximo turno: Incluyan una palabra sobre viajes.",
@@ -414,7 +414,7 @@ export const eventosEspecialesCards = [
     "regla": "Palabra de viajes"
   },
   {
-    "id": 3485,
+    "id": "eve_35",
     "intensidad": 2,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 2 turnos: Respondan solo con preguntas.",
@@ -426,7 +426,7 @@ export const eventosEspecialesCards = [
     "regla": "Solo preguntas"
   },
   {
-    "id": 3486,
+    "id": "eve_36",
     "intensidad": 2,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 3 turnos: No usen 'sí' ni 'no'.",
@@ -438,7 +438,7 @@ export const eventosEspecialesCards = [
     "regla": "Sin sí ni no"
   },
   {
-    "id": 3487,
+    "id": "eve_37",
     "intensidad": 2,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 4 turnos: Hablen en tercera persona.",
@@ -450,7 +450,7 @@ export const eventosEspecialesCards = [
     "regla": "Tercera persona"
   },
   {
-    "id": 3488,
+    "id": "eve_38",
     "intensidad": 2,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 5 turnos: Brinden antes de beber.",
@@ -462,7 +462,7 @@ export const eventosEspecialesCards = [
     "regla": "Brindar antes de beber"
   },
   {
-    "id": 3489,
+    "id": "eve_39",
     "intensidad": 2,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante el próximo turno: Terminen cada frase con una rima.",
@@ -474,7 +474,7 @@ export const eventosEspecialesCards = [
     "regla": "Cerrar con rima"
   },
   {
-    "id": 3490,
+    "id": "eve_40",
     "intensidad": 2,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 2 turnos: Repitan la última palabra anterior.",
@@ -486,7 +486,7 @@ export const eventosEspecialesCards = [
     "regla": "Repetir última palabra"
   },
   {
-    "id": 3491,
+    "id": "eve_41",
     "intensidad": 2,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 3 turnos: Imiten el gesto anterior y añadan otro.",
@@ -498,7 +498,7 @@ export const eventosEspecialesCards = [
     "regla": "Cadena de gestos"
   },
   {
-    "id": 3492,
+    "id": "eve_42",
     "intensidad": 2,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 4 turnos: Cuenten hasta 7 sin hablar a la vez.",
@@ -510,7 +510,7 @@ export const eventosEspecialesCards = [
     "regla": "Conteo sin coincidir"
   },
   {
-    "id": 3493,
+    "id": "eve_43",
     "intensidad": 2,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 5 turnos: Den un cumplido al cerrar su turno.",
@@ -522,7 +522,7 @@ export const eventosEspecialesCards = [
     "regla": "Cerrar con cumplido"
   },
   {
-    "id": 3494,
+    "id": "eve_44",
     "intensidad": 2,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante el próximo turno: No usen nombres ni señalen.",
@@ -534,7 +534,7 @@ export const eventosEspecialesCards = [
     "regla": "Sin nombres"
   },
   {
-    "id": 3495,
+    "id": "eve_45",
     "intensidad": 2,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 2 turnos: Comiencen con 'confieso que'.",
@@ -546,7 +546,7 @@ export const eventosEspecialesCards = [
     "regla": "Inicio: confieso que"
   },
   {
-    "id": 3496,
+    "id": "eve_46",
     "intensidad": 2,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 3 turnos: Mantengan chasquido mientras hablan.",
@@ -558,7 +558,7 @@ export const eventosEspecialesCards = [
     "regla": "Mantener chasquido"
   },
   {
-    "id": 3497,
+    "id": "eve_47",
     "intensidad": 2,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 4 turnos: Continúen una historia sobre viajes.",
@@ -570,7 +570,7 @@ export const eventosEspecialesCards = [
     "regla": "Historia de viajes"
   },
   {
-    "id": 3498,
+    "id": "eve_48",
     "intensidad": 2,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 5 turnos: No revisen el teléfono.",
@@ -582,7 +582,7 @@ export const eventosEspecialesCards = [
     "regla": "Sin teléfonos"
   },
   {
-    "id": 3499,
+    "id": "eve_49",
     "intensidad": 2,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante el próximo turno: Usen únicamente apodos temporales.",
@@ -594,7 +594,7 @@ export const eventosEspecialesCards = [
     "regla": "Apodos temporales"
   },
   {
-    "id": 3500,
+    "id": "eve_50",
     "intensidad": 2,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 2 turnos: Cuenten desde 7 hasta cero antes de responder.",
@@ -606,7 +606,7 @@ export const eventosEspecialesCards = [
     "regla": "Cuenta regresiva"
   },
   {
-    "id": 3501,
+    "id": "eve_51",
     "intensidad": 2,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 3 turnos: Usen exactamente 7 palabras por frase.",
@@ -618,7 +618,7 @@ export const eventosEspecialesCards = [
     "regla": "Frases de 7 palabras"
   },
   {
-    "id": 3502,
+    "id": "eve_52",
     "intensidad": 2,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 4 turnos: Respondan primero su propia pregunta.",
@@ -630,7 +630,7 @@ export const eventosEspecialesCards = [
     "regla": "Responder pregunta propia"
   },
   {
-    "id": 3503,
+    "id": "eve_53",
     "intensidad": 2,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 5 turnos: Usen una emoción diferente por turno.",
@@ -642,7 +642,7 @@ export const eventosEspecialesCards = [
     "regla": "Emoción diferente"
   },
   {
-    "id": 3504,
+    "id": "eve_54",
     "intensidad": 2,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante el próximo turno: No repitan ningún verbo.",
@@ -654,7 +654,7 @@ export const eventosEspecialesCards = [
     "regla": "No repetir verbos"
   },
   {
-    "id": 3505,
+    "id": "eve_55",
     "intensidad": 2,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 2 turnos: Comiencen susurrando y terminen fuerte.",
@@ -666,7 +666,7 @@ export const eventosEspecialesCards = [
     "regla": "Cambiar volumen"
   },
   {
-    "id": 3506,
+    "id": "eve_56",
     "intensidad": 2,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 3 turnos: Resuman lo anterior en tres palabras.",
@@ -678,7 +678,7 @@ export const eventosEspecialesCards = [
     "regla": "Resumen previo"
   },
   {
-    "id": 3507,
+    "id": "eve_57",
     "intensidad": 2,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 4 turnos: Inicien con la última letra anterior.",
@@ -690,7 +690,7 @@ export const eventosEspecialesCards = [
     "regla": "Cadena por letra"
   },
   {
-    "id": 3508,
+    "id": "eve_58",
     "intensidad": 2,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 5 turnos: Representen lo que dirán antes de hablar.",
@@ -702,7 +702,7 @@ export const eventosEspecialesCards = [
     "regla": "Mímica previa"
   },
   {
-    "id": 3509,
+    "id": "eve_59",
     "intensidad": 2,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante el próximo turno: Al oír 'no', hagan chasquido.",
@@ -714,7 +714,7 @@ export const eventosEspecialesCards = [
     "regla": "Señal: no"
   },
   {
-    "id": 3510,
+    "id": "eve_60",
     "intensidad": 2,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 2 turnos: Predigan qué dirá la siguiente persona.",
@@ -726,7 +726,7 @@ export const eventosEspecialesCards = [
     "regla": "Predicción final"
   },
   {
-    "id": 3511,
+    "id": "eve_61",
     "intensidad": 3,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 4 turnos: Nadie puede decir 'pero'.",
@@ -738,7 +738,7 @@ export const eventosEspecialesCards = [
     "regla": "Prohibido: pero"
   },
   {
-    "id": 3512,
+    "id": "eve_62",
     "intensidad": 3,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 5 turnos: Todos deben hablar con voz de villano.",
@@ -750,7 +750,7 @@ export const eventosEspecialesCards = [
     "regla": "Voz de villano"
   },
   {
-    "id": 3513,
+    "id": "eve_63",
     "intensidad": 3,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante el próximo turno: Antes de hablar, hagan saludo.",
@@ -762,7 +762,7 @@ export const eventosEspecialesCards = [
     "regla": "saludo antes de hablar"
   },
   {
-    "id": 3514,
+    "id": "eve_64",
     "intensidad": 3,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 2 turnos: Incluyan una palabra sobre películas.",
@@ -774,7 +774,7 @@ export const eventosEspecialesCards = [
     "regla": "Palabra de películas"
   },
   {
-    "id": 3515,
+    "id": "eve_65",
     "intensidad": 3,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 3 turnos: Respondan solo con preguntas.",
@@ -786,7 +786,7 @@ export const eventosEspecialesCards = [
     "regla": "Solo preguntas"
   },
   {
-    "id": 3516,
+    "id": "eve_66",
     "intensidad": 3,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 4 turnos: No usen 'sí' ni 'no'.",
@@ -798,7 +798,7 @@ export const eventosEspecialesCards = [
     "regla": "Sin sí ni no"
   },
   {
-    "id": 3517,
+    "id": "eve_67",
     "intensidad": 3,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 5 turnos: Hablen en tercera persona.",
@@ -810,7 +810,7 @@ export const eventosEspecialesCards = [
     "regla": "Tercera persona"
   },
   {
-    "id": 3518,
+    "id": "eve_68",
     "intensidad": 3,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante el próximo turno: Brinden antes de beber.",
@@ -822,7 +822,7 @@ export const eventosEspecialesCards = [
     "regla": "Brindar antes de beber"
   },
   {
-    "id": 3519,
+    "id": "eve_69",
     "intensidad": 3,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 2 turnos: Terminen cada frase con una rima.",
@@ -834,7 +834,7 @@ export const eventosEspecialesCards = [
     "regla": "Cerrar con rima"
   },
   {
-    "id": 3520,
+    "id": "eve_70",
     "intensidad": 3,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 3 turnos: Repitan la última palabra anterior.",
@@ -846,7 +846,7 @@ export const eventosEspecialesCards = [
     "regla": "Repetir última palabra"
   },
   {
-    "id": 3521,
+    "id": "eve_71",
     "intensidad": 3,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 4 turnos: Imiten el gesto anterior y añadan otro.",
@@ -858,7 +858,7 @@ export const eventosEspecialesCards = [
     "regla": "Cadena de gestos"
   },
   {
-    "id": 3522,
+    "id": "eve_72",
     "intensidad": 3,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 5 turnos: Cuenten hasta 8 sin hablar a la vez.",
@@ -870,7 +870,7 @@ export const eventosEspecialesCards = [
     "regla": "Conteo sin coincidir"
   },
   {
-    "id": 3523,
+    "id": "eve_73",
     "intensidad": 3,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante el próximo turno: Den un cumplido al cerrar su turno.",
@@ -882,7 +882,7 @@ export const eventosEspecialesCards = [
     "regla": "Cerrar con cumplido"
   },
   {
-    "id": 3524,
+    "id": "eve_74",
     "intensidad": 3,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 2 turnos: No usen nombres ni señalen.",
@@ -894,7 +894,7 @@ export const eventosEspecialesCards = [
     "regla": "Sin nombres"
   },
   {
-    "id": 3525,
+    "id": "eve_75",
     "intensidad": 3,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 3 turnos: Comiencen con 'confieso que'.",
@@ -906,7 +906,7 @@ export const eventosEspecialesCards = [
     "regla": "Inicio: confieso que"
   },
   {
-    "id": 3526,
+    "id": "eve_76",
     "intensidad": 3,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 4 turnos: Mantengan saludo mientras hablan.",
@@ -918,7 +918,7 @@ export const eventosEspecialesCards = [
     "regla": "Mantener saludo"
   },
   {
-    "id": 3527,
+    "id": "eve_77",
     "intensidad": 3,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 5 turnos: Continúen una historia sobre películas.",
@@ -930,7 +930,7 @@ export const eventosEspecialesCards = [
     "regla": "Historia de películas"
   },
   {
-    "id": 3528,
+    "id": "eve_78",
     "intensidad": 3,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante el próximo turno: No revisen el teléfono.",
@@ -942,7 +942,7 @@ export const eventosEspecialesCards = [
     "regla": "Sin teléfonos"
   },
   {
-    "id": 3529,
+    "id": "eve_79",
     "intensidad": 3,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 2 turnos: Usen únicamente apodos temporales.",
@@ -954,7 +954,7 @@ export const eventosEspecialesCards = [
     "regla": "Apodos temporales"
   },
   {
-    "id": 3530,
+    "id": "eve_80",
     "intensidad": 3,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 3 turnos: Cuenten desde 8 hasta cero antes de responder.",
@@ -966,7 +966,7 @@ export const eventosEspecialesCards = [
     "regla": "Cuenta regresiva"
   },
   {
-    "id": 3531,
+    "id": "eve_81",
     "intensidad": 3,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 4 turnos: Usen exactamente 8 palabras por frase.",
@@ -978,7 +978,7 @@ export const eventosEspecialesCards = [
     "regla": "Frases de 8 palabras"
   },
   {
-    "id": 3532,
+    "id": "eve_82",
     "intensidad": 3,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 5 turnos: Respondan primero su propia pregunta.",
@@ -990,7 +990,7 @@ export const eventosEspecialesCards = [
     "regla": "Responder pregunta propia"
   },
   {
-    "id": 3533,
+    "id": "eve_83",
     "intensidad": 3,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante el próximo turno: Usen una emoción diferente por turno.",
@@ -1002,7 +1002,7 @@ export const eventosEspecialesCards = [
     "regla": "Emoción diferente"
   },
   {
-    "id": 3534,
+    "id": "eve_84",
     "intensidad": 3,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 2 turnos: No repitan ningún verbo.",
@@ -1014,7 +1014,7 @@ export const eventosEspecialesCards = [
     "regla": "No repetir verbos"
   },
   {
-    "id": 3535,
+    "id": "eve_85",
     "intensidad": 3,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 3 turnos: Comiencen susurrando y terminen fuerte.",
@@ -1026,7 +1026,7 @@ export const eventosEspecialesCards = [
     "regla": "Cambiar volumen"
   },
   {
-    "id": 3536,
+    "id": "eve_86",
     "intensidad": 3,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 4 turnos: Resuman lo anterior en tres palabras.",
@@ -1038,7 +1038,7 @@ export const eventosEspecialesCards = [
     "regla": "Resumen previo"
   },
   {
-    "id": 3537,
+    "id": "eve_87",
     "intensidad": 3,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 5 turnos: Inicien con la última letra anterior.",
@@ -1050,7 +1050,7 @@ export const eventosEspecialesCards = [
     "regla": "Cadena por letra"
   },
   {
-    "id": 3538,
+    "id": "eve_88",
     "intensidad": 3,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante el próximo turno: Representen lo que dirán antes de hablar.",
@@ -1062,7 +1062,7 @@ export const eventosEspecialesCards = [
     "regla": "Mímica previa"
   },
   {
-    "id": 3539,
+    "id": "eve_89",
     "intensidad": 3,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 2 turnos: Al oír 'pero', hagan saludo.",
@@ -1074,7 +1074,7 @@ export const eventosEspecialesCards = [
     "regla": "Señal: pero"
   },
   {
-    "id": 3540,
+    "id": "eve_90",
     "intensidad": 3,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 3 turnos: Predigan qué dirá la siguiente persona.",
@@ -1086,7 +1086,7 @@ export const eventosEspecialesCards = [
     "regla": "Predicción final"
   },
   {
-    "id": 3541,
+    "id": "eve_91",
     "intensidad": 4,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 5 turnos: Nadie puede decir 'literalmente'.",
@@ -1098,7 +1098,7 @@ export const eventosEspecialesCards = [
     "regla": "Prohibido: literalmente"
   },
   {
-    "id": 3542,
+    "id": "eve_92",
     "intensidad": 4,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante el próximo turno: Todos deben hablar con voz de detective.",
@@ -1110,7 +1110,7 @@ export const eventosEspecialesCards = [
     "regla": "Voz de detective"
   },
   {
-    "id": 3543,
+    "id": "eve_93",
     "intensidad": 4,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 2 turnos: Antes de hablar, hagan pose.",
@@ -1122,7 +1122,7 @@ export const eventosEspecialesCards = [
     "regla": "pose antes de hablar"
   },
   {
-    "id": 3544,
+    "id": "eve_94",
     "intensidad": 4,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 3 turnos: Incluyan una palabra sobre primeras impresiones.",
@@ -1134,7 +1134,7 @@ export const eventosEspecialesCards = [
     "regla": "Palabra de primeras impresiones"
   },
   {
-    "id": 3545,
+    "id": "eve_95",
     "intensidad": 4,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 4 turnos: Respondan solo con preguntas.",
@@ -1146,7 +1146,7 @@ export const eventosEspecialesCards = [
     "regla": "Solo preguntas"
   },
   {
-    "id": 3546,
+    "id": "eve_96",
     "intensidad": 4,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 5 turnos: No usen 'sí' ni 'no'.",
@@ -1158,7 +1158,7 @@ export const eventosEspecialesCards = [
     "regla": "Sin sí ni no"
   },
   {
-    "id": 3547,
+    "id": "eve_97",
     "intensidad": 4,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante el próximo turno: Hablen en tercera persona.",
@@ -1170,7 +1170,7 @@ export const eventosEspecialesCards = [
     "regla": "Tercera persona"
   },
   {
-    "id": 3548,
+    "id": "eve_98",
     "intensidad": 4,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 2 turnos: Brinden antes de beber.",
@@ -1182,7 +1182,7 @@ export const eventosEspecialesCards = [
     "regla": "Brindar antes de beber"
   },
   {
-    "id": 3549,
+    "id": "eve_99",
     "intensidad": 4,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 3 turnos: Terminen cada frase con una rima.",
@@ -1194,7 +1194,7 @@ export const eventosEspecialesCards = [
     "regla": "Cerrar con rima"
   },
   {
-    "id": 3550,
+    "id": "eve_100",
     "intensidad": 4,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 4 turnos: Repitan la última palabra anterior.",
@@ -1206,7 +1206,7 @@ export const eventosEspecialesCards = [
     "regla": "Repetir última palabra"
   },
   {
-    "id": 3551,
+    "id": "eve_101",
     "intensidad": 4,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 5 turnos: Imiten el gesto anterior y añadan otro.",
@@ -1218,7 +1218,7 @@ export const eventosEspecialesCards = [
     "regla": "Cadena de gestos"
   },
   {
-    "id": 3552,
+    "id": "eve_102",
     "intensidad": 4,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante el próximo turno: Cuenten hasta 9 sin hablar a la vez.",
@@ -1230,7 +1230,7 @@ export const eventosEspecialesCards = [
     "regla": "Conteo sin coincidir"
   },
   {
-    "id": 3553,
+    "id": "eve_103",
     "intensidad": 4,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 2 turnos: Den un cumplido al cerrar su turno.",
@@ -1242,7 +1242,7 @@ export const eventosEspecialesCards = [
     "regla": "Cerrar con cumplido"
   },
   {
-    "id": 3554,
+    "id": "eve_104",
     "intensidad": 4,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 3 turnos: No usen nombres ni señalen.",
@@ -1254,7 +1254,7 @@ export const eventosEspecialesCards = [
     "regla": "Sin nombres"
   },
   {
-    "id": 3555,
+    "id": "eve_105",
     "intensidad": 4,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 4 turnos: Comiencen con 'confieso que'.",
@@ -1266,7 +1266,7 @@ export const eventosEspecialesCards = [
     "regla": "Inicio: confieso que"
   },
   {
-    "id": 3556,
+    "id": "eve_106",
     "intensidad": 4,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 5 turnos: Mantengan pose mientras hablan.",
@@ -1278,7 +1278,7 @@ export const eventosEspecialesCards = [
     "regla": "Mantener pose"
   },
   {
-    "id": 3557,
+    "id": "eve_107",
     "intensidad": 4,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante el próximo turno: Continúen una historia sobre primeras impresiones.",
@@ -1290,7 +1290,7 @@ export const eventosEspecialesCards = [
     "regla": "Historia de primeras impresiones"
   },
   {
-    "id": 3558,
+    "id": "eve_108",
     "intensidad": 4,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 2 turnos: No revisen el teléfono.",
@@ -1302,7 +1302,7 @@ export const eventosEspecialesCards = [
     "regla": "Sin teléfonos"
   },
   {
-    "id": 3559,
+    "id": "eve_109",
     "intensidad": 4,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 3 turnos: Usen únicamente apodos temporales.",
@@ -1314,7 +1314,7 @@ export const eventosEspecialesCards = [
     "regla": "Apodos temporales"
   },
   {
-    "id": 3560,
+    "id": "eve_110",
     "intensidad": 4,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 4 turnos: Cuenten desde 9 hasta cero antes de responder.",
@@ -1326,7 +1326,7 @@ export const eventosEspecialesCards = [
     "regla": "Cuenta regresiva"
   },
   {
-    "id": 3561,
+    "id": "eve_111",
     "intensidad": 4,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 5 turnos: Usen exactamente 9 palabras por frase.",
@@ -1338,7 +1338,7 @@ export const eventosEspecialesCards = [
     "regla": "Frases de 9 palabras"
   },
   {
-    "id": 3562,
+    "id": "eve_112",
     "intensidad": 4,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante el próximo turno: Respondan primero su propia pregunta.",
@@ -1350,7 +1350,7 @@ export const eventosEspecialesCards = [
     "regla": "Responder pregunta propia"
   },
   {
-    "id": 3563,
+    "id": "eve_113",
     "intensidad": 4,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 2 turnos: Usen una emoción diferente por turno.",
@@ -1362,7 +1362,7 @@ export const eventosEspecialesCards = [
     "regla": "Emoción diferente"
   },
   {
-    "id": 3564,
+    "id": "eve_114",
     "intensidad": 4,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 3 turnos: No repitan ningún verbo.",
@@ -1374,7 +1374,7 @@ export const eventosEspecialesCards = [
     "regla": "No repetir verbos"
   },
   {
-    "id": 3565,
+    "id": "eve_115",
     "intensidad": 4,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 4 turnos: Comiencen susurrando y terminen fuerte.",
@@ -1386,7 +1386,7 @@ export const eventosEspecialesCards = [
     "regla": "Cambiar volumen"
   },
   {
-    "id": 3566,
+    "id": "eve_116",
     "intensidad": 4,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 5 turnos: Resuman lo anterior en tres palabras.",
@@ -1398,7 +1398,7 @@ export const eventosEspecialesCards = [
     "regla": "Resumen previo"
   },
   {
-    "id": 3567,
+    "id": "eve_117",
     "intensidad": 4,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante el próximo turno: Inicien con la última letra anterior.",
@@ -1410,7 +1410,7 @@ export const eventosEspecialesCards = [
     "regla": "Cadena por letra"
   },
   {
-    "id": 3568,
+    "id": "eve_118",
     "intensidad": 4,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 2 turnos: Representen lo que dirán antes de hablar.",
@@ -1422,7 +1422,7 @@ export const eventosEspecialesCards = [
     "regla": "Mímica previa"
   },
   {
-    "id": 3569,
+    "id": "eve_119",
     "intensidad": 4,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 3 turnos: Al oír 'literalmente', hagan pose.",
@@ -1434,7 +1434,7 @@ export const eventosEspecialesCards = [
     "regla": "Señal: literalmente"
   },
   {
-    "id": 3570,
+    "id": "eve_120",
     "intensidad": 4,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 4 turnos: Predigan qué dirá la siguiente persona.",
@@ -1446,7 +1446,7 @@ export const eventosEspecialesCards = [
     "regla": "Predicción final"
   },
   {
-    "id": 3571,
+    "id": "eve_121",
     "intensidad": 5,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante el próximo turno: Nadie puede decir 'obvio'.",
@@ -1458,7 +1458,7 @@ export const eventosEspecialesCards = [
     "regla": "Prohibido: obvio"
   },
   {
-    "id": 3572,
+    "id": "eve_122",
     "intensidad": 5,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 2 turnos: Todos deben hablar con voz de influencer.",
@@ -1470,7 +1470,7 @@ export const eventosEspecialesCards = [
     "regla": "Voz de influencer"
   },
   {
-    "id": 3573,
+    "id": "eve_123",
     "intensidad": 5,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 3 turnos: Antes de hablar, hagan brindis.",
@@ -1482,7 +1482,7 @@ export const eventosEspecialesCards = [
     "regla": "brindis antes de hablar"
   },
   {
-    "id": 3574,
+    "id": "eve_124",
     "intensidad": 5,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 4 turnos: Incluyan una palabra sobre citas.",
@@ -1494,7 +1494,7 @@ export const eventosEspecialesCards = [
     "regla": "Palabra de citas"
   },
   {
-    "id": 3575,
+    "id": "eve_125",
     "intensidad": 5,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 5 turnos: Respondan solo con preguntas.",
@@ -1506,7 +1506,7 @@ export const eventosEspecialesCards = [
     "regla": "Solo preguntas"
   },
   {
-    "id": 3576,
+    "id": "eve_126",
     "intensidad": 5,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante el próximo turno: No usen 'sí' ni 'no'.",
@@ -1518,7 +1518,7 @@ export const eventosEspecialesCards = [
     "regla": "Sin sí ni no"
   },
   {
-    "id": 3577,
+    "id": "eve_127",
     "intensidad": 5,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 2 turnos: Hablen en tercera persona.",
@@ -1530,7 +1530,7 @@ export const eventosEspecialesCards = [
     "regla": "Tercera persona"
   },
   {
-    "id": 3578,
+    "id": "eve_128",
     "intensidad": 5,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 3 turnos: Brinden antes de beber.",
@@ -1542,7 +1542,7 @@ export const eventosEspecialesCards = [
     "regla": "Brindar antes de beber"
   },
   {
-    "id": 3579,
+    "id": "eve_129",
     "intensidad": 5,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 4 turnos: Terminen cada frase con una rima.",
@@ -1554,7 +1554,7 @@ export const eventosEspecialesCards = [
     "regla": "Cerrar con rima"
   },
   {
-    "id": 3580,
+    "id": "eve_130",
     "intensidad": 5,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 5 turnos: Repitan la última palabra anterior.",
@@ -1566,7 +1566,7 @@ export const eventosEspecialesCards = [
     "regla": "Repetir última palabra"
   },
   {
-    "id": 3581,
+    "id": "eve_131",
     "intensidad": 5,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante el próximo turno: Imiten el gesto anterior y añadan otro.",
@@ -1578,7 +1578,7 @@ export const eventosEspecialesCards = [
     "regla": "Cadena de gestos"
   },
   {
-    "id": 3582,
+    "id": "eve_132",
     "intensidad": 5,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 2 turnos: Cuenten hasta 10 sin hablar a la vez.",
@@ -1590,7 +1590,7 @@ export const eventosEspecialesCards = [
     "regla": "Conteo sin coincidir"
   },
   {
-    "id": 3583,
+    "id": "eve_133",
     "intensidad": 5,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 3 turnos: Den un cumplido al cerrar su turno.",
@@ -1602,7 +1602,7 @@ export const eventosEspecialesCards = [
     "regla": "Cerrar con cumplido"
   },
   {
-    "id": 3584,
+    "id": "eve_134",
     "intensidad": 5,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 4 turnos: No usen nombres ni señalen.",
@@ -1614,7 +1614,7 @@ export const eventosEspecialesCards = [
     "regla": "Sin nombres"
   },
   {
-    "id": 3585,
+    "id": "eve_135",
     "intensidad": 5,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 5 turnos: Comiencen con 'confieso que'.",
@@ -1626,7 +1626,7 @@ export const eventosEspecialesCards = [
     "regla": "Inicio: confieso que"
   },
   {
-    "id": 3586,
+    "id": "eve_136",
     "intensidad": 5,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante el próximo turno: Mantengan brindis mientras hablan.",
@@ -1638,7 +1638,7 @@ export const eventosEspecialesCards = [
     "regla": "Mantener brindis"
   },
   {
-    "id": 3587,
+    "id": "eve_137",
     "intensidad": 5,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 2 turnos: Continúen una historia sobre citas.",
@@ -1650,7 +1650,7 @@ export const eventosEspecialesCards = [
     "regla": "Historia de citas"
   },
   {
-    "id": 3588,
+    "id": "eve_138",
     "intensidad": 5,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 3 turnos: No revisen el teléfono.",
@@ -1662,7 +1662,7 @@ export const eventosEspecialesCards = [
     "regla": "Sin teléfonos"
   },
   {
-    "id": 3589,
+    "id": "eve_139",
     "intensidad": 5,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 4 turnos: Usen únicamente apodos temporales.",
@@ -1674,7 +1674,7 @@ export const eventosEspecialesCards = [
     "regla": "Apodos temporales"
   },
   {
-    "id": 3590,
+    "id": "eve_140",
     "intensidad": 5,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 5 turnos: Cuenten desde 10 hasta cero antes de responder.",
@@ -1686,7 +1686,7 @@ export const eventosEspecialesCards = [
     "regla": "Cuenta regresiva"
   },
   {
-    "id": 3591,
+    "id": "eve_141",
     "intensidad": 5,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante el próximo turno: Usen exactamente 10 palabras por frase.",
@@ -1698,7 +1698,7 @@ export const eventosEspecialesCards = [
     "regla": "Frases de 10 palabras"
   },
   {
-    "id": 3592,
+    "id": "eve_142",
     "intensidad": 5,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 2 turnos: Respondan primero su propia pregunta.",
@@ -1710,7 +1710,7 @@ export const eventosEspecialesCards = [
     "regla": "Responder pregunta propia"
   },
   {
-    "id": 3593,
+    "id": "eve_143",
     "intensidad": 5,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 3 turnos: Usen una emoción diferente por turno.",
@@ -1722,7 +1722,7 @@ export const eventosEspecialesCards = [
     "regla": "Emoción diferente"
   },
   {
-    "id": 3594,
+    "id": "eve_144",
     "intensidad": 5,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 4 turnos: No repitan ningún verbo.",
@@ -1734,7 +1734,7 @@ export const eventosEspecialesCards = [
     "regla": "No repetir verbos"
   },
   {
-    "id": 3595,
+    "id": "eve_145",
     "intensidad": 5,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 5 turnos: Comiencen susurrando y terminen fuerte.",
@@ -1746,7 +1746,7 @@ export const eventosEspecialesCards = [
     "regla": "Cambiar volumen"
   },
   {
-    "id": 3596,
+    "id": "eve_146",
     "intensidad": 5,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante el próximo turno: Resuman lo anterior en tres palabras.",
@@ -1758,7 +1758,7 @@ export const eventosEspecialesCards = [
     "regla": "Resumen previo"
   },
   {
-    "id": 3597,
+    "id": "eve_147",
     "intensidad": 5,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 2 turnos: Inicien con la última letra anterior.",
@@ -1770,7 +1770,7 @@ export const eventosEspecialesCards = [
     "regla": "Cadena por letra"
   },
   {
-    "id": 3598,
+    "id": "eve_148",
     "intensidad": 5,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 3 turnos: Representen lo que dirán antes de hablar.",
@@ -1782,7 +1782,7 @@ export const eventosEspecialesCards = [
     "regla": "Mímica previa"
   },
   {
-    "id": 3599,
+    "id": "eve_149",
     "intensidad": 5,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 4 turnos: Al oír 'obvio', hagan brindis.",
@@ -1794,7 +1794,7 @@ export const eventosEspecialesCards = [
     "regla": "Señal: obvio"
   },
   {
-    "id": 3600,
+    "id": "eve_150",
     "intensidad": 5,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 5 turnos: Predigan qué dirá la siguiente persona.",
@@ -1806,7 +1806,7 @@ export const eventosEspecialesCards = [
     "regla": "Predicción final"
   },
   {
-    "id": 3601,
+    "id": "eve_151",
     "intensidad": 6,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 2 turnos: Nadie puede decir 'honestamente'.",
@@ -1818,7 +1818,7 @@ export const eventosEspecialesCards = [
     "regla": "Prohibido: honestamente"
   },
   {
-    "id": 3602,
+    "id": "eve_152",
     "intensidad": 6,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 3 turnos: Todos deben hablar con voz de abogado.",
@@ -1830,7 +1830,7 @@ export const eventosEspecialesCards = [
     "regla": "Voz de abogado"
   },
   {
-    "id": 3603,
+    "id": "eve_153",
     "intensidad": 6,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 4 turnos: Antes de hablar, hagan reverencia.",
@@ -1842,7 +1842,7 @@ export const eventosEspecialesCards = [
     "regla": "reverencia antes de hablar"
   },
   {
-    "id": 3604,
+    "id": "eve_154",
     "intensidad": 6,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 5 turnos: Incluyan una palabra sobre decisiones impulsivas.",
@@ -1854,7 +1854,7 @@ export const eventosEspecialesCards = [
     "regla": "Palabra de decisiones impulsivas"
   },
   {
-    "id": 3605,
+    "id": "eve_155",
     "intensidad": 6,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante el próximo turno: Respondan solo con preguntas.",
@@ -1866,7 +1866,7 @@ export const eventosEspecialesCards = [
     "regla": "Solo preguntas"
   },
   {
-    "id": 3606,
+    "id": "eve_156",
     "intensidad": 6,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 2 turnos: No usen 'sí' ni 'no'.",
@@ -1878,7 +1878,7 @@ export const eventosEspecialesCards = [
     "regla": "Sin sí ni no"
   },
   {
-    "id": 3607,
+    "id": "eve_157",
     "intensidad": 6,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 3 turnos: Hablen en tercera persona.",
@@ -1890,7 +1890,7 @@ export const eventosEspecialesCards = [
     "regla": "Tercera persona"
   },
   {
-    "id": 3608,
+    "id": "eve_158",
     "intensidad": 6,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 4 turnos: Brinden antes de beber.",
@@ -1902,7 +1902,7 @@ export const eventosEspecialesCards = [
     "regla": "Brindar antes de beber"
   },
   {
-    "id": 3609,
+    "id": "eve_159",
     "intensidad": 6,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 5 turnos: Terminen cada frase con una rima.",
@@ -1914,7 +1914,7 @@ export const eventosEspecialesCards = [
     "regla": "Cerrar con rima"
   },
   {
-    "id": 3610,
+    "id": "eve_160",
     "intensidad": 6,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante el próximo turno: Repitan la última palabra anterior.",
@@ -1926,7 +1926,7 @@ export const eventosEspecialesCards = [
     "regla": "Repetir última palabra"
   },
   {
-    "id": 3611,
+    "id": "eve_161",
     "intensidad": 6,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 2 turnos: Imiten el gesto anterior y añadan otro.",
@@ -1938,7 +1938,7 @@ export const eventosEspecialesCards = [
     "regla": "Cadena de gestos"
   },
   {
-    "id": 3612,
+    "id": "eve_162",
     "intensidad": 6,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 3 turnos: Cuenten hasta 11 sin hablar a la vez.",
@@ -1950,7 +1950,7 @@ export const eventosEspecialesCards = [
     "regla": "Conteo sin coincidir"
   },
   {
-    "id": 3613,
+    "id": "eve_163",
     "intensidad": 6,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 4 turnos: Den un cumplido al cerrar su turno.",
@@ -1962,7 +1962,7 @@ export const eventosEspecialesCards = [
     "regla": "Cerrar con cumplido"
   },
   {
-    "id": 3614,
+    "id": "eve_164",
     "intensidad": 6,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 5 turnos: No usen nombres ni señalen.",
@@ -1974,7 +1974,7 @@ export const eventosEspecialesCards = [
     "regla": "Sin nombres"
   },
   {
-    "id": 3615,
+    "id": "eve_165",
     "intensidad": 6,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante el próximo turno: Comiencen con 'confieso que'.",
@@ -1986,7 +1986,7 @@ export const eventosEspecialesCards = [
     "regla": "Inicio: confieso que"
   },
   {
-    "id": 3616,
+    "id": "eve_166",
     "intensidad": 6,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 2 turnos: Mantengan reverencia mientras hablan.",
@@ -1998,7 +1998,7 @@ export const eventosEspecialesCards = [
     "regla": "Mantener reverencia"
   },
   {
-    "id": 3617,
+    "id": "eve_167",
     "intensidad": 6,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 3 turnos: Continúen una historia sobre decisiones impulsivas.",
@@ -2010,7 +2010,7 @@ export const eventosEspecialesCards = [
     "regla": "Historia de decisiones impulsivas"
   },
   {
-    "id": 3618,
+    "id": "eve_168",
     "intensidad": 6,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 4 turnos: No revisen el teléfono.",
@@ -2022,7 +2022,7 @@ export const eventosEspecialesCards = [
     "regla": "Sin teléfonos"
   },
   {
-    "id": 3619,
+    "id": "eve_169",
     "intensidad": 6,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 5 turnos: Usen únicamente apodos temporales.",
@@ -2034,7 +2034,7 @@ export const eventosEspecialesCards = [
     "regla": "Apodos temporales"
   },
   {
-    "id": 3620,
+    "id": "eve_170",
     "intensidad": 6,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante el próximo turno: Cuenten desde 11 hasta cero antes de responder.",
@@ -2046,7 +2046,7 @@ export const eventosEspecialesCards = [
     "regla": "Cuenta regresiva"
   },
   {
-    "id": 3621,
+    "id": "eve_171",
     "intensidad": 6,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 2 turnos: Usen exactamente 11 palabras por frase.",
@@ -2058,7 +2058,7 @@ export const eventosEspecialesCards = [
     "regla": "Frases de 11 palabras"
   },
   {
-    "id": 3622,
+    "id": "eve_172",
     "intensidad": 6,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 3 turnos: Respondan primero su propia pregunta.",
@@ -2070,7 +2070,7 @@ export const eventosEspecialesCards = [
     "regla": "Responder pregunta propia"
   },
   {
-    "id": 3623,
+    "id": "eve_173",
     "intensidad": 6,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 4 turnos: Usen una emoción diferente por turno.",
@@ -2082,7 +2082,7 @@ export const eventosEspecialesCards = [
     "regla": "Emoción diferente"
   },
   {
-    "id": 3624,
+    "id": "eve_174",
     "intensidad": 6,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 5 turnos: No repitan ningún verbo.",
@@ -2094,7 +2094,7 @@ export const eventosEspecialesCards = [
     "regla": "No repetir verbos"
   },
   {
-    "id": 3625,
+    "id": "eve_175",
     "intensidad": 6,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante el próximo turno: Comiencen susurrando y terminen fuerte.",
@@ -2106,7 +2106,7 @@ export const eventosEspecialesCards = [
     "regla": "Cambiar volumen"
   },
   {
-    "id": 3626,
+    "id": "eve_176",
     "intensidad": 6,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 2 turnos: Resuman lo anterior en tres palabras.",
@@ -2118,7 +2118,7 @@ export const eventosEspecialesCards = [
     "regla": "Resumen previo"
   },
   {
-    "id": 3627,
+    "id": "eve_177",
     "intensidad": 6,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 3 turnos: Inicien con la última letra anterior.",
@@ -2130,7 +2130,7 @@ export const eventosEspecialesCards = [
     "regla": "Cadena por letra"
   },
   {
-    "id": 3628,
+    "id": "eve_178",
     "intensidad": 6,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 4 turnos: Representen lo que dirán antes de hablar.",
@@ -2142,7 +2142,7 @@ export const eventosEspecialesCards = [
     "regla": "Mímica previa"
   },
   {
-    "id": 3629,
+    "id": "eve_179",
     "intensidad": 6,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 5 turnos: Al oír 'honestamente', hagan reverencia.",
@@ -2154,7 +2154,7 @@ export const eventosEspecialesCards = [
     "regla": "Señal: honestamente"
   },
   {
-    "id": 3630,
+    "id": "eve_180",
     "intensidad": 6,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante el próximo turno: Predigan qué dirá la siguiente persona.",
@@ -2166,7 +2166,7 @@ export const eventosEspecialesCards = [
     "regla": "Predicción final"
   },
   {
-    "id": 3631,
+    "id": "eve_181",
     "intensidad": 7,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 3 turnos: Nadie puede decir 'ex'.",
@@ -2178,7 +2178,7 @@ export const eventosEspecialesCards = [
     "regla": "Prohibido: ex"
   },
   {
-    "id": 3632,
+    "id": "eve_182",
     "intensidad": 7,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 4 turnos: Todos deben hablar con voz de terapeuta.",
@@ -2190,7 +2190,7 @@ export const eventosEspecialesCards = [
     "regla": "Voz de terapeuta"
   },
   {
-    "id": 3633,
+    "id": "eve_183",
     "intensidad": 7,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 5 turnos: Antes de hablar, hagan guiño.",
@@ -2202,7 +2202,7 @@ export const eventosEspecialesCards = [
     "regla": "guiño antes de hablar"
   },
   {
-    "id": 3634,
+    "id": "eve_184",
     "intensidad": 7,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante el próximo turno: Incluyan una palabra sobre relaciones.",
@@ -2214,7 +2214,7 @@ export const eventosEspecialesCards = [
     "regla": "Palabra de relaciones"
   },
   {
-    "id": 3635,
+    "id": "eve_185",
     "intensidad": 7,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 2 turnos: Respondan solo con preguntas.",
@@ -2226,7 +2226,7 @@ export const eventosEspecialesCards = [
     "regla": "Solo preguntas"
   },
   {
-    "id": 3636,
+    "id": "eve_186",
     "intensidad": 7,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 3 turnos: No usen 'sí' ni 'no'.",
@@ -2238,7 +2238,7 @@ export const eventosEspecialesCards = [
     "regla": "Sin sí ni no"
   },
   {
-    "id": 3637,
+    "id": "eve_187",
     "intensidad": 7,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 4 turnos: Hablen en tercera persona.",
@@ -2250,7 +2250,7 @@ export const eventosEspecialesCards = [
     "regla": "Tercera persona"
   },
   {
-    "id": 3638,
+    "id": "eve_188",
     "intensidad": 7,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 5 turnos: Brinden antes de beber.",
@@ -2262,7 +2262,7 @@ export const eventosEspecialesCards = [
     "regla": "Brindar antes de beber"
   },
   {
-    "id": 3639,
+    "id": "eve_189",
     "intensidad": 7,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante el próximo turno: Terminen cada frase con una rima.",
@@ -2274,7 +2274,7 @@ export const eventosEspecialesCards = [
     "regla": "Cerrar con rima"
   },
   {
-    "id": 3640,
+    "id": "eve_190",
     "intensidad": 7,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 2 turnos: Repitan la última palabra anterior.",
@@ -2286,7 +2286,7 @@ export const eventosEspecialesCards = [
     "regla": "Repetir última palabra"
   },
   {
-    "id": 3641,
+    "id": "eve_191",
     "intensidad": 7,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 3 turnos: Imiten el gesto anterior y añadan otro.",
@@ -2298,7 +2298,7 @@ export const eventosEspecialesCards = [
     "regla": "Cadena de gestos"
   },
   {
-    "id": 3642,
+    "id": "eve_192",
     "intensidad": 7,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 4 turnos: Cuenten hasta 12 sin hablar a la vez.",
@@ -2310,7 +2310,7 @@ export const eventosEspecialesCards = [
     "regla": "Conteo sin coincidir"
   },
   {
-    "id": 3643,
+    "id": "eve_193",
     "intensidad": 7,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 5 turnos: Den un cumplido al cerrar su turno.",
@@ -2322,7 +2322,7 @@ export const eventosEspecialesCards = [
     "regla": "Cerrar con cumplido"
   },
   {
-    "id": 3644,
+    "id": "eve_194",
     "intensidad": 7,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante el próximo turno: No usen nombres ni señalen.",
@@ -2334,7 +2334,7 @@ export const eventosEspecialesCards = [
     "regla": "Sin nombres"
   },
   {
-    "id": 3645,
+    "id": "eve_195",
     "intensidad": 7,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 2 turnos: Comiencen con 'confieso que'.",
@@ -2346,7 +2346,7 @@ export const eventosEspecialesCards = [
     "regla": "Inicio: confieso que"
   },
   {
-    "id": 3646,
+    "id": "eve_196",
     "intensidad": 7,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 3 turnos: Mantengan guiño mientras hablan.",
@@ -2358,7 +2358,7 @@ export const eventosEspecialesCards = [
     "regla": "Mantener guiño"
   },
   {
-    "id": 3647,
+    "id": "eve_197",
     "intensidad": 7,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 4 turnos: Continúen una historia sobre relaciones.",
@@ -2370,7 +2370,7 @@ export const eventosEspecialesCards = [
     "regla": "Historia de relaciones"
   },
   {
-    "id": 3648,
+    "id": "eve_198",
     "intensidad": 7,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 5 turnos: No revisen el teléfono.",
@@ -2382,7 +2382,7 @@ export const eventosEspecialesCards = [
     "regla": "Sin teléfonos"
   },
   {
-    "id": 3649,
+    "id": "eve_199",
     "intensidad": 7,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante el próximo turno: Usen únicamente apodos temporales.",
@@ -2394,7 +2394,7 @@ export const eventosEspecialesCards = [
     "regla": "Apodos temporales"
   },
   {
-    "id": 3650,
+    "id": "eve_200",
     "intensidad": 7,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 2 turnos: Cuenten desde 12 hasta cero antes de responder.",
@@ -2406,7 +2406,7 @@ export const eventosEspecialesCards = [
     "regla": "Cuenta regresiva"
   },
   {
-    "id": 3651,
+    "id": "eve_201",
     "intensidad": 7,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 3 turnos: Usen exactamente 12 palabras por frase.",
@@ -2418,7 +2418,7 @@ export const eventosEspecialesCards = [
     "regla": "Frases de 12 palabras"
   },
   {
-    "id": 3652,
+    "id": "eve_202",
     "intensidad": 7,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 4 turnos: Respondan primero su propia pregunta.",
@@ -2430,7 +2430,7 @@ export const eventosEspecialesCards = [
     "regla": "Responder pregunta propia"
   },
   {
-    "id": 3653,
+    "id": "eve_203",
     "intensidad": 7,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 5 turnos: Usen una emoción diferente por turno.",
@@ -2442,7 +2442,7 @@ export const eventosEspecialesCards = [
     "regla": "Emoción diferente"
   },
   {
-    "id": 3654,
+    "id": "eve_204",
     "intensidad": 7,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante el próximo turno: No repitan ningún verbo.",
@@ -2454,7 +2454,7 @@ export const eventosEspecialesCards = [
     "regla": "No repetir verbos"
   },
   {
-    "id": 3655,
+    "id": "eve_205",
     "intensidad": 7,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 2 turnos: Comiencen susurrando y terminen fuerte.",
@@ -2466,7 +2466,7 @@ export const eventosEspecialesCards = [
     "regla": "Cambiar volumen"
   },
   {
-    "id": 3656,
+    "id": "eve_206",
     "intensidad": 7,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 3 turnos: Resuman lo anterior en tres palabras.",
@@ -2478,7 +2478,7 @@ export const eventosEspecialesCards = [
     "regla": "Resumen previo"
   },
   {
-    "id": 3657,
+    "id": "eve_207",
     "intensidad": 7,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 4 turnos: Inicien con la última letra anterior.",
@@ -2490,7 +2490,7 @@ export const eventosEspecialesCards = [
     "regla": "Cadena por letra"
   },
   {
-    "id": 3658,
+    "id": "eve_208",
     "intensidad": 7,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 5 turnos: Representen lo que dirán antes de hablar.",
@@ -2502,7 +2502,7 @@ export const eventosEspecialesCards = [
     "regla": "Mímica previa"
   },
   {
-    "id": 3659,
+    "id": "eve_209",
     "intensidad": 7,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante el próximo turno: Al oír 'ex', hagan guiño.",
@@ -2514,7 +2514,7 @@ export const eventosEspecialesCards = [
     "regla": "Señal: ex"
   },
   {
-    "id": 3660,
+    "id": "eve_210",
     "intensidad": 7,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 2 turnos: Predigan qué dirá la siguiente persona.",
@@ -2526,7 +2526,7 @@ export const eventosEspecialesCards = [
     "regla": "Predicción final"
   },
   {
-    "id": 3661,
+    "id": "eve_211",
     "intensidad": 8,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 4 turnos: Nadie puede decir 'mentira'.",
@@ -2538,7 +2538,7 @@ export const eventosEspecialesCards = [
     "regla": "Prohibido: mentira"
   },
   {
-    "id": 3662,
+    "id": "eve_212",
     "intensidad": 8,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 5 turnos: Todos deben hablar con voz de periodista.",
@@ -2550,7 +2550,7 @@ export const eventosEspecialesCards = [
     "regla": "Voz de periodista"
   },
   {
-    "id": 3663,
+    "id": "eve_213",
     "intensidad": 8,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante el próximo turno: Antes de hablar, hagan gesto dramático.",
@@ -2562,7 +2562,7 @@ export const eventosEspecialesCards = [
     "regla": "gesto dramático antes de hablar"
   },
   {
-    "id": 3664,
+    "id": "eve_214",
     "intensidad": 8,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 2 turnos: Incluyan una palabra sobre secretos.",
@@ -2574,7 +2574,7 @@ export const eventosEspecialesCards = [
     "regla": "Palabra de secretos"
   },
   {
-    "id": 3665,
+    "id": "eve_215",
     "intensidad": 8,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 3 turnos: Respondan solo con preguntas.",
@@ -2586,7 +2586,7 @@ export const eventosEspecialesCards = [
     "regla": "Solo preguntas"
   },
   {
-    "id": 3666,
+    "id": "eve_216",
     "intensidad": 8,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 4 turnos: No usen 'sí' ni 'no'.",
@@ -2598,7 +2598,7 @@ export const eventosEspecialesCards = [
     "regla": "Sin sí ni no"
   },
   {
-    "id": 3667,
+    "id": "eve_217",
     "intensidad": 8,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 5 turnos: Hablen en tercera persona.",
@@ -2610,7 +2610,7 @@ export const eventosEspecialesCards = [
     "regla": "Tercera persona"
   },
   {
-    "id": 3668,
+    "id": "eve_218",
     "intensidad": 8,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante el próximo turno: Brinden antes de beber.",
@@ -2622,7 +2622,7 @@ export const eventosEspecialesCards = [
     "regla": "Brindar antes de beber"
   },
   {
-    "id": 3669,
+    "id": "eve_219",
     "intensidad": 8,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 2 turnos: Terminen cada frase con una rima.",
@@ -2634,7 +2634,7 @@ export const eventosEspecialesCards = [
     "regla": "Cerrar con rima"
   },
   {
-    "id": 3670,
+    "id": "eve_220",
     "intensidad": 8,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 3 turnos: Repitan la última palabra anterior.",
@@ -2646,7 +2646,7 @@ export const eventosEspecialesCards = [
     "regla": "Repetir última palabra"
   },
   {
-    "id": 3671,
+    "id": "eve_221",
     "intensidad": 8,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 4 turnos: Imiten el gesto anterior y añadan otro.",
@@ -2658,7 +2658,7 @@ export const eventosEspecialesCards = [
     "regla": "Cadena de gestos"
   },
   {
-    "id": 3672,
+    "id": "eve_222",
     "intensidad": 8,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 5 turnos: Cuenten hasta 13 sin hablar a la vez.",
@@ -2670,7 +2670,7 @@ export const eventosEspecialesCards = [
     "regla": "Conteo sin coincidir"
   },
   {
-    "id": 3673,
+    "id": "eve_223",
     "intensidad": 8,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante el próximo turno: Den un cumplido al cerrar su turno.",
@@ -2682,7 +2682,7 @@ export const eventosEspecialesCards = [
     "regla": "Cerrar con cumplido"
   },
   {
-    "id": 3674,
+    "id": "eve_224",
     "intensidad": 8,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 2 turnos: No usen nombres ni señalen.",
@@ -2694,7 +2694,7 @@ export const eventosEspecialesCards = [
     "regla": "Sin nombres"
   },
   {
-    "id": 3675,
+    "id": "eve_225",
     "intensidad": 8,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 3 turnos: Comiencen con 'confieso que'.",
@@ -2706,7 +2706,7 @@ export const eventosEspecialesCards = [
     "regla": "Inicio: confieso que"
   },
   {
-    "id": 3676,
+    "id": "eve_226",
     "intensidad": 8,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 4 turnos: Mantengan gesto dramático mientras hablan.",
@@ -2718,7 +2718,7 @@ export const eventosEspecialesCards = [
     "regla": "Mantener gesto dramático"
   },
   {
-    "id": 3677,
+    "id": "eve_227",
     "intensidad": 8,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 5 turnos: Continúen una historia sobre secretos.",
@@ -2730,7 +2730,7 @@ export const eventosEspecialesCards = [
     "regla": "Historia de secretos"
   },
   {
-    "id": 3678,
+    "id": "eve_228",
     "intensidad": 8,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante el próximo turno: No revisen el teléfono.",
@@ -2742,7 +2742,7 @@ export const eventosEspecialesCards = [
     "regla": "Sin teléfonos"
   },
   {
-    "id": 3679,
+    "id": "eve_229",
     "intensidad": 8,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 2 turnos: Usen únicamente apodos temporales.",
@@ -2754,7 +2754,7 @@ export const eventosEspecialesCards = [
     "regla": "Apodos temporales"
   },
   {
-    "id": 3680,
+    "id": "eve_230",
     "intensidad": 8,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 3 turnos: Cuenten desde 13 hasta cero antes de responder.",
@@ -2766,7 +2766,7 @@ export const eventosEspecialesCards = [
     "regla": "Cuenta regresiva"
   },
   {
-    "id": 3681,
+    "id": "eve_231",
     "intensidad": 8,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 4 turnos: Usen exactamente 13 palabras por frase.",
@@ -2778,7 +2778,7 @@ export const eventosEspecialesCards = [
     "regla": "Frases de 13 palabras"
   },
   {
-    "id": 3682,
+    "id": "eve_232",
     "intensidad": 8,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 5 turnos: Respondan primero su propia pregunta.",
@@ -2790,7 +2790,7 @@ export const eventosEspecialesCards = [
     "regla": "Responder pregunta propia"
   },
   {
-    "id": 3683,
+    "id": "eve_233",
     "intensidad": 8,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante el próximo turno: Usen una emoción diferente por turno.",
@@ -2802,7 +2802,7 @@ export const eventosEspecialesCards = [
     "regla": "Emoción diferente"
   },
   {
-    "id": 3684,
+    "id": "eve_234",
     "intensidad": 8,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 2 turnos: No repitan ningún verbo.",
@@ -2814,7 +2814,7 @@ export const eventosEspecialesCards = [
     "regla": "No repetir verbos"
   },
   {
-    "id": 3685,
+    "id": "eve_235",
     "intensidad": 8,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 3 turnos: Comiencen susurrando y terminen fuerte.",
@@ -2826,7 +2826,7 @@ export const eventosEspecialesCards = [
     "regla": "Cambiar volumen"
   },
   {
-    "id": 3686,
+    "id": "eve_236",
     "intensidad": 8,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 4 turnos: Resuman lo anterior en tres palabras.",
@@ -2838,7 +2838,7 @@ export const eventosEspecialesCards = [
     "regla": "Resumen previo"
   },
   {
-    "id": 3687,
+    "id": "eve_237",
     "intensidad": 8,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 5 turnos: Inicien con la última letra anterior.",
@@ -2850,7 +2850,7 @@ export const eventosEspecialesCards = [
     "regla": "Cadena por letra"
   },
   {
-    "id": 3688,
+    "id": "eve_238",
     "intensidad": 8,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante el próximo turno: Representen lo que dirán antes de hablar.",
@@ -2862,7 +2862,7 @@ export const eventosEspecialesCards = [
     "regla": "Mímica previa"
   },
   {
-    "id": 3689,
+    "id": "eve_239",
     "intensidad": 8,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 2 turnos: Al oír 'mentira', hagan gesto dramático.",
@@ -2874,7 +2874,7 @@ export const eventosEspecialesCards = [
     "regla": "Señal: mentira"
   },
   {
-    "id": 3690,
+    "id": "eve_240",
     "intensidad": 8,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 3 turnos: Predigan qué dirá la siguiente persona.",
@@ -2886,7 +2886,7 @@ export const eventosEspecialesCards = [
     "regla": "Predicción final"
   },
   {
-    "id": 3691,
+    "id": "eve_241",
     "intensidad": 9,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 5 turnos: Nadie puede decir 'perdón'.",
@@ -2898,7 +2898,7 @@ export const eventosEspecialesCards = [
     "regla": "Prohibido: perdón"
   },
   {
-    "id": 3692,
+    "id": "eve_242",
     "intensidad": 9,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante el próximo turno: Todos deben hablar con voz de juez.",
@@ -2910,7 +2910,7 @@ export const eventosEspecialesCards = [
     "regla": "Voz de juez"
   },
   {
-    "id": 3693,
+    "id": "eve_243",
     "intensidad": 9,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 2 turnos: Antes de hablar, hagan mano al corazón.",
@@ -2922,7 +2922,7 @@ export const eventosEspecialesCards = [
     "regla": "mano al corazón antes de hablar"
   },
   {
-    "id": 3694,
+    "id": "eve_244",
     "intensidad": 9,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 3 turnos: Incluyan una palabra sobre confianza.",
@@ -2934,7 +2934,7 @@ export const eventosEspecialesCards = [
     "regla": "Palabra de confianza"
   },
   {
-    "id": 3695,
+    "id": "eve_245",
     "intensidad": 9,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 4 turnos: Respondan solo con preguntas.",
@@ -2946,7 +2946,7 @@ export const eventosEspecialesCards = [
     "regla": "Solo preguntas"
   },
   {
-    "id": 3696,
+    "id": "eve_246",
     "intensidad": 9,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 5 turnos: No usen 'sí' ni 'no'.",
@@ -2958,7 +2958,7 @@ export const eventosEspecialesCards = [
     "regla": "Sin sí ni no"
   },
   {
-    "id": 3697,
+    "id": "eve_247",
     "intensidad": 9,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante el próximo turno: Hablen en tercera persona.",
@@ -2970,7 +2970,7 @@ export const eventosEspecialesCards = [
     "regla": "Tercera persona"
   },
   {
-    "id": 3698,
+    "id": "eve_248",
     "intensidad": 9,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 2 turnos: Brinden antes de beber.",
@@ -2982,7 +2982,7 @@ export const eventosEspecialesCards = [
     "regla": "Brindar antes de beber"
   },
   {
-    "id": 3699,
+    "id": "eve_249",
     "intensidad": 9,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 3 turnos: Terminen cada frase con una rima.",
@@ -2994,7 +2994,7 @@ export const eventosEspecialesCards = [
     "regla": "Cerrar con rima"
   },
   {
-    "id": 3700,
+    "id": "eve_250",
     "intensidad": 9,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 4 turnos: Repitan la última palabra anterior.",
@@ -3006,7 +3006,7 @@ export const eventosEspecialesCards = [
     "regla": "Repetir última palabra"
   },
   {
-    "id": 3701,
+    "id": "eve_251",
     "intensidad": 9,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 5 turnos: Imiten el gesto anterior y añadan otro.",
@@ -3018,7 +3018,7 @@ export const eventosEspecialesCards = [
     "regla": "Cadena de gestos"
   },
   {
-    "id": 3702,
+    "id": "eve_252",
     "intensidad": 9,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante el próximo turno: Cuenten hasta 14 sin hablar a la vez.",
@@ -3030,7 +3030,7 @@ export const eventosEspecialesCards = [
     "regla": "Conteo sin coincidir"
   },
   {
-    "id": 3703,
+    "id": "eve_253",
     "intensidad": 9,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 2 turnos: Den un cumplido al cerrar su turno.",
@@ -3042,7 +3042,7 @@ export const eventosEspecialesCards = [
     "regla": "Cerrar con cumplido"
   },
   {
-    "id": 3704,
+    "id": "eve_254",
     "intensidad": 9,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 3 turnos: No usen nombres ni señalen.",
@@ -3054,7 +3054,7 @@ export const eventosEspecialesCards = [
     "regla": "Sin nombres"
   },
   {
-    "id": 3705,
+    "id": "eve_255",
     "intensidad": 9,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 4 turnos: Comiencen con 'confieso que'.",
@@ -3066,7 +3066,7 @@ export const eventosEspecialesCards = [
     "regla": "Inicio: confieso que"
   },
   {
-    "id": 3706,
+    "id": "eve_256",
     "intensidad": 9,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 5 turnos: Mantengan mano al corazón mientras hablan.",
@@ -3078,7 +3078,7 @@ export const eventosEspecialesCards = [
     "regla": "Mantener mano al corazón"
   },
   {
-    "id": 3707,
+    "id": "eve_257",
     "intensidad": 9,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante el próximo turno: Continúen una historia sobre confianza.",
@@ -3090,7 +3090,7 @@ export const eventosEspecialesCards = [
     "regla": "Historia de confianza"
   },
   {
-    "id": 3708,
+    "id": "eve_258",
     "intensidad": 9,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 2 turnos: No revisen el teléfono.",
@@ -3102,7 +3102,7 @@ export const eventosEspecialesCards = [
     "regla": "Sin teléfonos"
   },
   {
-    "id": 3709,
+    "id": "eve_259",
     "intensidad": 9,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 3 turnos: Usen únicamente apodos temporales.",
@@ -3114,7 +3114,7 @@ export const eventosEspecialesCards = [
     "regla": "Apodos temporales"
   },
   {
-    "id": 3710,
+    "id": "eve_260",
     "intensidad": 9,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 4 turnos: Cuenten desde 14 hasta cero antes de responder.",
@@ -3126,7 +3126,7 @@ export const eventosEspecialesCards = [
     "regla": "Cuenta regresiva"
   },
   {
-    "id": 3711,
+    "id": "eve_261",
     "intensidad": 9,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 5 turnos: Usen exactamente 14 palabras por frase.",
@@ -3138,7 +3138,7 @@ export const eventosEspecialesCards = [
     "regla": "Frases de 14 palabras"
   },
   {
-    "id": 3712,
+    "id": "eve_262",
     "intensidad": 9,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante el próximo turno: Respondan primero su propia pregunta.",
@@ -3150,7 +3150,7 @@ export const eventosEspecialesCards = [
     "regla": "Responder pregunta propia"
   },
   {
-    "id": 3713,
+    "id": "eve_263",
     "intensidad": 9,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 2 turnos: Usen una emoción diferente por turno.",
@@ -3162,7 +3162,7 @@ export const eventosEspecialesCards = [
     "regla": "Emoción diferente"
   },
   {
-    "id": 3714,
+    "id": "eve_264",
     "intensidad": 9,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 3 turnos: No repitan ningún verbo.",
@@ -3174,7 +3174,7 @@ export const eventosEspecialesCards = [
     "regla": "No repetir verbos"
   },
   {
-    "id": 3715,
+    "id": "eve_265",
     "intensidad": 9,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 4 turnos: Comiencen susurrando y terminen fuerte.",
@@ -3186,7 +3186,7 @@ export const eventosEspecialesCards = [
     "regla": "Cambiar volumen"
   },
   {
-    "id": 3716,
+    "id": "eve_266",
     "intensidad": 9,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 5 turnos: Resuman lo anterior en tres palabras.",
@@ -3198,7 +3198,7 @@ export const eventosEspecialesCards = [
     "regla": "Resumen previo"
   },
   {
-    "id": 3717,
+    "id": "eve_267",
     "intensidad": 9,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante el próximo turno: Inicien con la última letra anterior.",
@@ -3210,7 +3210,7 @@ export const eventosEspecialesCards = [
     "regla": "Cadena por letra"
   },
   {
-    "id": 3718,
+    "id": "eve_268",
     "intensidad": 9,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 2 turnos: Representen lo que dirán antes de hablar.",
@@ -3222,7 +3222,7 @@ export const eventosEspecialesCards = [
     "regla": "Mímica previa"
   },
   {
-    "id": 3719,
+    "id": "eve_269",
     "intensidad": 9,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 3 turnos: Al oír 'perdón', hagan mano al corazón.",
@@ -3234,7 +3234,7 @@ export const eventosEspecialesCards = [
     "regla": "Señal: perdón"
   },
   {
-    "id": 3720,
+    "id": "eve_270",
     "intensidad": 9,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 4 turnos: Predigan qué dirá la siguiente persona.",
@@ -3246,7 +3246,7 @@ export const eventosEspecialesCards = [
     "regla": "Predicción final"
   },
   {
-    "id": 3721,
+    "id": "eve_271",
     "intensidad": 10,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante el próximo turno: Nadie puede decir 'consecuencia'.",
@@ -3258,7 +3258,7 @@ export const eventosEspecialesCards = [
     "regla": "Prohibido: consecuencia"
   },
   {
-    "id": 3722,
+    "id": "eve_272",
     "intensidad": 10,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 2 turnos: Todos deben hablar con voz de portavoz.",
@@ -3270,7 +3270,7 @@ export const eventosEspecialesCards = [
     "regla": "Voz de portavoz"
   },
   {
-    "id": 3723,
+    "id": "eve_273",
     "intensidad": 10,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 3 turnos: Antes de hablar, hagan pose solemne.",
@@ -3282,7 +3282,7 @@ export const eventosEspecialesCards = [
     "regla": "pose solemne antes de hablar"
   },
   {
-    "id": 3724,
+    "id": "eve_274",
     "intensidad": 10,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 4 turnos: Incluyan una palabra sobre verdades difíciles.",
@@ -3294,7 +3294,7 @@ export const eventosEspecialesCards = [
     "regla": "Palabra de verdades difíciles"
   },
   {
-    "id": 3725,
+    "id": "eve_275",
     "intensidad": 10,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 5 turnos: Respondan solo con preguntas.",
@@ -3306,7 +3306,7 @@ export const eventosEspecialesCards = [
     "regla": "Solo preguntas"
   },
   {
-    "id": 3726,
+    "id": "eve_276",
     "intensidad": 10,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante el próximo turno: No usen 'sí' ni 'no'.",
@@ -3318,7 +3318,7 @@ export const eventosEspecialesCards = [
     "regla": "Sin sí ni no"
   },
   {
-    "id": 3727,
+    "id": "eve_277",
     "intensidad": 10,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 2 turnos: Hablen en tercera persona.",
@@ -3330,7 +3330,7 @@ export const eventosEspecialesCards = [
     "regla": "Tercera persona"
   },
   {
-    "id": 3728,
+    "id": "eve_278",
     "intensidad": 10,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 3 turnos: Brinden antes de beber.",
@@ -3342,7 +3342,7 @@ export const eventosEspecialesCards = [
     "regla": "Brindar antes de beber"
   },
   {
-    "id": 3729,
+    "id": "eve_279",
     "intensidad": 10,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 4 turnos: Terminen cada frase con una rima.",
@@ -3354,7 +3354,7 @@ export const eventosEspecialesCards = [
     "regla": "Cerrar con rima"
   },
   {
-    "id": 3730,
+    "id": "eve_280",
     "intensidad": 10,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 5 turnos: Repitan la última palabra anterior.",
@@ -3366,7 +3366,7 @@ export const eventosEspecialesCards = [
     "regla": "Repetir última palabra"
   },
   {
-    "id": 3731,
+    "id": "eve_281",
     "intensidad": 10,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante el próximo turno: Imiten el gesto anterior y añadan otro.",
@@ -3378,7 +3378,7 @@ export const eventosEspecialesCards = [
     "regla": "Cadena de gestos"
   },
   {
-    "id": 3732,
+    "id": "eve_282",
     "intensidad": 10,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 2 turnos: Cuenten hasta 15 sin hablar a la vez.",
@@ -3390,7 +3390,7 @@ export const eventosEspecialesCards = [
     "regla": "Conteo sin coincidir"
   },
   {
-    "id": 3733,
+    "id": "eve_283",
     "intensidad": 10,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 3 turnos: Den un cumplido al cerrar su turno.",
@@ -3402,7 +3402,7 @@ export const eventosEspecialesCards = [
     "regla": "Cerrar con cumplido"
   },
   {
-    "id": 3734,
+    "id": "eve_284",
     "intensidad": 10,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 4 turnos: No usen nombres ni señalen.",
@@ -3414,7 +3414,7 @@ export const eventosEspecialesCards = [
     "regla": "Sin nombres"
   },
   {
-    "id": 3735,
+    "id": "eve_285",
     "intensidad": 10,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 5 turnos: Comiencen con 'confieso que'.",
@@ -3426,7 +3426,7 @@ export const eventosEspecialesCards = [
     "regla": "Inicio: confieso que"
   },
   {
-    "id": 3736,
+    "id": "eve_286",
     "intensidad": 10,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante el próximo turno: Mantengan pose solemne mientras hablan.",
@@ -3438,7 +3438,7 @@ export const eventosEspecialesCards = [
     "regla": "Mantener pose solemne"
   },
   {
-    "id": 3737,
+    "id": "eve_287",
     "intensidad": 10,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 2 turnos: Continúen una historia sobre verdades difíciles.",
@@ -3450,7 +3450,7 @@ export const eventosEspecialesCards = [
     "regla": "Historia de verdades difíciles"
   },
   {
-    "id": 3738,
+    "id": "eve_288",
     "intensidad": 10,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 3 turnos: No revisen el teléfono.",
@@ -3462,7 +3462,7 @@ export const eventosEspecialesCards = [
     "regla": "Sin teléfonos"
   },
   {
-    "id": 3739,
+    "id": "eve_289",
     "intensidad": 10,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 4 turnos: Usen únicamente apodos temporales.",
@@ -3474,7 +3474,7 @@ export const eventosEspecialesCards = [
     "regla": "Apodos temporales"
   },
   {
-    "id": 3740,
+    "id": "eve_290",
     "intensidad": 10,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 5 turnos: Cuenten desde 15 hasta cero antes de responder.",
@@ -3486,7 +3486,7 @@ export const eventosEspecialesCards = [
     "regla": "Cuenta regresiva"
   },
   {
-    "id": 3741,
+    "id": "eve_291",
     "intensidad": 10,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante el próximo turno: Usen exactamente 15 palabras por frase.",
@@ -3498,7 +3498,7 @@ export const eventosEspecialesCards = [
     "regla": "Frases de 15 palabras"
   },
   {
-    "id": 3742,
+    "id": "eve_292",
     "intensidad": 10,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 2 turnos: Respondan primero su propia pregunta.",
@@ -3510,7 +3510,7 @@ export const eventosEspecialesCards = [
     "regla": "Responder pregunta propia"
   },
   {
-    "id": 3743,
+    "id": "eve_293",
     "intensidad": 10,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 3 turnos: Usen una emoción diferente por turno.",
@@ -3522,7 +3522,7 @@ export const eventosEspecialesCards = [
     "regla": "Emoción diferente"
   },
   {
-    "id": 3744,
+    "id": "eve_294",
     "intensidad": 10,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 4 turnos: No repitan ningún verbo.",
@@ -3534,7 +3534,7 @@ export const eventosEspecialesCards = [
     "regla": "No repetir verbos"
   },
   {
-    "id": 3745,
+    "id": "eve_295",
     "intensidad": 10,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 5 turnos: Comiencen susurrando y terminen fuerte.",
@@ -3546,7 +3546,7 @@ export const eventosEspecialesCards = [
     "regla": "Cambiar volumen"
   },
   {
-    "id": 3746,
+    "id": "eve_296",
     "intensidad": 10,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante el próximo turno: Resuman lo anterior en tres palabras.",
@@ -3558,7 +3558,7 @@ export const eventosEspecialesCards = [
     "regla": "Resumen previo"
   },
   {
-    "id": 3747,
+    "id": "eve_297",
     "intensidad": 10,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 2 turnos: Inicien con la última letra anterior.",
@@ -3570,7 +3570,7 @@ export const eventosEspecialesCards = [
     "regla": "Cadena por letra"
   },
   {
-    "id": 3748,
+    "id": "eve_298",
     "intensidad": 10,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 3 turnos: Representen lo que dirán antes de hablar.",
@@ -3582,7 +3582,7 @@ export const eventosEspecialesCards = [
     "regla": "Mímica previa"
   },
   {
-    "id": 3749,
+    "id": "eve_299",
     "intensidad": 10,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 4 turnos: Al oír 'consecuencia', hagan pose solemne.",
@@ -3594,7 +3594,7 @@ export const eventosEspecialesCards = [
     "regla": "Señal: consecuencia"
   },
   {
-    "id": 3750,
+    "id": "eve_300",
     "intensidad": 10,
     "tipo": "eventos especiales",
     "texto": "EVENTO GRUPAL: durante los próximos 5 turnos: Predigan qué dirá la siguiente persona.",

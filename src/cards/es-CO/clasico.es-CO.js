@@ -6,7 +6,7 @@
 
 export const clasicoCards = [
   {
-    "id": 1,
+    "id": "cla_1",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Cuál es la capital de Argentina? [?] ",
@@ -17,7 +17,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 2,
+    "id": "cla_2",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Qué planeta es conocido como el planeta rojo? [?] ",
@@ -28,7 +28,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 3,
+    "id": "cla_3",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿En qué país se encuentra la Torre Eiffel? [?] ",
@@ -39,7 +39,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 4,
+    "id": "cla_4",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Cuántos lados tiene un hexágono? [?] ",
@@ -50,7 +50,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 5,
+    "id": "cla_5",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Cuál es el océano más grande del mundo? [?] ",
@@ -61,7 +61,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 6,
+    "id": "cla_6",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Qué órgano del cuerpo humano bombea la sangre? [?] ",
@@ -72,7 +72,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 7,
+    "id": "cla_7",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Cuál es el idioma oficial de Brasil? [?] ",
@@ -83,7 +83,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 8,
+    "id": "cla_8",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿En qué país se encuentra Machu Picchu? [?] ",
@@ -94,7 +94,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 9,
+    "id": "cla_9",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Cuántos jugadores tiene un equipo de fútbol en el campo al comenzar un partido? [?] ",
@@ -105,7 +105,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 10,
+    "id": "cla_10",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Quién pintó la Mona Lisa? [?] ",
@@ -116,7 +116,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 11,
+    "id": "cla_11",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Cuál es la capital de México? [?] ",
@@ -127,7 +127,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 12,
+    "id": "cla_12",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Qué animal es conocido como el rey de la selva? [?] ",
@@ -138,7 +138,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 13,
+    "id": "cla_13",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Cuántos grados tiene un ángulo recto? [?] ",
@@ -149,7 +149,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 14,
+    "id": "cla_14",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿En qué continente se encuentra Egipto? [?] ",
@@ -160,7 +160,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 15,
+    "id": "cla_15",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Cuál es el país de origen de la pizza? [?] ",
@@ -171,7 +171,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 16,
+    "id": "cla_16",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Qué instrumento se utiliza para medir la temperatura? [?] ",
@@ -182,7 +182,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 17,
+    "id": "cla_17",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Cuál es el satélite natural de la Tierra? [?] ",
@@ -193,7 +193,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 18,
+    "id": "cla_18",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Qué país es famoso por el Cristo Redentor de Río de Janeiro? [?] ",
@@ -204,7 +204,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 19,
+    "id": "cla_19",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Cuántos colores tiene tradicionalmente el arcoíris? [?] ",
@@ -215,7 +215,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 20,
+    "id": "cla_20",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Qué deporte practica Lionel Messi? [?] ",
@@ -226,7 +226,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 21,
+    "id": "cla_21",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Qué gas absorben las plantas durante la fotosíntesis? [?] ",
@@ -237,7 +237,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 22,
+    "id": "cla_22",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Cuál es la capital de Perú? [?] ",
@@ -248,7 +248,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 23,
+    "id": "cla_23",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Qué animal terrestre tiene el cuello más largo? [?] ",
@@ -259,7 +259,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 24,
+    "id": "cla_24",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿En qué país se encuentra la Estatua de la Libertad? [?] ",
@@ -270,7 +270,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 25,
+    "id": "cla_25",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Cuántas horas tiene un día? [?] ",
@@ -281,7 +281,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 26,
+    "id": "cla_26",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Qué parte de la planta absorbe principalmente el agua del suelo? [?] ",
@@ -292,7 +292,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 27,
+    "id": "cla_27",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Cuál es la moneda oficial de Estados Unidos? [?] ",
@@ -303,7 +303,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 28,
+    "id": "cla_28",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Qué continente tiene la mayor cantidad de países? [?] ",
@@ -314,7 +314,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 29,
+    "id": "cla_29",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Cómo se llama el proceso mediante el cual el agua se convierte en hielo? [?] ",
@@ -325,7 +325,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 30,
+    "id": "cla_30",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Qué país latinoamericano tiene forma larga y estrecha junto al océano Pacífico? [?] ",
@@ -336,7 +336,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 31,
+    "id": "cla_31",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Qué órgano del cuerpo humano utilizamos principalmente para respirar? [?] ",
@@ -347,7 +347,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 32,
+    "id": "cla_32",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Cuál es la capital de Chile? [?] ",
@@ -358,7 +358,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 33,
+    "id": "cla_33",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Qué instrumento musical tiene teclas blancas y negras? [?] ",
@@ -369,7 +369,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 34,
+    "id": "cla_34",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Qué país ganó la Copa Mundial de Fútbol de 2022? [?] ",
@@ -380,7 +380,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 35,
+    "id": "cla_35",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Cuál es el metal precioso de color amarillo utilizado comúnmente en joyería? [?] ",
@@ -391,7 +391,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 36,
+    "id": "cla_36",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Qué planeta es el más cercano al Sol? [?] ",
@@ -402,7 +402,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 37,
+    "id": "cla_37",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿En qué país se encuentra la ciudad de Cartagena de Indias? [?] ",
@@ -413,7 +413,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 38,
+    "id": "cla_38",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Cuál es el resultado de multiplicar 9 por 8? [?] ",
@@ -424,7 +424,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 39,
+    "id": "cla_39",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Qué animal produce la miel? [?] ",
@@ -435,7 +435,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 40,
+    "id": "cla_40",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Cuál es el idioma más hablado en Argentina? [?] ",
@@ -446,7 +446,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 41,
+    "id": "cla_41",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Qué famoso barco se hundió en 1912 después de chocar contra un iceberg? [?] ",
@@ -457,7 +457,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 42,
+    "id": "cla_42",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Qué parte del cuerpo humano contiene el cerebro? [?] ",
@@ -468,7 +468,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 43,
+    "id": "cla_43",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿En qué país se originó el tango? [?] ",
@@ -479,7 +479,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 44,
+    "id": "cla_44",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Qué océano baña la costa occidental de Sudamérica? [?] ",
@@ -490,7 +490,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 45,
+    "id": "cla_45",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Cuántos años tiene una década? [?] ",
@@ -501,7 +501,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 46,
+    "id": "cla_46",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Qué famoso personaje de videojuegos es un plomero italiano que suele vestir de rojo? [?] ",
@@ -512,7 +512,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 47,
+    "id": "cla_47",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Qué vitamina produce principalmente la piel al exponerse a la luz solar? [?] ",
@@ -523,7 +523,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 48,
+    "id": "cla_48",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Cuál es el país más grande de Sudamérica por superficie? [?] ",
@@ -534,7 +534,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 49,
+    "id": "cla_49",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Qué aparato se utiliza para observar objetos muy pequeños, como células? [?] ",
@@ -545,7 +545,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 50,
+    "id": "cla_50",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿En qué continente se encuentra Japón? [?] ",
@@ -556,7 +556,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 51,
+    "id": "cla_51",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Cuál es la capital de Uruguay? [?] ",
@@ -567,7 +567,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 52,
+    "id": "cla_52",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Qué científico formuló la ley de la gravedad? [?] ",
@@ -578,7 +578,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 53,
+    "id": "cla_53",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿En qué país se encuentran las ruinas de Chichén Itzá? [?] ",
@@ -589,7 +589,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 54,
+    "id": "cla_54",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Cuántos huesos tiene normalmente el cuerpo humano adulto? [?] ",
@@ -600,7 +600,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 55,
+    "id": "cla_55",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Qué planeta es famoso por sus anillos? [?] ",
@@ -611,7 +611,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 56,
+    "id": "cla_56",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Quién escribió Don Quijote de la Mancha? [?] ",
@@ -622,7 +622,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 57,
+    "id": "cla_57",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Cuál es el país más poblado de Sudamérica? [?] ",
@@ -633,7 +633,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 58,
+    "id": "cla_58",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿En qué año llegó Cristóbal Colón a América? [?] ",
@@ -644,7 +644,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 59,
+    "id": "cla_59",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Qué instrumento se utiliza para medir la presión atmosférica? [?] ",
@@ -655,7 +655,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 60,
+    "id": "cla_60",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Qué país tiene como capital a Quito? [?] ",
@@ -666,7 +666,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 61,
+    "id": "cla_61",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Cuál es el órgano más grande del cuerpo humano? [?] ",
@@ -677,7 +677,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 62,
+    "id": "cla_62",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Qué selección ganó la Copa Mundial de Fútbol de 2014? [?] ",
@@ -688,7 +688,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 63,
+    "id": "cla_63",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Cómo se llama el proceso mediante el cual las plantas producen su alimento utilizando luz solar? [?] ",
@@ -699,7 +699,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 64,
+    "id": "cla_64",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿En qué país nació la cantante Shakira? [?] ",
@@ -710,7 +710,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 65,
+    "id": "cla_65",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Qué elemento químico tiene el símbolo O? [?] ",
@@ -721,7 +721,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 66,
+    "id": "cla_66",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Cuál es la capital de Venezuela? [?] ",
@@ -732,7 +732,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 67,
+    "id": "cla_67",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Qué famoso científico desarrolló la teoría de la relatividad? [?] ",
@@ -743,7 +743,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 68,
+    "id": "cla_68",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿En qué país se encuentran las pirámides de Guiza? [?] ",
@@ -754,7 +754,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 69,
+    "id": "cla_69",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Cuántos jugadores de cada equipo participan en un partido de baloncesto en la cancha? [?] ",
@@ -765,7 +765,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 70,
+    "id": "cla_70",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Cuál es el continente más grande del planeta? [?] ",
@@ -776,7 +776,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 71,
+    "id": "cla_71",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Qué famoso pintor se cortó parte de una oreja? [?] ",
@@ -787,7 +787,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 72,
+    "id": "cla_72",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Qué océano separa América de Europa? [?] ",
@@ -798,7 +798,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 73,
+    "id": "cla_73",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Cuál es la moneda oficial de Japón? [?] ",
@@ -809,7 +809,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 74,
+    "id": "cla_74",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿En qué país nació el futbolista Cristiano Ronaldo? [?] ",
@@ -820,7 +820,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 75,
+    "id": "cla_75",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Qué parte del cuerpo humano conecta los músculos con los huesos? [?] ",
@@ -831,7 +831,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 76,
+    "id": "cla_76",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Cómo se llama el movimiento que realiza la Tierra alrededor del Sol? [?] ",
@@ -842,7 +842,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 77,
+    "id": "cla_77",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Qué civilización antigua construyó el Coliseo? [?] ",
@@ -853,7 +853,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 78,
+    "id": "cla_78",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Cuál es la capital de Paraguay? [?] ",
@@ -864,7 +864,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 79,
+    "id": "cla_79",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Cuál es el mamífero más grande del planeta? [?] ",
@@ -875,7 +875,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 80,
+    "id": "cla_80",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Cuántos lados tiene un octágono? [?] ",
@@ -886,7 +886,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 81,
+    "id": "cla_81",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Qué empresa creó el sistema operativo Windows? [?] ",
@@ -897,7 +897,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 82,
+    "id": "cla_82",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿En qué país se encuentra la ciudad de Medellín? [?] ",
@@ -908,7 +908,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 83,
+    "id": "cla_83",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Qué metal es atraído fácilmente por un imán común? [?] ",
@@ -919,7 +919,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 84,
+    "id": "cla_84",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Cuál es la montaña más alta del mundo sobre el nivel del mar? [?] ",
@@ -930,7 +930,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 85,
+    "id": "cla_85",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Quién fue el primer ser humano en pisar la Luna? [?] ",
@@ -941,7 +941,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 86,
+    "id": "cla_86",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Cuál es el idioma oficial de Francia? [?] ",
@@ -952,7 +952,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 87,
+    "id": "cla_87",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Qué órgano del cuerpo humano produce la insulina? [?] ",
@@ -963,7 +963,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 88,
+    "id": "cla_88",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Qué país latinoamericano tiene como capital a San José? [?] ",
@@ -974,7 +974,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 89,
+    "id": "cla_89",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Qué famosa película animada tiene como protagonistas a Woody y Buzz Lightyear? [?] ",
@@ -985,7 +985,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 90,
+    "id": "cla_90",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Cuál es el resultado de elevar 5 al cuadrado? [?] ",
@@ -996,7 +996,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 91,
+    "id": "cla_91",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Qué gas es el más abundante en la atmósfera terrestre? [?] ",
@@ -1007,7 +1007,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 92,
+    "id": "cla_92",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿En qué país se encuentra el monumento conocido como el Taj Mahal? [?] ",
@@ -1018,7 +1018,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 93,
+    "id": "cla_93",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Qué escritor colombiano ganó el Premio Nobel de Literatura en 1982? [?] ",
@@ -1029,7 +1029,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 94,
+    "id": "cla_94",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Cuál es el planeta más grande del sistema solar? [?] ",
@@ -1040,7 +1040,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 95,
+    "id": "cla_95",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Cómo se llama el instrumento que permite observar estrellas y planetas lejanos? [?] ",
@@ -1051,7 +1051,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 96,
+    "id": "cla_96",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Qué país es conocido mundialmente por el carnaval de Río de Janeiro? [?] ",
@@ -1062,7 +1062,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 97,
+    "id": "cla_97",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Qué vitamina se encuentra abundantemente en frutas cítricas como las naranjas? [?] ",
@@ -1073,7 +1073,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 98,
+    "id": "cla_98",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Cómo se llama la línea imaginaria que divide la Tierra en hemisferio norte y hemisferio sur? [?] ",
@@ -1084,7 +1084,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 99,
+    "id": "cla_99",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Qué deporte se practica en el torneo de Wimbledon? [?] ",
@@ -1095,7 +1095,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 100,
+    "id": "cla_100",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Qué acontecimiento histórico comenzó en Europa en 1939 y terminó en 1945? [?] ",
@@ -1106,7 +1106,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 101,
+    "id": "cla_101",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Qué río atraviesa la ciudad de París? [?] ",
@@ -1117,7 +1117,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 102,
+    "id": "cla_102",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿En qué ciudad se celebraron los Juegos Olímpicos de 2016? [?] ",
@@ -1128,7 +1128,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 103,
+    "id": "cla_103",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿En qué ciudad se encuentra la sede del gobierno de Bolivia? [?] ",
@@ -1139,7 +1139,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 104,
+    "id": "cla_104",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Qué océano se encuentra al este de África? [?] ",
@@ -1150,7 +1150,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 105,
+    "id": "cla_105",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Cuál es el planeta más caliente del sistema solar? [?] ",
@@ -1161,7 +1161,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 106,
+    "id": "cla_106",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Qué número representa la letra X en números romanos? [?] ",
@@ -1172,7 +1172,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 107,
+    "id": "cla_107",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Qué país europeo tiene como capital a Lisboa? [?] ",
@@ -1183,7 +1183,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 108,
+    "id": "cla_108",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Cuál es el único mamífero capaz de volar de forma sostenida? [?] ",
@@ -1194,7 +1194,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 109,
+    "id": "cla_109",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Cómo se llama una figura geométrica de cinco lados? [?] ",
@@ -1205,7 +1205,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 110,
+    "id": "cla_110",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Cuál es el principal compuesto de la sal de mesa? [?] ",
@@ -1216,7 +1216,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 111,
+    "id": "cla_111",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Quién escribió la saga de libros de Harry Potter? [?] ",
@@ -1227,7 +1227,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 112,
+    "id": "cla_112",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿A qué siglo pertenece el año 2001? [?] ",
@@ -1238,7 +1238,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 113,
+    "id": "cla_113",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Qué cordillera atraviesa gran parte del occidente de Sudamérica? [?] ",
@@ -1249,7 +1249,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 114,
+    "id": "cla_114",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Qué país tiene como capital a Atenas? [?] ",
@@ -1260,7 +1260,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 115,
+    "id": "cla_115",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿En qué país se celebró la primera Copa Mundial de Fútbol? [?] ",
@@ -1271,7 +1271,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 116,
+    "id": "cla_116",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿En qué país se encuentran las pirámides de Teotihuacán? [?] ",
@@ -1282,7 +1282,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 117,
+    "id": "cla_117",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Qué estructura de las células humanas contiene la mayor parte del ADN? [?] ",
@@ -1293,7 +1293,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 118,
+    "id": "cla_118",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Qué lago se encuentra entre Perú y Bolivia? [?] ",
@@ -1304,7 +1304,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 119,
+    "id": "cla_119",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Qué gas liberan las plantas durante la fotosíntesis? [?] ",
@@ -1315,7 +1315,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 120,
+    "id": "cla_120",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Qué elemento químico representa el símbolo Fe? [?] ",
@@ -1326,7 +1326,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 121,
+    "id": "cla_121",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Cuántos segundos tiene una hora? [?] ",
@@ -1337,7 +1337,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 122,
+    "id": "cla_122",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Cuál es la capital de España? [?] ",
@@ -1348,7 +1348,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 123,
+    "id": "cla_123",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿A qué país pertenecen las islas Galápagos? [?] ",
@@ -1359,7 +1359,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 124,
+    "id": "cla_124",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Qué teorema se utiliza para calcular los lados de un triángulo rectángulo? [?] ",
@@ -1370,7 +1370,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 125,
+    "id": "cla_125",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Quién escribió El principito? [?] ",
@@ -1381,7 +1381,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 126,
+    "id": "cla_126",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Quién esculpió la famosa estatua de David que se encuentra en Florencia? [?] ",
@@ -1392,7 +1392,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 127,
+    "id": "cla_127",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Cuál es la función principal de los glóbulos rojos? [?] ",
@@ -1403,7 +1403,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 128,
+    "id": "cla_128",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Cuál es la capital de Panamá? [?] ",
@@ -1414,7 +1414,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 129,
+    "id": "cla_129",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿En qué país se originó la samba? [?] ",
@@ -1425,7 +1425,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 130,
+    "id": "cla_130",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Quién fue el primer ser humano en viajar al espacio? [?] ",
@@ -1436,7 +1436,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 131,
+    "id": "cla_131",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿A qué grupo de animales pertenece la rana? [?] ",
@@ -1447,7 +1447,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 132,
+    "id": "cla_132",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Qué idioma se habla principalmente en Egipto? [?] ",
@@ -1458,7 +1458,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 133,
+    "id": "cla_133",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Qué células sanguíneas ayudan a defender el organismo de las infecciones? [?] ",
@@ -1469,7 +1469,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 134,
+    "id": "cla_134",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Cuáles son los tres estados clásicos de la materia? [?] ",
@@ -1480,7 +1480,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 135,
+    "id": "cla_135",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Cuál es la unidad de fuerza en el Sistema Internacional? [?] ",
@@ -1491,7 +1491,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 136,
+    "id": "cla_136",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Cuál es la capital de Alemania? [?] ",
@@ -1502,7 +1502,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 137,
+    "id": "cla_137",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿A qué poeta griego se atribuye La Odisea? [?] ",
@@ -1513,7 +1513,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 138,
+    "id": "cla_138",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Cuál es la arteria más grande del cuerpo humano? [?] ",
@@ -1524,7 +1524,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 139,
+    "id": "cla_139",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Cuál es el primer número primo después del 7? [?] ",
@@ -1535,7 +1535,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 140,
+    "id": "cla_140",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Cuál fue la capital del Imperio inca? [?] ",
@@ -1546,7 +1546,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 141,
+    "id": "cla_141",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Qué pigmento da el color verde a las plantas? [?] ",
@@ -1557,7 +1557,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 142,
+    "id": "cla_142",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Qué ciudad italiana es famosa por sus canales y góndolas? [?] ",
@@ -1568,7 +1568,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 143,
+    "id": "cla_143",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Qué país es famoso por el arte del origami? [?] ",
@@ -1579,7 +1579,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 144,
+    "id": "cla_144",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿En qué país se encuentra el canal que conecta el océano Atlántico con el Pacífico? [?] ",
@@ -1590,7 +1590,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 145,
+    "id": "cla_145",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Qué deporte se practica en el torneo de Roland Garros? [?] ",
@@ -1601,7 +1601,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 146,
+    "id": "cla_146",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Cómo se llama el cambio de estado de sólido a líquido? [?] ",
@@ -1612,7 +1612,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 147,
+    "id": "cla_147",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Cuántos océanos se reconocen comúnmente en la Tierra? [?] ",
@@ -1623,7 +1623,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 148,
+    "id": "cla_148",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Qué animal aparece en el logotipo de WWF, la organización de conservación de la naturaleza? [?] ",
@@ -1634,7 +1634,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 149,
+    "id": "cla_149",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿A qué continente pertenece geográficamente Madagascar? [?] ",
@@ -1645,7 +1645,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 150,
+    "id": "cla_150",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Qué instrumento registra los movimientos de un terremoto? [?] ",
@@ -1656,7 +1656,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 151,
+    "id": "cla_151",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "¿Cuál es el río con mayor caudal de agua del mundo? [?] ",
@@ -1667,7 +1667,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 152,
+    "id": "cla_152",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "¿En qué año se fundó la Organización de las Naciones Unidas (ONU)? [?] ",
@@ -1678,7 +1678,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 153,
+    "id": "cla_153",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "¿Cuál es la capital de Nueva Zelanda? [?] ",
@@ -1689,7 +1689,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 154,
+    "id": "cla_154",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1], respondan: ¿En qué país actual se desarrolló principalmente la civilización de la antigua Grecia? [?] ",
@@ -1700,7 +1700,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 155,
+    "id": "cla_155",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "¿Qué compuesto químico tiene la fórmula CO2? [?] ",
@@ -1711,7 +1711,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 156,
+    "id": "cla_156",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "[player] y [player_x], respondan: ¿Quién pintó el cuadro La noche estrellada? [?] ",
@@ -1722,7 +1722,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 157,
+    "id": "cla_157",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "¿Qué mar separa Europa del norte de África? [?] ",
@@ -1733,7 +1733,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 158,
+    "id": "cla_158",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "¿Qué día y mes se celebra la independencia de México? [?] ",
@@ -1744,7 +1744,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 159,
+    "id": "cla_159",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1], respondan: ¿Quién escribió Romeo y Julieta? [?] ",
@@ -1755,7 +1755,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 160,
+    "id": "cla_160",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "¿Cuál es el hueso más largo del cuerpo humano? [?] ",
@@ -1766,7 +1766,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 161,
+    "id": "cla_161",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "¿En qué unidad se mide la frecuencia de una onda? [?] ",
@@ -1777,7 +1777,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 162,
+    "id": "cla_162",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "[all], respondan al mismo tiempo: ¿Cuál es la unidad de energía en el Sistema Internacional? [?] ",
@@ -1788,7 +1788,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 163,
+    "id": "cla_163",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "¿Qué científico descubrió la penicilina en 1928? [?] ",
@@ -1799,7 +1799,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 164,
+    "id": "cla_164",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "¿Cuál es la capital de Cuba? [?] ",
@@ -1810,7 +1810,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 165,
+    "id": "cla_165",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "¿Qué escritor argentino escribió El Aleph? [?] ",
@@ -1821,7 +1821,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 166,
+    "id": "cla_166",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1], respondan: ¿Cuál es la isla más grande del mundo, sin contar Australia como continente? [?] ",
@@ -1832,7 +1832,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 167,
+    "id": "cla_167",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "¿Cuál es la capital de Honduras? [?] ",
@@ -1843,7 +1843,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 168,
+    "id": "cla_168",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "[player] y [player_x], respondan: ¿Qué océano rodea las islas Hawái? [?] ",
@@ -1854,7 +1854,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 169,
+    "id": "cla_169",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "[all], respondan al mismo tiempo: ¿Cómo se llama la roca fundida que se encuentra debajo de la superficie terrestre? [?] ",
@@ -1865,7 +1865,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 170,
+    "id": "cla_170",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "¿Cuál es la capital de República Dominicana? [?] ",
@@ -1876,7 +1876,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 171,
+    "id": "cla_171",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "[player] y [player_x], respondan: ¿Cuál era el apellido del emperador francés Napoleón? [?] ",
@@ -1887,7 +1887,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 172,
+    "id": "cla_172",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "¿Qué significan las siglas ADN? [?] ",
@@ -1898,7 +1898,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 173,
+    "id": "cla_173",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1], respondan: ¿A qué movimiento artístico perteneció Salvador Dalí? [?] ",
@@ -1909,7 +1909,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 174,
+    "id": "cla_174",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "[all], respondan al mismo tiempo: ¿En qué país se encuentra el Museo del Prado? [?] ",
@@ -1920,7 +1920,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 175,
+    "id": "cla_175",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1], respondan: ¿En qué año ocurrió la batalla de Boyacá, decisiva para la independencia de Colombia? [?] ",
@@ -1931,7 +1931,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 176,
+    "id": "cla_176",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "¿Quién escribió La casa de los espíritus? [?] ",
@@ -1942,7 +1942,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 177,
+    "id": "cla_177",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "[all], respondan al mismo tiempo: ¿Cómo se llama la célula especializada en transmitir impulsos nerviosos? [?] ",
@@ -1953,7 +1953,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 178,
+    "id": "cla_178",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "[player] y [player_x], respondan: ¿Qué país lanzó el primer satélite artificial, Sputnik 1? [?] ",
@@ -1964,7 +1964,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 179,
+    "id": "cla_179",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "¿Cuál es la capital de Guatemala? [?] ",
@@ -1975,7 +1975,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 180,
+    "id": "cla_180",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "¿Cuál es el desierto cálido más grande del mundo? [?] ",
@@ -1986,7 +1986,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 181,
+    "id": "cla_181",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "[player] y [player_x], respondan: ¿Cómo se llaman las grandes piezas de la litosfera terrestre cuyo movimiento causa muchos terremotos? [?] ",
@@ -1997,7 +1997,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 182,
+    "id": "cla_182",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "[all], respondan al mismo tiempo: ¿Qué líder de la independencia sudamericana es conocido como El Libertador? [?] ",
@@ -2008,7 +2008,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 183,
+    "id": "cla_183",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "[player] y [player_x], respondan: ¿Qué dos dígitos utiliza el sistema de numeración binario? [?] ",
@@ -2019,7 +2019,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 184,
+    "id": "cla_184",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "[all], respondan al mismo tiempo: ¿Qué órgano del cuerpo humano produce la bilis? [?] ",
@@ -2030,7 +2030,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 185,
+    "id": "cla_185",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "[player] y [player_x], respondan: ¿Quién compuso la Novena Sinfonía? [?] ",
@@ -2041,7 +2041,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 186,
+    "id": "cla_186",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "[player] y [player_x], respondan: ¿Qué instrumento se utiliza para medir la velocidad del viento? [?] ",
@@ -2052,7 +2052,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 187,
+    "id": "cla_187",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "¿En qué país se encuentra la ciudad de Petra, famosa por sus construcciones talladas en roca? [?] ",
@@ -2063,7 +2063,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 188,
+    "id": "cla_188",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "[all], respondan al mismo tiempo: ¿Cuál es la capital de Nicaragua? [?] ",
@@ -2074,7 +2074,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 189,
+    "id": "cla_189",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "¿Cuál es la fórmula química del cloruro de sodio? [?] ",
@@ -2085,7 +2085,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 190,
+    "id": "cla_190",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1], respondan: ¿Cuánto suman los ángulos internos de un triángulo? [?] ",
@@ -2096,7 +2096,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 191,
+    "id": "cla_191",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "[all], respondan al mismo tiempo: ¿En qué país se encuentra el monte Fuji? [?] ",
@@ -2107,7 +2107,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 192,
+    "id": "cla_192",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1], respondan: ¿Quién pintó Las meninas? [?] ",
@@ -2118,7 +2118,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 193,
+    "id": "cla_193",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "¿Qué capa de la atmósfera ayuda a protegernos de la radiación ultravioleta? [?] ",
@@ -2129,7 +2129,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 194,
+    "id": "cla_194",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "¿Qué océano baña la costa oriental de Argentina? [?] ",
@@ -2140,7 +2140,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 195,
+    "id": "cla_195",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1], respondan: ¿Qué civilización construyó Machu Picchu? [?] ",
@@ -2151,7 +2151,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 196,
+    "id": "cla_196",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "¿Cuál es la capital de Irlanda? [?] ",
@@ -2162,7 +2162,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 197,
+    "id": "cla_197",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "¿Qué fuente de energía aprovechan los paneles solares fotovoltaicos? [?] ",
@@ -2173,7 +2173,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 198,
+    "id": "cla_198",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "¿Qué empresario es uno de los principales cofundadores de Facebook? [?] ",
@@ -2184,7 +2184,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 199,
+    "id": "cla_199",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "¿Qué ciencia estudia los seres vivos? [?] ",
@@ -2195,7 +2195,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 200,
+    "id": "cla_200",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "[player] y [player_x], respondan: ¿Qué país centroamericano tiene como capital a San Salvador? [?] ",
@@ -2206,7 +2206,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 201,
+    "id": "cla_201",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "[all], respondan al mismo tiempo: ¿En qué año cayó Constantinopla ante el Imperio otomano? [?] ",
@@ -2217,7 +2217,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 202,
+    "id": "cla_202",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "¿Qué orgánulo celular produce la mayor parte del ATP durante la respiración celular? [?] ",
@@ -2228,7 +2228,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 203,
+    "id": "cla_203",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "¿Quién escribió La ciudad y los perros? [?] ",
@@ -2239,7 +2239,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 204,
+    "id": "cla_204",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "[all], respondan al mismo tiempo: ¿Cuál es el río más largo de Europa? [?] ",
@@ -2250,7 +2250,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 205,
+    "id": "cla_205",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "¿Qué país tiene como capital a Budapest? [?] ",
@@ -2261,7 +2261,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 206,
+    "id": "cla_206",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "¿Cuánto suman los ángulos internos de un cuadrilátero? [?] ",
@@ -2272,7 +2272,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 207,
+    "id": "cla_207",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "[all], respondan al mismo tiempo: ¿Qué filósofo griego escribió la alegoría de la caverna? [?] ",
@@ -2283,7 +2283,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 208,
+    "id": "cla_208",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "¿En qué país se encuentra el templo de Abu Simbel? [?] ",
@@ -2294,7 +2294,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 209,
+    "id": "cla_209",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1], respondan: ¿En qué país nació la pintora Frida Kahlo? [?] ",
@@ -2305,7 +2305,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 210,
+    "id": "cla_210",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "[all], respondan al mismo tiempo: ¿Qué elemento químico tiene el símbolo Hg? [?] ",
@@ -2316,7 +2316,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 211,
+    "id": "cla_211",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1], respondan: ¿Cuál es la capital de Noruega? [?] ",
@@ -2327,7 +2327,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 212,
+    "id": "cla_212",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "[all], respondan al mismo tiempo: ¿Qué escritora mexicana escribió Primero sueño? [?] ",
@@ -2338,7 +2338,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 213,
+    "id": "cla_213",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "¿Qué ciencia estudia los fósiles? [?] ",
@@ -2349,7 +2349,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 214,
+    "id": "cla_214",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "[player] y [player_x], respondan: ¿En qué año llegaron los primeros seres humanos a la Luna? [?] ",
@@ -2360,7 +2360,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 215,
+    "id": "cla_215",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "[all], respondan al mismo tiempo: ¿Qué compuesto químico tiene la fórmula NH3? [?] ",
@@ -2371,7 +2371,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 216,
+    "id": "cla_216",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "[player] y [player_x], respondan: ¿Qué mar separa la península arábiga del noreste de África? [?] ",
@@ -2382,7 +2382,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 217,
+    "id": "cla_217",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "[player] y [player_x], respondan: ¿Qué famoso compositor escribió Las cuatro estaciones? [?] ",
@@ -2393,7 +2393,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 218,
+    "id": "cla_218",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1], respondan: ¿Qué país africano tiene como capital a Rabat? [?] ",
@@ -2404,7 +2404,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 219,
+    "id": "cla_219",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "¿Qué novela de George Orwell describe una sociedad vigilada por el Gran Hermano? [?] ",
@@ -2415,7 +2415,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 220,
+    "id": "cla_220",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "¿Qué tipo de enlace químico se forma cuando dos átomos comparten electrones? [?] ",
@@ -2426,7 +2426,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 221,
+    "id": "cla_221",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "¿Qué isla chilena es famosa por sus enormes estatuas llamadas moáis? [?] ",
@@ -2437,7 +2437,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 222,
+    "id": "cla_222",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1], respondan: ¿Qué planeta tarda más en girar sobre su eje que en completar una órbita alrededor del Sol? [?] ",
@@ -2448,7 +2448,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 223,
+    "id": "cla_223",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1], respondan: ¿Qué sistema del cuerpo humano está formado por glándulas que producen hormonas? [?] ",
@@ -2459,7 +2459,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 224,
+    "id": "cla_224",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1], respondan: ¿Cuál es la capital de Rusia? [?] ",
@@ -2470,7 +2470,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 225,
+    "id": "cla_225",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "¿Quién pintó la obra El grito? [?] ",
@@ -2481,7 +2481,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 226,
+    "id": "cla_226",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "¿Qué civilización construyó la antigua ciudad de Tikal? [?] ",
@@ -2492,7 +2492,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 227,
+    "id": "cla_227",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "[player] y [player_x], respondan: ¿En qué país se encuentra el salar de Uyuni? [?] ",
@@ -2503,7 +2503,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 228,
+    "id": "cla_228",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "¿Cuál es la capital de Islandia? [?] ",
@@ -2514,7 +2514,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 229,
+    "id": "cla_229",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "¿Cuál es la moneda oficial del Reino Unido? [?] ",
@@ -2525,7 +2525,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 230,
+    "id": "cla_230",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "[player] y [player_x], respondan: ¿Qué glándula del cuerpo humano regula gran parte del metabolismo mediante sus hormonas? [?] ",
@@ -2536,7 +2536,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 231,
+    "id": "cla_231",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "¿Cuánto suman los ángulos internos de un pentágono? [?] ",
@@ -2547,7 +2547,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 232,
+    "id": "cla_232",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "¿En qué año comenzó la Revolución francesa? [?] ",
@@ -2558,7 +2558,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 233,
+    "id": "cla_233",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "[all], respondan al mismo tiempo: ¿Quién escribió la novela Frankenstein? [?] ",
@@ -2569,7 +2569,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 234,
+    "id": "cla_234",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "¿Qué escala se utiliza para clasificar la dureza de los minerales? [?] ",
@@ -2580,7 +2580,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 235,
+    "id": "cla_235",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "¿Quién fue el primer presidente de Estados Unidos? [?] ",
@@ -2591,7 +2591,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 236,
+    "id": "cla_236",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "[player] y [player_x], respondan: ¿Qué estructura del oído interno transforma vibraciones sonoras en señales nerviosas? [?] ",
@@ -2602,7 +2602,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 237,
+    "id": "cla_237",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "¿Qué idioma se habla principalmente en Irán? [?] ",
@@ -2613,7 +2613,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 238,
+    "id": "cla_238",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "¿Cuál es la capital de Kenia? [?] ",
@@ -2624,7 +2624,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 239,
+    "id": "cla_239",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "[player] y [player_x], respondan: ¿Qué astrónomo renacentista propuso un modelo heliocéntrico del sistema solar? [?] ",
@@ -2635,7 +2635,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 240,
+    "id": "cla_240",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "¿Cómo se llama una franja estrecha de tierra que conecta dos extensiones terrestres mayores? [?] ",
@@ -2646,7 +2646,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 241,
+    "id": "cla_241",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "¿Quién escribió la novela Rayuela? [?] ",
@@ -2657,7 +2657,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 242,
+    "id": "cla_242",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "[all], respondan al mismo tiempo: ¿En qué país se encuentra el templo de Angkor Wat? [?] ",
@@ -2668,7 +2668,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 243,
+    "id": "cla_243",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "¿Qué elemento químico tiene el símbolo K? [?] ",
@@ -2679,7 +2679,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 244,
+    "id": "cla_244",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1], respondan: ¿Qué científico formuló las leyes de la herencia mediante experimentos con plantas de guisantes? [?] ",
@@ -2690,7 +2690,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 245,
+    "id": "cla_245",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "[player] y [player_x], respondan: ¿En qué año cayó el Muro de Berlín? [?] ",
@@ -2701,7 +2701,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 246,
+    "id": "cla_246",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1], respondan: ¿Qué antigua ciudad romana quedó sepultada por la erupción del Vesubio en el año 79? [?] ",
@@ -2712,7 +2712,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 247,
+    "id": "cla_247",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "¿Qué continente, además de Sudamérica y África, es atravesado por el trópico de Capricornio? [?] ",
@@ -2723,7 +2723,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 248,
+    "id": "cla_248",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "[player] y [player_x], respondan: ¿En qué antigua civilización se inventó el papel? [?] ",
@@ -2734,7 +2734,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 249,
+    "id": "cla_249",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "¿Qué partícula subatómica tiene carga eléctrica negativa? [?] ",
@@ -2745,7 +2745,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 250,
+    "id": "cla_250",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "¿Qué país tiene como capital a Ankara? [?] ",
@@ -2756,7 +2756,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 251,
+    "id": "cla_251",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "¿En qué año se firmó el Tratado de Versalles que impuso condiciones de paz a Alemania tras la Primera Guerra Mundial? [?] ",
@@ -2767,7 +2767,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 252,
+    "id": "cla_252",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1], respondan: ¿Qué forma tiene la estructura molecular del ADN? [?] ",
@@ -2778,7 +2778,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 253,
+    "id": "cla_253",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "¿Qué imperio europeo tuvo a Viena como una de sus principales capitales hasta 1918? [?] ",
@@ -2789,7 +2789,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 254,
+    "id": "cla_254",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "¿Qué glándula del cerebro produce principalmente la melatonina? [?] ",
@@ -2800,7 +2800,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 255,
+    "id": "cla_255",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "¿Cuál es el número atómico del carbono? [?] ",
@@ -2811,7 +2811,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 256,
+    "id": "cla_256",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1], respondan: ¿Qué inventor es famoso por sus contribuciones al desarrollo de sistemas eléctricos de corriente alterna? [?] ",
@@ -2822,7 +2822,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 257,
+    "id": "cla_257",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "[all], respondan al mismo tiempo: ¿Qué poema épico de Virgilio narra el viaje del héroe Eneas hacia Italia? [?] ",
@@ -2833,7 +2833,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 258,
+    "id": "cla_258",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "¿A qué país pertenece el archipiélago de Svalbard? [?] ",
@@ -2844,7 +2844,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 259,
+    "id": "cla_259",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "[all], respondan al mismo tiempo: ¿Qué rama de las matemáticas estudia las derivadas y las integrales? [?] ",
@@ -2855,7 +2855,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 260,
+    "id": "cla_260",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "[all], respondan al mismo tiempo: ¿Qué rey francés era conocido como el Rey Sol? [?] ",
@@ -2866,7 +2866,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 261,
+    "id": "cla_261",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "[all], respondan al mismo tiempo: ¿En qué siglo comenzó la Revolución Industrial en Gran Bretaña? [?] ",
@@ -2877,7 +2877,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 262,
+    "id": "cla_262",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "¿Qué grupo de bacterias puede realizar fotosíntesis y producir oxígeno? [?] ",
@@ -2888,7 +2888,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 263,
+    "id": "cla_263",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "[player] y [player_x], respondan: ¿Qué ciudad italiana fue el centro de una poderosa república marítima durante la Edad Media? [?] ",
@@ -2899,7 +2899,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 264,
+    "id": "cla_264",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "¿Qué gas noble tiene el número atómico 2? [?] ",
@@ -2910,7 +2910,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 265,
+    "id": "cla_265",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1], respondan: ¿Qué filósofo escribió El contrato social? [?] ",
@@ -2921,7 +2921,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 266,
+    "id": "cla_266",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "¿Qué tejido del cuerpo humano produce la mayoría de los glóbulos rojos? [?] ",
@@ -2932,7 +2932,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 267,
+    "id": "cla_267",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "¿En qué año fue adoptada la Declaración Universal de los Derechos Humanos? [?] ",
@@ -2943,7 +2943,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 268,
+    "id": "cla_268",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "¿Cuál es la montaña más alta de África? [?] ",
@@ -2954,7 +2954,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 269,
+    "id": "cla_269",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "[player] y [player_x], respondan: ¿Qué compositor polaco es famoso por sus nocturnos para piano? [?] ",
@@ -2965,7 +2965,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 270,
+    "id": "cla_270",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "[player] y [player_x], respondan: ¿Cómo se llama el proceso mediante el cual una bacteria incorpora ADN libre de su entorno? [?] ",
@@ -2976,7 +2976,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 271,
+    "id": "cla_271",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "¿Qué país asiático era conocido anteriormente como Ceilán? [?] ",
@@ -2987,7 +2987,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 272,
+    "id": "cla_272",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "¿Qué invento perfeccionó Johannes Gutenberg en Europa durante el siglo XV? [?] ",
@@ -2998,7 +2998,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 273,
+    "id": "cla_273",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "¿Qué diferencia a los isótopos de un mismo elemento químico? [?] ",
@@ -3009,7 +3009,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 274,
+    "id": "cla_274",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "¿Qué estrecho separa España de Marruecos? [?] ",
@@ -3020,7 +3020,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 275,
+    "id": "cla_275",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1], respondan: ¿Qué científico descubrió que los planetas se mueven alrededor del Sol siguiendo órbitas elípticas? [?] ",
@@ -3031,7 +3031,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 276,
+    "id": "cla_276",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1], respondan: ¿Quién pintó La persistencia de la memoria, el famoso cuadro de los relojes derretidos? [?] ",
@@ -3042,7 +3042,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 277,
+    "id": "cla_277",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "[all], respondan al mismo tiempo: ¿Cuál es el estado de oxidación de un elemento químico en su forma elemental? [?] ",
@@ -3053,7 +3053,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 278,
+    "id": "cla_278",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "¿En qué país nació el poeta Pablo Neruda? [?] ",
@@ -3064,7 +3064,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 279,
+    "id": "cla_279",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "¿Qué civilización preincaica construyó la ciudad de Chan Chan en Perú? [?] ",
@@ -3075,7 +3075,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 280,
+    "id": "cla_280",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "[all], respondan al mismo tiempo: ¿En qué ciudad se encuentra la sede de la Corte Internacional de Justicia? [?] ",
@@ -3086,7 +3086,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 281,
+    "id": "cla_281",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "[player] y [player_x], respondan: ¿Cómo se llama el proceso de muerte celular programada? [?] ",
@@ -3097,7 +3097,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 282,
+    "id": "cla_282",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "¿Qué astrónomo observó cuatro grandes lunas de Júpiter en 1610? [?] ",
@@ -3108,7 +3108,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 283,
+    "id": "cla_283",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "¿Cómo se llama el estudio estadístico que contabiliza la población de un país? [?] ",
@@ -3119,7 +3119,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 284,
+    "id": "cla_284",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "¿Qué tratado de 1494 dividió las zonas de expansión entre España y Portugal? [?] ",
@@ -3130,7 +3130,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 285,
+    "id": "cla_285",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "¿Qué río atraviesa la ciudad de Londres? [?] ",
@@ -3141,7 +3141,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 286,
+    "id": "cla_286",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "[player] y [player_x], respondan: ¿Cuál es la luna más grande de Saturno? [?] ",
@@ -3152,7 +3152,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 287,
+    "id": "cla_287",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "[player] y [player_x], respondan: ¿Qué tipo de energía tiene un objeto debido a su posición en un campo gravitatorio? [?] ",
@@ -3163,7 +3163,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 288,
+    "id": "cla_288",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1], respondan: ¿Quién escribió Crónica de una muerte anunciada? [?] ",
@@ -3174,7 +3174,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 289,
+    "id": "cla_289",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "[player] y [player_x], respondan: ¿Cómo se llama la pérdida de agua en forma de vapor a través de las hojas de las plantas? [?] ",
@@ -3185,7 +3185,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 290,
+    "id": "cla_290",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "¿Quién compuso la ópera La flauta mágica? [?] ",
@@ -3196,7 +3196,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 291,
+    "id": "cla_291",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "[player] y [player_x], respondan: ¿Qué país africano tiene como capital a Adís Abeba? [?] ",
@@ -3207,7 +3207,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 292,
+    "id": "cla_292",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "¿Cuál es el principal mineral que proporciona dureza a los huesos y dientes? [?] ",
@@ -3218,7 +3218,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 293,
+    "id": "cla_293",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "[all], respondan al mismo tiempo: ¿Qué ciencia estudia el clima y sus variaciones a largo plazo? [?] ",
@@ -3229,7 +3229,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 294,
+    "id": "cla_294",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "[player] y [player_x], respondan: ¿Qué emperador romano participó en el acuerdo conocido como Edicto de Milán del año 313? [?] ",
@@ -3240,7 +3240,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 295,
+    "id": "cla_295",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "¿Qué magnitud física se mide en pascales? [?] ",
@@ -3251,7 +3251,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 296,
+    "id": "cla_296",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "¿Qué capa interna de la Tierra está compuesta principalmente por hierro y níquel? [?] ",
@@ -3262,7 +3262,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 297,
+    "id": "cla_297",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1], respondan: ¿En qué país se encuentra el Valle de los Reyes, donde fueron enterrados numerosos faraones? [?] ",
@@ -3273,7 +3273,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 298,
+    "id": "cla_298",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1], respondan: ¿Qué científico es conocido como uno de los padres de la química moderna por sus estudios de conservación de la masa? [?] ",
@@ -3284,7 +3284,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 299,
+    "id": "cla_299",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "[all], respondan al mismo tiempo: ¿Qué muralista mexicano pintó El hombre controlador del universo? [?] ",
@@ -3295,7 +3295,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 300,
+    "id": "cla_300",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "¿Cuál fue la capital del Imperio bizantino? [?] ",
@@ -3306,7 +3306,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 301,
+    "id": "cla_301",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "¿Qué filósofo griego fue maestro de Alejandro Magno? [?] ",
@@ -3317,7 +3317,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 302,
+    "id": "cla_302",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "¿Qué científico propuso la teoría de la deriva continental? [?] ",
@@ -3328,7 +3328,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 303,
+    "id": "cla_303",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "[all], respondan al mismo tiempo: ¿Qué unidad del Sistema Internacional se utiliza para medir la resistencia eléctrica? [?] ",
@@ -3339,7 +3339,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 304,
+    "id": "cla_304",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "[all], respondan al mismo tiempo: ¿Qué imperio sudamericano desarrolló la extensa red de caminos conocida como Qhapaq Ñan? [?] ",
@@ -3350,7 +3350,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 305,
+    "id": "cla_305",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "[player] y [player_x], respondan: ¿Qué escritora chilena recibió el Premio Nobel de Literatura en 1945? [?] ",
@@ -3361,7 +3361,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 306,
+    "id": "cla_306",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "¿Qué físico alemán introdujo la idea de los cuantos de energía en 1900? [?] ",
@@ -3372,7 +3372,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 307,
+    "id": "cla_307",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "¿Qué tratado firmado en 1957 estableció la Comunidad Económica Europea? [?] ",
@@ -3383,7 +3383,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 308,
+    "id": "cla_308",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "[player] y [player_x], respondan: ¿Quién escribió La divina comedia? [?] ",
@@ -3394,7 +3394,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 309,
+    "id": "cla_309",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "¿Qué sustancias producen los linfocitos B al diferenciarse en células plasmáticas? [?] ",
@@ -3405,7 +3405,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 310,
+    "id": "cla_310",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1], respondan: ¿Qué país europeo utiliza el esloti o zloty como moneda? [?] ",
@@ -3416,7 +3416,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 311,
+    "id": "cla_311",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "¿Cómo se llaman los animales que son más activos durante el amanecer y el atardecer? [?] ",
@@ -3427,7 +3427,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 312,
+    "id": "cla_312",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "¿Qué científica descubrió los elementos radio y polonio junto con Pierre Curie? [?] ",
@@ -3438,7 +3438,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 313,
+    "id": "cla_313",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1], respondan: ¿A qué reino biológico pertenecen los hongos? [?] ",
@@ -3449,7 +3449,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 314,
+    "id": "cla_314",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1], respondan: ¿Qué antigua civilización de Mesopotamia desarrolló la escritura cuneiforme? [?] ",
@@ -3460,7 +3460,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 315,
+    "id": "cla_315",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "[all], respondan al mismo tiempo: ¿Qué famosa novela comienza con la frase 'En un lugar de la Mancha, de cuyo nombre no quiero acordarme'? [?] ",
@@ -3471,7 +3471,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 316,
+    "id": "cla_316",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "[player] y [player_x], respondan: ¿Qué ley establece que la presión de un gas es inversamente proporcional a su volumen cuando la temperatura permanece constante? [?] ",
@@ -3482,7 +3482,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 317,
+    "id": "cla_317",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "¿Cuál es la capital de Mongolia? [?] ",
@@ -3493,7 +3493,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 318,
+    "id": "cla_318",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "¿Qué navegante completó la primera circunnavegación del mundo después de la muerte de Fernando de Magallanes? [?] ",
@@ -3504,7 +3504,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 319,
+    "id": "cla_319",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "¿Qué rama de la geología estudia los terremotos? [?] ",
@@ -3515,7 +3515,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 320,
+    "id": "cla_320",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "[player] y [player_x], respondan: ¿Qué país africano era conocido históricamente como Abisinia? [?] ",
@@ -3526,7 +3526,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 321,
+    "id": "cla_321",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1], respondan: ¿Cuál es el valor aproximado del número de Avogadro? [?] ",
@@ -3537,7 +3537,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 322,
+    "id": "cla_322",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "¿Qué movimiento artístico representa los objetos mediante formas geométricas y perspectivas fragmentadas? [?] ",
@@ -3548,7 +3548,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 323,
+    "id": "cla_323",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "[player] y [player_x], respondan: ¿Qué escritor mexicano escribió Pedro Páramo? [?] ",
@@ -3559,7 +3559,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 324,
+    "id": "cla_324",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "¿Qué establece el código genético? [?] ",
@@ -3570,7 +3570,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 325,
+    "id": "cla_325",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1], respondan: ¿En qué continente surgió el Homo sapiens? [?] ",
@@ -3581,7 +3581,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 326,
+    "id": "cla_326",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "¿Con qué emperador romano se considera que comenzó la Pax Romana? [?] ",
@@ -3592,7 +3592,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 327,
+    "id": "cla_327",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "[player] y [player_x], respondan: ¿Cuál es la isla más grande del archipiélago japonés? [?] ",
@@ -3603,7 +3603,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 328,
+    "id": "cla_328",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "¿Cómo se llama la región alrededor de una estrella donde podría existir agua líquida en la superficie de un planeta bajo condiciones adecuadas? [?] ",
@@ -3614,7 +3614,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 329,
+    "id": "cla_329",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "¿Cómo se llaman las glándulas que se encuentran encima de los riñones? [?] ",
@@ -3625,7 +3625,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 330,
+    "id": "cla_330",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "¿En qué ciudad española se encuentra el palacio de la Alhambra? [?] ",
@@ -3636,7 +3636,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 331,
+    "id": "cla_331",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "[all], respondan al mismo tiempo: ¿Qué características debe tener un polígono para considerarse regular? [?] ",
@@ -3647,7 +3647,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 332,
+    "id": "cla_332",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "¿Qué novela de Aldous Huxley describe una sociedad controlada mediante ingeniería social y condicionamiento? [?] ",
@@ -3658,7 +3658,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 333,
+    "id": "cla_333",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "¿Qué elemento químico no metálico es líquido a temperatura ambiente? [?] ",
@@ -3669,7 +3669,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 334,
+    "id": "cla_334",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "[all], respondan al mismo tiempo: ¿Qué país estuvo gobernado por la dinastía Pahlaví hasta 1979? [?] ",
@@ -3680,7 +3680,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 335,
+    "id": "cla_335",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "[player] y [player_x], respondan: ¿Qué escala de temperatura utiliza el cero absoluto como punto de partida? [?] ",
@@ -3691,7 +3691,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 336,
+    "id": "cla_336",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "[player] y [player_x], respondan: ¿Qué tejido de las plantas transporta principalmente agua y minerales desde las raíces? [?] ",
@@ -3702,7 +3702,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 337,
+    "id": "cla_337",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "[player] y [player_x], respondan: ¿Qué batalla de 1824 fue decisiva para consolidar la independencia del Perú y de gran parte de Sudamérica? [?] ",
@@ -3713,7 +3713,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 338,
+    "id": "cla_338",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1], respondan: ¿Cómo se llama el punto de una órbita donde un planeta está más cerca del Sol? [?] ",
@@ -3724,7 +3724,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 339,
+    "id": "cla_339",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1], respondan: ¿Qué médico inglés describió correctamente la circulación sistémica de la sangre en el siglo XVII? [?] ",
@@ -3735,7 +3735,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 340,
+    "id": "cla_340",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "[all], respondan al mismo tiempo: ¿Qué artista renacentista pintó La escuela de Atenas? [?] ",
@@ -3746,7 +3746,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 341,
+    "id": "cla_341",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "¿Qué disciplina científica estudia el origen, la estructura y la evolución del universo? [?] ",
@@ -3757,7 +3757,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 342,
+    "id": "cla_342",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "¿Qué partícula subatómica tiene carga eléctrica positiva? [?] ",
@@ -3768,7 +3768,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 343,
+    "id": "cla_343",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "[all], respondan al mismo tiempo: ¿Qué ciudad romana quedó sepultada por la erupción del Vesubio junto con Pompeya? [?] ",
@@ -3779,7 +3779,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 344,
+    "id": "cla_344",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "¿Qué escritor francés escribió Los miserables? [?] ",
@@ -3790,7 +3790,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 345,
+    "id": "cla_345",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "[all], respondan al mismo tiempo: ¿Cómo se llama el desgaste y transporte de materiales de la superficie terrestre causado por el viento? [?] ",
@@ -3801,7 +3801,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 346,
+    "id": "cla_346",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "¿Qué elemento químico tiene el número atómico 26? [?] ",
@@ -3812,7 +3812,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 347,
+    "id": "cla_347",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1], respondan: ¿Qué tipo de falla geológica es la falla de San Andrés en California? [?] ",
@@ -3823,7 +3823,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 348,
+    "id": "cla_348",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "¿Qué desierto del norte de Chile es famoso por sus observatorios astronómicos y su extrema aridez? [?] ",
@@ -3834,7 +3834,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 349,
+    "id": "cla_349",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "¿Qué conquistador español encabezó la campaña que terminó con la caída de Tenochtitlan en 1521? [?] ",
@@ -3845,7 +3845,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 350,
+    "id": "cla_350",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "¿Qué filósofo francés escribió Discurso del método? [?] ",
@@ -3856,7 +3856,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 351,
+    "id": "cla_351",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1], respondan: ¿Qué químico ruso presentó una versión influyente de la tabla periódica de los elementos en 1869? [?] ",
@@ -3867,7 +3867,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 352,
+    "id": "cla_352",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "¿Qué alianza militar internacional fue fundada en 1949 por Estados Unidos, Canadá y varios países europeos? [?] ",
@@ -3878,7 +3878,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 353,
+    "id": "cla_353",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "¿Qué físico formuló el principio de incertidumbre en la mecánica cuántica? [?] ",
@@ -3889,7 +3889,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 354,
+    "id": "cla_354",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "¿Qué dinastía china construyó gran parte de las secciones más conocidas de la Gran Muralla que se conservan actualmente? [?] ",
@@ -3900,7 +3900,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 355,
+    "id": "cla_355",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "[player] y [player_x], respondan: ¿Cómo se llama el lugar donde se encuentran los límites de tres placas tectónicas? [?] ",
@@ -3911,7 +3911,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 356,
+    "id": "cla_356",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "[player] y [player_x], respondan: ¿Qué filósofo y matemático francés popularizó el sistema de coordenadas cartesianas? [?] ",
@@ -3922,7 +3922,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 357,
+    "id": "cla_357",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "[player] y [player_x], respondan: ¿Qué proceso de división celular produce normalmente dos células hijas genéticamente iguales? [?] ",
@@ -3933,7 +3933,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 358,
+    "id": "cla_358",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "[all], respondan al mismo tiempo: ¿Qué partícula es el cuanto del campo electromagnético? [?] ",
@@ -3944,7 +3944,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 359,
+    "id": "cla_359",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1], respondan: ¿Cuál fue la capital del califato abasí durante gran parte de su historia? [?] ",
@@ -3955,7 +3955,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 360,
+    "id": "cla_360",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "[player] y [player_x], respondan: ¿Qué escritora británica escribió Orgullo y prejuicio? [?] ",
@@ -3966,7 +3966,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 361,
+    "id": "cla_361",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "[all], respondan al mismo tiempo: ¿Qué naturalista sueco popularizó el sistema de nomenclatura binomial utilizado para nombrar especies? [?] ",
@@ -3977,7 +3977,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 362,
+    "id": "cla_362",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "¿Qué es el albedo de una superficie? [?] ",
@@ -3988,7 +3988,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 363,
+    "id": "cla_363",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "[player] y [player_x], respondan: ¿Qué conflicto medieval enfrentó principalmente a Inglaterra y Francia entre 1337 y 1453? [?] ",
@@ -3999,7 +3999,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 364,
+    "id": "cla_364",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "¿Cuáles son los dos países de Sudamérica que no tienen salida directa al mar? [?] ",
@@ -4010,7 +4010,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 365,
+    "id": "cla_365",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "¿Qué escala se utiliza para expresar la acidez o alcalinidad de una solución? [?] ",
@@ -4021,7 +4021,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 366,
+    "id": "cla_366",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "¿Qué antigua civilización se desarrolló alrededor de la ciudad de Caral, en la costa peruana? [?] ",
@@ -4032,7 +4032,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 367,
+    "id": "cla_367",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "¿Qué instrumento se utiliza para medir la intensidad de la corriente eléctrica? [?] ",
@@ -4043,7 +4043,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 368,
+    "id": "cla_368",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "¿Qué civilización de la Edad del Bronce construyó el palacio de Cnosos, en Creta? [?] ",
@@ -4054,7 +4054,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 369,
+    "id": "cla_369",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "¿Qué filósofo alemán escribió Así habló Zaratustra? [?] ",
@@ -4065,7 +4065,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 370,
+    "id": "cla_370",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "[all], respondan al mismo tiempo: ¿Qué teoría geológica explica el movimiento de las placas que componen la litosfera terrestre? [?] ",
@@ -4076,7 +4076,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 371,
+    "id": "cla_371",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "¿Qué país estuvo gobernado por la dinastía Qing hasta 1912? [?] ",
@@ -4087,7 +4087,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 372,
+    "id": "cla_372",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "[player] y [player_x], respondan: ¿Qué efecto explica la desviación aparente de los vientos y corrientes oceánicas debido a la rotación terrestre? [?] ",
@@ -4098,7 +4098,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 373,
+    "id": "cla_373",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "[player] y [player_x], respondan: ¿Qué sustancia forma una parte fundamental del exoesqueleto de los insectos? [?] ",
@@ -4109,7 +4109,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 374,
+    "id": "cla_374",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "¿Qué período geológico de la era Mesozoica ocurrió inmediatamente antes del Jurásico? [?] ",
@@ -4120,7 +4120,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 375,
+    "id": "cla_375",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1], respondan: ¿Qué astrónomo formuló las tres leyes del movimiento planetario? [?] ",
@@ -4131,7 +4131,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 376,
+    "id": "cla_376",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "[player] y [player_x], respondan: ¿Qué astrónoma estadounidense fue fundamental para desarrollar el sistema moderno de clasificación espectral de las estrellas? [?] ",
@@ -4142,7 +4142,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 377,
+    "id": "cla_377",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "¿Qué novela de Laura Esquivel combina recetas de cocina, amor y realismo mágico? [?] ",
@@ -4153,7 +4153,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 378,
+    "id": "cla_378",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "[all], respondan al mismo tiempo: ¿Qué país asiático, cuya capital histórica es Yakarta, estuvo bajo dominio colonial neerlandés? [?] ",
@@ -4164,7 +4164,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 379,
+    "id": "cla_379",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "¿Qué elemento químico tiene el símbolo W? [?] ",
@@ -4175,7 +4175,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 380,
+    "id": "cla_380",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "¿Qué representa el índice de refracción de un material? [?] ",
@@ -4186,7 +4186,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 381,
+    "id": "cla_381",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "[all], respondan al mismo tiempo: ¿Qué imperio persa tuvo a Persépolis como uno de sus principales centros ceremoniales? [?] ",
@@ -4197,7 +4197,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 382,
+    "id": "cla_382",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1], respondan: ¿En qué año se considera tradicionalmente que cayó el Imperio romano de Occidente? [?] ",
@@ -4208,7 +4208,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 383,
+    "id": "cla_383",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1], respondan: ¿Qué naturalista propuso de manera independiente una teoría de evolución por selección natural similar a la de Charles Darwin? [?] ",
@@ -4219,7 +4219,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 384,
+    "id": "cla_384",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1], respondan: ¿Qué isótopo radiactivo se utiliza comúnmente para determinar la antigüedad de restos orgánicos? [?] ",
@@ -4230,7 +4230,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 385,
+    "id": "cla_385",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1], respondan: ¿Qué ciudad europea quedó dividida por un muro construido en 1961? [?] ",
@@ -4241,7 +4241,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 386,
+    "id": "cla_386",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "[all], respondan al mismo tiempo: ¿Qué obra de Igor Stravinsky provocó una gran controversia durante su estreno en París en 1913? [?] ",
@@ -4252,7 +4252,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 387,
+    "id": "cla_387",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "¿Qué interacción fundamental mantiene unidos a protones y neutrones en el núcleo atómico? [?] ",
@@ -4263,7 +4263,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 388,
+    "id": "cla_388",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "[all], respondan al mismo tiempo: ¿Qué país africano derrotó al ejército italiano en la batalla de Adua de 1896? [?] ",
@@ -4274,7 +4274,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 389,
+    "id": "cla_389",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "¿Qué filósofo griego fundó la escuela conocida como el Liceo? [?] ",
@@ -4285,7 +4285,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 390,
+    "id": "cla_390",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "[player] y [player_x], respondan: ¿Qué ley de la termodinámica establece que la entropía total de un sistema aislado nunca disminuye? [?] ",
@@ -4296,7 +4296,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 391,
+    "id": "cla_391",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "[all], respondan al mismo tiempo: ¿Qué tratado firmado en 1992 estableció formalmente la Unión Europea? [?] ",
@@ -4307,7 +4307,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 392,
+    "id": "cla_392",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1], respondan: ¿Qué astrónomo estadounidense dio nombre a la ley que relaciona la distancia de las galaxias con su velocidad de alejamiento? [?] ",
@@ -4318,7 +4318,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 393,
+    "id": "cla_393",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "¿Cómo se llaman las rocas formadas por el enfriamiento y solidificación del magma o la lava? [?] ",
@@ -4329,7 +4329,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 394,
+    "id": "cla_394",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "¿Cuál es la unidad de capacitancia eléctrica en el Sistema Internacional? [?] ",
@@ -4340,7 +4340,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 395,
+    "id": "cla_395",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "¿Qué disciplina estudia los signos y sus procesos de significación? [?] ",
@@ -4351,7 +4351,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 396,
+    "id": "cla_396",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "¿Qué batalla de 1815 marcó la derrota definitiva de Napoleón Bonaparte? [?] ",
@@ -4362,7 +4362,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 397,
+    "id": "cla_397",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "¿Qué río atraviesa la ciudad de Budapest? [?] ",
@@ -4373,7 +4373,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 398,
+    "id": "cla_398",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "¿Qué animal marino tiene tres corazones y sangre azul? [?] ",
@@ -4384,7 +4384,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 399,
+    "id": "cla_399",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "¿Qué científico francés desarrolló una vacuna contra la rabia aplicada exitosamente en 1885? [?] ",
@@ -4395,7 +4395,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 400,
+    "id": "cla_400",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "¿Qué indicador económico se utiliza comúnmente para medir la variación de los precios de una canasta de bienes y servicios de consumo? [?] ",
@@ -4406,7 +4406,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 401,
+    "id": "cla_401",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "[player] y [player_x], respondan: ¿Qué matemático formuló los famosos teoremas de incompletitud en 1931? [?] ",
@@ -4417,7 +4417,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 402,
+    "id": "cla_402",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "[player] y [player_x], respondan: ¿Qué acontecimiento ocurrido en Praga en 1618 contribuyó a desencadenar la Guerra de los Treinta Años? [?] ",
@@ -4428,7 +4428,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 403,
+    "id": "cla_403",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1], respondan: ¿Qué filósofo alemán escribió Crítica de la razón pura? [?] ",
@@ -4439,7 +4439,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 404,
+    "id": "cla_404",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "¿Qué estilo arquitectónico medieval se caracteriza por arcos apuntados, bóvedas de crucería y arbotantes? [?] ",
@@ -4450,7 +4450,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 405,
+    "id": "cla_405",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "[player] y [player_x], respondan: ¿Cómo se llama el isótopo del hidrógeno que tiene un protón y un neutrón? [?] ",
@@ -4461,7 +4461,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 406,
+    "id": "cla_406",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1], respondan: ¿Cómo se llama la discontinuidad geológica que separa la corteza terrestre del manto? [?] ",
@@ -4472,7 +4472,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 407,
+    "id": "cla_407",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1], respondan: ¿Qué filósofa francesa escribió El segundo sexo? [?] ",
@@ -4483,7 +4483,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 408,
+    "id": "cla_408",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "[all], respondan al mismo tiempo: ¿Qué corriente oceánica fría influye considerablemente en el clima de las costas de Perú y Chile? [?] ",
@@ -4494,7 +4494,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 409,
+    "id": "cla_409",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "¿Qué médico inglés desarrolló la primera vacuna contra la viruela a finales del siglo XVIII? [?] ",
@@ -4505,7 +4505,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 410,
+    "id": "cla_410",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "¿Qué imperio construyó el Taj Mahal durante el siglo XVII? [?] ",
@@ -4516,7 +4516,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 411,
+    "id": "cla_411",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "¿Qué ley de los gases relaciona directamente la presión y la temperatura cuando el volumen permanece constante? [?] ",
@@ -4527,7 +4527,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 412,
+    "id": "cla_412",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "¿Cómo se llamaba la capital del Imperio mexica o azteca? [?] ",
@@ -4538,7 +4538,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 413,
+    "id": "cla_413",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "[player] y [player_x], respondan: ¿Qué físico formuló el principio de exclusión que lleva su apellido? [?] ",
@@ -4549,7 +4549,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 414,
+    "id": "cla_414",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "¿En qué año se disolvió oficialmente la Unión Soviética? [?] ",
@@ -4560,7 +4560,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 415,
+    "id": "cla_415",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "[all], respondan al mismo tiempo: ¿Qué filósofo alemán escribió Ser y tiempo? [?] ",
@@ -4571,7 +4571,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 416,
+    "id": "cla_416",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "¿En qué año Martín Lutero publicó sus 95 tesis, acontecimiento asociado al inicio de la Reforma protestante? [?] ",
@@ -4582,7 +4582,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 417,
+    "id": "cla_417",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "¿Qué río atraviesa la ciudad de Bagdad? [?] ",
@@ -4593,7 +4593,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 418,
+    "id": "cla_418",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "[all], respondan al mismo tiempo: ¿Qué científica británica ganó el Premio Nobel de Química de 1964 por sus estudios de estructuras moleculares mediante rayos X? [?] ",
@@ -4604,7 +4604,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 419,
+    "id": "cla_419",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1], respondan: ¿Qué filósofo fundó la escuela estoica en Atenas? [?] ",
@@ -4615,7 +4615,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 420,
+    "id": "cla_420",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "[player] y [player_x], respondan: ¿Qué misión espacial llevó por primera vez seres humanos a la superficie de la Luna? [?] ",
@@ -4626,7 +4626,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 421,
+    "id": "cla_421",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "¿Qué metal tiene la mayor conductividad eléctrica a temperatura ambiente? [?] ",
@@ -4637,7 +4637,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 422,
+    "id": "cla_422",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1], respondan: ¿Cómo se llama el proceso nuclear en el que dos núcleos ligeros se unen para formar uno más pesado? [?] ",
@@ -4648,7 +4648,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 423,
+    "id": "cla_423",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1], respondan: ¿Qué país africano obtuvo su independencia de Portugal en 1975 y tiene como capital a Luanda? [?] ",
@@ -4659,7 +4659,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 424,
+    "id": "cla_424",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "¿Qué capa de la atmósfera terrestre se encuentra inmediatamente encima de la estratosfera? [?] ",
@@ -4670,7 +4670,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 425,
+    "id": "cla_425",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "[all], respondan al mismo tiempo: ¿Qué famosa ecuación de Einstein expresa la equivalencia entre masa y energía? [?] ",
@@ -4681,7 +4681,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 426,
+    "id": "cla_426",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "¿Qué escritor italiano escribió El nombre de la rosa? [?] ",
@@ -4692,7 +4692,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 427,
+    "id": "cla_427",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "¿Cuál es la capital de Namibia? [?] ",
@@ -4703,7 +4703,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 428,
+    "id": "cla_428",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "¿Qué tratado de 1898 puso fin a la guerra entre España y Estados Unidos? [?] ",
@@ -4714,7 +4714,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 429,
+    "id": "cla_429",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "[player] y [player_x], respondan: ¿Cuál es la estrella más cercana al Sol? [?] ",
@@ -4725,7 +4725,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 430,
+    "id": "cla_430",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "[all], respondan al mismo tiempo: ¿Qué supercontinente comenzó a fragmentarse durante la era Mesozoica? [?] ",
@@ -4736,7 +4736,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 431,
+    "id": "cla_431",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "¿Qué paralelo se utilizó inicialmente como línea divisoria entre Corea del Norte y Corea del Sur después de la Segunda Guerra Mundial? [?] ",
@@ -4747,7 +4747,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 432,
+    "id": "cla_432",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1], respondan: ¿Qué pintor neerlandés realizó la famosa obra El jardín de las delicias? [?] ",
@@ -4758,7 +4758,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 433,
+    "id": "cla_433",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "[player] y [player_x], respondan: ¿Qué enfermedad es causada por una deficiencia grave de vitamina C? [?] ",
@@ -4769,7 +4769,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 434,
+    "id": "cla_434",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "¿Qué matemático ruso fue uno de los fundadores de la geometría hiperbólica? [?] ",
@@ -4780,7 +4780,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 435,
+    "id": "cla_435",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1], respondan: ¿Qué rama de la geología estudia las aguas subterráneas, su distribución y movimiento? [?] ",
@@ -4791,7 +4791,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 436,
+    "id": "cla_436",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "[all], respondan al mismo tiempo: ¿Cuál es el número atómico del uranio? [?] ",
@@ -4802,7 +4802,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 437,
+    "id": "cla_437",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "¿Qué naturalista publicó en 1859 El origen de las especies? [?] ",
@@ -4813,7 +4813,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 438,
+    "id": "cla_438",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "[all], respondan al mismo tiempo: ¿Qué imperio africano medieval fue gobernado por el famoso emperador Mansa Musa? [?] ",
@@ -4824,7 +4824,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 439,
+    "id": "cla_439",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "¿Qué científico explicó el efecto fotoeléctrico mediante la idea de cuantos de luz en 1905? [?] ",
@@ -4835,7 +4835,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 440,
+    "id": "cla_440",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "¿Qué fenómeno solar provoca las auroras boreales al interactuar con el campo magnético y la atmósfera terrestre? [?] ",
@@ -4846,7 +4846,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 441,
+    "id": "cla_441",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "¿En qué ciudad alemana se celebraron los famosos juicios contra dirigentes nazis después de la Segunda Guerra Mundial? [?] ",
@@ -4857,7 +4857,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 442,
+    "id": "cla_442",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "[all], respondan al mismo tiempo: ¿Qué tratado firmado en Washington en 1949 dio origen a la OTAN? [?] ",
@@ -4868,7 +4868,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 443,
+    "id": "cla_443",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "¿Qué grupo sanguíneo se considera donante universal de glóbulos rojos? [?] ",
@@ -4879,7 +4879,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 444,
+    "id": "cla_444",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "[player] y [player_x], respondan: ¿Qué teoría explica que las mitocondrias y los cloroplastos se originaron a partir de organismos que vivían dentro de otras células? [?] ",
@@ -4890,7 +4890,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 445,
+    "id": "cla_445",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "¿Qué dirigente soviético impulsó las reformas conocidas como perestroika y glásnost? [?] ",
@@ -4901,7 +4901,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 446,
+    "id": "cla_446",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "¿Qué mineral está compuesto por dióxido de silicio y tiene la fórmula SiO2? [?] ",
@@ -4912,7 +4912,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 447,
+    "id": "cla_447",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "[player] y [player_x], respondan: ¿Quién se convirtió en presidente de Sudáfrica en 1994 después de las primeras elecciones nacionales con sufragio universal? [?] ",
@@ -4923,7 +4923,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 448,
+    "id": "cla_448",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "¿En qué país se redactó la Constitución federal de 1787, todavía vigente con enmiendas? [?] ",
@@ -4934,7 +4934,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 449,
+    "id": "cla_449",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "¿Cómo se llama la extinción masiva que ocurrió hace aproximadamente 66 millones de años y acabó con los dinosaurios no avianos? [?] ",
@@ -4945,7 +4945,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 450,
+    "id": "cla_450",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "¿Qué filósofo inglés escribió Leviatán, una de las obras fundamentales de la filosofía política moderna? [?] ",
@@ -4956,7 +4956,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 451,
+    "id": "cla_451",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "[all], respondan al mismo tiempo: ¿Qué conjunto de tratados firmados en 1648 puso fin a la Guerra de los Treinta Años? [?] ",
@@ -4967,7 +4967,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 452,
+    "id": "cla_452",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "[player] y [player_x], respondan: ¿Qué filósofo alemán escribió El mundo como voluntad y representación? [?] ",
@@ -4978,7 +4978,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 453,
+    "id": "cla_453",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "¿Qué astrónoma descubrió la relación entre el período y la luminosidad de las estrellas variables cefeidas? [?] ",
@@ -4989,7 +4989,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 454,
+    "id": "cla_454",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "[all], respondan al mismo tiempo: ¿Qué zar ruso decretó la emancipación de los siervos en 1861? [?] ",
@@ -5000,7 +5000,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 455,
+    "id": "cla_455",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "¿Qué arquitecto estadounidense diseñó la famosa Casa de la Cascada, también conocida como Fallingwater? [?] ",
@@ -5011,7 +5011,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 456,
+    "id": "cla_456",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "[player] y [player_x], respondan: ¿Qué escritor guatemalteco recibió el Premio Nobel de Literatura en 1967? [?] ",
@@ -5022,7 +5022,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 457,
+    "id": "cla_457",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "[player] y [player_x], respondan: ¿Qué ley del electromagnetismo relaciona el flujo eléctrico a través de una superficie cerrada con la carga eléctrica encerrada? [?] ",
@@ -5033,7 +5033,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 458,
+    "id": "cla_458",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "¿Qué tratado firmado en 1713 fue fundamental para poner fin a la Guerra de Sucesión española? [?] ",
@@ -5044,7 +5044,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 459,
+    "id": "cla_459",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "[all], respondan al mismo tiempo: ¿Durante qué período geológico aparecieron los primeros dinosaurios? [?] ",
@@ -5055,7 +5055,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 460,
+    "id": "cla_460",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "¿Qué país fue el primero en reconocer el derecho al voto de las mujeres en elecciones parlamentarias nacionales, en 1893? [?] ",
@@ -5066,7 +5066,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 461,
+    "id": "cla_461",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "¿Qué matemático británico logró demostrar el último teorema de Fermat en la década de 1990? [?] ",
@@ -5077,7 +5077,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 462,
+    "id": "cla_462",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1], respondan: ¿Qué dinastía gobernó Rusia hasta la Revolución de 1917? [?] ",
@@ -5088,7 +5088,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 463,
+    "id": "cla_463",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "¿Qué astrofísica descubrió los primeros púlsares en 1967 durante sus investigaciones de radioastronomía? [?] ",
@@ -5099,7 +5099,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 464,
+    "id": "cla_464",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1], respondan: ¿Cómo se conoce la antigua red de rutas comerciales que conectaba China con Asia Central y el Mediterráneo? [?] ",
@@ -5110,7 +5110,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 465,
+    "id": "cla_465",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1], respondan: ¿Cómo se llama la discontinuidad que separa el manto terrestre del núcleo externo? [?] ",
@@ -5121,7 +5121,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 466,
+    "id": "cla_466",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1], respondan: ¿Qué líder haitiano proclamó la independencia de Haití en 1804? [?] ",
@@ -5132,7 +5132,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 467,
+    "id": "cla_467",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1], respondan: ¿Qué escritor argentino publicó el libro de cuentos Ficciones en 1944? [?] ",
@@ -5143,7 +5143,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 468,
+    "id": "cla_468",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "¿Cómo se llama el proceso evolutivo en el que las frecuencias de los alelos cambian por causas aleatorias? [?] ",
@@ -5154,7 +5154,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 469,
+    "id": "cla_469",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "[all], respondan al mismo tiempo: ¿Qué físico austriaco formuló en 1926 una ecuación fundamental de la mecánica cuántica que lleva su apellido? [?] ",
@@ -5165,7 +5165,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 470,
+    "id": "cla_470",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "¿Qué sistema de escritura se utiliza actualmente en idiomas como el ruso, el búlgaro y el ucraniano? [?] ",
@@ -5176,7 +5176,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 471,
+    "id": "cla_471",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "¿Qué pacto internacional firmado en 1928 buscaba renunciar a la guerra como instrumento de política nacional? [?] ",
@@ -5187,7 +5187,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 472,
+    "id": "cla_472",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "[all], respondan al mismo tiempo: ¿Qué compositor italiano creó la ópera L'Orfeo, estrenada en 1607? [?] ",
@@ -5198,7 +5198,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 473,
+    "id": "cla_473",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "¿Qué corriente oceánica cálida transporta agua desde la región del golfo de México hacia el Atlántico Norte? [?] ",
@@ -5209,7 +5209,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 474,
+    "id": "cla_474",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "¿Qué escritor brasileño escribió Memorias póstumas de Brás Cubas? [?] ",
@@ -5220,7 +5220,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 475,
+    "id": "cla_475",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1], respondan: ¿Qué elemento químico fue descubierto por Marie y Pierre Curie y recibió su nombre en honor a Polonia? [?] ",
@@ -5231,7 +5231,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 476,
+    "id": "cla_476",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "¿Qué ciudad egipcia fue famosa por albergar una de las bibliotecas más importantes de la Antigüedad? [?] ",
@@ -5242,7 +5242,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 477,
+    "id": "cla_477",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "[player] y [player_x], respondan: ¿Qué matemático escocés desarrolló los logaritmos y publicó sus trabajos a comienzos del siglo XVII? [?] ",
@@ -5253,7 +5253,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 478,
+    "id": "cla_478",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "¿Qué documento firmado en Inglaterra en 1215 estableció importantes limitaciones al poder del monarca? [?] ",
@@ -5264,7 +5264,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 479,
+    "id": "cla_479",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1], respondan: ¿Qué civilización mesoamericana construyó la ciudad de Copán, situada en la actual Honduras? [?] ",
@@ -5275,7 +5275,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 480,
+    "id": "cla_480",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "[all], respondan al mismo tiempo: ¿Qué concepto cosmológico se utiliza para explicar la expansión acelerada del universo? [?] ",
@@ -5286,7 +5286,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 481,
+    "id": "cla_481",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "¿Cuál fue la última dinastía imperial que gobernó China antes de establecerse la república en 1912? [?] ",
@@ -5297,7 +5297,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 482,
+    "id": "cla_482",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "[all], respondan al mismo tiempo: ¿Cómo se denomina una célula que posee dos juegos completos de cromosomas? [?] ",
@@ -5308,7 +5308,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 483,
+    "id": "cla_483",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "¿Qué filósofo y economista alemán escribió el primer volumen de El capital? [?] ",
@@ -5319,7 +5319,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 484,
+    "id": "cla_484",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "[player] y [player_x], respondan: ¿Qué bioquímico describió el ciclo del ácido cítrico, fundamental para la respiración celular? [?] ",
@@ -5330,7 +5330,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 485,
+    "id": "cla_485",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1], respondan: ¿Qué país actual ocupa gran parte del territorio donde se desarrolló la antigua Mesopotamia? [?] ",
@@ -5341,7 +5341,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 486,
+    "id": "cla_486",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "[player] y [player_x], respondan: ¿Qué emperador romano participó en la promulgación del Edicto de Tesalónica del año 380, que estableció el cristianismo niceno como religión oficial del Imperio? [?] ",
@@ -5352,7 +5352,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 487,
+    "id": "cla_487",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "¿Qué mineral ocupa el nivel 10 en la escala de dureza de Mohs? [?] ",
@@ -5363,7 +5363,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 488,
+    "id": "cla_488",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "¿Qué acuerdo internacional firmado en 1959 estableció el uso pacífico de la Antártida y la cooperación científica? [?] ",
@@ -5374,7 +5374,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 489,
+    "id": "cla_489",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "[all], respondan al mismo tiempo: ¿Qué dos físicos detectaron experimentalmente el neutrino en 1956? [?] ",
@@ -5385,7 +5385,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 490,
+    "id": "cla_490",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "[player] y [player_x], respondan: ¿En qué país africano se encuentran las ruinas de la antigua ciudad de Gran Zimbabue? [?] ",
@@ -5396,7 +5396,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 491,
+    "id": "cla_491",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "¿Qué filósofo de la ciencia escribió La estructura de las revoluciones científicas? [?] ",
@@ -5407,7 +5407,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 492,
+    "id": "cla_492",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "[player] y [player_x], respondan: ¿Qué ley física establece que la energía total radiada por un cuerpo negro es proporcional a la cuarta potencia de su temperatura absoluta? [?] ",
@@ -5418,7 +5418,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 493,
+    "id": "cla_493",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "¿Cómo se conoce el movimiento editorial y literario de las décadas de 1960 y 1970 que internacionalizó a escritores latinoamericanos como García Márquez, Cortázar y Vargas Llosa? [?] ",
@@ -5429,7 +5429,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 494,
+    "id": "cla_494",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "¿Qué arqueólogo británico descubrió la tumba de Tutankamón en 1922? [?] ",
@@ -5440,7 +5440,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 495,
+    "id": "cla_495",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "¿Qué filósofo francés defendió la separación de poderes en su obra El espíritu de las leyes? [?] ",
@@ -5451,7 +5451,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 496,
+    "id": "cla_496",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "[player] y [player_x], respondan: ¿Qué partícula elemental, cuya existencia fue confirmada experimentalmente en el CERN en 2012, está asociada al mecanismo por el que ciertas partículas adquieren masa? [?] ",
@@ -5462,7 +5462,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 497,
+    "id": "cla_497",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "¿Qué país del Caribe se convirtió en 1804 en la primera república independiente surgida de una revolución de personas esclavizadas? [?] ",
@@ -5473,7 +5473,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 498,
+    "id": "cla_498",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "¿Qué escuela filosófica de la antigua Grecia defendía la búsqueda de una vida feliz mediante placeres moderados y la ausencia de sufrimiento? [?] ",
@@ -5484,7 +5484,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 499,
+    "id": "cla_499",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "¿Qué antiguo océano se extendía entre las masas continentales de Laurasia y Gondwana? [?] ",
@@ -5495,7 +5495,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 500,
+    "id": "cla_500",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "¿Qué número matemático, aproximadamente igual a 2,71828, es la base de los logaritmos naturales? [?] ",
@@ -5506,7 +5506,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 501,
+    "id": "cla_501",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Qué plan sencillo disfrutas más con tus amigos?",
@@ -5516,7 +5516,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 502,
+    "id": "cla_502",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Qué apodo cariñoso te han puesto tus amigos?",
@@ -5526,7 +5526,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 503,
+    "id": "cla_503",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Prefieres salir a comer o hacer una reunión en casa con amigos?",
@@ -5536,7 +5536,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 504,
+    "id": "cla_504",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Qué canción te recuerda a tu grupo de amigos?",
@@ -5546,7 +5546,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 505,
+    "id": "cla_505",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Qué amigo te hizo reír más recientemente?",
@@ -5556,7 +5556,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 506,
+    "id": "cla_506",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Qué comida nunca falta en una reunión de tus amigos?",
@@ -5566,7 +5566,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 507,
+    "id": "cla_507",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Eres quien organiza los planes o quien espera la invitación?",
@@ -5576,7 +5576,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 508,
+    "id": "cla_508",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Qué actividad nueva te gustaría probar con tus amigos?",
@@ -5586,7 +5586,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 509,
+    "id": "cla_509",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Qué viaje corto te gustaría hacer con tu grupo?",
@@ -5596,7 +5596,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 510,
+    "id": "cla_510",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Qué película volverías a ver con tus amigos?",
@@ -5606,7 +5606,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 511,
+    "id": "cla_511",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Cuál es tu recuerdo favorito de una salida con amigos?",
@@ -5616,7 +5616,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 512,
+    "id": "cla_512",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Qué juego de mesa se te da mejor entre tus amigos?",
@@ -5626,7 +5626,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 513,
+    "id": "cla_513",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Qué amigo conoces desde hace más tiempo?",
@@ -5636,7 +5636,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 514,
+    "id": "cla_514",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Qué frase usan tanto entre ustedes que ya es un chiste interno?",
@@ -5646,7 +5646,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 515,
+    "id": "cla_515",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Qué cualidad valoras más en un buen amigo?",
@@ -5656,7 +5656,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 516,
+    "id": "cla_516",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Quién suele tardar más en contestar mensajes en tu grupo?",
@@ -5666,7 +5666,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 517,
+    "id": "cla_517",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Cuál es el plan más improvisado que has hecho con amigos?",
@@ -5676,7 +5676,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 518,
+    "id": "cla_518",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Qué amistad comenzó por una coincidencia extraña?",
@@ -5686,7 +5686,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 519,
+    "id": "cla_519",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Qué cosa te prestaron tus amigos que todavía tienes?",
@@ -5696,7 +5696,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 520,
+    "id": "cla_520",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Alguna vez olvidaste el cumpleaños de un amigo?",
@@ -5706,7 +5706,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 521,
+    "id": "cla_521",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Qué amigo te contagió un gusto musical inesperado?",
@@ -5716,7 +5716,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 522,
+    "id": "cla_522",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Cuál ha sido el viaje más divertido con amigos?",
@@ -5726,7 +5726,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 523,
+    "id": "cla_523",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Qué costumbre de tus amigos terminaste adoptando?",
@@ -5736,7 +5736,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 524,
+    "id": "cla_524",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Qué plan con amigos parecía malo y terminó siendo genial?",
@@ -5746,7 +5746,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 525,
+    "id": "cla_525",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Alguna vez fingiste conocer una canción para cantar con tu grupo?",
@@ -5756,7 +5756,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 526,
+    "id": "cla_526",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿A quién de tus amigos acudirías para pedir una receta?",
@@ -5766,7 +5766,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 527,
+    "id": "cla_527",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Qué objeto perderías primero en una salida con amigos?",
@@ -5776,7 +5776,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 528,
+    "id": "cla_528",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Qué discusión absurda ha durado demasiado en tu grupo?",
@@ -5786,7 +5786,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 529,
+    "id": "cla_529",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Alguna vez te quedaste dormido durante una reunión?",
@@ -5796,7 +5796,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 530,
+    "id": "cla_530",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Qué amigo tiene el gusto más diferente al tuyo para salir?",
@@ -5806,7 +5806,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 531,
+    "id": "cla_531",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Qué pequeña manía de tus amigos te resulta graciosa?",
@@ -5816,7 +5816,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 532,
+    "id": "cla_532",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Qué consejo de un amigo ignoraste y luego lamentaste?",
@@ -5826,7 +5826,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 533,
+    "id": "cla_533",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Cuándo fue la última vez que cancelaste un plan por pereza?",
@@ -5836,7 +5836,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 534,
+    "id": "cla_534",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Qué amigo te sorprende cuando demuestra su lado serio?",
@@ -5846,7 +5846,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 535,
+    "id": "cla_535",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Has sentido celos de un plan al que no te invitaron?",
@@ -5856,7 +5856,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 536,
+    "id": "cla_536",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Cuál fue el regalo más inesperado que recibiste de un amigo?",
@@ -5866,7 +5866,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 537,
+    "id": "cla_537",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Alguna vez confundiste una broma entre amigos con algo serio?",
@@ -5876,7 +5876,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 538,
+    "id": "cla_538",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Quién de tus amigos es el más difícil de convencer para salir?",
@@ -5886,7 +5886,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 539,
+    "id": "cla_539",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Has usado a un amigo como excusa para evitar un compromiso?",
@@ -5896,7 +5896,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 540,
+    "id": "cla_540",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Qué tema provoca los debates más largos en tu grupo?",
@@ -5906,7 +5906,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 541,
+    "id": "cla_541",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Alguna vez te arrepentiste de presentar a dos amigos?",
@@ -5916,7 +5916,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 542,
+    "id": "cla_542",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Qué costumbre tuya sabes que tus amigos te critican en broma?",
@@ -5926,7 +5926,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 543,
+    "id": "cla_543",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿A cuál de tus amigos le confiarías elegir tu ropa para una cita?",
@@ -5936,7 +5936,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 544,
+    "id": "cla_544",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Qué salida entre amigos se te salió de presupuesto?",
@@ -5946,7 +5946,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 545,
+    "id": "cla_545",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Cuál fue la primera impresión más equivocada que tuviste de un amigo?",
@@ -5956,7 +5956,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 546,
+    "id": "cla_546",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "¿Qué amigo te ha dejado esperando más tiempo sin avisar?",
@@ -5966,7 +5966,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 547,
+    "id": "cla_547",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Cuál de ustedes dos suele poner más excusas para cancelar planes?",
@@ -5976,7 +5976,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 548,
+    "id": "cla_548",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres sería el primero en contar un chisme sin querer?",
@@ -5986,7 +5986,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 549,
+    "id": "cla_549",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "[all]: ¿Qué amistad del grupo empezó con una primera impresión equivocada?",
@@ -5996,7 +5996,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 550,
+    "id": "cla_550",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "¿Qué hábito de tus amigos te irrita aunque casi nunca lo digas?",
@@ -6006,7 +6006,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 551,
+    "id": "cla_551",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Quién de ustedes dos olvidaría antes un favor pendiente?",
@@ -6016,7 +6016,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 552,
+    "id": "cla_552",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Cuál de ustedes tres tendría más probabilidades de perder las llaves en una fiesta?",
@@ -6026,7 +6026,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 553,
+    "id": "cla_553",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "[all]: ¿Qué tipo de broma del grupo ya debería jubilarse?",
@@ -6036,7 +6036,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 554,
+    "id": "cla_554",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "¿Qué mensaje de un amigo has dejado en visto a propósito?",
@@ -6046,7 +6046,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 555,
+    "id": "cla_555",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Qué plan harían juntos para reparar una salida que salió mal?",
@@ -6056,7 +6056,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 556,
+    "id": "cla_556",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿A quién de ustedes tres elegirían para explicar una metida de pata ante todos?",
@@ -6066,7 +6066,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 557,
+    "id": "cla_557",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "[all]: ¿Quién suele desaparecer cuando llega la cuenta?",
@@ -6076,7 +6076,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 558,
+    "id": "cla_558",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "¿Qué apodo que te puso el grupo en realidad no te encanta?",
@@ -6086,7 +6086,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 559,
+    "id": "cla_559",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Cuál de ustedes dos exagera más sus historias de fiesta?",
@@ -6096,7 +6096,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 560,
+    "id": "cla_560",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres sería peor guardando una sorpresa de cumpleaños?",
@@ -6106,7 +6106,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 561,
+    "id": "cla_561",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "¿Cuál fue la última vez que te molestaste con un amigo y no lo dijiste?",
@@ -6116,7 +6116,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 562,
+    "id": "cla_562",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Quién de ustedes dos suele querer tener la última palabra en una discusión?",
@@ -6126,7 +6126,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 563,
+    "id": "cla_563",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres tardaría más en pedir perdón por orgullo?",
@@ -6136,7 +6136,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 564,
+    "id": "cla_564",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "[all]: ¿Qué tipo de comentario entre amigos cruza una línea para ustedes?",
@@ -6146,7 +6146,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 565,
+    "id": "cla_565",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "¿Has fingido estar ocupado para no salir con un amigo en particular?",
@@ -6156,7 +6156,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 566,
+    "id": "cla_566",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Cuál de ustedes dos ha inventado más excusas para irse temprano de una fiesta?",
@@ -6166,7 +6166,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 567,
+    "id": "cla_567",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres sería más probable que arruinara un secreto por contar un chiste?",
@@ -6176,7 +6176,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 568,
+    "id": "cla_568",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "[all]: ¿Qué comportamiento consideraría el grupo una falta de lealtad?",
@@ -6186,7 +6186,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 569,
+    "id": "cla_569",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "¿Qué amigo te ha hecho sentir fuera de lugar alguna vez?",
@@ -6196,7 +6196,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 570,
+    "id": "cla_570",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Qué verdad incómoda podrían decirse sin terminar peleando?",
@@ -6206,7 +6206,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 571,
+    "id": "cla_571",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres sería mejor mediador de una pelea entre amigos?",
@@ -6216,7 +6216,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 572,
+    "id": "cla_572",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "[all]: ¿Quién se toma más personalmente las bromas pesadas?",
@@ -6226,7 +6226,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 573,
+    "id": "cla_573",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "¿Qué invitación aceptaste solo para no hacer sentir mal a alguien?",
@@ -6236,7 +6236,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 574,
+    "id": "cla_574",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Cuál de ustedes dos se pone más competitivo cuando hay un premio?",
@@ -6246,7 +6246,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 575,
+    "id": "cla_575",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres cambiaría más rápido de plan por una cita romántica?",
@@ -6256,7 +6256,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 576,
+    "id": "cla_576",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "¿Qué decepción con un amigo todavía recuerdas aunque ya la superaste?",
@@ -6266,7 +6266,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 577,
+    "id": "cla_577",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Quién de ustedes dos sería más capaz de hablar a espaldas del otro después de una pelea?",
@@ -6276,7 +6276,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 578,
+    "id": "cla_578",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿A cuál de ustedes tres le costaría más aceptar que se equivocó frente al grupo?",
@@ -6286,7 +6286,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 579,
+    "id": "cla_579",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "[all]: ¿Qué promesa entre amigos consideran imperdonable romper?",
@@ -6296,7 +6296,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 580,
+    "id": "cla_580",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "¿Alguna vez sentiste que eras la segunda opción de un amigo?",
@@ -6306,7 +6306,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 581,
+    "id": "cla_581",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Qué situación podría poner a prueba la confianza entre ustedes dos?",
@@ -6316,7 +6316,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 582,
+    "id": "cla_582",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres mantendría la calma si dos amigos se besaran inesperadamente?",
@@ -6326,7 +6326,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 583,
+    "id": "cla_583",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "[all]: ¿Quién ha sido más dramático por un malentendido entre amigos?",
@@ -6336,7 +6336,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 584,
+    "id": "cla_584",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "¿Has escondido un logro para no despertar la envidia de un amigo?",
@@ -6346,7 +6346,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 585,
+    "id": "cla_585",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Cuál de ustedes dos sería más probable que descubriera una mentira del otro?",
@@ -6356,7 +6356,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 586,
+    "id": "cla_586",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres abandonaría una cita para ayudar a un amigo en problemas?",
@@ -6366,7 +6366,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 587,
+    "id": "cla_587",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "[all]: ¿Qué amistad del grupo consideran que ha cambiado más con los años?",
@@ -6376,7 +6376,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 588,
+    "id": "cla_588",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "¿Qué crítica sobre ti hecha por un amigo resultó ser cierta?",
@@ -6386,7 +6386,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 589,
+    "id": "cla_589",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Qué límite personal debería respetar más el uno del otro?",
@@ -6396,7 +6396,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 590,
+    "id": "cla_590",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres manejaría peor que dos amigos salieran a escondidas?",
@@ -6406,7 +6406,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 591,
+    "id": "cla_591",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "¿Te ha gustado alguna vez una persona que también le interesaba a un amigo?",
@@ -6416,7 +6416,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 592,
+    "id": "cla_592",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Cuál de ustedes dos se atrevería antes a admitir que siente celos del otro?",
@@ -6426,7 +6426,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 593,
+    "id": "cla_593",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres sería más propenso a enamorarse de alguien del círculo cercano?",
@@ -6436,7 +6436,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 594,
+    "id": "cla_594",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "[all]: ¿Se debería contar al grupo cuando dos amigos empiezan a salir?",
@@ -6446,7 +6446,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 595,
+    "id": "cla_595",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "¿Has ocultado una opinión sobre la pareja de un amigo para evitar problemas?",
@@ -6456,7 +6456,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 596,
+    "id": "cla_596",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Qué harían si ambos recibieran una invitación romántica de la misma persona?",
@@ -6466,7 +6466,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 597,
+    "id": "cla_597",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres podría guardar mejor una confesión romántica ajena?",
@@ -6476,7 +6476,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 598,
+    "id": "cla_598",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "[all]: ¿Quién ha cambiado más su forma de ser por agradarle a alguien?",
@@ -6486,7 +6486,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 599,
+    "id": "cla_599",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "¿Has preferido quedarte callado cuando un amigo cometía un error sentimental?",
@@ -6496,7 +6496,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 600,
+    "id": "cla_600",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Cuál de ustedes dos sería más difícil de convencer para perdonar una traición?",
@@ -6506,7 +6506,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 601,
+    "id": "cla_601",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres sería más honesto si viera a la pareja de un amigo coqueteando?",
@@ -6516,7 +6516,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 602,
+    "id": "cla_602",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "[all]: ¿Qué regla pondrían para evitar conflictos amorosos dentro del grupo?",
@@ -6526,7 +6526,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 603,
+    "id": "cla_603",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "¿Alguna vez sentiste que una amistad te exigía más de lo que te daba?",
@@ -6536,7 +6536,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 604,
+    "id": "cla_604",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Qué cosa nunca perdonarían el uno del otro en una amistad?",
@@ -6546,7 +6546,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 605,
+    "id": "cla_605",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres pondría límites primero a un amigo demasiado posesivo?",
@@ -6556,7 +6556,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 606,
+    "id": "cla_606",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "¿Has sentido atracción por alguien del grupo y decidido no actuar?",
@@ -6566,7 +6566,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 607,
+    "id": "cla_607",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Cuál de ustedes dos confiaría primero un secreto capaz de cambiar una amistad?",
@@ -6576,7 +6576,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 608,
+    "id": "cla_608",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres sería más capaz de elegir una relación amorosa por encima del grupo?",
@@ -6586,7 +6586,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 609,
+    "id": "cla_609",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "[all]: ¿Qué harían si descubrieran que dos personas del grupo tuvieron algo y lo ocultaron?",
@@ -6596,7 +6596,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 610,
+    "id": "cla_610",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "¿Qué conversación incómoda con un amigo llevas demasiado tiempo posponiendo?",
@@ -6606,7 +6606,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 611,
+    "id": "cla_611",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Qué harían si descubrieran que ambos hablaron mal del otro en distintos momentos?",
@@ -6616,7 +6616,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 612,
+    "id": "cla_612",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres se atrevería a confesar un interés romántico delante de todos?",
@@ -6626,7 +6626,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 613,
+    "id": "cla_613",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "[all]: ¿Qué consideran peor: ocultar una verdad dolorosa o contarla sin tacto?",
@@ -6636,7 +6636,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 614,
+    "id": "cla_614",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "¿Alguna vez coqueteaste con alguien solo porque sabías que le gustaba a un amigo?",
@@ -6646,7 +6646,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 615,
+    "id": "cla_615",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Quién de ustedes dos se tomaría peor que lo dejaran fuera de un plan importante?",
@@ -6656,7 +6656,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 616,
+    "id": "cla_616",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres sabría separar mejor una discusión del resto de la amistad?",
@@ -6666,7 +6666,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 617,
+    "id": "cla_617",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "[all]: ¿Quién creen que ha soportado una amistad que ya no le hacía bien?",
@@ -6676,7 +6676,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 618,
+    "id": "cla_618",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "¿Alguna vez guardaste un secreto que te hizo sentir desleal con otro amigo?",
@@ -6686,7 +6686,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 619,
+    "id": "cla_619",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Qué harían si una persona intentara enfrentarlos con versiones distintas de una historia?",
@@ -6696,7 +6696,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 620,
+    "id": "cla_620",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres sería más probable que hiciera las paces después de una traición menor?",
@@ -6706,7 +6706,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 621,
+    "id": "cla_621",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "¿Qué verdad sobre una amistad nunca dijiste por miedo a perderla?",
@@ -6716,7 +6716,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 622,
+    "id": "cla_622",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Quién de ustedes dos sería más capaz de admitir que alguna vez sintió envidia del otro?",
@@ -6726,7 +6726,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 623,
+    "id": "cla_623",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres aceptaría con más dificultad que alguien del grupo besara a su ex?",
@@ -6736,7 +6736,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 624,
+    "id": "cla_624",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "[all]: ¿Qué conducta convertiría a una amistad cercana en alguien de quien tomarían distancia?",
@@ -6746,7 +6746,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 625,
+    "id": "cla_625",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "¿Has pensado alguna vez que un amigo te utiliza cuando necesita algo?",
@@ -6756,7 +6756,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 626,
+    "id": "cla_626",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Qué se dirían si supieran que esta es su última oportunidad de hablar con sinceridad?",
@@ -6766,7 +6766,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 627,
+    "id": "cla_627",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres sería más propenso a involucrarse en un triángulo amoroso del grupo?",
@@ -6776,7 +6776,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 628,
+    "id": "cla_628",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "[all]: ¿Qué secreto de convivencia sería más difícil de escuchar de un amigo?",
@@ -6786,7 +6786,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 629,
+    "id": "cla_629",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "¿Te has sentido atraído por la pareja actual o anterior de un amigo?",
@@ -6796,7 +6796,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 630,
+    "id": "cla_630",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Quién de ustedes dos pediría primero explicaciones por un mensaje comprometedor?",
@@ -6806,7 +6806,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 631,
+    "id": "cla_631",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Qué regla acordarían los tres si dos se interesaran por la misma persona?",
@@ -6816,7 +6816,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 632,
+    "id": "cla_632",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "[all]: ¿Qué harían si alguien del grupo revelara una confidencia íntima sin permiso?",
@@ -6826,7 +6826,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 633,
+    "id": "cla_633",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "¿Qué relación de amistad mantienes más por historia compartida que por afinidad actual?",
@@ -6836,7 +6836,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 634,
+    "id": "cla_634",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Qué pregunta personal nunca se han atrevido a hacerse directamente?",
@@ -6846,7 +6846,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 635,
+    "id": "cla_635",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres se arriesgaría más por proteger la reputación de un amigo?",
@@ -6856,7 +6856,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 636,
+    "id": "cla_636",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "¿Qué amistad cercana terminarías hoy si dejaras de sentirte obligado a conservarla?",
@@ -6866,7 +6866,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 637,
+    "id": "cla_637",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Qué verdad difícil podrían revelarse sin usarla después en una pelea?",
@@ -6876,7 +6876,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 638,
+    "id": "cla_638",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres sería capaz de reconocer públicamente que dañó una amistad?",
@@ -6886,7 +6886,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 639,
+    "id": "cla_639",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "[all]: ¿Qué harían si dos amistades muy cercanas les exigieran tomar partido en una ruptura?",
@@ -6896,7 +6896,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 640,
+    "id": "cla_640",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "¿Has deseado en secreto que una pareja de amigos terminara porque afectaba al grupo?",
@@ -6906,7 +6906,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 641,
+    "id": "cla_641",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Cómo reaccionarían si uno admitiera haber ocultado algo que cambió la vida del otro?",
@@ -6916,7 +6916,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 642,
+    "id": "cla_642",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres afrontaría primero las consecuencias de una decisión desleal?",
@@ -6926,7 +6926,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 643,
+    "id": "cla_643",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "[all]: ¿Qué situación amorosa dentro del grupo sería imposible ignorar sin tomar distancia?",
@@ -6936,7 +6936,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 644,
+    "id": "cla_644",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "¿Qué amistad recuperaste por miedo a quedarte solo y no por verdadero deseo?",
@@ -6946,7 +6946,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 645,
+    "id": "cla_645",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Podrían perdonarse si descubrieran que se comparan y compiten desde hace años?",
@@ -6956,7 +6956,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 646,
+    "id": "cla_646",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Qué verdad sobre su dinámica deberían decirse los tres aunque resulte incómoda?",
@@ -6966,7 +6966,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 647,
+    "id": "cla_647",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "[all]: ¿Quién estaría dispuesto a reconocer que ha sido un mal amigo en una situación concreta?",
@@ -6976,7 +6976,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 648,
+    "id": "cla_648",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "¿Cuál es la cosa más egoísta que has hecho dentro de una amistad?",
@@ -6986,7 +6986,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 649,
+    "id": "cla_649",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Qué harían si uno confesara haber sentido algo romántico por el otro durante años?",
@@ -6996,7 +6996,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 650,
+    "id": "cla_650",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres se atrevería a pedir perdón ahora por una herida que nadie menciona?",
@@ -7006,7 +7006,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 651,
+    "id": "cla_651",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Alguna vez saludaste a alguien que en realidad saludaba a otra persona?",
@@ -7016,7 +7016,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 652,
+    "id": "cla_652",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Has tropezado frente a varias personas sin llegar a caerte?",
@@ -7026,7 +7026,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 653,
+    "id": "cla_653",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Alguna vez pronunciaste mal una palabra delante de todos?",
@@ -7036,7 +7036,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 654,
+    "id": "cla_654",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Has tenido comida entre los dientes sin darte cuenta?",
@@ -7046,7 +7046,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 655,
+    "id": "cla_655",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Has olvidado el nombre de alguien justo cuando ibas a presentarlo?",
@@ -7056,7 +7056,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 656,
+    "id": "cla_656",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Alguna vez aplaudiste cuando nadie más lo hizo?",
@@ -7066,7 +7066,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 657,
+    "id": "cla_657",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Has entrado por error a un salón equivocado?",
@@ -7076,7 +7076,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 658,
+    "id": "cla_658",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Alguna vez te pusiste una prenda al revés y saliste así?",
@@ -7086,7 +7086,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 659,
+    "id": "cla_659",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Has enviado un saludo a un número equivocado?",
@@ -7096,7 +7096,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 660,
+    "id": "cla_660",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Qué fue lo último que se te cayó en público?",
@@ -7106,7 +7106,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 661,
+    "id": "cla_661",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Alguna vez caminaste en dirección contraria buscando una salida?",
@@ -7116,7 +7116,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 662,
+    "id": "cla_662",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Has reído en un momento en que debías estar serio?",
@@ -7126,7 +7126,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 663,
+    "id": "cla_663",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Alguna vez se te escapó un bostezo enorme en una reunión?",
@@ -7136,7 +7136,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 664,
+    "id": "cla_664",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Has confundido dos personas por su parecido?",
@@ -7146,7 +7146,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 665,
+    "id": "cla_665",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Qué pequeño accidente te hizo pasar vergüenza en una comida?",
@@ -7156,7 +7156,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 666,
+    "id": "cla_666",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Has mandado un audio pensando que estabas grabando para otra persona?",
@@ -7166,7 +7166,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 667,
+    "id": "cla_667",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Alguna vez se te rompió una bolsa con compras en plena calle?",
@@ -7176,7 +7176,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 668,
+    "id": "cla_668",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Has dicho 'igualmente' cuando alguien te deseó buen provecho?",
@@ -7186,7 +7186,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 669,
+    "id": "cla_669",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Alguna vez cantaste una canción sin saber que alguien te escuchaba?",
@@ -7196,7 +7196,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 670,
+    "id": "cla_670",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Has contado un chiste y nadie se rio?",
@@ -7206,7 +7206,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 671,
+    "id": "cla_671",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Alguna vez te equivocaste de piso en un ascensor y fingiste normalidad?",
@@ -7216,7 +7216,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 672,
+    "id": "cla_672",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Has llamado 'mamá' o 'papá' a un profesor o jefe por accidente?",
@@ -7226,7 +7226,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 673,
+    "id": "cla_673",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Alguna vez derramaste una bebida por intentar lucirte?",
@@ -7236,7 +7236,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 674,
+    "id": "cla_674",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Has saludado de beso cuando la otra persona ofrecía la mano?",
@@ -7246,7 +7246,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 675,
+    "id": "cla_675",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Alguna vez te equivocaste en una videollamada por tener el micrófono abierto?",
@@ -7256,7 +7256,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 676,
+    "id": "cla_676",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Has confundido el baño de hombres con el de mujeres por distracción?",
@@ -7266,7 +7266,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 677,
+    "id": "cla_677",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Alguna vez te quedaste mirando a alguien porque pensaste que lo conocías?",
@@ -7276,7 +7276,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 678,
+    "id": "cla_678",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Has usado una palabra inventada con total seguridad?",
@@ -7286,7 +7286,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 679,
+    "id": "cla_679",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Alguna vez enviaste un emoji con un significado que no entendías?",
@@ -7296,7 +7296,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 680,
+    "id": "cla_680",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Te has despedido y luego caminado junto a la misma persona varios minutos?",
@@ -7306,7 +7306,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 681,
+    "id": "cla_681",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Cuál ha sido tu caída más aparatosa frente a desconocidos?",
@@ -7316,7 +7316,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 682,
+    "id": "cla_682",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Has dicho algo sobre alguien sin notar que estaba detrás de ti?",
@@ -7326,7 +7326,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 683,
+    "id": "cla_683",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Alguna vez te descubrieron practicando una conversación frente al espejo?",
@@ -7336,7 +7336,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 684,
+    "id": "cla_684",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Has enviado una foto ridícula al chat incorrecto?",
@@ -7346,7 +7346,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 685,
+    "id": "cla_685",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Alguna vez olvidaste apagar una alarma vergonzosa en público?",
@@ -7356,7 +7356,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 686,
+    "id": "cla_686",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Te ha sonado el estómago muy fuerte durante un momento silencioso?",
@@ -7366,7 +7366,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 687,
+    "id": "cla_687",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Has fingido entender una explicación y después quedado en evidencia?",
@@ -7376,7 +7376,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 688,
+    "id": "cla_688",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Alguna vez confundiste una cita romántica con una salida amistosa?",
@@ -7386,7 +7386,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 689,
+    "id": "cla_689",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Has usado un filtro de cámara sin notarlo durante una reunión virtual?",
@@ -7396,7 +7396,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 690,
+    "id": "cla_690",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Alguna vez dijiste el nombre equivocado al felicitar a alguien?",
@@ -7406,7 +7406,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 691,
+    "id": "cla_691",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Has entrado a un local pensando que era otro y te quedaste por vergüenza?",
@@ -7416,7 +7416,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 692,
+    "id": "cla_692",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Alguna vez te grabaron bailando cuando creías que nadie te veía?",
@@ -7426,7 +7426,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 693,
+    "id": "cla_693",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Has olvidado el precio de algo y tenido que devolverlo en caja?",
@@ -7436,7 +7436,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 694,
+    "id": "cla_694",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Alguna vez te reíste de un mensaje que no era para ti?",
@@ -7446,7 +7446,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 695,
+    "id": "cla_695",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Has confundido a alguien con su hermano o hermana y le hablaste con confianza?",
@@ -7456,7 +7456,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 696,
+    "id": "cla_696",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "¿Cuál es la peor foto tuya que alguien publicó sin avisarte?",
@@ -7466,7 +7466,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 697,
+    "id": "cla_697",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Cuál de ustedes dos ha tenido la cita con más silencios incómodos?",
@@ -7476,7 +7476,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 698,
+    "id": "cla_698",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres reaccionaría peor si se le rompiera la ropa en una fiesta?",
@@ -7486,7 +7486,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 699,
+    "id": "cla_699",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "[all]: ¿Quién recuerda una metida de pata que todavía le produce risa nerviosa?",
@@ -7496,7 +7496,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 700,
+    "id": "cla_700",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "¿Alguna vez te descubrieron revisando tu reflejo en una ventana ajena?",
@@ -7506,7 +7506,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 701,
+    "id": "cla_701",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Qué harían si uno enviara accidentalmente al otro una captura hablando de él?",
@@ -7516,7 +7516,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 702,
+    "id": "cla_702",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres sería más capaz de fingir que conoce a alguien para no quedar mal?",
@@ -7526,7 +7526,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 703,
+    "id": "cla_703",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "[all]: ¿Qué situación vergonzosa les ha ocurrido a varios del grupo en una fiesta?",
@@ -7536,7 +7536,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 704,
+    "id": "cla_704",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "¿Te equivocaste de persona al enviar un mensaje cariñoso?",
@@ -7546,7 +7546,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 705,
+    "id": "cla_705",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Quién de ustedes dos se pondría más rojo si le dedicaran un karaoke frente al grupo?",
@@ -7556,7 +7556,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 706,
+    "id": "cla_706",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿A quién de ustedes tres le confiarían rescatar una cita que empieza desastrosamente?",
@@ -7566,7 +7566,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 707,
+    "id": "cla_707",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "[all]: ¿Quién ha llamado más la atención en público sin querer?",
@@ -7576,7 +7576,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 708,
+    "id": "cla_708",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "¿Qué cumplido te hicieron y respondiste de la peor forma posible?",
@@ -7586,7 +7586,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 709,
+    "id": "cla_709",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Cuál de ustedes dos ha pasado más pena por querer impresionar a alguien?",
@@ -7596,7 +7596,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 710,
+    "id": "cla_710",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres disimularía peor un ataque de risa en una ceremonia?",
@@ -7606,7 +7606,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 711,
+    "id": "cla_711",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "¿Has tenido una cita en la que se te quedó comida pegada en la cara?",
@@ -7616,7 +7616,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 712,
+    "id": "cla_712",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Cuál de ustedes dos tendría más problemas al explicar un mensaje enviado por error?",
@@ -7626,7 +7626,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 713,
+    "id": "cla_713",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres se atrevería a contar primero su peor rechazo amoroso?",
@@ -7636,7 +7636,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 714,
+    "id": "cla_714",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "[all]: ¿Qué harían si se proyectara por accidente la galería de fotos de alguien en una pantalla?",
@@ -7646,7 +7646,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 715,
+    "id": "cla_715",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "¿Alguna vez te pillaron buscando el perfil de una persona que estaba justo al lado?",
@@ -7656,7 +7656,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 716,
+    "id": "cla_716",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Qué harían si uno escuchara sin querer al otro ensayar una declaración romántica?",
@@ -7666,7 +7666,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 717,
+    "id": "cla_717",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres reaccionaría con más calma si se le escapara un secreto en una reunión?",
@@ -7676,7 +7676,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 718,
+    "id": "cla_718",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "[all]: ¿Quién ha protagonizado el momento más incómodo en un chat grupal?",
@@ -7686,7 +7686,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 719,
+    "id": "cla_719",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "¿Cuál fue el comentario más desafortunado que hiciste intentando coquetear?",
@@ -7696,7 +7696,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 720,
+    "id": "cla_720",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Cuál de ustedes dos ha inventado una excusa más absurda para salir de una cita?",
@@ -7706,7 +7706,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 721,
+    "id": "cla_721",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres podría contar mejor un fracaso romántico sin avergonzarse?",
@@ -7716,7 +7716,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 722,
+    "id": "cla_722",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "[all]: ¿Qué reacción tendría el grupo si dos personas aparecieran vestidas exactamente igual para una cita?",
@@ -7726,7 +7726,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 723,
+    "id": "cla_723",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "¿Has quedado mal con alguien por un corrector automático del celular?",
@@ -7736,7 +7736,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 724,
+    "id": "cla_724",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Quién de ustedes dos ha sido descubierto mirando demasiado una foto ajena?",
@@ -7746,7 +7746,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 725,
+    "id": "cla_725",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres sería más propenso a saludar con demasiada confianza a una expareja?",
@@ -7756,7 +7756,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 726,
+    "id": "cla_726",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "¿Alguna vez viste un mensaje romántico que no era para ti y reaccionaste como si lo fuera?",
@@ -7766,7 +7766,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 727,
+    "id": "cla_727",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Cuál de ustedes dos ha tenido la peor experiencia con un beso que salió torpe?",
@@ -7776,7 +7776,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 728,
+    "id": "cla_728",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres podría contar una cita fallida sin echarle la culpa al otro?",
@@ -7786,7 +7786,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 729,
+    "id": "cla_729",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "[all]: ¿Qué harían si una pantalla mostrara el último mensaje de coqueteo enviado por alguien del grupo?",
@@ -7796,7 +7796,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 730,
+    "id": "cla_730",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "¿Has inventado una emergencia para escapar de una cita incómoda?",
@@ -7806,7 +7806,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 731,
+    "id": "cla_731",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Qué harían si uno llamara por accidente al otro mientras hablaba de su vida amorosa?",
@@ -7816,7 +7816,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 732,
+    "id": "cla_732",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres fingiría mejor no haber visto una foto comprometedora?",
@@ -7826,7 +7826,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 733,
+    "id": "cla_733",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "[all]: ¿Quién ha contado una anécdota embarazosa y luego se arrepintió de dar tantos detalles?",
@@ -7836,7 +7836,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 734,
+    "id": "cla_734",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "¿Te han rechazado un beso en un momento en el que estabas seguro de tu encanto?",
@@ -7846,7 +7846,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 735,
+    "id": "cla_735",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Cuál de ustedes dos se pondría más nervioso al conocer a la familia de alguien que le gusta?",
@@ -7856,7 +7856,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 736,
+    "id": "cla_736",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres sería más probable que confundiera un coqueteo con simple amabilidad?",
@@ -7866,7 +7866,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 737,
+    "id": "cla_737",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "[all]: ¿Qué es más vergonzoso para el grupo: un audio romántico equivocado o un mensaje leído en voz alta?",
@@ -7876,7 +7876,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 738,
+    "id": "cla_738",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "¿Has salido de una cita y descubierto que llevabas la ropa manchada todo el tiempo?",
@@ -7886,7 +7886,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 739,
+    "id": "cla_739",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Qué anécdota podrían contar juntos que los dos recuerdan de forma muy distinta?",
@@ -7896,7 +7896,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 740,
+    "id": "cla_740",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres sabría reparar mejor un comentario romántico malinterpretado?",
@@ -7906,7 +7906,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 741,
+    "id": "cla_741",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "¿Cuál fue la situación más incómoda que viviste al encontrarte con un ex sin esperarlo?",
@@ -7916,7 +7916,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 742,
+    "id": "cla_742",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Cuál de ustedes dos habría más probabilidades de confesar un flechazo en el peor momento?",
@@ -7926,7 +7926,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 743,
+    "id": "cla_743",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres disimularía peor si alguien del grupo le pareciera atractivo?",
@@ -7936,7 +7936,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 744,
+    "id": "cla_744",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "[all]: ¿Qué harían si una expareja de alguien llegara inesperadamente a la fiesta?",
@@ -7946,7 +7946,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 745,
+    "id": "cla_745",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "¿Te descubrieron alguna vez preparando una cita que habías negado tener?",
@@ -7956,7 +7956,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 746,
+    "id": "cla_746",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Qué harían si ambos hubieran dado el mismo pretexto para no verse y se encontraran fuera?",
@@ -7966,7 +7966,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 747,
+    "id": "cla_747",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres podría reírse de que un coqueteo fallido se hiciera público?",
@@ -7976,7 +7976,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 748,
+    "id": "cla_748",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "[all]: ¿Quién se incomodaría más si alguien leyera sus mensajes antiguos de ligue?",
@@ -7986,7 +7986,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 749,
+    "id": "cla_749",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "¿Has confundido el interés romántico de alguien y terminado declarándote sin reciprocidad?",
@@ -7996,7 +7996,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 750,
+    "id": "cla_750",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Cuál de ustedes dos contaría antes que tuvo una cita con alguien que el otro conoce?",
@@ -8006,7 +8006,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 751,
+    "id": "cla_751",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres sería más torpe al intentar besar a alguien por primera vez?",
@@ -8016,7 +8016,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 752,
+    "id": "cla_752",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "[all]: ¿Qué harían si alguien confesara haber tenido una cita secreta con otra persona del grupo?",
@@ -8026,7 +8026,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 753,
+    "id": "cla_753",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "¿Has quedado expuesto por darle me gusta a una foto muy antigua de alguien?",
@@ -8036,7 +8036,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 754,
+    "id": "cla_754",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Cómo reaccionarían si un tercero dijera que ustedes dos parecen pareja?",
@@ -8046,7 +8046,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 755,
+    "id": "cla_755",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres se pondría más nervioso al recibir una propuesta romántica en público?",
@@ -8056,7 +8056,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 756,
+    "id": "cla_756",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "¿Has tenido que esconderte para evitar encontrarte con dos personas con las que salías?",
@@ -8066,7 +8066,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 757,
+    "id": "cla_757",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Cuál de ustedes dos soportaría peor que se revelara un mensaje de coqueteo antiguo?",
@@ -8076,7 +8076,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 758,
+    "id": "cla_758",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres ha podido confundir más una relación casual con algo serio?",
@@ -8086,7 +8086,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 759,
+    "id": "cla_759",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "[all]: ¿Qué harían si alguien mostrara una captura que contradice una historia romántica contada aquí?",
@@ -8096,7 +8096,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 760,
+    "id": "cla_760",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "¿Alguna vez te sorprendieron coqueteando con alguien que no querías que el grupo conociera?",
@@ -8106,7 +8106,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 761,
+    "id": "cla_761",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Qué harían si descubrieran que alguna vez les gustó la misma persona al mismo tiempo?",
@@ -8116,7 +8116,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 762,
+    "id": "cla_762",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres sería más probable que olvidara el nombre de una cita después de besarla?",
@@ -8126,7 +8126,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 763,
+    "id": "cla_763",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "[all]: ¿Quién podría reconocer sin demasiada vergüenza que insistió demasiado en una relación fallida?",
@@ -8136,7 +8136,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 764,
+    "id": "cla_764",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "¿Has dicho algo vergonzoso durante un momento de intimidad romántica?",
@@ -8146,7 +8146,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 765,
+    "id": "cla_765",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Cuál de ustedes dos tendría más probabilidades de tropezar justo antes de un beso esperado?",
@@ -8156,7 +8156,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 766,
+    "id": "cla_766",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres podría admitir más fácilmente que una antigua cita lo dejó en visto?",
@@ -8166,7 +8166,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 767,
+    "id": "cla_767",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "[all]: ¿Qué situación sería más difícil de explicar: dos citas el mismo día o mensajes cruzados por error?",
@@ -8176,7 +8176,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 768,
+    "id": "cla_768",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "¿Te han descubierto ocultando una conversación romántica del resto de tus amigos?",
@@ -8186,7 +8186,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 769,
+    "id": "cla_769",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Qué harían si alguien interpretara una foto de ustedes dos como prueba de un romance?",
@@ -8196,7 +8196,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 770,
+    "id": "cla_770",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres manejaría mejor un encuentro accidental con dos exparejas en una reunión?",
@@ -8206,7 +8206,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 771,
+    "id": "cla_771",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "¿Qué cosa dijiste intentando seducir a alguien que todavía te da vergüenza recordar?",
@@ -8216,7 +8216,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 772,
+    "id": "cla_772",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Cuál de ustedes dos contaría antes que besó a alguien y luego fingió que nunca ocurrió?",
@@ -8226,7 +8226,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 773,
+    "id": "cla_773",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres reaccionaría peor al enterarse de que su cita contó detalles privados?",
@@ -8236,7 +8236,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 774,
+    "id": "cla_774",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "[all]: ¿Qué harían si una persona del grupo revelara que antes le gustó otra que está presente?",
@@ -8246,7 +8246,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 775,
+    "id": "cla_775",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "¿Alguna vez alguien te sorprendió en una situación romántica que querías mantener privada?",
@@ -8256,7 +8256,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 776,
+    "id": "cla_776",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Cómo reaccionarían si ambos supieran un secreto sentimental del otro y alguien preguntara por él?",
@@ -8266,7 +8266,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 777,
+    "id": "cla_777",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres podría soportar mejor que una vieja carta romántica reapareciera en público?",
@@ -8276,7 +8276,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 778,
+    "id": "cla_778",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "[all]: ¿Qué situación íntima, sin dar detalles privados, sería la más incómoda de explicar a la familia?",
@@ -8286,7 +8286,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 779,
+    "id": "cla_779",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "¿Cuál ha sido la excusa más vergonzosa que usaste después de una cita decepcionante?",
@@ -8296,7 +8296,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 780,
+    "id": "cla_780",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Cuál de ustedes dos sería capaz de admitir un momento de celos que salió muy mal?",
@@ -8306,7 +8306,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 781,
+    "id": "cla_781",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres se atrevería a relatar un rechazo romántico especialmente humillante?",
@@ -8316,7 +8316,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 782,
+    "id": "cla_782",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "[all]: ¿Qué harían si se descubriera que dos personas se han enviado indirectas durante toda la noche?",
@@ -8326,7 +8326,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 783,
+    "id": "cla_783",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "¿Has tenido un encuentro incómodo con alguien después de besarlo y fingir que nada pasó?",
@@ -8336,7 +8336,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 784,
+    "id": "cla_784",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Qué harían si uno descubriera que el otro leyó accidentalmente un mensaje romántico privado?",
@@ -8346,7 +8346,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 785,
+    "id": "cla_785",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres sería más capaz de reírse de su peor error intentando impresionar a alguien?",
@@ -8356,7 +8356,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 786,
+    "id": "cla_786",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "¿Cuál fue la ocasión en que una mentira romántica tuya quedó expuesta de la forma más vergonzosa?",
@@ -8366,7 +8366,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 787,
+    "id": "cla_787",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Qué admitirían si apareciera una prueba de que alguna vez compitieron por la misma persona?",
@@ -8376,7 +8376,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 788,
+    "id": "cla_788",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres se atrevería a contar un beso secreto que cambió la dinámica del grupo?",
@@ -8386,7 +8386,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 789,
+    "id": "cla_789",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "[all]: ¿Qué harían si alguien reconociera haber mantenido dos intereses románticos dentro del grupo a la vez?",
@@ -8396,7 +8396,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 790,
+    "id": "cla_790",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "¿Has sido descubierto manteniendo una relación que negabas públicamente?",
@@ -8406,7 +8406,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 791,
+    "id": "cla_791",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Cómo reaccionarían si se supiera que uno habló de los sentimientos privados del otro sin permiso?",
@@ -8416,7 +8416,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 792,
+    "id": "cla_792",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres soportaría mejor que le preguntaran delante de todos por una cita secreta?",
@@ -8426,7 +8426,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 793,
+    "id": "cla_793",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "[all]: ¿Qué situación consideraría el grupo demasiado privada para convertirla en anécdota de fiesta?",
@@ -8436,7 +8436,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 794,
+    "id": "cla_794",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "¿Cuál es el momento en que te sentiste más expuesto por intentar impresionar a alguien?",
@@ -8446,7 +8446,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 795,
+    "id": "cla_795",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Qué harían si se descubriera que uno inventó una versión falsa de una historia sobre el otro?",
@@ -8456,7 +8456,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 796,
+    "id": "cla_796",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres sería más capaz de explicar con calma un malentendido amoroso entre ustedes?",
@@ -8466,7 +8466,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 797,
+    "id": "cla_797",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "[all]: ¿Qué harían si dos personas revelaran versiones opuestas de una misma noche y ambas estuvieran presentes?",
@@ -8476,7 +8476,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 798,
+    "id": "cla_798",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "¿Qué episodio de tu vida sentimental preferirías que nunca se volviera tema de conversación?",
@@ -8486,7 +8486,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 799,
+    "id": "cla_799",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Cuál de ustedes dos tendría más dificultad para admitir que fue rechazado después de insistir demasiado?",
@@ -8496,7 +8496,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 800,
+    "id": "cla_800",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Qué historia vergonzosa podrían contar los tres sin exponer secretos de alguien que no quiere participar?",
@@ -8506,7 +8506,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 801,
+    "id": "cla_801",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Qué serie popular todavía no has visto?",
@@ -8516,7 +8516,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 802,
+    "id": "cla_802",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Qué comida te encanta aunque a otros les parezca rara?",
@@ -8526,7 +8526,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 803,
+    "id": "cla_803",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Qué canción sabes de memoria y te da pena admitirlo?",
@@ -8536,7 +8536,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 804,
+    "id": "cla_804",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Cuál es tu costumbre más infantil?",
@@ -8546,7 +8546,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 805,
+    "id": "cla_805",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Qué habilidad sencilla todavía no dominas?",
@@ -8556,7 +8556,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 806,
+    "id": "cla_806",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Qué palabra pronunciaste mal durante años?",
@@ -8566,7 +8566,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 807,
+    "id": "cla_807",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Qué dibujo animado sigues disfrutando?",
@@ -8576,7 +8576,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 808,
+    "id": "cla_808",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Qué película famosa nunca has terminado?",
@@ -8586,7 +8586,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 809,
+    "id": "cla_809",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Qué combinación de alimentos extraña te gusta?",
@@ -8596,7 +8596,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 810,
+    "id": "cla_810",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Cuál es el objeto más innecesario que guardas?",
@@ -8606,7 +8606,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 811,
+    "id": "cla_811",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Qué actividad te da pereza incluso cuando tienes tiempo?",
@@ -8616,7 +8616,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 812,
+    "id": "cla_812",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Qué moda antigua te gustaría que regresara?",
@@ -8626,7 +8626,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 813,
+    "id": "cla_813",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Qué artista escuchas en secreto?",
@@ -8636,7 +8636,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 814,
+    "id": "cla_814",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Qué cosa pequeña compras para consentirte?",
@@ -8646,7 +8646,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 815,
+    "id": "cla_815",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Cuál es un talento inútil que tienes?",
@@ -8656,7 +8656,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 816,
+    "id": "cla_816",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Has fingido que te gusta un regalo que en realidad no querías?",
@@ -8666,7 +8666,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 817,
+    "id": "cla_817",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Qué aplicación usas más tiempo del que admites?",
@@ -8676,7 +8676,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 818,
+    "id": "cla_818",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Alguna vez buscaste tu propio nombre en internet?",
@@ -8686,7 +8686,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 819,
+    "id": "cla_819",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Qué pequeño gasto te cuesta justificar?",
@@ -8696,7 +8696,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 820,
+    "id": "cla_820",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Has leído el final de una historia antes de terminarla?",
@@ -8706,7 +8706,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 821,
+    "id": "cla_821",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Cuál es tu excusa favorita para quedarte en casa?",
@@ -8716,7 +8716,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 822,
+    "id": "cla_822",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Qué celebridad te gustaba cuando eras adolescente?",
@@ -8726,7 +8726,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 823,
+    "id": "cla_823",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Qué canción pones varias veces aunque ya la escuchaste demasiado?",
@@ -8736,7 +8736,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 824,
+    "id": "cla_824",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Has fingido entender un chiste solo para no preguntar?",
@@ -8746,7 +8746,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 825,
+    "id": "cla_825",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Qué alimento comes directamente del envase cuando nadie te ve?",
@@ -8756,7 +8756,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 826,
+    "id": "cla_826",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Qué serie terminaste solo por no dejarla a medias?",
@@ -8766,7 +8766,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 827,
+    "id": "cla_827",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Qué tarea doméstica postergas siempre?",
@@ -8776,7 +8776,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 828,
+    "id": "cla_828",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Has revisado cuántos seguidores ganó o perdió alguien por curiosidad?",
@@ -8786,7 +8786,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 829,
+    "id": "cla_829",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Qué compra impulsiva terminaste disfrutando?",
@@ -8796,7 +8796,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 830,
+    "id": "cla_830",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Qué miedo pequeño te parece ridículo pero todavía tienes?",
@@ -8806,7 +8806,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 831,
+    "id": "cla_831",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Has ensayado una respuesta ingeniosa que nunca llegaste a usar?",
@@ -8816,7 +8816,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 832,
+    "id": "cla_832",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿A quién has silenciado en redes para no ver sus publicaciones?",
@@ -8826,7 +8826,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 833,
+    "id": "cla_833",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Qué gusto musical negarías delante de personas que quieres impresionar?",
@@ -8836,7 +8836,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 834,
+    "id": "cla_834",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Alguna vez dijiste que ibas de camino cuando todavía estabas en casa?",
@@ -8846,7 +8846,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 835,
+    "id": "cla_835",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Qué talento exageras cuando te presentas a desconocidos?",
@@ -8856,7 +8856,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 836,
+    "id": "cla_836",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Has fingido tener un compromiso para terminar una conversación?",
@@ -8866,7 +8866,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 837,
+    "id": "cla_837",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Qué rumor escuchaste y quisiste creer demasiado rápido?",
@@ -8876,7 +8876,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 838,
+    "id": "cla_838",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿A quién revisaste el perfil por simple curiosidad recientemente?",
@@ -8886,7 +8886,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 839,
+    "id": "cla_839",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Qué elogio recuerdas porque te hizo sentir demasiado bien?",
@@ -8896,7 +8896,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 840,
+    "id": "cla_840",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Has mentido sobre cuántas veces viste una película?",
@@ -8906,7 +8906,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 841,
+    "id": "cla_841",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Qué pequeña victoria personal presumes más de la cuenta?",
@@ -8916,7 +8916,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 842,
+    "id": "cla_842",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Has borrado una publicación porque no recibió la atención que esperabas?",
@@ -8926,7 +8926,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 843,
+    "id": "cla_843",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Qué manía tuya escondes durante una primera cita?",
@@ -8936,7 +8936,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 844,
+    "id": "cla_844",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Qué idea cambiaste para encajar con otras personas?",
@@ -8946,7 +8946,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 845,
+    "id": "cla_845",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Cuál fue la última vez que fingiste sorpresa?",
@@ -8956,7 +8956,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 846,
+    "id": "cla_846",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "¿Qué opinión impopular te cuesta admitir frente a tus amigos?",
@@ -8966,7 +8966,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 847,
+    "id": "cla_847",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Cuál de ustedes dos ha fingido más veces estar de acuerdo con el otro?",
@@ -8976,7 +8976,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 848,
+    "id": "cla_848",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres sería primero en admitir que ha actuado por pura envidia?",
@@ -8986,7 +8986,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 849,
+    "id": "cla_849",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "[all]: ¿Qué pequeño secreto cotidiano podría confesar cualquiera sin ser juzgado?",
@@ -8996,7 +8996,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 850,
+    "id": "cla_850",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "¿Qué mensaje escribiste y borraste por miedo a la respuesta?",
@@ -9006,7 +9006,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 851,
+    "id": "cla_851",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Qué gusto secreto comparten aunque nunca lo hayan comentado?",
@@ -9016,7 +9016,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 852,
+    "id": "cla_852",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres reconoce más fácilmente que busca aprobación ajena?",
@@ -9026,7 +9026,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 853,
+    "id": "cla_853",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "[all]: ¿Quién ha fingido que un plan le encantó cuando en realidad estaba aburrido?",
@@ -9036,7 +9036,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 854,
+    "id": "cla_854",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "¿Qué halago fingiste no escuchar porque te dio vergüenza?",
@@ -9046,7 +9046,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 855,
+    "id": "cla_855",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Cuál de ustedes dos ha revisado más veces una conversación antigua por nostalgia?",
@@ -9056,7 +9056,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 856,
+    "id": "cla_856",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres admite haber ensayado frases para impresionar a alguien?",
@@ -9066,7 +9066,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 857,
+    "id": "cla_857",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "[all]: ¿Qué hábito de redes sociales les daría vergüenza mostrar en su tiempo de pantalla?",
@@ -9076,7 +9076,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 858,
+    "id": "cla_858",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "¿Has hecho una compra solo para parecer más interesante?",
@@ -9086,7 +9086,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 859,
+    "id": "cla_859",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Qué característica del otro admiras y casi nunca dices en voz alta?",
@@ -9096,7 +9096,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 860,
+    "id": "cla_860",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres admitiría primero que ha exagerado un logro personal?",
@@ -9106,7 +9106,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 861,
+    "id": "cla_861",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "¿Has sentido celos por la atención que recibió un amigo?",
@@ -9116,7 +9116,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 862,
+    "id": "cla_862",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Cuál de ustedes dos ha cambiado más su personalidad frente a alguien atractivo?",
@@ -9126,7 +9126,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 863,
+    "id": "cla_863",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres admitiría que ha disfrutado recibir atención de alguien que no le gustaba?",
@@ -9136,7 +9136,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 864,
+    "id": "cla_864",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "[all]: ¿Cuál es una inseguridad social que varios del grupo probablemente comparten?",
@@ -9146,7 +9146,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 865,
+    "id": "cla_865",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "¿Has revisado repetidamente quién vio una historia que publicaste?",
@@ -9156,7 +9156,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 866,
+    "id": "cla_866",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Qué idea equivocada tenían el uno del otro antes de conocerse mejor?",
@@ -9166,7 +9166,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 867,
+    "id": "cla_867",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres ha dejado una indirecta romántica demasiado evidente?",
@@ -9176,7 +9176,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 868,
+    "id": "cla_868",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "[all]: ¿Quién ha fingido indiferencia cuando alguien le importaba mucho?",
@@ -9186,7 +9186,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 869,
+    "id": "cla_869",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "¿Qué defecto tuyo sueles disfrazar de virtud?",
@@ -9196,7 +9196,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 870,
+    "id": "cla_870",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Cuál de ustedes dos es más capaz de confesar que sintió celos por una amistad?",
@@ -9206,7 +9206,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 871,
+    "id": "cla_871",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres admitiría primero que ha buscado la aprobación de una expareja?",
@@ -9216,7 +9216,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 872,
+    "id": "cla_872",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "[all]: ¿Qué confesión inocente cambiaría más la imagen que tienen de alguien del grupo?",
@@ -9226,7 +9226,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 873,
+    "id": "cla_873",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "¿Has mantenido una conversación solo porque te gustaba sentirte deseado?",
@@ -9236,7 +9236,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 874,
+    "id": "cla_874",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Qué mentira piadosa de su amistad podrían aclarar hoy?",
@@ -9246,7 +9246,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 875,
+    "id": "cla_875",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres aceptaría con menos vergüenza que se ha enamorado demasiado rápido?",
@@ -9256,7 +9256,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 876,
+    "id": "cla_876",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "¿Qué sentimiento has ocultado para no parecer vulnerable?",
@@ -9266,7 +9266,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 877,
+    "id": "cla_877",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Cuál de ustedes dos ha sentido alguna vez una competencia silenciosa con el otro?",
@@ -9276,7 +9276,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 878,
+    "id": "cla_878",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres admitiría primero que ha espiado las redes de una expareja?",
@@ -9286,7 +9286,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 879,
+    "id": "cla_879",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "[all]: ¿Qué tema personal les cuesta hablar incluso entre buenos amigos?",
@@ -9296,7 +9296,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 880,
+    "id": "cla_880",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "¿Alguna vez mantuviste el interés de alguien sabiendo que no querías una relación?",
@@ -9306,7 +9306,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 881,
+    "id": "cla_881",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Qué confesión sobre su primera impresión del otro podría sorprenderlos?",
@@ -9316,7 +9316,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 882,
+    "id": "cla_882",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres ha fingido estar bien después de un rechazo amoroso?",
@@ -9326,7 +9326,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 883,
+    "id": "cla_883",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "[all]: ¿Quién ha dado consejos de amor que no sigue en su propia vida?",
@@ -9336,7 +9336,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 884,
+    "id": "cla_884",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "¿Qué decisión tomaste por orgullo aunque sabías que no te convenía?",
@@ -9346,7 +9346,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 885,
+    "id": "cla_885",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Cuál de ustedes dos sería más capaz de reconocer que ha sentido atracción por alguien inesperado?",
@@ -9356,7 +9356,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 886,
+    "id": "cla_886",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres admitiría que ha idealizado demasiado a alguien?",
@@ -9366,7 +9366,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 887,
+    "id": "cla_887",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "[all]: ¿Qué emoción les cuesta más reconocer: celos, vergüenza o miedo al rechazo?",
@@ -9376,7 +9376,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 888,
+    "id": "cla_888",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "¿Has dicho 'te extraño' sin sentirlo de verdad?",
@@ -9386,7 +9386,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 889,
+    "id": "cla_889",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Qué cosa les gustaría preguntarse pero no se han atrevido por pudor?",
@@ -9396,7 +9396,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 890,
+    "id": "cla_890",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres admitiría primero que tiene una conversación sin cerrar con alguien?",
@@ -9406,7 +9406,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 891,
+    "id": "cla_891",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "¿Te ha gustado alguien sabiendo que esa persona salía con otra?",
@@ -9416,7 +9416,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 892,
+    "id": "cla_892",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Cuál de ustedes dos sería más capaz de confesar un interés romántico inesperado?",
@@ -9426,7 +9426,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 893,
+    "id": "cla_893",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres reconocería que ha coqueteado solo para probar si podía conquistar a alguien?",
@@ -9436,7 +9436,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 894,
+    "id": "cla_894",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "[all]: ¿Qué confesión sobre un enamoramiento antiguo sorprendería más al grupo?",
@@ -9446,7 +9446,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 895,
+    "id": "cla_895",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "¿Has escondido una cita porque temías las opiniones de tus amigos?",
@@ -9456,7 +9456,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 896,
+    "id": "cla_896",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Qué harían si descubrieran que una vez les interesó la misma persona?",
@@ -9466,7 +9466,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 897,
+    "id": "cla_897",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres admitiría haber enviado una indirecta romántica dirigida a alguien presente?",
@@ -9476,7 +9476,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 898,
+    "id": "cla_898",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "[all]: ¿Quién ha dicho que superó a alguien cuando todavía no era cierto?",
@@ -9486,7 +9486,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 899,
+    "id": "cla_899",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "¿Alguna vez dejaste de hablarle a alguien para que te buscara primero?",
@@ -9496,7 +9496,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 900,
+    "id": "cla_900",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Qué reacción tendrían si el otro confesara que le gustó alguien de su círculo cercano?",
@@ -9506,7 +9506,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 901,
+    "id": "cla_901",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres aceptaría antes que ha besado a alguien y luego se arrepintió?",
@@ -9516,7 +9516,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 902,
+    "id": "cla_902",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "[all]: ¿Qué confesión sobre una cita fallida sería aceptable compartir sin exponer a terceros?",
@@ -9526,7 +9526,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 903,
+    "id": "cla_903",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "¿Has confundido la atención física con sentimientos románticos?",
@@ -9536,7 +9536,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 904,
+    "id": "cla_904",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Cuál de ustedes dos sería más honesto al reconocer que alguna vez quiso provocar celos?",
@@ -9546,7 +9546,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 905,
+    "id": "cla_905",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres confesaría primero que ha dado señales mixtas a alguien?",
@@ -9556,7 +9556,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 906,
+    "id": "cla_906",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "¿Qué persona te atrajo y nunca imaginaste que podría gustarte?",
@@ -9566,7 +9566,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 907,
+    "id": "cla_907",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Cuál de ustedes dos podría admitir que ha ocultado sus sentimientos para mantener una amistad?",
@@ -9576,7 +9576,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 908,
+    "id": "cla_908",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres reconocería haber sentido una conexión romántica con dos personas a la vez?",
@@ -9586,7 +9586,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 909,
+    "id": "cla_909",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "[all]: ¿Qué harían si alguien del grupo confesara que alguna vez se sintió atraído por otra persona presente?",
@@ -9596,7 +9596,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 910,
+    "id": "cla_910",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "¿Has besado a alguien sabiendo que eso complicaría tus amistades?",
@@ -9606,7 +9606,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 911,
+    "id": "cla_911",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Qué verdad sentimental les gustaría poder decirse sin cambiar su relación?",
@@ -9616,7 +9616,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 912,
+    "id": "cla_912",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres reconocería más fácilmente que ha buscado a una expareja por soledad?",
@@ -9626,7 +9626,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 913,
+    "id": "cla_913",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "[all]: ¿Quién cree haber desperdiciado una oportunidad romántica por miedo al qué dirán?",
@@ -9636,7 +9636,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 914,
+    "id": "cla_914",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "¿Te has sentido atraído por alguien de tu entorno laboral o académico y lo has escondido?",
@@ -9646,7 +9646,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 915,
+    "id": "cla_915",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Cuál de ustedes dos sería capaz de confesar que alguna vez sintió celos sin tener derecho a reclamar?",
@@ -9656,7 +9656,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 916,
+    "id": "cla_916",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres ha dado una segunda oportunidad por nostalgia más que por convicción?",
@@ -9666,7 +9666,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 917,
+    "id": "cla_917",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "[all]: ¿Qué secreto romántico podría cambiar la percepción que tienen de una historia pasada?",
@@ -9676,7 +9676,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 918,
+    "id": "cla_918",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "¿Alguna vez elegiste una relación por comodidad aunque no estabas enamorado?",
@@ -9686,7 +9686,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 919,
+    "id": "cla_919",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Cómo reaccionarían si uno confesara que tuvo miedo de perder al otro como amigo?",
@@ -9696,7 +9696,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 920,
+    "id": "cla_920",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres admitiría primero que ha fantaseado con una vida diferente junto a alguien conocido?",
@@ -9706,7 +9706,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 921,
+    "id": "cla_921",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "¿Qué sentimiento hacia alguien cercano has preferido no reconocer en voz alta?",
@@ -9716,7 +9716,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 922,
+    "id": "cla_922",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Cuál de ustedes dos tendría más dificultad para admitir un error que lastimó al otro?",
@@ -9726,7 +9726,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 923,
+    "id": "cla_923",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres sería capaz de confesar que sintió atracción por la expareja de un amigo?",
@@ -9736,7 +9736,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 924,
+    "id": "cla_924",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "[all]: ¿Qué harían si alguien admitiera haber ocultado durante años un interés romántico por otra persona del grupo?",
@@ -9746,7 +9746,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 925,
+    "id": "cla_925",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "¿Alguna vez mantuviste una relación por miedo a quedarte solo?",
@@ -9756,7 +9756,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 926,
+    "id": "cla_926",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Qué verdad sobre sus celos o inseguridades podrían compartir sin juzgarse?",
@@ -9766,7 +9766,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 927,
+    "id": "cla_927",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres admitiría haber usado el coqueteo para escapar de un problema emocional?",
@@ -9776,7 +9776,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 928,
+    "id": "cla_928",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "[all]: ¿Qué confesión sería más difícil de escuchar de alguien a quien admiran?",
@@ -9786,7 +9786,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 929,
+    "id": "cla_929",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "¿A quién le debes una disculpa que todavía no has sido capaz de dar?",
@@ -9796,7 +9796,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 930,
+    "id": "cla_930",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Cuál de ustedes dos podría reconocer que ha sentido una atracción inconveniente dentro del grupo?",
@@ -9806,7 +9806,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 931,
+    "id": "cla_931",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres admitiría haber querido besar a alguien y haberse arrepentido de no hacerlo?",
@@ -9816,7 +9816,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 932,
+    "id": "cla_932",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "[all]: ¿Qué límite consideran indispensable respetar cuando alguien hace una confesión íntima?",
@@ -9826,7 +9826,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 933,
+    "id": "cla_933",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "¿Qué decisión sentimental preferirías cambiar si pudieras volver al pasado?",
@@ -9836,7 +9836,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 934,
+    "id": "cla_934",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Qué les costaría más aceptar: una confesión tardía o una verdad escondida por años?",
@@ -9846,7 +9846,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 935,
+    "id": "cla_935",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres sería más directo al admitir que nunca dejó de pensar en una expareja?",
@@ -9856,7 +9856,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 936,
+    "id": "cla_936",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "¿Qué deseo personal has ocultado por miedo a cambiar la imagen que otros tienen de ti?",
@@ -9866,7 +9866,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 937,
+    "id": "cla_937",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Cuál de ustedes dos podría confesar un sentimiento difícil sin esperar que el otro corresponda?",
@@ -9876,7 +9876,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 938,
+    "id": "cla_938",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres sería capaz de admitir públicamente que dañó una relación por egoísmo?",
@@ -9886,7 +9886,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 939,
+    "id": "cla_939",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "[all]: ¿Qué harían si alguien confesara una atracción mutua que los demás nunca sospecharon?",
@@ -9896,7 +9896,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 940,
+    "id": "cla_940",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "¿Has seguido con alguien después de darte cuenta de que tus sentimientos habían cambiado por completo?",
@@ -9906,7 +9906,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 941,
+    "id": "cla_941",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Qué verdad importante sobre su amistad todavía les falta decirse?",
@@ -9916,7 +9916,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 942,
+    "id": "cla_942",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres afrontaría mejor la confesión de que otro sintió celos de él durante años?",
@@ -9926,7 +9926,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 943,
+    "id": "cla_943",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "[all]: ¿Qué tipo de confesión debería quedarse entre quienes la escuchan y nunca salir del juego?",
@@ -9936,7 +9936,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 944,
+    "id": "cla_944",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "¿Cuál ha sido tu mayor contradicción entre lo que dices buscar en el amor y lo que eliges?",
@@ -9946,7 +9946,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 945,
+    "id": "cla_945",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Qué sentirían si uno reconociera que ocultó algo importante para evitar perder la amistad?",
@@ -9956,7 +9956,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 946,
+    "id": "cla_946",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres se atrevería a reconocer que una relación terminó por su falta de honestidad?",
@@ -9966,7 +9966,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 947,
+    "id": "cla_947",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "[all]: ¿Qué harían si alguien pidiera hablar sinceramente de una historia sentimental que involucra al grupo?",
@@ -9976,7 +9976,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 948,
+    "id": "cla_948",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "¿Qué relación mantuviste por orgullo cuando sabías que debías despedirte?",
@@ -9986,7 +9986,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 949,
+    "id": "cla_949",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Qué secreto emocional compartirían solo si estuvieran seguros de que no habrá burlas?",
@@ -9996,7 +9996,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 950,
+    "id": "cla_950",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Qué confesión pueden hacerse los tres que fortalezca su confianza en lugar de ponerla a prueba?",
@@ -10006,7 +10006,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 951,
+    "id": "cla_951",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Quién de este grupo se ríe más fuerte?",
@@ -10016,7 +10016,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 952,
+    "id": "cla_952",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Quién de este grupo llega más temprano a los planes?",
@@ -10026,7 +10026,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 953,
+    "id": "cla_953",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Quién de este grupo sabe más canciones de memoria?",
@@ -10036,7 +10036,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 954,
+    "id": "cla_954",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Quién de este grupo sería mejor guía turístico?",
@@ -10046,7 +10046,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 955,
+    "id": "cla_955",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Quién de este grupo toma más fotografías?",
@@ -10056,7 +10056,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 956,
+    "id": "cla_956",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Quién de este grupo cocina el mejor desayuno?",
@@ -10066,7 +10066,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 957,
+    "id": "cla_957",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Quién de este grupo cuenta los mejores chistes?",
@@ -10076,7 +10076,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 958,
+    "id": "cla_958",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Quién de este grupo elegiría una película para todos?",
@@ -10086,7 +10086,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 959,
+    "id": "cla_959",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Quién de este grupo duerme más los fines de semana?",
@@ -10096,7 +10096,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 960,
+    "id": "cla_960",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Quién de este grupo sería mejor presentador de televisión?",
@@ -10106,7 +10106,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 961,
+    "id": "cla_961",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Quién de este grupo tiene la risa más contagiosa?",
@@ -10116,7 +10116,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 962,
+    "id": "cla_962",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Quién de este grupo se orienta mejor en una ciudad desconocida?",
@@ -10126,7 +10126,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 963,
+    "id": "cla_963",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Quién de este grupo llevaría más cosas para un paseo de un día?",
@@ -10136,7 +10136,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 964,
+    "id": "cla_964",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Quién de este grupo se aprendería antes una coreografía?",
@@ -10146,7 +10146,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 965,
+    "id": "cla_965",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Quién de este grupo sería mejor anfitrión de una reunión?",
@@ -10156,7 +10156,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 966,
+    "id": "cla_966",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Quién de este grupo olvida más fácilmente dónde dejó el celular?",
@@ -10166,7 +10166,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 967,
+    "id": "cla_967",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Quién de este grupo gastaría primero su dinero en comida?",
@@ -10176,7 +10176,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 968,
+    "id": "cla_968",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Quién de este grupo sobreviviría mejor una semana sin internet?",
@@ -10186,7 +10186,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 969,
+    "id": "cla_969",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Quién de este grupo enviaría más memes en un día?",
@@ -10196,7 +10196,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 970,
+    "id": "cla_970",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Quién de este grupo se quedaría dormido durante una película?",
@@ -10206,7 +10206,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 971,
+    "id": "cla_971",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Quién de este grupo elegiría el peor nombre para una mascota?",
@@ -10216,7 +10216,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 972,
+    "id": "cla_972",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Quién de este grupo inventaría una receta extraña que saldría bien?",
@@ -10226,7 +10226,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 973,
+    "id": "cla_973",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Quién de este grupo se perdería dentro de un centro comercial?",
@@ -10236,7 +10236,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 974,
+    "id": "cla_974",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Quién de este grupo tendría más probabilidades de ganar un concurso de karaoke?",
@@ -10246,7 +10246,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 975,
+    "id": "cla_975",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Quién de este grupo comenzaría una colección de objetos rarísimos?",
@@ -10256,7 +10256,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 976,
+    "id": "cla_976",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Quién de este grupo olvidaría comprar el ingrediente principal de una receta?",
@@ -10266,7 +10266,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 977,
+    "id": "cla_977",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Quién de este grupo se haría famoso por un video gracioso?",
@@ -10276,7 +10276,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 978,
+    "id": "cla_978",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Quién de este grupo tardaría más en decidir qué pedir en un restaurante?",
@@ -10286,7 +10286,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 979,
+    "id": "cla_979",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Quién de este grupo hablaría con un desconocido como si fueran amigos de años?",
@@ -10296,7 +10296,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 980,
+    "id": "cla_980",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Quién de este grupo se emocionaría más con una sorpresa sencilla?",
@@ -10306,7 +10306,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 981,
+    "id": "cla_981",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Quién de este grupo se equivoca más al mandar mensajes de voz?",
@@ -10316,7 +10316,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 982,
+    "id": "cla_982",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Quién de este grupo exagera más al contar una anécdota?",
@@ -10326,7 +10326,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 983,
+    "id": "cla_983",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Quién de este grupo sería más dramático ante un insecto pequeño?",
@@ -10336,7 +10336,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 984,
+    "id": "cla_984",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Quién de este grupo se disculpa incluso cuando no tuvo la culpa?",
@@ -10346,7 +10346,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 985,
+    "id": "cla_985",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Quién de este grupo es más competitivo jugando videojuegos?",
@@ -10356,7 +10356,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 986,
+    "id": "cla_986",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Quién de este grupo haría una compra impulsiva en una tienda de recuerdos?",
@@ -10366,7 +10366,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 987,
+    "id": "cla_987",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Quién de este grupo saldría mejor de una entrevista improvisada?",
@@ -10376,7 +10376,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 988,
+    "id": "cla_988",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Quién de este grupo inventaría la excusa más creativa para no madrugar?",
@@ -10386,7 +10386,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 989,
+    "id": "cla_989",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Quién de este grupo repetiría una historia sin recordar que ya la contó?",
@@ -10396,7 +10396,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 990,
+    "id": "cla_990",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Quién de este grupo organizaría un viaje y olvidaría una reserva?",
@@ -10406,7 +10406,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 991,
+    "id": "cla_991",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Quién de este grupo tardaría menos en hacer nuevos amigos?",
@@ -10416,7 +10416,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 992,
+    "id": "cla_992",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Quién de este grupo se asustaría más en una película de terror?",
@@ -10426,7 +10426,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 993,
+    "id": "cla_993",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Quién de este grupo revelaría un regalo sorpresa sin querer?",
@@ -10436,7 +10436,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 994,
+    "id": "cla_994",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Quién de este grupo haría más preguntas durante una película?",
@@ -10446,7 +10446,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 995,
+    "id": "cla_995",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Quién de este grupo cambiaría de opinión después de ver una promoción?",
@@ -10456,7 +10456,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 996,
+    "id": "cla_996",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "¿Quién de este grupo sería peor guardando un chisme inofensivo?",
@@ -10466,7 +10466,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 997,
+    "id": "cla_997",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Cuál de ustedes dos cancelaría un plan por simple pereza?",
@@ -10476,7 +10476,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 998,
+    "id": "cla_998",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres haría primero el ridículo en una pista de baile?",
@@ -10486,7 +10486,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 999,
+    "id": "cla_999",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "[all]: ¿Quién del grupo acabaría convertido en protagonista de un meme?",
@@ -10496,7 +10496,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1000,
+    "id": "cla_1000",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "¿Quién de este grupo sería descubierto hablando solo en público?",
@@ -10506,7 +10506,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1001,
+    "id": "cla_1001",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Cuál de ustedes dos sería más capaz de enviar un mensaje al chat equivocado?",
@@ -10516,7 +10516,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1002,
+    "id": "cla_1002",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres inventaría la excusa más absurda para llegar tarde?",
@@ -10526,7 +10526,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 1003,
+    "id": "cla_1003",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "[all]: ¿Quién es más propenso a contar una historia que lo deja mal parado?",
@@ -10536,7 +10536,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1004,
+    "id": "cla_1004",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "¿Quién de este grupo se ofendería por una broma inofensiva?",
@@ -10546,7 +10546,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1005,
+    "id": "cla_1005",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Cuál de ustedes dos tiene más probabilidades de discutir por elegir la música?",
@@ -10556,7 +10556,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1006,
+    "id": "cla_1006",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres quedaría peor intentando impresionar a alguien con un baile?",
@@ -10566,7 +10566,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 1007,
+    "id": "cla_1007",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "[all]: ¿Quién se tomaría demasiado en serio un juego que solo era para divertirse?",
@@ -10576,7 +10576,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1008,
+    "id": "cla_1008",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "¿Quién de este grupo revisa más veces cómo sale en las fotos?",
@@ -10586,7 +10586,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1009,
+    "id": "cla_1009",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Cuál de ustedes dos fingiría mejor que no se equivocó?",
@@ -10596,7 +10596,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1010,
+    "id": "cla_1010",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres gastaría más dinero tratando de verse elegante para una cita?",
@@ -10606,7 +10606,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 1011,
+    "id": "cla_1011",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "¿Quién de este grupo podría enamorarse después de una sola cita?",
@@ -10616,7 +10616,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1012,
+    "id": "cla_1012",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Cuál de ustedes dos se pondría más celoso si lo excluyeran de un plan?",
@@ -10626,7 +10626,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1013,
+    "id": "cla_1013",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres hablaría primero de un flechazo secreto?",
@@ -10636,7 +10636,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 1014,
+    "id": "cla_1014",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "[all]: ¿Quién ha dado la peor primera impresión y después cayó bien?",
@@ -10646,7 +10646,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1015,
+    "id": "cla_1015",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "¿Quién de este grupo tendría más citas fallidas por nervios?",
@@ -10656,7 +10656,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1016,
+    "id": "cla_1016",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Cuál de ustedes dos se atrevería más a enviar una indirecta romántica evidente?",
@@ -10666,7 +10666,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1017,
+    "id": "cla_1017",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres sería más probable que coqueteara sin darse cuenta?",
@@ -10676,7 +10676,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 1018,
+    "id": "cla_1018",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "[all]: ¿Quién se arregla más cuando sabe que encontrará a alguien que le gusta?",
@@ -10686,7 +10686,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1019,
+    "id": "cla_1019",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "¿Quién de este grupo es más probable que vuelva con una expareja?",
@@ -10696,7 +10696,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1020,
+    "id": "cla_1020",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Cuál de ustedes dos admitiría antes que tiene un amor platónico?",
@@ -10706,7 +10706,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1021,
+    "id": "cla_1021",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres haría una escena por un malentendido romántico?",
@@ -10716,7 +10716,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 1022,
+    "id": "cla_1022",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "[all]: ¿Quién es más capaz de hacer una confesión inesperada al final de la fiesta?",
@@ -10726,7 +10726,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1023,
+    "id": "cla_1023",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "¿Quién de este grupo ocultaría que una cita fue un desastre?",
@@ -10736,7 +10736,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1024,
+    "id": "cla_1024",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Cuál de ustedes dos se pone más nervioso al recibir un cumplido directo?",
@@ -10746,7 +10746,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1025,
+    "id": "cla_1025",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres dejaría en visto a alguien que realmente le gusta?",
@@ -10756,7 +10756,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 1026,
+    "id": "cla_1026",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "¿Quién de este grupo tendría más dificultades para superar un rechazo?",
@@ -10766,7 +10766,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1027,
+    "id": "cla_1027",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Cuál de ustedes dos guardaría una conversación romántica por años?",
@@ -10776,7 +10776,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1028,
+    "id": "cla_1028",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres sería más probable que se enamorara de un amigo cercano?",
@@ -10786,7 +10786,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 1029,
+    "id": "cla_1029",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "[all]: ¿Quién cambiaría de planes por encontrarse con una persona que le atrae?",
@@ -10796,7 +10796,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1030,
+    "id": "cla_1030",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "¿Quién de este grupo coquetearía con alguien solo por recibir atención?",
@@ -10806,7 +10806,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1031,
+    "id": "cla_1031",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Cuál de ustedes dos se pondría más posesivo en una relación si no trabajara sus inseguridades?",
@@ -10816,7 +10816,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1032,
+    "id": "cla_1032",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres confesaría antes que todavía piensa en su ex?",
@@ -10826,7 +10826,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 1033,
+    "id": "cla_1033",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "[all]: ¿Quién tiene más probabilidades de enamorarse de alguien que no le conviene?",
@@ -10836,7 +10836,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1034,
+    "id": "cla_1034",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "¿Quién de este grupo rompería primero el silencio después de una pelea amorosa?",
@@ -10846,7 +10846,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1035,
+    "id": "cla_1035",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Cuál de ustedes dos sería más probable que ocultara una cita para evitar preguntas?",
@@ -10856,7 +10856,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1036,
+    "id": "cla_1036",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres sería el primero en pedir disculpas por un comentario de celos?",
@@ -10866,7 +10866,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 1037,
+    "id": "cla_1037",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "[all]: ¿Quién podría conquistar a alguien simplemente conversando toda la noche?",
@@ -10876,7 +10876,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1038,
+    "id": "cla_1038",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "¿Quién de este grupo saldría con alguien de quien sus amigos desconfían?",
@@ -10886,7 +10886,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1039,
+    "id": "cla_1039",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Cuál de ustedes dos escondería mejor que está interesado en alguien del círculo?",
@@ -10896,7 +10896,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1040,
+    "id": "cla_1040",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres sería más incapaz de disimular una atracción inesperada?",
@@ -10906,7 +10906,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 1041,
+    "id": "cla_1041",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "¿Quién de este grupo tiene más probabilidades de besar a alguien de su círculo de amigos?",
@@ -10916,7 +10916,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1042,
+    "id": "cla_1042",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Cuál de ustedes dos se atrevería primero a admitir que alguna vez sintió atracción por otro amigo?",
@@ -10926,7 +10926,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1043,
+    "id": "cla_1043",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres sería más propenso a tener un romance secreto?",
@@ -10936,7 +10936,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 1044,
+    "id": "cla_1044",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "[all]: ¿Quién ha fingido estar interesado en alguien para despertar celos en otra persona?",
@@ -10946,7 +10946,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1045,
+    "id": "cla_1045",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "¿Quién de este grupo saldría con la expareja de un conocido?",
@@ -10956,7 +10956,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1046,
+    "id": "cla_1046",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Cuál de ustedes dos tendría más probabilidades de enviar un mensaje romántico a medianoche?",
@@ -10966,7 +10966,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1047,
+    "id": "cla_1047",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres arriesgaría una amistad por una conexión amorosa intensa?",
@@ -10976,7 +10976,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 1048,
+    "id": "cla_1048",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "[all]: ¿Quién se arrepentiría menos de un beso inesperado entre personas del grupo?",
@@ -10986,7 +10986,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1049,
+    "id": "cla_1049",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "¿Quién de este grupo sería más probable que saliera con alguien mucho mayor?",
@@ -10996,7 +10996,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1050,
+    "id": "cla_1050",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Cuál de ustedes dos diría antes 'me gustas' sin saber si es recíproco?",
@@ -11006,7 +11006,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1051,
+    "id": "cla_1051",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres sería más capaz de mantener una relación casual sin confundirla con amor?",
@@ -11016,7 +11016,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 1052,
+    "id": "cla_1052",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "[all]: ¿Quién tendría más dificultades para ocultar que le gusta alguien presente?",
@@ -11026,7 +11026,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1053,
+    "id": "cla_1053",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "¿Quién de este grupo ha cambiado más su actitud por un interés romántico?",
@@ -11036,7 +11036,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1054,
+    "id": "cla_1054",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Cuál de ustedes dos sería más probable que sintiera celos sin tener una relación formal?",
@@ -11046,7 +11046,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1055,
+    "id": "cla_1055",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres podría terminar metido en un triángulo amoroso involuntario?",
@@ -11056,7 +11056,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 1056,
+    "id": "cla_1056",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "¿Quién de este grupo sería más capaz de reconocer que le atrae alguien presente?",
@@ -11066,7 +11066,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1057,
+    "id": "cla_1057",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Cuál de ustedes dos correría más riesgo de involucrarse con alguien del pasado del otro?",
@@ -11076,7 +11076,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1058,
+    "id": "cla_1058",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres sería más probable que mantuviera en secreto un beso con alguien conocido?",
@@ -11086,7 +11086,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 1059,
+    "id": "cla_1059",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "[all]: ¿Quién podría admitir que tuvo sentimientos por alguien que todos consideraban solo su amigo?",
@@ -11096,7 +11096,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1060,
+    "id": "cla_1060",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "¿Quién de este grupo sería más capaz de ocultar una relación durante meses?",
@@ -11106,7 +11106,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1061,
+    "id": "cla_1061",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Cuál de ustedes dos confesaría antes que alguna vez tuvo celos del otro?",
@@ -11116,7 +11116,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1062,
+    "id": "cla_1062",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres sería más probable que aceptara una cita aun sabiendo que sería complicada?",
@@ -11126,7 +11126,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 1063,
+    "id": "cla_1063",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "[all]: ¿Quién suele guardar más secretos románticos sin contárselos al grupo?",
@@ -11136,7 +11136,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1064,
+    "id": "cla_1064",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "¿Quién de este grupo estaría dispuesto a intentar una relación a distancia por una conexión fuerte?",
@@ -11146,7 +11146,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1065,
+    "id": "cla_1065",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Cuál de ustedes dos resistiría menos la tentación de buscar a una expareja?",
@@ -11156,7 +11156,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1066,
+    "id": "cla_1066",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres se arriesgaría a confesar sentimientos en medio de una fiesta?",
@@ -11166,7 +11166,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 1067,
+    "id": "cla_1067",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "[all]: ¿Quién sería más capaz de besar a alguien después de años de amistad, si ambos quisieran?",
@@ -11176,7 +11176,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1068,
+    "id": "cla_1068",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "¿Quién de este grupo se enamoraría de una persona emocionalmente inaccesible?",
@@ -11186,7 +11186,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1069,
+    "id": "cla_1069",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Cuál de ustedes dos sería más probable que diera señales confusas por miedo a comprometerse?",
@@ -11196,7 +11196,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1070,
+    "id": "cla_1070",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres manejaría mejor que alguien rechazara un acercamiento romántico?",
@@ -11206,7 +11206,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 1071,
+    "id": "cla_1071",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "¿Quién de este grupo sería más capaz de ocultar una atracción que podría causar conflicto?",
@@ -11216,7 +11216,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1072,
+    "id": "cla_1072",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Cuál de ustedes dos admitiría más fácilmente que alguna vez sintió envidia de la vida amorosa del otro?",
@@ -11226,7 +11226,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1073,
+    "id": "cla_1073",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres podría confesar que besó a alguien y después negó que sucediera?",
@@ -11236,7 +11236,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 1074,
+    "id": "cla_1074",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "[all]: ¿Quién sería más probable que mantuviera una amistad por sentimientos románticos no correspondidos?",
@@ -11246,7 +11246,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1075,
+    "id": "cla_1075",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "¿Quién de este grupo tomaría la decisión sentimental más impulsiva si nadie lo juzgara?",
@@ -11256,7 +11256,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1076,
+    "id": "cla_1076",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Cuál de ustedes dos se atrevería a preguntar directamente si el otro alguna vez sintió atracción por él?",
@@ -11266,7 +11266,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1077,
+    "id": "cla_1077",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres sería más capaz de reconocer un interés por una expareja de alguien cercano?",
@@ -11276,7 +11276,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 1078,
+    "id": "cla_1078",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "[all]: ¿Quién tendría más probabilidades de descubrir un secreto romántico dentro del grupo?",
@@ -11286,7 +11286,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1079,
+    "id": "cla_1079",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "¿Quién de este grupo podría terminar una relación por un enamoramiento repentino?",
@@ -11296,7 +11296,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1080,
+    "id": "cla_1080",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Cuál de ustedes dos soportaría peor enterarse de que el otro ocultó una historia amorosa importante?",
@@ -11306,7 +11306,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1081,
+    "id": "cla_1081",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres se arriesgaría más a confesar un amor no correspondido?",
@@ -11316,7 +11316,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 1082,
+    "id": "cla_1082",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "[all]: ¿Quién ha dado más señales mixtas a personas que se interesaban románticamente?",
@@ -11326,7 +11326,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1083,
+    "id": "cla_1083",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "¿Quién de este grupo tendría más problemas si sus conversaciones románticas se hicieran públicas?",
@@ -11336,7 +11336,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1084,
+    "id": "cla_1084",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Cuál de ustedes dos preferiría confesar una verdad incómoda antes de seguir fingiendo?",
@@ -11346,7 +11346,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1085,
+    "id": "cla_1085",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres sería mejor intermediario ante una tensión romántica entre los otros dos?",
@@ -11356,7 +11356,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 1086,
+    "id": "cla_1086",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "¿Quién de este grupo sería más probable que renunciara a una amistad por una relación amorosa?",
@@ -11366,7 +11366,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1087,
+    "id": "cla_1087",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Cuál de ustedes dos sería capaz de admitir una verdad que podría cambiar su amistad para siempre?",
@@ -11376,7 +11376,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1088,
+    "id": "cla_1088",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres se atrevería a reconocer que lastimó a alguien por mantener dos opciones románticas abiertas?",
@@ -11386,7 +11386,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 1089,
+    "id": "cla_1089",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "[all]: ¿Quién sería capaz de confesar una atracción inesperada aunque los demás se sorprendieran?",
@@ -11396,7 +11396,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1090,
+    "id": "cla_1090",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "¿Quién de este grupo tomaría la decisión más polémica por seguir sus sentimientos?",
@@ -11406,7 +11406,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1091,
+    "id": "cla_1091",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Cuál de ustedes dos enfrentaría antes el rumor de que alguna vez hubo atracción entre ustedes?",
@@ -11416,7 +11416,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1092,
+    "id": "cla_1092",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres sabría afrontar mejor que dos de ustedes desarrollaran sentimientos mutuos?",
@@ -11426,7 +11426,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 1093,
+    "id": "cla_1093",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "[all]: ¿Quién tendría la mayor dificultad para perdonar una mentira amorosa importante?",
@@ -11436,7 +11436,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1094,
+    "id": "cla_1094",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "¿Quién de este grupo sería más probable que ocultara que volvió con alguien a quien criticó mucho?",
@@ -11446,7 +11446,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1095,
+    "id": "cla_1095",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Cuál de ustedes dos podría escuchar una confesión sentimental dolorosa sin usarla contra el otro?",
@@ -11456,7 +11456,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1096,
+    "id": "cla_1096",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres admitiría antes que una antigua decisión romántica dañó al grupo?",
@@ -11466,7 +11466,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 1097,
+    "id": "cla_1097",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "[all]: ¿Quién asumiría primero su responsabilidad si una historia amorosa dividiera amistades?",
@@ -11476,7 +11476,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1098,
+    "id": "cla_1098",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "¿Quién de este grupo tiene más posibilidades de guardar un secreto por miedo a decepcionar a todos?",
@@ -11486,7 +11486,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1099,
+    "id": "cla_1099",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Cuál de ustedes dos sería más sincero si descubriera que ambos están interesados en la misma persona?",
@@ -11496,7 +11496,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1100,
+    "id": "cla_1100",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres sería capaz de pedir perdón por ocultar un sentimiento que afectó a los otros?",
@@ -11506,7 +11506,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 1101,
+    "id": "cla_1101",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Alguna vez dijiste que te gustó una comida solo por cortesía?",
@@ -11516,7 +11516,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1102,
+    "id": "cla_1102",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Has dicho que recordabas a alguien cuando no era cierto?",
@@ -11526,7 +11526,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1103,
+    "id": "cla_1103",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Alguna vez fingiste entender una película que te confundió?",
@@ -11536,7 +11536,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1104,
+    "id": "cla_1104",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Has respondido 'ya casi llego' cuando todavía faltaba bastante?",
@@ -11546,7 +11546,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1105,
+    "id": "cla_1105",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Alguna vez inventaste una excusa para no contestar una llamada?",
@@ -11556,7 +11556,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1106,
+    "id": "cla_1106",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Has dicho que no tenías hambre y después comiste de otro plato?",
@@ -11566,7 +11566,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1107,
+    "id": "cla_1107",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Alguna vez exageraste cuánto dormiste el fin de semana?",
@@ -11576,7 +11576,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1108,
+    "id": "cla_1108",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Has fingido conocer la letra de una canción?",
@@ -11586,7 +11586,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1109,
+    "id": "cla_1109",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Alguna vez dijiste que estabas ocupado solo para descansar?",
@@ -11596,7 +11596,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1110,
+    "id": "cla_1110",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Has dado una opinión positiva sobre un regalo que no te gustó?",
@@ -11606,7 +11606,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1111,
+    "id": "cla_1111",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Alguna vez dijiste 'lo vi' sobre un video que no abriste?",
@@ -11616,7 +11616,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1112,
+    "id": "cla_1112",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Has fingido que entendiste una indicación para no preguntar otra vez?",
@@ -11626,7 +11626,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1113,
+    "id": "cla_1113",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Alguna vez dijiste que estabas escuchando cuando te distrajiste?",
@@ -11636,7 +11636,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1114,
+    "id": "cla_1114",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Has afirmado que la comida no estaba picante aunque sí te ardía?",
@@ -11646,7 +11646,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1115,
+    "id": "cla_1115",
     "intensidad": 1,
     "tipo": "clásico",
     "texto": "¿Alguna vez negaste haber terminado el último pedazo de algo?",
@@ -11656,7 +11656,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1116,
+    "id": "cla_1116",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Has mentido sobre una tarea que olvidaste hacer?",
@@ -11666,7 +11666,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1117,
+    "id": "cla_1117",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Alguna vez dijiste que tu teléfono se había quedado sin batería y no era cierto?",
@@ -11676,7 +11676,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1118,
+    "id": "cla_1118",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Has exagerado un logro pequeño al contárselo a tus amigos?",
@@ -11686,7 +11686,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1119,
+    "id": "cla_1119",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Alguna vez fingiste tener experiencia en algo para que te dejaran intentarlo?",
@@ -11696,7 +11696,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1120,
+    "id": "cla_1120",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Has inventado una excusa para no prestar un objeto?",
@@ -11706,7 +11706,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1121,
+    "id": "cla_1121",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Alguna vez dijiste que estabas de acuerdo solo para terminar una discusión?",
@@ -11716,7 +11716,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1122,
+    "id": "cla_1122",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Has fingido que conocías un restaurante que nunca habías visitado?",
@@ -11726,7 +11726,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1123,
+    "id": "cla_1123",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Alguna vez dijiste que ibas al gimnasio cuando no fuiste?",
@@ -11736,7 +11736,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1124,
+    "id": "cla_1124",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Has mentido sobre la cantidad de capítulos que viste de una serie?",
@@ -11746,7 +11746,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1125,
+    "id": "cla_1125",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Alguna vez fingiste no conocer un chisme que ya sabías?",
@@ -11756,7 +11756,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1126,
+    "id": "cla_1126",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Has dicho que una foto salió bien aunque no te gustó?",
@@ -11766,7 +11766,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1127,
+    "id": "cla_1127",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Alguna vez inventaste una historia sencilla para explicar un retraso?",
@@ -11776,7 +11776,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1128,
+    "id": "cla_1128",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Has negado que revisaste el perfil de alguien en redes sociales?",
@@ -11786,7 +11786,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1129,
+    "id": "cla_1129",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Alguna vez fingiste sorpresa cuando ya conocías una noticia?",
@@ -11796,7 +11796,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1130,
+    "id": "cla_1130",
     "intensidad": 2,
     "tipo": "clásico",
     "texto": "¿Has mentido sobre por qué no querías ir a una reunión?",
@@ -11806,7 +11806,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1131,
+    "id": "cla_1131",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Cuál es la excusa menos creíble que has usado para cancelar un plan?",
@@ -11816,7 +11816,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1132,
+    "id": "cla_1132",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Has dicho que no viste un mensaje aunque ya lo habías leído?",
@@ -11826,7 +11826,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1133,
+    "id": "cla_1133",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Alguna vez mentiste sobre el precio de algo que compraste?",
@@ -11836,7 +11836,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1134,
+    "id": "cla_1134",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Has exagerado cuánto sabes de un tema para impresionar a alguien?",
@@ -11846,7 +11846,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1135,
+    "id": "cla_1135",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Alguna vez diste una versión mejorada de una historia para quedar bien?",
@@ -11856,7 +11856,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1136,
+    "id": "cla_1136",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Has fingido estar enfermo para evitar un compromiso social?",
@@ -11866,7 +11866,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1137,
+    "id": "cla_1137",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Alguna vez ocultaste un error pequeño esperando que nadie lo notara?",
@@ -11876,7 +11876,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1138,
+    "id": "cla_1138",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Has dicho que no te importaba algo que en realidad te molestaba?",
@@ -11886,7 +11886,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1139,
+    "id": "cla_1139",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Alguna vez diste un cumplido que no sentías?",
@@ -11896,7 +11896,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1140,
+    "id": "cla_1140",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Has inventado que tenías una cita para no quedar disponible?",
@@ -11906,7 +11906,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1141,
+    "id": "cla_1141",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Alguna vez dijiste que alguien te caía bien cuando no era cierto?",
@@ -11916,7 +11916,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1142,
+    "id": "cla_1142",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Has mentido sobre haber visto una serie para participar en una conversación?",
@@ -11926,7 +11926,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1143,
+    "id": "cla_1143",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Alguna vez dijiste que no tenías dinero cuando sí podías pagar?",
@@ -11936,7 +11936,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1144,
+    "id": "cla_1144",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Has cambiado un detalle de una anécdota para que pareciera más divertida?",
@@ -11946,7 +11946,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1145,
+    "id": "cla_1145",
     "intensidad": 3,
     "tipo": "clásico",
     "texto": "¿Has culpado al tráfico de un retraso que fue por levantarte tarde?",
@@ -11956,7 +11956,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1146,
+    "id": "cla_1146",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "¿Qué mentira pequeña te descubrieron por un detalle absurdo?",
@@ -11966,7 +11966,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1147,
+    "id": "cla_1147",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Cuál de ustedes dos ha inventado más excusas para evitar salir?",
@@ -11976,7 +11976,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1148,
+    "id": "cla_1148",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres sería más fácil de descubrir mintiendo por sus gestos?",
@@ -11986,7 +11986,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 1149,
+    "id": "cla_1149",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "[all]: ¿Cuál es la mentira social que consideran más común dentro del grupo?",
@@ -11996,7 +11996,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1150,
+    "id": "cla_1150",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "¿Has fingido que no te interesaba alguien para evitar bromas?",
@@ -12006,7 +12006,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1151,
+    "id": "cla_1151",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Cuál de ustedes dos exagera más sus anécdotas cuando quiere impresionar?",
@@ -12016,7 +12016,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1152,
+    "id": "cla_1152",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres podría detectar más rápido una excusa inventada?",
@@ -12026,7 +12026,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 1153,
+    "id": "cla_1153",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "[all]: ¿Quién ha dicho 'voy en camino' cuando todavía estaba escogiendo ropa?",
@@ -12036,7 +12036,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1154,
+    "id": "cla_1154",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "¿Alguna vez afirmaste que tenías otros planes para hacerte el interesante?",
@@ -12046,7 +12046,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1155,
+    "id": "cla_1155",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Qué mentira piadosa se dirían para no herir sentimientos por una comida horrible?",
@@ -12056,7 +12056,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1156,
+    "id": "cla_1156",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres mantendría menos tiempo una historia inventada sin contradecirse?",
@@ -12066,7 +12066,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 1157,
+    "id": "cla_1157",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "[all]: ¿Quién sería el primero en reírse si lo descubrieran contando una mentira insignificante?",
@@ -12076,7 +12076,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1158,
+    "id": "cla_1158",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "¿Has cambiado la historia de cómo conociste a alguien para que sonara mejor?",
@@ -12086,7 +12086,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1159,
+    "id": "cla_1159",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Cuál de ustedes dos tendría más probabilidades de fingir que olvidó un mensaje incómodo?",
@@ -12096,7 +12096,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1160,
+    "id": "cla_1160",
     "intensidad": 4,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres admitiría primero que ha exagerado una historia frente a los demás?",
@@ -12106,7 +12106,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 1161,
+    "id": "cla_1161",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "¿Has mentido sobre con quién estabas para evitar preguntas?",
@@ -12116,7 +12116,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1162,
+    "id": "cla_1162",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Cuál de ustedes dos ha fingido más veces que no estaba celoso?",
@@ -12126,7 +12126,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1163,
+    "id": "cla_1163",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres sería capaz de sostener una coartada absurda durante toda una fiesta?",
@@ -12136,7 +12136,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 1164,
+    "id": "cla_1164",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "[all]: ¿Qué mentira sobre una salida creen que alguien del grupo ha usado alguna vez?",
@@ -12146,7 +12146,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1165,
+    "id": "cla_1165",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "¿Has inventado una excusa para no ver a una persona específica?",
@@ -12156,7 +12156,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1166,
+    "id": "cla_1166",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Qué harían si descubrieran que ambos mintieron para evitar el mismo plan?",
@@ -12166,7 +12166,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1167,
+    "id": "cla_1167",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres sería más probable que negara un coqueteo evidente?",
@@ -12176,7 +12176,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 1168,
+    "id": "cla_1168",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "[all]: ¿Quién ha exagerado más sus historias para parecer interesante ante alguien?",
@@ -12186,7 +12186,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1169,
+    "id": "cla_1169",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "¿Alguna vez dijiste que estabas soltero cuando tu situación sentimental era complicada?",
@@ -12196,7 +12196,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1170,
+    "id": "cla_1170",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Cuál de ustedes dos sería más capaz de reconocer una mentira antes de que lo descubran?",
@@ -12206,7 +12206,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1171,
+    "id": "cla_1171",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres se pondría más nervioso si le pidieran repetir exactamente su versión?",
@@ -12216,7 +12216,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 1172,
+    "id": "cla_1172",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "[all]: ¿Qué mentira sobre el dinero consideran más frecuente entre amigos?",
@@ -12226,7 +12226,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1173,
+    "id": "cla_1173",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "¿Has mentido sobre tus sentimientos para no tener una conversación difícil?",
@@ -12236,7 +12236,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1174,
+    "id": "cla_1174",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Qué explicación darían si uno encontrara una contradicción en la historia del otro?",
@@ -12246,7 +12246,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1175,
+    "id": "cla_1175",
     "intensidad": 5,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres necesitaría más ayuda para recordar una excusa que inventó?",
@@ -12256,7 +12256,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 1176,
+    "id": "cla_1176",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "¿Has negado sentir celos cuando en realidad te estaban consumiendo?",
@@ -12266,7 +12266,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1177,
+    "id": "cla_1177",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Cuál de ustedes dos sería más probable que escondiera una cita por miedo a las críticas?",
@@ -12276,7 +12276,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1178,
+    "id": "cla_1178",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres sería mejor detectando una historia romántica falsa?",
@@ -12286,7 +12286,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 1179,
+    "id": "cla_1179",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "[all]: ¿Qué mentira se vuelve más grave cuando afecta la confianza del grupo?",
@@ -12296,7 +12296,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1180,
+    "id": "cla_1180",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "¿Alguna vez ocultaste que seguías hablando con una expareja?",
@@ -12306,7 +12306,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1181,
+    "id": "cla_1181",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Qué harían si uno descubriera que el otro inventó una excusa para no verlo?",
@@ -12316,7 +12316,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1182,
+    "id": "cla_1182",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres contaría primero la verdad después de una mentira sentimental?",
@@ -12326,7 +12326,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 1183,
+    "id": "cla_1183",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "[all]: ¿Quién se ha beneficiado de un malentendido sin aclararlo de inmediato?",
@@ -12336,7 +12336,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1184,
+    "id": "cla_1184",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "¿Has dicho 'ya lo superé' cuando todavía estabas pendiente de alguien?",
@@ -12346,7 +12346,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1185,
+    "id": "cla_1185",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Cuál de ustedes dos sería más probable que ocultara un interés romántico para evitar conflictos?",
@@ -12356,7 +12356,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1186,
+    "id": "cla_1186",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres mentiría peor frente a una pregunta directa sobre su vida amorosa?",
@@ -12366,7 +12366,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 1187,
+    "id": "cla_1187",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "[all]: ¿Qué es peor entre amigos: una mentira para evitar drama o una omisión deliberada?",
@@ -12376,7 +12376,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1188,
+    "id": "cla_1188",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "¿Has inventado detalles sobre una cita porque temías que la verdad sonara aburrida?",
@@ -12386,7 +12386,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1189,
+    "id": "cla_1189",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Qué se preguntarían si sospecharan que uno está ocultando un problema con el otro?",
@@ -12396,7 +12396,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1190,
+    "id": "cla_1190",
     "intensidad": 6,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres sería más sincero al admitir que ha manipulado una historia a su favor?",
@@ -12406,7 +12406,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 1191,
+    "id": "cla_1191",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "¿Has ocultado que besaste a alguien para que no cambiara la opinión que tenían de ti?",
@@ -12416,7 +12416,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1192,
+    "id": "cla_1192",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Cuál de ustedes dos sería más capaz de descubrir una mentira amorosa del otro?",
@@ -12426,7 +12426,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1193,
+    "id": "cla_1193",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres tendría más problemas para admitir que sigue interesado en una expareja?",
@@ -12436,7 +12436,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 1194,
+    "id": "cla_1194",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "[all]: ¿Cómo reaccionarían si se enteraran de que dos personas del grupo mintieron sobre una cita?",
@@ -12446,7 +12446,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1195,
+    "id": "cla_1195",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "¿Alguna vez mentiste sobre tus intenciones al iniciar una relación?",
@@ -12456,7 +12456,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1196,
+    "id": "cla_1196",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Qué harían si uno descubriera que el otro ocultó una conversación que lo involucraba?",
@@ -12466,7 +12466,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1197,
+    "id": "cla_1197",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres sería más probable que mantuviera una historia sentimental en secreto?",
@@ -12476,7 +12476,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 1198,
+    "id": "cla_1198",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "[all]: ¿Qué mentira romántica les parece más dañina aunque se diga para evitar problemas?",
@@ -12486,7 +12486,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1199,
+    "id": "cla_1199",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "¿Has fingido no conocer a alguien con quien tuviste una historia romántica?",
@@ -12496,7 +12496,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1200,
+    "id": "cla_1200",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Cuál de ustedes dos sería más capaz de admitir que provocó celos deliberadamente?",
@@ -12506,7 +12506,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1201,
+    "id": "cla_1201",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres podría sostener por más tiempo la mentira de que 'solo somos amigos'?",
@@ -12516,7 +12516,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 1202,
+    "id": "cla_1202",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "[all]: ¿Quién ha negado una atracción evidente que el resto ya había notado?",
@@ -12526,7 +12526,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1203,
+    "id": "cla_1203",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "¿Alguna vez negaste que alguien te gustaba mientras intentabas acercarte a esa persona?",
@@ -12536,7 +12536,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1204,
+    "id": "cla_1204",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Cómo resolverían una situación en la que ambos dieron versiones distintas de la misma noche?",
@@ -12546,7 +12546,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1205,
+    "id": "cla_1205",
     "intensidad": 7,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres confesaría primero si hubiera exagerado una historia para ganar aprobación?",
@@ -12556,7 +12556,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 1206,
+    "id": "cla_1206",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "¿Has ocultado una verdad importante en una relación para evitar una discusión?",
@@ -12566,7 +12566,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1207,
+    "id": "cla_1207",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Cuál de ustedes dos tendría más dificultades para admitir que mintió por celos?",
@@ -12576,7 +12576,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1208,
+    "id": "cla_1208",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres se atrevería a reconocer que ha fingido sentimientos románticos?",
@@ -12586,7 +12586,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 1209,
+    "id": "cla_1209",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "[all]: ¿Qué harían si una mentira antigua de alguien del grupo saliera a la luz esta noche?",
@@ -12596,7 +12596,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1210,
+    "id": "cla_1210",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "¿Has fingido que una relación no significaba nada cuando sí te importaba?",
@@ -12606,7 +12606,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1211,
+    "id": "cla_1211",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Qué harían si descubrieran que uno habló de un asunto privado del otro y después lo negó?",
@@ -12616,7 +12616,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1212,
+    "id": "cla_1212",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres confesaría antes una mentira que mantiene una mala impresión sobre alguien?",
@@ -12626,7 +12626,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 1213,
+    "id": "cla_1213",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "[all]: ¿Qué mentira no debería justificarse nunca con la frase 'era para protegerte'?",
@@ -12636,7 +12636,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1214,
+    "id": "cla_1214",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "¿Has dado a dos personas versiones distintas de una misma situación sentimental?",
@@ -12646,7 +12646,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1215,
+    "id": "cla_1215",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Cuál de ustedes dos sería más capaz de detectar cuándo el otro oculta algo por vergüenza?",
@@ -12656,7 +12656,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1216,
+    "id": "cla_1216",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres sería más probable que negara una atracción que todos consideran obvia?",
@@ -12666,7 +12666,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 1217,
+    "id": "cla_1217",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "[all]: ¿Qué harían si alguien admitiera haber inventado una historia para impresionar al grupo?",
@@ -12676,7 +12676,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1218,
+    "id": "cla_1218",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "¿Has ocultado una decepción importante para evitar que alguien se sintiera culpable?",
@@ -12686,7 +12686,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1219,
+    "id": "cla_1219",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Qué mentira entre ustedes consideran que sería más difícil de perdonar?",
@@ -12696,7 +12696,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1220,
+    "id": "cla_1220",
     "intensidad": 8,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres admitiría primero una mentira que le hizo quedar bien a costa de otra persona?",
@@ -12706,7 +12706,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 1221,
+    "id": "cla_1221",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "¿Qué mentira sobre tu vida sentimental te habría gustado aclarar antes?",
@@ -12716,7 +12716,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1222,
+    "id": "cla_1222",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Cuál de ustedes dos sería más capaz de admitir que ocultó algo por miedo a perder la amistad?",
@@ -12726,7 +12726,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1223,
+    "id": "cla_1223",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres enfrentaría con más valentía una contradicción que todos descubrieron?",
@@ -12736,7 +12736,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 1224,
+    "id": "cla_1224",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "[all]: ¿Qué harían si una mentira romántica enfrentara a dos personas del grupo?",
@@ -12746,7 +12746,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1225,
+    "id": "cla_1225",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "¿Has permitido que alguien creyera una versión falsa de ti porque te favorecía?",
@@ -12756,7 +12756,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1226,
+    "id": "cla_1226",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Qué verdad podrían contarse si supieran que una mentira antigua dañó la confianza?",
@@ -12766,7 +12766,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1227,
+    "id": "cla_1227",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres sería más capaz de pedir perdón por haber ocultado una cita relevante?",
@@ -12776,7 +12776,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 1228,
+    "id": "cla_1228",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "[all]: ¿Qué tipo de mentira puede romper años de confianza incluso si no parece grave al principio?",
@@ -12786,7 +12786,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1229,
+    "id": "cla_1229",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "¿Alguna vez negaste que una persona te importaba para no reconocer que te lastimó?",
@@ -12796,7 +12796,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1230,
+    "id": "cla_1230",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Cuál de ustedes dos tendría más dificultades para decir la verdad si supiera que decepcionará al otro?",
@@ -12806,7 +12806,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1231,
+    "id": "cla_1231",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres admitiría que ha usado una mentira para evitar una ruptura?",
@@ -12816,7 +12816,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 1232,
+    "id": "cla_1232",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "[all]: ¿Quién sería más capaz de explicar una mentira importante sin intentar justificarse?",
@@ -12826,7 +12826,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1233,
+    "id": "cla_1233",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "¿Qué verdad personal has aplazado decir por miedo a una reacción negativa?",
@@ -12836,7 +12836,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1234,
+    "id": "cla_1234",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Qué harían si uno confesara que una antigua historia compartida no ocurrió como siempre la cuentan?",
@@ -12846,7 +12846,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1235,
+    "id": "cla_1235",
     "intensidad": 9,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres reconocería primero que una omisión también puede ser una forma de mentir?",
@@ -12856,7 +12856,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 1236,
+    "id": "cla_1236",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "¿Qué mentira importante te hizo perder la confianza de alguien?",
@@ -12866,7 +12866,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1237,
+    "id": "cla_1237",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Qué harían si uno admitiera que ocultó una verdad capaz de cambiar su relación de amistad?",
@@ -12876,7 +12876,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1238,
+    "id": "cla_1238",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres se atrevería a confesar una mentira sentimental de la que se arrepiente profundamente?",
@@ -12886,7 +12886,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 1239,
+    "id": "cla_1239",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "[all]: ¿Qué harían si dos personas del grupo descubrieran que recibieron versiones incompatibles de la misma historia?",
@@ -12896,7 +12896,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1240,
+    "id": "cla_1240",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "¿Has mantenido una mentira por tanto tiempo que después ya no sabías cómo corregirla?",
@@ -12906,7 +12906,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1241,
+    "id": "cla_1241",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Cuál de ustedes dos sería capaz de reconocer públicamente que mintió para proteger su orgullo?",
@@ -12916,7 +12916,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1242,
+    "id": "cla_1242",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres podría asumir las consecuencias de una verdad incómoda sin culpar a otros?",
@@ -12926,7 +12926,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 1243,
+    "id": "cla_1243",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "[all]: ¿Qué mentira consideran un punto de no retorno para una relación de pareja?",
@@ -12936,7 +12936,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1244,
+    "id": "cla_1244",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "¿Qué cosa importante has ocultado porque temías que te dejaran de querer?",
@@ -12946,7 +12946,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1245,
+    "id": "cla_1245",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Cómo reconstruirían la confianza si uno descubriera una mentira que afectó al otro durante años?",
@@ -12956,7 +12956,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1246,
+    "id": "cla_1246",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres sería más honesto sobre una decisión pasada que dañó a un amigo?",
@@ -12966,7 +12966,7 @@ export const clasicoCards = [
     "min_jugadores": 3
   },
   {
-    "id": 1247,
+    "id": "cla_1247",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "[all]: ¿Qué harían si una confesión de esta noche contradijera algo que todos dieron por cierto?",
@@ -12976,7 +12976,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1248,
+    "id": "cla_1248",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "¿Has contado una versión de una ruptura que omitía deliberadamente tu responsabilidad?",
@@ -12986,7 +12986,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1249,
+    "id": "cla_1249",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "[player] y [player_x]: ¿Qué verdad les gustaría poder decirse sin miedo a perder el respeto del otro?",
@@ -12996,7 +12996,7 @@ export const clasicoCards = [
     "min_jugadores": 2
   },
   {
-    "id": 1250,
+    "id": "cla_1250",
     "intensidad": 10,
     "tipo": "clásico",
     "texto": "[player], [player_x] y [player_x1]: ¿Quién de ustedes tres podría admitir una mentira dolorosa sin exigir perdón inmediato?",

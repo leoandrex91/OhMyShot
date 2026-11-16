@@ -21,9 +21,9 @@ export const CULTURA_CHUPISTICA_MODE_DEFINITION = Object.freeze({
   titleEs: 'Cultura Chupística',
   titleEn: 'Categories',
   titlePt: 'Cultura Chupística',
-  descEs: 'El clásico de previa: responde por turnos sin repetir ni dudar al ritmo de las palmas.',
-  descEn: 'The party classic: take turns naming items without repeating or hesitating.',
-  descPt: 'O clássico do esquenta: responda em turnos sem repetir nem hesitar ao ritmo das palmas.',
+  descEs: 'Un clásico, responde por turnos sin repetir ni dudar.',
+  descEn: 'A classic! Take turns answering without repeating or hesitating.',
+  descPt: 'Um clássico! Respondam por turnos, sem repetir nem hesitar.',
   howToPlayEs: [
     'La carta propone un tema (ej. marcas, países o temas de fiesta). Quien empieza marca el ritmo.',
     'Cada jugador debe decir un elemento válido en sentido horario. Si alguien repite, tarda o se equivoca: ¡Alguien falló!',

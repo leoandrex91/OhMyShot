@@ -6,7 +6,7 @@
 
 export const quienEsMasProbableCards = [
   {
-    "id": 1851,
+    "id": "qmp_1",
     "intensidad": 1,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que organice un plan espontáneo que termine siendo inolvidable?",
@@ -16,7 +16,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1852,
+    "id": "qmp_2",
     "intensidad": 1,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que llegue demasiado temprano y espere afuera para disimular?",
@@ -26,7 +26,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1853,
+    "id": "qmp_3",
     "intensidad": 1,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que recuerde todos los cumpleaños sin usar recordatorios?",
@@ -36,7 +36,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1854,
+    "id": "qmp_4",
     "intensidad": 1,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que busque su teléfono mientras lo tiene en la mano?",
@@ -46,7 +46,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1855,
+    "id": "qmp_5",
     "intensidad": 1,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que tenga una risa tan contagiosa que haga reír a todo el grupo?",
@@ -56,7 +56,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1856,
+    "id": "qmp_6",
     "intensidad": 1,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que termine siendo el DJ oficial de cualquier reunión?",
@@ -66,7 +66,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1857,
+    "id": "qmp_7",
     "intensidad": 1,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que haga amistad con alguien mientras espera en una fila?",
@@ -76,7 +76,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1858,
+    "id": "qmp_8",
     "intensidad": 1,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que lleve comida extra por si alguien más tiene hambre?",
@@ -86,7 +86,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1859,
+    "id": "qmp_9",
     "intensidad": 1,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que convierta una salida aburrida en una buena anécdota?",
@@ -96,7 +96,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1860,
+    "id": "qmp_10",
     "intensidad": 1,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que tome fotos de todo aunque nadie se las haya pedido?",
@@ -106,7 +106,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1861,
+    "id": "qmp_11",
     "intensidad": 1,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que resuelva primero un problema tecnológico del grupo?",
@@ -116,7 +116,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1862,
+    "id": "qmp_12",
     "intensidad": 1,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que se sepa completa la letra de una canción antigua?",
@@ -126,7 +126,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1863,
+    "id": "qmp_13",
     "intensidad": 1,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que proponga un juego de mesa cuando nadie sabe qué hacer?",
@@ -136,7 +136,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1864,
+    "id": "qmp_14",
     "intensidad": 1,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que adopte una mascota de manera impulsiva?",
@@ -146,7 +146,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1865,
+    "id": "qmp_15",
     "intensidad": 1,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que lleve siempre un cargador que termina prestando a todos?",
@@ -156,7 +156,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1866,
+    "id": "qmp_16",
     "intensidad": 1,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que se quede dormido durante la película que eligió?",
@@ -166,7 +166,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1867,
+    "id": "qmp_17",
     "intensidad": 1,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que cuente una historia que el grupo ya ha escuchado varias veces?",
@@ -176,7 +176,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1868,
+    "id": "qmp_18",
     "intensidad": 1,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que sobreviva mejor una semana sin redes sociales?",
@@ -186,7 +186,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1869,
+    "id": "qmp_19",
     "intensidad": 1,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que cocine algo para compartir sin que se lo pidan?",
@@ -196,7 +196,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1870,
+    "id": "qmp_20",
     "intensidad": 1,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que cree un chat nuevo para organizar un solo plan?",
@@ -206,7 +206,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1871,
+    "id": "qmp_21",
     "intensidad": 1,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que envíe un meme al grupo en plena madrugada?",
@@ -216,7 +216,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1872,
+    "id": "qmp_22",
     "intensidad": 1,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que se pierda incluso usando un mapa?",
@@ -226,7 +226,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1873,
+    "id": "qmp_23",
     "intensidad": 1,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que prepare un itinerario demasiado detallado para un paseo corto?",
@@ -236,7 +236,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1874,
+    "id": "qmp_24",
     "intensidad": 1,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que mantenga la calma cuando un viaje se retrasa?",
@@ -246,7 +246,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1875,
+    "id": "qmp_25",
     "intensidad": 1,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que guarde recuerdos pequeños de cada salida?",
@@ -256,7 +256,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1876,
+    "id": "qmp_26",
     "intensidad": 1,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que termine hablando con un animal durante una reunión?",
@@ -266,7 +266,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1877,
+    "id": "qmp_27",
     "intensidad": 1,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que gane una ronda de preguntas de cultura general?",
@@ -276,7 +276,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1878,
+    "id": "qmp_28",
     "intensidad": 1,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que sea la primera persona en salir a bailar?",
@@ -286,7 +286,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1879,
+    "id": "qmp_29",
     "intensidad": 1,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que convenza al grupo de pedir postre aunque todos estén llenos?",
@@ -296,7 +296,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1880,
+    "id": "qmp_30",
     "intensidad": 1,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que organice la próxima reunión antes de que termine la actual?",
@@ -306,7 +306,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1881,
+    "id": "qmp_31",
     "intensidad": 2,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que llegue a un evento el día equivocado?",
@@ -316,7 +316,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1882,
+    "id": "qmp_32",
     "intensidad": 2,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que salude con entusiasmo a una persona desconocida?",
@@ -326,7 +326,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1883,
+    "id": "qmp_33",
     "intensidad": 2,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que olvide la billetera después de haber pedido?",
@@ -336,7 +336,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1884,
+    "id": "qmp_34",
     "intensidad": 2,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que tropiece justo al entrar intentando verse elegante?",
@@ -346,7 +346,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1885,
+    "id": "qmp_35",
     "intensidad": 2,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que envíe un mensaje comprometedor al grupo equivocado?",
@@ -356,7 +356,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1886,
+    "id": "qmp_36",
     "intensidad": 2,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que se quede dormido el día de un plan que él mismo organizó?",
@@ -366,7 +366,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1887,
+    "id": "qmp_37",
     "intensidad": 2,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que se ría en el peor momento posible?",
@@ -376,7 +376,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1888,
+    "id": "qmp_38",
     "intensidad": 2,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que pierda las llaves y las encuentre en un lugar evidente?",
@@ -386,7 +386,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1889,
+    "id": "qmp_39",
     "intensidad": 2,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que interprete mal por completo el código de vestimenta?",
@@ -396,7 +396,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1890,
+    "id": "qmp_40",
     "intensidad": 2,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que sea descubierto cantando a solas con demasiada emoción?",
@@ -406,7 +406,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1891,
+    "id": "qmp_41",
     "intensidad": 2,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que invente la excusa más creativa para explicar un retraso?",
@@ -416,7 +416,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1892,
+    "id": "qmp_42",
     "intensidad": 2,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que arruine una comida que solo necesitaba calentarse?",
@@ -426,7 +426,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1893,
+    "id": "qmp_43",
     "intensidad": 2,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que inicie un baile sin darse cuenta de que todos lo miran?",
@@ -436,7 +436,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1894,
+    "id": "qmp_44",
     "intensidad": 2,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que tome cien fotos para terminar publicando una sola?",
@@ -446,7 +446,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1895,
+    "id": "qmp_45",
     "intensidad": 2,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que crea una noticia absurda antes de comprobarla?",
@@ -456,7 +456,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1896,
+    "id": "qmp_46",
     "intensidad": 2,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que llame a alguien por el nombre equivocado varias veces?",
@@ -466,7 +466,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1897,
+    "id": "qmp_47",
     "intensidad": 2,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que intente abrir el automóvil de otra persona?",
@@ -476,7 +476,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1898,
+    "id": "qmp_48",
     "intensidad": 2,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que entienda al revés una instrucción muy clara?",
@@ -486,7 +486,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1899,
+    "id": "qmp_49",
     "intensidad": 2,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que desaparezca de una fiesta sin despedirse?",
@@ -496,7 +496,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1900,
+    "id": "qmp_50",
     "intensidad": 2,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que se vuelva viral accidentalmente por algo ridículo?",
@@ -506,7 +506,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1901,
+    "id": "qmp_51",
     "intensidad": 2,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que derrame su bebida en medio de un brindis?",
@@ -516,7 +516,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1902,
+    "id": "qmp_52",
     "intensidad": 2,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que desafíe a una persona desconocida a un juego?",
@@ -526,7 +526,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1903,
+    "id": "qmp_53",
     "intensidad": 2,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que se quede dormido en plena reunión?",
@@ -536,7 +536,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1904,
+    "id": "qmp_54",
     "intensidad": 2,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que pida lo más extraño del menú solo por curiosidad?",
@@ -546,7 +546,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1905,
+    "id": "qmp_55",
     "intensidad": 2,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que se ría más fuerte de su propio chiste?",
@@ -556,7 +556,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1906,
+    "id": "qmp_56",
     "intensidad": 2,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que olvide el nombre de alguien inmediatamente después de conocerlo?",
@@ -566,7 +566,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1907,
+    "id": "qmp_57",
     "intensidad": 2,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que lleve al viaje el objeto menos útil posible?",
@@ -576,7 +576,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1908,
+    "id": "qmp_58",
     "intensidad": 2,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que rompa algo y trate de repararlo sin que nadie se entere?",
@@ -586,7 +586,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1909,
+    "id": "qmp_59",
     "intensidad": 2,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que inicie una broma que termine siendo tomada en serio?",
@@ -596,7 +596,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1910,
+    "id": "qmp_60",
     "intensidad": 2,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que convierta un problema mínimo en una historia épica?",
@@ -606,7 +606,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1911,
+    "id": "qmp_61",
     "intensidad": 3,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que cancele un plan y pase la noche feliz en casa?",
@@ -616,7 +616,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1912,
+    "id": "qmp_62",
     "intensidad": 3,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que mantenga silenciado el chat grupal durante semanas?",
@@ -626,7 +626,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1913,
+    "id": "qmp_63",
     "intensidad": 3,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que revise un perfil tan antiguo que corra el riesgo de dar «me gusta»?",
@@ -636,7 +636,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1914,
+    "id": "qmp_64",
     "intensidad": 3,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que conozca todos los chismes y aun así no revele ninguno?",
@@ -646,7 +646,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1915,
+    "id": "qmp_65",
     "intensidad": 3,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que invente la mejor excusa cuando no quiere salir?",
@@ -656,7 +656,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1916,
+    "id": "qmp_66",
     "intensidad": 3,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que elija dónde sentarse únicamente para evitar a alguien?",
@@ -666,7 +666,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1917,
+    "id": "qmp_67",
     "intensidad": 3,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que termine siendo amigo del anfitrión antes de acabar la fiesta?",
@@ -676,7 +676,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1918,
+    "id": "qmp_68",
     "intensidad": 3,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que desaparezca de una reunión sin que nadie note cuándo se fue?",
@@ -686,7 +686,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1919,
+    "id": "qmp_69",
     "intensidad": 3,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que guarde un secreto aunque todo el grupo insista?",
@@ -696,7 +696,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1920,
+    "id": "qmp_70",
     "intensidad": 3,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que sienta celos por no haber sido invitado a un plan?",
@@ -706,7 +706,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1921,
+    "id": "qmp_71",
     "intensidad": 3,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que tome una captura de pantalla de casi cualquier conversación?",
@@ -716,7 +716,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1922,
+    "id": "qmp_72",
     "intensidad": 3,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que analice demasiado un mensaje de dos palabras?",
@@ -726,7 +726,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1923,
+    "id": "qmp_73",
     "intensidad": 3,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que escriba y borre el mismo mensaje muchas veces?",
@@ -736,7 +736,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1924,
+    "id": "qmp_74",
     "intensidad": 3,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que pida perdón primero para terminar una discusión?",
@@ -746,7 +746,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1925,
+    "id": "qmp_75",
     "intensidad": 3,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que guarde rencor por algo pequeño durante demasiado tiempo?",
@@ -756,7 +756,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1926,
+    "id": "qmp_76",
     "intensidad": 3,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que defienda a un amigo incluso cuando no está presente?",
@@ -766,7 +766,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1927,
+    "id": "qmp_77",
     "intensidad": 3,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que acepte una idea solo para evitar un conflicto?",
@@ -776,7 +776,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1928,
+    "id": "qmp_78",
     "intensidad": 3,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que llore con una película que nadie más considera triste?",
@@ -786,7 +786,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1929,
+    "id": "qmp_79",
     "intensidad": 3,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que se convierta en terapeuta improvisado del grupo?",
@@ -796,7 +796,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1930,
+    "id": "qmp_80",
     "intensidad": 3,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que haga una compra impulsiva y luego intente justificarla?",
@@ -806,7 +806,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1931,
+    "id": "qmp_81",
     "intensidad": 3,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que se arrepienta de un cambio de apariencia al día siguiente?",
@@ -816,7 +816,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1932,
+    "id": "qmp_82",
     "intensidad": 3,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que cambie de opinión después de una discusión convincente?",
@@ -826,7 +826,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1933,
+    "id": "qmp_83",
     "intensidad": 3,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que conserve conversaciones antiguas durante años?",
@@ -836,7 +836,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1934,
+    "id": "qmp_84",
     "intensidad": 3,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que detecte primero que alguien está mintiendo?",
@@ -846,7 +846,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1935,
+    "id": "qmp_85",
     "intensidad": 3,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que note antes que nadie cuando el ambiente se pone incómodo?",
@@ -856,7 +856,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1936,
+    "id": "qmp_86",
     "intensidad": 3,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que arruine una sorpresa sin intención?",
@@ -866,7 +866,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1937,
+    "id": "qmp_87",
     "intensidad": 3,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que inicie una conversación profunda a medianoche?",
@@ -876,7 +876,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1938,
+    "id": "qmp_88",
     "intensidad": 3,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que juzgue a alguien por su gusto musical?",
@@ -886,7 +886,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1939,
+    "id": "qmp_89",
     "intensidad": 3,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que proponga un viaje que nunca llegue a realizarse?",
@@ -896,7 +896,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1940,
+    "id": "qmp_90",
     "intensidad": 3,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que termine mediando una discusión que no tenía nada que ver con él?",
@@ -906,7 +906,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1941,
+    "id": "qmp_91",
     "intensidad": 4,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que coquetee sin darse cuenta de que lo está haciendo?",
@@ -916,7 +916,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1942,
+    "id": "qmp_92",
     "intensidad": 4,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que se enamore de una amistad cercana?",
@@ -926,7 +926,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1943,
+    "id": "qmp_93",
     "intensidad": 4,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que envíe un audio sobre alguien a esa misma persona?",
@@ -936,7 +936,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1944,
+    "id": "qmp_94",
     "intensidad": 4,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que finja recordar a alguien que no reconoce?",
@@ -946,7 +946,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1945,
+    "id": "qmp_95",
     "intensidad": 4,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que use a un amigo como excusa para evitar una situación?",
@@ -956,7 +956,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1946,
+    "id": "qmp_96",
     "intensidad": 4,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que cancele un plan por miedo a una conversación incómoda?",
@@ -966,7 +966,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1947,
+    "id": "qmp_97",
     "intensidad": 4,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que ensaye lo que dirá antes de una cita?",
@@ -976,7 +976,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1948,
+    "id": "qmp_98",
     "intensidad": 4,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que revise repetidamente el perfil de una expareja?",
@@ -986,7 +986,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1949,
+    "id": "qmp_99",
     "intensidad": 4,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que finja que le encanta un regalo que no usaría?",
@@ -996,7 +996,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1950,
+    "id": "qmp_100",
     "intensidad": 4,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que olvide una fecha importante y trate de improvisar?",
@@ -1006,7 +1006,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1951,
+    "id": "qmp_101",
     "intensidad": 4,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que sea descubierto en una mentira pequeña por dar demasiados detalles?",
@@ -1016,7 +1016,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1952,
+    "id": "qmp_102",
     "intensidad": 4,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que oculte durante meses quién le gusta?",
@@ -1026,7 +1026,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1953,
+    "id": "qmp_103",
     "intensidad": 4,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que niegue sentir celos aunque sean evidentes?",
@@ -1036,7 +1036,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1954,
+    "id": "qmp_104",
     "intensidad": 4,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que publique una indirecta demasiado obvia?",
@@ -1046,7 +1046,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1955,
+    "id": "qmp_105",
     "intensidad": 4,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que bloquee y desbloquee a alguien en el mismo día?",
@@ -1056,7 +1056,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1956,
+    "id": "qmp_106",
     "intensidad": 4,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que deje un mensaje en visto deliberadamente?",
@@ -1066,7 +1066,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1957,
+    "id": "qmp_107",
     "intensidad": 4,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que actúe distante para llamar la atención?",
@@ -1076,7 +1076,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1958,
+    "id": "qmp_108",
     "intensidad": 4,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que se encariñe después de una sola cita?",
@@ -1086,7 +1086,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1959,
+    "id": "qmp_109",
     "intensidad": 4,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que confunda amabilidad con coqueteo?",
@@ -1096,7 +1096,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1960,
+    "id": "qmp_110",
     "intensidad": 4,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que finja recibir una llamada para escapar de una cita?",
@@ -1106,7 +1106,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1961,
+    "id": "qmp_111",
     "intensidad": 4,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que haga un comentario inoportuno durante un momento serio?",
@@ -1116,7 +1116,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1962,
+    "id": "qmp_112",
     "intensidad": 4,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que diga «te quiero» demasiado pronto?",
@@ -1126,7 +1126,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1963,
+    "id": "qmp_113",
     "intensidad": 4,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que invente un apodo secreto para alguien del grupo?",
@@ -1136,7 +1136,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1964,
+    "id": "qmp_114",
     "intensidad": 4,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que hable de alguien justo antes de que esa persona aparezca?",
@@ -1146,7 +1146,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1965,
+    "id": "qmp_115",
     "intensidad": 4,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que soporte por más tiempo un silencio incómodo?",
@@ -1156,7 +1156,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1966,
+    "id": "qmp_116",
     "intensidad": 4,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que envíe un mensaje y se arrepienta inmediatamente?",
@@ -1166,7 +1166,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1967,
+    "id": "qmp_117",
     "intensidad": 4,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que finja estar ocupado para evitar a una persona?",
@@ -1176,7 +1176,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1968,
+    "id": "qmp_118",
     "intensidad": 4,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que investigue todos los detalles posibles antes de una cita?",
@@ -1186,7 +1186,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1969,
+    "id": "qmp_119",
     "intensidad": 4,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que meta al grupo en una situación incómoda por accidente?",
@@ -1196,7 +1196,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1970,
+    "id": "qmp_120",
     "intensidad": 4,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que termine confesando algo que había prometido guardar?",
@@ -1206,7 +1206,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1971,
+    "id": "qmp_121",
     "intensidad": 5,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que bese a alguien durante una fiesta?",
@@ -1216,7 +1216,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1972,
+    "id": "qmp_122",
     "intensidad": 5,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que coquetee solo para recibir una bebida o atención?",
@@ -1226,7 +1226,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1973,
+    "id": "qmp_123",
     "intensidad": 5,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que escriba a una expareja después de tomar?",
@@ -1236,7 +1236,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1974,
+    "id": "qmp_124",
     "intensidad": 5,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que permanezca en una fiesta únicamente para ver llegar a alguien?",
@@ -1246,7 +1246,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1975,
+    "id": "qmp_125",
     "intensidad": 5,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que tenga dos citas distintas en la misma semana?",
@@ -1256,7 +1256,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1976,
+    "id": "qmp_126",
     "intensidad": 5,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que desaparezca y luego vuelva como si nada hubiera pasado?",
@@ -1266,7 +1266,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1977,
+    "id": "qmp_127",
     "intensidad": 5,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que vuelva a escribir después de haber sido ignorado?",
@@ -1276,7 +1276,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1978,
+    "id": "qmp_128",
     "intensidad": 5,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que use una aplicación de citas durante un viaje?",
@@ -1286,7 +1286,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1979,
+    "id": "qmp_129",
     "intensidad": 5,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que se enamore de alguien del trabajo o de clase?",
@@ -1296,7 +1296,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1980,
+    "id": "qmp_130",
     "intensidad": 5,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que intente provocar celos deliberadamente?",
@@ -1306,7 +1306,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1981,
+    "id": "qmp_131",
     "intensidad": 5,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que bese a un amigo y complique la relación?",
@@ -1316,7 +1316,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1982,
+    "id": "qmp_132",
     "intensidad": 5,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que oculte una cita al resto del grupo?",
@@ -1326,7 +1326,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1983,
+    "id": "qmp_133",
     "intensidad": 5,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que termine una noche conversando con una persona que acababa de conocer?",
@@ -1336,7 +1336,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1984,
+    "id": "qmp_134",
     "intensidad": 5,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que confiese sus sentimientos después de beber?",
@@ -1346,7 +1346,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1985,
+    "id": "qmp_135",
     "intensidad": 5,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que olvide una promesa hecha durante una fiesta?",
@@ -1356,7 +1356,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1986,
+    "id": "qmp_136",
     "intensidad": 5,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que pierda el teléfono en plena reunión?",
@@ -1366,7 +1366,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1987,
+    "id": "qmp_137",
     "intensidad": 5,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que se convierta inesperadamente en la estrella del karaoke?",
@@ -1376,7 +1376,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1988,
+    "id": "qmp_138",
     "intensidad": 5,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que sea quien inicie la pista de baile?",
@@ -1386,7 +1386,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1989,
+    "id": "qmp_139",
     "intensidad": 5,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que invente un juego de tomar sobre la marcha?",
@@ -1396,7 +1396,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1990,
+    "id": "qmp_140",
     "intensidad": 5,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que haga un brindis demasiado emotivo?",
@@ -1406,7 +1406,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1991,
+    "id": "qmp_141",
     "intensidad": 5,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que revele un secreto después de un par de tragos?",
@@ -1416,7 +1416,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1992,
+    "id": "qmp_142",
     "intensidad": 5,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que proponga el reto más arriesgado de la noche?",
@@ -1426,7 +1426,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1993,
+    "id": "qmp_143",
     "intensidad": 5,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que invite una ronda sin revisar cuánto dinero tiene?",
@@ -1436,7 +1436,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1994,
+    "id": "qmp_144",
     "intensidad": 5,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que finja estar completamente sobrio?",
@@ -1446,7 +1446,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1995,
+    "id": "qmp_145",
     "intensidad": 5,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que proponga continuar la fiesta en otro lugar?",
@@ -1456,7 +1456,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1996,
+    "id": "qmp_146",
     "intensidad": 5,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que se quede despierto hasta ver amanecer?",
@@ -1466,7 +1466,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1997,
+    "id": "qmp_147",
     "intensidad": 5,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que se arrepienta al día siguiente de una historia publicada?",
@@ -1476,7 +1476,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1998,
+    "id": "qmp_148",
     "intensidad": 5,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que llame a un antiguo amor en plena madrugada?",
@@ -1486,7 +1486,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 1999,
+    "id": "qmp_149",
     "intensidad": 5,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que termine la noche buscando comida callejera?",
@@ -1496,7 +1496,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2000,
+    "id": "qmp_150",
     "intensidad": 5,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que tenga la mejor historia sobre una cita desastrosa?",
@@ -1506,7 +1506,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2001,
+    "id": "qmp_151",
     "intensidad": 6,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que vuelva con una expareja a pesar de todas las advertencias?",
@@ -1516,7 +1516,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2002,
+    "id": "qmp_152",
     "intensidad": 6,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que mantenga a alguien como segunda opción?",
@@ -1526,7 +1526,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2003,
+    "id": "qmp_153",
     "intensidad": 6,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que oculte que sigue hablando con una expareja?",
@@ -1536,7 +1536,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2004,
+    "id": "qmp_154",
     "intensidad": 6,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que borre mensajes para evitar preguntas?",
@@ -1546,7 +1546,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2005,
+    "id": "qmp_155",
     "intensidad": 6,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que diga que quiere algo casual cuando busca una relación?",
@@ -1556,7 +1556,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2006,
+    "id": "qmp_156",
     "intensidad": 6,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que diga que quiere algo serio aunque todavía tenga dudas?",
@@ -1566,7 +1566,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2007,
+    "id": "qmp_157",
     "intensidad": 6,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que salga con alguien pese a notar señales de alerta?",
@@ -1576,7 +1576,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2008,
+    "id": "qmp_158",
     "intensidad": 6,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que revise una notificación ajena sin permiso?",
@@ -1586,7 +1586,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2009,
+    "id": "qmp_159",
     "intensidad": 6,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que mienta sobre dónde estuvo o con quién?",
@@ -1596,7 +1596,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2010,
+    "id": "qmp_160",
     "intensidad": 6,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que guarde en secreto un regalo de una expareja?",
@@ -1606,7 +1606,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2011,
+    "id": "qmp_161",
     "intensidad": 6,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que compare a su pareja actual con una anterior?",
@@ -1616,7 +1616,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2012,
+    "id": "qmp_162",
     "intensidad": 6,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que se enamore de alguien emocionalmente no disponible?",
@@ -1626,7 +1626,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2013,
+    "id": "qmp_163",
     "intensidad": 6,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que confunda nombres en un momento romántico?",
@@ -1636,7 +1636,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2014,
+    "id": "qmp_164",
     "intensidad": 6,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que salga con alguien que no agrada a ninguno de sus amigos?",
@@ -1646,7 +1646,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2015,
+    "id": "qmp_165",
     "intensidad": 6,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que dé el primer paso sin estar seguro de ser correspondido?",
@@ -1656,7 +1656,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2016,
+    "id": "qmp_166",
     "intensidad": 6,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que confiese sus sentimientos mediante un mensaje?",
@@ -1666,7 +1666,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2017,
+    "id": "qmp_167",
     "intensidad": 6,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que desaparezca en lugar de rechazar directamente?",
@@ -1676,7 +1676,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2018,
+    "id": "qmp_168",
     "intensidad": 6,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que prometa exclusividad antes de estar preparado?",
@@ -1686,7 +1686,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2019,
+    "id": "qmp_169",
     "intensidad": 6,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que sea descubierto coqueteando?",
@@ -1696,7 +1696,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2020,
+    "id": "qmp_170",
     "intensidad": 6,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que mantenga una relación en secreto?",
@@ -1706,7 +1706,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2021,
+    "id": "qmp_171",
     "intensidad": 6,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que intente sostener una relación a distancia contra todo pronóstico?",
@@ -1716,7 +1716,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2022,
+    "id": "qmp_172",
     "intensidad": 6,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que sienta celos y lo niegue hasta el final?",
@@ -1726,7 +1726,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2023,
+    "id": "qmp_173",
     "intensidad": 6,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que pida a sus amigos que investiguen a la persona que le gusta?",
@@ -1736,7 +1736,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2024,
+    "id": "qmp_174",
     "intensidad": 6,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que se reconcilie después de una discusión enorme?",
@@ -1746,7 +1746,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2025,
+    "id": "qmp_175",
     "intensidad": 6,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que elija una relación por encima de una amistad?",
@@ -1756,7 +1756,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2026,
+    "id": "qmp_176",
     "intensidad": 6,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que termine una relación y se arrepienta enseguida?",
@@ -1766,7 +1766,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2027,
+    "id": "qmp_177",
     "intensidad": 6,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que continúe con alguien por miedo a quedarse solo?",
@@ -1776,7 +1776,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2028,
+    "id": "qmp_178",
     "intensidad": 6,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que conserve fotos de una expareja durante años?",
@@ -1786,7 +1786,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2029,
+    "id": "qmp_179",
     "intensidad": 6,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que crea sinceramente que puede cambiar a otra persona?",
@@ -1796,7 +1796,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2030,
+    "id": "qmp_180",
     "intensidad": 6,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que espere que alguien adivine sus sentimientos sin hablar?",
@@ -1806,7 +1806,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2031,
+    "id": "qmp_181",
     "intensidad": 7,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que bese a dos personas del mismo grupo?",
@@ -1816,7 +1816,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2032,
+    "id": "qmp_182",
     "intensidad": 7,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que salga con la expareja de un amigo?",
@@ -1826,7 +1826,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2033,
+    "id": "qmp_183",
     "intensidad": 7,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que se sienta atraído por la pareja de una persona cercana?",
@@ -1836,7 +1836,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2034,
+    "id": "qmp_184",
     "intensidad": 7,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que confiese algo importante y luego apague el teléfono?",
@@ -1846,7 +1846,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2035,
+    "id": "qmp_185",
     "intensidad": 7,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que vuelva varias veces con la misma relación complicada?",
@@ -1856,7 +1856,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2036,
+    "id": "qmp_186",
     "intensidad": 7,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que diga el nombre equivocado en un momento romántico?",
@@ -1866,7 +1866,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2037,
+    "id": "qmp_187",
     "intensidad": 7,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que mienta sobre su estado sentimental?",
@@ -1876,7 +1876,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2038,
+    "id": "qmp_188",
     "intensidad": 7,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que descubra demasiado tarde que era la otra persona?",
@@ -1886,7 +1886,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2039,
+    "id": "qmp_189",
     "intensidad": 7,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que continúe una relación pese a señales de alerta evidentes?",
@@ -1896,7 +1896,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2040,
+    "id": "qmp_190",
     "intensidad": 7,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que oculte una relación completa al grupo?",
@@ -1906,7 +1906,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2041,
+    "id": "qmp_191",
     "intensidad": 7,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que use a una tercera persona para provocar celos?",
@@ -1916,7 +1916,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2042,
+    "id": "qmp_192",
     "intensidad": 7,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que publique una historia dirigida a una sola persona?",
@@ -1926,7 +1926,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2043,
+    "id": "qmp_193",
     "intensidad": 7,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que bloquee y desbloquee a alguien por impulso?",
@@ -1936,7 +1936,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2044,
+    "id": "qmp_194",
     "intensidad": 7,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que revise la actividad de alguien para saber con quién está?",
@@ -1946,7 +1946,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2045,
+    "id": "qmp_195",
     "intensidad": 7,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que bese a alguien por un reto y termine sintiendo algo?",
@@ -1956,7 +1956,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2046,
+    "id": "qmp_196",
     "intensidad": 7,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que rechace a alguien y luego sienta celos?",
@@ -1966,7 +1966,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2047,
+    "id": "qmp_197",
     "intensidad": 7,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que ignore todas las advertencias de sus amigos sobre una pareja?",
@@ -1976,7 +1976,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2048,
+    "id": "qmp_198",
     "intensidad": 7,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que mantenga un amor secreto durante años?",
@@ -1986,7 +1986,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2049,
+    "id": "qmp_199",
     "intensidad": 7,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que finja indiferencia después de un rechazo?",
@@ -1996,7 +1996,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2050,
+    "id": "qmp_200",
     "intensidad": 7,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que compita con un amigo por la atención de alguien?",
@@ -2006,7 +2006,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2051,
+    "id": "qmp_201",
     "intensidad": 7,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que cancele planes importantes por una cita?",
@@ -2016,7 +2016,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2052,
+    "id": "qmp_202",
     "intensidad": 7,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que use una aplicación de citas durante una pausa de pareja?",
@@ -2026,7 +2026,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2053,
+    "id": "qmp_203",
     "intensidad": 7,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que mantenga dos conversaciones románticas al mismo tiempo?",
@@ -2036,7 +2036,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2054,
+    "id": "qmp_204",
     "intensidad": 7,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que prometa exclusividad sin estar realmente preparado?",
@@ -2046,7 +2046,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2055,
+    "id": "qmp_205",
     "intensidad": 7,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que niegue unos celos que todo el mundo nota?",
@@ -2056,7 +2056,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2056,
+    "id": "qmp_206",
     "intensidad": 7,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que imagine una relación con su mejor amigo?",
@@ -2066,7 +2066,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2057,
+    "id": "qmp_207",
     "intensidad": 7,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que oculte un beso capaz de cambiar la dinámica del grupo?",
@@ -2076,7 +2076,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2058,
+    "id": "qmp_208",
     "intensidad": 7,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que retome una conversación solo por sentirse solo?",
@@ -2086,7 +2086,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2059,
+    "id": "qmp_209",
     "intensidad": 7,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que mienta sobre dónde pasó la noche?",
@@ -2096,7 +2096,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2060,
+    "id": "qmp_210",
     "intensidad": 7,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que se arrepienta durante años de no haber besado a alguien?",
@@ -2106,7 +2106,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2061,
+    "id": "qmp_211",
     "intensidad": 8,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que lea una conversación privada que no estaba dirigida a él?",
@@ -2116,7 +2116,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2062,
+    "id": "qmp_212",
     "intensidad": 8,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que comparta un secreto asegurando que no dará nombres?",
@@ -2126,7 +2126,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2063,
+    "id": "qmp_213",
     "intensidad": 8,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que omita una verdad importante para proteger su imagen?",
@@ -2136,7 +2136,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2064,
+    "id": "qmp_214",
     "intensidad": 8,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que permita que otra persona cargue con una culpa ajena?",
@@ -2146,7 +2146,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2065,
+    "id": "qmp_215",
     "intensidad": 8,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que cuente una versión manipulada de un conflicto?",
@@ -2156,7 +2156,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2066,
+    "id": "qmp_216",
     "intensidad": 8,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que guarde una captura para usarla en una discusión futura?",
@@ -2166,7 +2166,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2067,
+    "id": "qmp_217",
     "intensidad": 8,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que mienta para evitar una consecuencia que afectará a alguien más?",
@@ -2176,7 +2176,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2068,
+    "id": "qmp_218",
     "intensidad": 8,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que confronte a alguien por un rumor sin comprobarlo?",
@@ -2186,7 +2186,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2069,
+    "id": "qmp_219",
     "intensidad": 8,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que niegue algo evidente hasta que aparezcan pruebas?",
@@ -2196,7 +2196,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2070,
+    "id": "qmp_220",
     "intensidad": 8,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que use información confidencial durante una pelea?",
@@ -2206,7 +2206,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2071,
+    "id": "qmp_221",
     "intensidad": 8,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que oculte a un amigo una traición que le afecta?",
@@ -2216,7 +2216,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2072,
+    "id": "qmp_222",
     "intensidad": 8,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que defienda a alguien en público y lo critique en privado?",
@@ -2226,7 +2226,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2073,
+    "id": "qmp_223",
     "intensidad": 8,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que prometa guardar un secreto y termine contándolo?",
@@ -2236,7 +2236,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2074,
+    "id": "qmp_224",
     "intensidad": 8,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que diga que perdonó algo y lo use después como argumento?",
@@ -2246,7 +2246,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2075,
+    "id": "qmp_225",
     "intensidad": 8,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que mantenga contacto con alguien pese a saber que causa problemas?",
@@ -2256,7 +2256,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2076,
+    "id": "qmp_226",
     "intensidad": 8,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que rompa un pacto que él mismo propuso?",
@@ -2266,7 +2266,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2077,
+    "id": "qmp_227",
     "intensidad": 8,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que finja sorpresa ante un secreto que ya conoce?",
@@ -2276,7 +2276,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2078,
+    "id": "qmp_228",
     "intensidad": 8,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que intente poner al grupo en contra de alguien?",
@@ -2286,7 +2286,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2079,
+    "id": "qmp_229",
     "intensidad": 8,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que excluya deliberadamente a una persona de un plan?",
@@ -2296,7 +2296,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2080,
+    "id": "qmp_230",
     "intensidad": 8,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que guarde silencio ante una situación injusta?",
@@ -2306,7 +2306,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2081,
+    "id": "qmp_231",
     "intensidad": 8,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que use la culpa para conseguir lo que quiere?",
@@ -2316,7 +2316,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2082,
+    "id": "qmp_232",
     "intensidad": 8,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que pida perdón solo por miedo a perder a alguien?",
@@ -2326,7 +2326,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2083,
+    "id": "qmp_233",
     "intensidad": 8,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que mantenga dos versiones incompatibles de la misma historia?",
@@ -2336,7 +2336,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2084,
+    "id": "qmp_234",
     "intensidad": 8,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que borre pruebas para sostener una mentira?",
@@ -2346,7 +2346,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2085,
+    "id": "qmp_235",
     "intensidad": 8,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que mienta incluso ante una pregunta directa?",
@@ -2356,7 +2356,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2086,
+    "id": "qmp_236",
     "intensidad": 8,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que deje crecer un rumor porque le beneficia?",
@@ -2366,7 +2366,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2087,
+    "id": "qmp_237",
     "intensidad": 8,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que use una inseguridad ajena como parte de una broma?",
@@ -2376,7 +2376,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2088,
+    "id": "qmp_238",
     "intensidad": 8,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que tome una decisión importante por todo el grupo sin consultar?",
@@ -2386,7 +2386,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2089,
+    "id": "qmp_239",
     "intensidad": 8,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que mantenga una amistad únicamente por conveniencia?",
@@ -2396,7 +2396,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2090,
+    "id": "qmp_240",
     "intensidad": 8,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que ponga a prueba la lealtad de alguien sin avisarle?",
@@ -2406,7 +2406,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2091,
+    "id": "qmp_241",
     "intensidad": 9,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que sea infiel en una relación?",
@@ -2416,7 +2416,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2092,
+    "id": "qmp_242",
     "intensidad": 9,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que ayude a ocultar una infidelidad?",
@@ -2426,7 +2426,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2093,
+    "id": "qmp_243",
     "intensidad": 9,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que salga con alguien sabiendo que tiene pareja?",
@@ -2436,7 +2436,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2094,
+    "id": "qmp_244",
     "intensidad": 9,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que traicione a su mejor amigo por una relación?",
@@ -2446,7 +2446,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2095,
+    "id": "qmp_245",
     "intensidad": 9,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que revele un secreto por venganza?",
@@ -2456,7 +2456,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2096,
+    "id": "qmp_246",
     "intensidad": 9,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que sabotee un plan por celos?",
@@ -2466,7 +2466,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2097,
+    "id": "qmp_247",
     "intensidad": 9,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que manipule una ruptura para parecer inocente?",
@@ -2476,7 +2476,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2098,
+    "id": "qmp_248",
     "intensidad": 9,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que use a alguien como relación de rebote?",
@@ -2486,7 +2486,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2099,
+    "id": "qmp_249",
     "intensidad": 9,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que mienta sobre una parte importante de su pasado?",
@@ -2496,7 +2496,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2100,
+    "id": "qmp_250",
     "intensidad": 9,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que mantenga una mentira durante años?",
@@ -2506,7 +2506,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2101,
+    "id": "qmp_251",
     "intensidad": 9,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que se atribuya el mérito del trabajo de otro?",
@@ -2516,7 +2516,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2102,
+    "id": "qmp_252",
     "intensidad": 9,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que elija popularidad por encima de una amistad?",
@@ -2526,7 +2526,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2103,
+    "id": "qmp_253",
     "intensidad": 9,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que abandone a un amigo durante una crisis?",
@@ -2536,7 +2536,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2104,
+    "id": "qmp_254",
     "intensidad": 9,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que culpe al alcohol por una decisión consciente?",
@@ -2546,7 +2546,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2105,
+    "id": "qmp_255",
     "intensidad": 9,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que vuelva a buscar a alguien solo porque necesita algo?",
@@ -2556,7 +2556,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2106,
+    "id": "qmp_256",
     "intensidad": 9,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que desaparezca para no asumir responsabilidad?",
@@ -2566,7 +2566,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2107,
+    "id": "qmp_257",
     "intensidad": 9,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que use una vulnerabilidad ajena para obtener ventaja?",
@@ -2576,7 +2576,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2108,
+    "id": "qmp_258",
     "intensidad": 9,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que amenace con irse para controlar una discusión?",
@@ -2586,7 +2586,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2109,
+    "id": "qmp_259",
     "intensidad": 9,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que haga que alguien dude de su propia versión?",
@@ -2596,7 +2596,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2110,
+    "id": "qmp_260",
     "intensidad": 9,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que contacte a una expareja para interferir en su relación?",
@@ -2606,7 +2606,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2111,
+    "id": "qmp_261",
     "intensidad": 9,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que oculte una atracción capaz de dividir al grupo?",
@@ -2616,7 +2616,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2112,
+    "id": "qmp_262",
     "intensidad": 9,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que perdone algo únicamente para conservar una ventaja?",
@@ -2626,7 +2626,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2113,
+    "id": "qmp_263",
     "intensidad": 9,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que defienda una mentira incluso después de ver las pruebas?",
@@ -2636,7 +2636,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2114,
+    "id": "qmp_264",
     "intensidad": 9,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que confiese la verdad solo porque fue descubierto?",
@@ -2646,7 +2646,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2115,
+    "id": "qmp_265",
     "intensidad": 9,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que pierda la confianza de todo el grupo?",
@@ -2656,7 +2656,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2116,
+    "id": "qmp_266",
     "intensidad": 9,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que presione a los amigos para que elijan un bando?",
@@ -2666,7 +2666,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2117,
+    "id": "qmp_267",
     "intensidad": 9,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que piense primero en sí mismo cuando alguien realmente lo necesita?",
@@ -2676,7 +2676,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2118,
+    "id": "qmp_268",
     "intensidad": 9,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que se arrepienta de decir la verdad solo por las consecuencias?",
@@ -2686,7 +2686,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2119,
+    "id": "qmp_269",
     "intensidad": 9,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que acepte el perdón sin haber contado toda la verdad?",
@@ -2696,7 +2696,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2120,
+    "id": "qmp_270",
     "intensidad": 9,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que tenga pendiente una disculpa realmente importante?",
@@ -2706,7 +2706,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2121,
+    "id": "qmp_271",
     "intensidad": 10,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que mantenga dos relaciones paralelas?",
@@ -2716,7 +2716,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2122,
+    "id": "qmp_272",
     "intensidad": 10,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que destruya una amistad de años por guardar un secreto?",
@@ -2726,7 +2726,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2123,
+    "id": "qmp_273",
     "intensidad": 10,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que lleve una doble vida sin que el grupo lo sospeche?",
@@ -2736,7 +2736,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2124,
+    "id": "qmp_274",
     "intensidad": 10,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que manipule a todo el grupo para proteger una mentira?",
@@ -2746,7 +2746,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2125,
+    "id": "qmp_275",
     "intensidad": 10,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que revele información íntima para salvarse?",
@@ -2756,7 +2756,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2126,
+    "id": "qmp_276",
     "intensidad": 10,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que provoque una ruptura y oculte su participación?",
@@ -2766,7 +2766,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2127,
+    "id": "qmp_277",
     "intensidad": 10,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que culpe deliberadamente a una persona inocente?",
@@ -2776,7 +2776,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2128,
+    "id": "qmp_278",
     "intensidad": 10,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que destruya pruebas para evitar una consecuencia grave?",
@@ -2786,7 +2786,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2129,
+    "id": "qmp_279",
     "intensidad": 10,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que niegue una relación por vergüenza?",
@@ -2796,7 +2796,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2130,
+    "id": "qmp_280",
     "intensidad": 10,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que mantenga a alguien como un secreto durante años?",
@@ -2806,7 +2806,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2131,
+    "id": "qmp_281",
     "intensidad": 10,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que oculte una verdad que cambiaría una decisión importante?",
@@ -2816,7 +2816,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2132,
+    "id": "qmp_282",
     "intensidad": 10,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que se aproveche de la vulnerabilidad de alguien?",
@@ -2826,7 +2826,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2133,
+    "id": "qmp_283",
     "intensidad": 10,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que repita conscientemente algo que ya causó mucho daño?",
@@ -2836,7 +2836,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2134,
+    "id": "qmp_284",
     "intensidad": 10,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que tome una decisión importante por venganza?",
@@ -2846,7 +2846,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2135,
+    "id": "qmp_285",
     "intensidad": 10,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que permita que alguien crea una historia falsa durante años?",
@@ -2856,7 +2856,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2136,
+    "id": "qmp_286",
     "intensidad": 10,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que confiese algo solo para aliviar su propia culpa?",
@@ -2866,7 +2866,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2137,
+    "id": "qmp_287",
     "intensidad": 10,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que pida perdón sin intención de reparar el daño?",
@@ -2876,7 +2876,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2138,
+    "id": "qmp_288",
     "intensidad": 10,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que pierda a la persona más cercana por orgullo?",
@@ -2886,7 +2886,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2139,
+    "id": "qmp_289",
     "intensidad": 10,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que elija una mentira sabiendo que destruirá la confianza?",
@@ -2896,7 +2896,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2140,
+    "id": "qmp_290",
     "intensidad": 10,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que abandone a alguien en el momento en que más lo necesita?",
@@ -2906,7 +2906,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2141,
+    "id": "qmp_291",
     "intensidad": 10,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que traicione un principio personal por obtener un beneficio?",
@@ -2916,7 +2916,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2142,
+    "id": "qmp_292",
     "intensidad": 10,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que sacrifique una amistad por un interés romántico?",
@@ -2926,7 +2926,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2143,
+    "id": "qmp_293",
     "intensidad": 10,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que use el amor como herramienta de presión?",
@@ -2936,7 +2936,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2144,
+    "id": "qmp_294",
     "intensidad": 10,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que finja sentimientos para no quedarse solo?",
@@ -2946,7 +2946,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2145,
+    "id": "qmp_295",
     "intensidad": 10,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que oculte algo capaz de cambiar para siempre una relación?",
@@ -2956,7 +2956,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2146,
+    "id": "qmp_296",
     "intensidad": 10,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que tenga más dificultades para perdonarse a sí mismo?",
@@ -2966,7 +2966,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2147,
+    "id": "qmp_297",
     "intensidad": 10,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que guarde una verdad que debería confesar esta noche?",
@@ -2976,7 +2976,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2148,
+    "id": "qmp_298",
     "intensidad": 10,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que sorprenda al grupo con la confesión más inesperada?",
@@ -2986,7 +2986,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2149,
+    "id": "qmp_299",
     "intensidad": 10,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que sea la persona que más secretos importantes conserva?",
@@ -2996,7 +2996,7 @@ export const quienEsMasProbableCards = [
     "participantes": "grupo"
   },
   {
-    "id": 2150,
+    "id": "qmp_300",
     "intensidad": 10,
     "tipo": "quien es más probable",
     "texto": "¿Quién es más probable que logre reconstruir una relación después de traicionar la confianza?",

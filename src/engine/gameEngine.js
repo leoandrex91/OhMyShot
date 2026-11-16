@@ -46,6 +46,7 @@ function pickEligiblePool(sourceDeck, usedIds, cap, playerCount, currentDrinks) 
   let pool = sourceDeck.filter(
     (card) =>
       !usedIds.has(card.id) &&
+      !usedIds.has(String(card.id)) &&
       card.intensity <= cap &&
       card.minPlayers <= playerCount
   );
@@ -92,8 +93,8 @@ export function drawNextTurnState({
   let nextUsedIds = [...usedIds];
   if (pool.length === 0) {
     // Reinicia baraja solo para las cartas del modo actual
-    const scopedIds = new Set(sourceDeck.map((c) => c.id));
-    nextUsedIds = nextUsedIds.filter((id) => !scopedIds.has(id));
+    const scopedIds = new Set(sourceDeck.map((c) => String(c.id)));
+    nextUsedIds = nextUsedIds.filter((id) => !scopedIds.has(String(id)));
     pool = pickEligiblePool(sourceDeck, new Set(nextUsedIds), cap, playerCount, currentDrinks);
   }
   if (pool.length === 0) {
@@ -101,7 +102,7 @@ export function drawNextTurnState({
   }
 
   const chosen = pool[Math.floor(Math.random() * pool.length)];
-  nextUsedIds.push(chosen.id);
+  nextUsedIds.push(String(chosen.id));
 
   const { currentName, otherName } = pickPlayersForTemplate(players, nextTurnIndex);
   const penaltyText = formatPenalty(chosen.penaltyUnits || 1, currentDrinks, lang);

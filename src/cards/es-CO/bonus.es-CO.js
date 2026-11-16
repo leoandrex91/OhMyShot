@@ -6,7 +6,7 @@
 
 export const bonusCards = [
   {
-    "id": "bonus_s_5",
+    "id": "bon_1",
     "intensidad": 1,
     "tipo": "bonus",
     "subtipo": "bonus_single",
@@ -26,7 +26,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_s_6",
+    "id": "bon_2",
     "intensidad": 2,
     "tipo": "bonus",
     "subtipo": "bonus_single",
@@ -46,7 +46,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_s_7",
+    "id": "bon_3",
     "intensidad": 3,
     "tipo": "bonus",
     "subtipo": "bonus_single",
@@ -66,7 +66,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_s_8",
+    "id": "bon_4",
     "intensidad": 4,
     "tipo": "bonus",
     "subtipo": "bonus_single",
@@ -86,7 +86,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_s_9",
+    "id": "bon_5",
     "intensidad": 5,
     "tipo": "bonus",
     "subtipo": "bonus_single",
@@ -106,7 +106,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_s_10",
+    "id": "bon_6",
     "intensidad": 6,
     "tipo": "bonus",
     "subtipo": "bonus_single",
@@ -126,7 +126,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_s_11",
+    "id": "bon_7",
     "intensidad": 7,
     "tipo": "bonus",
     "subtipo": "bonus_single",
@@ -146,7 +146,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_s_12",
+    "id": "bon_8",
     "intensidad": 8,
     "tipo": "bonus",
     "subtipo": "bonus_single",
@@ -166,7 +166,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_s_13",
+    "id": "bon_9",
     "intensidad": 9,
     "tipo": "bonus",
     "subtipo": "bonus_single",
@@ -186,7 +186,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_s_14",
+    "id": "bon_10",
     "intensidad": 10,
     "tipo": "bonus",
     "subtipo": "bonus_single",
@@ -206,7 +206,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_s_15",
+    "id": "bon_11",
     "intensidad": 1,
     "tipo": "bonus",
     "subtipo": "bonus_single",
@@ -226,7 +226,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_s_16",
+    "id": "bon_12",
     "intensidad": 2,
     "tipo": "bonus",
     "subtipo": "bonus_single",
@@ -246,7 +246,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_s_17",
+    "id": "bon_13",
     "intensidad": 3,
     "tipo": "bonus",
     "subtipo": "bonus_single",
@@ -266,7 +266,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_s_18",
+    "id": "bon_14",
     "intensidad": 4,
     "tipo": "bonus",
     "subtipo": "bonus_single",
@@ -286,7 +286,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_s_19",
+    "id": "bon_15",
     "intensidad": 5,
     "tipo": "bonus",
     "subtipo": "bonus_single",
@@ -306,7 +306,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_s_20",
+    "id": "bon_16",
     "intensidad": 6,
     "tipo": "bonus",
     "subtipo": "bonus_single",
@@ -326,7 +326,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_s_21",
+    "id": "bon_17",
     "intensidad": 7,
     "tipo": "bonus",
     "subtipo": "bonus_single",
@@ -346,7 +346,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_s_22",
+    "id": "bon_18",
     "intensidad": 8,
     "tipo": "bonus",
     "subtipo": "bonus_single",
@@ -366,7 +366,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_s_23",
+    "id": "bon_19",
     "intensidad": 9,
     "tipo": "bonus",
     "subtipo": "bonus_single",
@@ -386,7 +386,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_s_24",
+    "id": "bon_20",
     "intensidad": 10,
     "tipo": "bonus",
     "subtipo": "bonus_single",
@@ -406,7 +406,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_s_25",
+    "id": "bon_21",
     "intensidad": 1,
     "tipo": "bonus",
     "subtipo": "bonus_single",
@@ -426,7 +426,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_s_26",
+    "id": "bon_22",
     "intensidad": 2,
     "tipo": "bonus",
     "subtipo": "bonus_single",
@@ -446,7 +446,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_s_27",
+    "id": "bon_23",
     "intensidad": 3,
     "tipo": "bonus",
     "subtipo": "bonus_single",
@@ -466,7 +466,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_s_28",
+    "id": "bon_24",
     "intensidad": 4,
     "tipo": "bonus",
     "subtipo": "bonus_single",
@@ -486,7 +486,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_s_29",
+    "id": "bon_25",
     "intensidad": 5,
     "tipo": "bonus",
     "subtipo": "bonus_single",
@@ -506,7 +506,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_s_30",
+    "id": "bon_26",
     "intensidad": 6,
     "tipo": "bonus",
     "subtipo": "bonus_single",
@@ -526,7 +526,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_s_31",
+    "id": "bon_27",
     "intensidad": 7,
     "tipo": "bonus",
     "subtipo": "bonus_single",
@@ -546,7 +546,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_s_32",
+    "id": "bon_28",
     "intensidad": 8,
     "tipo": "bonus",
     "subtipo": "bonus_single",
@@ -566,7 +566,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_s_33",
+    "id": "bon_29",
     "intensidad": 9,
     "tipo": "bonus",
     "subtipo": "bonus_single",
@@ -586,7 +586,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_s_34",
+    "id": "bon_30",
     "intensidad": 10,
     "tipo": "bonus",
     "subtipo": "bonus_single",
@@ -606,7 +606,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_s_35",
+    "id": "bon_31",
     "intensidad": 1,
     "tipo": "bonus",
     "subtipo": "bonus_single",
@@ -626,7 +626,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_s_36",
+    "id": "bon_32",
     "intensidad": 2,
     "tipo": "bonus",
     "subtipo": "bonus_single",
@@ -646,7 +646,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_d_3",
+    "id": "bon_33",
     "intensidad": 1,
     "tipo": "bonus",
     "subtipo": "bonus_duo",
@@ -666,7 +666,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_d_4",
+    "id": "bon_34",
     "intensidad": 2,
     "tipo": "bonus",
     "subtipo": "bonus_duo",
@@ -686,7 +686,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_d_5",
+    "id": "bon_35",
     "intensidad": 3,
     "tipo": "bonus",
     "subtipo": "bonus_duo",
@@ -706,7 +706,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_d_6",
+    "id": "bon_36",
     "intensidad": 4,
     "tipo": "bonus",
     "subtipo": "bonus_duo",
@@ -726,7 +726,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_d_7",
+    "id": "bon_37",
     "intensidad": 5,
     "tipo": "bonus",
     "subtipo": "bonus_duo",
@@ -746,7 +746,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_d_8",
+    "id": "bon_38",
     "intensidad": 6,
     "tipo": "bonus",
     "subtipo": "bonus_duo",
@@ -766,7 +766,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_d_9",
+    "id": "bon_39",
     "intensidad": 7,
     "tipo": "bonus",
     "subtipo": "bonus_duo",
@@ -786,7 +786,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_d_10",
+    "id": "bon_40",
     "intensidad": 8,
     "tipo": "bonus",
     "subtipo": "bonus_duo",
@@ -806,7 +806,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_d_11",
+    "id": "bon_41",
     "intensidad": 9,
     "tipo": "bonus",
     "subtipo": "bonus_duo",
@@ -826,7 +826,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_d_12",
+    "id": "bon_42",
     "intensidad": 10,
     "tipo": "bonus",
     "subtipo": "bonus_duo",
@@ -846,7 +846,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_d_13",
+    "id": "bon_43",
     "intensidad": 1,
     "tipo": "bonus",
     "subtipo": "bonus_duo",
@@ -866,7 +866,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_d_14",
+    "id": "bon_44",
     "intensidad": 2,
     "tipo": "bonus",
     "subtipo": "bonus_duo",
@@ -886,7 +886,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_d_15",
+    "id": "bon_45",
     "intensidad": 3,
     "tipo": "bonus",
     "subtipo": "bonus_duo",
@@ -906,7 +906,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_d_16",
+    "id": "bon_46",
     "intensidad": 4,
     "tipo": "bonus",
     "subtipo": "bonus_duo",
@@ -926,7 +926,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_d_17",
+    "id": "bon_47",
     "intensidad": 5,
     "tipo": "bonus",
     "subtipo": "bonus_duo",
@@ -946,7 +946,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_d_18",
+    "id": "bon_48",
     "intensidad": 6,
     "tipo": "bonus",
     "subtipo": "bonus_duo",
@@ -966,7 +966,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_d_19",
+    "id": "bon_49",
     "intensidad": 7,
     "tipo": "bonus",
     "subtipo": "bonus_duo",
@@ -986,7 +986,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_d_20",
+    "id": "bon_50",
     "intensidad": 8,
     "tipo": "bonus",
     "subtipo": "bonus_duo",
@@ -1006,7 +1006,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_d_21",
+    "id": "bon_51",
     "intensidad": 9,
     "tipo": "bonus",
     "subtipo": "bonus_duo",
@@ -1026,7 +1026,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_d_22",
+    "id": "bon_52",
     "intensidad": 10,
     "tipo": "bonus",
     "subtipo": "bonus_duo",
@@ -1046,7 +1046,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_d_23",
+    "id": "bon_53",
     "intensidad": 1,
     "tipo": "bonus",
     "subtipo": "bonus_duo",
@@ -1066,7 +1066,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_d_24",
+    "id": "bon_54",
     "intensidad": 2,
     "tipo": "bonus",
     "subtipo": "bonus_duo",
@@ -1086,7 +1086,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_d_25",
+    "id": "bon_55",
     "intensidad": 3,
     "tipo": "bonus",
     "subtipo": "bonus_duo",
@@ -1106,7 +1106,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_d_26",
+    "id": "bon_56",
     "intensidad": 4,
     "tipo": "bonus",
     "subtipo": "bonus_duo",
@@ -1126,7 +1126,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_t_3",
+    "id": "bon_57",
     "intensidad": 1,
     "tipo": "bonus",
     "subtipo": "bonus_trio",
@@ -1146,7 +1146,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_t_4",
+    "id": "bon_58",
     "intensidad": 2,
     "tipo": "bonus",
     "subtipo": "bonus_trio",
@@ -1166,7 +1166,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_t_5",
+    "id": "bon_59",
     "intensidad": 3,
     "tipo": "bonus",
     "subtipo": "bonus_trio",
@@ -1186,7 +1186,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_t_6",
+    "id": "bon_60",
     "intensidad": 4,
     "tipo": "bonus",
     "subtipo": "bonus_trio",
@@ -1206,7 +1206,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_t_7",
+    "id": "bon_61",
     "intensidad": 5,
     "tipo": "bonus",
     "subtipo": "bonus_trio",
@@ -1226,7 +1226,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_t_8",
+    "id": "bon_62",
     "intensidad": 6,
     "tipo": "bonus",
     "subtipo": "bonus_trio",
@@ -1246,7 +1246,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_t_9",
+    "id": "bon_63",
     "intensidad": 7,
     "tipo": "bonus",
     "subtipo": "bonus_trio",
@@ -1266,7 +1266,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_t_10",
+    "id": "bon_64",
     "intensidad": 8,
     "tipo": "bonus",
     "subtipo": "bonus_trio",
@@ -1286,7 +1286,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_t_11",
+    "id": "bon_65",
     "intensidad": 9,
     "tipo": "bonus",
     "subtipo": "bonus_trio",
@@ -1306,7 +1306,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_t_12",
+    "id": "bon_66",
     "intensidad": 10,
     "tipo": "bonus",
     "subtipo": "bonus_trio",
@@ -1326,7 +1326,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_t_13",
+    "id": "bon_67",
     "intensidad": 1,
     "tipo": "bonus",
     "subtipo": "bonus_trio",
@@ -1346,7 +1346,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_t_14",
+    "id": "bon_68",
     "intensidad": 2,
     "tipo": "bonus",
     "subtipo": "bonus_trio",
@@ -1366,7 +1366,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_t_15",
+    "id": "bon_69",
     "intensidad": 3,
     "tipo": "bonus",
     "subtipo": "bonus_trio",
@@ -1386,7 +1386,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_t_16",
+    "id": "bon_70",
     "intensidad": 4,
     "tipo": "bonus",
     "subtipo": "bonus_trio",
@@ -1406,7 +1406,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_t_17",
+    "id": "bon_71",
     "intensidad": 5,
     "tipo": "bonus",
     "subtipo": "bonus_trio",
@@ -1426,7 +1426,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_t_18",
+    "id": "bon_72",
     "intensidad": 6,
     "tipo": "bonus",
     "subtipo": "bonus_trio",
@@ -1446,7 +1446,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_t_19",
+    "id": "bon_73",
     "intensidad": 7,
     "tipo": "bonus",
     "subtipo": "bonus_trio",
@@ -1466,7 +1466,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_t_20",
+    "id": "bon_74",
     "intensidad": 8,
     "tipo": "bonus",
     "subtipo": "bonus_trio",
@@ -1486,7 +1486,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_g_3",
+    "id": "bon_75",
     "intensidad": 1,
     "tipo": "bonus",
     "subtipo": "bonus_group",
@@ -1506,7 +1506,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_g_4",
+    "id": "bon_76",
     "intensidad": 2,
     "tipo": "bonus",
     "subtipo": "bonus_group",
@@ -1526,7 +1526,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_g_5",
+    "id": "bon_77",
     "intensidad": 3,
     "tipo": "bonus",
     "subtipo": "bonus_group",
@@ -1546,7 +1546,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_g_6",
+    "id": "bon_78",
     "intensidad": 4,
     "tipo": "bonus",
     "subtipo": "bonus_group",
@@ -1566,7 +1566,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_g_7",
+    "id": "bon_79",
     "intensidad": 5,
     "tipo": "bonus",
     "subtipo": "bonus_group",
@@ -1586,7 +1586,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_g_8",
+    "id": "bon_80",
     "intensidad": 6,
     "tipo": "bonus",
     "subtipo": "bonus_group",
@@ -1606,7 +1606,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_g_9",
+    "id": "bon_81",
     "intensidad": 7,
     "tipo": "bonus",
     "subtipo": "bonus_group",
@@ -1626,7 +1626,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_g_10",
+    "id": "bon_82",
     "intensidad": 8,
     "tipo": "bonus",
     "subtipo": "bonus_group",
@@ -1646,7 +1646,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_g_11",
+    "id": "bon_83",
     "intensidad": 9,
     "tipo": "bonus",
     "subtipo": "bonus_group",
@@ -1666,7 +1666,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_g_12",
+    "id": "bon_84",
     "intensidad": 10,
     "tipo": "bonus",
     "subtipo": "bonus_group",
@@ -1686,7 +1686,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_g_13",
+    "id": "bon_85",
     "intensidad": 1,
     "tipo": "bonus",
     "subtipo": "bonus_group",
@@ -1706,7 +1706,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_g_14",
+    "id": "bon_86",
     "intensidad": 2,
     "tipo": "bonus",
     "subtipo": "bonus_group",
@@ -1726,7 +1726,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_g_15",
+    "id": "bon_87",
     "intensidad": 3,
     "tipo": "bonus",
     "subtipo": "bonus_group",
@@ -1746,7 +1746,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_g_16",
+    "id": "bon_88",
     "intensidad": 4,
     "tipo": "bonus",
     "subtipo": "bonus_group",
@@ -1766,7 +1766,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_g_17",
+    "id": "bon_89",
     "intensidad": 5,
     "tipo": "bonus",
     "subtipo": "bonus_group",
@@ -1786,7 +1786,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_g_18",
+    "id": "bon_90",
     "intensidad": 6,
     "tipo": "bonus",
     "subtipo": "bonus_group",
@@ -1806,7 +1806,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_g_19",
+    "id": "bon_91",
     "intensidad": 7,
     "tipo": "bonus",
     "subtipo": "bonus_group",
@@ -1826,7 +1826,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_g_20",
+    "id": "bon_92",
     "intensidad": 8,
     "tipo": "bonus",
     "subtipo": "bonus_group",
@@ -1846,7 +1846,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_g_21",
+    "id": "bon_93",
     "intensidad": 9,
     "tipo": "bonus",
     "subtipo": "bonus_group",
@@ -1866,7 +1866,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_g_22",
+    "id": "bon_94",
     "intensidad": 10,
     "tipo": "bonus",
     "subtipo": "bonus_group",
@@ -1886,7 +1886,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_g_23",
+    "id": "bon_95",
     "intensidad": 1,
     "tipo": "bonus",
     "subtipo": "bonus_group",
@@ -1906,7 +1906,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_g_24",
+    "id": "bon_96",
     "intensidad": 2,
     "tipo": "bonus",
     "subtipo": "bonus_group",
@@ -1926,7 +1926,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_g_25",
+    "id": "bon_97",
     "intensidad": 3,
     "tipo": "bonus",
     "subtipo": "bonus_group",
@@ -1946,7 +1946,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_g_26",
+    "id": "bon_98",
     "intensidad": 4,
     "tipo": "bonus",
     "subtipo": "bonus_group",
@@ -1966,7 +1966,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_e_3",
+    "id": "bon_99",
     "intensidad": 1,
     "tipo": "bonus",
     "subtipo": "bonus_exclude",
@@ -1986,7 +1986,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_e_4",
+    "id": "bon_100",
     "intensidad": 2,
     "tipo": "bonus",
     "subtipo": "bonus_exclude",
@@ -2006,7 +2006,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_e_5",
+    "id": "bon_101",
     "intensidad": 3,
     "tipo": "bonus",
     "subtipo": "bonus_exclude",
@@ -2026,7 +2026,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_e_6",
+    "id": "bon_102",
     "intensidad": 4,
     "tipo": "bonus",
     "subtipo": "bonus_exclude",
@@ -2046,7 +2046,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_e_7",
+    "id": "bon_103",
     "intensidad": 5,
     "tipo": "bonus",
     "subtipo": "bonus_exclude",
@@ -2066,7 +2066,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_e_8",
+    "id": "bon_104",
     "intensidad": 6,
     "tipo": "bonus",
     "subtipo": "bonus_exclude",
@@ -2086,7 +2086,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_e_9",
+    "id": "bon_105",
     "intensidad": 7,
     "tipo": "bonus",
     "subtipo": "bonus_exclude",
@@ -2106,7 +2106,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_e_10",
+    "id": "bon_106",
     "intensidad": 8,
     "tipo": "bonus",
     "subtipo": "bonus_exclude",
@@ -2126,7 +2126,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_e_11",
+    "id": "bon_107",
     "intensidad": 9,
     "tipo": "bonus",
     "subtipo": "bonus_exclude",
@@ -2146,7 +2146,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_e_12",
+    "id": "bon_108",
     "intensidad": 10,
     "tipo": "bonus",
     "subtipo": "bonus_exclude",
@@ -2166,7 +2166,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_e_13",
+    "id": "bon_109",
     "intensidad": 1,
     "tipo": "bonus",
     "subtipo": "bonus_exclude",
@@ -2186,7 +2186,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_e_14",
+    "id": "bon_110",
     "intensidad": 2,
     "tipo": "bonus",
     "subtipo": "bonus_exclude",
@@ -2206,7 +2206,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_dice_4",
+    "id": "bon_111",
     "intensidad": 1,
     "tipo": "bonus",
     "subtipo": "bonus_dice",
@@ -2226,7 +2226,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_dice_5",
+    "id": "bon_112",
     "intensidad": 2,
     "tipo": "bonus",
     "subtipo": "bonus_dice",
@@ -2246,7 +2246,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_dice_6",
+    "id": "bon_113",
     "intensidad": 3,
     "tipo": "bonus",
     "subtipo": "bonus_dice",
@@ -2266,7 +2266,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_dice_7",
+    "id": "bon_114",
     "intensidad": 4,
     "tipo": "bonus",
     "subtipo": "bonus_dice",
@@ -2286,7 +2286,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_dice_8",
+    "id": "bon_115",
     "intensidad": 5,
     "tipo": "bonus",
     "subtipo": "bonus_dice",
@@ -2306,7 +2306,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_dice_9",
+    "id": "bon_116",
     "intensidad": 6,
     "tipo": "bonus",
     "subtipo": "bonus_dice",
@@ -2326,7 +2326,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_dice_10",
+    "id": "bon_117",
     "intensidad": 7,
     "tipo": "bonus",
     "subtipo": "bonus_dice",
@@ -2346,7 +2346,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_dice_11",
+    "id": "bon_118",
     "intensidad": 8,
     "tipo": "bonus",
     "subtipo": "bonus_dice",
@@ -2366,7 +2366,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_dice_12",
+    "id": "bon_119",
     "intensidad": 9,
     "tipo": "bonus",
     "subtipo": "bonus_dice",
@@ -2386,7 +2386,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_dice_13",
+    "id": "bon_120",
     "intensidad": 10,
     "tipo": "bonus",
     "subtipo": "bonus_dice",
@@ -2406,7 +2406,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_dice_14",
+    "id": "bon_121",
     "intensidad": 1,
     "tipo": "bonus",
     "subtipo": "bonus_dice",
@@ -2426,7 +2426,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_dice_15",
+    "id": "bon_122",
     "intensidad": 2,
     "tipo": "bonus",
     "subtipo": "bonus_dice",
@@ -2446,7 +2446,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_dice_16",
+    "id": "bon_123",
     "intensidad": 3,
     "tipo": "bonus",
     "subtipo": "bonus_dice",
@@ -2466,7 +2466,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_dice_17",
+    "id": "bon_124",
     "intensidad": 4,
     "tipo": "bonus",
     "subtipo": "bonus_dice",
@@ -2486,7 +2486,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_dice_18",
+    "id": "bon_125",
     "intensidad": 5,
     "tipo": "bonus",
     "subtipo": "bonus_dice",
@@ -2506,7 +2506,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_dice_19",
+    "id": "bon_126",
     "intensidad": 6,
     "tipo": "bonus",
     "subtipo": "bonus_dice",
@@ -2526,7 +2526,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_dice_20",
+    "id": "bon_127",
     "intensidad": 7,
     "tipo": "bonus",
     "subtipo": "bonus_dice",
@@ -2546,7 +2546,7 @@ export const bonusCards = [
     "isBonus": true
   },
   {
-    "id": "bonus_dice_21",
+    "id": "bon_128",
     "intensidad": 8,
     "tipo": "bonus",
     "subtipo": "bonus_dice",

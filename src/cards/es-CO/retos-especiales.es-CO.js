@@ -6,7 +6,7 @@
 
 export const retosEspecialesCards = [
   {
-    "id": 3151,
+    "id": "res_1",
     "intensidad": 1,
     "tipo": "retos especiales",
     "texto": "Reto en pareja: [player] y [player_x], alternen 5 palabras relacionadas con 'la amistad' sin repetir. Empiecen antes de que el grupo cuente hasta 4.",
@@ -16,7 +16,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3152,
+    "id": "res_2",
     "intensidad": 1,
     "tipo": "retos especiales",
     "texto": "Reto de tres: [player], [player_x] y [player_x1], creen una secuencia de 5 gestos y repítanla completa. Empiecen antes de que el grupo cuente hasta 4.",
@@ -26,7 +26,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3153,
+    "id": "res_3",
     "intensidad": 1,
     "tipo": "retos especiales",
     "texto": "Misión doble: [player] y [player_x], cuenten una historia sobre 'organizar una fiesta' alternando una palabra por turno. Empiecen antes de que el grupo cuente hasta 4.",
@@ -36,7 +36,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3154,
+    "id": "res_4",
     "intensidad": 1,
     "tipo": "retos especiales",
     "texto": "Misión triple: [player], [player_x] y [player_x1], representen 'organizar una fiesta': los papeles serán presentador, invitado y reportero. Empiecen antes de que el grupo cuente hasta 4.",
@@ -46,7 +46,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3155,
+    "id": "res_5",
     "intensidad": 1,
     "tipo": "retos especiales",
     "texto": "Reto en pareja: [player] y [player_x], inventen un saludo secreto de 3 movimientos y háganlo sincronizados. Empiecen antes de que el grupo cuente hasta 4.",
@@ -56,7 +56,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3156,
+    "id": "res_6",
     "intensidad": 1,
     "tipo": "retos especiales",
     "texto": "Reto de tres: [player], [player_x] y [player_x1], formen una escena congelada sobre 'la amistad' con poses diferentes. Empiecen antes de que el grupo cuente hasta 4.",
@@ -66,7 +66,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3157,
+    "id": "res_7",
     "intensidad": 1,
     "tipo": "retos especiales",
     "texto": "Misión doble: [player] y [player_x], uno crea movimientos lentos y el otro los imita como un espejo durante 18 segundos. Empiecen antes de que el grupo cuente hasta 4.",
@@ -76,7 +76,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3158,
+    "id": "res_8",
     "intensidad": 1,
     "tipo": "retos especiales",
     "texto": "Misión triple: [player], [player_x] y [player_x1], improvisen un noticiero sobre 'organizar una fiesta' como presentador, invitado y reportero. Empiecen antes de que el grupo cuente hasta 4.",
@@ -86,7 +86,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3159,
+    "id": "res_9",
     "intensidad": 1,
     "tipo": "retos especiales",
     "texto": "Reto en pareja: [player] y [player_x], repitan juntos un trabalenguas elegido por el grupo 2 veces. Empiecen antes de que el grupo cuente hasta 4.",
@@ -96,7 +96,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3160,
+    "id": "res_10",
     "intensidad": 1,
     "tipo": "retos especiales",
     "texto": "Reto de tres: [player], [player_x] y [player_x1], creen un ritmo de 6 sonidos corporales y ejecútenlo dos veces. Empiecen antes de que el grupo cuente hasta 4.",
@@ -106,7 +106,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3161,
+    "id": "res_11",
     "intensidad": 1,
     "tipo": "retos especiales",
     "texto": "Misión doble: [player] y [player_x], conversen 21 segundos sin decir 'sí', 'no' ni 'pero'. Empiecen antes de que el grupo cuente hasta 4.",
@@ -116,7 +116,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3162,
+    "id": "res_12",
     "intensidad": 1,
     "tipo": "retos especiales",
     "texto": "Misión triple: [player], [player_x] y [player_x1], construyan una historia de 6 frases sobre 'la amistad' sin contradecirse. Empiecen antes de que el grupo cuente hasta 4.",
@@ -126,7 +126,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3163,
+    "id": "res_13",
     "intensidad": 1,
     "tipo": "retos especiales",
     "texto": "Reto en pareja: [player] y [player_x], vendan un objeto elegido por el grupo: una persona presenta y otra demuestra. Empiecen antes de que el grupo cuente hasta 4.",
@@ -136,7 +136,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3164,
+    "id": "res_14",
     "intensidad": 1,
     "tipo": "retos especiales",
     "texto": "Reto de tres: [player], [player_x] y [player_x1], defiendan tres perspectivas sobre 'la amistad' usando los personajes presentador, invitado y reportero. Empiecen antes de que el grupo cuente hasta 4.",
@@ -146,7 +146,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3165,
+    "id": "res_15",
     "intensidad": 1,
     "tipo": "retos especiales",
     "texto": "Misión doble: [player] y [player_x], canten por turnos una canción, continuando donde termine la persona anterior. Empiecen antes de que el grupo cuente hasta 4.",
@@ -156,7 +156,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3166,
+    "id": "res_16",
     "intensidad": 1,
     "tipo": "retos especiales",
     "texto": "Misión triple: [player], [player_x] y [player_x1], inventen una coreografía de 3 pasos y terminen en la misma pose. Empiecen antes de que el grupo cuente hasta 4.",
@@ -166,7 +166,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3167,
+    "id": "res_17",
     "intensidad": 1,
     "tipo": "retos especiales",
     "texto": "Reto en pareja: [player] y [player_x], respondan de espaldas tres preguntas del grupo y coincidan en al menos 1. Empiecen antes de que el grupo cuente hasta 4.",
@@ -176,7 +176,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3168,
+    "id": "res_18",
     "intensidad": 1,
     "tipo": "retos especiales",
     "texto": "Reto de tres: [player], [player_x] y [player_x1], representen 'organizar una fiesta' usando únicamente sonidos diferentes. Empiecen antes de que el grupo cuente hasta 4.",
@@ -186,7 +186,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3169,
+    "id": "res_19",
     "intensidad": 1,
     "tipo": "retos especiales",
     "texto": "Misión doble: [player] y [player_x], hagan un brindis conjunto sobre 'la amistad', alternando una frase sin pausas. Empiecen antes de que el grupo cuente hasta 4.",
@@ -196,7 +196,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3170,
+    "id": "res_20",
     "intensidad": 1,
     "tipo": "retos especiales",
     "texto": "Misión triple: [player], [player_x] y [player_x1], creen un anuncio de 23 segundos con presentador, cliente y narrador. Empiecen antes de que el grupo cuente hasta 4.",
@@ -206,7 +206,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3171,
+    "id": "res_21",
     "intensidad": 1,
     "tipo": "retos especiales",
     "texto": "Reto en pareja: [player] y [player_x], deletreen con los brazos una palabra elegida por el grupo sin hablar. Empiecen antes de que el grupo cuente hasta 4.",
@@ -216,7 +216,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3172,
+    "id": "res_22",
     "intensidad": 1,
     "tipo": "retos especiales",
     "texto": "Reto de tres: [player], [player_x] y [player_x1], improvisen una escena sobre 'organizar una fiesta' mostrando tres emociones distintas. Empiecen antes de que el grupo cuente hasta 4.",
@@ -226,7 +226,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3173,
+    "id": "res_23",
     "intensidad": 1,
     "tipo": "retos especiales",
     "texto": "Misión doble: [player] y [player_x], una persona describe un objeto sin nombrarlo y la otra lo representa. Empiecen antes de que el grupo cuente hasta 4.",
@@ -236,7 +236,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3174,
+    "id": "res_24",
     "intensidad": 1,
     "tipo": "retos especiales",
     "texto": "Misión triple: [player], [player_x] y [player_x1], organicen una entrevista manteniendo los papeles de presentador, invitado y reportero durante 21 segundos. Empiecen antes de que el grupo cuente hasta 4.",
@@ -246,7 +246,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3175,
+    "id": "res_25",
     "intensidad": 1,
     "tipo": "retos especiales",
     "texto": "Reto en pareja: [player] y [player_x], digan 5 ideas relacionadas con 'la amistad' alternando sin bloquearse. Empiecen antes de que el grupo cuente hasta 4.",
@@ -256,7 +256,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3176,
+    "id": "res_26",
     "intensidad": 1,
     "tipo": "retos especiales",
     "texto": "Reto de tres: [player], [player_x] y [player_x1], creen una máquina humana de tres movimientos y tres sonidos. Empiecen antes de que el grupo cuente hasta 4.",
@@ -266,7 +266,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3177,
+    "id": "res_27",
     "intensidad": 1,
     "tipo": "retos especiales",
     "texto": "Misión doble: [player] y [player_x], inventen cuatro versos sobre 'la amistad' y recítenlos alternando. Empiecen antes de que el grupo cuente hasta 4.",
@@ -276,7 +276,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3178,
+    "id": "res_28",
     "intensidad": 1,
     "tipo": "retos especiales",
     "texto": "Misión triple: [player], [player_x] y [player_x1], representen en cámara lenta 'organizar una fiesta' con inicio, conflicto y final. Empiecen antes de que el grupo cuente hasta 4.",
@@ -286,7 +286,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3179,
+    "id": "res_29",
     "intensidad": 1,
     "tipo": "retos especiales",
     "texto": "Reto en pareja: [player] y [player_x], mantengan una pose dramática mientras cuentan juntos desde 23 hasta cero. Empiecen antes de que el grupo cuente hasta 4.",
@@ -296,7 +296,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3180,
+    "id": "res_30",
     "intensidad": 1,
     "tipo": "retos especiales",
     "texto": "Reto de tres: [player], [player_x] y [player_x1], combinen un paso de baile, una frase sobre 'la amistad' y una pose final sincronizada. Empiecen antes de que el grupo cuente hasta 4.",
@@ -306,7 +306,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3181,
+    "id": "res_31",
     "intensidad": 2,
     "tipo": "retos especiales",
     "texto": "Reto en pareja: [player] y [player_x], alternen 6 palabras relacionadas con 'un viaje caótico' sin repetir. Empiecen antes de que el grupo cuente hasta 5.",
@@ -316,7 +316,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3182,
+    "id": "res_32",
     "intensidad": 2,
     "tipo": "retos especiales",
     "texto": "Reto de tres: [player], [player_x] y [player_x1], creen una secuencia de 6 gestos y repítanla completa. Empiecen antes de que el grupo cuente hasta 5.",
@@ -326,7 +326,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3183,
+    "id": "res_33",
     "intensidad": 2,
     "tipo": "retos especiales",
     "texto": "Misión doble: [player] y [player_x], cuenten una historia sobre 'perder un vuelo' alternando una palabra por turno. Empiecen antes de que el grupo cuente hasta 5.",
@@ -336,7 +336,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3184,
+    "id": "res_34",
     "intensidad": 2,
     "tipo": "retos especiales",
     "texto": "Misión triple: [player], [player_x] y [player_x1], representen 'perder un vuelo': los papeles serán detective, testigo y sospechoso. Empiecen antes de que el grupo cuente hasta 5.",
@@ -346,7 +346,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3185,
+    "id": "res_35",
     "intensidad": 2,
     "tipo": "retos especiales",
     "texto": "Reto en pareja: [player] y [player_x], inventen un saludo secreto de 4 movimientos y háganlo sincronizados. Empiecen antes de que el grupo cuente hasta 5.",
@@ -356,7 +356,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3186,
+    "id": "res_36",
     "intensidad": 2,
     "tipo": "retos especiales",
     "texto": "Reto de tres: [player], [player_x] y [player_x1], formen una escena congelada sobre 'un viaje caótico' con poses diferentes. Empiecen antes de que el grupo cuente hasta 5.",
@@ -366,7 +366,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3187,
+    "id": "res_37",
     "intensidad": 2,
     "tipo": "retos especiales",
     "texto": "Misión doble: [player] y [player_x], uno crea movimientos lentos y el otro los imita como un espejo durante 17 segundos. Empiecen antes de que el grupo cuente hasta 5.",
@@ -376,7 +376,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3188,
+    "id": "res_38",
     "intensidad": 2,
     "tipo": "retos especiales",
     "texto": "Misión triple: [player], [player_x] y [player_x1], improvisen un noticiero sobre 'perder un vuelo' como detective, testigo y sospechoso. Empiecen antes de que el grupo cuente hasta 5.",
@@ -386,7 +386,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3189,
+    "id": "res_39",
     "intensidad": 2,
     "tipo": "retos especiales",
     "texto": "Reto en pareja: [player] y [player_x], repitan juntos un trabalenguas elegido por el grupo 2 veces. Empiecen antes de que el grupo cuente hasta 5.",
@@ -396,7 +396,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3190,
+    "id": "res_40",
     "intensidad": 2,
     "tipo": "retos especiales",
     "texto": "Reto de tres: [player], [player_x] y [player_x1], creen un ritmo de 7 sonidos corporales y ejecútenlo dos veces. Empiecen antes de que el grupo cuente hasta 5.",
@@ -406,7 +406,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3191,
+    "id": "res_41",
     "intensidad": 2,
     "tipo": "retos especiales",
     "texto": "Misión doble: [player] y [player_x], conversen 20 segundos sin decir 'sí', 'no' ni 'pero'. Empiecen antes de que el grupo cuente hasta 5.",
@@ -416,7 +416,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3192,
+    "id": "res_42",
     "intensidad": 2,
     "tipo": "retos especiales",
     "texto": "Misión triple: [player], [player_x] y [player_x1], construyan una historia de 7 frases sobre 'un viaje caótico' sin contradecirse. Empiecen antes de que el grupo cuente hasta 5.",
@@ -426,7 +426,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3193,
+    "id": "res_43",
     "intensidad": 2,
     "tipo": "retos especiales",
     "texto": "Reto en pareja: [player] y [player_x], vendan un objeto elegido por el grupo: una persona presenta y otra demuestra. Empiecen antes de que el grupo cuente hasta 5.",
@@ -436,7 +436,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3194,
+    "id": "res_44",
     "intensidad": 2,
     "tipo": "retos especiales",
     "texto": "Reto de tres: [player], [player_x] y [player_x1], defiendan tres perspectivas sobre 'un viaje caótico' usando los personajes detective, testigo y sospechoso. Empiecen antes de que el grupo cuente hasta 5.",
@@ -446,7 +446,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3195,
+    "id": "res_45",
     "intensidad": 2,
     "tipo": "retos especiales",
     "texto": "Misión doble: [player] y [player_x], canten por turnos una canción, continuando donde termine la persona anterior. Empiecen antes de que el grupo cuente hasta 5.",
@@ -456,7 +456,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3196,
+    "id": "res_46",
     "intensidad": 2,
     "tipo": "retos especiales",
     "texto": "Misión triple: [player], [player_x] y [player_x1], inventen una coreografía de 4 pasos y terminen en la misma pose. Empiecen antes de que el grupo cuente hasta 5.",
@@ -466,7 +466,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3197,
+    "id": "res_47",
     "intensidad": 2,
     "tipo": "retos especiales",
     "texto": "Reto en pareja: [player] y [player_x], respondan de espaldas tres preguntas del grupo y coincidan en al menos 1. Empiecen antes de que el grupo cuente hasta 5.",
@@ -476,7 +476,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3198,
+    "id": "res_48",
     "intensidad": 2,
     "tipo": "retos especiales",
     "texto": "Reto de tres: [player], [player_x] y [player_x1], representen 'perder un vuelo' usando únicamente sonidos diferentes. Empiecen antes de que el grupo cuente hasta 5.",
@@ -486,7 +486,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3199,
+    "id": "res_49",
     "intensidad": 2,
     "tipo": "retos especiales",
     "texto": "Misión doble: [player] y [player_x], hagan un brindis conjunto sobre 'un viaje caótico', alternando una frase sin pausas. Empiecen antes de que el grupo cuente hasta 5.",
@@ -496,7 +496,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3200,
+    "id": "res_50",
     "intensidad": 2,
     "tipo": "retos especiales",
     "texto": "Misión triple: [player], [player_x] y [player_x1], creen un anuncio de 22 segundos con presentador, cliente y narrador. Empiecen antes de que el grupo cuente hasta 5.",
@@ -506,7 +506,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3201,
+    "id": "res_51",
     "intensidad": 2,
     "tipo": "retos especiales",
     "texto": "Reto en pareja: [player] y [player_x], deletreen con los brazos una palabra elegida por el grupo sin hablar. Empiecen antes de que el grupo cuente hasta 5.",
@@ -516,7 +516,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3202,
+    "id": "res_52",
     "intensidad": 2,
     "tipo": "retos especiales",
     "texto": "Reto de tres: [player], [player_x] y [player_x1], improvisen una escena sobre 'perder un vuelo' mostrando tres emociones distintas. Empiecen antes de que el grupo cuente hasta 5.",
@@ -526,7 +526,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3203,
+    "id": "res_53",
     "intensidad": 2,
     "tipo": "retos especiales",
     "texto": "Misión doble: [player] y [player_x], una persona describe un objeto sin nombrarlo y la otra lo representa. Empiecen antes de que el grupo cuente hasta 5.",
@@ -536,7 +536,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3204,
+    "id": "res_54",
     "intensidad": 2,
     "tipo": "retos especiales",
     "texto": "Misión triple: [player], [player_x] y [player_x1], organicen una entrevista manteniendo los papeles de detective, testigo y sospechoso durante 20 segundos. Empiecen antes de que el grupo cuente hasta 5.",
@@ -546,7 +546,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3205,
+    "id": "res_55",
     "intensidad": 2,
     "tipo": "retos especiales",
     "texto": "Reto en pareja: [player] y [player_x], digan 6 ideas relacionadas con 'un viaje caótico' alternando sin bloquearse. Empiecen antes de que el grupo cuente hasta 5.",
@@ -556,7 +556,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3206,
+    "id": "res_56",
     "intensidad": 2,
     "tipo": "retos especiales",
     "texto": "Reto de tres: [player], [player_x] y [player_x1], creen una máquina humana de tres movimientos y tres sonidos. Empiecen antes de que el grupo cuente hasta 5.",
@@ -566,7 +566,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3207,
+    "id": "res_57",
     "intensidad": 2,
     "tipo": "retos especiales",
     "texto": "Misión doble: [player] y [player_x], inventen cuatro versos sobre 'un viaje caótico' y recítenlos alternando. Empiecen antes de que el grupo cuente hasta 5.",
@@ -576,7 +576,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3208,
+    "id": "res_58",
     "intensidad": 2,
     "tipo": "retos especiales",
     "texto": "Misión triple: [player], [player_x] y [player_x1], representen en cámara lenta 'perder un vuelo' con inicio, conflicto y final. Empiecen antes de que el grupo cuente hasta 5.",
@@ -586,7 +586,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3209,
+    "id": "res_59",
     "intensidad": 2,
     "tipo": "retos especiales",
     "texto": "Reto en pareja: [player] y [player_x], mantengan una pose dramática mientras cuentan juntos desde 26 hasta cero. Empiecen antes de que el grupo cuente hasta 5.",
@@ -596,7 +596,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3210,
+    "id": "res_60",
     "intensidad": 2,
     "tipo": "retos especiales",
     "texto": "Reto de tres: [player], [player_x] y [player_x1], combinen un paso de baile, una frase sobre 'un viaje caótico' y una pose final sincronizada. Empiecen antes de que el grupo cuente hasta 5.",
@@ -606,7 +606,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3211,
+    "id": "res_61",
     "intensidad": 3,
     "tipo": "retos especiales",
     "texto": "Reto en pareja: [player] y [player_x], alternen 7 palabras relacionadas con 'una cita incómoda' sin repetir. Empiecen antes de que el grupo cuente hasta 6.",
@@ -616,7 +616,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3212,
+    "id": "res_62",
     "intensidad": 3,
     "tipo": "retos especiales",
     "texto": "Reto de tres: [player], [player_x] y [player_x1], creen una secuencia de 7 gestos y repítanla completa. Empiecen antes de que el grupo cuente hasta 6.",
@@ -626,7 +626,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3213,
+    "id": "res_63",
     "intensidad": 3,
     "tipo": "retos especiales",
     "texto": "Misión doble: [player] y [player_x], cuenten una historia sobre 'recibir un mensaje extraño' alternando una palabra por turno. Empiecen antes de que el grupo cuente hasta 6.",
@@ -636,7 +636,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3214,
+    "id": "res_64",
     "intensidad": 3,
     "tipo": "retos especiales",
     "texto": "Misión triple: [player], [player_x] y [player_x1], representen 'recibir un mensaje extraño': los papeles serán vendedor, cliente y narrador. Empiecen antes de que el grupo cuente hasta 6.",
@@ -646,7 +646,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3215,
+    "id": "res_65",
     "intensidad": 3,
     "tipo": "retos especiales",
     "texto": "Reto en pareja: [player] y [player_x], inventen un saludo secreto de 5 movimientos y háganlo sincronizados. Empiecen antes de que el grupo cuente hasta 6.",
@@ -656,7 +656,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3216,
+    "id": "res_66",
     "intensidad": 3,
     "tipo": "retos especiales",
     "texto": "Reto de tres: [player], [player_x] y [player_x1], formen una escena congelada sobre 'una cita incómoda' con poses diferentes. Empiecen antes de que el grupo cuente hasta 6.",
@@ -666,7 +666,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3217,
+    "id": "res_67",
     "intensidad": 3,
     "tipo": "retos especiales",
     "texto": "Misión doble: [player] y [player_x], uno crea movimientos lentos y el otro los imita como un espejo durante 16 segundos. Empiecen antes de que el grupo cuente hasta 6.",
@@ -676,7 +676,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3218,
+    "id": "res_68",
     "intensidad": 3,
     "tipo": "retos especiales",
     "texto": "Misión triple: [player], [player_x] y [player_x1], improvisen un noticiero sobre 'recibir un mensaje extraño' como vendedor, cliente y narrador. Empiecen antes de que el grupo cuente hasta 6.",
@@ -686,7 +686,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3219,
+    "id": "res_69",
     "intensidad": 3,
     "tipo": "retos especiales",
     "texto": "Reto en pareja: [player] y [player_x], repitan juntos un trabalenguas elegido por el grupo 3 veces. Empiecen antes de que el grupo cuente hasta 6.",
@@ -696,7 +696,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3220,
+    "id": "res_70",
     "intensidad": 3,
     "tipo": "retos especiales",
     "texto": "Reto de tres: [player], [player_x] y [player_x1], creen un ritmo de 8 sonidos corporales y ejecútenlo dos veces. Empiecen antes de que el grupo cuente hasta 6.",
@@ -706,7 +706,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3221,
+    "id": "res_71",
     "intensidad": 3,
     "tipo": "retos especiales",
     "texto": "Misión doble: [player] y [player_x], conversen 19 segundos sin decir 'sí', 'no' ni 'pero'. Empiecen antes de que el grupo cuente hasta 6.",
@@ -716,7 +716,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3222,
+    "id": "res_72",
     "intensidad": 3,
     "tipo": "retos especiales",
     "texto": "Misión triple: [player], [player_x] y [player_x1], construyan una historia de 8 frases sobre 'una cita incómoda' sin contradecirse. Empiecen antes de que el grupo cuente hasta 6.",
@@ -726,7 +726,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3223,
+    "id": "res_73",
     "intensidad": 3,
     "tipo": "retos especiales",
     "texto": "Reto en pareja: [player] y [player_x], vendan un objeto elegido por el grupo: una persona presenta y otra demuestra. Empiecen antes de que el grupo cuente hasta 6.",
@@ -736,7 +736,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3224,
+    "id": "res_74",
     "intensidad": 3,
     "tipo": "retos especiales",
     "texto": "Reto de tres: [player], [player_x] y [player_x1], defiendan tres perspectivas sobre 'una cita incómoda' usando los personajes vendedor, cliente y narrador. Empiecen antes de que el grupo cuente hasta 6.",
@@ -746,7 +746,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3225,
+    "id": "res_75",
     "intensidad": 3,
     "tipo": "retos especiales",
     "texto": "Misión doble: [player] y [player_x], canten por turnos una canción, continuando donde termine la persona anterior. Empiecen antes de que el grupo cuente hasta 6.",
@@ -756,7 +756,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3226,
+    "id": "res_76",
     "intensidad": 3,
     "tipo": "retos especiales",
     "texto": "Misión triple: [player], [player_x] y [player_x1], inventen una coreografía de 5 pasos y terminen en la misma pose. Empiecen antes de que el grupo cuente hasta 6.",
@@ -766,7 +766,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3227,
+    "id": "res_77",
     "intensidad": 3,
     "tipo": "retos especiales",
     "texto": "Reto en pareja: [player] y [player_x], respondan de espaldas tres preguntas del grupo y coincidan en al menos 1. Empiecen antes de que el grupo cuente hasta 6.",
@@ -776,7 +776,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3228,
+    "id": "res_78",
     "intensidad": 3,
     "tipo": "retos especiales",
     "texto": "Reto de tres: [player], [player_x] y [player_x1], representen 'recibir un mensaje extraño' usando únicamente sonidos diferentes. Empiecen antes de que el grupo cuente hasta 6.",
@@ -786,7 +786,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3229,
+    "id": "res_79",
     "intensidad": 3,
     "tipo": "retos especiales",
     "texto": "Misión doble: [player] y [player_x], hagan un brindis conjunto sobre 'una cita incómoda', alternando una frase sin pausas. Empiecen antes de que el grupo cuente hasta 6.",
@@ -796,7 +796,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3230,
+    "id": "res_80",
     "intensidad": 3,
     "tipo": "retos especiales",
     "texto": "Misión triple: [player], [player_x] y [player_x1], creen un anuncio de 21 segundos con presentador, cliente y narrador. Empiecen antes de que el grupo cuente hasta 6.",
@@ -806,7 +806,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3231,
+    "id": "res_81",
     "intensidad": 3,
     "tipo": "retos especiales",
     "texto": "Reto en pareja: [player] y [player_x], deletreen con los brazos una palabra elegida por el grupo sin hablar. Empiecen antes de que el grupo cuente hasta 6.",
@@ -816,7 +816,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3232,
+    "id": "res_82",
     "intensidad": 3,
     "tipo": "retos especiales",
     "texto": "Reto de tres: [player], [player_x] y [player_x1], improvisen una escena sobre 'recibir un mensaje extraño' mostrando tres emociones distintas. Empiecen antes de que el grupo cuente hasta 6.",
@@ -826,7 +826,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3233,
+    "id": "res_83",
     "intensidad": 3,
     "tipo": "retos especiales",
     "texto": "Misión doble: [player] y [player_x], una persona describe un objeto sin nombrarlo y la otra lo representa. Empiecen antes de que el grupo cuente hasta 6.",
@@ -836,7 +836,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3234,
+    "id": "res_84",
     "intensidad": 3,
     "tipo": "retos especiales",
     "texto": "Misión triple: [player], [player_x] y [player_x1], organicen una entrevista manteniendo los papeles de vendedor, cliente y narrador durante 19 segundos. Empiecen antes de que el grupo cuente hasta 6.",
@@ -846,7 +846,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3235,
+    "id": "res_85",
     "intensidad": 3,
     "tipo": "retos especiales",
     "texto": "Reto en pareja: [player] y [player_x], digan 7 ideas relacionadas con 'una cita incómoda' alternando sin bloquearse. Empiecen antes de que el grupo cuente hasta 6.",
@@ -856,7 +856,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3236,
+    "id": "res_86",
     "intensidad": 3,
     "tipo": "retos especiales",
     "texto": "Reto de tres: [player], [player_x] y [player_x1], creen una máquina humana de tres movimientos y tres sonidos. Empiecen antes de que el grupo cuente hasta 6.",
@@ -866,7 +866,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3237,
+    "id": "res_87",
     "intensidad": 3,
     "tipo": "retos especiales",
     "texto": "Misión doble: [player] y [player_x], inventen cuatro versos sobre 'una cita incómoda' y recítenlos alternando. Empiecen antes de que el grupo cuente hasta 6.",
@@ -876,7 +876,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3238,
+    "id": "res_88",
     "intensidad": 3,
     "tipo": "retos especiales",
     "texto": "Misión triple: [player], [player_x] y [player_x1], representen en cámara lenta 'recibir un mensaje extraño' con inicio, conflicto y final. Empiecen antes de que el grupo cuente hasta 6.",
@@ -886,7 +886,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3239,
+    "id": "res_89",
     "intensidad": 3,
     "tipo": "retos especiales",
     "texto": "Reto en pareja: [player] y [player_x], mantengan una pose dramática mientras cuentan juntos desde 29 hasta cero. Empiecen antes de que el grupo cuente hasta 6.",
@@ -896,7 +896,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3240,
+    "id": "res_90",
     "intensidad": 3,
     "tipo": "retos especiales",
     "texto": "Reto de tres: [player], [player_x] y [player_x1], combinen un paso de baile, una frase sobre 'una cita incómoda' y una pose final sincronizada. Empiecen antes de que el grupo cuente hasta 6.",
@@ -906,7 +906,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3241,
+    "id": "res_91",
     "intensidad": 4,
     "tipo": "retos especiales",
     "texto": "Reto en pareja: [player] y [player_x], alternen 8 palabras relacionadas con 'un secreto del grupo' sin repetir. Empiecen antes de que el grupo cuente hasta 7.",
@@ -916,7 +916,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3242,
+    "id": "res_92",
     "intensidad": 4,
     "tipo": "retos especiales",
     "texto": "Reto de tres: [player], [player_x] y [player_x1], creen una secuencia de 8 gestos y repítanla completa. Empiecen antes de que el grupo cuente hasta 7.",
@@ -926,7 +926,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3243,
+    "id": "res_93",
     "intensidad": 4,
     "tipo": "retos especiales",
     "texto": "Misión doble: [player] y [player_x], cuenten una historia sobre 'encontrarse con una expareja' alternando una palabra por turno. Empiecen antes de que el grupo cuente hasta 7.",
@@ -936,7 +936,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3244,
+    "id": "res_94",
     "intensidad": 4,
     "tipo": "retos especiales",
     "texto": "Misión triple: [player], [player_x] y [player_x1], representen 'encontrarse con una expareja': los papeles serán abogado, acusado y juez. Empiecen antes de que el grupo cuente hasta 7.",
@@ -946,7 +946,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3245,
+    "id": "res_95",
     "intensidad": 4,
     "tipo": "retos especiales",
     "texto": "Reto en pareja: [player] y [player_x], inventen un saludo secreto de 6 movimientos y háganlo sincronizados. Empiecen antes de que el grupo cuente hasta 7.",
@@ -956,7 +956,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3246,
+    "id": "res_96",
     "intensidad": 4,
     "tipo": "retos especiales",
     "texto": "Reto de tres: [player], [player_x] y [player_x1], formen una escena congelada sobre 'un secreto del grupo' con poses diferentes. Empiecen antes de que el grupo cuente hasta 7.",
@@ -966,7 +966,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3247,
+    "id": "res_97",
     "intensidad": 4,
     "tipo": "retos especiales",
     "texto": "Misión doble: [player] y [player_x], uno crea movimientos lentos y el otro los imita como un espejo durante 15 segundos. Empiecen antes de que el grupo cuente hasta 7.",
@@ -976,7 +976,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3248,
+    "id": "res_98",
     "intensidad": 4,
     "tipo": "retos especiales",
     "texto": "Misión triple: [player], [player_x] y [player_x1], improvisen un noticiero sobre 'encontrarse con una expareja' como abogado, acusado y juez. Empiecen antes de que el grupo cuente hasta 7.",
@@ -986,7 +986,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3249,
+    "id": "res_99",
     "intensidad": 4,
     "tipo": "retos especiales",
     "texto": "Reto en pareja: [player] y [player_x], repitan juntos un trabalenguas elegido por el grupo 3 veces. Empiecen antes de que el grupo cuente hasta 7.",
@@ -996,7 +996,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3250,
+    "id": "res_100",
     "intensidad": 4,
     "tipo": "retos especiales",
     "texto": "Reto de tres: [player], [player_x] y [player_x1], creen un ritmo de 9 sonidos corporales y ejecútenlo dos veces. Empiecen antes de que el grupo cuente hasta 7.",
@@ -1006,7 +1006,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3251,
+    "id": "res_101",
     "intensidad": 4,
     "tipo": "retos especiales",
     "texto": "Misión doble: [player] y [player_x], conversen 18 segundos sin decir 'sí', 'no' ni 'pero'. Empiecen antes de que el grupo cuente hasta 7.",
@@ -1016,7 +1016,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3252,
+    "id": "res_102",
     "intensidad": 4,
     "tipo": "retos especiales",
     "texto": "Misión triple: [player], [player_x] y [player_x1], construyan una historia de 9 frases sobre 'un secreto del grupo' sin contradecirse. Empiecen antes de que el grupo cuente hasta 7.",
@@ -1026,7 +1026,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3253,
+    "id": "res_103",
     "intensidad": 4,
     "tipo": "retos especiales",
     "texto": "Reto en pareja: [player] y [player_x], vendan un objeto elegido por el grupo: una persona presenta y otra demuestra. Empiecen antes de que el grupo cuente hasta 7.",
@@ -1036,7 +1036,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3254,
+    "id": "res_104",
     "intensidad": 4,
     "tipo": "retos especiales",
     "texto": "Reto de tres: [player], [player_x] y [player_x1], defiendan tres perspectivas sobre 'un secreto del grupo' usando los personajes abogado, acusado y juez. Empiecen antes de que el grupo cuente hasta 7.",
@@ -1046,7 +1046,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3255,
+    "id": "res_105",
     "intensidad": 4,
     "tipo": "retos especiales",
     "texto": "Misión doble: [player] y [player_x], canten por turnos una canción, continuando donde termine la persona anterior. Empiecen antes de que el grupo cuente hasta 7.",
@@ -1056,7 +1056,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3256,
+    "id": "res_106",
     "intensidad": 4,
     "tipo": "retos especiales",
     "texto": "Misión triple: [player], [player_x] y [player_x1], inventen una coreografía de 6 pasos y terminen en la misma pose. Empiecen antes de que el grupo cuente hasta 7.",
@@ -1066,7 +1066,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3257,
+    "id": "res_107",
     "intensidad": 4,
     "tipo": "retos especiales",
     "texto": "Reto en pareja: [player] y [player_x], respondan de espaldas tres preguntas del grupo y coincidan en al menos 2. Empiecen antes de que el grupo cuente hasta 7.",
@@ -1076,7 +1076,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3258,
+    "id": "res_108",
     "intensidad": 4,
     "tipo": "retos especiales",
     "texto": "Reto de tres: [player], [player_x] y [player_x1], representen 'encontrarse con una expareja' usando únicamente sonidos diferentes. Empiecen antes de que el grupo cuente hasta 7.",
@@ -1086,7 +1086,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3259,
+    "id": "res_109",
     "intensidad": 4,
     "tipo": "retos especiales",
     "texto": "Misión doble: [player] y [player_x], hagan un brindis conjunto sobre 'un secreto del grupo', alternando una frase sin pausas. Empiecen antes de que el grupo cuente hasta 7.",
@@ -1096,7 +1096,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3260,
+    "id": "res_110",
     "intensidad": 4,
     "tipo": "retos especiales",
     "texto": "Misión triple: [player], [player_x] y [player_x1], creen un anuncio de 20 segundos con presentador, cliente y narrador. Empiecen antes de que el grupo cuente hasta 7.",
@@ -1106,7 +1106,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3261,
+    "id": "res_111",
     "intensidad": 4,
     "tipo": "retos especiales",
     "texto": "Reto en pareja: [player] y [player_x], deletreen con los brazos una palabra elegida por el grupo sin hablar. Empiecen antes de que el grupo cuente hasta 7.",
@@ -1116,7 +1116,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3262,
+    "id": "res_112",
     "intensidad": 4,
     "tipo": "retos especiales",
     "texto": "Reto de tres: [player], [player_x] y [player_x1], improvisen una escena sobre 'encontrarse con una expareja' mostrando tres emociones distintas. Empiecen antes de que el grupo cuente hasta 7.",
@@ -1126,7 +1126,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3263,
+    "id": "res_113",
     "intensidad": 4,
     "tipo": "retos especiales",
     "texto": "Misión doble: [player] y [player_x], una persona describe un objeto sin nombrarlo y la otra lo representa. Empiecen antes de que el grupo cuente hasta 7.",
@@ -1136,7 +1136,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3264,
+    "id": "res_114",
     "intensidad": 4,
     "tipo": "retos especiales",
     "texto": "Misión triple: [player], [player_x] y [player_x1], organicen una entrevista manteniendo los papeles de abogado, acusado y juez durante 18 segundos. Empiecen antes de que el grupo cuente hasta 7.",
@@ -1146,7 +1146,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3265,
+    "id": "res_115",
     "intensidad": 4,
     "tipo": "retos especiales",
     "texto": "Reto en pareja: [player] y [player_x], digan 8 ideas relacionadas con 'un secreto del grupo' alternando sin bloquearse. Empiecen antes de que el grupo cuente hasta 7.",
@@ -1156,7 +1156,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3266,
+    "id": "res_116",
     "intensidad": 4,
     "tipo": "retos especiales",
     "texto": "Reto de tres: [player], [player_x] y [player_x1], creen una máquina humana de tres movimientos y tres sonidos. Empiecen antes de que el grupo cuente hasta 7.",
@@ -1166,7 +1166,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3267,
+    "id": "res_117",
     "intensidad": 4,
     "tipo": "retos especiales",
     "texto": "Misión doble: [player] y [player_x], inventen cuatro versos sobre 'un secreto del grupo' y recítenlos alternando. Empiecen antes de que el grupo cuente hasta 7.",
@@ -1176,7 +1176,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3268,
+    "id": "res_118",
     "intensidad": 4,
     "tipo": "retos especiales",
     "texto": "Misión triple: [player], [player_x] y [player_x1], representen en cámara lenta 'encontrarse con una expareja' con inicio, conflicto y final. Empiecen antes de que el grupo cuente hasta 7.",
@@ -1186,7 +1186,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3269,
+    "id": "res_119",
     "intensidad": 4,
     "tipo": "retos especiales",
     "texto": "Reto en pareja: [player] y [player_x], mantengan una pose dramática mientras cuentan juntos desde 32 hasta cero. Empiecen antes de que el grupo cuente hasta 7.",
@@ -1196,7 +1196,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3270,
+    "id": "res_120",
     "intensidad": 4,
     "tipo": "retos especiales",
     "texto": "Reto de tres: [player], [player_x] y [player_x1], combinen un paso de baile, una frase sobre 'un secreto del grupo' y una pose final sincronizada. Empiecen antes de que el grupo cuente hasta 7.",
@@ -1206,7 +1206,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3271,
+    "id": "res_121",
     "intensidad": 5,
     "tipo": "retos especiales",
     "texto": "Reto en pareja: [player] y [player_x], alternen 9 palabras relacionadas con 'una mala decisión' sin repetir. Empiecen antes de que el grupo cuente hasta 8.",
@@ -1216,7 +1216,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3272,
+    "id": "res_122",
     "intensidad": 5,
     "tipo": "retos especiales",
     "texto": "Reto de tres: [player], [player_x] y [player_x1], creen una secuencia de 9 gestos y repítanla completa. Empiecen antes de que el grupo cuente hasta 8.",
@@ -1226,7 +1226,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3273,
+    "id": "res_123",
     "intensidad": 5,
     "tipo": "retos especiales",
     "texto": "Misión doble: [player] y [player_x], cuenten una historia sobre 'explicar una foto vergonzosa' alternando una palabra por turno. Empiecen antes de que el grupo cuente hasta 8.",
@@ -1236,7 +1236,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3274,
+    "id": "res_124",
     "intensidad": 5,
     "tipo": "retos especiales",
     "texto": "Misión triple: [player], [player_x] y [player_x1], representen 'explicar una foto vergonzosa': los papeles serán influencer, seguidor y crítico. Empiecen antes de que el grupo cuente hasta 8.",
@@ -1246,7 +1246,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3275,
+    "id": "res_125",
     "intensidad": 5,
     "tipo": "retos especiales",
     "texto": "Reto en pareja: [player] y [player_x], inventen un saludo secreto de 7 movimientos y háganlo sincronizados. Empiecen antes de que el grupo cuente hasta 8.",
@@ -1256,7 +1256,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3276,
+    "id": "res_126",
     "intensidad": 5,
     "tipo": "retos especiales",
     "texto": "Reto de tres: [player], [player_x] y [player_x1], formen una escena congelada sobre 'una mala decisión' con poses diferentes. Empiecen antes de que el grupo cuente hasta 8.",
@@ -1266,7 +1266,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3277,
+    "id": "res_127",
     "intensidad": 5,
     "tipo": "retos especiales",
     "texto": "Misión doble: [player] y [player_x], uno crea movimientos lentos y el otro los imita como un espejo durante 14 segundos. Empiecen antes de que el grupo cuente hasta 8.",
@@ -1276,7 +1276,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3278,
+    "id": "res_128",
     "intensidad": 5,
     "tipo": "retos especiales",
     "texto": "Misión triple: [player], [player_x] y [player_x1], improvisen un noticiero sobre 'explicar una foto vergonzosa' como influencer, seguidor y crítico. Empiecen antes de que el grupo cuente hasta 8.",
@@ -1286,7 +1286,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3279,
+    "id": "res_129",
     "intensidad": 5,
     "tipo": "retos especiales",
     "texto": "Reto en pareja: [player] y [player_x], repitan juntos un trabalenguas elegido por el grupo 4 veces. Empiecen antes de que el grupo cuente hasta 8.",
@@ -1296,7 +1296,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3280,
+    "id": "res_130",
     "intensidad": 5,
     "tipo": "retos especiales",
     "texto": "Reto de tres: [player], [player_x] y [player_x1], creen un ritmo de 10 sonidos corporales y ejecútenlo dos veces. Empiecen antes de que el grupo cuente hasta 8.",
@@ -1306,7 +1306,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3281,
+    "id": "res_131",
     "intensidad": 5,
     "tipo": "retos especiales",
     "texto": "Misión doble: [player] y [player_x], conversen 17 segundos sin decir 'sí', 'no' ni 'pero'. Empiecen antes de que el grupo cuente hasta 8.",
@@ -1316,7 +1316,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3282,
+    "id": "res_132",
     "intensidad": 5,
     "tipo": "retos especiales",
     "texto": "Misión triple: [player], [player_x] y [player_x1], construyan una historia de 10 frases sobre 'una mala decisión' sin contradecirse. Empiecen antes de que el grupo cuente hasta 8.",
@@ -1326,7 +1326,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3283,
+    "id": "res_133",
     "intensidad": 5,
     "tipo": "retos especiales",
     "texto": "Reto en pareja: [player] y [player_x], vendan un objeto elegido por el grupo: una persona presenta y otra demuestra. Empiecen antes de que el grupo cuente hasta 8.",
@@ -1336,7 +1336,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3284,
+    "id": "res_134",
     "intensidad": 5,
     "tipo": "retos especiales",
     "texto": "Reto de tres: [player], [player_x] y [player_x1], defiendan tres perspectivas sobre 'una mala decisión' usando los personajes influencer, seguidor y crítico. Empiecen antes de que el grupo cuente hasta 8.",
@@ -1346,7 +1346,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3285,
+    "id": "res_135",
     "intensidad": 5,
     "tipo": "retos especiales",
     "texto": "Misión doble: [player] y [player_x], canten por turnos una canción, continuando donde termine la persona anterior. Empiecen antes de que el grupo cuente hasta 8.",
@@ -1356,7 +1356,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3286,
+    "id": "res_136",
     "intensidad": 5,
     "tipo": "retos especiales",
     "texto": "Misión triple: [player], [player_x] y [player_x1], inventen una coreografía de 7 pasos y terminen en la misma pose. Empiecen antes de que el grupo cuente hasta 8.",
@@ -1366,7 +1366,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3287,
+    "id": "res_137",
     "intensidad": 5,
     "tipo": "retos especiales",
     "texto": "Reto en pareja: [player] y [player_x], respondan de espaldas tres preguntas del grupo y coincidan en al menos 2. Empiecen antes de que el grupo cuente hasta 8.",
@@ -1376,7 +1376,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3288,
+    "id": "res_138",
     "intensidad": 5,
     "tipo": "retos especiales",
     "texto": "Reto de tres: [player], [player_x] y [player_x1], representen 'explicar una foto vergonzosa' usando únicamente sonidos diferentes. Empiecen antes de que el grupo cuente hasta 8.",
@@ -1386,7 +1386,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3289,
+    "id": "res_139",
     "intensidad": 5,
     "tipo": "retos especiales",
     "texto": "Misión doble: [player] y [player_x], hagan un brindis conjunto sobre 'una mala decisión', alternando una frase sin pausas. Empiecen antes de que el grupo cuente hasta 8.",
@@ -1396,7 +1396,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3290,
+    "id": "res_140",
     "intensidad": 5,
     "tipo": "retos especiales",
     "texto": "Misión triple: [player], [player_x] y [player_x1], creen un anuncio de 19 segundos con presentador, cliente y narrador. Empiecen antes de que el grupo cuente hasta 8.",
@@ -1406,7 +1406,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3291,
+    "id": "res_141",
     "intensidad": 5,
     "tipo": "retos especiales",
     "texto": "Reto en pareja: [player] y [player_x], deletreen con los brazos una palabra elegida por el grupo sin hablar. Empiecen antes de que el grupo cuente hasta 8.",
@@ -1416,7 +1416,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3292,
+    "id": "res_142",
     "intensidad": 5,
     "tipo": "retos especiales",
     "texto": "Reto de tres: [player], [player_x] y [player_x1], improvisen una escena sobre 'explicar una foto vergonzosa' mostrando tres emociones distintas. Empiecen antes de que el grupo cuente hasta 8.",
@@ -1426,7 +1426,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3293,
+    "id": "res_143",
     "intensidad": 5,
     "tipo": "retos especiales",
     "texto": "Misión doble: [player] y [player_x], una persona describe un objeto sin nombrarlo y la otra lo representa. Empiecen antes de que el grupo cuente hasta 8.",
@@ -1436,7 +1436,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3294,
+    "id": "res_144",
     "intensidad": 5,
     "tipo": "retos especiales",
     "texto": "Misión triple: [player], [player_x] y [player_x1], organicen una entrevista manteniendo los papeles de influencer, seguidor y crítico durante 17 segundos. Empiecen antes de que el grupo cuente hasta 8.",
@@ -1446,7 +1446,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3295,
+    "id": "res_145",
     "intensidad": 5,
     "tipo": "retos especiales",
     "texto": "Reto en pareja: [player] y [player_x], digan 9 ideas relacionadas con 'una mala decisión' alternando sin bloquearse. Empiecen antes de que el grupo cuente hasta 8.",
@@ -1456,7 +1456,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3296,
+    "id": "res_146",
     "intensidad": 5,
     "tipo": "retos especiales",
     "texto": "Reto de tres: [player], [player_x] y [player_x1], creen una máquina humana de tres movimientos y tres sonidos. Empiecen antes de que el grupo cuente hasta 8.",
@@ -1466,7 +1466,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3297,
+    "id": "res_147",
     "intensidad": 5,
     "tipo": "retos especiales",
     "texto": "Misión doble: [player] y [player_x], inventen cuatro versos sobre 'una mala decisión' y recítenlos alternando. Empiecen antes de que el grupo cuente hasta 8.",
@@ -1476,7 +1476,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3298,
+    "id": "res_148",
     "intensidad": 5,
     "tipo": "retos especiales",
     "texto": "Misión triple: [player], [player_x] y [player_x1], representen en cámara lenta 'explicar una foto vergonzosa' con inicio, conflicto y final. Empiecen antes de que el grupo cuente hasta 8.",
@@ -1486,7 +1486,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3299,
+    "id": "res_149",
     "intensidad": 5,
     "tipo": "retos especiales",
     "texto": "Reto en pareja: [player] y [player_x], mantengan una pose dramática mientras cuentan juntos desde 35 hasta cero. Empiecen antes de que el grupo cuente hasta 8.",
@@ -1496,7 +1496,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3300,
+    "id": "res_150",
     "intensidad": 5,
     "tipo": "retos especiales",
     "texto": "Reto de tres: [player], [player_x] y [player_x1], combinen un paso de baile, una frase sobre 'una mala decisión' y una pose final sincronizada. Empiecen antes de que el grupo cuente hasta 8.",
@@ -1506,7 +1506,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3301,
+    "id": "res_151",
     "intensidad": 6,
     "tipo": "retos especiales",
     "texto": "Reto en pareja: [player] y [player_x], alternen 10 palabras relacionadas con 'una segunda oportunidad' sin repetir. Empiecen antes de que el grupo cuente hasta 9.",
@@ -1516,7 +1516,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3302,
+    "id": "res_152",
     "intensidad": 6,
     "tipo": "retos especiales",
     "texto": "Reto de tres: [player], [player_x] y [player_x1], creen una secuencia de 10 gestos y repítanla completa. Empiecen antes de que el grupo cuente hasta 9.",
@@ -1526,7 +1526,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3303,
+    "id": "res_153",
     "intensidad": 6,
     "tipo": "retos especiales",
     "texto": "Misión doble: [player] y [player_x], cuenten una historia sobre 'defender una compra impulsiva' alternando una palabra por turno. Empiecen antes de que el grupo cuente hasta 9.",
@@ -1536,7 +1536,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3304,
+    "id": "res_154",
     "intensidad": 6,
     "tipo": "retos especiales",
     "texto": "Misión triple: [player], [player_x] y [player_x1], representen 'defender una compra impulsiva': los papeles serán portavoz, periodista y asesor. Empiecen antes de que el grupo cuente hasta 9.",
@@ -1546,7 +1546,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3305,
+    "id": "res_155",
     "intensidad": 6,
     "tipo": "retos especiales",
     "texto": "Reto en pareja: [player] y [player_x], inventen un saludo secreto de 8 movimientos y háganlo sincronizados. Empiecen antes de que el grupo cuente hasta 9.",
@@ -1556,7 +1556,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3306,
+    "id": "res_156",
     "intensidad": 6,
     "tipo": "retos especiales",
     "texto": "Reto de tres: [player], [player_x] y [player_x1], formen una escena congelada sobre 'una segunda oportunidad' con poses diferentes. Empiecen antes de que el grupo cuente hasta 9.",
@@ -1566,7 +1566,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3307,
+    "id": "res_157",
     "intensidad": 6,
     "tipo": "retos especiales",
     "texto": "Misión doble: [player] y [player_x], uno crea movimientos lentos y el otro los imita como un espejo durante 13 segundos. Empiecen antes de que el grupo cuente hasta 9.",
@@ -1576,7 +1576,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3308,
+    "id": "res_158",
     "intensidad": 6,
     "tipo": "retos especiales",
     "texto": "Misión triple: [player], [player_x] y [player_x1], improvisen un noticiero sobre 'defender una compra impulsiva' como portavoz, periodista y asesor. Empiecen antes de que el grupo cuente hasta 9.",
@@ -1586,7 +1586,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3309,
+    "id": "res_159",
     "intensidad": 6,
     "tipo": "retos especiales",
     "texto": "Reto en pareja: [player] y [player_x], repitan juntos un trabalenguas elegido por el grupo 4 veces. Empiecen antes de que el grupo cuente hasta 9.",
@@ -1596,7 +1596,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3310,
+    "id": "res_160",
     "intensidad": 6,
     "tipo": "retos especiales",
     "texto": "Reto de tres: [player], [player_x] y [player_x1], creen un ritmo de 11 sonidos corporales y ejecútenlo dos veces. Empiecen antes de que el grupo cuente hasta 9.",
@@ -1606,7 +1606,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3311,
+    "id": "res_161",
     "intensidad": 6,
     "tipo": "retos especiales",
     "texto": "Misión doble: [player] y [player_x], conversen 16 segundos sin decir 'sí', 'no' ni 'pero'. Empiecen antes de que el grupo cuente hasta 9.",
@@ -1616,7 +1616,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3312,
+    "id": "res_162",
     "intensidad": 6,
     "tipo": "retos especiales",
     "texto": "Misión triple: [player], [player_x] y [player_x1], construyan una historia de 11 frases sobre 'una segunda oportunidad' sin contradecirse. Empiecen antes de que el grupo cuente hasta 9.",
@@ -1626,7 +1626,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3313,
+    "id": "res_163",
     "intensidad": 6,
     "tipo": "retos especiales",
     "texto": "Reto en pareja: [player] y [player_x], vendan un objeto elegido por el grupo: una persona presenta y otra demuestra. Empiecen antes de que el grupo cuente hasta 9.",
@@ -1636,7 +1636,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3314,
+    "id": "res_164",
     "intensidad": 6,
     "tipo": "retos especiales",
     "texto": "Reto de tres: [player], [player_x] y [player_x1], defiendan tres perspectivas sobre 'una segunda oportunidad' usando los personajes portavoz, periodista y asesor. Empiecen antes de que el grupo cuente hasta 9.",
@@ -1646,7 +1646,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3315,
+    "id": "res_165",
     "intensidad": 6,
     "tipo": "retos especiales",
     "texto": "Misión doble: [player] y [player_x], canten por turnos una canción, continuando donde termine la persona anterior. Empiecen antes de que el grupo cuente hasta 9.",
@@ -1656,7 +1656,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3316,
+    "id": "res_166",
     "intensidad": 6,
     "tipo": "retos especiales",
     "texto": "Misión triple: [player], [player_x] y [player_x1], inventen una coreografía de 8 pasos y terminen en la misma pose. Empiecen antes de que el grupo cuente hasta 9.",
@@ -1666,7 +1666,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3317,
+    "id": "res_167",
     "intensidad": 6,
     "tipo": "retos especiales",
     "texto": "Reto en pareja: [player] y [player_x], respondan de espaldas tres preguntas del grupo y coincidan en al menos 2. Empiecen antes de que el grupo cuente hasta 9.",
@@ -1676,7 +1676,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3318,
+    "id": "res_168",
     "intensidad": 6,
     "tipo": "retos especiales",
     "texto": "Reto de tres: [player], [player_x] y [player_x1], representen 'defender una compra impulsiva' usando únicamente sonidos diferentes. Empiecen antes de que el grupo cuente hasta 9.",
@@ -1686,7 +1686,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3319,
+    "id": "res_169",
     "intensidad": 6,
     "tipo": "retos especiales",
     "texto": "Misión doble: [player] y [player_x], hagan un brindis conjunto sobre 'una segunda oportunidad', alternando una frase sin pausas. Empiecen antes de que el grupo cuente hasta 9.",
@@ -1696,7 +1696,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3320,
+    "id": "res_170",
     "intensidad": 6,
     "tipo": "retos especiales",
     "texto": "Misión triple: [player], [player_x] y [player_x1], creen un anuncio de 18 segundos con presentador, cliente y narrador. Empiecen antes de que el grupo cuente hasta 9.",
@@ -1706,7 +1706,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3321,
+    "id": "res_171",
     "intensidad": 6,
     "tipo": "retos especiales",
     "texto": "Reto en pareja: [player] y [player_x], deletreen con los brazos una palabra elegida por el grupo sin hablar. Empiecen antes de que el grupo cuente hasta 9.",
@@ -1716,7 +1716,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3322,
+    "id": "res_172",
     "intensidad": 6,
     "tipo": "retos especiales",
     "texto": "Reto de tres: [player], [player_x] y [player_x1], improvisen una escena sobre 'defender una compra impulsiva' mostrando tres emociones distintas. Empiecen antes de que el grupo cuente hasta 9.",
@@ -1726,7 +1726,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3323,
+    "id": "res_173",
     "intensidad": 6,
     "tipo": "retos especiales",
     "texto": "Misión doble: [player] y [player_x], una persona describe un objeto sin nombrarlo y la otra lo representa. Empiecen antes de que el grupo cuente hasta 9.",
@@ -1736,7 +1736,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3324,
+    "id": "res_174",
     "intensidad": 6,
     "tipo": "retos especiales",
     "texto": "Misión triple: [player], [player_x] y [player_x1], organicen una entrevista manteniendo los papeles de portavoz, periodista y asesor durante 16 segundos. Empiecen antes de que el grupo cuente hasta 9.",
@@ -1746,7 +1746,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3325,
+    "id": "res_175",
     "intensidad": 6,
     "tipo": "retos especiales",
     "texto": "Reto en pareja: [player] y [player_x], digan 10 ideas relacionadas con 'una segunda oportunidad' alternando sin bloquearse. Empiecen antes de que el grupo cuente hasta 9.",
@@ -1756,7 +1756,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3326,
+    "id": "res_176",
     "intensidad": 6,
     "tipo": "retos especiales",
     "texto": "Reto de tres: [player], [player_x] y [player_x1], creen una máquina humana de tres movimientos y tres sonidos. Empiecen antes de que el grupo cuente hasta 9.",
@@ -1766,7 +1766,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3327,
+    "id": "res_177",
     "intensidad": 6,
     "tipo": "retos especiales",
     "texto": "Misión doble: [player] y [player_x], inventen cuatro versos sobre 'una segunda oportunidad' y recítenlos alternando. Empiecen antes de que el grupo cuente hasta 9.",
@@ -1776,7 +1776,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3328,
+    "id": "res_178",
     "intensidad": 6,
     "tipo": "retos especiales",
     "texto": "Misión triple: [player], [player_x] y [player_x1], representen en cámara lenta 'defender una compra impulsiva' con inicio, conflicto y final. Empiecen antes de que el grupo cuente hasta 9.",
@@ -1786,7 +1786,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3329,
+    "id": "res_179",
     "intensidad": 6,
     "tipo": "retos especiales",
     "texto": "Reto en pareja: [player] y [player_x], mantengan una pose dramática mientras cuentan juntos desde 38 hasta cero. Empiecen antes de que el grupo cuente hasta 9.",
@@ -1796,7 +1796,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3330,
+    "id": "res_180",
     "intensidad": 6,
     "tipo": "retos especiales",
     "texto": "Reto de tres: [player], [player_x] y [player_x1], combinen un paso de baile, una frase sobre 'una segunda oportunidad' y una pose final sincronizada. Empiecen antes de que el grupo cuente hasta 9.",
@@ -1806,7 +1806,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3331,
+    "id": "res_181",
     "intensidad": 7,
     "tipo": "retos especiales",
     "texto": "Reto en pareja: [player] y [player_x], alternen 11 palabras relacionadas con 'una atracción inesperada' sin repetir. Empiecen antes de que el grupo cuente hasta 10.",
@@ -1816,7 +1816,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3332,
+    "id": "res_182",
     "intensidad": 7,
     "tipo": "retos especiales",
     "texto": "Reto de tres: [player], [player_x] y [player_x1], creen una secuencia de 11 gestos y repítanla completa. Empiecen antes de que el grupo cuente hasta 10.",
@@ -1826,7 +1826,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3333,
+    "id": "res_183",
     "intensidad": 7,
     "tipo": "retos especiales",
     "texto": "Misión doble: [player] y [player_x], cuenten una historia sobre 'negar unos celos evidentes' alternando una palabra por turno. Empiecen antes de que el grupo cuente hasta 10.",
@@ -1836,7 +1836,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3334,
+    "id": "res_184",
     "intensidad": 7,
     "tipo": "retos especiales",
     "texto": "Misión triple: [player], [player_x] y [player_x1], representen 'negar unos celos evidentes': los papeles serán terapeuta, paciente y observador. Empiecen antes de que el grupo cuente hasta 10.",
@@ -1846,7 +1846,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3335,
+    "id": "res_185",
     "intensidad": 7,
     "tipo": "retos especiales",
     "texto": "Reto en pareja: [player] y [player_x], inventen un saludo secreto de 9 movimientos y háganlo sincronizados. Empiecen antes de que el grupo cuente hasta 10.",
@@ -1856,7 +1856,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3336,
+    "id": "res_186",
     "intensidad": 7,
     "tipo": "retos especiales",
     "texto": "Reto de tres: [player], [player_x] y [player_x1], formen una escena congelada sobre 'una atracción inesperada' con poses diferentes. Empiecen antes de que el grupo cuente hasta 10.",
@@ -1866,7 +1866,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3337,
+    "id": "res_187",
     "intensidad": 7,
     "tipo": "retos especiales",
     "texto": "Misión doble: [player] y [player_x], uno crea movimientos lentos y el otro los imita como un espejo durante 12 segundos. Empiecen antes de que el grupo cuente hasta 10.",
@@ -1876,7 +1876,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3338,
+    "id": "res_188",
     "intensidad": 7,
     "tipo": "retos especiales",
     "texto": "Misión triple: [player], [player_x] y [player_x1], improvisen un noticiero sobre 'negar unos celos evidentes' como terapeuta, paciente y observador. Empiecen antes de que el grupo cuente hasta 10.",
@@ -1886,7 +1886,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3339,
+    "id": "res_189",
     "intensidad": 7,
     "tipo": "retos especiales",
     "texto": "Reto en pareja: [player] y [player_x], repitan juntos un trabalenguas elegido por el grupo 5 veces. Empiecen antes de que el grupo cuente hasta 10.",
@@ -1896,7 +1896,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3340,
+    "id": "res_190",
     "intensidad": 7,
     "tipo": "retos especiales",
     "texto": "Reto de tres: [player], [player_x] y [player_x1], creen un ritmo de 12 sonidos corporales y ejecútenlo dos veces. Empiecen antes de que el grupo cuente hasta 10.",
@@ -1906,7 +1906,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3341,
+    "id": "res_191",
     "intensidad": 7,
     "tipo": "retos especiales",
     "texto": "Misión doble: [player] y [player_x], conversen 15 segundos sin decir 'sí', 'no' ni 'pero'. Empiecen antes de que el grupo cuente hasta 10.",
@@ -1916,7 +1916,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3342,
+    "id": "res_192",
     "intensidad": 7,
     "tipo": "retos especiales",
     "texto": "Misión triple: [player], [player_x] y [player_x1], construyan una historia de 12 frases sobre 'una atracción inesperada' sin contradecirse. Empiecen antes de que el grupo cuente hasta 10.",
@@ -1926,7 +1926,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3343,
+    "id": "res_193",
     "intensidad": 7,
     "tipo": "retos especiales",
     "texto": "Reto en pareja: [player] y [player_x], vendan un objeto elegido por el grupo: una persona presenta y otra demuestra. Empiecen antes de que el grupo cuente hasta 10.",
@@ -1936,7 +1936,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3344,
+    "id": "res_194",
     "intensidad": 7,
     "tipo": "retos especiales",
     "texto": "Reto de tres: [player], [player_x] y [player_x1], defiendan tres perspectivas sobre 'una atracción inesperada' usando los personajes terapeuta, paciente y observador. Empiecen antes de que el grupo cuente hasta 10.",
@@ -1946,7 +1946,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3345,
+    "id": "res_195",
     "intensidad": 7,
     "tipo": "retos especiales",
     "texto": "Misión doble: [player] y [player_x], canten por turnos una canción, continuando donde termine la persona anterior. Empiecen antes de que el grupo cuente hasta 10.",
@@ -1956,7 +1956,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3346,
+    "id": "res_196",
     "intensidad": 7,
     "tipo": "retos especiales",
     "texto": "Misión triple: [player], [player_x] y [player_x1], inventen una coreografía de 9 pasos y terminen en la misma pose. Empiecen antes de que el grupo cuente hasta 10.",
@@ -1966,7 +1966,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3347,
+    "id": "res_197",
     "intensidad": 7,
     "tipo": "retos especiales",
     "texto": "Reto en pareja: [player] y [player_x], respondan de espaldas tres preguntas del grupo y coincidan en al menos 2. Empiecen antes de que el grupo cuente hasta 10.",
@@ -1976,7 +1976,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3348,
+    "id": "res_198",
     "intensidad": 7,
     "tipo": "retos especiales",
     "texto": "Reto de tres: [player], [player_x] y [player_x1], representen 'negar unos celos evidentes' usando únicamente sonidos diferentes. Empiecen antes de que el grupo cuente hasta 10.",
@@ -1986,7 +1986,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3349,
+    "id": "res_199",
     "intensidad": 7,
     "tipo": "retos especiales",
     "texto": "Misión doble: [player] y [player_x], hagan un brindis conjunto sobre 'una atracción inesperada', alternando una frase sin pausas. Empiecen antes de que el grupo cuente hasta 10.",
@@ -1996,7 +1996,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3350,
+    "id": "res_200",
     "intensidad": 7,
     "tipo": "retos especiales",
     "texto": "Misión triple: [player], [player_x] y [player_x1], creen un anuncio de 17 segundos con presentador, cliente y narrador. Empiecen antes de que el grupo cuente hasta 10.",
@@ -2006,7 +2006,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3351,
+    "id": "res_201",
     "intensidad": 7,
     "tipo": "retos especiales",
     "texto": "Reto en pareja: [player] y [player_x], deletreen con los brazos una palabra elegida por el grupo sin hablar. Empiecen antes de que el grupo cuente hasta 10.",
@@ -2016,7 +2016,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3352,
+    "id": "res_202",
     "intensidad": 7,
     "tipo": "retos especiales",
     "texto": "Reto de tres: [player], [player_x] y [player_x1], improvisen una escena sobre 'negar unos celos evidentes' mostrando tres emociones distintas. Empiecen antes de que el grupo cuente hasta 10.",
@@ -2026,7 +2026,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3353,
+    "id": "res_203",
     "intensidad": 7,
     "tipo": "retos especiales",
     "texto": "Misión doble: [player] y [player_x], una persona describe un objeto sin nombrarlo y la otra lo representa. Empiecen antes de que el grupo cuente hasta 10.",
@@ -2036,7 +2036,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3354,
+    "id": "res_204",
     "intensidad": 7,
     "tipo": "retos especiales",
     "texto": "Misión triple: [player], [player_x] y [player_x1], organicen una entrevista manteniendo los papeles de terapeuta, paciente y observador durante 15 segundos. Empiecen antes de que el grupo cuente hasta 10.",
@@ -2046,7 +2046,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3355,
+    "id": "res_205",
     "intensidad": 7,
     "tipo": "retos especiales",
     "texto": "Reto en pareja: [player] y [player_x], digan 11 ideas relacionadas con 'una atracción inesperada' alternando sin bloquearse. Empiecen antes de que el grupo cuente hasta 10.",
@@ -2056,7 +2056,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3356,
+    "id": "res_206",
     "intensidad": 7,
     "tipo": "retos especiales",
     "texto": "Reto de tres: [player], [player_x] y [player_x1], creen una máquina humana de tres movimientos y tres sonidos. Empiecen antes de que el grupo cuente hasta 10.",
@@ -2066,7 +2066,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3357,
+    "id": "res_207",
     "intensidad": 7,
     "tipo": "retos especiales",
     "texto": "Misión doble: [player] y [player_x], inventen cuatro versos sobre 'una atracción inesperada' y recítenlos alternando. Empiecen antes de que el grupo cuente hasta 10.",
@@ -2076,7 +2076,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3358,
+    "id": "res_208",
     "intensidad": 7,
     "tipo": "retos especiales",
     "texto": "Misión triple: [player], [player_x] y [player_x1], representen en cámara lenta 'negar unos celos evidentes' con inicio, conflicto y final. Empiecen antes de que el grupo cuente hasta 10.",
@@ -2086,7 +2086,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3359,
+    "id": "res_209",
     "intensidad": 7,
     "tipo": "retos especiales",
     "texto": "Reto en pareja: [player] y [player_x], mantengan una pose dramática mientras cuentan juntos desde 41 hasta cero. Empiecen antes de que el grupo cuente hasta 10.",
@@ -2096,7 +2096,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3360,
+    "id": "res_210",
     "intensidad": 7,
     "tipo": "retos especiales",
     "texto": "Reto de tres: [player], [player_x] y [player_x1], combinen un paso de baile, una frase sobre 'una atracción inesperada' y una pose final sincronizada. Empiecen antes de que el grupo cuente hasta 10.",
@@ -2106,7 +2106,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3361,
+    "id": "res_211",
     "intensidad": 8,
     "tipo": "retos especiales",
     "texto": "Reto en pareja: [player] y [player_x], alternen 12 palabras relacionadas con 'una mentira descubierta' sin repetir. Empiecen antes de que el grupo cuente hasta 11.",
@@ -2116,7 +2116,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3362,
+    "id": "res_212",
     "intensidad": 8,
     "tipo": "retos especiales",
     "texto": "Reto de tres: [player], [player_x] y [player_x1], creen una secuencia de 12 gestos y repítanla completa. Empiecen antes de que el grupo cuente hasta 11.",
@@ -2126,7 +2126,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3363,
+    "id": "res_213",
     "intensidad": 8,
     "tipo": "retos especiales",
     "texto": "Misión doble: [player] y [player_x], cuenten una historia sobre 'descubrir dos versiones distintas' alternando una palabra por turno. Empiecen antes de que el grupo cuente hasta 11.",
@@ -2136,7 +2136,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3364,
+    "id": "res_214",
     "intensidad": 8,
     "tipo": "retos especiales",
     "texto": "Misión triple: [player], [player_x] y [player_x1], representen 'descubrir dos versiones distintas': los papeles serán investigador, implicado y mediador. Empiecen antes de que el grupo cuente hasta 11.",
@@ -2146,7 +2146,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3365,
+    "id": "res_215",
     "intensidad": 8,
     "tipo": "retos especiales",
     "texto": "Reto en pareja: [player] y [player_x], inventen un saludo secreto de 10 movimientos y háganlo sincronizados. Empiecen antes de que el grupo cuente hasta 11.",
@@ -2156,7 +2156,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3366,
+    "id": "res_216",
     "intensidad": 8,
     "tipo": "retos especiales",
     "texto": "Reto de tres: [player], [player_x] y [player_x1], formen una escena congelada sobre 'una mentira descubierta' con poses diferentes. Empiecen antes de que el grupo cuente hasta 11.",
@@ -2166,7 +2166,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3367,
+    "id": "res_217",
     "intensidad": 8,
     "tipo": "retos especiales",
     "texto": "Misión doble: [player] y [player_x], uno crea movimientos lentos y el otro los imita como un espejo durante 11 segundos. Empiecen antes de que el grupo cuente hasta 11.",
@@ -2176,7 +2176,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3368,
+    "id": "res_218",
     "intensidad": 8,
     "tipo": "retos especiales",
     "texto": "Misión triple: [player], [player_x] y [player_x1], improvisen un noticiero sobre 'descubrir dos versiones distintas' como investigador, implicado y mediador. Empiecen antes de que el grupo cuente hasta 11.",
@@ -2186,7 +2186,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3369,
+    "id": "res_219",
     "intensidad": 8,
     "tipo": "retos especiales",
     "texto": "Reto en pareja: [player] y [player_x], repitan juntos un trabalenguas elegido por el grupo 5 veces. Empiecen antes de que el grupo cuente hasta 11.",
@@ -2196,7 +2196,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3370,
+    "id": "res_220",
     "intensidad": 8,
     "tipo": "retos especiales",
     "texto": "Reto de tres: [player], [player_x] y [player_x1], creen un ritmo de 13 sonidos corporales y ejecútenlo dos veces. Empiecen antes de que el grupo cuente hasta 11.",
@@ -2206,7 +2206,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3371,
+    "id": "res_221",
     "intensidad": 8,
     "tipo": "retos especiales",
     "texto": "Misión doble: [player] y [player_x], conversen 14 segundos sin decir 'sí', 'no' ni 'pero'. Empiecen antes de que el grupo cuente hasta 11.",
@@ -2216,7 +2216,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3372,
+    "id": "res_222",
     "intensidad": 8,
     "tipo": "retos especiales",
     "texto": "Misión triple: [player], [player_x] y [player_x1], construyan una historia de 13 frases sobre 'una mentira descubierta' sin contradecirse. Empiecen antes de que el grupo cuente hasta 11.",
@@ -2226,7 +2226,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3373,
+    "id": "res_223",
     "intensidad": 8,
     "tipo": "retos especiales",
     "texto": "Reto en pareja: [player] y [player_x], vendan un objeto elegido por el grupo: una persona presenta y otra demuestra. Empiecen antes de que el grupo cuente hasta 11.",
@@ -2236,7 +2236,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3374,
+    "id": "res_224",
     "intensidad": 8,
     "tipo": "retos especiales",
     "texto": "Reto de tres: [player], [player_x] y [player_x1], defiendan tres perspectivas sobre 'una mentira descubierta' usando los personajes investigador, implicado y mediador. Empiecen antes de que el grupo cuente hasta 11.",
@@ -2246,7 +2246,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3375,
+    "id": "res_225",
     "intensidad": 8,
     "tipo": "retos especiales",
     "texto": "Misión doble: [player] y [player_x], canten por turnos una canción, continuando donde termine la persona anterior. Empiecen antes de que el grupo cuente hasta 11.",
@@ -2256,7 +2256,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3376,
+    "id": "res_226",
     "intensidad": 8,
     "tipo": "retos especiales",
     "texto": "Misión triple: [player], [player_x] y [player_x1], inventen una coreografía de 10 pasos y terminen en la misma pose. Empiecen antes de que el grupo cuente hasta 11.",
@@ -2266,7 +2266,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3377,
+    "id": "res_227",
     "intensidad": 8,
     "tipo": "retos especiales",
     "texto": "Reto en pareja: [player] y [player_x], respondan de espaldas tres preguntas del grupo y coincidan en al menos 3. Empiecen antes de que el grupo cuente hasta 11.",
@@ -2276,7 +2276,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3378,
+    "id": "res_228",
     "intensidad": 8,
     "tipo": "retos especiales",
     "texto": "Reto de tres: [player], [player_x] y [player_x1], representen 'descubrir dos versiones distintas' usando únicamente sonidos diferentes. Empiecen antes de que el grupo cuente hasta 11.",
@@ -2286,7 +2286,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3379,
+    "id": "res_229",
     "intensidad": 8,
     "tipo": "retos especiales",
     "texto": "Misión doble: [player] y [player_x], hagan un brindis conjunto sobre 'una mentira descubierta', alternando una frase sin pausas. Empiecen antes de que el grupo cuente hasta 11.",
@@ -2296,7 +2296,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3380,
+    "id": "res_230",
     "intensidad": 8,
     "tipo": "retos especiales",
     "texto": "Misión triple: [player], [player_x] y [player_x1], creen un anuncio de 16 segundos con presentador, cliente y narrador. Empiecen antes de que el grupo cuente hasta 11.",
@@ -2306,7 +2306,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3381,
+    "id": "res_231",
     "intensidad": 8,
     "tipo": "retos especiales",
     "texto": "Reto en pareja: [player] y [player_x], deletreen con los brazos una palabra elegida por el grupo sin hablar. Empiecen antes de que el grupo cuente hasta 11.",
@@ -2316,7 +2316,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3382,
+    "id": "res_232",
     "intensidad": 8,
     "tipo": "retos especiales",
     "texto": "Reto de tres: [player], [player_x] y [player_x1], improvisen una escena sobre 'descubrir dos versiones distintas' mostrando tres emociones distintas. Empiecen antes de que el grupo cuente hasta 11.",
@@ -2326,7 +2326,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3383,
+    "id": "res_233",
     "intensidad": 8,
     "tipo": "retos especiales",
     "texto": "Misión doble: [player] y [player_x], una persona describe un objeto sin nombrarlo y la otra lo representa. Empiecen antes de que el grupo cuente hasta 11.",
@@ -2336,7 +2336,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3384,
+    "id": "res_234",
     "intensidad": 8,
     "tipo": "retos especiales",
     "texto": "Misión triple: [player], [player_x] y [player_x1], organicen una entrevista manteniendo los papeles de investigador, implicado y mediador durante 14 segundos. Empiecen antes de que el grupo cuente hasta 11.",
@@ -2346,7 +2346,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3385,
+    "id": "res_235",
     "intensidad": 8,
     "tipo": "retos especiales",
     "texto": "Reto en pareja: [player] y [player_x], digan 12 ideas relacionadas con 'una mentira descubierta' alternando sin bloquearse. Empiecen antes de que el grupo cuente hasta 11.",
@@ -2356,7 +2356,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3386,
+    "id": "res_236",
     "intensidad": 8,
     "tipo": "retos especiales",
     "texto": "Reto de tres: [player], [player_x] y [player_x1], creen una máquina humana de tres movimientos y tres sonidos. Empiecen antes de que el grupo cuente hasta 11.",
@@ -2366,7 +2366,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3387,
+    "id": "res_237",
     "intensidad": 8,
     "tipo": "retos especiales",
     "texto": "Misión doble: [player] y [player_x], inventen cuatro versos sobre 'una mentira descubierta' y recítenlos alternando. Empiecen antes de que el grupo cuente hasta 11.",
@@ -2376,7 +2376,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3388,
+    "id": "res_238",
     "intensidad": 8,
     "tipo": "retos especiales",
     "texto": "Misión triple: [player], [player_x] y [player_x1], representen en cámara lenta 'descubrir dos versiones distintas' con inicio, conflicto y final. Empiecen antes de que el grupo cuente hasta 11.",
@@ -2386,7 +2386,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3389,
+    "id": "res_239",
     "intensidad": 8,
     "tipo": "retos especiales",
     "texto": "Reto en pareja: [player] y [player_x], mantengan una pose dramática mientras cuentan juntos desde 44 hasta cero. Empiecen antes de que el grupo cuente hasta 11.",
@@ -2396,7 +2396,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3390,
+    "id": "res_240",
     "intensidad": 8,
     "tipo": "retos especiales",
     "texto": "Reto de tres: [player], [player_x] y [player_x1], combinen un paso de baile, una frase sobre 'una mentira descubierta' y una pose final sincronizada. Empiecen antes de que el grupo cuente hasta 11.",
@@ -2406,7 +2406,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3391,
+    "id": "res_241",
     "intensidad": 9,
     "tipo": "retos especiales",
     "texto": "Reto en pareja: [player] y [player_x], alternen 13 palabras relacionadas con 'la confianza rota' sin repetir. Empiecen antes de que el grupo cuente hasta 12.",
@@ -2416,7 +2416,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3392,
+    "id": "res_242",
     "intensidad": 9,
     "tipo": "retos especiales",
     "texto": "Reto de tres: [player], [player_x] y [player_x1], creen una secuencia de 13 gestos y repítanla completa. Empiecen antes de que el grupo cuente hasta 12.",
@@ -2426,7 +2426,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3393,
+    "id": "res_243",
     "intensidad": 9,
     "tipo": "retos especiales",
     "texto": "Misión doble: [player] y [player_x], cuenten una historia sobre 'pedir una disculpa importante' alternando una palabra por turno. Empiecen antes de que el grupo cuente hasta 12.",
@@ -2436,7 +2436,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3394,
+    "id": "res_244",
     "intensidad": 9,
     "tipo": "retos especiales",
     "texto": "Misión triple: [player], [player_x] y [player_x1], representen 'pedir una disculpa importante': los papeles serán fiscal, testigo y juez. Empiecen antes de que el grupo cuente hasta 12.",
@@ -2446,7 +2446,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3395,
+    "id": "res_245",
     "intensidad": 9,
     "tipo": "retos especiales",
     "texto": "Reto en pareja: [player] y [player_x], inventen un saludo secreto de 11 movimientos y háganlo sincronizados. Empiecen antes de que el grupo cuente hasta 12.",
@@ -2456,7 +2456,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3396,
+    "id": "res_246",
     "intensidad": 9,
     "tipo": "retos especiales",
     "texto": "Reto de tres: [player], [player_x] y [player_x1], formen una escena congelada sobre 'la confianza rota' con poses diferentes. Empiecen antes de que el grupo cuente hasta 12.",
@@ -2466,7 +2466,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3397,
+    "id": "res_247",
     "intensidad": 9,
     "tipo": "retos especiales",
     "texto": "Misión doble: [player] y [player_x], uno crea movimientos lentos y el otro los imita como un espejo durante 10 segundos. Empiecen antes de que el grupo cuente hasta 12.",
@@ -2476,7 +2476,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3398,
+    "id": "res_248",
     "intensidad": 9,
     "tipo": "retos especiales",
     "texto": "Misión triple: [player], [player_x] y [player_x1], improvisen un noticiero sobre 'pedir una disculpa importante' como fiscal, testigo y juez. Empiecen antes de que el grupo cuente hasta 12.",
@@ -2486,7 +2486,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3399,
+    "id": "res_249",
     "intensidad": 9,
     "tipo": "retos especiales",
     "texto": "Reto en pareja: [player] y [player_x], repitan juntos un trabalenguas elegido por el grupo 6 veces. Empiecen antes de que el grupo cuente hasta 12.",
@@ -2496,7 +2496,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3400,
+    "id": "res_250",
     "intensidad": 9,
     "tipo": "retos especiales",
     "texto": "Reto de tres: [player], [player_x] y [player_x1], creen un ritmo de 14 sonidos corporales y ejecútenlo dos veces. Empiecen antes de que el grupo cuente hasta 12.",
@@ -2506,7 +2506,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3401,
+    "id": "res_251",
     "intensidad": 9,
     "tipo": "retos especiales",
     "texto": "Misión doble: [player] y [player_x], conversen 13 segundos sin decir 'sí', 'no' ni 'pero'. Empiecen antes de que el grupo cuente hasta 12.",
@@ -2516,7 +2516,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3402,
+    "id": "res_252",
     "intensidad": 9,
     "tipo": "retos especiales",
     "texto": "Misión triple: [player], [player_x] y [player_x1], construyan una historia de 14 frases sobre 'la confianza rota' sin contradecirse. Empiecen antes de que el grupo cuente hasta 12.",
@@ -2526,7 +2526,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3403,
+    "id": "res_253",
     "intensidad": 9,
     "tipo": "retos especiales",
     "texto": "Reto en pareja: [player] y [player_x], vendan un objeto elegido por el grupo: una persona presenta y otra demuestra. Empiecen antes de que el grupo cuente hasta 12.",
@@ -2536,7 +2536,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3404,
+    "id": "res_254",
     "intensidad": 9,
     "tipo": "retos especiales",
     "texto": "Reto de tres: [player], [player_x] y [player_x1], defiendan tres perspectivas sobre 'la confianza rota' usando los personajes fiscal, testigo y juez. Empiecen antes de que el grupo cuente hasta 12.",
@@ -2546,7 +2546,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3405,
+    "id": "res_255",
     "intensidad": 9,
     "tipo": "retos especiales",
     "texto": "Misión doble: [player] y [player_x], canten por turnos una canción, continuando donde termine la persona anterior. Empiecen antes de que el grupo cuente hasta 12.",
@@ -2556,7 +2556,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3406,
+    "id": "res_256",
     "intensidad": 9,
     "tipo": "retos especiales",
     "texto": "Misión triple: [player], [player_x] y [player_x1], inventen una coreografía de 11 pasos y terminen en la misma pose. Empiecen antes de que el grupo cuente hasta 12.",
@@ -2566,7 +2566,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3407,
+    "id": "res_257",
     "intensidad": 9,
     "tipo": "retos especiales",
     "texto": "Reto en pareja: [player] y [player_x], respondan de espaldas tres preguntas del grupo y coincidan en al menos 3. Empiecen antes de que el grupo cuente hasta 12.",
@@ -2576,7 +2576,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3408,
+    "id": "res_258",
     "intensidad": 9,
     "tipo": "retos especiales",
     "texto": "Reto de tres: [player], [player_x] y [player_x1], representen 'pedir una disculpa importante' usando únicamente sonidos diferentes. Empiecen antes de que el grupo cuente hasta 12.",
@@ -2586,7 +2586,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3409,
+    "id": "res_259",
     "intensidad": 9,
     "tipo": "retos especiales",
     "texto": "Misión doble: [player] y [player_x], hagan un brindis conjunto sobre 'la confianza rota', alternando una frase sin pausas. Empiecen antes de que el grupo cuente hasta 12.",
@@ -2596,7 +2596,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3410,
+    "id": "res_260",
     "intensidad": 9,
     "tipo": "retos especiales",
     "texto": "Misión triple: [player], [player_x] y [player_x1], creen un anuncio de 15 segundos con presentador, cliente y narrador. Empiecen antes de que el grupo cuente hasta 12.",
@@ -2606,7 +2606,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3411,
+    "id": "res_261",
     "intensidad": 9,
     "tipo": "retos especiales",
     "texto": "Reto en pareja: [player] y [player_x], deletreen con los brazos una palabra elegida por el grupo sin hablar. Empiecen antes de que el grupo cuente hasta 12.",
@@ -2616,7 +2616,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3412,
+    "id": "res_262",
     "intensidad": 9,
     "tipo": "retos especiales",
     "texto": "Reto de tres: [player], [player_x] y [player_x1], improvisen una escena sobre 'pedir una disculpa importante' mostrando tres emociones distintas. Empiecen antes de que el grupo cuente hasta 12.",
@@ -2626,7 +2626,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3413,
+    "id": "res_263",
     "intensidad": 9,
     "tipo": "retos especiales",
     "texto": "Misión doble: [player] y [player_x], una persona describe un objeto sin nombrarlo y la otra lo representa. Empiecen antes de que el grupo cuente hasta 12.",
@@ -2636,7 +2636,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3414,
+    "id": "res_264",
     "intensidad": 9,
     "tipo": "retos especiales",
     "texto": "Misión triple: [player], [player_x] y [player_x1], organicen una entrevista manteniendo los papeles de fiscal, testigo y juez durante 13 segundos. Empiecen antes de que el grupo cuente hasta 12.",
@@ -2646,7 +2646,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3415,
+    "id": "res_265",
     "intensidad": 9,
     "tipo": "retos especiales",
     "texto": "Reto en pareja: [player] y [player_x], digan 13 ideas relacionadas con 'la confianza rota' alternando sin bloquearse. Empiecen antes de que el grupo cuente hasta 12.",
@@ -2656,7 +2656,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3416,
+    "id": "res_266",
     "intensidad": 9,
     "tipo": "retos especiales",
     "texto": "Reto de tres: [player], [player_x] y [player_x1], creen una máquina humana de tres movimientos y tres sonidos. Empiecen antes de que el grupo cuente hasta 12.",
@@ -2666,7 +2666,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3417,
+    "id": "res_267",
     "intensidad": 9,
     "tipo": "retos especiales",
     "texto": "Misión doble: [player] y [player_x], inventen cuatro versos sobre 'la confianza rota' y recítenlos alternando. Empiecen antes de que el grupo cuente hasta 12.",
@@ -2676,7 +2676,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3418,
+    "id": "res_268",
     "intensidad": 9,
     "tipo": "retos especiales",
     "texto": "Misión triple: [player], [player_x] y [player_x1], representen en cámara lenta 'pedir una disculpa importante' con inicio, conflicto y final. Empiecen antes de que el grupo cuente hasta 12.",
@@ -2686,7 +2686,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3419,
+    "id": "res_269",
     "intensidad": 9,
     "tipo": "retos especiales",
     "texto": "Reto en pareja: [player] y [player_x], mantengan una pose dramática mientras cuentan juntos desde 47 hasta cero. Empiecen antes de que el grupo cuente hasta 12.",
@@ -2696,7 +2696,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3420,
+    "id": "res_270",
     "intensidad": 9,
     "tipo": "retos especiales",
     "texto": "Reto de tres: [player], [player_x] y [player_x1], combinen un paso de baile, una frase sobre 'la confianza rota' y una pose final sincronizada. Empiecen antes de que el grupo cuente hasta 12.",
@@ -2706,7 +2706,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3421,
+    "id": "res_271",
     "intensidad": 10,
     "tipo": "retos especiales",
     "texto": "Reto en pareja: [player] y [player_x], alternen 14 palabras relacionadas con 'una verdad difícil' sin repetir. Empiecen antes de que el grupo cuente hasta 13.",
@@ -2716,7 +2716,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3422,
+    "id": "res_272",
     "intensidad": 10,
     "tipo": "retos especiales",
     "texto": "Reto de tres: [player], [player_x] y [player_x1], creen una secuencia de 14 gestos y repítanla completa. Empiecen antes de que el grupo cuente hasta 13.",
@@ -2726,7 +2726,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3423,
+    "id": "res_273",
     "intensidad": 10,
     "tipo": "retos especiales",
     "texto": "Misión doble: [player] y [player_x], cuenten una historia sobre 'afrontar una confesión definitiva' alternando una palabra por turno. Empiecen antes de que el grupo cuente hasta 13.",
@@ -2736,7 +2736,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3424,
+    "id": "res_274",
     "intensidad": 10,
     "tipo": "retos especiales",
     "texto": "Misión triple: [player], [player_x] y [player_x1], representen 'afrontar una confesión definitiva': los papeles serán portavoz, responsable y mediador. Empiecen antes de que el grupo cuente hasta 13.",
@@ -2746,7 +2746,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3425,
+    "id": "res_275",
     "intensidad": 10,
     "tipo": "retos especiales",
     "texto": "Reto en pareja: [player] y [player_x], inventen un saludo secreto de 12 movimientos y háganlo sincronizados. Empiecen antes de que el grupo cuente hasta 13.",
@@ -2756,7 +2756,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3426,
+    "id": "res_276",
     "intensidad": 10,
     "tipo": "retos especiales",
     "texto": "Reto de tres: [player], [player_x] y [player_x1], formen una escena congelada sobre 'una verdad difícil' con poses diferentes. Empiecen antes de que el grupo cuente hasta 13.",
@@ -2766,7 +2766,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3427,
+    "id": "res_277",
     "intensidad": 10,
     "tipo": "retos especiales",
     "texto": "Misión doble: [player] y [player_x], uno crea movimientos lentos y el otro los imita como un espejo durante 9 segundos. Empiecen antes de que el grupo cuente hasta 13.",
@@ -2776,7 +2776,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3428,
+    "id": "res_278",
     "intensidad": 10,
     "tipo": "retos especiales",
     "texto": "Misión triple: [player], [player_x] y [player_x1], improvisen un noticiero sobre 'afrontar una confesión definitiva' como portavoz, responsable y mediador. Empiecen antes de que el grupo cuente hasta 13.",
@@ -2786,7 +2786,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3429,
+    "id": "res_279",
     "intensidad": 10,
     "tipo": "retos especiales",
     "texto": "Reto en pareja: [player] y [player_x], repitan juntos un trabalenguas elegido por el grupo 6 veces. Empiecen antes de que el grupo cuente hasta 13.",
@@ -2796,7 +2796,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3430,
+    "id": "res_280",
     "intensidad": 10,
     "tipo": "retos especiales",
     "texto": "Reto de tres: [player], [player_x] y [player_x1], creen un ritmo de 15 sonidos corporales y ejecútenlo dos veces. Empiecen antes de que el grupo cuente hasta 13.",
@@ -2806,7 +2806,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3431,
+    "id": "res_281",
     "intensidad": 10,
     "tipo": "retos especiales",
     "texto": "Misión doble: [player] y [player_x], conversen 12 segundos sin decir 'sí', 'no' ni 'pero'. Empiecen antes de que el grupo cuente hasta 13.",
@@ -2816,7 +2816,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3432,
+    "id": "res_282",
     "intensidad": 10,
     "tipo": "retos especiales",
     "texto": "Misión triple: [player], [player_x] y [player_x1], construyan una historia de 15 frases sobre 'una verdad difícil' sin contradecirse. Empiecen antes de que el grupo cuente hasta 13.",
@@ -2826,7 +2826,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3433,
+    "id": "res_283",
     "intensidad": 10,
     "tipo": "retos especiales",
     "texto": "Reto en pareja: [player] y [player_x], vendan un objeto elegido por el grupo: una persona presenta y otra demuestra. Empiecen antes de que el grupo cuente hasta 13.",
@@ -2836,7 +2836,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3434,
+    "id": "res_284",
     "intensidad": 10,
     "tipo": "retos especiales",
     "texto": "Reto de tres: [player], [player_x] y [player_x1], defiendan tres perspectivas sobre 'una verdad difícil' usando los personajes portavoz, responsable y mediador. Empiecen antes de que el grupo cuente hasta 13.",
@@ -2846,7 +2846,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3435,
+    "id": "res_285",
     "intensidad": 10,
     "tipo": "retos especiales",
     "texto": "Misión doble: [player] y [player_x], canten por turnos una canción, continuando donde termine la persona anterior. Empiecen antes de que el grupo cuente hasta 13.",
@@ -2856,7 +2856,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3436,
+    "id": "res_286",
     "intensidad": 10,
     "tipo": "retos especiales",
     "texto": "Misión triple: [player], [player_x] y [player_x1], inventen una coreografía de 12 pasos y terminen en la misma pose. Empiecen antes de que el grupo cuente hasta 13.",
@@ -2866,7 +2866,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3437,
+    "id": "res_287",
     "intensidad": 10,
     "tipo": "retos especiales",
     "texto": "Reto en pareja: [player] y [player_x], respondan de espaldas tres preguntas del grupo y coincidan en al menos 3. Empiecen antes de que el grupo cuente hasta 13.",
@@ -2876,7 +2876,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3438,
+    "id": "res_288",
     "intensidad": 10,
     "tipo": "retos especiales",
     "texto": "Reto de tres: [player], [player_x] y [player_x1], representen 'afrontar una confesión definitiva' usando únicamente sonidos diferentes. Empiecen antes de que el grupo cuente hasta 13.",
@@ -2886,7 +2886,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3439,
+    "id": "res_289",
     "intensidad": 10,
     "tipo": "retos especiales",
     "texto": "Misión doble: [player] y [player_x], hagan un brindis conjunto sobre 'una verdad difícil', alternando una frase sin pausas. Empiecen antes de que el grupo cuente hasta 13.",
@@ -2896,7 +2896,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3440,
+    "id": "res_290",
     "intensidad": 10,
     "tipo": "retos especiales",
     "texto": "Misión triple: [player], [player_x] y [player_x1], creen un anuncio de 14 segundos con presentador, cliente y narrador. Empiecen antes de que el grupo cuente hasta 13.",
@@ -2906,7 +2906,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3441,
+    "id": "res_291",
     "intensidad": 10,
     "tipo": "retos especiales",
     "texto": "Reto en pareja: [player] y [player_x], deletreen con los brazos una palabra elegida por el grupo sin hablar. Empiecen antes de que el grupo cuente hasta 13.",
@@ -2916,7 +2916,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3442,
+    "id": "res_292",
     "intensidad": 10,
     "tipo": "retos especiales",
     "texto": "Reto de tres: [player], [player_x] y [player_x1], improvisen una escena sobre 'afrontar una confesión definitiva' mostrando tres emociones distintas. Empiecen antes de que el grupo cuente hasta 13.",
@@ -2926,7 +2926,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3443,
+    "id": "res_293",
     "intensidad": 10,
     "tipo": "retos especiales",
     "texto": "Misión doble: [player] y [player_x], una persona describe un objeto sin nombrarlo y la otra lo representa. Empiecen antes de que el grupo cuente hasta 13.",
@@ -2936,7 +2936,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3444,
+    "id": "res_294",
     "intensidad": 10,
     "tipo": "retos especiales",
     "texto": "Misión triple: [player], [player_x] y [player_x1], organicen una entrevista manteniendo los papeles de portavoz, responsable y mediador durante 12 segundos. Empiecen antes de que el grupo cuente hasta 13.",
@@ -2946,7 +2946,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3445,
+    "id": "res_295",
     "intensidad": 10,
     "tipo": "retos especiales",
     "texto": "Reto en pareja: [player] y [player_x], digan 14 ideas relacionadas con 'una verdad difícil' alternando sin bloquearse. Empiecen antes de que el grupo cuente hasta 13.",
@@ -2956,7 +2956,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3446,
+    "id": "res_296",
     "intensidad": 10,
     "tipo": "retos especiales",
     "texto": "Reto de tres: [player], [player_x] y [player_x1], creen una máquina humana de tres movimientos y tres sonidos. Empiecen antes de que el grupo cuente hasta 13.",
@@ -2966,7 +2966,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3447,
+    "id": "res_297",
     "intensidad": 10,
     "tipo": "retos especiales",
     "texto": "Misión doble: [player] y [player_x], inventen cuatro versos sobre 'una verdad difícil' y recítenlos alternando. Empiecen antes de que el grupo cuente hasta 13.",
@@ -2976,7 +2976,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3448,
+    "id": "res_298",
     "intensidad": 10,
     "tipo": "retos especiales",
     "texto": "Misión triple: [player], [player_x] y [player_x1], representen en cámara lenta 'afrontar una confesión definitiva' con inicio, conflicto y final. Empiecen antes de que el grupo cuente hasta 13.",
@@ -2986,7 +2986,7 @@ export const retosEspecialesCards = [
     "participantes": "tres"
   },
   {
-    "id": 3449,
+    "id": "res_299",
     "intensidad": 10,
     "tipo": "retos especiales",
     "texto": "Reto en pareja: [player] y [player_x], mantengan una pose dramática mientras cuentan juntos desde 50 hasta cero. Empiecen antes de que el grupo cuente hasta 13.",
@@ -2996,7 +2996,7 @@ export const retosEspecialesCards = [
     "participantes": "dos"
   },
   {
-    "id": 3450,
+    "id": "res_300",
     "intensidad": 10,
     "tipo": "retos especiales",
     "texto": "Reto de tres: [player], [player_x] y [player_x1], combinen un paso de baile, una frase sobre 'una verdad difícil' y una pose final sincronizada. Empiecen antes de que el grupo cuente hasta 13.",

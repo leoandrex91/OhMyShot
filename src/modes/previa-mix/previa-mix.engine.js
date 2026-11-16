@@ -40,8 +40,9 @@ export function validateCatalog(cards) {
   if (!Array.isArray(cards)) return ['Catalog must be an array'];
   cards.forEach((c,i)=>{
     const ref=`card[${i}]`;
-    if (!Number.isSafeInteger(c?.id)||c.id<=0||ids.has(c.id)) issues.push(`${ref}: invalid/duplicate id`);
-    ids.add(c?.id);
+    const idStr = String(c?.id ?? '').trim();
+    if (!idStr || ids.has(idStr)) issues.push(`${ref}: invalid/duplicate id`);
+    ids.add(idStr);
     if (!Number.isInteger(c?.intensidad)||c.intensidad<1||c.intensidad>10) issues.push(`${ref}: intensity 1..10 required`);
     if (!TYPES.includes(c?.tipo)) issues.push(`${ref}: unknown type`);
     if (typeof c?.texto!=='string'||!c.texto.trim()) issues.push(`${ref}: text missing`);
@@ -69,10 +70,40 @@ export function validateCatalog(cards) {
   return issues;
 }
 
-const metadataKey = c => [c.id,c.intensidad,c.tipo,c.especial,c.castigo,c.min_jugadores,c.participantes,c['duración_turno']??0,c.participacion_obligatoria??false,c.consentimiento].join('|');
+export function canonicalCardId(card, fallbackIndex = 0) {
+  if (!card) return fallbackIndex;
+  const rawId = card.id;
+  if (typeof rawId === 'number') return rawId;
+  const match = String(rawId || '').match(/^([a-z]+)_(\d+)$/i);
+  if (match) {
+    const prefix = match[1].toLowerCase();
+    const num = parseInt(match[2], 10);
+    const offsets = {
+      cla: 0,
+      due: 1250,
+      yon: 1550,
+      yn: 1550,
+      qmp: 1850,
+      ver: 2150,
+      ret: 2650,
+      res: 3150,
+      rte: 3150,
+      eve: 3450,
+      hot: 3750,
+      bon: 4250,
+      chup: 5000
+    };
+    if (prefix in offsets) {
+      return offsets[prefix] + num;
+    }
+  }
+  return rawId ?? fallbackIndex;
+}
+
+const metadataKey = (c, i) => [canonicalCardId(c, i),c.intensidad,c.tipo,c.especial,c.castigo,c.min_jugadores,c.participantes,c['duración_turno']??0,c.participacion_obligatoria??false,c.consentimiento].join('|');
 export function validateTranslationParity(catalogA,catalogB){
-  const a=new Map(catalogA.map(c=>[c.id,metadataKey(c)]));
-  return catalogB.flatMap(c=>a.get(c.id)===metadataKey(c)?[]:[`Card ${c.id} has mismatched metadata`]);
+  const a=new Map(catalogA.map((c, i)=>[canonicalCardId(c, i),metadataKey(c, i)]));
+  return catalogB.flatMap((c, i)=>a.get(canonicalCardId(c, i))===metadataKey(c, i)?[]:[`Card ${c.id} has mismatched metadata`]);
 }
 
 /** Stable state; store it as JSON if a game must be resumed later. */

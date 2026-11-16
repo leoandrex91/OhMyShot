@@ -6,7 +6,7 @@
 
 export const verdadCards = [
   {
-    "id": 2151,
+    "id": "ver_1",
     "intensidad": 1,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has fingido entender un chiste para no quedar mal?",
@@ -16,7 +16,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2152,
+    "id": "ver_2",
     "intensidad": 1,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has enviado un mensaje al chat equivocado y he intentado borrarlo antes de que lo vieran?",
@@ -26,7 +26,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2153,
+    "id": "ver_3",
     "intensidad": 1,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has ensayado una conversación completa estando a solas?",
@@ -36,7 +36,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2154,
+    "id": "ver_4",
     "intensidad": 1,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has revisado el teléfono aunque sabía que no había llegado ninguna notificación?",
@@ -46,7 +46,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2155,
+    "id": "ver_5",
     "intensidad": 1,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has asentido como si hubiera escuchado algo que en realidad no entendí?",
@@ -56,7 +56,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2156,
+    "id": "ver_6",
     "intensidad": 1,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has olvidado el nombre de alguien pocos minutos después de conocerlo?",
@@ -66,7 +66,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2157,
+    "id": "ver_7",
     "intensidad": 1,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has fingido estar ocupado para evitar un saludo incómodo?",
@@ -76,7 +76,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2158,
+    "id": "ver_8",
     "intensidad": 1,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has culpado al autocorrector por un mensaje que escribí conscientemente?",
@@ -86,7 +86,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2159,
+    "id": "ver_9",
     "intensidad": 1,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has guardado un recuerdo absurdo porque me daba pena tirarlo?",
@@ -96,7 +96,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2160,
+    "id": "ver_10",
     "intensidad": 1,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has buscado mi propio nombre en internet por curiosidad?",
@@ -106,7 +106,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2161,
+    "id": "ver_11",
     "intensidad": 1,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has cantado una canción con la letra equivocada y mucha seguridad?",
@@ -116,7 +116,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2162,
+    "id": "ver_12",
     "intensidad": 1,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has llegado demasiado temprano y he esperado afuera para que nadie lo notara?",
@@ -126,7 +126,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2163,
+    "id": "ver_13",
     "intensidad": 1,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has fingido haber visto una película para poder participar en la conversación?",
@@ -136,7 +136,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2164,
+    "id": "ver_14",
     "intensidad": 1,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has fotografiado la comida mientras todos esperaban para empezar?",
@@ -146,7 +146,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2165,
+    "id": "ver_15",
     "intensidad": 1,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has cambiado de ropa tres veces antes de salir?",
@@ -156,7 +156,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2166,
+    "id": "ver_16",
     "intensidad": 1,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has hablado con una mascota como si pudiera responderme?",
@@ -166,7 +166,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2167,
+    "id": "ver_17",
     "intensidad": 1,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has hecho una lista importante y luego la he perdido?",
@@ -176,7 +176,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2168,
+    "id": "ver_18",
     "intensidad": 1,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has usado el clima como excusa para no salir?",
@@ -186,7 +186,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2169,
+    "id": "ver_19",
     "intensidad": 1,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has practicado una expresión frente al espejo antes de una foto?",
@@ -196,7 +196,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2170,
+    "id": "ver_20",
     "intensidad": 1,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has dejado una pestaña del navegador abierta durante semanas porque algún día la leería?",
@@ -206,7 +206,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2171,
+    "id": "ver_21",
     "intensidad": 1,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has regresado a comprobar una puerta que ya sabía que había cerrado?",
@@ -216,7 +216,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2172,
+    "id": "ver_22",
     "intensidad": 1,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has inventado una palabra y he actuado como si fuera real?",
@@ -226,7 +226,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2173,
+    "id": "ver_23",
     "intensidad": 1,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has guardado una caja vacía pensando que algún día sería útil?",
@@ -236,7 +236,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2174,
+    "id": "ver_24",
     "intensidad": 1,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has empezado a reír a solas por recordar algo de hace años?",
@@ -246,7 +246,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2175,
+    "id": "ver_25",
     "intensidad": 1,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has fingido reconocer a alguien que claramente me conocía?",
@@ -256,7 +256,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2176,
+    "id": "ver_26",
     "intensidad": 1,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has llevado una prenda al revés sin darme cuenta?",
@@ -266,7 +266,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2177,
+    "id": "ver_27",
     "intensidad": 1,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has entrado a una habitación y he olvidado por completo para qué iba?",
@@ -276,7 +276,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2178,
+    "id": "ver_28",
     "intensidad": 1,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has escrito un mensaje largo y lo he borrado sin enviarlo?",
@@ -286,7 +286,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2179,
+    "id": "ver_29",
     "intensidad": 1,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has imaginado una discusión y la he ganado en mi cabeza?",
@@ -296,7 +296,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2180,
+    "id": "ver_30",
     "intensidad": 1,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has creado una historia completa antes de dormir que nunca ocurrió?",
@@ -306,7 +306,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2181,
+    "id": "ver_31",
     "intensidad": 1,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente organice un plan espontáneo que termine siendo inolvidable? ¿Por qué?",
@@ -316,7 +316,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2182,
+    "id": "ver_32",
     "intensidad": 1,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente llegue demasiado temprano y espere afuera para disimular? ¿Por qué?",
@@ -326,7 +326,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2183,
+    "id": "ver_33",
     "intensidad": 1,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente recuerde todos los cumpleaños sin usar recordatorios? ¿Por qué?",
@@ -336,7 +336,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2184,
+    "id": "ver_34",
     "intensidad": 1,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente busque su teléfono mientras lo tiene en la mano? ¿Por qué?",
@@ -346,7 +346,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2185,
+    "id": "ver_35",
     "intensidad": 1,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente tenga una risa tan contagiosa que haga reír a todo el grupo? ¿Por qué?",
@@ -356,7 +356,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2186,
+    "id": "ver_36",
     "intensidad": 1,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente termine siendo el DJ oficial de cualquier reunión? ¿Por qué?",
@@ -366,7 +366,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2187,
+    "id": "ver_37",
     "intensidad": 1,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente haga amistad con alguien mientras espera en una fila? ¿Por qué?",
@@ -376,7 +376,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2188,
+    "id": "ver_38",
     "intensidad": 1,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente lleve comida extra por si alguien más tiene hambre? ¿Por qué?",
@@ -386,7 +386,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2189,
+    "id": "ver_39",
     "intensidad": 1,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente convierta una salida aburrida en una buena anécdota? ¿Por qué?",
@@ -396,7 +396,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2190,
+    "id": "ver_40",
     "intensidad": 1,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente tome fotos de todo aunque nadie se las haya pedido? ¿Por qué?",
@@ -406,7 +406,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2191,
+    "id": "ver_41",
     "intensidad": 1,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente resuelva primero un problema tecnológico del grupo? ¿Por qué?",
@@ -416,7 +416,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2192,
+    "id": "ver_42",
     "intensidad": 1,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente se sepa completa la letra de una canción antigua? ¿Por qué?",
@@ -426,7 +426,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2193,
+    "id": "ver_43",
     "intensidad": 1,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente proponga un juego de mesa cuando nadie sabe qué hacer? ¿Por qué?",
@@ -436,7 +436,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2194,
+    "id": "ver_44",
     "intensidad": 1,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente adopte una mascota de manera impulsiva? ¿Por qué?",
@@ -446,7 +446,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2195,
+    "id": "ver_45",
     "intensidad": 1,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente lleve siempre un cargador que termina prestando a todos? ¿Por qué?",
@@ -456,7 +456,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2196,
+    "id": "ver_46",
     "intensidad": 1,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente se quede dormido durante la película que eligió? ¿Por qué?",
@@ -466,7 +466,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2197,
+    "id": "ver_47",
     "intensidad": 1,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente cuente una historia que el grupo ya ha escuchado varias veces? ¿Por qué?",
@@ -476,7 +476,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2198,
+    "id": "ver_48",
     "intensidad": 1,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente sobreviva mejor una semana sin redes sociales? ¿Por qué?",
@@ -486,7 +486,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2199,
+    "id": "ver_49",
     "intensidad": 1,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente cocine algo para compartir sin que se lo pidan? ¿Por qué?",
@@ -496,7 +496,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2200,
+    "id": "ver_50",
     "intensidad": 1,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente cree un chat nuevo para organizar un solo plan? ¿Por qué?",
@@ -506,7 +506,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2201,
+    "id": "ver_51",
     "intensidad": 2,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has saludado con entusiasmo a alguien que no estaba saludándome?",
@@ -516,7 +516,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2202,
+    "id": "ver_52",
     "intensidad": 2,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has empujado una puerta que decía claramente 'halar'?",
@@ -526,7 +526,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2203,
+    "id": "ver_53",
     "intensidad": 2,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has tropezado en un piso completamente plano y he mirado alrededor?",
@@ -536,7 +536,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2204,
+    "id": "ver_54",
     "intensidad": 2,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has derramado una bebida mientras intentaba brindar?",
@@ -546,7 +546,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2205,
+    "id": "ver_55",
     "intensidad": 2,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has fingido una llamada para evitar un silencio incómodo?",
@@ -556,7 +556,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2206,
+    "id": "ver_56",
     "intensidad": 2,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has olvidado la billetera después de haber pedido algo?",
@@ -566,7 +566,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2207,
+    "id": "ver_57",
     "intensidad": 2,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has pasado de largo mi parada por estar distraído?",
@@ -576,7 +576,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2208,
+    "id": "ver_58",
     "intensidad": 2,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has usado medias diferentes sin notarlo hasta mucho después?",
@@ -586,7 +586,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2209,
+    "id": "ver_59",
     "intensidad": 2,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has tomado una foto con la cámara tapada?",
@@ -596,7 +596,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2210,
+    "id": "ver_60",
     "intensidad": 2,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has buscado mis gafas mientras las llevaba puestas?",
@@ -606,7 +606,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2211,
+    "id": "ver_61",
     "intensidad": 2,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez te has quedado fuera de casa por olvidar las llaves?",
@@ -616,7 +616,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2212,
+    "id": "ver_62",
     "intensidad": 2,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has llamado a alguien por el nombre equivocado más de una vez?",
@@ -626,7 +626,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2213,
+    "id": "ver_63",
     "intensidad": 2,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has enviado un sticker completamente inapropiado para la conversación?",
@@ -636,7 +636,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2214,
+    "id": "ver_64",
     "intensidad": 2,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez te has quedado dormido durante una película que yo mismo elegí?",
@@ -646,7 +646,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2215,
+    "id": "ver_65",
     "intensidad": 2,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has dicho 'ya voy en camino' cuando todavía no había salido?",
@@ -656,7 +656,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2216,
+    "id": "ver_66",
     "intensidad": 2,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has escondido algo que rompí esperando que nadie lo notara?",
@@ -666,7 +666,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2217,
+    "id": "ver_67",
     "intensidad": 2,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has contado la misma anécdota dos veces a las mismas personas?",
@@ -676,7 +676,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2218,
+    "id": "ver_68",
     "intensidad": 2,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has caminado en la dirección equivocada después de despedirme?",
@@ -686,7 +686,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2219,
+    "id": "ver_69",
     "intensidad": 2,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has seguido saludando porque no sabía si el saludo era para mí?",
@@ -696,7 +696,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2220,
+    "id": "ver_70",
     "intensidad": 2,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has bailado pensando que nadie me estaba mirando?",
@@ -706,7 +706,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2221,
+    "id": "ver_71",
     "intensidad": 2,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has quemado una comida que parecía imposible de arruinar?",
@@ -716,7 +716,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2222,
+    "id": "ver_72",
     "intensidad": 2,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has usado la calculadora para una operación vergonzosamente sencilla?",
@@ -726,7 +726,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2223,
+    "id": "ver_73",
     "intensidad": 2,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has guardado algo en el refrigerador que no pertenecía allí?",
@@ -736,7 +736,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2224,
+    "id": "ver_74",
     "intensidad": 2,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has tardado demasiado en entender un chiste evidente?",
@@ -746,7 +746,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2225,
+    "id": "ver_75",
     "intensidad": 2,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has respondido una pregunta que no estaba dirigida a mí?",
@@ -756,7 +756,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2226,
+    "id": "ver_76",
     "intensidad": 2,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has fingido conocer una dirección para no admitir que estaba perdido?",
@@ -766,7 +766,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2227,
+    "id": "ver_77",
     "intensidad": 2,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has olvidado el paraguas el único día que realmente lo necesitaba?",
@@ -776,7 +776,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2228,
+    "id": "ver_78",
     "intensidad": 2,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez te han descubierto mientras intentaba tomarme una selfie?",
@@ -786,7 +786,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2229,
+    "id": "ver_79",
     "intensidad": 2,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez te has reído mientras bebía y ha salido todo mal?",
@@ -796,7 +796,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2230,
+    "id": "ver_80",
     "intensidad": 2,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has confundido dos nombres durante la misma conversación?",
@@ -806,7 +806,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2231,
+    "id": "ver_81",
     "intensidad": 2,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente llegue a un evento el día equivocado? ¿Por qué?",
@@ -816,7 +816,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2232,
+    "id": "ver_82",
     "intensidad": 2,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente salude con entusiasmo a una persona desconocida? ¿Por qué?",
@@ -826,7 +826,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2233,
+    "id": "ver_83",
     "intensidad": 2,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente olvide la billetera después de haber pedido? ¿Por qué?",
@@ -836,7 +836,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2234,
+    "id": "ver_84",
     "intensidad": 2,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente tropiece justo al entrar intentando verse elegante? ¿Por qué?",
@@ -846,7 +846,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2235,
+    "id": "ver_85",
     "intensidad": 2,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente envíe un mensaje comprometedor al grupo equivocado? ¿Por qué?",
@@ -856,7 +856,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2236,
+    "id": "ver_86",
     "intensidad": 2,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente se quede dormido el día de un plan que él mismo organizó? ¿Por qué?",
@@ -866,7 +866,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2237,
+    "id": "ver_87",
     "intensidad": 2,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente se ría en el peor momento posible? ¿Por qué?",
@@ -876,7 +876,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2238,
+    "id": "ver_88",
     "intensidad": 2,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente pierda las llaves y las encuentre en un lugar evidente? ¿Por qué?",
@@ -886,7 +886,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2239,
+    "id": "ver_89",
     "intensidad": 2,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente interprete mal por completo el código de vestimenta? ¿Por qué?",
@@ -896,7 +896,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2240,
+    "id": "ver_90",
     "intensidad": 2,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente sea descubierto cantando a solas con demasiada emoción? ¿Por qué?",
@@ -906,7 +906,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2241,
+    "id": "ver_91",
     "intensidad": 2,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente invente la excusa más creativa para explicar un retraso? ¿Por qué?",
@@ -916,7 +916,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2242,
+    "id": "ver_92",
     "intensidad": 2,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente arruine una comida que solo necesitaba calentarse? ¿Por qué?",
@@ -926,7 +926,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2243,
+    "id": "ver_93",
     "intensidad": 2,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente inicie un baile sin darse cuenta de que todos lo miran? ¿Por qué?",
@@ -936,7 +936,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2244,
+    "id": "ver_94",
     "intensidad": 2,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente tome cien fotos para terminar publicando una sola? ¿Por qué?",
@@ -946,7 +946,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2245,
+    "id": "ver_95",
     "intensidad": 2,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente crea una noticia absurda antes de comprobarla? ¿Por qué?",
@@ -956,7 +956,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2246,
+    "id": "ver_96",
     "intensidad": 2,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente llame a alguien por el nombre equivocado varias veces? ¿Por qué?",
@@ -966,7 +966,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2247,
+    "id": "ver_97",
     "intensidad": 2,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente intente abrir el automóvil de otra persona? ¿Por qué?",
@@ -976,7 +976,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2248,
+    "id": "ver_98",
     "intensidad": 2,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente entienda al revés una instrucción muy clara? ¿Por qué?",
@@ -986,7 +986,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2249,
+    "id": "ver_99",
     "intensidad": 2,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente desaparezca de una fiesta sin despedirse? ¿Por qué?",
@@ -996,7 +996,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2250,
+    "id": "ver_100",
     "intensidad": 2,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente se vuelva viral accidentalmente por algo ridículo? ¿Por qué?",
@@ -1006,7 +1006,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2251,
+    "id": "ver_101",
     "intensidad": 3,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has silenciado un chat grupal y luego me he quejado de no enterarme de nada?",
@@ -1016,7 +1016,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2252,
+    "id": "ver_102",
     "intensidad": 3,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has revisado un perfil tan antiguo que casi doy 'me gusta' por accidente?",
@@ -1026,7 +1026,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2253,
+    "id": "ver_103",
     "intensidad": 3,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has tomado una captura de una conversación y casi se la envío a la misma persona?",
@@ -1036,7 +1036,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2254,
+    "id": "ver_104",
     "intensidad": 3,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has ensayado una excusa para cancelar un plan?",
@@ -1046,7 +1046,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2255,
+    "id": "ver_105",
     "intensidad": 3,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has dicho 'tenemos que vernos' sin intención real de organizar algo?",
@@ -1056,7 +1056,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2256,
+    "id": "ver_106",
     "intensidad": 3,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has ignorado una llamada y luego he escrito '¿qué pasó?'?",
@@ -1066,7 +1066,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2257,
+    "id": "ver_107",
     "intensidad": 3,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has criticado una canción y después la he añadido a mi lista?",
@@ -1076,7 +1076,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2258,
+    "id": "ver_108",
     "intensidad": 3,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has borrado una publicación porque recibió pocos 'me gusta'?",
@@ -1086,7 +1086,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2259,
+    "id": "ver_109",
     "intensidad": 3,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has usado una foto antigua para hacer parecer que era reciente?",
@@ -1096,7 +1096,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2260,
+    "id": "ver_110",
     "intensidad": 3,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has revisado varias veces quién vio una historia?",
@@ -1106,7 +1106,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2261,
+    "id": "ver_111",
     "intensidad": 3,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has publicado una indirecta esperando que una persona específica la entendiera?",
@@ -1116,7 +1116,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2262,
+    "id": "ver_112",
     "intensidad": 3,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has dejado de seguir a alguien y luego he vuelto por curiosidad?",
@@ -1126,7 +1126,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2263,
+    "id": "ver_113",
     "intensidad": 3,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has fingido no ver un mensaje aunque aparecía como leído?",
@@ -1136,7 +1136,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2264,
+    "id": "ver_114",
     "intensidad": 3,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has buscado información de alguien antes de conocerlo en persona?",
@@ -1146,7 +1146,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2265,
+    "id": "ver_115",
     "intensidad": 3,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has cambiado de camino para evitar una conversación superficial?",
@@ -1156,7 +1156,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2266,
+    "id": "ver_116",
     "intensidad": 3,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez te has reído de un chiste malo de alguien con autoridad?",
@@ -1166,7 +1166,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2267,
+    "id": "ver_117",
     "intensidad": 3,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has culpado a la batería para terminar una conversación?",
@@ -1176,7 +1176,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2268,
+    "id": "ver_118",
     "intensidad": 3,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has salido de un grupo y me he arrepentido casi inmediatamente?",
@@ -1186,7 +1186,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2269,
+    "id": "ver_119",
     "intensidad": 3,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has silenciado a una persona sin decírselo?",
@@ -1196,7 +1196,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2270,
+    "id": "ver_120",
     "intensidad": 3,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has adelantado una serie que veía con otra persona y he fingido sorpresa?",
@@ -1206,7 +1206,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2271,
+    "id": "ver_121",
     "intensidad": 3,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has dicho 'cinco minutos' cuando aún no estaba listo?",
@@ -1216,7 +1216,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2272,
+    "id": "ver_122",
     "intensidad": 3,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has aceptado términos y condiciones sin leer una sola línea?",
@@ -1226,7 +1226,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2273,
+    "id": "ver_123",
     "intensidad": 3,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has exagerado lo ocupado que estaba para no responder?",
@@ -1236,7 +1236,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2274,
+    "id": "ver_124",
     "intensidad": 3,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has copiado una opinión para encajar en la conversación?",
@@ -1246,7 +1246,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2275,
+    "id": "ver_125",
     "intensidad": 3,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has conservado algo prestado mucho más tiempo del acordado?",
@@ -1256,7 +1256,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2276,
+    "id": "ver_126",
     "intensidad": 3,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has fingido conocer un lugar de moda del que nunca había oído hablar?",
@@ -1266,7 +1266,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2277,
+    "id": "ver_127",
     "intensidad": 3,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has usado un filtro evidente y he negado haberlo usado?",
@@ -1276,7 +1276,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2278,
+    "id": "ver_128",
     "intensidad": 3,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has creado otra cuenta para mirar un perfil sin ser reconocido?",
@@ -1286,7 +1286,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2279,
+    "id": "ver_129",
     "intensidad": 3,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has revisado el perfil de la nueva pareja de una expareja?",
@@ -1296,7 +1296,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2280,
+    "id": "ver_130",
     "intensidad": 3,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has juzgado a alguien por su música y luego he descubierto que me gustaba?",
@@ -1306,7 +1306,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2281,
+    "id": "ver_131",
     "intensidad": 3,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente cancele un plan y pase la noche feliz en casa? ¿Por qué?",
@@ -1316,7 +1316,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2282,
+    "id": "ver_132",
     "intensidad": 3,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente mantenga silenciado el chat grupal durante semanas? ¿Por qué?",
@@ -1326,7 +1326,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2283,
+    "id": "ver_133",
     "intensidad": 3,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente revise un perfil tan antiguo que corra el riesgo de dar 'me gusta'? ¿Por qué?",
@@ -1336,7 +1336,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2284,
+    "id": "ver_134",
     "intensidad": 3,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente conozca todos los chismes y aun así no revele ninguno? ¿Por qué?",
@@ -1346,7 +1346,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2285,
+    "id": "ver_135",
     "intensidad": 3,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente invente la mejor excusa cuando no quiere salir? ¿Por qué?",
@@ -1356,7 +1356,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2286,
+    "id": "ver_136",
     "intensidad": 3,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente elija dónde sentarse únicamente para evitar a alguien? ¿Por qué?",
@@ -1366,7 +1366,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2287,
+    "id": "ver_137",
     "intensidad": 3,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente termine siendo amigo del anfitrión antes de acabar la fiesta? ¿Por qué?",
@@ -1376,7 +1376,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2288,
+    "id": "ver_138",
     "intensidad": 3,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente desaparezca de una reunión sin que nadie note cuándo se fue? ¿Por qué?",
@@ -1386,7 +1386,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2289,
+    "id": "ver_139",
     "intensidad": 3,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente guarde un secreto aunque todo el grupo insista? ¿Por qué?",
@@ -1396,7 +1396,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2290,
+    "id": "ver_140",
     "intensidad": 3,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente sienta celos por no haber sido invitado a un plan? ¿Por qué?",
@@ -1406,7 +1406,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2291,
+    "id": "ver_141",
     "intensidad": 3,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente tome una captura de pantalla de casi cualquier conversación? ¿Por qué?",
@@ -1416,7 +1416,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2292,
+    "id": "ver_142",
     "intensidad": 3,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente analice demasiado un mensaje de dos palabras? ¿Por qué?",
@@ -1426,7 +1426,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2293,
+    "id": "ver_143",
     "intensidad": 3,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente escriba y borre el mismo mensaje muchas veces? ¿Por qué?",
@@ -1436,7 +1436,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2294,
+    "id": "ver_144",
     "intensidad": 3,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente pida perdón primero para terminar una discusión? ¿Por qué?",
@@ -1446,7 +1446,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2295,
+    "id": "ver_145",
     "intensidad": 3,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente guarde rencor por algo pequeño durante demasiado tiempo? ¿Por qué?",
@@ -1456,7 +1456,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2296,
+    "id": "ver_146",
     "intensidad": 3,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente defienda a un amigo incluso cuando no está presente? ¿Por qué?",
@@ -1466,7 +1466,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2297,
+    "id": "ver_147",
     "intensidad": 3,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente acepte una idea solo para evitar un conflicto? ¿Por qué?",
@@ -1476,7 +1476,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2298,
+    "id": "ver_148",
     "intensidad": 3,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente llore con una película que nadie más considera triste? ¿Por qué?",
@@ -1486,7 +1486,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2299,
+    "id": "ver_149",
     "intensidad": 3,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente se convierta en terapeuta improvisado del grupo? ¿Por qué?",
@@ -1496,7 +1496,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2300,
+    "id": "ver_150",
     "intensidad": 3,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente haga una compra impulsiva y luego intente justificarla? ¿Por qué?",
@@ -1506,7 +1506,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2301,
+    "id": "ver_151",
     "intensidad": 4,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has cancelado un plan solo porque prefería quedarme en casa?",
@@ -1516,7 +1516,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2302,
+    "id": "ver_152",
     "intensidad": 4,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has sentido alivio cuando otra persona canceló un plan que yo no quería?",
@@ -1526,7 +1526,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2303,
+    "id": "ver_153",
     "intensidad": 4,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has fingido que me gustaba un regalo para no herir a quien lo dio?",
@@ -1536,7 +1536,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2304,
+    "id": "ver_154",
     "intensidad": 4,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has contado un secreto diciendo 'solo se lo diré a una persona'?",
@@ -1546,7 +1546,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2305,
+    "id": "ver_155",
     "intensidad": 4,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has usado a un amigo como excusa para evitar un compromiso?",
@@ -1556,7 +1556,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2306,
+    "id": "ver_156",
     "intensidad": 4,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has evitado a alguien porque le debía dinero o un favor?",
@@ -1566,7 +1566,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2307,
+    "id": "ver_157",
     "intensidad": 4,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has olvidado un cumpleaños y he fingido que tenía preparada una felicitación?",
@@ -1576,7 +1576,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2308,
+    "id": "ver_158",
     "intensidad": 4,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has sentido celos de un plan al que no fui invitado?",
@@ -1586,7 +1586,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2309,
+    "id": "ver_159",
     "intensidad": 4,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has hablado de un amigo justo antes de que apareciera?",
@@ -1596,7 +1596,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2310,
+    "id": "ver_160",
     "intensidad": 4,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has aceptado un plan sabiendo que probablemente lo cancelaría?",
@@ -1606,7 +1606,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2311,
+    "id": "ver_161",
     "intensidad": 4,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has fingido recordar una historia que ya me habían contado?",
@@ -1616,7 +1616,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2312,
+    "id": "ver_162",
     "intensidad": 4,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has prestado algo y he querido recuperarlo sin atreverme a pedirlo?",
@@ -1626,7 +1626,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2313,
+    "id": "ver_163",
     "intensidad": 4,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has mantenido una mala primera impresión durante demasiado tiempo?",
@@ -1636,7 +1636,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2314,
+    "id": "ver_164",
     "intensidad": 4,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has comparado en secreto dos amistades?",
@@ -1646,7 +1646,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2315,
+    "id": "ver_165",
     "intensidad": 4,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has ocultado una molestia para evitar una conversación incómoda?",
@@ -1656,7 +1656,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2316,
+    "id": "ver_166",
     "intensidad": 4,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has apoyado una idea en público y la he criticado en privado?",
@@ -1666,7 +1666,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2317,
+    "id": "ver_167",
     "intensidad": 4,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has dejado a un amigo en visto a propósito?",
@@ -1676,7 +1676,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2318,
+    "id": "ver_168",
     "intensidad": 4,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has rechazado una invitación esperando que apareciera un plan mejor?",
@@ -1686,7 +1686,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2319,
+    "id": "ver_169",
     "intensidad": 4,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has inventado una excusa para no presentar a dos personas?",
@@ -1696,7 +1696,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2320,
+    "id": "ver_170",
     "intensidad": 4,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has mentido sobre lo que pensaba de la pareja de un amigo?",
@@ -1706,7 +1706,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2321,
+    "id": "ver_171",
     "intensidad": 4,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez te has sentido excluido sin preguntar qué había pasado?",
@@ -1716,7 +1716,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2322,
+    "id": "ver_172",
     "intensidad": 4,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has elegido dónde sentarme para evitar a alguien?",
@@ -1726,7 +1726,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2323,
+    "id": "ver_173",
     "intensidad": 4,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has usado 'estoy cansado' cuando en realidad no quería ver a una persona?",
@@ -1736,7 +1736,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2324,
+    "id": "ver_174",
     "intensidad": 4,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has competido silenciosamente con un amigo?",
@@ -1746,7 +1746,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2325,
+    "id": "ver_175",
     "intensidad": 4,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez te ha molestado que un consejo que ignoré resultara correcto?",
@@ -1756,7 +1756,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2326,
+    "id": "ver_176",
     "intensidad": 4,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has pedido perdón sin sentir que yo tenía la culpa?",
@@ -1766,7 +1766,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2327,
+    "id": "ver_177",
     "intensidad": 4,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has esperado una disculpa sin explicar por qué estaba molesto?",
@@ -1776,7 +1776,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2328,
+    "id": "ver_178",
     "intensidad": 4,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has mantenido una amistad más por costumbre que por cercanía?",
@@ -1786,7 +1786,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2329,
+    "id": "ver_179",
     "intensidad": 4,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has fingido estar de acuerdo para que terminara una discusión?",
@@ -1796,7 +1796,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2330,
+    "id": "ver_180",
     "intensidad": 4,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has sentido que un amigo me reemplazó y no lo he dicho?",
@@ -1806,7 +1806,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2331,
+    "id": "ver_181",
     "intensidad": 4,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente coquetee sin darse cuenta de que lo está haciendo? ¿Por qué?",
@@ -1816,7 +1816,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2332,
+    "id": "ver_182",
     "intensidad": 4,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente se enamore de una amistad cercana? ¿Por qué?",
@@ -1826,7 +1826,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2333,
+    "id": "ver_183",
     "intensidad": 4,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente envíe un audio sobre alguien a esa misma persona? ¿Por qué?",
@@ -1836,7 +1836,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2334,
+    "id": "ver_184",
     "intensidad": 4,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente finja recordar a alguien que no reconoce? ¿Por qué?",
@@ -1846,7 +1846,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2335,
+    "id": "ver_185",
     "intensidad": 4,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente use a un amigo como excusa para evitar una situación? ¿Por qué?",
@@ -1856,7 +1856,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2336,
+    "id": "ver_186",
     "intensidad": 4,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente cancele un plan por miedo a una conversación incómoda? ¿Por qué?",
@@ -1866,7 +1866,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2337,
+    "id": "ver_187",
     "intensidad": 4,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente ensaye lo que dirá antes de una cita? ¿Por qué?",
@@ -1876,7 +1876,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2338,
+    "id": "ver_188",
     "intensidad": 4,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente revise repetidamente el perfil de una expareja? ¿Por qué?",
@@ -1886,7 +1886,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2339,
+    "id": "ver_189",
     "intensidad": 4,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente finja que le encanta un regalo que no usaría? ¿Por qué?",
@@ -1896,7 +1896,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2340,
+    "id": "ver_190",
     "intensidad": 4,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente olvide una fecha importante y trate de improvisar? ¿Por qué?",
@@ -1906,7 +1906,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2341,
+    "id": "ver_191",
     "intensidad": 4,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente sea descubierto en una mentira pequeña por dar demasiados detalles? ¿Por qué?",
@@ -1916,7 +1916,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2342,
+    "id": "ver_192",
     "intensidad": 4,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente oculte durante meses quién le gusta? ¿Por qué?",
@@ -1926,7 +1926,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2343,
+    "id": "ver_193",
     "intensidad": 4,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente niegue sentir celos aunque sean evidentes? ¿Por qué?",
@@ -1936,7 +1936,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2344,
+    "id": "ver_194",
     "intensidad": 4,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente publique una indirecta demasiado obvia? ¿Por qué?",
@@ -1946,7 +1946,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2345,
+    "id": "ver_195",
     "intensidad": 4,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente bloquee y desbloquee a alguien en el mismo día? ¿Por qué?",
@@ -1956,7 +1956,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2346,
+    "id": "ver_196",
     "intensidad": 4,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente deje un mensaje en visto deliberadamente? ¿Por qué?",
@@ -1966,7 +1966,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2347,
+    "id": "ver_197",
     "intensidad": 4,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente actúe distante para llamar la atención? ¿Por qué?",
@@ -1976,7 +1976,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2348,
+    "id": "ver_198",
     "intensidad": 4,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente se encariñe después de una sola cita? ¿Por qué?",
@@ -1986,7 +1986,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2349,
+    "id": "ver_199",
     "intensidad": 4,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente confunda amabilidad con coqueteo? ¿Por qué?",
@@ -1996,7 +1996,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2350,
+    "id": "ver_200",
     "intensidad": 4,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente finja recibir una llamada para escapar de una cita? ¿Por qué?",
@@ -2006,7 +2006,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2351,
+    "id": "ver_201",
     "intensidad": 5,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has coqueteado con alguien solo para recibir atención?",
@@ -2016,7 +2016,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2352,
+    "id": "ver_202",
     "intensidad": 5,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has besado a alguien y después he fingido que no significó nada?",
@@ -2026,7 +2026,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2353,
+    "id": "ver_203",
     "intensidad": 5,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has dado mi número sin intención de responder?",
@@ -2036,7 +2036,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2354,
+    "id": "ver_204",
     "intensidad": 5,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has usado a un amigo como excusa para escapar de una mala cita?",
@@ -2046,7 +2046,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2355,
+    "id": "ver_205",
     "intensidad": 5,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has mentido sobre mi edad en una aplicación o red social?",
@@ -2056,7 +2056,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2356,
+    "id": "ver_206",
     "intensidad": 5,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has exagerado algún dato de mi perfil para parecer más interesante?",
@@ -2066,7 +2066,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2357,
+    "id": "ver_207",
     "intensidad": 5,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has aceptado por accidente a alguien y luego he seguido la conversación?",
@@ -2076,7 +2076,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2358,
+    "id": "ver_208",
     "intensidad": 5,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has coincidido con un conocido en una aplicación y he fingido no verlo?",
@@ -2086,7 +2086,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2359,
+    "id": "ver_209",
     "intensidad": 5,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has investigado a una cita antes de conocerla?",
@@ -2096,7 +2096,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2360,
+    "id": "ver_210",
     "intensidad": 5,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has cancelado una cita a última hora por un plan que parecía mejor?",
@@ -2106,7 +2106,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2361,
+    "id": "ver_211",
     "intensidad": 5,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has ido a una cita solo por curiosidad?",
@@ -2116,7 +2116,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2362,
+    "id": "ver_212",
     "intensidad": 5,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has confundido el nombre de dos personas con las que estaba hablando?",
@@ -2126,7 +2126,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2363,
+    "id": "ver_213",
     "intensidad": 5,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has enviado el mismo mensaje coqueto a más de una persona?",
@@ -2136,7 +2136,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2364,
+    "id": "ver_214",
     "intensidad": 5,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has usado una foto demasiado antigua en un perfil?",
@@ -2146,7 +2146,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2365,
+    "id": "ver_215",
     "intensidad": 5,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez te has quedado en una fiesta solo para ver si llegaba alguien?",
@@ -2156,7 +2156,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2366,
+    "id": "ver_216",
     "intensidad": 5,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has fingido que me gustaba una canción para impresionar?",
@@ -2166,7 +2166,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2367,
+    "id": "ver_217",
     "intensidad": 5,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has tomado algo para reunir valor antes de hablarle a alguien?",
@@ -2176,7 +2176,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2368,
+    "id": "ver_218",
     "intensidad": 5,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has escrito a alguien después de beber y me he arrepentido al despertar?",
@@ -2186,7 +2186,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2369,
+    "id": "ver_219",
     "intensidad": 5,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has borrado un mensaje a la mañana siguiente esperando que no lo hubieran leído?",
@@ -2196,7 +2196,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2370,
+    "id": "ver_220",
     "intensidad": 5,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has fingido recordar a alguien de una fiesta?",
@@ -2206,7 +2206,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2371,
+    "id": "ver_221",
     "intensidad": 5,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has hecho una promesa durante una fiesta que no pensaba cumplir?",
@@ -2216,7 +2216,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2372,
+    "id": "ver_222",
     "intensidad": 5,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez te has ido de una reunión sin despedirme de nadie?",
@@ -2226,7 +2226,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2373,
+    "id": "ver_223",
     "intensidad": 5,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez te has escondido de alguien en una fiesta?",
@@ -2236,7 +2236,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2374,
+    "id": "ver_224",
     "intensidad": 5,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has participado en un juego sin entender las reglas?",
@@ -2246,7 +2246,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2375,
+    "id": "ver_225",
     "intensidad": 5,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has culpado a la bebida por un comentario que sí quería hacer?",
@@ -2256,7 +2256,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2376,
+    "id": "ver_226",
     "intensidad": 5,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has perdido algo en una fiesta y he acusado a la persona equivocada?",
@@ -2266,7 +2266,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2377,
+    "id": "ver_227",
     "intensidad": 5,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has contado la misma historia en distintas rondas como si fuera nueva?",
@@ -2276,7 +2276,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2378,
+    "id": "ver_228",
     "intensidad": 5,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has coqueteado con alguien para provocar celos?",
@@ -2286,7 +2286,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2379,
+    "id": "ver_229",
     "intensidad": 5,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has besado a un amigo y complicado la relación?",
@@ -2296,7 +2296,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2380,
+    "id": "ver_230",
     "intensidad": 5,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has seguido en una fiesta aunque quería irme para no parecer aburrido?",
@@ -2306,7 +2306,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2381,
+    "id": "ver_231",
     "intensidad": 5,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente bese a alguien durante una fiesta? ¿Por qué?",
@@ -2316,7 +2316,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2382,
+    "id": "ver_232",
     "intensidad": 5,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente coquetee solo para recibir una bebida o atención? ¿Por qué?",
@@ -2326,7 +2326,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2383,
+    "id": "ver_233",
     "intensidad": 5,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente escriba a una expareja después de tomar? ¿Por qué?",
@@ -2336,7 +2336,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2384,
+    "id": "ver_234",
     "intensidad": 5,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente permanezca en una fiesta únicamente para ver llegar a alguien? ¿Por qué?",
@@ -2346,7 +2346,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2385,
+    "id": "ver_235",
     "intensidad": 5,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente tenga dos citas distintas en la misma semana? ¿Por qué?",
@@ -2356,7 +2356,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2386,
+    "id": "ver_236",
     "intensidad": 5,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente desaparezca y luego vuelva como si nada hubiera pasado? ¿Por qué?",
@@ -2366,7 +2366,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2387,
+    "id": "ver_237",
     "intensidad": 5,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente vuelva a escribir después de haber sido ignorado? ¿Por qué?",
@@ -2376,7 +2376,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2388,
+    "id": "ver_238",
     "intensidad": 5,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente use una aplicación de citas durante un viaje? ¿Por qué?",
@@ -2386,7 +2386,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2389,
+    "id": "ver_239",
     "intensidad": 5,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente se enamore de alguien del trabajo o de clase? ¿Por qué?",
@@ -2396,7 +2396,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2390,
+    "id": "ver_240",
     "intensidad": 5,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente intente provocar celos deliberadamente? ¿Por qué?",
@@ -2406,7 +2406,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2391,
+    "id": "ver_241",
     "intensidad": 5,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente bese a un amigo y complique la relación? ¿Por qué?",
@@ -2416,7 +2416,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2392,
+    "id": "ver_242",
     "intensidad": 5,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente oculte una cita al resto del grupo? ¿Por qué?",
@@ -2426,7 +2426,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2393,
+    "id": "ver_243",
     "intensidad": 5,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente termine una noche conversando con una persona que acababa de conocer? ¿Por qué?",
@@ -2436,7 +2436,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2394,
+    "id": "ver_244",
     "intensidad": 5,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente confiese sus sentimientos después de beber? ¿Por qué?",
@@ -2446,7 +2446,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2395,
+    "id": "ver_245",
     "intensidad": 5,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente olvide una promesa hecha durante una fiesta? ¿Por qué?",
@@ -2456,7 +2456,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2396,
+    "id": "ver_246",
     "intensidad": 5,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente pierda el teléfono en plena reunión? ¿Por qué?",
@@ -2466,7 +2466,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2397,
+    "id": "ver_247",
     "intensidad": 5,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente se convierta inesperadamente en la estrella del karaoke? ¿Por qué?",
@@ -2476,7 +2476,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2398,
+    "id": "ver_248",
     "intensidad": 5,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente sea quien inicie la pista de baile? ¿Por qué?",
@@ -2486,7 +2486,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2399,
+    "id": "ver_249",
     "intensidad": 5,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente invente un juego de tomar sobre la marcha? ¿Por qué?",
@@ -2496,7 +2496,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2400,
+    "id": "ver_250",
     "intensidad": 5,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente haga un brindis demasiado emotivo? ¿Por qué?",
@@ -2506,7 +2506,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2401,
+    "id": "ver_251",
     "intensidad": 6,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has ocultado que seguía hablando con una expareja?",
@@ -2516,7 +2516,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2402,
+    "id": "ver_252",
     "intensidad": 6,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has dicho que había superado a alguien cuando seguía pendiente?",
@@ -2526,7 +2526,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2403,
+    "id": "ver_253",
     "intensidad": 6,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has vuelto con alguien aun sabiendo que la relación no funcionaba?",
@@ -2536,7 +2536,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2404,
+    "id": "ver_254",
     "intensidad": 6,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has mantenido a alguien como opción por si otro plan fallaba?",
@@ -2546,7 +2546,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2405,
+    "id": "ver_255",
     "intensidad": 6,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has comparado en silencio a mi pareja con una expareja?",
@@ -2556,7 +2556,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2406,
+    "id": "ver_256",
     "intensidad": 6,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has mirado una notificación ajena sabiendo que no debía hacerlo?",
@@ -2566,7 +2566,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2407,
+    "id": "ver_257",
     "intensidad": 6,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has mentido sobre quién estaba presente en una fiesta?",
@@ -2576,7 +2576,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2408,
+    "id": "ver_258",
     "intensidad": 6,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has borrado una conversación para evitar preguntas?",
@@ -2586,7 +2586,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2409,
+    "id": "ver_259",
     "intensidad": 6,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has minimizado una relación cuando hablaba con otras personas?",
@@ -2596,7 +2596,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2410,
+    "id": "ver_260",
     "intensidad": 6,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has dicho 'te quiero' sin estar completamente seguro?",
@@ -2606,7 +2606,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2411,
+    "id": "ver_261",
     "intensidad": 6,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has seguido en una relación por miedo a estar solo?",
@@ -2616,7 +2616,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2412,
+    "id": "ver_262",
     "intensidad": 6,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has desaparecido en lugar de explicar que había perdido el interés?",
@@ -2626,7 +2626,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2413,
+    "id": "ver_263",
     "intensidad": 6,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has vuelto a escribir después de haber desaparecido sin explicación?",
@@ -2636,7 +2636,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2414,
+    "id": "ver_264",
     "intensidad": 6,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has guardado en secreto un regalo de una expareja?",
@@ -2646,7 +2646,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2415,
+    "id": "ver_265",
     "intensidad": 6,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has seguido a alguien en redes solo porque me parecía atractivo?",
@@ -2656,7 +2656,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2416,
+    "id": "ver_266",
     "intensidad": 6,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has provocado celos deliberadamente?",
@@ -2666,7 +2666,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2417,
+    "id": "ver_267",
     "intensidad": 6,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has negado una atracción que todos ya habían notado?",
@@ -2676,7 +2676,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2418,
+    "id": "ver_268",
     "intensidad": 6,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has dado señales contradictorias para mantener el interés de alguien?",
@@ -2686,7 +2686,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2419,
+    "id": "ver_269",
     "intensidad": 6,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has aceptado una cita para intentar olvidar a otra persona?",
@@ -2696,7 +2696,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2420,
+    "id": "ver_270",
     "intensidad": 6,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has besado a alguien mientras pensaba en otra persona?",
@@ -2706,7 +2706,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2421,
+    "id": "ver_271",
     "intensidad": 6,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has hablado mal de una expareja mientras todavía la extrañaba?",
@@ -2716,7 +2716,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2422,
+    "id": "ver_272",
     "intensidad": 6,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has ocultado un rechazo para evitar que mis amigos se enteraran?",
@@ -2726,7 +2726,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2423,
+    "id": "ver_273",
     "intensidad": 6,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has fingido querer algo casual cuando buscaba una relación?",
@@ -2736,7 +2736,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2424,
+    "id": "ver_274",
     "intensidad": 6,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has fingido buscar algo serio cuando todavía tenía dudas?",
@@ -2746,7 +2746,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2425,
+    "id": "ver_275",
     "intensidad": 6,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has pedido a un amigo que investigara a la persona que me gustaba?",
@@ -2756,7 +2756,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2426,
+    "id": "ver_276",
     "intensidad": 6,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has publicado una indirecta dirigida a una sola persona?",
@@ -2766,7 +2766,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2427,
+    "id": "ver_277",
     "intensidad": 6,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has releído una conversación antigua demasiadas veces?",
@@ -2776,7 +2776,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2428,
+    "id": "ver_278",
     "intensidad": 6,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has guardado un contacto con un nombre falso?",
@@ -2786,7 +2786,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2429,
+    "id": "ver_279",
     "intensidad": 6,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has mantenido una conversación en secreto porque sabía que causaría problemas?",
@@ -2796,7 +2796,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2430,
+    "id": "ver_280",
     "intensidad": 6,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has esperado que alguien adivinara mis sentimientos sin decirlos?",
@@ -2806,7 +2806,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2431,
+    "id": "ver_281",
     "intensidad": 6,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente vuelva con una expareja a pesar de todas las advertencias? ¿Por qué?",
@@ -2816,7 +2816,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2432,
+    "id": "ver_282",
     "intensidad": 6,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente mantenga a alguien como segunda opción? ¿Por qué?",
@@ -2826,7 +2826,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2433,
+    "id": "ver_283",
     "intensidad": 6,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente oculte que sigue hablando con una expareja? ¿Por qué?",
@@ -2836,7 +2836,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2434,
+    "id": "ver_284",
     "intensidad": 6,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente borre mensajes para evitar preguntas? ¿Por qué?",
@@ -2846,7 +2846,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2435,
+    "id": "ver_285",
     "intensidad": 6,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente diga que quiere algo casual cuando busca una relación? ¿Por qué?",
@@ -2856,7 +2856,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2436,
+    "id": "ver_286",
     "intensidad": 6,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente diga que quiere algo serio aunque todavía tenga dudas? ¿Por qué?",
@@ -2866,7 +2866,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2437,
+    "id": "ver_287",
     "intensidad": 6,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente salga con alguien pese a notar señales de alerta? ¿Por qué?",
@@ -2876,7 +2876,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2438,
+    "id": "ver_288",
     "intensidad": 6,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente revise una notificación ajena sin permiso? ¿Por qué?",
@@ -2886,7 +2886,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2439,
+    "id": "ver_289",
     "intensidad": 6,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente mienta sobre dónde estuvo o con quién? ¿Por qué?",
@@ -2896,7 +2896,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2440,
+    "id": "ver_290",
     "intensidad": 6,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente guarde en secreto un regalo de una expareja? ¿Por qué?",
@@ -2906,7 +2906,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2441,
+    "id": "ver_291",
     "intensidad": 6,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente compare a su pareja actual con una anterior? ¿Por qué?",
@@ -2916,7 +2916,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2442,
+    "id": "ver_292",
     "intensidad": 6,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente se enamore de alguien emocionalmente no disponible? ¿Por qué?",
@@ -2926,7 +2926,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2443,
+    "id": "ver_293",
     "intensidad": 6,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente confunda nombres en un momento romántico? ¿Por qué?",
@@ -2936,7 +2936,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2444,
+    "id": "ver_294",
     "intensidad": 6,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente salga con alguien que no agrada a ninguno de sus amigos? ¿Por qué?",
@@ -2946,7 +2946,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2445,
+    "id": "ver_295",
     "intensidad": 6,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente dé el primer paso sin estar seguro de ser correspondido? ¿Por qué?",
@@ -2956,7 +2956,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2446,
+    "id": "ver_296",
     "intensidad": 6,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente confiese sus sentimientos mediante un mensaje? ¿Por qué?",
@@ -2966,7 +2966,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2447,
+    "id": "ver_297",
     "intensidad": 6,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente desaparezca en lugar de rechazar directamente? ¿Por qué?",
@@ -2976,7 +2976,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2448,
+    "id": "ver_298",
     "intensidad": 6,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente prometa exclusividad antes de estar preparado? ¿Por qué?",
@@ -2986,7 +2986,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2449,
+    "id": "ver_299",
     "intensidad": 6,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente sea descubierto coqueteando? ¿Por qué?",
@@ -2996,7 +2996,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2450,
+    "id": "ver_300",
     "intensidad": 6,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente mantenga una relación en secreto? ¿Por qué?",
@@ -3006,7 +3006,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2451,
+    "id": "ver_301",
     "intensidad": 7,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has besado a dos personas del mismo grupo?",
@@ -3016,7 +3016,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2452,
+    "id": "ver_302",
     "intensidad": 7,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has salido con la expareja de un amigo?",
@@ -3026,7 +3026,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2453,
+    "id": "ver_303",
     "intensidad": 7,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez te ha atraído la pareja de una persona cercana?",
@@ -3036,7 +3036,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2454,
+    "id": "ver_304",
     "intensidad": 7,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has enviado una confesión y luego he puesto el teléfono en modo avión?",
@@ -3046,7 +3046,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2455,
+    "id": "ver_305",
     "intensidad": 7,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has vuelto con la misma expareja más de una vez?",
@@ -3056,7 +3056,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2456,
+    "id": "ver_306",
     "intensidad": 7,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has dicho el nombre equivocado en un momento romántico?",
@@ -3066,7 +3066,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2457,
+    "id": "ver_307",
     "intensidad": 7,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has mentido sobre mi estado sentimental?",
@@ -3076,7 +3076,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2458,
+    "id": "ver_308",
     "intensidad": 7,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has descubierto que yo era 'la otra persona' en una relación?",
@@ -3086,7 +3086,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2459,
+    "id": "ver_309",
     "intensidad": 7,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has seguido viendo a alguien a pesar de señales de alerta evidentes?",
@@ -3096,7 +3096,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2460,
+    "id": "ver_310",
     "intensidad": 7,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has ocultado una relación al grupo de amigos?",
@@ -3106,7 +3106,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2461,
+    "id": "ver_311",
     "intensidad": 7,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has intentado poner celosa a una persona a propósito?",
@@ -3116,7 +3116,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2462,
+    "id": "ver_312",
     "intensidad": 7,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has publicado una historia esperando que una sola persona reaccionara?",
@@ -3126,7 +3126,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2463,
+    "id": "ver_313",
     "intensidad": 7,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has bloqueado y desbloqueado a alguien por impulso?",
@@ -3136,7 +3136,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2464,
+    "id": "ver_314",
     "intensidad": 7,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has revisado la actividad de alguien para saber con quién estaba?",
@@ -3146,7 +3146,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2465,
+    "id": "ver_315",
     "intensidad": 7,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has besado a alguien por un reto y me ha gustado?",
@@ -3156,7 +3156,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2466,
+    "id": "ver_316",
     "intensidad": 7,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has rechazado a alguien y luego he sentido celos al verlo con otra persona?",
@@ -3166,7 +3166,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2467,
+    "id": "ver_317",
     "intensidad": 7,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has salido con alguien pese a que todos mis amigos me advirtieron?",
@@ -3176,7 +3176,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2468,
+    "id": "ver_318",
     "intensidad": 7,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has mantenido un amor secreto durante años?",
@@ -3186,7 +3186,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2469,
+    "id": "ver_319",
     "intensidad": 7,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has fingido indiferencia después de un rechazo?",
@@ -3196,7 +3196,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2470,
+    "id": "ver_320",
     "intensidad": 7,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has competido con un amigo por la atención de alguien?",
@@ -3206,7 +3206,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2471,
+    "id": "ver_321",
     "intensidad": 7,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has cancelado un plan con amigos por una cita?",
@@ -3216,7 +3216,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2472,
+    "id": "ver_322",
     "intensidad": 7,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has usado una aplicación de citas durante una 'pausa' de la relación?",
@@ -3226,7 +3226,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2473,
+    "id": "ver_323",
     "intensidad": 7,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has hablado con dos personas al mismo tiempo con las mismas intenciones?",
@@ -3236,7 +3236,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2474,
+    "id": "ver_324",
     "intensidad": 7,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has prometido exclusividad antes de estar preparado?",
@@ -3246,7 +3246,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2475,
+    "id": "ver_325",
     "intensidad": 7,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has dicho que no sentía celos cuando era evidente que sí?",
@@ -3256,7 +3256,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2476,
+    "id": "ver_326",
     "intensidad": 7,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has imaginado una relación con un amigo cercano?",
@@ -3266,7 +3266,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2477,
+    "id": "ver_327",
     "intensidad": 7,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has ocultado un beso que podía cambiar la dinámica del grupo?",
@@ -3276,7 +3276,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2478,
+    "id": "ver_328",
     "intensidad": 7,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has retomado una conversación solo porque me sentía solo?",
@@ -3286,7 +3286,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2479,
+    "id": "ver_329",
     "intensidad": 7,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has mentido sobre dónde pasé la noche?",
@@ -3296,7 +3296,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2480,
+    "id": "ver_330",
     "intensidad": 7,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez te has arrepentido durante años de no haber besado a alguien?",
@@ -3306,7 +3306,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2481,
+    "id": "ver_331",
     "intensidad": 7,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente bese a dos personas del mismo grupo? ¿Por qué?",
@@ -3316,7 +3316,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2482,
+    "id": "ver_332",
     "intensidad": 7,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente salga con la expareja de un amigo? ¿Por qué?",
@@ -3326,7 +3326,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2483,
+    "id": "ver_333",
     "intensidad": 7,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente se sienta atraído por la pareja de una persona cercana? ¿Por qué?",
@@ -3336,7 +3336,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2484,
+    "id": "ver_334",
     "intensidad": 7,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente confiese algo importante y luego apague el teléfono? ¿Por qué?",
@@ -3346,7 +3346,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2485,
+    "id": "ver_335",
     "intensidad": 7,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente vuelva varias veces con la misma relación complicada? ¿Por qué?",
@@ -3356,7 +3356,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2486,
+    "id": "ver_336",
     "intensidad": 7,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente diga el nombre equivocado en un momento romántico? ¿Por qué?",
@@ -3366,7 +3366,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2487,
+    "id": "ver_337",
     "intensidad": 7,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente mienta sobre su estado sentimental? ¿Por qué?",
@@ -3376,7 +3376,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2488,
+    "id": "ver_338",
     "intensidad": 7,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente descubra demasiado tarde que era la otra persona? ¿Por qué?",
@@ -3386,7 +3386,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2489,
+    "id": "ver_339",
     "intensidad": 7,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente continúe una relación pese a señales de alerta evidentes? ¿Por qué?",
@@ -3396,7 +3396,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2490,
+    "id": "ver_340",
     "intensidad": 7,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente oculte una relación completa al grupo? ¿Por qué?",
@@ -3406,7 +3406,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2491,
+    "id": "ver_341",
     "intensidad": 7,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente use a una tercera persona para provocar celos? ¿Por qué?",
@@ -3416,7 +3416,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2492,
+    "id": "ver_342",
     "intensidad": 7,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente publique una historia dirigida a una sola persona? ¿Por qué?",
@@ -3426,7 +3426,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2493,
+    "id": "ver_343",
     "intensidad": 7,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente bloquee y desbloquee a alguien por impulso? ¿Por qué?",
@@ -3436,7 +3436,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2494,
+    "id": "ver_344",
     "intensidad": 7,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente revise la actividad de alguien para saber con quién está? ¿Por qué?",
@@ -3446,7 +3446,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2495,
+    "id": "ver_345",
     "intensidad": 7,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente bese a alguien por un reto y termine sintiendo algo? ¿Por qué?",
@@ -3456,7 +3456,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2496,
+    "id": "ver_346",
     "intensidad": 7,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente rechace a alguien y luego sienta celos? ¿Por qué?",
@@ -3466,7 +3466,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2497,
+    "id": "ver_347",
     "intensidad": 7,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente ignore todas las advertencias de sus amigos sobre una pareja? ¿Por qué?",
@@ -3476,7 +3476,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2498,
+    "id": "ver_348",
     "intensidad": 7,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente mantenga un amor secreto durante años? ¿Por qué?",
@@ -3486,7 +3486,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2499,
+    "id": "ver_349",
     "intensidad": 7,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente finja indiferencia después de un rechazo? ¿Por qué?",
@@ -3496,7 +3496,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2500,
+    "id": "ver_350",
     "intensidad": 7,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente compita con un amigo por la atención de alguien? ¿Por qué?",
@@ -3506,7 +3506,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2501,
+    "id": "ver_351",
     "intensidad": 8,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has leído una conversación privada que no era para mí?",
@@ -3516,7 +3516,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2502,
+    "id": "ver_352",
     "intensidad": 8,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has compartido un secreto diciendo que no revelaría nombres?",
@@ -3526,7 +3526,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2503,
+    "id": "ver_353",
     "intensidad": 8,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has omitido una verdad importante para proteger mi imagen?",
@@ -3536,7 +3536,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2504,
+    "id": "ver_354",
     "intensidad": 8,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has permitido que otra persona cargara con una culpa que era mía?",
@@ -3546,7 +3546,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2505,
+    "id": "ver_355",
     "intensidad": 8,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has contado una versión manipulada de un conflicto?",
@@ -3556,7 +3556,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2506,
+    "id": "ver_356",
     "intensidad": 8,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has guardado una captura para usarla en una discusión futura?",
@@ -3566,7 +3566,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2507,
+    "id": "ver_357",
     "intensidad": 8,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has mentido para evitar una consecuencia que terminó afectando a alguien más?",
@@ -3576,7 +3576,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2508,
+    "id": "ver_358",
     "intensidad": 8,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has confrontado a alguien por un rumor sin comprobarlo?",
@@ -3586,7 +3586,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2509,
+    "id": "ver_359",
     "intensidad": 8,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has negado algo evidente hasta que aparecieron pruebas?",
@@ -3596,7 +3596,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2510,
+    "id": "ver_360",
     "intensidad": 8,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has usado información confidencial durante una discusión?",
@@ -3606,7 +3606,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2511,
+    "id": "ver_361",
     "intensidad": 8,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has ocultado a un amigo una traición que le afectaba?",
@@ -3616,7 +3616,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2512,
+    "id": "ver_362",
     "intensidad": 8,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has defendido a alguien en público y lo he criticado en privado?",
@@ -3626,7 +3626,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2513,
+    "id": "ver_363",
     "intensidad": 8,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has prometido guardar un secreto y he terminado contándolo?",
@@ -3636,7 +3636,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2514,
+    "id": "ver_364",
     "intensidad": 8,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has dicho que perdoné algo pero lo he usado después en otra pelea?",
@@ -3646,7 +3646,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2515,
+    "id": "ver_365",
     "intensidad": 8,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has mantenido contacto con alguien sabiendo que incomodaba a una persona importante?",
@@ -3656,7 +3656,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2516,
+    "id": "ver_366",
     "intensidad": 8,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has roto un pacto que yo mismo propuse?",
@@ -3666,7 +3666,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2517,
+    "id": "ver_367",
     "intensidad": 8,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has fingido sorpresa ante un secreto que ya conocía?",
@@ -3676,7 +3676,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2518,
+    "id": "ver_368",
     "intensidad": 8,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has intentado poner al grupo en contra de alguien?",
@@ -3686,7 +3686,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2519,
+    "id": "ver_369",
     "intensidad": 8,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has excluido deliberadamente a una persona de un plan?",
@@ -3696,7 +3696,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2520,
+    "id": "ver_370",
     "intensidad": 8,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has guardado silencio al presenciar una situación injusta?",
@@ -3706,7 +3706,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2521,
+    "id": "ver_371",
     "intensidad": 8,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has usado la culpa para conseguir lo que quería?",
@@ -3716,7 +3716,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2522,
+    "id": "ver_372",
     "intensidad": 8,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has pedido perdón solo por miedo a perder a alguien?",
@@ -3726,7 +3726,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2523,
+    "id": "ver_373",
     "intensidad": 8,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has contado dos versiones incompatibles de la misma historia?",
@@ -3736,7 +3736,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2524,
+    "id": "ver_374",
     "intensidad": 8,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has borrado pruebas para sostener una mentira?",
@@ -3746,7 +3746,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2525,
+    "id": "ver_375",
     "intensidad": 8,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has mentido cuando me hicieron una pregunta directa?",
@@ -3756,7 +3756,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2526,
+    "id": "ver_376",
     "intensidad": 8,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has permitido que creciera un rumor porque me beneficiaba?",
@@ -3766,7 +3766,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2527,
+    "id": "ver_377",
     "intensidad": 8,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has usado una inseguridad ajena como parte de una broma?",
@@ -3776,7 +3776,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2528,
+    "id": "ver_378",
     "intensidad": 8,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has tomado una decisión importante por el grupo sin consultarlo?",
@@ -3786,7 +3786,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2529,
+    "id": "ver_379",
     "intensidad": 8,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has mantenido una amistad únicamente por conveniencia?",
@@ -3796,7 +3796,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2530,
+    "id": "ver_380",
     "intensidad": 8,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has puesto a prueba la lealtad de alguien sin que lo supiera?",
@@ -3806,7 +3806,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2531,
+    "id": "ver_381",
     "intensidad": 8,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente lea una conversación privada que no estaba dirigida a él? ¿Por qué?",
@@ -3816,7 +3816,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2532,
+    "id": "ver_382",
     "intensidad": 8,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente comparta un secreto asegurando que no dará nombres? ¿Por qué?",
@@ -3826,7 +3826,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2533,
+    "id": "ver_383",
     "intensidad": 8,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente omita una verdad importante para proteger su imagen? ¿Por qué?",
@@ -3836,7 +3836,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2534,
+    "id": "ver_384",
     "intensidad": 8,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente permita que otra persona cargue con una culpa ajena? ¿Por qué?",
@@ -3846,7 +3846,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2535,
+    "id": "ver_385",
     "intensidad": 8,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente cuente una versión manipulada de un conflicto? ¿Por qué?",
@@ -3856,7 +3856,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2536,
+    "id": "ver_386",
     "intensidad": 8,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente guarde una captura para usarla en una discusión futura? ¿Por qué?",
@@ -3866,7 +3866,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2537,
+    "id": "ver_387",
     "intensidad": 8,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente mienta para evitar una consecuencia que afectará a alguien más? ¿Por qué?",
@@ -3876,7 +3876,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2538,
+    "id": "ver_388",
     "intensidad": 8,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente confronte a alguien por un rumor sin comprobarlo? ¿Por qué?",
@@ -3886,7 +3886,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2539,
+    "id": "ver_389",
     "intensidad": 8,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente niegue algo evidente hasta que aparezcan pruebas? ¿Por qué?",
@@ -3896,7 +3896,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2540,
+    "id": "ver_390",
     "intensidad": 8,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente use información confidencial durante una pelea? ¿Por qué?",
@@ -3906,7 +3906,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2541,
+    "id": "ver_391",
     "intensidad": 8,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente oculte a un amigo una traición que le afecta? ¿Por qué?",
@@ -3916,7 +3916,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2542,
+    "id": "ver_392",
     "intensidad": 8,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente defienda a alguien en público y lo critique en privado? ¿Por qué?",
@@ -3926,7 +3926,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2543,
+    "id": "ver_393",
     "intensidad": 8,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente prometa guardar un secreto y termine contándolo? ¿Por qué?",
@@ -3936,7 +3936,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2544,
+    "id": "ver_394",
     "intensidad": 8,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente diga que perdonó algo y lo use después como argumento? ¿Por qué?",
@@ -3946,7 +3946,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2545,
+    "id": "ver_395",
     "intensidad": 8,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente mantenga contacto con alguien pese a saber que causa problemas? ¿Por qué?",
@@ -3956,7 +3956,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2546,
+    "id": "ver_396",
     "intensidad": 8,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente rompa un pacto que él mismo propuso? ¿Por qué?",
@@ -3966,7 +3966,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2547,
+    "id": "ver_397",
     "intensidad": 8,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente finja sorpresa ante un secreto que ya conoce? ¿Por qué?",
@@ -3976,7 +3976,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2548,
+    "id": "ver_398",
     "intensidad": 8,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente intente poner al grupo en contra de alguien? ¿Por qué?",
@@ -3986,7 +3986,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2549,
+    "id": "ver_399",
     "intensidad": 8,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente excluya deliberadamente a una persona de un plan? ¿Por qué?",
@@ -3996,7 +3996,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2550,
+    "id": "ver_400",
     "intensidad": 8,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente guarde silencio ante una situación injusta? ¿Por qué?",
@@ -4006,7 +4006,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2551,
+    "id": "ver_401",
     "intensidad": 9,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has traicionado la confianza de alguien y nunca lo he confesado?",
@@ -4016,7 +4016,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2552,
+    "id": "ver_402",
     "intensidad": 9,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has sido infiel emocional o físicamente?",
@@ -4026,7 +4026,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2553,
+    "id": "ver_403",
     "intensidad": 9,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has ayudado a ocultar una infidelidad?",
@@ -4036,7 +4036,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2554,
+    "id": "ver_404",
     "intensidad": 9,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has estado con alguien sabiendo que tenía una relación?",
@@ -4046,7 +4046,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2555,
+    "id": "ver_405",
     "intensidad": 9,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has mentido sobre una parte importante de mi pasado a una pareja?",
@@ -4056,7 +4056,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2556,
+    "id": "ver_406",
     "intensidad": 9,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has manipulado una ruptura para que la otra persona pareciera culpable?",
@@ -4066,7 +4066,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2557,
+    "id": "ver_407",
     "intensidad": 9,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has terminado una amistad por un rumor sin pedir explicaciones?",
@@ -4076,7 +4076,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2558,
+    "id": "ver_408",
     "intensidad": 9,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has usado a alguien como relación de rebote sabiendo que podía lastimarlo?",
@@ -4086,7 +4086,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2559,
+    "id": "ver_409",
     "intensidad": 9,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has dicho algo cruel con la intención de herir?",
@@ -4096,7 +4096,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2560,
+    "id": "ver_410",
     "intensidad": 9,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has revelado un secreto por venganza?",
@@ -4106,7 +4106,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2561,
+    "id": "ver_411",
     "intensidad": 9,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has guardado silencio mientras acusaban injustamente a un amigo?",
@@ -4116,7 +4116,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2562,
+    "id": "ver_412",
     "intensidad": 9,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has elegido popularidad o estatus por encima de una amistad?",
@@ -4126,7 +4126,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2563,
+    "id": "ver_413",
     "intensidad": 9,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has fingido apoyar a alguien mientras esperaba que fracasara?",
@@ -4136,7 +4136,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2564,
+    "id": "ver_414",
     "intensidad": 9,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has saboteado un plan por celos?",
@@ -4146,7 +4146,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2565,
+    "id": "ver_415",
     "intensidad": 9,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has usado el amor o la amistad como presión?",
@@ -4156,7 +4156,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2566,
+    "id": "ver_416",
     "intensidad": 9,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has amenazado con irme solo para controlar una discusión?",
@@ -4166,7 +4166,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2567,
+    "id": "ver_417",
     "intensidad": 9,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has hecho que alguien dudara de su propia versión para evitar mi responsabilidad?",
@@ -4176,7 +4176,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2568,
+    "id": "ver_418",
     "intensidad": 9,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has negado una disculpa que sabía que debía?",
@@ -4186,7 +4186,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2569,
+    "id": "ver_419",
     "intensidad": 9,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has juzgado duramente a alguien por algo que yo también hice?",
@@ -4196,7 +4196,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2570,
+    "id": "ver_420",
     "intensidad": 9,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has mantenido una mentira durante años?",
@@ -4206,7 +4206,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2571,
+    "id": "ver_421",
     "intensidad": 9,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez te has atribuido el mérito del trabajo de otra persona?",
@@ -4216,7 +4216,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2572,
+    "id": "ver_422",
     "intensidad": 9,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has dejado que un amigo tomara una decisión seria con información incompleta?",
@@ -4226,7 +4226,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2573,
+    "id": "ver_423",
     "intensidad": 9,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has contactado a una expareja para interferir en su nueva relación?",
@@ -4236,7 +4236,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2574,
+    "id": "ver_424",
     "intensidad": 9,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has ocultado una atracción que podía dividir al grupo?",
@@ -4246,7 +4246,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2575,
+    "id": "ver_425",
     "intensidad": 9,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has perdonado algo solo para conservar una ventaja?",
@@ -4256,7 +4256,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2576,
+    "id": "ver_426",
     "intensidad": 9,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has cortado el contacto para evitar asumir mi responsabilidad?",
@@ -4266,7 +4266,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2577,
+    "id": "ver_427",
     "intensidad": 9,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has vuelto a buscar a alguien únicamente porque necesitaba algo?",
@@ -4276,7 +4276,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2578,
+    "id": "ver_428",
     "intensidad": 9,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has culpado al alcohol por una decisión que tomé conscientemente?",
@@ -4286,7 +4286,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2579,
+    "id": "ver_429",
     "intensidad": 9,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has usado información privada para ganar una discusión?",
@@ -4296,7 +4296,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2580,
+    "id": "ver_430",
     "intensidad": 9,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez te has arrepentido de decir la verdad solo por las consecuencias?",
@@ -4306,7 +4306,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2581,
+    "id": "ver_431",
     "intensidad": 9,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente sea infiel en una relación? ¿Por qué?",
@@ -4316,7 +4316,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2582,
+    "id": "ver_432",
     "intensidad": 9,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente ayude a ocultar una infidelidad? ¿Por qué?",
@@ -4326,7 +4326,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2583,
+    "id": "ver_433",
     "intensidad": 9,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente salga con alguien sabiendo que tiene pareja? ¿Por qué?",
@@ -4336,7 +4336,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2584,
+    "id": "ver_434",
     "intensidad": 9,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente traicione a su mejor amigo por una relación? ¿Por qué?",
@@ -4346,7 +4346,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2585,
+    "id": "ver_435",
     "intensidad": 9,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente revele un secreto por venganza? ¿Por qué?",
@@ -4356,7 +4356,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2586,
+    "id": "ver_436",
     "intensidad": 9,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente sabotee un plan por celos? ¿Por qué?",
@@ -4366,7 +4366,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2587,
+    "id": "ver_437",
     "intensidad": 9,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente manipule una ruptura para parecer inocente? ¿Por qué?",
@@ -4376,7 +4376,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2588,
+    "id": "ver_438",
     "intensidad": 9,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente use a alguien como relación de rebote? ¿Por qué?",
@@ -4386,7 +4386,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2589,
+    "id": "ver_439",
     "intensidad": 9,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente mienta sobre una parte importante de su pasado? ¿Por qué?",
@@ -4396,7 +4396,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2590,
+    "id": "ver_440",
     "intensidad": 9,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente mantenga una mentira durante años? ¿Por qué?",
@@ -4406,7 +4406,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2591,
+    "id": "ver_441",
     "intensidad": 9,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente se atribuya el mérito del trabajo de otro? ¿Por qué?",
@@ -4416,7 +4416,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2592,
+    "id": "ver_442",
     "intensidad": 9,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente elija popularidad por encima de una amistad? ¿Por qué?",
@@ -4426,7 +4426,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2593,
+    "id": "ver_443",
     "intensidad": 9,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente abandone a un amigo durante una crisis? ¿Por qué?",
@@ -4436,7 +4436,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2594,
+    "id": "ver_444",
     "intensidad": 9,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente culpe al alcohol por una decisión consciente? ¿Por qué?",
@@ -4446,7 +4446,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2595,
+    "id": "ver_445",
     "intensidad": 9,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente vuelva a buscar a alguien solo porque necesita algo? ¿Por qué?",
@@ -4456,7 +4456,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2596,
+    "id": "ver_446",
     "intensidad": 9,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente desaparezca para no asumir responsabilidad? ¿Por qué?",
@@ -4466,7 +4466,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2597,
+    "id": "ver_447",
     "intensidad": 9,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente use una vulnerabilidad ajena para obtener ventaja? ¿Por qué?",
@@ -4476,7 +4476,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2598,
+    "id": "ver_448",
     "intensidad": 9,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente amenace con irse para controlar una discusión? ¿Por qué?",
@@ -4486,7 +4486,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2599,
+    "id": "ver_449",
     "intensidad": 9,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente haga que alguien dude de su propia versión? ¿Por qué?",
@@ -4496,7 +4496,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2600,
+    "id": "ver_450",
     "intensidad": 9,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente contacte a una expareja para interferir en su relación? ¿Por qué?",
@@ -4506,7 +4506,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2601,
+    "id": "ver_451",
     "intensidad": 10,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has confesado una infidelidad únicamente porque estaba a punto de ser descubierto?",
@@ -4516,7 +4516,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2602,
+    "id": "ver_452",
     "intensidad": 10,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has mantenido dos relaciones al mismo tiempo?",
@@ -4526,7 +4526,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2603,
+    "id": "ver_453",
     "intensidad": 10,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has mentido sobre mis intenciones para evitar que alguien se alejara?",
@@ -4536,7 +4536,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2604,
+    "id": "ver_454",
     "intensidad": 10,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has roto la confianza de mi mejor amigo por una relación?",
@@ -4546,7 +4546,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2605,
+    "id": "ver_455",
     "intensidad": 10,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has abandonado a alguien en un momento difícil por miedo a involucrarme?",
@@ -4556,7 +4556,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2606,
+    "id": "ver_456",
     "intensidad": 10,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has revelado un secreto íntimo para protegerme?",
@@ -4566,7 +4566,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2607,
+    "id": "ver_457",
     "intensidad": 10,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has fingido amor por miedo a quedarme solo?",
@@ -4576,7 +4576,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2608,
+    "id": "ver_458",
     "intensidad": 10,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has provocado una ruptura y he ocultado mi participación?",
@@ -4586,7 +4586,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2609,
+    "id": "ver_459",
     "intensidad": 10,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has tomado una decisión importante por venganza?",
@@ -4596,7 +4596,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2610,
+    "id": "ver_460",
     "intensidad": 10,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has manipulado a mis amigos para que eligieran un bando?",
@@ -4606,7 +4606,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2611,
+    "id": "ver_461",
     "intensidad": 10,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has destruido pruebas para evitar una consecuencia seria?",
@@ -4616,7 +4616,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2612,
+    "id": "ver_462",
     "intensidad": 10,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has aceptado el perdón de alguien sin contarle toda la verdad?",
@@ -4626,7 +4626,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2613,
+    "id": "ver_463",
     "intensidad": 10,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has prometido cambiar sabiendo que no estaba dispuesto a hacerlo?",
@@ -4636,7 +4636,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2614,
+    "id": "ver_464",
     "intensidad": 10,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has regresado a una relación solo para recuperar el control?",
@@ -4646,7 +4646,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2615,
+    "id": "ver_465",
     "intensidad": 10,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has aprovechado la vulnerabilidad de alguien para conseguir algo?",
@@ -4656,7 +4656,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2616,
+    "id": "ver_466",
     "intensidad": 10,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has negado públicamente una relación por vergüenza?",
@@ -4666,7 +4666,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2617,
+    "id": "ver_467",
     "intensidad": 10,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has mantenido a alguien como un secreto?",
@@ -4676,7 +4676,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2618,
+    "id": "ver_468",
     "intensidad": 10,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has culpado deliberadamente a una persona inocente?",
@@ -4686,7 +4686,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2619,
+    "id": "ver_469",
     "intensidad": 10,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has terminado una relación desapareciendo por completo?",
@@ -4696,7 +4696,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2620,
+    "id": "ver_470",
     "intensidad": 10,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has minimizado un límite que sabía que era importante para alguien?",
@@ -4706,7 +4706,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2621,
+    "id": "ver_471",
     "intensidad": 10,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has presionado a alguien para tomar una decisión que no quería?",
@@ -4716,7 +4716,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2622,
+    "id": "ver_472",
     "intensidad": 10,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has repetido conscientemente una conducta que ya había lastimado a alguien?",
@@ -4726,7 +4726,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2623,
+    "id": "ver_473",
     "intensidad": 10,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has permitido que alguien creyera una historia falsa durante años?",
@@ -4736,7 +4736,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2624,
+    "id": "ver_474",
     "intensidad": 10,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has elegido una mentira sabiendo que destruiría la confianza si se descubría?",
@@ -4746,7 +4746,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2625,
+    "id": "ver_475",
     "intensidad": 10,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has ocultado información que habría cambiado la decisión de otra persona?",
@@ -4756,7 +4756,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2626,
+    "id": "ver_476",
     "intensidad": 10,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has pedido perdón sin estar dispuesto a reparar el daño?",
@@ -4766,7 +4766,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2627,
+    "id": "ver_477",
     "intensidad": 10,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has querido confesar algo solo para aliviar mi propia culpa?",
@@ -4776,7 +4776,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2628,
+    "id": "ver_478",
     "intensidad": 10,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has perdido una relación importante por orgullo?",
@@ -4786,7 +4786,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2629,
+    "id": "ver_479",
     "intensidad": 10,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has preferido tener la razón antes que conservar a alguien?",
@@ -4796,7 +4796,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2630,
+    "id": "ver_480",
     "intensidad": 10,
     "tipo": "verdad",
     "texto": "[player] ¿Alguna vez has sabido que todavía le debo una verdad importante a una persona?",
@@ -4806,7 +4806,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2631,
+    "id": "ver_481",
     "intensidad": 10,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente mantenga dos relaciones paralelas? ¿Por qué?",
@@ -4816,7 +4816,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2632,
+    "id": "ver_482",
     "intensidad": 10,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente destruya una amistad de años por guardar un secreto? ¿Por qué?",
@@ -4826,7 +4826,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2633,
+    "id": "ver_483",
     "intensidad": 10,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente lleve una doble vida sin que el grupo lo sospeche? ¿Por qué?",
@@ -4836,7 +4836,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2634,
+    "id": "ver_484",
     "intensidad": 10,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente manipule a todo el grupo para proteger una mentira? ¿Por qué?",
@@ -4846,7 +4846,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2635,
+    "id": "ver_485",
     "intensidad": 10,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente revele información íntima para salvarse? ¿Por qué?",
@@ -4856,7 +4856,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2636,
+    "id": "ver_486",
     "intensidad": 10,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente provoque una ruptura y oculte su participación? ¿Por qué?",
@@ -4866,7 +4866,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2637,
+    "id": "ver_487",
     "intensidad": 10,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente culpe deliberadamente a una persona inocente? ¿Por qué?",
@@ -4876,7 +4876,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2638,
+    "id": "ver_488",
     "intensidad": 10,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente destruya pruebas para evitar una consecuencia grave? ¿Por qué?",
@@ -4886,7 +4886,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2639,
+    "id": "ver_489",
     "intensidad": 10,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente niegue una relación por vergüenza? ¿Por qué?",
@@ -4896,7 +4896,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2640,
+    "id": "ver_490",
     "intensidad": 10,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente mantenga a alguien como un secreto durante años? ¿Por qué?",
@@ -4906,7 +4906,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2641,
+    "id": "ver_491",
     "intensidad": 10,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente oculte una verdad que cambiaría una decisión importante? ¿Por qué?",
@@ -4916,7 +4916,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2642,
+    "id": "ver_492",
     "intensidad": 10,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente se aproveche de la vulnerabilidad de alguien? ¿Por qué?",
@@ -4926,7 +4926,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2643,
+    "id": "ver_493",
     "intensidad": 10,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente repita conscientemente algo que ya causó mucho daño? ¿Por qué?",
@@ -4936,7 +4936,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2644,
+    "id": "ver_494",
     "intensidad": 10,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente tome una decisión importante por venganza? ¿Por qué?",
@@ -4946,7 +4946,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2645,
+    "id": "ver_495",
     "intensidad": 10,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente permita que alguien crea una historia falsa durante años? ¿Por qué?",
@@ -4956,7 +4956,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2646,
+    "id": "ver_496",
     "intensidad": 10,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente confiese algo solo para aliviar su propia culpa? ¿Por qué?",
@@ -4966,7 +4966,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2647,
+    "id": "ver_497",
     "intensidad": 10,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente pida perdón sin intención de reparar el daño? ¿Por qué?",
@@ -4976,7 +4976,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2648,
+    "id": "ver_498",
     "intensidad": 10,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente pierda a la persona más cercana por orgullo? ¿Por qué?",
@@ -4986,7 +4986,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2649,
+    "id": "ver_499",
     "intensidad": 10,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente elija una mentira sabiendo que destruirá la confianza? ¿Por qué?",
@@ -4996,7 +4996,7 @@ export const verdadCards = [
     "participantes": "uno"
   },
   {
-    "id": 2650,
+    "id": "ver_500",
     "intensidad": 10,
     "tipo": "verdad",
     "texto": "[player] ¿Te consideras la persona del grupo que más probablemente abandone a alguien en el momento en que más lo necesita? ¿Por qué?",

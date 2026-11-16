@@ -10,7 +10,8 @@ import {
   getTargetIntensity,
   nextPreviaMixCard,
   recordGroupEventOutcome,
-  resolvePreviaMixCard
+  resolvePreviaMixCard,
+  canonicalCardId
 } from './previa-mix.engine.js';
 import {
   DEFAULT_CASTIGOS_NOTOMA,
@@ -504,11 +505,22 @@ export const previaMixAdapter = {
       return { session, changed: false };
     }
     const catalog = await ensurePreviaMixCatalog(safeLocale);
-    const byId = new Map(catalog.map((c) => [c.id, c]));
+    const byId = new Map();
+    for (const c of catalog) {
+      byId.set(String(c.id), c);
+      const canon = canonicalCardId(c);
+      if (canon !== c.id) {
+        byId.set(String(canon), c);
+      }
+    }
+    const findCard = (rawId) => {
+      if (!rawId) return null;
+      return byId.get(String(rawId)) || byId.get(String(canonicalCardId({ id: rawId }))) || null;
+    };
 
     let nextCurrentCard = session.currentCard;
     if (nextCurrentCard) {
-      const translated = byId.get(nextCurrentCard.id);
+      const translated = findCard(nextCurrentCard.id);
       const selected = nextCurrentCard.selectedPlayers || [];
       if (translated) {
         const fill = (tpl) =>
@@ -530,7 +542,7 @@ export const previaMixAdapter = {
     }
 
     const nextEvents = (session.events || []).map((ev) => {
-      const translated = byId.get(ev.id);
+      const translated = findCard(ev.id);
       if (!translated) return ev;
       return {
         ...ev,
