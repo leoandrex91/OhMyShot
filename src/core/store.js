@@ -40,11 +40,13 @@ const LOCAL_CULTURA_CHUPISTICA_CONFIG_KEY = 'oms_cultura_chupistica_config';
 
 function loadCulturaConfig(key, defaultTurns = 30) {
   const saved = loadJsonStorage(window.localStorage, key, null);
-  const timerMode = ['infinite', '4s', '6s', '8s'].includes(saved?.timerMode)
+  const timerMode = ['infinite', '5s', '10s', '15s', 'custom'].includes(saved?.timerMode)
     ? saved.timerMode
     : 'infinite';
+  const customTimerSeconds = Math.max(1, Math.min(60, Number(saved?.customTimerSeconds) || 20));
   return {
     timerMode,
+    customTimerSeconds,
     trackFails: saved?.trackFails !== false,
     targetTurns: Math.max(5, Math.min(900, Number(saved?.targetTurns) || defaultTurns))
   };
@@ -560,13 +562,17 @@ export const store = {
   updateCulturaChupisticaConfig(updater, { silent = false } = {}) {
     const patch = typeof updater === 'function' ? updater(state.culturaChupisticaConfig) : updater;
     const current = state.culturaChupisticaConfig || {};
-    const timerMode = ['infinite', '4s', '6s', '8s'].includes(patch?.timerMode)
+    const timerMode = ['infinite', '5s', '10s', '15s', 'custom'].includes(patch?.timerMode)
       ? patch.timerMode
       : current.timerMode || 'infinite';
+    const customTimerSeconds = patch?.customTimerSeconds !== undefined
+      ? Math.max(1, Math.min(60, Number(patch.customTimerSeconds) || 20))
+      : (current.customTimerSeconds || 20);
     const nextConfig = {
       ...current,
       ...(patch || {}),
       timerMode,
+      customTimerSeconds,
       trackFails: patch?.trackFails !== undefined ? Boolean(patch.trackFails) : current.trackFails !== false,
       targetTurns: Math.max(5, Math.min(900, Number(patch?.targetTurns ?? current.targetTurns) || 30))
     };

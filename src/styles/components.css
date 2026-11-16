@@ -9068,6 +9068,19 @@ body.is-card-swiping .bg-video-wrap {
   line-height: 1.25 !important;
 }
 
+.cultura-timer-pills .vor-order-pill.is-full-pill {
+  grid-column: 1 / -1 !important;
+}
+
+.cultura-custom-timer-box {
+  margin-top: 10px;
+  padding: 10px 12px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  border-radius: var(--oms-radius-card, 16px);
+  box-sizing: border-box;
+}
+
 /* ==========================================================================
    Cultura Chupística UI Components & Responsive Layouts
    ========================================================================== */

@@ -183,7 +183,12 @@ export class AppShell {
     const timerMode = session.config?.timerMode || 'infinite';
     if (timerMode === 'infinite') return;
 
-    const totalSeconds = parseInt(timerMode, 10) || 6;
+    let totalSeconds = 10;
+    if (timerMode === 'custom') {
+      totalSeconds = Math.max(1, Math.min(60, Number(session.config?.customTimerSeconds) || 20));
+    } else {
+      totalSeconds = parseInt(timerMode, 10) || 10;
+    }
     this.culturaTimeTotal = totalSeconds;
     this.culturaTimeRemaining = totalSeconds;
 
@@ -2005,23 +2010,68 @@ export class AppShell {
       `;
     } else if (isCultura) {
       const timerMode = culturaChupisticaConfig?.timerMode || 'infinite';
+      const customSeconds = Math.max(1, Math.min(60, Number(culturaChupisticaConfig?.customTimerSeconds) || 20));
       const trackFails = culturaChupisticaConfig?.trackFails !== false;
       const timerOptions = [
-        { id: 'infinite', label: t('culturaTimerInfinite', lang) || '♾️ Libre (Palmadas)' },
-        { id: '4s', label: t('culturaTimer4s', lang) || '4s (Descontrol)' },
-        { id: '6s', label: t('culturaTimer6s', lang) || '6s (Normal)' },
-        { id: '8s', label: t('culturaTimer8s', lang) || '8s (Tranqui)' }
+        { id: 'infinite', label: t('culturaTimerInfinite', lang) || '♾️ Infinito (Sin tiempo)' },
+        { id: '5s', label: t('culturaTimer5s', lang) || '5 seg' },
+        { id: '10s', label: t('culturaTimer10s', lang) || '10 seg' },
+        { id: '15s', label: t('culturaTimer15s', lang) || '15 seg' },
+        { id: 'custom', label: t('culturaTimerCustom', lang) || '⚙️ Personalizado' }
       ];
       const timerButtonsHtml = timerOptions
         .map((opt) => `
           <button
             type="button"
-            class="vor-order-pill ${timerMode === opt.id ? 'is-active' : ''}"
+            class="vor-order-pill ${timerMode === opt.id ? 'is-active' : ''} ${opt.id === 'infinite' ? 'is-full-pill' : ''}"
             data-action="cultura-set-timer-mode"
             data-timer="${opt.id}"
           >${escapeHtml(opt.label)}</button>
         `)
         .join('');
+
+      const customTimerBoxHtml = timerMode === 'custom' ? `
+        <div class="cultura-custom-timer-box">
+          <div class="settings-item-head" style="margin-bottom: 4px;">
+            <span class="settings-item-label">
+              <span>${escapeHtml(t('culturaCustomTimerLabel', lang))}</span>
+            </span>
+            <span class="settings-val-pill is-mint">${customSeconds}s</span>
+          </div>
+          <div class="oms-custom-number-box">
+            <button
+              type="button"
+              class="oms-number-stepper-btn"
+              data-action="cultura-adjust-custom-timer"
+              data-delta="-5"
+              aria-label="-5s"
+            >−5</button>
+            <div class="oms-number-input-wrap">
+              <input
+                id="cultura-custom-timer-input"
+                class="oms-custom-text-input"
+                type="text"
+                inputmode="numeric"
+                pattern="[0-9]*"
+                value="${customSeconds}"
+                placeholder="20"
+                maxlength="2"
+                aria-label="${escapeHtml(t('culturaCustomTimerLabel', lang))}"
+                autocomplete="off"
+              />
+              <span class="oms-number-unit">s</span>
+            </div>
+            <button
+              type="button"
+              class="oms-number-stepper-btn"
+              data-action="cultura-adjust-custom-timer"
+              data-delta="5"
+              aria-label="+5s"
+            >+5</button>
+          </div>
+          <p class="pm-inline-hint">${escapeHtml(t('culturaCustomTimerHint', lang))}</p>
+        </div>
+      ` : '';
 
       categoriesOrBonusHtml = `
         <div class="settings-item cultura-timer-item">
@@ -2034,6 +2084,7 @@ export class AppShell {
           <div class="vor-order-pills cultura-timer-pills">
             ${timerButtonsHtml}
           </div>
+          ${customTimerBoxHtml}
           <p class="pm-inline-hint">${escapeHtml(t('culturaTimerModeDesc', lang))}</p>
         </div>
 
@@ -3532,10 +3583,15 @@ export class AppShell {
       />
     `;
 
+    const totalDisplaySeconds =
+      vm.timerMode === 'custom'
+        ? (vm.customTimerSeconds || 20)
+        : (parseInt(vm.timerMode, 10) || 10);
+
     const timerPillHtml =
       vm.timerMode === 'infinite'
         ? `<div class="cultura-timer-pill is-infinite"><span>${escapeHtml(t('culturaInfiniteTimer', lang))}</span></div>`
-        : `<div class="cultura-timer-pill is-countdown"><span class="cultura-timer-clock">⏱️</span><span id="cultura-timer-display">${this.culturaTimeRemaining || parseInt(vm.timerMode, 10)}s</span></div>`;
+        : `<div class="cultura-timer-pill is-countdown"><span class="cultura-timer-clock">⏱️</span><span id="cultura-timer-display">${this.culturaTimeRemaining || totalDisplaySeconds}s</span></div>`;
 
     let failModalHtml = '';
     if (vm.roundState === 'fail_selection') {
@@ -4054,6 +4110,39 @@ export class AppShell {
         e.target.value = String(clamped);
         saveModeTargetTurns(clamped);
         syncCardsPill(clamped);
+      },
+      { signal }
+    );
+
+    const culturaCustomTimerInput = document.querySelector('#cultura-custom-timer-input');
+    const culturaCustomTimerPill = document.querySelector('.cultura-custom-timer-box .settings-val-pill');
+    culturaCustomTimerInput?.addEventListener(
+      'input',
+      (e) => {
+        const rawDigits = String(e.target.value || '').replace(/\D+/g, '');
+        if (e.target.value !== rawDigits) {
+          e.target.value = rawDigits;
+        }
+        if (!rawDigits) return;
+        const clamped = Math.max(1, Math.min(60, Number(rawDigits)));
+        store.updateCulturaChupisticaConfig({ customTimerSeconds: clamped }, { silent: true });
+        const s = store.getState().localGame?.session;
+        if (s && s.config) s.config.customTimerSeconds = clamped;
+        if (culturaCustomTimerPill) culturaCustomTimerPill.textContent = `${clamped}s`;
+      },
+      { signal }
+    );
+    culturaCustomTimerInput?.addEventListener(
+      'blur',
+      (e) => {
+        const rawDigits = String(e.target.value || '').replace(/\D+/g, '');
+        const parsed = rawDigits ? Number(rawDigits) : NaN;
+        const clamped = Number.isFinite(parsed) ? Math.max(1, Math.min(60, Math.round(parsed))) : 20;
+        e.target.value = String(clamped);
+        store.updateCulturaChupisticaConfig({ customTimerSeconds: clamped }, { silent: true });
+        const s = store.getState().localGame?.session;
+        if (s && s.config) s.config.customTimerSeconds = clamped;
+        if (culturaCustomTimerPill) culturaCustomTimerPill.textContent = `${clamped}s`;
       },
       { signal }
     );
@@ -4962,6 +5051,7 @@ export class AppShell {
       modeConfig = {
         locale: state.locale,
         timerMode: cfg.timerMode || 'infinite',
+        customTimerSeconds: cfg.customTimerSeconds || 20,
         trackFails: cfg.trackFails !== false,
         targetTurns: cfg.targetTurns || 30,
         minIntensity,
@@ -5471,7 +5561,30 @@ export class AppShell {
       const timer = el.dataset.timer || 'infinite';
       audioFx.tap();
       store.updateCulturaChupisticaConfig({ timerMode: timer });
+      const session = state.localGame?.session;
+      if (session && session.config) {
+        session.config.timerMode = timer;
+      }
       this.render();
+      return;
+    }
+
+    if (action === 'cultura-adjust-custom-timer') {
+      const delta = Number(el.dataset.delta) || 0;
+      audioFx.tap();
+      const current = Math.max(1, Math.min(60, Number(state.culturaChupisticaConfig?.customTimerSeconds) || 20));
+      let next = current + delta;
+      if (next < 1) next = 1;
+      if (next > 60) next = 60;
+      store.updateCulturaChupisticaConfig({ customTimerSeconds: next }, { silent: true });
+      const session = state.localGame?.session;
+      if (session && session.config) {
+        session.config.customTimerSeconds = next;
+      }
+      const inputEl = document.querySelector('#cultura-custom-timer-input');
+      if (inputEl) inputEl.value = String(next);
+      const pillEl = document.querySelector('.cultura-custom-timer-box .settings-val-pill');
+      if (pillEl) pillEl.textContent = `${next}s`;
       return;
     }
 

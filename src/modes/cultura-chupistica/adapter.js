@@ -43,14 +43,16 @@ async function getCulturaCatalog(locale = 'es-CO') {
 }
 
 function normalizeConfig(raw = {}) {
-  const timerMode = ['infinite', '4s', '6s', '8s'].includes(raw.timerMode)
+  const timerMode = ['infinite', '5s', '10s', '15s', 'custom'].includes(raw.timerMode)
     ? raw.timerMode
     : 'infinite';
+  const customTimerSeconds = Math.max(1, Math.min(60, Number(raw.customTimerSeconds) || 20));
 
   return {
     ...DEFAULT_CULTURA_CHUPISTICA_CONFIG,
     ...raw,
     timerMode,
+    customTimerSeconds,
     trackFails: raw.trackFails !== false,
     minIntensity: Math.max(1, Math.min(10, Number(raw.minIntensity) || 1)),
     maxIntensity: Math.max(1, Math.min(10, Number(raw.maxIntensity) || 10)),
@@ -204,6 +206,7 @@ export const culturaChupisticaAdapter = {
       targetTurns: session.targetTurns,
       direction: session.direction,
       timerMode: session.config.timerMode,
+      customTimerSeconds: session.config.customTimerSeconds || 20,
       trackFails: session.config.trackFails,
       roundState: session.roundState,
       lastFailedPlayer: session.lastFailedPlayer,
