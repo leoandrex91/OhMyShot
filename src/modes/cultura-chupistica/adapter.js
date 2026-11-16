@@ -139,6 +139,7 @@ export const culturaChupisticaAdapter = {
           categoria: 'cultura-chupistica',
           tema: c.tema || c.texto,
           intensidad: c.intensidad,
+          castigo: c.castigo,
           isCustom: true
         }));
         deck = [...shuffleArray(mappedCustom), ...deck];
@@ -236,8 +237,11 @@ export const culturaChupisticaAdapter = {
     }
     session.failsByPlayer[playerId] += 1;
 
-    // Generar castigo dinámico
-    const template = 'Si falla [castigo_toma{1-3} || castigo_notoma{x}]';
+    // Generar castigo dinámico (usando el castigo de la carta personalizada o la plantilla por defecto)
+    const currentCard = session.deck[session.currentCardIndex];
+    const template = (currentCard && currentCard.castigo)
+      ? currentCard.castigo
+      : 'Si falla [castigo_toma{1-3} || castigo_notoma{x}]';
     const penalty = resolveDynamicPenalty(
       template,
       Boolean(player.drinksAlcohol),

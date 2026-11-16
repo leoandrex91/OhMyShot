@@ -83,7 +83,7 @@ export class CreatorController {
       tipo: 'clásico',
       intensidad: 5,
       texto: '',
-      castigo: 'medio trago',
+      castigo: 'Quien pierda [castigo_toma{1-3} || castigo_notoma{x}].',
       participantes: 'uno',
       min_jugadores: 2,
       especial: false,

@@ -1914,6 +1914,7 @@ export class AppShell {
       targetCards = Number(verdadORetoConfig?.targetTurns) || 45;
     } else if (isCultura) {
       isBonusActive = false;
+      isCustomCardsActive = false;
       isCustomCardsActive = culturaChupisticaConfig?.customCardsEnabled !== false;
       targetCards = Number(culturaChupisticaConfig?.targetTurns) || 30;
     } else {
@@ -2250,57 +2251,57 @@ export class AppShell {
             </label>
 
             <div class="settings-item mode-cards-limit-item">
-              <div class="settings-item-head">
-                <span class="settings-item-label">
-                  ${renderUiIconHtml(UI_ICONS.deck, 'ui-icon-sm')}
-                  <span>${escapeHtml(t('pmMaxCardsLabel', lang))}</span>
-                </span>
-                <span class="settings-val-pill is-mint" id="mode-cards-val-pill">${targetCards} ${escapeHtml(
+  <div class="settings-item-head">
+    <span class="settings-item-label">
+      ${renderUiIconHtml(UI_ICONS.deck, 'ui-icon-sm')}
+      <span>${escapeHtml(t('pmMaxCardsLabel', lang))}</span>
+    </span>
+    <span class="settings-val-pill is-mint" id="mode-cards-val-pill">${targetCards} ${escapeHtml(
       t('cardsUnit', lang)
     )}</span>
-              </div>
-              <div class="oms-custom-number-box">
-                <button
-                  type="button"
-                  class="oms-number-stepper-btn"
-                  data-action="adjust-target-cards"
-                  data-delta="-5"
-                  aria-label="-5"
-                >−5</button>
-                <div class="oms-number-input-wrap">
-                  <input
-                    id="mode-target-cards-input"
-                    class="oms-custom-text-input"
-                    type="text"
-                    inputmode="numeric"
-                    pattern="[0-9]*"
-                    value="${targetCards}"
-                    placeholder="45"
-                    maxlength="3"
-                    aria-label="${escapeHtml(t('pmMaxCardsLabel', lang))}"
-                    autocomplete="off"
-                  />
-                  <span class="oms-number-unit">${escapeHtml(t('cardsUnit', lang))}</span>
-                </div>
-                <button
-                  type="button"
-                  class="oms-number-stepper-btn"
-                  data-action="adjust-target-cards"
-                  data-delta="5"
-                  aria-label="+5"
-                >+5</button>
-              </div>
-              <p class="pm-inline-hint">${escapeHtml(t('pmMaxCardsHint', lang))}</p>
-            </div>
-          </div>
+  </div>
+  <div class="oms-custom-number-box">
+    <button
+      type="button"
+      class="oms-number-stepper-btn"
+      data-action="adjust-target-cards"
+      data-delta="-5"
+      aria-label="-5"
+    >−5</button>
+    <div class="oms-number-input-wrap">
+      <input
+        id="mode-target-cards-input"
+        class="oms-custom-text-input"
+        type="text"
+        inputmode="numeric"
+        pattern="[0-9]*"
+        value="${targetCards}"
+        placeholder="45"
+        maxlength="3"
+        aria-label="${escapeHtml(t('pmMaxCardsLabel', lang))}"
+        autocomplete="off"
+      />
+      <span class="oms-number-unit">${escapeHtml(t('cardsUnit', lang))}</span>
+    </div>
+    <button
+      type="button"
+      class="oms-number-stepper-btn"
+      data-action="adjust-target-cards"
+      data-delta="5"
+      aria-label="+5"
+    >+5</button>
+  </div>
+  <p class="pm-inline-hint">${escapeHtml(t('pmMaxCardsHint', lang))}</p>
+</div>
+          </div >
 
-          <button class="btn btn-primary" data-action="close-mode-settings-modal" type="button">
-            ${renderUiIconHtml(UI_ICONS.checkMint, 'ui-icon-sm')}
-            <span>${escapeHtml(t('settingsDoneBtn', lang))}</span>
-          </button>
-        </div>
-      </div>
-    `;
+  <button class="btn btn-primary" data-action="close-mode-settings-modal" type="button">
+    ${renderUiIconHtml(UI_ICONS.checkMint, 'ui-icon-sm')}
+    <span>${escapeHtml(t('settingsDoneBtn', lang))}</span>
+  </button>
+        </div >
+      </div >
+  `;
   }
 
   #buildIntensityView(state) {
@@ -2333,17 +2334,17 @@ export class AppShell {
       .map((p) => {
         const isPresetActive = currentMin === p.min && currentMax === p.max;
         return `
-          <button
-            type="button"
-            class="intensity-preset-chip ${isPresetActive ? 'is-active' : ''}"
-            data-action="set-intensity-preset"
-            data-min="${p.min}"
-            data-max="${p.max}"
-            aria-pressed="${isPresetActive ? 'true' : 'false'}"
-          >
-            <span>${escapeHtml(p.label)}</span>
-          </button>
-        `;
+  < button
+type = "button"
+class="intensity-preset-chip ${isPresetActive ? 'is-active' : ''}"
+data - action="set-intensity-preset"
+data - min="${p.min}"
+data - max="${p.max}"
+aria - pressed="${isPresetActive ? 'true' : 'false'}"
+  >
+  <span>${escapeHtml(p.label)}</span>
+          </button >
+  `;
       })
       .join('');
 
@@ -2360,22 +2361,22 @@ export class AppShell {
       if (isSingle) pillClasses += ' is-single-value';
 
       return `
-        <button
-          type="button"
-          class="${pillClasses}"
-          data-action="select-intensity-pill"
-          data-level="${item.level}"
-          style="--pill-accent: ${item.accent};"
-          aria-pressed="${isInRange ? 'true' : 'false'}"
-          title="${escapeHtml(item.name[lang] || item.name.es)}"
-        >
-          <span class="intensity-pill-num">${item.level}</span>
-        </button>
-      `;
+  < button
+type = "button"
+class="${pillClasses}"
+data - action="select-intensity-pill"
+data - level="${item.level}"
+style = "--pill-accent: ${item.accent};"
+aria - pressed="${isInRange ? 'true' : 'false'}"
+title = "${escapeHtml(item.name[lang] || item.name.es)}"
+  >
+  <span class="intensity-pill-num">${item.level}</span>
+        </button >
+  `;
     }).join('');
 
     return `
-      <section class="intensity-stage">
+  < section class="intensity-stage" >
         <div
           class="instructions-hero-card ${isLightInk ? 'is-light-ink' : ''}"
           style="--card-surface-bg: ${escapeHtml(modeInfo.surfaceBg)}; --card-border: ${escapeHtml(
@@ -2502,8 +2503,8 @@ export class AppShell {
             </button>
           </div>
         </div>
-      </section>
-    `;
+      </section >
+  `;
   }
 
   #buildInstructionsView(state) {
@@ -2529,16 +2530,16 @@ export class AppShell {
     const stepsHtml = steps
       .map(
         (step, idx) => `
-          <li class="instruction-step">
+  < li class="instruction-step" >
             <span class="instruction-step-num">${idx + 1}</span>
             <span class="instruction-step-text">${escapeHtml(step)}</span>
-          </li>
-        `
+          </li >
+  `
       )
       .join('');
 
     return `
-      <section class="instructions-stage">
+  < section class="instructions-stage" >
         <div
           class="instructions-hero-card ${isLightInk ? 'is-light-ink' : ''}"
           style="--card-surface-bg: ${escapeHtml(modeInfo.surfaceBg)}; --card-border: ${escapeHtml(
@@ -2618,8 +2619,8 @@ export class AppShell {
             </button>
           </div>
         </div>
-      </section>
-    `;
+      </section >
+  `;
   }
 
   #buildExitConfirmModal(state) {
@@ -2632,34 +2633,34 @@ export class AppShell {
       .replace('{round}', String(round));
 
     return `
-      <div
-        id="exit-confirm-backdrop"
-        class="oms-modal-backdrop"
-        role="dialog"
-        aria-modal="true"
-        aria-labelledby="exit-modal-title"
-      >
-        <div class="oms-modal-card">
-          <div class="oms-modal-warn-badge" aria-hidden="true">
-            ${renderUiIconHtml(UI_ICONS.warning, 'ui-icon-lg')}
-          </div>
-          <h2 id="exit-modal-title" class="oms-modal-title">${escapeHtml(
+  < div
+id = "exit-confirm-backdrop"
+class="oms-modal-backdrop"
+role = "dialog"
+aria - modal="true"
+aria - labelledby="exit-modal-title"
+  >
+  <div class="oms-modal-card">
+    <div class="oms-modal-warn-badge" aria-hidden="true">
+      ${renderUiIconHtml(UI_ICONS.warning, 'ui-icon-lg')}
+    </div>
+    <h2 id="exit-modal-title" class="oms-modal-title">${escapeHtml(
       t('exitModalTitle', lang)
     )}</h2>
-          <p class="oms-modal-desc">${escapeHtml(desc)}</p>
-          <div class="oms-modal-actions">
-            <button class="btn btn-secondary" data-action="cancel-exit-game" type="button">
-              ${renderUiIconHtml(UI_ICONS.arrowLeft, 'ui-icon-sm')}
-              <span>${escapeHtml(t('exitModalStayBtn', lang))}</span>
-            </button>
-            <button class="btn btn-primary" data-action="confirm-exit-game" type="button">
-              ${renderUiIconHtml(UI_ICONS.home, 'ui-icon-sm')}
-              <span>${escapeHtml(t('exitModalConfirmBtn', lang))}</span>
-            </button>
-          </div>
-        </div>
-      </div>
-    `;
+    <p class="oms-modal-desc">${escapeHtml(desc)}</p>
+    <div class="oms-modal-actions">
+      <button class="btn btn-secondary" data-action="cancel-exit-game" type="button">
+        ${renderUiIconHtml(UI_ICONS.arrowLeft, 'ui-icon-sm')}
+        <span>${escapeHtml(t('exitModalStayBtn', lang))}</span>
+      </button>
+      <button class="btn btn-primary" data-action="confirm-exit-game" type="button">
+        ${renderUiIconHtml(UI_ICONS.home, 'ui-icon-sm')}
+        <span>${escapeHtml(t('exitModalConfirmBtn', lang))}</span>
+      </button>
+    </div>
+  </div>
+      </div >
+  `;
   }
 
   #buildCardAnswerModal(state) {
@@ -2667,48 +2668,48 @@ export class AppShell {
     const answer = this.cardAnswerModal?.answer || '';
 
     return `
-      <div
-        id="card-answer-backdrop"
-        class="oms-modal-backdrop card-answer-backdrop"
-        role="dialog"
-        aria-modal="true"
-        aria-labelledby="card-answer-title"
-      >
-        <div class="oms-modal-card card-answer-card">
-          <div class="card-answer-head">
-            <div class="card-answer-title-wrap">
-              <span class="card-answer-orb" aria-hidden="true">
-                <img src="./assets/icons/ui/icon2_19.webp" alt="" class="card-answer-orb-icon" />
-              </span>
-              <div class="card-answer-headings">
-                <span class="card-answer-badge-tag">${escapeHtml(t('cardAnswerBadge', lang))}</span>
-                <h2 id="card-answer-title" class="oms-modal-title card-answer-title">
-                  ${escapeHtml(t('cardAnswerTitle', lang))}
-                </h2>
-              </div>
-            </div>
-            <button
-              type="button"
-              class="modal-close-btn"
-              data-action="close-card-answer"
-              aria-label="${escapeHtml(t('creditsCloseBtn', lang))}"
-            >${renderUiIconHtml(UI_ICONS.closeX, 'ui-icon-sm')}</button>
-          </div>
-
-          <div class="card-answer-body">
-            <div class="card-answer-bubble">
-              <p class="card-answer-text">${escapeHtml(answer)}</p>
-            </div>
-          </div>
-
-          <div class="card-answer-actions">
-            <button class="btn btn-primary card-answer-dismiss-btn" data-action="close-card-answer" type="button">
-              <span>${escapeHtml(t('cardAnswerDismiss', lang))}</span>
-            </button>
-          </div>
+  < div
+id = "card-answer-backdrop"
+class="oms-modal-backdrop card-answer-backdrop"
+role = "dialog"
+aria - modal="true"
+aria - labelledby="card-answer-title"
+  >
+  <div class="oms-modal-card card-answer-card">
+    <div class="card-answer-head">
+      <div class="card-answer-title-wrap">
+        <span class="card-answer-orb" aria-hidden="true">
+          <img src="./assets/icons/ui/icon2_19.webp" alt="" class="card-answer-orb-icon" />
+        </span>
+        <div class="card-answer-headings">
+          <span class="card-answer-badge-tag">${escapeHtml(t('cardAnswerBadge', lang))}</span>
+          <h2 id="card-answer-title" class="oms-modal-title card-answer-title">
+            ${escapeHtml(t('cardAnswerTitle', lang))}
+          </h2>
         </div>
       </div>
-    `;
+      <button
+        type="button"
+        class="modal-close-btn"
+        data-action="close-card-answer"
+        aria-label="${escapeHtml(t('creditsCloseBtn', lang))}"
+      >${renderUiIconHtml(UI_ICONS.closeX, 'ui-icon-sm')}</button>
+    </div>
+
+    <div class="card-answer-body">
+      <div class="card-answer-bubble">
+        <p class="card-answer-text">${escapeHtml(answer)}</p>
+      </div>
+    </div>
+
+    <div class="card-answer-actions">
+      <button class="btn btn-primary card-answer-dismiss-btn" data-action="close-card-answer" type="button">
+        <span>${escapeHtml(t('cardAnswerDismiss', lang))}</span>
+      </button>
+    </div>
+  </div>
+      </div >
+  `;
   }
 
   #buildPromptHtml(vm) {
@@ -2721,283 +2722,285 @@ export class AppShell {
         if (cardResp) {
           return escapeHtml(rawText).replace(
             /\[\?\]/g,
-            `<button type="button" class="btn-card-answer" data-action="open-card-answer" data-answer="${escapeHtml(
-              cardResp
-            )}" aria-label="${escapeHtml(t('cardAnswerAria', lang))}" title="${escapeHtml(
-              t('cardAnswerAria', lang)
-            )}"><img src="./assets/icons/ui/icon2_19.webp" alt="" class="card-answer-icon" /></button>`
+            `< button type = "button" class="btn-card-answer" data - action="open-card-answer" data - answer="${escapeHtml(
+cardResp
+            )}" aria-label="${ escapeHtml(t('cardAnswerAria', lang)) } " title="${
+  escapeHtml(
+    t('cardAnswerAria', lang)
+  )
+} "><img src="./ assets / icons / ui / icon2_19.webp" alt="" class="card - answer - icon" /></button>`
           );
         }
-        return escapeHtml(rawText.replace(/\[\?\]/g, '').trim());
+return escapeHtml(rawText.replace(/\[\?\]/g, '').trim());
       }
-      return escapeHtml(rawText);
+return escapeHtml(rawText);
     }
-    return (vm.promptTokens || [])
-      .map((tok) => {
-        if (tok.kind === 'player') {
-          const slotClass =
-            tok.slot === 0 ? 'is-primary' : tok.slot === 1 ? 'is-secondary' : 'is-tertiary';
-          const soberIconHtml =
-            tok.player?.drinksAlcohol === false ? ` ${renderShotIconHtml(false, 'mini')}` : '';
-          return `<span class="prompt-player-chip ${slotClass}">${renderAvatarHtml(
-            tok.player.avatarEmoji,
-            'avatar-img avatar-chip-img',
-            ''
-          )}<span>${escapeHtml(tok.player.name)}</span>${soberIconHtml}</span>`;
-        }
-        if (tok.kind === 'group' || tok.kind === 'all') {
-          return `<span class="prompt-player-chip is-group"><span class="chip-group-icon" aria-hidden="true">👥</span><span>${escapeHtml(
-            tok.label || 'Todos'
-          )}</span></span>`;
-        }
-        if (tok.kind === 'question_resp') {
-          const resp = tok.resp || cardResp || '';
-          if (!resp) return '';
-          return `<button type="button" class="btn-card-answer" data-action="open-card-answer" data-answer="${escapeHtml(
-            resp
-          )}" aria-label="${escapeHtml(t('cardAnswerAria', lang))}" title="${escapeHtml(
-            t('cardAnswerAria', lang)
-          )}"><img src="./assets/icons/ui/icon2_19.webp" alt="" class="card-answer-icon" /></button>`;
-        }
-        return escapeHtml(tok.value);
-      })
-      .join('');
+return (vm.promptTokens || [])
+  .map((tok) => {
+    if (tok.kind === 'player') {
+      const slotClass =
+        tok.slot === 0 ? 'is-primary' : tok.slot === 1 ? 'is-secondary' : 'is-tertiary';
+      const soberIconHtml =
+        tok.player?.drinksAlcohol === false ? ` ${renderShotIconHtml(false, 'mini')}` : '';
+      return `<span class="prompt-player-chip ${slotClass}">${renderAvatarHtml(
+        tok.player.avatarEmoji,
+        'avatar-img avatar-chip-img',
+        ''
+      )}<span>${escapeHtml(tok.player.name)}</span>${soberIconHtml}</span>`;
+    }
+    if (tok.kind === 'group' || tok.kind === 'all') {
+      return `<span class="prompt-player-chip is-group"><span class="chip-group-icon" aria-hidden="true">👥</span><span>${escapeHtml(
+        tok.label || 'Todos'
+      )}</span></span>`;
+    }
+    if (tok.kind === 'question_resp') {
+      const resp = tok.resp || cardResp || '';
+      if (!resp) return '';
+      return `<button type="button" class="btn-card-answer" data-action="open-card-answer" data-answer="${escapeHtml(
+        resp
+      )}" aria-label="${escapeHtml(t('cardAnswerAria', lang))}" title="${escapeHtml(
+        t('cardAnswerAria', lang)
+      )}"><img src="./assets/icons/ui/icon2_19.webp" alt="" class="card-answer-icon" /></button>`;
+    }
+    return escapeHtml(tok.value);
+  })
+  .join('');
   }
 
-  #computePromptLengthTier(vm, hasDuoSpotlight = false) {
-    const renderedLength = (vm?.promptTokens || []).reduce((acc, tok) => {
-      if (tok.kind === 'player') {
-        return acc + (tok.player?.name?.length || 6) + 3;
-      }
-      if (tok.kind === 'group' || tok.kind === 'all') {
-        return acc + (tok.label?.length || 5) + 3;
-      }
-      if (tok.kind === 'question_resp') {
-        return acc + 6;
-      }
-      return acc + (tok.value?.length || 0);
-    }, 0);
-    const effectiveLength = renderedLength + (hasDuoSpotlight ? 22 : 0);
+#computePromptLengthTier(vm, hasDuoSpotlight = false) {
+  const renderedLength = (vm?.promptTokens || []).reduce((acc, tok) => {
+    if (tok.kind === 'player') {
+      return acc + (tok.player?.name?.length || 6) + 3;
+    }
+    if (tok.kind === 'group' || tok.kind === 'all') {
+      return acc + (tok.label?.length || 5) + 3;
+    }
+    if (tok.kind === 'question_resp') {
+      return acc + 6;
+    }
+    return acc + (tok.value?.length || 0);
+  }, 0);
+  const effectiveLength = renderedLength + (hasDuoSpotlight ? 22 : 0);
 
-    if (effectiveLength <= 105) return 'short';
-    if (effectiveLength <= 145) return 'medium';
-    if (effectiveLength <= 185) return 'long';
-    return 'xl';
-  }
+  if (effectiveLength <= 105) return 'short';
+  if (effectiveLength <= 145) return 'medium';
+  if (effectiveLength <= 185) return 'long';
+  return 'xl';
+}
 
-  #fitActiveCardPrompt(cardEl) {
-    if (!cardEl) return;
-    this.activeFitCardEl = cardEl;
+#fitActiveCardPrompt(cardEl) {
+  if (!cardEl) return;
+  this.activeFitCardEl = cardEl;
 
-    const TIER_MAX = {
-      short: 42,
-      medium: 36,
-      long: 32,
-      xl: 28,
+  const TIER_MAX = {
+    short: 42,
+    medium: 36,
+    long: 32,
+    xl: 28,
+  };
+
+  const nextFrame = () => new Promise((resolve) => requestAnimationFrame(() => resolve()));
+  const waitAssetsReady = () => {
+    const promises = [];
+    if (document.fonts && document.fonts.status !== 'loaded') {
+      promises.push(document.fonts.ready.catch(() => null));
+    }
+    cardEl.querySelectorAll('img').forEach((img) => {
+      if (!img.complete) {
+        promises.push(
+          new Promise((resolve) => {
+            img.addEventListener('load', resolve, { once: true });
+            img.addEventListener('error', resolve, { once: true });
+          })
+        );
+      }
+    });
+    if (!promises.length) return Promise.resolve();
+    return Promise.race([
+      Promise.all(promises),
+      new Promise((resolve) => setTimeout(resolve, 260)),
+    ]);
+  };
+
+  const fitPromptDirectly = (fitEl, promptEl) => {
+    const fitW = fitEl.clientWidth;
+    const fitH = fitEl.clientHeight;
+    const cardW = cardEl.clientWidth || fitW;
+    const cardH = cardEl.clientHeight || fitH;
+    const vw = window.innerWidth || cardW;
+    const vh = window.innerHeight || cardH;
+    if (fitW <= 0 || fitH <= 0) return null;
+
+    const fitCs = getComputedStyle(fitEl);
+    const innerW = Math.max(
+      60,
+      fitW - parseFloat(fitCs.paddingLeft || '0') - parseFloat(fitCs.paddingRight || '0')
+    );
+    const innerH = Math.max(
+      48,
+      fitH - parseFloat(fitCs.paddingTop || '0') - parseFloat(fitCs.paddingBottom || '0')
+    );
+
+    const textScale =
+      parseFloat(getComputedStyle(cardEl).getPropertyValue('--text-scale')) || 1.3;
+    const scaleFactor = Math.max(0.85, Math.min(1.25, textScale / 1.3));
+    const tier = promptEl.dataset.lenTier || 'medium';
+    const tierMax = TIER_MAX[tier] || 36;
+
+    const plainLen = Math.max(12, (promptEl.textContent || '').replace(/\s+/g, ' ').trim().length);
+    const chipCount = promptEl.querySelectorAll('.prompt-player-chip').length;
+    const effectiveChars = plainLen + chipCount * 5;
+
+    const minPx = 12;
+    const maxPx = Math.max(
+      minPx + 4,
+      Math.min(innerW * 0.135, innerH * 0.3, cardW * 0.12, vw * 0.09, vh * 0.052, tierMax * scaleFactor)
+    );
+    const estPx = Math.max(
+      minPx,
+      Math.min(maxPx, Math.sqrt((innerW * innerH * 0.72) / effectiveChars))
+    );
+
+    // Mide promptEl con margen horizontal (7%) y vertical (10%+4px) para absorber cambios de rasterizacion tras el fade.
+    const safeW = Math.max(48, Math.round(innerW * 0.93));
+    const safeH = Math.max(36, Math.round(innerH * 0.9) - 4);
+    const textFitsBox = (px) => {
+      promptEl.style.fontSize = `${px.toFixed(2)}px`;
+      promptEl.style.maxWidth = `${safeW}px`;
+      const rectH = promptEl.getBoundingClientRect().height;
+      const measuredH = Math.max(promptEl.scrollHeight, Math.ceil(rectH));
+      return measuredH <= safeH && promptEl.scrollWidth <= safeW + 2;
     };
 
-    const nextFrame = () => new Promise((resolve) => requestAnimationFrame(() => resolve()));
-    const waitAssetsReady = () => {
-      const promises = [];
-      if (document.fonts && document.fonts.status !== 'loaded') {
-        promises.push(document.fonts.ready.catch(() => null));
-      }
-      cardEl.querySelectorAll('img').forEach((img) => {
-        if (!img.complete) {
-          promises.push(
-            new Promise((resolve) => {
-              img.addEventListener('load', resolve, { once: true });
-              img.addEventListener('error', resolve, { once: true });
-            })
-          );
-        }
-      });
-      if (!promises.length) return Promise.resolve();
-      return Promise.race([
-        Promise.all(promises),
-        new Promise((resolve) => setTimeout(resolve, 260)),
-      ]);
-    };
+    let lo = minPx;
+    let hi = maxPx;
+    let best = estPx;
 
-    const fitPromptDirectly = (fitEl, promptEl) => {
-      const fitW = fitEl.clientWidth;
-      const fitH = fitEl.clientHeight;
-      const cardW = cardEl.clientWidth || fitW;
-      const cardH = cardEl.clientHeight || fitH;
-      const vw = window.innerWidth || cardW;
-      const vh = window.innerHeight || cardH;
-      if (fitW <= 0 || fitH <= 0) return null;
+    if (textFitsBox(estPx)) {
+      lo = estPx;
+      best = estPx;
+    } else {
+      hi = estPx;
+      best = minPx;
+    }
 
-      const fitCs = getComputedStyle(fitEl);
-      const innerW = Math.max(
-        60,
-        fitW - parseFloat(fitCs.paddingLeft || '0') - parseFloat(fitCs.paddingRight || '0')
-      );
-      const innerH = Math.max(
-        48,
-        fitH - parseFloat(fitCs.paddingTop || '0') - parseFloat(fitCs.paddingBottom || '0')
-      );
-
-      const textScale =
-        parseFloat(getComputedStyle(cardEl).getPropertyValue('--text-scale')) || 1.3;
-      const scaleFactor = Math.max(0.85, Math.min(1.25, textScale / 1.3));
-      const tier = promptEl.dataset.lenTier || 'medium';
-      const tierMax = TIER_MAX[tier] || 36;
-
-      const plainLen = Math.max(12, (promptEl.textContent || '').replace(/\s+/g, ' ').trim().length);
-      const chipCount = promptEl.querySelectorAll('.prompt-player-chip').length;
-      const effectiveChars = plainLen + chipCount * 5;
-
-      const minPx = 12;
-      const maxPx = Math.max(
-        minPx + 4,
-        Math.min(innerW * 0.135, innerH * 0.3, cardW * 0.12, vw * 0.09, vh * 0.052, tierMax * scaleFactor)
-      );
-      const estPx = Math.max(
-        minPx,
-        Math.min(maxPx, Math.sqrt((innerW * innerH * 0.72) / effectiveChars))
-      );
-
-      // Mide promptEl con margen horizontal (7%) y vertical (10%+4px) para absorber cambios de rasterizacion tras el fade.
-      const safeW = Math.max(48, Math.round(innerW * 0.93));
-      const safeH = Math.max(36, Math.round(innerH * 0.9) - 4);
-      const textFitsBox = (px) => {
-        promptEl.style.fontSize = `${px.toFixed(2)}px`;
-        promptEl.style.maxWidth = `${safeW}px`;
-        const rectH = promptEl.getBoundingClientRect().height;
-        const measuredH = Math.max(promptEl.scrollHeight, Math.ceil(rectH));
-        return measuredH <= safeH && promptEl.scrollWidth <= safeW + 2;
-      };
-
-      let lo = minPx;
-      let hi = maxPx;
-      let best = estPx;
-
-      if (textFitsBox(estPx)) {
-        lo = estPx;
-        best = estPx;
+    for (let step = 0; step < 9; step += 1) {
+      if (hi - lo < 0.35) break;
+      const mid = (lo + hi) / 2;
+      if (textFitsBox(mid)) {
+        best = mid;
+        lo = mid;
       } else {
-        hi = estPx;
-        best = minPx;
+        hi = mid;
       }
+    }
 
-      for (let step = 0; step < 9; step += 1) {
-        if (hi - lo < 0.35) break;
-        const mid = (lo + hi) / 2;
-        if (textFitsBox(mid)) {
-          best = mid;
-          lo = mid;
-        } else {
-          hi = mid;
-        }
-      }
-
+    promptEl.style.fontSize = `${best.toFixed(2)}px`;
+    let safety = 0;
+    while (!textFitsBox(best) && best > minPx && safety < 16) {
+      best = Math.max(minPx, best - 0.5);
       promptEl.style.fontSize = `${best.toFixed(2)}px`;
-      let safety = 0;
-      while (!textFitsBox(best) && best > minPx && safety < 16) {
-        best = Math.max(minPx, best - 0.5);
-        promptEl.style.fontSize = `${best.toFixed(2)}px`;
-        safety += 1;
+      safety += 1;
+    }
+    promptEl.style.maxWidth = '';
+
+    promptEl.dataset.fitScale = (best / Math.max(1, estPx)).toFixed(2);
+    return { best, fitW: Math.round(fitW), fitH: Math.round(fitH) };
+  };
+
+  let revealed = false;
+  let settledW = 0;
+  let settledH = 0;
+  const fitToken = (this.fitRunToken || 0) + 1;
+  this.fitRunToken = fitToken;
+  const isStale = () =>
+    !cardEl.isConnected || this.activeFitCardEl !== cardEl || this.fitRunToken !== fitToken;
+
+  const runInitialFit = async () => {
+    try {
+      const preFitEl =
+        cardEl.querySelector('.card-prompt-fit') || cardEl.querySelector('.card-body-fit');
+      const prePromptEl = cardEl.querySelector('.card-prompt-text');
+      if (preFitEl && prePromptEl && preFitEl.clientHeight > 0 && preFitEl.clientWidth > 0) {
+        fitPromptDirectly(preFitEl, prePromptEl);
       }
-      promptEl.style.maxWidth = '';
 
-      promptEl.dataset.fitScale = (best / Math.max(1, estPx)).toFixed(2);
-      return { best, fitW: Math.round(fitW), fitH: Math.round(fitH) };
-    };
+      await nextFrame();
+      if (isStale()) return;
 
-    let revealed = false;
-    let settledW = 0;
-    let settledH = 0;
-    const fitToken = (this.fitRunToken || 0) + 1;
-    this.fitRunToken = fitToken;
-    const isStale = () =>
-      !cardEl.isConnected || this.activeFitCardEl !== cardEl || this.fitRunToken !== fitToken;
+      await waitAssetsReady();
+      if (isStale()) return;
 
-    const runInitialFit = async () => {
-      try {
-        const preFitEl =
-          cardEl.querySelector('.card-prompt-fit') || cardEl.querySelector('.card-body-fit');
-        const prePromptEl = cardEl.querySelector('.card-prompt-text');
-        if (preFitEl && prePromptEl && preFitEl.clientHeight > 0 && preFitEl.clientWidth > 0) {
-          fitPromptDirectly(preFitEl, prePromptEl);
-        }
+      let fitEl = cardEl.querySelector('.card-prompt-fit') || cardEl.querySelector('.card-body-fit');
+      let promptEl = cardEl.querySelector('.card-prompt-text');
+      if (!fitEl || !promptEl) return;
 
+      if (fitEl.clientHeight <= 0 || fitEl.clientWidth <= 0) {
         await nextFrame();
         if (isStale()) return;
-
-        await waitAssetsReady();
-        if (isStale()) return;
-
-        let fitEl = cardEl.querySelector('.card-prompt-fit') || cardEl.querySelector('.card-body-fit');
-        let promptEl = cardEl.querySelector('.card-prompt-text');
+        fitEl = cardEl.querySelector('.card-prompt-fit') || cardEl.querySelector('.card-body-fit');
+        promptEl = cardEl.querySelector('.card-prompt-text');
         if (!fitEl || !promptEl) return;
-
-        if (fitEl.clientHeight <= 0 || fitEl.clientWidth <= 0) {
-          await nextFrame();
-          if (isStale()) return;
-          fitEl = cardEl.querySelector('.card-prompt-fit') || cardEl.querySelector('.card-body-fit');
-          promptEl = cardEl.querySelector('.card-prompt-text');
-          if (!fitEl || !promptEl) return;
-        }
-
-        const res = fitPromptDirectly(fitEl, promptEl);
-        if (res) {
-          settledW = res.fitW;
-          settledH = res.fitH;
-        }
-      } finally {
-        if (!isStale()) {
-          revealed = true;
-          cardEl.querySelector('.card-prompt-text')?.classList.add('is-prompt-ready');
-          const curFit =
-            cardEl.querySelector('.card-prompt-fit') || cardEl.querySelector('.card-body-fit');
-          const curPrompt = cardEl.querySelector('.card-prompt-text');
-          if (
-            curFit &&
-            curPrompt &&
-            (Math.abs(Math.round(curFit.clientWidth) - settledW) > 2 ||
-              Math.abs(Math.round(curFit.clientHeight) - settledH) > 2)
-          ) {
-            const res = fitPromptDirectly(curFit, curPrompt);
-            if (res) {
-              settledW = res.fitW;
-              settledH = res.fitH;
-            }
-          }
-        }
       }
-    };
 
-    void runInitialFit();
-
-    const fitTarget = cardEl.querySelector('.card-prompt-fit') || cardEl;
-    if (typeof ResizeObserver === 'function' && this.observedFitCardEl !== cardEl) {
-      this.cardResizeObserver?.disconnect();
-      this.observedFitCardEl = cardEl;
-      this.cardResizeObserver = new ResizeObserver(() => {
-        if (!revealed || !cardEl.isConnected || this.activeFitCardEl !== cardEl) return;
-        const fitEl = cardEl.querySelector('.card-prompt-fit') || cardEl.querySelector('.card-body-fit');
-        const promptEl = cardEl.querySelector('.card-prompt-text');
-        if (!fitEl || !promptEl) return;
-        const w = Math.round(fitEl.clientWidth);
-        const h = Math.round(fitEl.clientHeight);
-        if (Math.abs(w - settledW) > 3 || Math.abs(h - settledH) > 3) {
-          const res = fitPromptDirectly(fitEl, promptEl);
+      const res = fitPromptDirectly(fitEl, promptEl);
+      if (res) {
+        settledW = res.fitW;
+        settledH = res.fitH;
+      }
+    } finally {
+      if (!isStale()) {
+        revealed = true;
+        cardEl.querySelector('.card-prompt-text')?.classList.add('is-prompt-ready');
+        const curFit =
+          cardEl.querySelector('.card-prompt-fit') || cardEl.querySelector('.card-body-fit');
+        const curPrompt = cardEl.querySelector('.card-prompt-text');
+        if (
+          curFit &&
+          curPrompt &&
+          (Math.abs(Math.round(curFit.clientWidth) - settledW) > 2 ||
+            Math.abs(Math.round(curFit.clientHeight) - settledH) > 2)
+        ) {
+          const res = fitPromptDirectly(curFit, curPrompt);
           if (res) {
             settledW = res.fitW;
             settledH = res.fitH;
           }
         }
-      });
-      this.cardResizeObserver.observe(fitTarget);
+      }
     }
+  };
+
+  void runInitialFit();
+
+  const fitTarget = cardEl.querySelector('.card-prompt-fit') || cardEl;
+  if (typeof ResizeObserver === 'function' && this.observedFitCardEl !== cardEl) {
+    this.cardResizeObserver?.disconnect();
+    this.observedFitCardEl = cardEl;
+    this.cardResizeObserver = new ResizeObserver(() => {
+      if (!revealed || !cardEl.isConnected || this.activeFitCardEl !== cardEl) return;
+      const fitEl = cardEl.querySelector('.card-prompt-fit') || cardEl.querySelector('.card-body-fit');
+      const promptEl = cardEl.querySelector('.card-prompt-text');
+      if (!fitEl || !promptEl) return;
+      const w = Math.round(fitEl.clientWidth);
+      const h = Math.round(fitEl.clientHeight);
+      if (Math.abs(w - settledW) > 3 || Math.abs(h - settledH) > 3) {
+        const res = fitPromptDirectly(fitEl, promptEl);
+        if (res) {
+          settledW = res.fitW;
+          settledH = res.fitH;
+        }
+      }
+    });
+    this.cardResizeObserver.observe(fitTarget);
   }
+}
 
-  #buildSpecialHoloMarkup(fxMode) {
-    let svgInner = '';
+#buildSpecialHoloMarkup(fxMode) {
+  let svgInner = '';
 
-    if (fxMode === 'hot') {
-      svgInner = `
+  if (fxMode === 'hot') {
+    svgInner = `
         <svg class="card-holo-emblem-svg" viewBox="0 0 220 220" fill="none">
           <defs>
             <linearGradient id="holo-bevel-hot" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -3012,8 +3015,8 @@ export class AppShell {
           <path d="M174 44L177 52L185 55L177 58L174 66L171 58L163 55L171 52Z" fill="#FFFFFF" fill-opacity="0.68" />
         </svg>
       `;
-    } else if (fxMode === 'duel') {
-      svgInner = `
+  } else if (fxMode === 'duel') {
+    svgInner = `
         <svg class="card-holo-emblem-svg" viewBox="0 0 220 220" fill="none">
           <defs>
             <linearGradient id="holo-bevel-duel" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -3028,8 +3031,8 @@ export class AppShell {
           <line x1="20" y1="186" x2="200" y2="34" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="2" stroke-dasharray="10 8" />
         </svg>
       `;
-    } else if (fxMode === 'event') {
-      svgInner = `
+  } else if (fxMode === 'event') {
+    svgInner = `
         <svg class="card-holo-emblem-svg" viewBox="0 0 220 220" fill="none">
           <defs>
             <linearGradient id="holo-bevel-event" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -3044,8 +3047,8 @@ export class AppShell {
           <path d="M46 148L51 161L64 166L51 171L46 184L41 171L28 166L41 161Z" fill="#FFFFFF" fill-opacity="0.65" />
         </svg>
       `;
-    } else {
-      svgInner = `
+  } else {
+    svgInner = `
         <svg class="card-holo-emblem-svg" viewBox="0 0 220 220" fill="none">
           <defs>
             <linearGradient id="holo-bevel-star" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -3060,21 +3063,21 @@ export class AppShell {
           <path d="M178 148L182 158L192 162L182 166L178 176L174 166L164 162L174 158Z" fill="#FFFFFF" fill-opacity="0.64" />
         </svg>
       `;
-    }
+  }
 
-    return `
+  return `
       <span class="card-holo-foil" aria-hidden="true"></span>
       <span class="card-holo-emblem" aria-hidden="true">${svgInner}</span>
     `;
-  }
+}
 
-  #buildPlayView(state) {
-    const { lang, localPlayers, localGame, activeGameModeId } = state;
-    const adapter = getModeAdapter(activeGameModeId);
-    const vm = adapter?.buildTurnViewModel?.(localGame?.session, localPlayers);
+#buildPlayView(state) {
+  const { lang, localPlayers, localGame, activeGameModeId } = state;
+  const adapter = getModeAdapter(activeGameModeId);
+  const vm = adapter?.buildTurnViewModel?.(localGame?.session, localPlayers);
 
-    if (!vm) {
-      return `
+  if (!vm) {
+    return `
         <section class="play-stage">
           <div class="glass-panel active-event-panel">
             <p class="active-event-rule">${escapeHtml(t('catalogLoadErrorToast', lang))}</p>
@@ -3084,27 +3087,27 @@ export class AppShell {
           </div>
         </section>
       `;
-    }
+  }
 
-    if (activeGameModeId === 'cultura-chupistica') {
-      return this.#buildCulturaChupisticaView(state, vm);
-    }
+  if (activeGameModeId === 'cultura-chupistica') {
+    return this.#buildCulturaChupisticaView(state, vm);
+  }
 
-    if (localGame?.finished) {
-      const modeInfo = getModeDefinition(activeGameModeId) || LOCAL_GAME_MODES[0];
-      const modeName = pickLocalizedText(modeInfo, 'title', lang);
-      const totalPlayed = vm.targetTurns || vm.turnNumber || 45;
-      return `
+  if (localGame?.finished) {
+    const modeInfo = getModeDefinition(activeGameModeId) || LOCAL_GAME_MODES[0];
+    const modeName = pickLocalizedText(modeInfo, 'title', lang);
+    const totalPlayed = vm.targetTurns || vm.turnNumber || 45;
+    return `
         <section class="play-stage">
           <div class="glass-panel active-event-panel" style="max-width: 440px; margin: auto; text-align: center; padding: 28px 22px; gap: 16px;">
             <span class="mode-pill">${modeInfo?.iconImg
-          ? renderUiIconHtml(modeInfo.iconImg, 'ui-icon-xs')
-          : escapeHtml(modeInfo?.icon || '🎉')
-        } ${escapeHtml(modeName)}</span>
+        ? renderUiIconHtml(modeInfo.iconImg, 'ui-icon-xs')
+        : escapeHtml(modeInfo?.icon || '🎉')
+      } ${escapeHtml(modeName)}</span>
             <h2 style="margin: 0; font-size: 1.55rem;">${escapeHtml(t('gameFinishedTitle', lang))}</h2>
             <p class="active-event-rule" style="margin: 0;">${escapeHtml(
-          t('gameFinishedDesc', lang).replace('{max}', totalPlayed)
-        )}</p>
+        t('gameFinishedDesc', lang).replace('{max}', totalPlayed)
+      )}</p>
             <span class="count-pill" style="align-self: center;">${escapeHtml(t('roundLabel', lang))} ${totalPlayed}/${totalPlayed}</span>
             <div style="display: flex; flex-direction: column; gap: 10px; width: 100%; margin-top: 8px;">
               <button class="btn btn-primary" data-action="confirm-start-mode" type="button">
@@ -3117,45 +3120,45 @@ export class AppShell {
           </div>
         </section>
       `;
-    }
+  }
 
-    if (vm.isVorChoice) {
-      return this.#buildVorChoiceView(state, vm);
-    }
+  if (vm.isVorChoice) {
+    return this.#buildVorChoiceView(state, vm);
+  }
 
-    const modeInfo = getModeDefinition(activeGameModeId) || LOCAL_GAME_MODES[0];
-    const modeName = pickLocalizedText(modeInfo, 'title', lang);
-    const card = vm.card;
-    const accent = vm.typeMeta?.color || DESIGN_TOKENS.shotPink;
-    const cardBg = vm.typeMeta?.cardGradient || 'var(--oms-gradient-party)';
-    const cardInk = vm.typeMeta?.onCardColor || 'var(--oms-text-on-vibrant)';
-    const isLightInk = cardInk === 'var(--oms-white)';
-    const specialFxMeta = SPECIAL_CARD_FX[vm.fxMode] || null;
-    const specialClass = specialFxMeta ? `is-special-card fx-${vm.fxMode}` : '';
-    const specialHoloHtml = specialFxMeta ? this.#buildSpecialHoloMarkup(vm.fxMode) : '';
-    const cardDecorHtml = vm.typeMeta?.iconImg
-      ? renderUiIconHtml(vm.typeMeta.iconImg, 'ui-icon-card')
-      : escapeHtml(modeInfo.icon || '🎉');
+  const modeInfo = getModeDefinition(activeGameModeId) || LOCAL_GAME_MODES[0];
+  const modeName = pickLocalizedText(modeInfo, 'title', lang);
+  const card = vm.card;
+  const accent = vm.typeMeta?.color || DESIGN_TOKENS.shotPink;
+  const cardBg = vm.typeMeta?.cardGradient || 'var(--oms-gradient-party)';
+  const cardInk = vm.typeMeta?.onCardColor || 'var(--oms-text-on-vibrant)';
+  const isLightInk = cardInk === 'var(--oms-white)';
+  const specialFxMeta = SPECIAL_CARD_FX[vm.fxMode] || null;
+  const specialClass = specialFxMeta ? `is-special-card fx-${vm.fxMode}` : '';
+  const specialHoloHtml = specialFxMeta ? this.#buildSpecialHoloMarkup(vm.fxMode) : '';
+  const cardDecorHtml = vm.typeMeta?.iconImg
+    ? renderUiIconHtml(vm.typeMeta.iconImg, 'ui-icon-card')
+    : escapeHtml(modeInfo.icon || '🎉');
 
-    const isGroupCard = card.participantes === 'grupo';
-    const primaryPlayer = vm.selectedPlayers[0] || null;
-    const secondaryPlayer = vm.selectedPlayers[1] || null;
-    const tertiaryPlayer = vm.selectedPlayers[2] || null;
+  const isGroupCard = card.participantes === 'grupo';
+  const primaryPlayer = vm.selectedPlayers[0] || null;
+  const secondaryPlayer = vm.selectedPlayers[1] || null;
+  const tertiaryPlayer = vm.selectedPlayers[2] || null;
 
-    const isDuelCard = card.tipo === 'duelo' || card.categoryKey === 'versus' || card.tipo === 'versus';
-    const isHotCard = card.tipo === 'hot';
+  const isDuelCard = card.tipo === 'duelo' || card.categoryKey === 'versus' || card.tipo === 'versus';
+  const isHotCard = card.tipo === 'hot';
 
-    let vsTagHtml = '';
-    if (isDuelCard) {
-      vsTagHtml = `<span class="duo-vs-tag duo-vs-icon-tag">${renderUiIconHtml(UI_ICONS.vs, 'ui-icon-duo-vs')}</span>`;
-    } else if (isHotCard) {
-      vsTagHtml = `<span class="duo-vs-tag duo-hot-icon-tag">${renderUiIconHtml(UI_ICONS.flame, 'ui-icon-duo-hot')}</span>`;
-    }
+  let vsTagHtml = '';
+  if (isDuelCard) {
+    vsTagHtml = `<span class="duo-vs-tag duo-vs-icon-tag">${renderUiIconHtml(UI_ICONS.vs, 'ui-icon-duo-vs')}</span>`;
+  } else if (isHotCard) {
+    vsTagHtml = `<span class="duo-vs-tag duo-hot-icon-tag">${renderUiIconHtml(UI_ICONS.flame, 'ui-icon-duo-hot')}</span>`;
+  }
 
-    const duoSpotlightHtml =
-      !isGroupCard && primaryPlayer && secondaryPlayer
-        ? tertiaryPlayer
-          ? `
+  const duoSpotlightHtml =
+    !isGroupCard && primaryPlayer && secondaryPlayer
+      ? tertiaryPlayer
+        ? `
             <div class="card-duo-spotlight card-trio-spotlight">
               <span class="duo-player-tag">
                 ${renderAvatarHtml(primaryPlayer.avatarEmoji, 'avatar-img avatar-mini-img', '')}
@@ -3174,7 +3177,7 @@ export class AppShell {
               </span>
             </div>
           `
-          : `
+        : `
             <div class="card-duo-spotlight">
               <span class="duo-player-tag">
                 ${renderAvatarHtml(primaryPlayer.avatarEmoji, 'avatar-img avatar-mini-img', '')}
@@ -3189,85 +3192,85 @@ export class AppShell {
               </span>
             </div>
           `
-        : '';
+      : '';
 
-    let cardPlayerLeftHtml = '';
-    if (isGroupCard) {
-      cardPlayerLeftHtml = `
+  let cardPlayerLeftHtml = '';
+  if (isGroupCard) {
+    cardPlayerLeftHtml = `
         <span class="card-player-pill">
           ${renderUiIconHtml(UI_ICONS.playersGroup, 'ui-icon-xs')}
           <span>${escapeHtml(t('groupTag', lang))}</span>
         </span>
       `;
-    } else if (primaryPlayer) {
-      cardPlayerLeftHtml = `
+  } else if (primaryPlayer) {
+    cardPlayerLeftHtml = `
         <span class="card-player-pill">
           ${renderAvatarHtml(primaryPlayer.avatarEmoji, 'avatar-img avatar-mini-img', '')}
           <span>${escapeHtml(primaryPlayer.name)}</span>
           ${primaryPlayer.drinksAlcohol === false ? renderShotIconHtml(false, 'mini') : ''}
         </span>
       `;
-    } else {
-      cardPlayerLeftHtml = `<span class="card-player-pill"><span>${escapeHtml(modeName)}</span></span>`;
-    }
+  } else {
+    cardPlayerLeftHtml = `<span class="card-player-pill"><span>${escapeHtml(modeName)}</span></span>`;
+  }
 
-    const promptLengthTier = this.#computePromptLengthTier(vm, Boolean(duoSpotlightHtml));
-    const isLongPrompt = promptLengthTier === 'long' || promptLengthTier === 'xl';
+  const promptLengthTier = this.#computePromptLengthTier(vm, Boolean(duoSpotlightHtml));
+  const isLongPrompt = promptLengthTier === 'long' || promptLengthTier === 'xl';
 
-    const swipeHintText = vm.isEventActivation
-      ? t('swipeHintEventActivation', lang)
-      : t('swipeHintNormal', lang);
+  const swipeHintText = vm.isEventActivation
+    ? t('swipeHintEventActivation', lang)
+    : t('swipeHintNormal', lang);
 
-    const activeEventsHudHtml = vm.activeEvents?.length
-      ? `
+  const activeEventsHudHtml = vm.activeEvents?.length
+    ? `
         <div class="active-events-hud-row" aria-live="polite">
           ${vm.activeEvents
-        .map((ev) => {
-          const remaining = Math.max(1, Number(ev.turnsRemaining) || 1);
-          const turnsText =
-            remaining === 1
-              ? `1 ${t('turnsRemainingSingular', lang)}`
-              : `${remaining} ${t('turnsRemainingPlural', lang)}`;
-          return `
+      .map((ev) => {
+        const remaining = Math.max(1, Number(ev.turnsRemaining) || 1);
+        const turnsText =
+          remaining === 1
+            ? `1 ${t('turnsRemainingSingular', lang)}`
+            : `${remaining} ${t('turnsRemainingPlural', lang)}`;
+        return `
                 <span class="active-event-hud-badge">
                   <span class="active-event-hud-dot" aria-hidden="true">⚡</span>
                   <span class="active-event-hud-rule">${escapeHtml(ev.rule || '')}</span>
                   <span class="active-event-hud-turns">${escapeHtml(turnsText)}</span>
                 </span>
               `;
-        })
-        .join('')}
+      })
+      .join('')}
         </div>
       `
-      : '';
+    : '';
 
-    const animKey = `${vm.turnNumber || 0}-${card.id || ''}`;
-    const diceState = this.diceRolledForCardKey[animKey] || null;
+  const animKey = `${vm.turnNumber || 0}-${card.id || ''}`;
+  const diceState = this.diceRolledForCardKey[animKey] || null;
 
-    let diceWidgetHtml = '';
-    if (vm.isDiceCard) {
-      const activeFace = this.diceRolling ? this.diceCurrentFace : (diceState?.value || 1);
-      const faceSrc = `./assets/icons/dice/dice_${activeFace}.svg`;
+  let diceWidgetHtml = '';
+  if (vm.isDiceCard) {
+    const activeFace = this.diceRolling ? this.diceCurrentFace : (diceState?.value || 1);
+    const faceSrc = `./assets/icons/dice/dice_${activeFace}.svg`;
 
-      let actionHtml = '';
-      if (!diceState && !this.diceRolling) {
-        actionHtml = `<button type="button" class="oms-btn dice-roll-btn" id="roll-dice-btn">🎲 Lanzar dado</button>`;
-      } else if (this.diceRolling) {
-        actionHtml = `<div class="dice-rolling-label">¡Tirando el dado... 🎲!</div>`;
-      } else if (diceState) {
-        const threshold = vm.diceConfig?.threshold ?? 3;
-        const isSafe = diceState.value > threshold;
-        const targetPass = threshold + 1;
-        actionHtml = `
+    let actionHtml = '';
+    if (!diceState && !this.diceRolling) {
+      actionHtml = `<button type="button" class="oms-btn dice-roll-btn" id="roll-dice-btn">🎲 Lanzar dado</button>`;
+    } else if (this.diceRolling) {
+      actionHtml = `<div class="dice-rolling-label">¡Tirando el dado... 🎲!</div>`;
+    } else if (diceState) {
+      const threshold = vm.diceConfig?.threshold ?? 3;
+      const isSafe = diceState.value > threshold;
+      const targetPass = threshold + 1;
+      actionHtml = `
           <div class="dice-verdict-badge ${isSafe ? 'is-safe' : 'is-penalty'}">
             ${isSafe
-            ? `🎲 Sacaste ${diceState.value} (${targetPass} o más) · ¡Te salvaste! 🎉`
-            : `🎲 Sacaste ${diceState.value} (${threshold} o menos) · ¡A cumplir penitencia o beber! 🍻`}
+          ? `🎲 Sacaste ${diceState.value} (${targetPass} o más) · ¡Te salvaste! 🎉`
+          : `🎲 Sacaste ${diceState.value} (${threshold} o menos) · ¡A cumplir penitencia o beber! 🍻`}
           </div>
         `;
-      }
+    }
 
-      diceWidgetHtml = `
+    diceWidgetHtml = `
         <div class="card-dice-widget ${this.diceRolling ? 'is-rolling' : ''} ${diceState ? 'has-result' : ''}">
           <div class="dice-box-frame" id="dice-box-frame">
             <img id="active-dice-img" class="dice-face-img" src="${faceSrc}" alt="Dado" />
@@ -3275,9 +3278,9 @@ export class AppShell {
           ${actionHtml}
         </div>
       `;
-    }
+  }
 
-    const centerCardHtml = `
+  const centerCardHtml = `
       <div class="swipe-card-stage">
         <div
           class="swipe-card ${isLightInk ? 'is-light-ink' : ''} ${specialClass}"
@@ -3285,8 +3288,8 @@ export class AppShell {
           data-card-fx="${escapeHtml(vm.fxMode)}"
           aria-live="polite"
           style="--active-card-bg: ${escapeHtml(cardBg)}; --active-card-ink: ${escapeHtml(
-      cardInk
-    )}; --active-accent: ${escapeHtml(specialFxMeta?.accent || accent)};"
+    cardInk
+  )}; --active-accent: ${escapeHtml(specialFxMeta?.accent || accent)};"
         >
           ${specialHoloHtml}
           <span class="card-specular-glare" aria-hidden="true"></span>
@@ -3303,7 +3306,7 @@ export class AppShell {
             ${duoSpotlightHtml}
             <div class="card-prompt-fit">
               <div class="card-prompt-text ${isLongPrompt ? 'is-long-prompt' : ''
-      }" data-len-tier="${promptLengthTier}">${this.#buildPromptHtml(vm)}</div>
+    }" data-len-tier="${promptLengthTier}">${this.#buildPromptHtml(vm)}</div>
             </div>
             ${diceWidgetHtml}
           </div>
@@ -3311,15 +3314,15 @@ export class AppShell {
       </div>
     `;
 
-    const minAllowed = Math.min(10, Math.max(1, Math.round(Number(vm.minIntensity || state.minIntensity || 1))));
-    const maxAllowed = Math.min(10, Math.max(minAllowed, Math.round(Number(vm.maxIntensity || state.maxIntensity || 10))));
-    const rawCardLevel = Number(vm.card?.intensidad ?? vm.cardIntensity);
-    const cardLevel =
-      !Number.isFinite(rawCardLevel) || rawCardLevel < 1
-        ? Math.min(maxAllowed, Math.max(minAllowed, Math.round(Number(vm.targetIntensity || maxAllowed))))
-        : Math.min(maxAllowed, Math.max(minAllowed, Math.round(rawCardLevel)));
+  const minAllowed = Math.min(10, Math.max(1, Math.round(Number(vm.minIntensity || state.minIntensity || 1))));
+  const maxAllowed = Math.min(10, Math.max(minAllowed, Math.round(Number(vm.maxIntensity || state.maxIntensity || 10))));
+  const rawCardLevel = Number(vm.card?.intensidad ?? vm.cardIntensity);
+  const cardLevel =
+    !Number.isFinite(rawCardLevel) || rawCardLevel < 1
+      ? Math.min(maxAllowed, Math.max(minAllowed, Math.round(Number(vm.targetIntensity || maxAllowed))))
+      : Math.min(maxAllowed, Math.max(minAllowed, Math.round(rawCardLevel)));
 
-    const levelBarHtml = `
+  const levelBarHtml = `
       <img
         src="./assets/icons/levels/level_${String(cardLevel).padStart(2, '0')}.webp"
         alt="${escapeHtml(t('levelLabel', lang))} ${cardLevel}"
@@ -3330,13 +3333,13 @@ export class AppShell {
       />
     `;
 
-    return `
+  return `
       <section class="play-stage">
         <div id="swipe-vignette-overlay" class="swipe-vignette-overlay" aria-hidden="true"></div>
         <div class="play-hud">
           <div class="play-progress-row">
             <span class="count-pill">${escapeHtml(t('roundLabel', lang))} ${vm.turnNumber}/${vm.targetTurns || 45
-      }</span>
+    }</span>
             ${levelBarHtml}
           </div>
 
@@ -3352,18 +3355,18 @@ export class AppShell {
         </div>
       </section>
     `;
-  }
+}
 
-  #buildVorChoiceView(state, vm) {
-    const { lang } = state;
-    const activePlayer = vm.activePlayer || { name: 'Jugador', avatarEmoji: '' };
-    const maxConsecutive = vm.maxConsecutiveTruths ?? 3;
-    const consecutiveTruths = vm.consecutiveTruths ?? 0;
-    const truthLocked = Boolean(vm.truthLocked);
-    const playerColor = activePlayer.avatarColor || 'var(--oms-pink)';
+#buildVorChoiceView(state, vm) {
+  const { lang } = state;
+  const activePlayer = vm.activePlayer || { name: 'Jugador', avatarEmoji: '' };
+  const maxConsecutive = vm.maxConsecutiveTruths ?? 3;
+  const consecutiveTruths = vm.consecutiveTruths ?? 0;
+  const truthLocked = Boolean(vm.truthLocked);
+  const playerColor = activePlayer.avatarColor || 'var(--oms-pink)';
 
-    const lockedAlertHtml = truthLocked
-      ? `
+  const lockedAlertHtml = truthLocked
+    ? `
         <div class="vor-truth-alert is-locked" role="alert">
           <span class="vor-alert-icon">🔒</span>
           <div class="vor-alert-content">
@@ -3371,20 +3374,20 @@ export class AppShell {
           </div>
         </div>
       `
-      : maxConsecutive > 0
-        ? `
+    : maxConsecutive > 0
+      ? `
           <div class="vor-truth-counter-pill">
             <span class="vor-counter-dot" style="background: ${consecutiveTruths >= maxConsecutive - 1 ? '#ff3b30' : '#47e9d2'};"></span>
             <span>${escapeHtml(
-              t('vorTruthStreakPill', lang)
-                .replace('{current}', consecutiveTruths)
-                .replace('{max}', maxConsecutive)
-            )}</span>
+        t('vorTruthStreakPill', lang)
+          .replace('{current}', consecutiveTruths)
+          .replace('{max}', maxConsecutive)
+      )}</span>
           </div>
         `
-        : '';
+      : '';
 
-    return `
+  return `
       <section class="play-stage vor-play-stage">
         <div class="vor-choice-container">
           <!-- Active Player Spotlight Banner -->
@@ -3454,18 +3457,18 @@ export class AppShell {
         </div>
       </section>
     `;
-  }
+}
 
-  #buildCulturaChupisticaView(state, vm) {
-    const { lang } = state;
-    const modeInfo = getModeDefinition('cultura-chupistica') || LOCAL_GAME_MODES[0];
-    const modeName = pickLocalizedText(modeInfo, 'title', lang);
+#buildCulturaChupisticaView(state, vm) {
+  const { lang } = state;
+  const modeInfo = getModeDefinition('cultura-chupistica') || LOCAL_GAME_MODES[0];
+  const modeName = pickLocalizedText(modeInfo, 'title', lang);
 
-    // 1. Game Over / Podium Screen
-    if (vm.isGameOver || vm.roundState === 'game_over' || state.localGame?.finished) {
-      const winner = vm.winner;
-      const loser = vm.shotKing;
-      return `
+  // 1. Game Over / Podium Screen
+  if (vm.isGameOver || vm.roundState === 'game_over' || state.localGame?.finished) {
+    const winner = vm.winner;
+    const loser = vm.shotKing;
+    return `
         <section class="play-stage cultura-play-stage">
           <div class="cultura-gameover-card glass-panel">
             <div class="cultura-gameover-header">
@@ -3537,15 +3540,15 @@ export class AppShell {
           </div>
         </section>
       `;
-    }
+  }
 
-    // 2. Penalty Revealed Screen
-    if (vm.roundState === 'penalty_revealed') {
-      const failedPlayer = vm.lastFailedPlayer || { name: 'Alguien', avatarEmoji: '' };
-      const failsCount = vm.scoreboard?.find((s) => s.player?.id === failedPlayer.id)?.fails || 1;
-      const penaltyText = vm.lastPenalty?.description || vm.lastPenalty?.title || 'Toma 1 trago';
+  // 2. Penalty Revealed Screen
+  if (vm.roundState === 'penalty_revealed') {
+    const failedPlayer = vm.lastFailedPlayer || { name: 'Alguien', avatarEmoji: '' };
+    const failsCount = vm.scoreboard?.find((s) => s.player?.id === failedPlayer.id)?.fails || 1;
+    const penaltyText = vm.lastPenalty?.description || vm.lastPenalty?.title || 'Toma 1 trago';
 
-      return `
+    return `
         <section class="play-stage cultura-play-stage">
           <div class="cultura-penalty-card glass-panel">
             <div class="cultura-penalty-header">
@@ -3573,11 +3576,11 @@ export class AppShell {
           </div>
         </section>
       `;
-    }
+  }
 
-    // 3. Active Play Screen (and optional Fail Modal & Scoreboard Drawer)
-    const cardLevel = Math.min(10, Math.max(1, Math.round(Number(vm.intensidad) || 1)));
-    const levelBarHtml = `
+  // 3. Active Play Screen (and optional Fail Modal & Scoreboard Drawer)
+  const cardLevel = Math.min(10, Math.max(1, Math.round(Number(vm.intensidad) || 1)));
+  const levelBarHtml = `
       <img
         src="./assets/icons/levels/level_${String(cardLevel).padStart(2, '0')}.webp"
         alt="${escapeHtml(t('levelLabel', lang))} ${cardLevel}"
@@ -3588,19 +3591,19 @@ export class AppShell {
       />
     `;
 
-    const totalDisplaySeconds =
-      vm.timerMode === 'custom'
-        ? (vm.customTimerSeconds || 20)
-        : (parseInt(vm.timerMode, 10) || 10);
+  const totalDisplaySeconds =
+    vm.timerMode === 'custom'
+      ? (vm.customTimerSeconds || 20)
+      : (parseInt(vm.timerMode, 10) || 10);
 
-    const timerPillHtml =
-      vm.timerMode === 'infinite'
-        ? `<div class="cultura-timer-pill is-infinite"><span>${escapeHtml(t('culturaInfiniteTimer', lang))}</span></div>`
-        : `<div class="cultura-timer-pill is-countdown"><span class="cultura-timer-clock">⏱️</span><span id="cultura-timer-display">${this.culturaTimeRemaining || totalDisplaySeconds}s</span></div>`;
+  const timerPillHtml =
+    vm.timerMode === 'infinite'
+      ? `<div class="cultura-timer-pill is-infinite"><span>${escapeHtml(t('culturaInfiniteTimer', lang))}</span></div>`
+      : `<div class="cultura-timer-pill is-countdown"><span class="cultura-timer-clock">⏱️</span><span id="cultura-timer-display">${this.culturaTimeRemaining || totalDisplaySeconds}s</span></div>`;
 
-    let failModalHtml = '';
-    if (vm.roundState === 'fail_selection') {
-      failModalHtml = `
+  let failModalHtml = '';
+  if (vm.roundState === 'fail_selection') {
+    failModalHtml = `
         <div class="oms-modal-backdrop cultura-modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="cultura-fail-title">
           <div class="oms-modal-card cultura-fail-modal-card">
             <div class="cultura-fail-modal-head">
@@ -3613,8 +3616,8 @@ export class AppShell {
 
             <div class="cultura-players-fail-grid">
               ${state.localPlayers.map((player) => {
-                const fails = state.localGame?.session?.failsByPlayer?.[player.id] || 0;
-                return `
+      const fails = state.localGame?.session?.failsByPlayer?.[player.id] || 0;
+      return `
                   <button
                     type="button"
                     class="cultura-player-fail-btn"
@@ -3628,7 +3631,7 @@ export class AppShell {
                     <span class="cultura-fail-player-count">${fails} ${escapeHtml(t('culturaFailsCount', lang))}</span>
                   </button>
                 `;
-              }).join('')}
+    }).join('')}
             </div>
 
             <div class="cultura-fail-modal-actions">
@@ -3642,11 +3645,11 @@ export class AppShell {
           </div>
         </div>
       `;
-    }
+  }
 
-    let scoreboardModalHtml = '';
-    if (this.culturaScoreboardOpen) {
-      scoreboardModalHtml = `
+  let scoreboardModalHtml = '';
+  if (this.culturaScoreboardOpen) {
+    scoreboardModalHtml = `
         <div class="oms-modal-backdrop cultura-scoreboard-backdrop" role="dialog" aria-modal="true">
           <div class="oms-modal-card cultura-scoreboard-card" style="max-width: 440px; width: 100%;">
             <div class="new-player-modal-head">
@@ -3682,9 +3685,9 @@ export class AppShell {
           </div>
         </div>
       `;
-    }
+  }
 
-    return `
+  return `
       <section class="play-stage cultura-play-stage">
         <div id="swipe-vignette-overlay" class="swipe-vignette-overlay" aria-hidden="true"></div>
         <div class="play-hud cultura-hud">
@@ -3759,952 +3762,930 @@ export class AppShell {
         ${scoreboardModalHtml}
       </section>
     `;
-  }
+}
 
-  render() {
-    const state = store.getState();
-    document.documentElement.lang = state.locale || state.lang || 'es';
-    const isLargeText = state.textScaleMode === 'large' || state.textScaleMode === 'xl';
-    const isAgeGateBlocking = this.#isAgeGateBlocking(state);
-    document.body.classList.toggle('text-xl', isLargeText);
-    document.body.classList.toggle('is-boot-black', state.screen === 'splash');
-    document.body.classList.toggle('is-home-calm', state.screen === 'home');
-    document.body.classList.toggle('is-creator-mode', state.screen === 'creator');
-    document.body.classList.toggle('is-age-gate-blur', isAgeGateBlocking);
-    document.body.classList.toggle(
-      'is-loading-view',
-      state.screen === 'preloader' || this.isTransitioning || this.isCountdownLaunching
-    );
-    document.body.classList.toggle('is-countdown-blur', this.isCountdownLaunching);
-    audioFx.syncVolumes();
+render() {
+  const state = store.getState();
+  document.documentElement.lang = state.locale || state.lang || 'es';
+  const isLargeText = state.textScaleMode === 'large' || state.textScaleMode === 'xl';
+  const isAgeGateBlocking = this.#isAgeGateBlocking(state);
+  document.body.classList.toggle('text-xl', isLargeText);
+  document.body.classList.toggle('is-boot-black', state.screen === 'splash');
+  document.body.classList.toggle('is-home-calm', state.screen === 'home');
+  document.body.classList.toggle('is-creator-mode', state.screen === 'creator');
+  document.body.classList.toggle('is-age-gate-blur', isAgeGateBlocking);
+  document.body.classList.toggle(
+    'is-loading-view',
+    state.screen === 'preloader' || this.isTransitioning || this.isCountdownLaunching
+  );
+  document.body.classList.toggle('is-countdown-blur', this.isCountdownLaunching);
+  audioFx.syncVolumes();
 
-    // Actualiza el porcentaje de la pantalla negra sin reconstruir el DOM
-    if (state.screen === 'splash' && this.rootEl.querySelector('.splash-black-loader')) {
-      const pctEl = this.rootEl.querySelector('.splash-black-text');
-      if (pctEl) {
-        const pct = Math.max(0, Math.min(100, Math.round(Number(state.splashProgress) || 0)));
-        pctEl.textContent = t('blackLoadingPct', state.lang).replace('{pct}', String(pct));
-      }
-      return;
-    }
-
-    // Actualiza barra y estado del preloader animado sin recrear el logo flotante
-    if (state.screen === 'preloader' && this.rootEl.querySelector('.splash-screen')) {
+  // Actualiza el porcentaje de la pantalla negra sin reconstruir el DOM
+  if (state.screen === 'splash' && this.rootEl.querySelector('.splash-black-loader')) {
+    const pctEl = this.rootEl.querySelector('.splash-black-text');
+    if (pctEl) {
       const pct = Math.max(0, Math.min(100, Math.round(Number(state.splashProgress) || 0)));
-      const fillEl = this.rootEl.querySelector('.splash-progress-fill');
-      const statusEl = this.rootEl.querySelector('.splash-status-text');
-      if (fillEl) fillEl.style.width = `${pct}%`;
-      if (statusEl) {
-        statusEl.textContent =
-          pct >= 100 ? t('splashReady', state.lang) : t('splashLoading', state.lang);
-      }
-      return;
+      pctEl.textContent = t('blackLoadingPct', state.lang).replace('{pct}', String(pct));
     }
-
-    this.viewAbortController?.abort();
-    this.viewAbortController = new AbortController();
-    this.detachSwipe?.();
-    this.detachSwipe = null;
-    this.#onCardDragEnd();
-    this.#clearLongPress();
-    let html = '';
-
-    const ageGateModalHtml = isAgeGateBlocking ? this.#buildAgeGateModal(state) : '';
-    const homeSettingsModalHtml =
-      state.screen !== 'splash' && !isAgeGateBlocking && this.homeSettingsModalOpen
-        ? this.#buildHomeSettingsModal(state)
-        : '';
-    const coffeeModalHtml =
-      state.screen !== 'splash' && !isAgeGateBlocking && this.coffeeModalOpen
-        ? this.#buildCoffeeModal(state)
-        : '';
-    const settingsModalHtml =
-      state.screen !== 'splash' && !isAgeGateBlocking && this.settingsModalOpen
-        ? this.#buildSettingsModal(state)
-        : '';
-    const creditsModalHtml =
-      state.screen !== 'splash' && !isAgeGateBlocking && this.creditsModalOpen
-        ? this.#buildCreditsModal(state)
-        : '';
-    const modeSettingsModalHtml =
-      state.screen === 'instructions' && !isAgeGateBlocking && this.modeSettingsModalOpen
-        ? this.#buildModeSettingsModal(state)
-        : '';
-
-    if (state.screen === 'splash') {
-      html = `<main>${this.#buildSplashView(state)}</main>`;
-    } else if (state.screen === 'preloader') {
-      html = `<main>${this.#buildPreloaderView(state)}</main>`;
-    } else if (state.screen === 'home') {
-      html = `<main>${this.#buildHomeView(
-        state
-      )}</main>${homeSettingsModalHtml}${coffeeModalHtml}${creditsModalHtml}${ageGateModalHtml}`;
-    } else if (state.screen === 'players') {
-      const playerModalHtml = this.newPlayerModalOpen ? this.#buildNewPlayerModal(state) : '';
-      html = `${this.#buildTopbar(state)}<main>${this.#buildPlayersSetupView(
-        state
-      )}</main>${playerModalHtml}${settingsModalHtml}${creditsModalHtml}${ageGateModalHtml}`;
-    } else if (state.screen === 'menu') {
-      html = `${this.#buildTopbar(state)}<main>${this.#buildMainMenuView(
-        state
-      )}</main>${settingsModalHtml}${creditsModalHtml}${ageGateModalHtml}`;
-    } else if (state.screen === 'intensity') {
-      html = `${this.#buildTopbar(state)}<main>${this.#buildIntensityView(
-        state
-      )}</main>${settingsModalHtml}${creditsModalHtml}${ageGateModalHtml}`;
-    } else if (state.screen === 'instructions') {
-      html = `${this.#buildTopbar(state)}<main>${this.#buildInstructionsView(
-        state
-      )}</main>${settingsModalHtml}${creditsModalHtml}${modeSettingsModalHtml}${ageGateModalHtml}`;
-    } else if (state.screen === 'creator') {
-      html = `${this.#buildTopbar(state)}<main class="creator-screen-main">${buildCreatorScreenHtml(
-        state
-      )}</main>${settingsModalHtml}${creditsModalHtml}${ageGateModalHtml}`;
-    } else {
-      const modalHtml = this.exitConfirmOpen ? this.#buildExitConfirmModal(state) : '';
-      const answerModalHtml = this.cardAnswerModal ? this.#buildCardAnswerModal(state) : '';
-      html = `${this.#buildTopbar(state)}<main>${this.#buildPlayView(
-        state
-      )}</main>${modalHtml}${answerModalHtml}${settingsModalHtml}${creditsModalHtml}${ageGateModalHtml}`;
-    }
-
-    this.rootEl.innerHTML = html;
-    this.#bindViewEvents(state);
+    return;
   }
 
-  #bindSettingsModalEvents(signal) {
-    const ageForm = document.querySelector('#age-gate-form');
-    ageForm?.addEventListener(
-      'submit',
-      (e) => {
-        e.preventDefault();
-        const isAdult = e.submitter?.value === 'true';
-        audioFx.tap();
-        store.setAgeVerification(isAdult);
-        if (isAdult) {
-          visualFx.showToast(t('ageGateHotAutoToast', store.getState().lang));
-        }
-      },
-      { signal }
-    );
+  // Actualiza barra y estado del preloader animado sin recrear el logo flotante
+  if (state.screen === 'preloader' && this.rootEl.querySelector('.splash-screen')) {
+    const pct = Math.max(0, Math.min(100, Math.round(Number(state.splashProgress) || 0)));
+    const fillEl = this.rootEl.querySelector('.splash-progress-fill');
+    const statusEl = this.rootEl.querySelector('.splash-status-text');
+    if (fillEl) fillEl.style.width = `${pct}%`;
+    if (statusEl) {
+      statusEl.textContent =
+        pct >= 100 ? t('splashReady', state.lang) : t('splashLoading', state.lang);
+    }
+    return;
+  }
 
-    const bindDropdownModalShell = (backdropId, onClose) => {
-      const el = document.querySelector(backdropId);
-      if (!el) return;
-      el.addEventListener(
-        'click',
-        (e) => {
-          if (e.target === el) {
-            audioFx.tap();
-            this.localeDropdownOpen = false;
-            onClose();
-            this.render();
-            return;
-          }
-          if (this.localeDropdownOpen && !e.target.closest('#settings-locale-dropdown')) {
-            this.localeDropdownOpen = false;
-            this.render();
-          }
-        },
-        { signal }
-      );
-    };
+  this.viewAbortController?.abort();
+  this.viewAbortController = new AbortController();
+  this.detachSwipe?.();
+  this.detachSwipe = null;
+  this.#onCardDragEnd();
+  this.#clearLongPress();
+  let html = '';
 
-    bindDropdownModalShell('#settings-modal-backdrop', () => {
-      this.settingsModalOpen = false;
-    });
-    bindDropdownModalShell('#home-settings-backdrop', () => {
-      this.homeSettingsModalOpen = false;
-    });
-    bindDropdownModalShell('#mode-settings-backdrop', () => {
-      this.modeSettingsModalOpen = false;
-    });
+  const ageGateModalHtml = isAgeGateBlocking ? this.#buildAgeGateModal(state) : '';
+  const homeSettingsModalHtml =
+    state.screen !== 'splash' && !isAgeGateBlocking && this.homeSettingsModalOpen
+      ? this.#buildHomeSettingsModal(state)
+      : '';
+  const coffeeModalHtml =
+    state.screen !== 'splash' && !isAgeGateBlocking && this.coffeeModalOpen
+      ? this.#buildCoffeeModal(state)
+      : '';
+  const settingsModalHtml =
+    state.screen !== 'splash' && !isAgeGateBlocking && this.settingsModalOpen
+      ? this.#buildSettingsModal(state)
+      : '';
+  const creditsModalHtml =
+    state.screen !== 'splash' && !isAgeGateBlocking && this.creditsModalOpen
+      ? this.#buildCreditsModal(state)
+      : '';
+  const modeSettingsModalHtml =
+    state.screen === 'instructions' && !isAgeGateBlocking && this.modeSettingsModalOpen
+      ? this.#buildModeSettingsModal(state)
+      : '';
 
-    const coffeeBackdrop = document.querySelector('#coffee-modal-backdrop');
-    coffeeBackdrop?.addEventListener(
+  if (state.screen === 'splash') {
+    html = `<main>${this.#buildSplashView(state)}</main>`;
+  } else if (state.screen === 'preloader') {
+    html = `<main>${this.#buildPreloaderView(state)}</main>`;
+  } else if (state.screen === 'home') {
+    html = `<main>${this.#buildHomeView(
+      state
+    )}</main>${homeSettingsModalHtml}${coffeeModalHtml}${creditsModalHtml}${ageGateModalHtml}`;
+  } else if (state.screen === 'players') {
+    const playerModalHtml = this.newPlayerModalOpen ? this.#buildNewPlayerModal(state) : '';
+    html = `${this.#buildTopbar(state)}<main>${this.#buildPlayersSetupView(
+      state
+    )}</main>${playerModalHtml}${settingsModalHtml}${creditsModalHtml}${ageGateModalHtml}`;
+  } else if (state.screen === 'menu') {
+    html = `${this.#buildTopbar(state)}<main>${this.#buildMainMenuView(
+      state
+    )}</main>${settingsModalHtml}${creditsModalHtml}${ageGateModalHtml}`;
+  } else if (state.screen === 'intensity') {
+    html = `${this.#buildTopbar(state)}<main>${this.#buildIntensityView(
+      state
+    )}</main>${settingsModalHtml}${creditsModalHtml}${ageGateModalHtml}`;
+  } else if (state.screen === 'instructions') {
+    html = `${this.#buildTopbar(state)}<main>${this.#buildInstructionsView(
+      state
+    )}</main>${settingsModalHtml}${creditsModalHtml}${modeSettingsModalHtml}${ageGateModalHtml}`;
+  } else if (state.screen === 'creator') {
+    html = `${this.#buildTopbar(state)}<main class="creator-screen-main">${buildCreatorScreenHtml(
+      state
+    )}</main>${settingsModalHtml}${creditsModalHtml}${ageGateModalHtml}`;
+  } else {
+    const modalHtml = this.exitConfirmOpen ? this.#buildExitConfirmModal(state) : '';
+    const answerModalHtml = this.cardAnswerModal ? this.#buildCardAnswerModal(state) : '';
+    html = `${this.#buildTopbar(state)}<main>${this.#buildPlayView(
+      state
+    )}</main>${modalHtml}${answerModalHtml}${settingsModalHtml}${creditsModalHtml}${ageGateModalHtml}`;
+  }
+
+  this.rootEl.innerHTML = html;
+  this.#bindViewEvents(state);
+}
+
+#bindSettingsModalEvents(signal) {
+  const ageForm = document.querySelector('#age-gate-form');
+  ageForm?.addEventListener(
+    'submit',
+    (e) => {
+      e.preventDefault();
+      const isAdult = e.submitter?.value === 'true';
+      audioFx.tap();
+      store.setAgeVerification(isAdult);
+      if (isAdult) {
+        visualFx.showToast(t('ageGateHotAutoToast', store.getState().lang));
+      }
+    },
+    { signal }
+  );
+
+  const bindDropdownModalShell = (backdropId, onClose) => {
+    const el = document.querySelector(backdropId);
+    if (!el) return;
+    el.addEventListener(
       'click',
       (e) => {
-        if (e.target === coffeeBackdrop) {
+        if (e.target === el) {
           audioFx.tap();
-          this.coffeeModalOpen = false;
+          this.localeDropdownOpen = false;
+          onClose();
+          this.render();
+          return;
+        }
+        if (this.localeDropdownOpen && !e.target.closest('#settings-locale-dropdown')) {
+          this.localeDropdownOpen = false;
           this.render();
         }
       },
       { signal }
     );
+  };
 
-    const bindHotSwitch = (inputId) => {
-      document.querySelector(inputId)?.addEventListener(
-        'change',
-        (e) => {
-          audioFx.tap();
-          this.#setHotMode(Boolean(e.target.checked));
-        },
-        { signal }
-      );
-    };
+  bindDropdownModalShell('#settings-modal-backdrop', () => {
+    this.settingsModalOpen = false;
+  });
+  bindDropdownModalShell('#home-settings-backdrop', () => {
+    this.homeSettingsModalOpen = false;
+  });
+  bindDropdownModalShell('#mode-settings-backdrop', () => {
+    this.modeSettingsModalOpen = false;
+  });
 
-    bindHotSwitch('#settings-hot-check');
-    bindHotSwitch('#home-settings-hot-check');
+  const coffeeBackdrop = document.querySelector('#coffee-modal-backdrop');
+  coffeeBackdrop?.addEventListener(
+    'click',
+    (e) => {
+      if (e.target === coffeeBackdrop) {
+        audioFx.tap();
+        this.coffeeModalOpen = false;
+        this.render();
+      }
+    },
+    { signal }
+  );
 
-    document.querySelector('#home-settings-fullscreen-check')?.addEventListener(
+  const bindHotSwitch = (inputId) => {
+    document.querySelector(inputId)?.addEventListener(
       'change',
       (e) => {
         audioFx.tap();
-        store.setState({ startFullscreen: Boolean(e.target.checked) }, { silent: true });
+        this.#setHotMode(Boolean(e.target.checked));
+      },
+      { signal }
+    );
+  };
+
+  bindHotSwitch('#settings-hot-check');
+  bindHotSwitch('#home-settings-hot-check');
+
+  document.querySelector('#home-settings-fullscreen-check')?.addEventListener(
+    'change',
+    (e) => {
+      audioFx.tap();
+      store.setState({ startFullscreen: Boolean(e.target.checked) }, { silent: true });
+    },
+    { signal }
+  );
+
+  const bindAudioControls = (idPrefix) => {
+    const musicRange = document.querySelector(`#${idPrefix}-music-range`);
+    const musicValEl = document.querySelector(`#${idPrefix}-music-val`);
+    musicRange?.addEventListener(
+      'input',
+      (e) => {
+        const val = Number(e.target.value) || 0;
+        musicRange.style.setProperty('--range-pct', `${val}%`);
+        if (musicValEl) musicValEl.textContent = `${val}%`;
+        store.setState({ musicVolume: val }, { silent: true });
+        audioFx.unlock();
+        audioFx.syncVolumes();
       },
       { signal }
     );
 
-    const bindAudioControls = (idPrefix) => {
-      const musicRange = document.querySelector(`#${idPrefix}-music-range`);
-      const musicValEl = document.querySelector(`#${idPrefix}-music-val`);
-      musicRange?.addEventListener(
-        'input',
-        (e) => {
-          const val = Number(e.target.value) || 0;
-          musicRange.style.setProperty('--range-pct', `${val}%`);
-          if (musicValEl) musicValEl.textContent = `${val}%`;
-          store.setState({ musicVolume: val }, { silent: true });
-          audioFx.unlock();
-          audioFx.syncVolumes();
-        },
-        { signal }
-      );
-
-      const sfxRange = document.querySelector(`#${idPrefix}-sfx-range`);
-      const sfxValEl = document.querySelector(`#${idPrefix}-sfx-val`);
-      const sfxIconEl = document.querySelector(`#${idPrefix}-sfx-icon`);
-      sfxRange?.addEventListener(
-        'input',
-        (e) => {
-          const val = Number(e.target.value) || 0;
-          sfxRange.style.setProperty('--range-pct', `${val}%`);
-          if (sfxValEl) sfxValEl.textContent = `${val}%`;
-          if (sfxIconEl) sfxIconEl.src = val > 0 ? UI_ICONS.soundOn : UI_ICONS.soundOff;
-          store.setState({ sfxVolume: val }, { silent: true });
-          audioFx.syncVolumes();
-        },
-        { signal }
-      );
-      sfxRange?.addEventListener(
-        'change',
-        () => {
-          audioFx.tap();
-        },
-        { signal }
-      );
-    };
-
-    bindAudioControls('home-settings');
-    bindAudioControls('settings');
-
-    document.querySelector('#settings-progressive-check')?.addEventListener(
-      'change',
+    const sfxRange = document.querySelector(`#${idPrefix}-sfx-range`);
+    const sfxValEl = document.querySelector(`#${idPrefix}-sfx-val`);
+    const sfxIconEl = document.querySelector(`#${idPrefix}-sfx-icon`);
+    sfxRange?.addEventListener(
+      'input',
       (e) => {
-        store.setState({ progressiveCurve: e.target.checked }, { silent: true });
+        const val = Number(e.target.value) || 0;
+        sfxRange.style.setProperty('--range-pct', `${val}%`);
+        if (sfxValEl) sfxValEl.textContent = `${val}%`;
+        if (sfxIconEl) sfxIconEl.src = val > 0 ? UI_ICONS.soundOn : UI_ICONS.soundOff;
+        store.setState({ sfxVolume: val }, { silent: true });
+        audioFx.syncVolumes();
+      },
+      { signal }
+    );
+    sfxRange?.addEventListener(
+      'change',
+      () => {
         audioFx.tap();
       },
       { signal }
     );
+  };
 
-    document.querySelector('#mode-settings-curve-check')?.addEventListener(
-      'change',
-      (e) => {
-        store.setState({ progressiveCurve: e.target.checked }, { silent: true });
-        audioFx.tap();
-      },
-      { signal }
-    );
+  bindAudioControls('home-settings');
+  bindAudioControls('settings');
 
-    document.querySelector('#cultura-settings-fails-check')?.addEventListener(
-      'change',
-      (e) => {
-        audioFx.tap();
-        store.updateCulturaChupisticaConfig({ trackFails: e.target.checked });
-      },
-      { signal }
-    );
+  document.querySelector('#settings-progressive-check')?.addEventListener(
+    'change',
+    (e) => {
+      store.setState({ progressiveCurve: e.target.checked }, { silent: true });
+      audioFx.tap();
+    },
+    { signal }
+  );
 
-    document.querySelector('#mode-settings-bonus-check')?.addEventListener(
-      'change',
-      (e) => {
-        const modeId = store.getState().activeGameModeId;
-        if (modeId === 'yo-nunca') {
-          store.updateYoNuncaConfig({ bonusEnabled: e.target.checked });
-        } else if (modeId === 'quien') {
-          store.updateQuienConfig({ bonusEnabled: e.target.checked });
-        } else if (modeId === 'hot') {
-          store.updateHotConfig({ bonusEnabled: e.target.checked });
-        } else if (modeId === 'verdad-o-reto') {
-          store.updateVerdadORetoConfig({ bonusEnabled: e.target.checked });
-        }
-        audioFx.tap();
-      },
-      { signal }
-    );
+  document.querySelector('#mode-settings-curve-check')?.addEventListener(
+    'change',
+    (e) => {
+      store.setState({ progressiveCurve: e.target.checked }, { silent: true });
+      audioFx.tap();
+    },
+    { signal }
+  );
 
-    document.querySelector('#mode-settings-custom-cards-check')?.addEventListener(
-      'change',
-      (e) => {
-        const modeId = store.getState().activeGameModeId;
-        const isChecked = e.target.checked;
-        audioFx.tap();
-        if (modeId === 'yo-nunca') {
-          store.updateYoNuncaConfig({ customCardsEnabled: isChecked });
-        } else if (modeId === 'quien') {
-          store.updateQuienConfig({ customCardsEnabled: isChecked });
-        } else if (modeId === 'hot') {
-          store.updateHotConfig({ customCardsEnabled: isChecked });
-        } else if (modeId === 'verdad-o-reto') {
-          store.updateVerdadORetoConfig({ customCardsEnabled: isChecked });
-        } else if (modeId === 'cultura-chupistica') {
-          store.updateCulturaChupisticaConfig({ customCardsEnabled: isChecked });
-        } else {
-          store.updatePreviaMixConfig({ customCardsEnabled: isChecked });
-        }
-      },
-      { signal }
-    );
+  document.querySelector('#cultura-settings-fails-check')?.addEventListener(
+    'change',
+    (e) => {
+      audioFx.tap();
+      store.updateCulturaChupisticaConfig({ trackFails: e.target.checked });
+    },
+    { signal }
+  );
 
-    const saveModeTargetTurns = (val) => {
+  document.querySelector('#mode-settings-bonus-check')?.addEventListener(
+    'change',
+    (e) => {
       const modeId = store.getState().activeGameModeId;
       if (modeId === 'yo-nunca') {
-        store.updateYoNuncaConfig({ targetTurns: val }, { silent: true });
+        store.updateYoNuncaConfig({ bonusEnabled: e.target.checked });
       } else if (modeId === 'quien') {
-        store.updateQuienConfig({ targetTurns: val }, { silent: true });
+        store.updateQuienConfig({ bonusEnabled: e.target.checked });
       } else if (modeId === 'hot') {
-        store.updateHotConfig({ targetTurns: val }, { silent: true });
+        store.updateHotConfig({ bonusEnabled: e.target.checked });
       } else if (modeId === 'verdad-o-reto') {
-        store.updateVerdadORetoConfig({ targetTurns: val }, { silent: true });
+        store.updateVerdadORetoConfig({ bonusEnabled: e.target.checked });
+      }
+      audioFx.tap();
+    },
+    { signal }
+  );
+
+  document.querySelector('#mode-settings-custom-cards-check')?.addEventListener(
+    'change',
+    (e) => {
+      const modeId = store.getState().activeGameModeId;
+      const isChecked = e.target.checked;
+      audioFx.tap();
+      if (modeId === 'yo-nunca') {
+        store.updateYoNuncaConfig({ customCardsEnabled: isChecked });
+      } else if (modeId === 'quien') {
+        store.updateQuienConfig({ customCardsEnabled: isChecked });
+      } else if (modeId === 'hot') {
+        store.updateHotConfig({ customCardsEnabled: isChecked });
+      } else if (modeId === 'verdad-o-reto') {
+        store.updateVerdadORetoConfig({ customCardsEnabled: isChecked });
       } else if (modeId === 'cultura-chupistica') {
-        store.updateCulturaChupisticaConfig({ targetTurns: val }, { silent: true });
+        store.updateCulturaChupisticaConfig({ customCardsEnabled: isChecked });
       } else {
-        store.updatePreviaMixConfig({ targetTurns: val }, { silent: true });
+        store.updatePreviaMixConfig({ customCardsEnabled: isChecked });
       }
-    };
+    },
+    { signal }
+  );
 
-    const targetCardsInput = document.querySelector('#mode-target-cards-input');
-    const targetCardsPill = document.querySelector('#mode-cards-val-pill');
-    const syncCardsPill = (val) => {
-      if (targetCardsPill) {
-        const lang = store.getState().lang;
-        targetCardsPill.textContent = `${val} ${t('cardsUnit', lang)}`;
+  const saveModeTargetTurns = (val) => {
+    const modeId = store.getState().activeGameModeId;
+    if (modeId === 'yo-nunca') {
+      store.updateYoNuncaConfig({ targetTurns: val }, { silent: true });
+    } else if (modeId === 'quien') {
+      store.updateQuienConfig({ targetTurns: val }, { silent: true });
+    } else if (modeId === 'hot') {
+      store.updateHotConfig({ targetTurns: val }, { silent: true });
+    } else if (modeId === 'verdad-o-reto') {
+      store.updateVerdadORetoConfig({ targetTurns: val }, { silent: true });
+    } else if (modeId === 'cultura-chupistica') {
+      store.updateCulturaChupisticaConfig({ targetTurns: val }, { silent: true });
+    } else {
+      store.updatePreviaMixConfig({ targetTurns: val }, { silent: true });
+    }
+  };
+
+  const targetCardsInput = document.querySelector('#mode-target-cards-input');
+  const targetCardsPill = document.querySelector('#mode-cards-val-pill');
+  const syncCardsPill = (val) => {
+    if (targetCardsPill) {
+      const lang = store.getState().lang;
+      targetCardsPill.textContent = `${val} ${t('cardsUnit', lang)}`;
+    }
+  };
+
+  targetCardsInput?.addEventListener(
+    'input',
+    (e) => {
+      const rawDigits = String(e.target.value || '').replace(/\D+/g, '');
+      if (e.target.value !== rawDigits) {
+        e.target.value = rawDigits;
       }
-    };
+      if (!rawDigits) return;
+      const clamped = Math.max(5, Math.min(900, Number(rawDigits)));
+      saveModeTargetTurns(clamped);
+      syncCardsPill(clamped);
+    },
+    { signal }
+  );
 
-    targetCardsInput?.addEventListener(
-      'input',
-      (e) => {
-        const rawDigits = String(e.target.value || '').replace(/\D+/g, '');
-        if (e.target.value !== rawDigits) {
-          e.target.value = rawDigits;
-        }
-        if (!rawDigits) return;
-        const clamped = Math.max(5, Math.min(900, Number(rawDigits)));
-        saveModeTargetTurns(clamped);
-        syncCardsPill(clamped);
-      },
-      { signal }
-    );
+  targetCardsInput?.addEventListener(
+    'blur',
+    (e) => {
+      const rawDigits = String(e.target.value || '').replace(/\D+/g, '');
+      const parsed = Number(rawDigits);
+      const clamped = Number.isFinite(parsed) && parsed > 0 ? Math.max(5, Math.min(900, Math.round(parsed))) : 45;
+      e.target.value = String(clamped);
+      saveModeTargetTurns(clamped);
+      syncCardsPill(clamped);
+    },
+    { signal }
+  );
 
-    targetCardsInput?.addEventListener(
-      'blur',
-      (e) => {
-        const rawDigits = String(e.target.value || '').replace(/\D+/g, '');
-        const parsed = Number(rawDigits);
-        const clamped = Number.isFinite(parsed) && parsed > 0 ? Math.max(5, Math.min(900, Math.round(parsed))) : 45;
-        e.target.value = String(clamped);
-        saveModeTargetTurns(clamped);
-        syncCardsPill(clamped);
-      },
-      { signal }
-    );
-
-    const culturaCustomTimerInput = document.querySelector('#cultura-custom-timer-input');
-    const culturaCustomTimerPill = document.querySelector('.cultura-custom-timer-box .settings-val-pill');
-    culturaCustomTimerInput?.addEventListener(
-      'input',
-      (e) => {
-        const rawDigits = String(e.target.value || '').replace(/\D+/g, '');
-        if (e.target.value !== rawDigits) {
-          e.target.value = rawDigits;
-        }
-        if (!rawDigits) return;
-        const clamped = Math.max(1, Math.min(60, Number(rawDigits)));
-        store.updateCulturaChupisticaConfig({ customTimerSeconds: clamped }, { silent: true });
-        const s = store.getState().localGame?.session;
-        if (s && s.config) s.config.customTimerSeconds = clamped;
-        if (culturaCustomTimerPill) culturaCustomTimerPill.textContent = `${clamped}s`;
-      },
-      { signal }
-    );
-    culturaCustomTimerInput?.addEventListener(
-      'blur',
-      (e) => {
-        const rawDigits = String(e.target.value || '').replace(/\D+/g, '');
-        const parsed = rawDigits ? Number(rawDigits) : NaN;
-        const clamped = Number.isFinite(parsed) ? Math.max(1, Math.min(60, Math.round(parsed))) : 20;
-        e.target.value = String(clamped);
-        store.updateCulturaChupisticaConfig({ customTimerSeconds: clamped }, { silent: true });
-        const s = store.getState().localGame?.session;
-        if (s && s.config) s.config.customTimerSeconds = clamped;
-        if (culturaCustomTimerPill) culturaCustomTimerPill.textContent = `${clamped}s`;
-      },
-      { signal }
-    );
-  }
+  const culturaCustomTimerInput = document.querySelector('#cultura-custom-timer-input');
+  const culturaCustomTimerPill = document.querySelector('.cultura-custom-timer-box .settings-val-pill');
+  culturaCustomTimerInput?.addEventListener(
+    'input',
+    (e) => {
+      const rawDigits = String(e.target.value || '').replace(/\D+/g, '');
+      if (e.target.value !== rawDigits) {
+        e.target.value = rawDigits;
+      }
+      if (!rawDigits) return;
+      const clamped = Math.max(1, Math.min(60, Number(rawDigits)));
+      store.updateCulturaChupisticaConfig({ customTimerSeconds: clamped }, { silent: true });
+      const s = store.getState().localGame?.session;
+      if (s && s.config) s.config.customTimerSeconds = clamped;
+      if (culturaCustomTimerPill) culturaCustomTimerPill.textContent = `${clamped}s`;
+    },
+    { signal }
+  );
+  culturaCustomTimerInput?.addEventListener(
+    'blur',
+    (e) => {
+      const rawDigits = String(e.target.value || '').replace(/\D+/g, '');
+      const parsed = rawDigits ? Number(rawDigits) : NaN;
+      const clamped = Number.isFinite(parsed) ? Math.max(1, Math.min(60, Math.round(parsed))) : 20;
+      e.target.value = String(clamped);
+      store.updateCulturaChupisticaConfig({ customTimerSeconds: clamped }, { silent: true });
+      const s = store.getState().localGame?.session;
+      if (s && s.config) s.config.customTimerSeconds = clamped;
+      if (culturaCustomTimerPill) culturaCustomTimerPill.textContent = `${clamped}s`;
+    },
+    { signal }
+  );
+}
 
   async #changeGameLocale(nextLocaleOrLang) {
-    const nextLocale = store.setLocale(nextLocaleOrLang);
-    const state = store.getState();
-    const adapter = getModeAdapter(state.activeGameModeId);
-    adapter?.preloadLocale?.(nextLocale).catch(() => null);
+  const nextLocale = store.setLocale(nextLocaleOrLang);
+  const state = store.getState();
+  const adapter = getModeAdapter(state.activeGameModeId);
+  adapter?.preloadLocale?.(nextLocale).catch(() => null);
 
-    if (state.localGame?.session && typeof adapter?.setSessionLocale === 'function') {
-      try {
-        const res = await adapter.setSessionLocale(state.localGame.session, nextLocale);
-        if (res?.changed) {
-          const latest = store.getState();
-          store.setState({
-            localGame: {
-              ...latest.localGame,
-              session: res.session
-            }
-          });
-        }
-      } catch (err) {
-        console.error('[Previa Mix] Error actualizando idioma de partida:', err);
-        visualFx.showToast(t('catalogLoadErrorToast', store.getState().lang));
+  if (state.localGame?.session && typeof adapter?.setSessionLocale === 'function') {
+    try {
+      const res = await adapter.setSessionLocale(state.localGame.session, nextLocale);
+      if (res?.changed) {
+        const latest = store.getState();
+        store.setState({
+          localGame: {
+            ...latest.localGame,
+            session: res.session
+          }
+        });
       }
+    } catch (err) {
+      console.error('[Previa Mix] Error actualizando idioma de partida:', err);
+      visualFx.showToast(t('catalogLoadErrorToast', store.getState().lang));
     }
   }
+}
 
-  #openEditPlayerModal(playerId) {
-    const state = store.getState();
-    const player = state.localPlayers.find((p) => p.id === playerId);
-    if (!player) return;
-    audioFx.tap();
-    if (typeof navigator !== 'undefined' && typeof navigator.vibrate === 'function') {
-      try {
-        navigator.vibrate(25);
-      } catch {
-        // ignore
-      }
-    }
-    this.editingPlayerId = player.id;
-    this.draftPlayerName = player.name || '';
-    const foundIdx = PLAYER_AVATARS.indexOf(player.avatarEmoji);
-    this.draftAvatarIdx = foundIdx >= 0 ? foundIdx : 0;
-    this.draftDrinksAlcohol = player.drinksAlcohol !== false;
-    this.newPlayerModalOpen = true;
-    this.render();
+#openEditPlayerModal(playerId) {
+  const state = store.getState();
+  const player = state.localPlayers.find((p) => p.id === playerId);
+  if (!player) return;
+  audioFx.tap();
+  if (typeof navigator !== 'undefined' && typeof navigator.vibrate === 'function') {
     try {
-      window.getSelection?.()?.removeAllRanges?.();
+      navigator.vibrate(25);
     } catch {
       // ignore
     }
-    const inp = document.querySelector('#new-player-input');
-    if (inp) {
-      inp.focus();
-      inp.setSelectionRange(inp.value.length, inp.value.length);
-    }
   }
+  this.editingPlayerId = player.id;
+  this.draftPlayerName = player.name || '';
+  const foundIdx = PLAYER_AVATARS.indexOf(player.avatarEmoji);
+  this.draftAvatarIdx = foundIdx >= 0 ? foundIdx : 0;
+  this.draftDrinksAlcohol = player.drinksAlcohol !== false;
+  this.newPlayerModalOpen = true;
+  this.render();
+  try {
+    window.getSelection?.()?.removeAllRanges?.();
+  } catch {
+    // ignore
+  }
+  const inp = document.querySelector('#new-player-input');
+  if (inp) {
+    inp.focus();
+    inp.setSelectionRange(inp.value.length, inp.value.length);
+  }
+}
 
-  #bindPlayerLongPress(signal) {
-    const triggers = this.rootEl.querySelectorAll('.player-edit-trigger');
-    if (!triggers.length) return;
+#bindPlayerLongPress(signal) {
+  const triggers = this.rootEl.querySelectorAll('.player-edit-trigger');
+  if (!triggers.length) return;
 
-    let activePress = null;
+  let activePress = null;
 
-    const cancelPress = () => {
-      activePress = null;
-      this.#clearLongPress();
-    };
+  const cancelPress = () => {
+    activePress = null;
+    this.#clearLongPress();
+  };
 
-    window.addEventListener('scroll', cancelPress, { passive: true, signal });
-    window.addEventListener('pointerup', cancelPress, { passive: true, signal });
-    window.addEventListener('pointercancel', cancelPress, { passive: true, signal });
-    this.rootEl
-      .querySelector('.roster-scroll')
-      ?.addEventListener('scroll', cancelPress, { passive: true, signal });
+  window.addEventListener('scroll', cancelPress, { passive: true, signal });
+  window.addEventListener('pointerup', cancelPress, { passive: true, signal });
+  window.addEventListener('pointercancel', cancelPress, { passive: true, signal });
+  this.rootEl
+    .querySelector('.roster-scroll')
+    ?.addEventListener('scroll', cancelPress, { passive: true, signal });
 
-    triggers.forEach((btn) => {
-      btn.addEventListener('contextmenu', (e) => e.preventDefault(), { signal });
+  triggers.forEach((btn) => {
+    btn.addEventListener('contextmenu', (e) => e.preventDefault(), { signal });
 
-      btn.addEventListener(
-        'pointerdown',
-        (e) => {
-          if (e.pointerType === 'mouse' && e.button !== 0) return;
-          if (this.isTransitioning || this.newPlayerModalOpen || this.settingsModalOpen) return;
+    btn.addEventListener(
+      'pointerdown',
+      (e) => {
+        if (e.pointerType === 'mouse' && e.button !== 0) return;
+        if (this.isTransitioning || this.newPlayerModalOpen || this.settingsModalOpen) return;
 
+        cancelPress();
+        const playerId = btn.dataset.playerId;
+        const cardEl = btn.closest('.player-chip-card');
+        if (!playerId || !cardEl) return;
+
+        activePress = {
+          pointerId: e.pointerId,
+          startX: e.clientX,
+          startY: e.clientY
+        };
+        this.longPressCardEl = cardEl;
+
+        this.longPressVisualTimer = setTimeout(() => {
+          if (activePress && this.longPressCardEl === cardEl) {
+            cardEl.classList.add('is-holding');
+          }
+        }, 110);
+
+        this.longPressTimer = setTimeout(() => {
+          if (!activePress) return;
           cancelPress();
-          const playerId = btn.dataset.playerId;
-          const cardEl = btn.closest('.player-chip-card');
-          if (!playerId || !cardEl) return;
+          this.#openEditPlayerModal(playerId);
+        }, 1050);
+      },
+      { signal }
+    );
 
-          activePress = {
-            pointerId: e.pointerId,
-            startX: e.clientX,
-            startY: e.clientY
-          };
-          this.longPressCardEl = cardEl;
+    btn.addEventListener(
+      'pointermove',
+      (e) => {
+        if (!activePress || e.pointerId !== activePress.pointerId) return;
+        if (Math.hypot(e.clientX - activePress.startX, e.clientY - activePress.startY) > 10) {
+          cancelPress();
+        }
+      },
+      { passive: true, signal }
+    );
 
-          this.longPressVisualTimer = setTimeout(() => {
-            if (activePress && this.longPressCardEl === cardEl) {
-              cardEl.classList.add('is-holding');
-            }
-          }, 110);
+    btn.addEventListener(
+      'pointerleave',
+      (e) => {
+        if (activePress && e.pointerId === activePress.pointerId) {
+          cancelPress();
+        }
+      },
+      { signal }
+    );
+  });
+}
 
-          this.longPressTimer = setTimeout(() => {
-            if (!activePress) return;
-            cancelPress();
-            this.#openEditPlayerModal(playerId);
-          }, 1050);
-        },
-        { signal }
-      );
+#bindViewEvents(state) {
+  const signal = this.viewAbortController.signal;
 
-      btn.addEventListener(
-        'pointermove',
-        (e) => {
-          if (!activePress || e.pointerId !== activePress.pointerId) return;
-          if (Math.hypot(e.clientX - activePress.startX, e.clientY - activePress.startY) > 10) {
-            cancelPress();
-          }
-        },
-        { passive: true, signal }
-      );
-
-      btn.addEventListener(
-        'pointerleave',
-        (e) => {
-          if (activePress && e.pointerId === activePress.pointerId) {
-            cancelPress();
-          }
-        },
-        { signal }
-      );
-    });
+  const newPlayerInput = document.querySelector('#new-player-input');
+  if (newPlayerInput) {
+    newPlayerInput.addEventListener(
+      'input',
+      (e) => {
+        this.draftPlayerName = e.target.value;
+      },
+      { signal }
+    );
+    newPlayerInput.addEventListener(
+      'keydown',
+      (e) => {
+        if (e.key === 'Enter') {
+          e.preventDefault();
+          this.#submitPlayerModal();
+        }
+      },
+      { signal }
+    );
   }
 
-  #bindViewEvents(state) {
-    const signal = this.viewAbortController.signal;
+  this.rootEl.querySelectorAll('[data-action]').forEach((el) => {
+    el.addEventListener('click', () => this.#onAction(el), { signal });
+  });
 
-    const newPlayerInput = document.querySelector('#new-player-input');
-    if (newPlayerInput) {
-      newPlayerInput.addEventListener(
-        'input',
-        (e) => {
-          this.draftPlayerName = e.target.value;
-        },
-        { signal }
-      );
-      newPlayerInput.addEventListener(
-        'keydown',
-        (e) => {
-          if (e.key === 'Enter') {
-            e.preventDefault();
-            this.#submitPlayerModal();
-          }
-        },
-        { signal }
-      );
-    }
-
-    this.rootEl.querySelectorAll('[data-action]').forEach((el) => {
-      el.addEventListener('click', () => this.#onAction(el), { signal });
-    });
-
-    this.#bindSettingsModalEvents(signal);
-    if (state.screen === 'players') {
-      this.#bindPlayerLongPress(signal);
-    }
-    if (state.screen === 'creator') {
-      this.#bindCreatorEvents(signal);
-    }
-    if (state.screen === 'intensity') {
-      const slider = document.querySelector('#intensity-range-slider');
-      slider?.addEventListener(
-        'input',
-        (e) => {
-          const val = Math.min(10, Math.max(1, Math.round(Number(e.target.value) || 10)));
-          this.#updateIntensityUI(val, state.lang);
-        },
-        { signal }
-      );
-      slider?.addEventListener(
-        'change',
-        (e) => {
-          const val = Math.min(10, Math.max(1, Math.round(Number(e.target.value) || 10)));
-          audioFx.tap();
-          this.#setGameIntensity(val, { renderNow: true });
-        },
-        { signal }
-      );
-    }
-
-    const newPlayerBackdrop = document.querySelector('#new-player-modal-backdrop');
-    newPlayerBackdrop?.addEventListener(
-      'click',
+  this.#bindSettingsModalEvents(signal);
+  if (state.screen === 'players') {
+    this.#bindPlayerLongPress(signal);
+  }
+  if (state.screen === 'creator') {
+    this.#bindCreatorEvents(signal);
+  }
+  if (state.screen === 'intensity') {
+    const slider = document.querySelector('#intensity-range-slider');
+    slider?.addEventListener(
+      'input',
       (e) => {
-        if (e.target === newPlayerBackdrop) {
-          audioFx.tap();
-          this.newPlayerModalOpen = false;
-          this.editingPlayerId = null;
-          this.render();
-        }
+        const val = Math.min(10, Math.max(1, Math.round(Number(e.target.value) || 10)));
+        this.#updateIntensityUI(val, state.lang);
       },
       { signal }
     );
-
-    const exitBackdrop = document.querySelector('#exit-confirm-backdrop');
-    exitBackdrop?.addEventListener(
-      'click',
+    slider?.addEventListener(
+      'change',
       (e) => {
-        if (e.target === exitBackdrop) {
-          audioFx.tap();
-          this.exitConfirmOpen = false;
-          this.render();
-        }
+        const val = Math.min(10, Math.max(1, Math.round(Number(e.target.value) || 10)));
+        audioFx.tap();
+        this.#setGameIntensity(val, { renderNow: true });
       },
       { signal }
     );
-
-    const cardAnswerBackdrop = document.querySelector('#card-answer-backdrop');
-    cardAnswerBackdrop?.addEventListener(
-      'click',
-      (e) => {
-        if (e.target === cardAnswerBackdrop) {
-          audioFx.tap();
-          this.cardAnswerModal = null;
-          this.render();
-        }
-      },
-      { signal }
-    );
-
-    const creditsBackdrop = document.querySelector('#credits-modal-backdrop');
-    creditsBackdrop?.addEventListener(
-      'click',
-      (e) => {
-        if (e.target === creditsBackdrop) {
-          audioFx.tap();
-          this.#closeCreditsModal();
-        }
-      },
-      { signal }
-    );
-
-    if (state.screen === 'play') {
-      const isCultura = state.activeGameModeId === 'cultura-chupistica';
-      if (isCultura) {
-        const session = state.localGame?.session;
-        document.documentElement.style.setProperty('--active-accent', '#a855f7');
-        audioFx.setMusicMood('play');
-        if (session && session.roundState === 'active' && session.config?.timerMode !== 'infinite') {
-          if (!this.culturaTimerInterval) {
-            this.#startCulturaTimerIfNeeded(session);
-          }
-        } else {
-          this.#stopCulturaTimer();
-        }
-      }
-
-      if (state.localGame?.finished) {
-        audioFx.setMusicMood('normal');
-        return;
-      }
-      const adapter = getModeAdapter(state.activeGameModeId);
-      const vm = adapter?.buildTurnViewModel?.(state.localGame?.session, state.localPlayers);
-      const cardEl = document.querySelector('#active-swipe-card');
-      const card = vm?.card || null;
-      const animKey = `${vm?.turnNumber || vm?.currentTurn || 0}-${card?.id || ''}`;
-      const fxMode = vm?.fxMode || 'ambient';
-      const specialFxMeta = SPECIAL_CARD_FX[fxMode] || null;
-      const accent = isCultura ? '#a855f7' : (specialFxMeta?.accent || vm?.typeMeta?.color || DESIGN_TOKENS.chaosPurple);
-
-      document.documentElement.style.setProperty('--active-accent', accent);
-      stage3d.setSpecialFx(fxMode, specialFxMeta?.hex ?? vm?.typeMeta?.hex ?? 0x754ac1);
-      visualFx.syncGameFxState(true, fxMode);
-      const isHotCard = fxMode === 'hot' || card?.tipo === 'hot' || card?.category === 'hot';
-      if (!isCultura) {
-        audioFx.setMusicMood(isHotCard ? 'hot' : 'play');
-      }
-      this.#fitActiveCardPrompt(cardEl);
-
-      if (cardEl && animKey !== this.lastAnimatedCardKey) {
-        this.lastAnimatedCardKey = animKey;
-        if (fxMode !== 'ambient') {
-          visualFx.triggerSpecialCardFx(fxMode, cardEl, accent);
-        } else {
-          visualFx.animateCardPop(cardEl);
-        }
-      }
-
-      const rollDiceBtn = document.querySelector('#roll-dice-btn');
-      if (rollDiceBtn) {
-        rollDiceBtn.addEventListener('click', () => this.#handleRollDice(vm, animKey), { signal });
-      }
-
-      if (
-        cardEl &&
-        vm &&
-        !this.exitConfirmOpen &&
-        !this.settingsModalOpen &&
-        !this.creditsModalOpen
-      ) {
-        if (isCultura) {
-          this.detachSwipe = attachCardSwipe(cardEl, {
-            canSwipeLeft: true,
-            canSwipeRight: true,
-            onDragProgress: (info) => this.#onCardDragProgress(info, vm),
-            onDragEnd: () => this.#onCardDragEnd(),
-            onSwipeLeft: () => this.#handleCulturaCardSwipe(state.localGame?.session),
-            onSwipeRight: () => this.#handleCulturaCardSwipe(state.localGame?.session)
-          });
-        } else {
-          const isDiceBlocked = Boolean(vm.isDiceCard && !this.diceRolledForCardKey[animKey]);
-          this.detachSwipe = attachCardSwipe(cardEl, {
-            canSwipeLeft: isDiceBlocked
-              ? false
-              : vm.isEventActivation
-                ? Boolean(vm.canComplete)
-                : Boolean(vm.canSkip),
-            canSwipeRight: isDiceBlocked ? false : Boolean(vm.canComplete),
-            onBlockedSwipe: (direction) => {
-              if (isDiceBlocked) {
-                audioFx.tap();
-                visualFx.showToast('¡Debes lanzar el dado primero! 🎲');
-                return;
-              }
-              this.#notifyBlockedTurn(vm, direction);
-            },
-            onDragProgress: (info) => this.#onCardDragProgress(info, vm),
-            onDragEnd: () => this.#onCardDragEnd(),
-            onSwipeLeft: () =>
-              this.#advanceCard({
-                skipped: !vm.isEventActivation,
-                fromSwipe: true,
-                feedbackType: vm.isEventActivation ? 'god' : 'bad'
-              }),
-            onSwipeRight: () =>
-              this.#advanceCard({
-                skipped: false,
-                fromSwipe: true,
-                feedbackType: 'god'
-              })
-          });
-        }
-      }
-    } else {
-      this.lastAnimatedCardKey = '';
-      const modeInfo =
-        state.screen === 'instructions' || state.screen === 'intensity'
-          ? LOCAL_GAME_MODES.find((m) => m.id === state.activeGameModeId)
-          : null;
-      const accent = modeInfo?.accent || DESIGN_TOKENS.shotPink;
-      document.documentElement.style.setProperty('--active-accent', accent);
-      stage3d.setSpecialFx('ambient', accent);
-      visualFx.syncGameFxState(false, 'ambient');
-      audioFx.setMusicMood('normal');
-    }
   }
 
-  #submitPlayerModal() {
-    const { lang } = store.getState();
-    const avatar = PLAYER_AVATARS[this.draftAvatarIdx % PLAYER_AVATARS.length];
-    const wasEditing = Boolean(this.editingPlayerId);
-    const result = wasEditing
-      ? store.updateLocalPlayer(this.editingPlayerId, {
-        name: this.draftPlayerName,
-        avatarEmoji: avatar,
-        drinksAlcohol: this.draftDrinksAlcohol
-      })
-      : store.addLocalPlayer(this.draftPlayerName, avatar, this.draftDrinksAlcohol);
-
-    if (!result.ok) {
-      audioFx.tap();
-      if (result.reason === 'NOT_FOUND') {
+  const newPlayerBackdrop = document.querySelector('#new-player-modal-backdrop');
+  newPlayerBackdrop?.addEventListener(
+    'click',
+    (e) => {
+      if (e.target === newPlayerBackdrop) {
+        audioFx.tap();
         this.newPlayerModalOpen = false;
         this.editingPlayerId = null;
         this.render();
-        return;
       }
-      const msgKey =
-        result.reason === 'MAX_REACHED' ? 'errMaxPlayers' : 'errEmptyPlayerName';
-      visualFx.showToast(t(msgKey, lang));
-      document.querySelector('#new-player-input')?.focus();
-      return;
-    }
+    },
+    { signal }
+  );
 
-    audioFx.tap();
-    this.draftPlayerName = '';
-    if (!wasEditing) {
-      this.draftAvatarIdx = (this.draftAvatarIdx + 1) % PLAYER_AVATARS.length;
-    }
-    this.editingPlayerId = null;
-    this.newPlayerModalOpen = false;
-    this.render();
-  }
-
-  #notifyBlockedTurn(vm, direction = 'left') {
-    const { lang } = store.getState();
-    audioFx.tap();
-    if (vm?.hasPendingEventPlayers) {
-      const names = vm.pendingPlayers.map((p) => p.name).join(', ');
-      visualFx.showToast(t('eventBlockedAdvanceToast', lang).replace('{names}', names));
-      document.querySelector('.active-event-panel')?.scrollIntoView({
-        behavior: 'smooth',
-        block: 'nearest'
-      });
-      return;
-    }
-    if (vm?.isEventActivation && direction === 'left') {
-      visualFx.showToast(t('eventCannotSkipToast', lang));
-    }
-  }
-
-  async #setHotMode(enable) {
-    const state = store.getState();
-    const { lang, activeGameModeId, localGame } = state;
-    const isEnabled = Boolean(enable);
-    const hasSession = Boolean(localGame?.session);
-
-    store.updatePreviaMixConfig(
-      (cfg) => {
-        const filtered = (cfg.enabledTypes || []).filter((type) => type !== 'hot');
-        return {
-          ...cfg,
-          enableHot: isEnabled,
-          adultsConfirmed: isEnabled,
-          everyoneConsentsHot: isEnabled,
-          enabledTypes: isEnabled ? [...filtered, 'hot'] : filtered
-        };
-      },
-      { silent: hasSession }
-    );
-
-    let replacedCard = false;
-    if (hasSession) {
-      const adapter = getModeAdapter(activeGameModeId);
-      const res = await adapter.setHotEnabledMidGame(localGame.session, { enable: isEnabled });
-      replacedCard = Boolean(res?.replacedCard);
-      if (res?.changed) {
-        store.setState({
-          localGame: {
-            ...localGame,
-            session: res.session,
-            ...(isEnabled ? {} : { lastOptionalNotice: null, lastSocialForfeitNotice: null })
-          }
-        });
-      } else {
+  const exitBackdrop = document.querySelector('#exit-confirm-backdrop');
+  exitBackdrop?.addEventListener(
+    'click',
+    (e) => {
+      if (e.target === exitBackdrop) {
+        audioFx.tap();
+        this.exitConfirmOpen = false;
         this.render();
       }
-    }
+    },
+    { signal }
+  );
 
-    const toastKey = isEnabled
-      ? 'hotEnabledToast'
-      : replacedCard
-        ? 'hotReplacedToast'
-        : 'hotDisabledToast';
-    visualFx.showToast(t(toastKey, lang));
-  }
+  const cardAnswerBackdrop = document.querySelector('#card-answer-backdrop');
+  cardAnswerBackdrop?.addEventListener(
+    'click',
+    (e) => {
+      if (e.target === cardAnswerBackdrop) {
+        audioFx.tap();
+        this.cardAnswerModal = null;
+        this.render();
+      }
+    },
+    { signal }
+  );
 
-  #updateIntensityUI(minVal, maxVal, lang) {
-    let safeMin = Math.min(10, Math.max(1, Math.round(Number(minVal) || 1)));
-    let safeMax = Math.min(10, Math.max(1, Math.round(Number(maxVal) || 10)));
-    if (safeMin > safeMax) {
-      const tmp = safeMin;
-      safeMin = safeMax;
-      safeMax = tmp;
-    }
+  const creditsBackdrop = document.querySelector('#credits-modal-backdrop');
+  creditsBackdrop?.addEventListener(
+    'click',
+    (e) => {
+      if (e.target === creditsBackdrop) {
+        audioFx.tap();
+        this.#closeCreditsModal();
+      }
+    },
+    { signal }
+  );
 
-    const rangeInfo = getLocalizedIntensityRangeInfo(safeMin, safeMax, lang);
-
-    const badge = document.querySelector('#intensity-badge');
-    if (badge) {
-      badge.textContent = rangeInfo.badgeText;
-      badge.style.setProperty('--badge-accent', rangeInfo.accent);
-    }
-
-    const tagline = document.querySelector('#intensity-tagline');
-    if (tagline) {
-      tagline.textContent = rangeInfo.taglineText;
-    }
-
-    const title = document.querySelector('#intensity-level-title');
-    if (title) {
-      title.textContent = rangeInfo.name;
-      title.style.color = rangeInfo.accent;
-    }
-
-    const minDisplay = document.querySelector('#intensity-min-display');
-    if (minDisplay) minDisplay.textContent = String(safeMin);
-
-    const maxDisplay = document.querySelector('#intensity-max-display');
-    if (maxDisplay) maxDisplay.textContent = String(safeMax);
-
-    const stepperMinMinus = document.querySelector('[data-action="step-min-intensity"][data-delta="-1"]');
-    if (stepperMinMinus) stepperMinMinus.disabled = safeMin <= 1;
-
-    const stepperMinPlus = document.querySelector('[data-action="step-min-intensity"][data-delta="1"]');
-    if (stepperMinPlus) stepperMinPlus.disabled = safeMin >= 10;
-
-    const stepperMaxMinus = document.querySelector('[data-action="step-max-intensity"][data-delta="-1"]');
-    if (stepperMaxMinus) stepperMaxMinus.disabled = safeMax <= 1;
-
-    const stepperMaxPlus = document.querySelector('[data-action="step-max-intensity"][data-delta="1"]');
-    if (stepperMaxPlus) stepperMaxPlus.disabled = safeMax >= 10;
-
-    document.querySelectorAll('.intensity-preset-chip').forEach((chip) => {
-      const pMin = Number(chip.dataset.min);
-      const pMax = Number(chip.dataset.max);
-      const isActive = pMin === safeMin && pMax === safeMax;
-      chip.classList.toggle('is-active', isActive);
-      chip.setAttribute('aria-pressed', isActive ? 'true' : 'false');
-    });
-
-    document.querySelectorAll('.intensity-pill-btn').forEach((btn) => {
-      const pillLevel = Number(btn.dataset.level);
-      const isInRange = pillLevel >= safeMin && pillLevel <= safeMax;
-      const isStart = pillLevel === safeMin;
-      const isEnd = pillLevel === safeMax;
-      const isSingle = safeMin === safeMax && isStart;
-
-      btn.classList.toggle('is-in-range', isInRange);
-      btn.classList.toggle('is-active', isInRange);
-      btn.classList.toggle('is-range-start', isStart);
-      btn.classList.toggle('is-range-end', isEnd);
-      btn.classList.toggle('is-single-value', isSingle);
-      btn.setAttribute('aria-pressed', isInRange ? 'true' : 'false');
-    });
-
-    const state = store.getState();
-    store.setState(
-      {
-        minIntensity: safeMin,
-        maxIntensity: safeMax,
-        previaMixConfig: {
-          ...(state.previaMixConfig || {}),
-          minIntensity: safeMin,
-          maxIntensity: safeMax
+  if (state.screen === 'play') {
+    const isCultura = state.activeGameModeId === 'cultura-chupistica';
+    if (isCultura) {
+      const session = state.localGame?.session;
+      document.documentElement.style.setProperty('--active-accent', '#a855f7');
+      audioFx.setMusicMood('play');
+      if (session && session.roundState === 'active' && session.config?.timerMode !== 'infinite') {
+        if (!this.culturaTimerInterval) {
+          this.#startCulturaTimerIfNeeded(session);
         }
-      },
-      { silent: true }
-    );
+      } else {
+        this.#stopCulturaTimer();
+      }
+    }
+
+    if (state.localGame?.finished) {
+      audioFx.setMusicMood('normal');
+      return;
+    }
+    const adapter = getModeAdapter(state.activeGameModeId);
+    const vm = adapter?.buildTurnViewModel?.(state.localGame?.session, state.localPlayers);
+    const cardEl = document.querySelector('#active-swipe-card');
+    const card = vm?.card || null;
+    const animKey = `${vm?.turnNumber || vm?.currentTurn || 0}-${card?.id || ''}`;
+    const fxMode = vm?.fxMode || 'ambient';
+    const specialFxMeta = SPECIAL_CARD_FX[fxMode] || null;
+    const accent = isCultura ? '#a855f7' : (specialFxMeta?.accent || vm?.typeMeta?.color || DESIGN_TOKENS.chaosPurple);
+
+    document.documentElement.style.setProperty('--active-accent', accent);
+    stage3d.setSpecialFx(fxMode, specialFxMeta?.hex ?? vm?.typeMeta?.hex ?? 0x754ac1);
+    visualFx.syncGameFxState(true, fxMode);
+    const isHotCard = fxMode === 'hot' || card?.tipo === 'hot' || card?.category === 'hot';
+    if (!isCultura) {
+      audioFx.setMusicMood(isHotCard ? 'hot' : 'play');
+    }
+    this.#fitActiveCardPrompt(cardEl);
+
+    if (cardEl && animKey !== this.lastAnimatedCardKey) {
+      this.lastAnimatedCardKey = animKey;
+      if (fxMode !== 'ambient') {
+        visualFx.triggerSpecialCardFx(fxMode, cardEl, accent);
+      } else {
+        visualFx.animateCardPop(cardEl);
+      }
+    }
+
+    const rollDiceBtn = document.querySelector('#roll-dice-btn');
+    if (rollDiceBtn) {
+      rollDiceBtn.addEventListener('click', () => this.#handleRollDice(vm, animKey), { signal });
+    }
+
+    if (
+      cardEl &&
+      vm &&
+      !this.exitConfirmOpen &&
+      !this.settingsModalOpen &&
+      !this.creditsModalOpen
+    ) {
+      if (isCultura) {
+        this.detachSwipe = attachCardSwipe(cardEl, {
+          canSwipeLeft: true,
+          canSwipeRight: true,
+          onDragProgress: (info) => this.#onCardDragProgress(info, vm),
+          onDragEnd: () => this.#onCardDragEnd(),
+          onSwipeLeft: () => this.#handleCulturaCardSwipe(state.localGame?.session),
+          onSwipeRight: () => this.#handleCulturaCardSwipe(state.localGame?.session)
+        });
+      } else {
+        const isDiceBlocked = Boolean(vm.isDiceCard && !this.diceRolledForCardKey[animKey]);
+        this.detachSwipe = attachCardSwipe(cardEl, {
+          canSwipeLeft: isDiceBlocked
+            ? false
+            : vm.isEventActivation
+              ? Boolean(vm.canComplete)
+              : Boolean(vm.canSkip),
+          canSwipeRight: isDiceBlocked ? false : Boolean(vm.canComplete),
+          onBlockedSwipe: (direction) => {
+            if (isDiceBlocked) {
+              audioFx.tap();
+              visualFx.showToast('¡Debes lanzar el dado primero! 🎲');
+              return;
+            }
+            this.#notifyBlockedTurn(vm, direction);
+          },
+          onDragProgress: (info) => this.#onCardDragProgress(info, vm),
+          onDragEnd: () => this.#onCardDragEnd(),
+          onSwipeLeft: () =>
+            this.#advanceCard({
+              skipped: !vm.isEventActivation,
+              fromSwipe: true,
+              feedbackType: vm.isEventActivation ? 'god' : 'bad'
+            }),
+          onSwipeRight: () =>
+            this.#advanceCard({
+              skipped: false,
+              fromSwipe: true,
+              feedbackType: 'god'
+            })
+        });
+      }
+    }
+  } else {
+    this.lastAnimatedCardKey = '';
+    const modeInfo =
+      state.screen === 'instructions' || state.screen === 'intensity'
+        ? LOCAL_GAME_MODES.find((m) => m.id === state.activeGameModeId)
+        : null;
+    const accent = modeInfo?.accent || DESIGN_TOKENS.shotPink;
+    document.documentElement.style.setProperty('--active-accent', accent);
+    stage3d.setSpecialFx('ambient', accent);
+    visualFx.syncGameFxState(false, 'ambient');
+    audioFx.setMusicMood('normal');
+  }
+}
+
+#submitPlayerModal() {
+  const { lang } = store.getState();
+  const avatar = PLAYER_AVATARS[this.draftAvatarIdx % PLAYER_AVATARS.length];
+  const wasEditing = Boolean(this.editingPlayerId);
+  const result = wasEditing
+    ? store.updateLocalPlayer(this.editingPlayerId, {
+      name: this.draftPlayerName,
+      avatarEmoji: avatar,
+      drinksAlcohol: this.draftDrinksAlcohol
+    })
+    : store.addLocalPlayer(this.draftPlayerName, avatar, this.draftDrinksAlcohol);
+
+  if (!result.ok) {
+    audioFx.tap();
+    if (result.reason === 'NOT_FOUND') {
+      this.newPlayerModalOpen = false;
+      this.editingPlayerId = null;
+      this.render();
+      return;
+    }
+    const msgKey =
+      result.reason === 'MAX_REACHED' ? 'errMaxPlayers' : 'errEmptyPlayerName';
+    visualFx.showToast(t(msgKey, lang));
+    document.querySelector('#new-player-input')?.focus();
+    return;
   }
 
-  #setGameIntensityRange(minVal, maxVal, { renderNow = false } = {}) {
-    let safeMin = Math.min(10, Math.max(1, Math.round(Number(minVal) || 1)));
-    let safeMax = Math.min(10, Math.max(1, Math.round(Number(maxVal) || 10)));
-    if (safeMin > safeMax) {
-      const tmp = safeMin;
-      safeMin = safeMax;
-      safeMax = tmp;
+  audioFx.tap();
+  this.draftPlayerName = '';
+  if (!wasEditing) {
+    this.draftAvatarIdx = (this.draftAvatarIdx + 1) % PLAYER_AVATARS.length;
+  }
+  this.editingPlayerId = null;
+  this.newPlayerModalOpen = false;
+  this.render();
+}
+
+#notifyBlockedTurn(vm, direction = 'left') {
+  const { lang } = store.getState();
+  audioFx.tap();
+  if (vm?.hasPendingEventPlayers) {
+    const names = vm.pendingPlayers.map((p) => p.name).join(', ');
+    visualFx.showToast(t('eventBlockedAdvanceToast', lang).replace('{names}', names));
+    document.querySelector('.active-event-panel')?.scrollIntoView({
+      behavior: 'smooth',
+      block: 'nearest'
+    });
+    return;
+  }
+  if (vm?.isEventActivation && direction === 'left') {
+    visualFx.showToast(t('eventCannotSkipToast', lang));
+  }
+}
+
+  async #setHotMode(enable) {
+  const state = store.getState();
+  const { lang, activeGameModeId, localGame } = state;
+  const isEnabled = Boolean(enable);
+  const hasSession = Boolean(localGame?.session);
+
+  store.updatePreviaMixConfig(
+    (cfg) => {
+      const filtered = (cfg.enabledTypes || []).filter((type) => type !== 'hot');
+      return {
+        ...cfg,
+        enableHot: isEnabled,
+        adultsConfirmed: isEnabled,
+        everyoneConsentsHot: isEnabled,
+        enabledTypes: isEnabled ? [...filtered, 'hot'] : filtered
+      };
+    },
+    { silent: hasSession }
+  );
+
+  let replacedCard = false;
+  if (hasSession) {
+    const adapter = getModeAdapter(activeGameModeId);
+    const res = await adapter.setHotEnabledMidGame(localGame.session, { enable: isEnabled });
+    replacedCard = Boolean(res?.replacedCard);
+    if (res?.changed) {
+      store.setState({
+        localGame: {
+          ...localGame,
+          session: res.session,
+          ...(isEnabled ? {} : { lastOptionalNotice: null, lastSocialForfeitNotice: null })
+        }
+      });
+    } else {
+      this.render();
     }
-    const state = store.getState();
-    store.setState({
+  }
+
+  const toastKey = isEnabled
+    ? 'hotEnabledToast'
+    : replacedCard
+      ? 'hotReplacedToast'
+      : 'hotDisabledToast';
+  visualFx.showToast(t(toastKey, lang));
+}
+
+#updateIntensityUI(minVal, maxVal, lang) {
+  let safeMin = Math.min(10, Math.max(1, Math.round(Number(minVal) || 1)));
+  let safeMax = Math.min(10, Math.max(1, Math.round(Number(maxVal) || 10)));
+  if (safeMin > safeMax) {
+    const tmp = safeMin;
+    safeMin = safeMax;
+    safeMax = tmp;
+  }
+
+  const rangeInfo = getLocalizedIntensityRangeInfo(safeMin, safeMax, lang);
+
+  const badge = document.querySelector('#intensity-badge');
+  if (badge) {
+    badge.textContent = rangeInfo.badgeText;
+    badge.style.setProperty('--badge-accent', rangeInfo.accent);
+  }
+
+  const tagline = document.querySelector('#intensity-tagline');
+  if (tagline) {
+    tagline.textContent = rangeInfo.taglineText;
+  }
+
+  const title = document.querySelector('#intensity-level-title');
+  if (title) {
+    title.textContent = rangeInfo.name;
+    title.style.color = rangeInfo.accent;
+  }
+
+  const minDisplay = document.querySelector('#intensity-min-display');
+  if (minDisplay) minDisplay.textContent = String(safeMin);
+
+  const maxDisplay = document.querySelector('#intensity-max-display');
+  if (maxDisplay) maxDisplay.textContent = String(safeMax);
+
+  const stepperMinMinus = document.querySelector('[data-action="step-min-intensity"][data-delta="-1"]');
+  if (stepperMinMinus) stepperMinMinus.disabled = safeMin <= 1;
+
+  const stepperMinPlus = document.querySelector('[data-action="step-min-intensity"][data-delta="1"]');
+  if (stepperMinPlus) stepperMinPlus.disabled = safeMin >= 10;
+
+  const stepperMaxMinus = document.querySelector('[data-action="step-max-intensity"][data-delta="-1"]');
+  if (stepperMaxMinus) stepperMaxMinus.disabled = safeMax <= 1;
+
+  const stepperMaxPlus = document.querySelector('[data-action="step-max-intensity"][data-delta="1"]');
+  if (stepperMaxPlus) stepperMaxPlus.disabled = safeMax >= 10;
+
+  document.querySelectorAll('.intensity-preset-chip').forEach((chip) => {
+    const pMin = Number(chip.dataset.min);
+    const pMax = Number(chip.dataset.max);
+    const isActive = pMin === safeMin && pMax === safeMax;
+    chip.classList.toggle('is-active', isActive);
+    chip.setAttribute('aria-pressed', isActive ? 'true' : 'false');
+  });
+
+  document.querySelectorAll('.intensity-pill-btn').forEach((btn) => {
+    const pillLevel = Number(btn.dataset.level);
+    const isInRange = pillLevel >= safeMin && pillLevel <= safeMax;
+    const isStart = pillLevel === safeMin;
+    const isEnd = pillLevel === safeMax;
+    const isSingle = safeMin === safeMax && isStart;
+
+    btn.classList.toggle('is-in-range', isInRange);
+    btn.classList.toggle('is-active', isInRange);
+    btn.classList.toggle('is-range-start', isStart);
+    btn.classList.toggle('is-range-end', isEnd);
+    btn.classList.toggle('is-single-value', isSingle);
+    btn.setAttribute('aria-pressed', isInRange ? 'true' : 'false');
+  });
+
+  const state = store.getState();
+  store.setState(
+    {
       minIntensity: safeMin,
       maxIntensity: safeMax,
       previaMixConfig: {
@@ -4712,260 +4693,282 @@ export class AppShell {
         minIntensity: safeMin,
         maxIntensity: safeMax
       }
-    });
-    if (renderNow) {
-      this.render();
-    } else {
-      this.#updateIntensityUI(safeMin, safeMax, state.lang);
+    },
+    { silent: true }
+  );
+}
+
+#setGameIntensityRange(minVal, maxVal, { renderNow = false } = {}) {
+  let safeMin = Math.min(10, Math.max(1, Math.round(Number(minVal) || 1)));
+  let safeMax = Math.min(10, Math.max(1, Math.round(Number(maxVal) || 10)));
+  if (safeMin > safeMax) {
+    const tmp = safeMin;
+    safeMin = safeMax;
+    safeMax = tmp;
+  }
+  const state = store.getState();
+  store.setState({
+    minIntensity: safeMin,
+    maxIntensity: safeMax,
+    previaMixConfig: {
+      ...(state.previaMixConfig || {}),
+      minIntensity: safeMin,
+      maxIntensity: safeMax
     }
+  });
+  if (renderNow) {
+    this.render();
+  } else {
+    this.#updateIntensityUI(safeMin, safeMax, state.lang);
   }
+}
 
-  #setGameIntensity(val, { renderNow = false } = {}) {
-    this.#setGameIntensityRange(val, val, { renderNow });
-  }
+#setGameIntensity(val, { renderNow = false } = {}) {
+  this.#setGameIntensityRange(val, val, { renderNow });
+}
 
-  #handleIntensityPillClick(level) {
-    const safeLevel = Math.min(10, Math.max(1, Math.round(Number(level) || 1)));
-    if (this.intensityAnchor === null) {
-      this.intensityAnchor = safeLevel;
-      this.#setGameIntensityRange(safeLevel, safeLevel, { renderNow: false });
-    } else {
-      const anchor = this.intensityAnchor;
-      this.intensityAnchor = null;
-      const newMin = Math.min(anchor, safeLevel);
-      const newMax = Math.max(anchor, safeLevel);
-      this.#setGameIntensityRange(newMin, newMax, { renderNow: false });
-    }
-  }
-
-  #openModeIntensity(modeId) {
+#handleIntensityPillClick(level) {
+  const safeLevel = Math.min(10, Math.max(1, Math.round(Number(level) || 1)));
+  if (this.intensityAnchor === null) {
+    this.intensityAnchor = safeLevel;
+    this.#setGameIntensityRange(safeLevel, safeLevel, { renderNow: false });
+  } else {
+    const anchor = this.intensityAnchor;
     this.intensityAnchor = null;
-    const state = store.getState();
-    if (state.localPlayers.length < MIN_PLAYERS) {
-      visualFx.showToast(t('errMinPlayers', state.lang));
-      this.#navigateWithLoader('players', 'loaderPlayers');
-      return;
-    }
+    const newMin = Math.min(anchor, safeLevel);
+    const newMax = Math.max(anchor, safeLevel);
+    this.#setGameIntensityRange(newMin, newMax, { renderNow: false });
+  }
+}
 
-    audioFx.tap();
-    stage3d.pulse(0xff4fa3);
-    const adapter = getModeAdapter(modeId);
-    adapter?.preloadLocale?.(state.locale || state.previaMixConfig?.locale).catch(() => null);
-    this.#navigateWithLoader('intensity', 'loaderIntensity', {
-      beforeSwitch: () => ({ activeGameModeId: modeId })
-    });
+#openModeIntensity(modeId) {
+  this.intensityAnchor = null;
+  const state = store.getState();
+  if (state.localPlayers.length < MIN_PLAYERS) {
+    visualFx.showToast(t('errMinPlayers', state.lang));
+    this.#navigateWithLoader('players', 'loaderPlayers');
+    return;
   }
 
-  #openModeInstructions(modeId) {
-    const state = store.getState();
-    if (state.localPlayers.length < MIN_PLAYERS) {
-      visualFx.showToast(t('errMinPlayers', state.lang));
-      this.#navigateWithLoader('players', 'loaderPlayers');
-      return;
-    }
+  audioFx.tap();
+  stage3d.pulse(0xff4fa3);
+  const adapter = getModeAdapter(modeId);
+  adapter?.preloadLocale?.(state.locale || state.previaMixConfig?.locale).catch(() => null);
+  this.#navigateWithLoader('intensity', 'loaderIntensity', {
+    beforeSwitch: () => ({ activeGameModeId: modeId })
+  });
+}
 
-    audioFx.tap();
-    stage3d.pulse(0xff4fa3);
-    const adapter = getModeAdapter(modeId);
-    adapter?.preloadLocale?.(state.locale || state.previaMixConfig?.locale).catch(() => null);
-    this.#navigateWithLoader('instructions', 'loaderInstructions', {
-      beforeSwitch: () => ({ activeGameModeId: modeId })
-    });
+#openModeInstructions(modeId) {
+  const state = store.getState();
+  if (state.localPlayers.length < MIN_PLAYERS) {
+    visualFx.showToast(t('errMinPlayers', state.lang));
+    this.#navigateWithLoader('players', 'loaderPlayers');
+    return;
   }
+
+  audioFx.tap();
+  stage3d.pulse(0xff4fa3);
+  const adapter = getModeAdapter(modeId);
+  adapter?.preloadLocale?.(state.locale || state.previaMixConfig?.locale).catch(() => null);
+  this.#navigateWithLoader('instructions', 'loaderInstructions', {
+    beforeSwitch: () => ({ activeGameModeId: modeId })
+  });
+}
 
   async #openCardCreator() {
-    audioFx.tap();
-    this.modeSettingsModalOpen = false;
-    creatorController.init();
-    await this.#navigateWithLoader('creator', 'loaderMenu');
-  }
+  audioFx.tap();
+  this.modeSettingsModalOpen = false;
+  creatorController.init();
+  await this.#navigateWithLoader('creator', 'loaderMenu');
+}
 
-  #bindCreatorEvents(signal) {
-    const searchInput = document.querySelector('#creator-search-input');
-    searchInput?.addEventListener(
-      'input',
-      (e) => {
-        creatorController.setSearchQuery(e.target.value);
-        this.render();
-        const nextInput = document.querySelector('#creator-search-input');
-        if (nextInput) {
-          nextInput.focus();
-          const len = nextInput.value.length;
-          nextInput.setSelectionRange(len, len);
-        }
-      },
-      { signal }
-    );
+#bindCreatorEvents(signal) {
+  const searchInput = document.querySelector('#creator-search-input');
+  searchInput?.addEventListener(
+    'input',
+    (e) => {
+      creatorController.setSearchQuery(e.target.value);
+      this.render();
+      const nextInput = document.querySelector('#creator-search-input');
+      if (nextInput) {
+        nextInput.focus();
+        const len = nextInput.value.length;
+        nextInput.setSelectionRange(len, len);
+      }
+    },
+    { signal }
+  );
 
-    const categorySelect = document.querySelector('#creator-category-select');
-    categorySelect?.addEventListener(
-      'change',
-      (e) => {
-        audioFx.tap();
-        creatorController.setFilterType(e.target.value);
-        this.render();
-      },
-      { signal }
-    );
+  const categorySelect = document.querySelector('#creator-category-select');
+  categorySelect?.addEventListener(
+    'change',
+    (e) => {
+      audioFx.tap();
+      creatorController.setFilterType(e.target.value);
+      this.render();
+    },
+    { signal }
+  );
 
-    const intensitySelect = document.querySelector('#creator-intensity-select');
-    intensitySelect?.addEventListener(
-      'change',
-      (e) => {
-        audioFx.tap();
-        creatorController.setFilterIntensity(e.target.value);
-        this.render();
-      },
-      { signal }
-    );
+  const intensitySelect = document.querySelector('#creator-intensity-select');
+  intensitySelect?.addEventListener(
+    'change',
+    (e) => {
+      audioFx.tap();
+      creatorController.setFilterIntensity(e.target.value);
+      this.render();
+    },
+    { signal }
+  );
 
-    const editIntensitySlider = document.querySelector('#creator-edit-intensidad');
-    editIntensitySlider?.addEventListener(
-      'input',
-      (e) => {
-        const val = e.target.value;
-        const valEl = document.querySelector('#creator-intensity-val');
-        if (valEl) valEl.textContent = `${val} / 10`;
-        const imgEl = document.querySelector('#creator-intensity-preview-img');
-        if (imgEl) {
-          imgEl.src = `./assets/icons/levels/level_${String(val).padStart(2, '0')}.webp`;
-          imgEl.alt = `Nivel ${val}`;
-        }
-      },
-      { signal }
-    );
+  const editIntensitySlider = document.querySelector('#creator-edit-intensidad');
+  editIntensitySlider?.addEventListener(
+    'input',
+    (e) => {
+      const val = e.target.value;
+      const valEl = document.querySelector('#creator-intensity-val');
+      if (valEl) valEl.textContent = `${val} / 10`;
+      const imgEl = document.querySelector('#creator-intensity-preview-img');
+      if (imgEl) {
+        imgEl.src = `./assets/icons/levels/level_${String(val).padStart(2, '0')}.webp`;
+        imgEl.alt = `Nivel ${val}`;
+      }
+    },
+    { signal }
+  );
 
-    const fileInput = document.querySelector('#creator-file-input');
-    fileInput?.addEventListener(
-      'change',
-      (e) => {
-        const file = e.target.files?.[0];
-        if (!file) return;
-        const reader = new FileReader();
-        reader.onload = (ev) => {
-          const text = ev.target?.result;
-          if (typeof text === 'string') {
-            const res = creatorController.importJson(text);
-            if (res.ok) {
-              if (res.limitCapped) {
-                visualFx.showToast(`📥 Importadas ${res.imported} cartas (alcanzó el límite de 500).`);
-              } else {
-                visualFx.showToast(`📥 ¡${res.imported} cartas importadas exitosamente!`);
-              }
-              this.render();
+  const fileInput = document.querySelector('#creator-file-input');
+  fileInput?.addEventListener(
+    'change',
+    (e) => {
+      const file = e.target.files?.[0];
+      if (!file) return;
+      const reader = new FileReader();
+      reader.onload = (ev) => {
+        const text = ev.target?.result;
+        if (typeof text === 'string') {
+          const res = creatorController.importJson(text);
+          if (res.ok) {
+            if (res.limitCapped) {
+              visualFx.showToast(`📥 Importadas ${res.imported} cartas (alcanzó el límite de 500).`);
             } else {
-              visualFx.showToast(`⚠️ Error al importar archivo: ${res.error || 'Formato JSON inválido'}`);
+              visualFx.showToast(`📥 ¡${res.imported} cartas importadas exitosamente!`);
             }
+            this.render();
+          } else {
+            visualFx.showToast(`⚠️ Error al importar archivo: ${res.error || 'Formato JSON inválido'}`);
           }
-        };
-        reader.readAsText(file);
-      },
-      { signal }
-    );
-  }
+        }
+      };
+      reader.readAsText(file);
+    },
+    { signal }
+  );
+}
 
 
 
   async #createInitialGamePatch(modeId) {
-    const state = store.getState();
-    const adapter = getModeAdapter(modeId);
-    const minIntensity = state.minIntensity || 1;
-    const maxIntensity = state.maxIntensity || 10;
-    let modeConfig = {};
-    if (modeId === 'yo-nunca') {
-      const isBonus = state.yoNuncaConfig?.bonusEnabled !== false;
-      modeConfig = {
-        locale: state.locale,
-        enabledTypes: isBonus ? ['yo nunca', 'bonus'] : ['yo nunca'],
-        targetTurns: state.yoNuncaConfig?.targetTurns || 45,
-        minIntensity,
-        maxIntensity,
-        bonusEnabled: isBonus
-      };
-    } else if (modeId === 'quien') {
-      const isBonus = state.quienConfig?.bonusEnabled !== false;
-      modeConfig = {
-        locale: state.locale,
-        enabledTypes: isBonus ? ['quien es más probable', 'bonus'] : ['quien es más probable'],
-        targetTurns: state.quienConfig?.targetTurns || 45,
-        minIntensity,
-        maxIntensity,
-        bonusEnabled: isBonus
-      };
-    } else if (modeId === 'hot') {
-      const isBonus = state.hotConfig?.bonusEnabled !== false;
-      modeConfig = {
-        locale: state.locale,
-        enabledTypes: isBonus ? ['hot', 'bonus'] : ['hot'],
-        targetTurns: state.hotConfig?.targetTurns || 45,
-        minIntensity,
-        maxIntensity,
-        bonusEnabled: isBonus,
-        enableHot: true,
-        adultsConfirmed: true,
-        everyoneConsentsHot: true,
-        customCardsEnabled: state.hotConfig?.customCardsEnabled !== false
-      };
-    } else if (modeId === 'verdad-o-reto') {
-      const cfg = state.verdadORetoConfig || {};
-      modeConfig = {
-        locale: state.locale,
-        turnOrder: cfg.turnOrder || 'secuencial',
-        maxConsecutiveTruths: cfg.maxConsecutiveTruths ?? 3,
-        bonusEnabled: cfg.bonusEnabled !== false,
-        customCardsEnabled: cfg.customCardsEnabled !== false,
-        targetTurns: cfg.targetTurns || 45,
-        minIntensity,
-        maxIntensity
-      };
-    } else if (modeId === 'cultura-chupistica') {
-      const cfg = state.culturaChupisticaConfig || {};
-      modeConfig = {
-        locale: state.locale,
-        timerMode: cfg.timerMode || 'infinite',
-        customTimerSeconds: cfg.customTimerSeconds || 20,
-        trackFails: cfg.trackFails !== false,
-        customCardsEnabled: cfg.customCardsEnabled !== false,
-        targetTurns: cfg.targetTurns || 30,
-        minIntensity,
-        maxIntensity
-      };
-    } else {
-      modeConfig = {
-        ...(state.previaMixConfig || {}),
-        minIntensity,
-        maxIntensity
-      };
-    }
-
-    const { session, wasPlayerCountCapped } = await adapter.createSession({
-      localPlayers: state.localPlayers,
-      appLang: state.lang,
-      progressiveCurve: state.progressiveCurve,
-      modeConfig
-    });
-
-    return {
-      wasPlayerCountCapped,
-      patch: {
-        activeGameModeId: modeId,
-        localGame: {
-          modeId,
-          session,
-          skippedCount: 0,
-          lastOptionalNotice: null,
-          lastSocialForfeitNotice: null
-        }
-      }
+  const state = store.getState();
+  const adapter = getModeAdapter(modeId);
+  const minIntensity = state.minIntensity || 1;
+  const maxIntensity = state.maxIntensity || 10;
+  let modeConfig = {};
+  if (modeId === 'yo-nunca') {
+    const isBonus = state.yoNuncaConfig?.bonusEnabled !== false;
+    modeConfig = {
+      locale: state.locale,
+      enabledTypes: isBonus ? ['yo nunca', 'bonus'] : ['yo nunca'],
+      targetTurns: state.yoNuncaConfig?.targetTurns || 45,
+      minIntensity,
+      maxIntensity,
+      bonusEnabled: isBonus
+    };
+  } else if (modeId === 'quien') {
+    const isBonus = state.quienConfig?.bonusEnabled !== false;
+    modeConfig = {
+      locale: state.locale,
+      enabledTypes: isBonus ? ['quien es más probable', 'bonus'] : ['quien es más probable'],
+      targetTurns: state.quienConfig?.targetTurns || 45,
+      minIntensity,
+      maxIntensity,
+      bonusEnabled: isBonus
+    };
+  } else if (modeId === 'hot') {
+    const isBonus = state.hotConfig?.bonusEnabled !== false;
+    modeConfig = {
+      locale: state.locale,
+      enabledTypes: isBonus ? ['hot', 'bonus'] : ['hot'],
+      targetTurns: state.hotConfig?.targetTurns || 45,
+      minIntensity,
+      maxIntensity,
+      bonusEnabled: isBonus,
+      enableHot: true,
+      adultsConfirmed: true,
+      everyoneConsentsHot: true,
+      customCardsEnabled: state.hotConfig?.customCardsEnabled !== false
+    };
+  } else if (modeId === 'verdad-o-reto') {
+    const cfg = state.verdadORetoConfig || {};
+    modeConfig = {
+      locale: state.locale,
+      turnOrder: cfg.turnOrder || 'secuencial',
+      maxConsecutiveTruths: cfg.maxConsecutiveTruths ?? 3,
+      bonusEnabled: cfg.bonusEnabled !== false,
+      customCardsEnabled: cfg.customCardsEnabled !== false,
+      targetTurns: cfg.targetTurns || 45,
+      minIntensity,
+      maxIntensity
+    };
+  } else if (modeId === 'cultura-chupistica') {
+    const cfg = state.culturaChupisticaConfig || {};
+    modeConfig = {
+      locale: state.locale,
+      timerMode: cfg.timerMode || 'infinite',
+      customTimerSeconds: cfg.customTimerSeconds || 20,
+      trackFails: cfg.trackFails !== false,
+      customCardsEnabled: cfg.customCardsEnabled !== false,
+      targetTurns: cfg.targetTurns || 30,
+      minIntensity,
+      maxIntensity
+    };
+  } else {
+    modeConfig = {
+      ...(state.previaMixConfig || {}),
+      minIntensity,
+      maxIntensity
     };
   }
 
-  #renderLaunchCountdownStep(overlay, stepKey, pulseHex) {
-    if (!overlay || !this.isCountdownLaunching) return;
-    const isGo = stepKey === 'go';
-    const src = COUNTDOWN_MEDIA[stepKey];
+  const { session, wasPlayerCountCapped } = await adapter.createSession({
+    localPlayers: state.localPlayers,
+    appLang: state.lang,
+    progressiveCurve: state.progressiveCurve,
+    modeConfig
+  });
 
-    overlay.innerHTML = `
+  return {
+    wasPlayerCountCapped,
+    patch: {
+      activeGameModeId: modeId,
+      localGame: {
+        modeId,
+        session,
+        skippedCount: 0,
+        lastOptionalNotice: null,
+        lastSocialForfeitNotice: null
+      }
+    }
+  };
+}
+
+#renderLaunchCountdownStep(overlay, stepKey, pulseHex) {
+  if (!overlay || !this.isCountdownLaunching) return;
+  const isGo = stepKey === 'go';
+  const src = COUNTDOWN_MEDIA[stepKey];
+
+  overlay.innerHTML = `
       <div class="launch-countdown-stage">
         <div class="launch-countdown-halo ${isGo ? 'is-go' : ''}" aria-hidden="true"></div>
         <div class="launch-countdown-shadow" aria-hidden="true"></div>
@@ -4981,200 +4984,200 @@ export class AppShell {
       </div>
     `;
 
-    stage3d.pulse(pulseHex);
-    if (isGo) {
-      audioFx.go();
-    } else {
-      audioFx.count();
-    }
+  stage3d.pulse(pulseHex);
+  if (isGo) {
+    audioFx.go();
+  } else {
+    audioFx.count();
   }
+}
 
   async #commitStartGameMode(modeId, prebuilt = null) {
-    const state = store.getState();
-    try {
-      const built = prebuilt || (await this.#createInitialGamePatch(modeId));
-      store.recordSessionEvent({
-        type: 'start_mode',
-        modeId,
-        playerCount: Math.min(state.localPlayers.length, PREVIA_MIX_MAX_PLAYERS)
-      });
-      window.scrollTo(0, 0);
-      store.setState({
-        ...built.patch,
-        screen: 'play'
-      });
-      if (built.wasPlayerCountCapped) {
-        visualFx.showToast(t('pmMaxPlayersCapNotice', state.lang));
-      }
-      enableWakeLock();
-      visualFx.triggerConfetti('party');
-      visualFx.triggerLensFlare(DESIGN_TOKENS.mintPop);
-      stage3d.pulse(0x47e9d2);
-    } catch (err) {
-      console.error('[Previa Mix] Error iniciando partida:', err);
-      visualFx.showToast(t('catalogLoadErrorToast', state.lang));
+  const state = store.getState();
+  try {
+    const built = prebuilt || (await this.#createInitialGamePatch(modeId));
+    store.recordSessionEvent({
+      type: 'start_mode',
+      modeId,
+      playerCount: Math.min(state.localPlayers.length, PREVIA_MIX_MAX_PLAYERS)
+    });
+    window.scrollTo(0, 0);
+    store.setState({
+      ...built.patch,
+      screen: 'play'
+    });
+    if (built.wasPlayerCountCapped) {
+      visualFx.showToast(t('pmMaxPlayersCapNotice', state.lang));
     }
+    enableWakeLock();
+    visualFx.triggerConfetti('party');
+    visualFx.triggerLensFlare(DESIGN_TOKENS.mintPop);
+    stage3d.pulse(0x47e9d2);
+  } catch (err) {
+    console.error('[Previa Mix] Error iniciando partida:', err);
+    visualFx.showToast(t('catalogLoadErrorToast', state.lang));
   }
+}
 
   async #launchLocalGameMode(modeId) {
-    const state = store.getState();
-    if (state.localPlayers.length < MIN_PLAYERS) {
-      visualFx.showToast(t('errMinPlayers', state.lang));
-      this.#navigateWithLoader('players', 'loaderPlayers');
-      return;
-    }
-    if (this.isTransitioning || this.isCountdownLaunching || this.isPreparingLaunch) return;
+  const state = store.getState();
+  if (state.localPlayers.length < MIN_PLAYERS) {
+    visualFx.showToast(t('errMinPlayers', state.lang));
+    this.#navigateWithLoader('players', 'loaderPlayers');
+    return;
+  }
+  if (this.isTransitioning || this.isCountdownLaunching || this.isPreparingLaunch) return;
 
-    this.isPreparingLaunch = true;
-    audioFx.tap();
-    this.#showScreenLoader('loaderPlay');
+  this.isPreparingLaunch = true;
+  audioFx.tap();
+  this.#showScreenLoader('loaderPlay');
 
-    let prebuilt = null;
-    try {
-      const adapter = getModeAdapter(modeId);
-      const safeLocale = state.locale || 'es';
-      const [result] = await Promise.all([
-        (async () => {
-          await adapter.preloadLocale?.(safeLocale);
-          return await this.#createInitialGamePatch(modeId);
-        })(),
-        new Promise((res) => setTimeout(res, 350))
-      ]);
-      prebuilt = result;
-    } catch (err) {
-      console.error('[LaunchGame] Error cargando catálogo o preparando partida:', err);
-      this.isPreparingLaunch = false;
-      this.#hideScreenLoader();
-      visualFx.showToast(t('catalogLoadErrorToast', state.lang));
-      return;
-    }
+  let prebuilt = null;
+  try {
+    const adapter = getModeAdapter(modeId);
+    const safeLocale = state.locale || 'es';
+    const [result] = await Promise.all([
+      (async () => {
+        await adapter.preloadLocale?.(safeLocale);
+        return await this.#createInitialGamePatch(modeId);
+      })(),
+      new Promise((res) => setTimeout(res, 350))
+    ]);
+    prebuilt = result;
+  } catch (err) {
+    console.error('[LaunchGame] Error cargando catálogo o preparando partida:', err);
     this.isPreparingLaunch = false;
     this.#hideScreenLoader();
+    visualFx.showToast(t('catalogLoadErrorToast', state.lang));
+    return;
+  }
+  this.isPreparingLaunch = false;
+  this.#hideScreenLoader();
 
-    const overlay = document.querySelector('#launch-countdown-overlay');
-    if (!overlay) {
-      await this.#commitStartGameMode(modeId, prebuilt);
-      return;
-    }
-
-    this.#clearTransitionTimers();
-    this.#clearLaunchTimers({ resetOverlay: false });
-    this.exitConfirmOpen = false;
-    this.modeSettingsModalOpen = false;
-    this.newPlayerModalOpen = false;
-    this.settingsModalOpen = false;
-    this.localeDropdownOpen = false;
-    this.creditsModalOpen = false;
-    this.creditsOpenedFromSettings = false;
-    this.isCountdownLaunching = true;
-    audioFx.setMusicMood('play');
-
-    document.body.classList.add('is-countdown-blur', 'is-loading-view');
-    overlay.hidden = false;
-    overlay.classList.add('is-visible');
-
-    // Secuencia bloqueante: 3 (0s), 2 (1s), 1 (2s), GO (3s) durante 500ms -> iniciar juego (3.5s)
-    this.#renderLaunchCountdownStep(overlay, '3', 0xffd166);
-
-    const schedule = [
-      { key: '2', delayMs: 1000, hex: 0xff6d5a },
-      { key: '1', delayMs: 2000, hex: 0xff4fa3 },
-      { key: 'go', delayMs: 3000, hex: 0x47e9d2 }
-    ];
-
-    for (const step of schedule) {
-      const timerId = setTimeout(() => {
-        this.#renderLaunchCountdownStep(overlay, step.key, step.hex);
-      }, step.delayMs);
-      this.launchTimers.push(timerId);
-    }
-
-    const finishTimer = setTimeout(() => {
-      if (!this.isCountdownLaunching) return;
-      this.#clearLaunchTimers({ resetOverlay: true });
-      void this.#commitStartGameMode(modeId, prebuilt);
-    }, 3500);
-    this.launchTimers.push(finishTimer);
+  const overlay = document.querySelector('#launch-countdown-overlay');
+  if (!overlay) {
+    await this.#commitStartGameMode(modeId, prebuilt);
+    return;
   }
 
-  #onCardDragProgress(info, currentVm = null) {
-    if (document.body.classList.contains('is-swipe-feedback')) return;
-    const { dx, isRight } = info;
-    const vignetteEl = document.querySelector('#swipe-vignette-overlay');
-    const absDx = Math.abs(dx);
-    const startThreshold = 30;
-    const maxThreshold = 95;
+  this.#clearTransitionTimers();
+  this.#clearLaunchTimers({ resetOverlay: false });
+  this.exitConfirmOpen = false;
+  this.modeSettingsModalOpen = false;
+  this.newPlayerModalOpen = false;
+  this.settingsModalOpen = false;
+  this.localeDropdownOpen = false;
+  this.creditsModalOpen = false;
+  this.creditsOpenedFromSettings = false;
+  this.isCountdownLaunching = true;
+  audioFx.setMusicMood('play');
 
-    if (absDx < startThreshold) {
-      this.#onCardDragEnd();
-      return;
-    }
+  document.body.classList.add('is-countdown-blur', 'is-loading-view');
+  overlay.hidden = false;
+  overlay.classList.add('is-visible');
 
-    const isSpecialEvent = Boolean(
-      currentVm?.isEventActivation ||
-      currentVm?.card?.tipo === 'eventos especiales'
-    );
+  // Secuencia bloqueante: 3 (0s), 2 (1s), 1 (2s), GO (3s) durante 500ms -> iniciar juego (3.5s)
+  this.#renderLaunchCountdownStep(overlay, '3', 0xffd166);
 
-    const effectiveProgress = Math.min(1, (absDx - startThreshold) / (maxThreshold - startThreshold));
-    const isGod = isSpecialEvent ? true : isRight;
-    const color = isGod ? 'rgba(71, 233, 210, 0.94)' : 'rgba(255, 75, 114, 0.94)';
-    const blurPx = (effectiveProgress * 15).toFixed(1);
-    const opacity = (effectiveProgress * 0.96).toFixed(2);
-    const brightness = (1 - effectiveProgress * 0.22).toFixed(2);
+  const schedule = [
+    { key: '2', delayMs: 1000, hex: 0xff6d5a },
+    { key: '1', delayMs: 2000, hex: 0xff4fa3 },
+    { key: 'go', delayMs: 3000, hex: 0x47e9d2 }
+  ];
 
-    document.body.classList.add('is-card-swiping');
-    document.documentElement.style.setProperty('--swipe-blur-px', `${blurPx}px`);
-    document.documentElement.style.setProperty('--swipe-brightness', brightness);
-    document.body.style.setProperty('--swipe-blur-px', `${blurPx}px`);
-    document.body.style.setProperty('--swipe-brightness', brightness);
-
-    if (vignetteEl) {
-      vignetteEl.style.setProperty('--swipe-vignette-color', color);
-      vignetteEl.style.setProperty('--swipe-vignette-opacity', opacity);
-    }
+  for (const step of schedule) {
+    const timerId = setTimeout(() => {
+      this.#renderLaunchCountdownStep(overlay, step.key, step.hex);
+    }, step.delayMs);
+    this.launchTimers.push(timerId);
   }
 
-  #onCardDragEnd() {
-    if (document.body.classList.contains('is-swipe-feedback')) return;
-    document.body.classList.remove('is-card-swiping');
-    document.documentElement.style.removeProperty('--swipe-blur-px');
-    document.documentElement.style.removeProperty('--swipe-brightness');
-    document.body.style.removeProperty('--swipe-blur-px');
-    document.body.style.removeProperty('--swipe-brightness');
-    const vignetteEl = document.querySelector('#swipe-vignette-overlay');
-    if (vignetteEl) {
-      vignetteEl.style.setProperty('--swipe-vignette-opacity', '0');
-    }
+  const finishTimer = setTimeout(() => {
+    if (!this.isCountdownLaunching) return;
+    this.#clearLaunchTimers({ resetOverlay: true });
+    void this.#commitStartGameMode(modeId, prebuilt);
+  }, 3500);
+  this.launchTimers.push(finishTimer);
+}
+
+#onCardDragProgress(info, currentVm = null) {
+  if (document.body.classList.contains('is-swipe-feedback')) return;
+  const { dx, isRight } = info;
+  const vignetteEl = document.querySelector('#swipe-vignette-overlay');
+  const absDx = Math.abs(dx);
+  const startThreshold = 30;
+  const maxThreshold = 95;
+
+  if (absDx < startThreshold) {
+    this.#onCardDragEnd();
+    return;
   }
+
+  const isSpecialEvent = Boolean(
+    currentVm?.isEventActivation ||
+    currentVm?.card?.tipo === 'eventos especiales'
+  );
+
+  const effectiveProgress = Math.min(1, (absDx - startThreshold) / (maxThreshold - startThreshold));
+  const isGod = isSpecialEvent ? true : isRight;
+  const color = isGod ? 'rgba(71, 233, 210, 0.94)' : 'rgba(255, 75, 114, 0.94)';
+  const blurPx = (effectiveProgress * 15).toFixed(1);
+  const opacity = (effectiveProgress * 0.96).toFixed(2);
+  const brightness = (1 - effectiveProgress * 0.22).toFixed(2);
+
+  document.body.classList.add('is-card-swiping');
+  document.documentElement.style.setProperty('--swipe-blur-px', `${blurPx}px`);
+  document.documentElement.style.setProperty('--swipe-brightness', brightness);
+  document.body.style.setProperty('--swipe-blur-px', `${blurPx}px`);
+  document.body.style.setProperty('--swipe-brightness', brightness);
+
+  if (vignetteEl) {
+    vignetteEl.style.setProperty('--swipe-vignette-color', color);
+    vignetteEl.style.setProperty('--swipe-vignette-opacity', opacity);
+  }
+}
+
+#onCardDragEnd() {
+  if (document.body.classList.contains('is-swipe-feedback')) return;
+  document.body.classList.remove('is-card-swiping');
+  document.documentElement.style.removeProperty('--swipe-blur-px');
+  document.documentElement.style.removeProperty('--swipe-brightness');
+  document.body.style.removeProperty('--swipe-blur-px');
+  document.body.style.removeProperty('--swipe-brightness');
+  const vignetteEl = document.querySelector('#swipe-vignette-overlay');
+  if (vignetteEl) {
+    vignetteEl.style.setProperty('--swipe-vignette-opacity', '0');
+  }
+}
 
   async #triggerSwipeFeedback(type = 'god') {
-    const isGod = type === 'god';
-    const color = isGod ? 'rgba(71, 233, 210, 0.96)' : 'rgba(255, 75, 114, 0.96)';
-    const vignetteEl = document.querySelector('#swipe-vignette-overlay');
-    const feedbackOverlay = document.querySelector('#swipe-feedback-overlay');
+  const isGod = type === 'god';
+  const color = isGod ? 'rgba(71, 233, 210, 0.96)' : 'rgba(255, 75, 114, 0.96)';
+  const vignetteEl = document.querySelector('#swipe-vignette-overlay');
+  const feedbackOverlay = document.querySelector('#swipe-feedback-overlay');
 
-    document.body.classList.remove('is-card-swiping');
-    document.body.classList.add('is-swipe-feedback');
-    document.documentElement.style.setProperty('--swipe-blur-px', '14px');
-    document.documentElement.style.setProperty('--swipe-brightness', '0.78');
-    document.body.style.setProperty('--swipe-blur-px', '14px');
-    document.body.style.setProperty('--swipe-brightness', '0.78');
-    if (vignetteEl) {
-      vignetteEl.style.setProperty('--swipe-vignette-color', color);
-      vignetteEl.style.setProperty('--swipe-vignette-opacity', '1');
-    }
+  document.body.classList.remove('is-card-swiping');
+  document.body.classList.add('is-swipe-feedback');
+  document.documentElement.style.setProperty('--swipe-blur-px', '14px');
+  document.documentElement.style.setProperty('--swipe-brightness', '0.78');
+  document.body.style.setProperty('--swipe-blur-px', '14px');
+  document.body.style.setProperty('--swipe-brightness', '0.78');
+  if (vignetteEl) {
+    vignetteEl.style.setProperty('--swipe-vignette-color', color);
+    vignetteEl.style.setProperty('--swipe-vignette-opacity', '1');
+  }
 
-    if (isGod) {
-      audioFx.god();
-    } else {
-      audioFx.bad();
-    }
+  if (isGod) {
+    audioFx.god();
+  } else {
+    audioFx.bad();
+  }
 
-    stage3d.pulse(isGod ? 0x47e9d2 : 0xff4b72);
+  stage3d.pulse(isGod ? 0x47e9d2 : 0xff4b72);
 
-    if (feedbackOverlay) {
-      const src = SWIPE_FEEDBACK_MEDIA[type];
-      feedbackOverlay.innerHTML = `
+  if (feedbackOverlay) {
+    const src = SWIPE_FEEDBACK_MEDIA[type];
+    feedbackOverlay.innerHTML = `
         <div class="swipe-feedback-stage">
           <div class="swipe-feedback-halo ${isGod ? 'is-god' : 'is-bad'}" aria-hidden="true"></div>
           <div class="swipe-feedback-shadow" aria-hidden="true"></div>
@@ -5189,1069 +5192,1081 @@ export class AppShell {
           />
         </div>
       `;
-      feedbackOverlay.hidden = false;
-    }
-
-    await new Promise((resolve) => setTimeout(resolve, 720));
-
-    if (feedbackOverlay) {
-      feedbackOverlay.hidden = true;
-      feedbackOverlay.innerHTML = '';
-    }
-    document.body.classList.remove('is-swipe-feedback');
-    document.documentElement.style.removeProperty('--swipe-blur-px');
-    document.documentElement.style.removeProperty('--swipe-brightness');
-    document.body.style.removeProperty('--swipe-blur-px');
-    document.body.style.removeProperty('--swipe-brightness');
-    if (vignetteEl) {
-      vignetteEl.style.setProperty('--swipe-vignette-opacity', '0');
-    }
+    feedbackOverlay.hidden = false;
   }
 
-  #handleRollDice(vm, animKey) {
-    if (this.diceRolling || this.diceRolledForCardKey[animKey]) return;
-    this.diceRolling = true;
-    audioFx.tap();
-    const diceImg = document.querySelector('#active-dice-img');
-    const diceWidget = document.querySelector('.card-dice-widget');
-    const rollBtn = document.querySelector('#roll-dice-btn');
-    if (rollBtn) {
-      rollBtn.disabled = true;
-      rollBtn.style.display = 'none';
-    }
-    if (diceWidget) {
-      diceWidget.classList.add('is-rolling');
-    }
+  await new Promise((resolve) => setTimeout(resolve, 720));
 
-    let elapsed = 0;
-    const intervalMs = 75;
-    const totalMs = 3000;
-
-    this.diceRollInterval = setInterval(() => {
-      elapsed += intervalMs;
-      this.diceCurrentFace = (this.diceCurrentFace % 6) + 1;
-      if (diceImg) {
-        diceImg.src = `./assets/icons/dice/dice_${this.diceCurrentFace}.svg`;
-      }
-
-      if (elapsed >= totalMs) {
-        clearInterval(this.diceRollInterval);
-        this.diceRollInterval = null;
-        this.diceRolling = false;
-
-        const finalFace = Math.floor(Math.random() * 6) + 1;
-        this.diceCurrentFace = finalFace;
-        this.diceRolledForCardKey[animKey] = { value: finalFace };
-
-        const threshold = vm?.diceConfig?.threshold ?? 3;
-        const isSafe = finalFace > threshold;
-
-        if (isSafe) {
-          audioFx.playFeedback?.('god');
-        } else {
-          audioFx.playFeedback?.('bad');
-        }
-
-        this.render();
-      }
-    }, intervalMs);
+  if (feedbackOverlay) {
+    feedbackOverlay.hidden = true;
+    feedbackOverlay.innerHTML = '';
   }
+  document.body.classList.remove('is-swipe-feedback');
+  document.documentElement.style.removeProperty('--swipe-blur-px');
+  document.documentElement.style.removeProperty('--swipe-brightness');
+  document.body.style.removeProperty('--swipe-blur-px');
+  document.body.style.removeProperty('--swipe-brightness');
+  if (vignetteEl) {
+    vignetteEl.style.setProperty('--swipe-vignette-opacity', '0');
+  }
+}
+
+#handleRollDice(vm, animKey) {
+  if (this.diceRolling || this.diceRolledForCardKey[animKey]) return;
+  this.diceRolling = true;
+  audioFx.tap();
+  const diceImg = document.querySelector('#active-dice-img');
+  const diceWidget = document.querySelector('.card-dice-widget');
+  const rollBtn = document.querySelector('#roll-dice-btn');
+  if (rollBtn) {
+    rollBtn.disabled = true;
+    rollBtn.style.display = 'none';
+  }
+  if (diceWidget) {
+    diceWidget.classList.add('is-rolling');
+  }
+
+  let elapsed = 0;
+  const intervalMs = 75;
+  const totalMs = 3000;
+
+  this.diceRollInterval = setInterval(() => {
+    elapsed += intervalMs;
+    this.diceCurrentFace = (this.diceCurrentFace % 6) + 1;
+    if (diceImg) {
+      diceImg.src = `./assets/icons/dice/dice_${this.diceCurrentFace}.svg`;
+    }
+
+    if (elapsed >= totalMs) {
+      clearInterval(this.diceRollInterval);
+      this.diceRollInterval = null;
+      this.diceRolling = false;
+
+      const finalFace = Math.floor(Math.random() * 6) + 1;
+      this.diceCurrentFace = finalFace;
+      this.diceRolledForCardKey[animKey] = { value: finalFace };
+
+      const threshold = vm?.diceConfig?.threshold ?? 3;
+      const isSafe = finalFace > threshold;
+
+      if (isSafe) {
+        audioFx.playFeedback?.('god');
+      } else {
+        audioFx.playFeedback?.('bad');
+      }
+
+      this.render();
+    }
+  }, intervalMs);
+}
 
   async #advanceCard({ skipped = false, fromSwipe = false, feedbackType = null } = {}) {
-    if (this.isAdvancingCard) return;
-    const state = store.getState();
-    const { activeGameModeId, localGame, localPlayers } = state;
-    const adapter = getModeAdapter(activeGameModeId);
-    const currentVm = adapter?.buildTurnViewModel?.(localGame?.session, localPlayers);
-    if (!currentVm) return;
+  if (this.isAdvancingCard) return;
+  const state = store.getState();
+  const { activeGameModeId, localGame, localPlayers } = state;
+  const adapter = getModeAdapter(activeGameModeId);
+  const currentVm = adapter?.buildTurnViewModel?.(localGame?.session, localPlayers);
+  if (!currentVm) return;
 
-    const card = currentVm?.card || null;
-    const animKey = `${currentVm?.turnNumber || 0}-${card?.id || ''}`;
-    if (currentVm?.isDiceCard && !this.diceRolledForCardKey[animKey]) {
-      audioFx.tap();
-      visualFx.showToast('¡Debes lanzar el dado primero! 🎲');
-      return;
-    }
+  const card = currentVm?.card || null;
+  const animKey = `${currentVm?.turnNumber || 0}-${card?.id || ''}`;
+  if (currentVm?.isDiceCard && !this.diceRolledForCardKey[animKey]) {
+    audioFx.tap();
+    visualFx.showToast('¡Debes lanzar el dado primero! 🎲');
+    return;
+  }
 
-    if (skipped && !currentVm.canSkip) {
-      this.#notifyBlockedTurn(currentVm, 'left');
-      return;
-    }
-    if (!skipped && !currentVm.canComplete) {
-      this.#notifyBlockedTurn(currentVm, 'right');
-      return;
-    }
+  if (skipped && !currentVm.canSkip) {
+    this.#notifyBlockedTurn(currentVm, 'left');
+    return;
+  }
+  if (!skipped && !currentVm.canComplete) {
+    this.#notifyBlockedTurn(currentVm, 'right');
+    return;
+  }
 
-    this.isAdvancingCard = true;
-    this.cardAnswerModal = null;
-    try {
-      const isEvent = Boolean(currentVm.isEventActivation);
-      const effectiveSkipped = isEvent ? false : skipped;
-      const effectType = feedbackType || (isEvent ? 'god' : effectiveSkipped ? 'bad' : 'god');
-      await this.#triggerSwipeFeedback(effectType);
+  this.isAdvancingCard = true;
+  this.cardAnswerModal = null;
+  try {
+    const isEvent = Boolean(currentVm.isEventActivation);
+    const effectiveSkipped = isEvent ? false : skipped;
+    const effectType = feedbackType || (isEvent ? 'god' : effectiveSkipped ? 'bad' : 'god');
+    await this.#triggerSwipeFeedback(effectType);
 
-      const targetTurns = currentVm.targetTurns || 45;
-      if (currentVm.turnNumber >= targetTurns) {
-        audioFx.go();
-        visualFx.triggerConfetti('party');
-        stage3d.pulse(0x47e9d2);
-        store.setState({
-          localGame: {
-            ...localGame,
-            finished: true
-          }
-        });
-        return;
-      }
-
-      const result = effectiveSkipped ? 'skipped' : 'completed';
-      const { session: nextSession } = await adapter.advanceTurn(
-        localGame.session,
-        result,
-        localPlayers
-      );
-      const nextVm = adapter.buildTurnViewModel(nextSession, localPlayers);
-
-      const cardFxMode = nextVm?.fxMode || 'ambient';
-      const nextAccent = SPECIAL_CARD_FX[cardFxMode]?.accent || nextVm?.typeMeta?.color;
-      stage3d.pulse(SPECIAL_CARD_FX[cardFxMode]?.hex ?? nextVm?.typeMeta?.hex ?? 0xff4fa3);
-      if (cardFxMode === 'ambient' && nextAccent) {
-        visualFx.triggerScreenFlash(nextAccent);
-      }
-
+    const targetTurns = currentVm.targetTurns || 45;
+    if (currentVm.turnNumber >= targetTurns) {
+      audioFx.go();
+      visualFx.triggerConfetti('party');
+      stage3d.pulse(0x47e9d2);
       store.setState({
         localGame: {
           ...localGame,
-          modeId: activeGameModeId,
-          session: nextSession,
-          skippedCount: (localGame.skippedCount || 0) + (skipped ? 1 : 0),
-          lastOptionalNotice: null,
-          lastSocialForfeitNotice: null
+          finished: true
         }
       });
-    } catch (err) {
-      console.error('[Previa Mix] Error avanzando turno:', err);
-      visualFx.showToast(t('catalogLoadErrorToast', state.lang));
-    } finally {
-      if (this.diceRollInterval) {
-        clearInterval(this.diceRollInterval);
-        this.diceRollInterval = null;
-      }
-      this.diceRolling = false;
-      this.isAdvancingCard = false;
+      return;
     }
+
+    const result = effectiveSkipped ? 'skipped' : 'completed';
+    const { session: nextSession } = await adapter.advanceTurn(
+      localGame.session,
+      result,
+      localPlayers
+    );
+    const nextVm = adapter.buildTurnViewModel(nextSession, localPlayers);
+
+    const cardFxMode = nextVm?.fxMode || 'ambient';
+    const nextAccent = SPECIAL_CARD_FX[cardFxMode]?.accent || nextVm?.typeMeta?.color;
+    stage3d.pulse(SPECIAL_CARD_FX[cardFxMode]?.hex ?? nextVm?.typeMeta?.hex ?? 0xff4fa3);
+    if (cardFxMode === 'ambient' && nextAccent) {
+      visualFx.triggerScreenFlash(nextAccent);
+    }
+
+    store.setState({
+      localGame: {
+        ...localGame,
+        modeId: activeGameModeId,
+        session: nextSession,
+        skippedCount: (localGame.skippedCount || 0) + (skipped ? 1 : 0),
+        lastOptionalNotice: null,
+        lastSocialForfeitNotice: null
+      }
+    });
+  } catch (err) {
+    console.error('[Previa Mix] Error avanzando turno:', err);
+    visualFx.showToast(t('catalogLoadErrorToast', state.lang));
+  } finally {
+    if (this.diceRollInterval) {
+      clearInterval(this.diceRollInterval);
+      this.diceRollInterval = null;
+    }
+    this.diceRolling = false;
+    this.isAdvancingCard = false;
   }
+}
 
   async #onAction(el) {
-    if (this.isTransitioning || this.isCountdownLaunching || this.isPreparingLaunch) return;
+  if (this.isTransitioning || this.isCountdownLaunching || this.isPreparingLaunch) return;
 
-    const action = el.dataset.action;
-    const state = store.getState();
-    const { lang } = state;
+  const action = el.dataset.action;
+  const state = store.getState();
+  const { lang } = state;
 
-    if (action === 'open-card-answer' || action === 'toggle-card-answer') {
-      audioFx.tap();
-      const answer = el.dataset.answer || el.closest('[data-answer]')?.dataset.answer || '';
-      if (answer) {
-        this.cardAnswerModal = { answer };
-        this.render();
-      }
-      return;
-    }
-
-    if (action === 'close-card-answer') {
-      audioFx.tap();
-      this.cardAnswerModal = null;
+  if (action === 'open-card-answer' || action === 'toggle-card-answer') {
+    audioFx.tap();
+    const answer = el.dataset.answer || el.closest('[data-answer]')?.dataset.answer || '';
+    if (answer) {
+      this.cardAnswerModal = { answer };
       this.render();
+    }
+    return;
+  }
+
+  if (action === 'close-card-answer') {
+    audioFx.tap();
+    this.cardAnswerModal = null;
+    this.render();
+    return;
+  }
+
+  if (action === 'pm-toggle-type') {
+    const typeKey = el.dataset.type;
+    if (!typeKey || !PREVIA_MIX_TYPE_CONFIG[typeKey]) return;
+    audioFx.tap();
+
+    if (typeKey === 'hot') {
+      await this.#setHotMode(!this.#isHotModeActive(state));
       return;
     }
 
-    if (action === 'pm-toggle-type') {
-      const typeKey = el.dataset.type;
-      if (!typeKey || !PREVIA_MIX_TYPE_CONFIG[typeKey]) return;
-      audioFx.tap();
-
-      if (typeKey === 'hot') {
-        await this.#setHotMode(!this.#isHotModeActive(state));
+    const prevTypes = state.previaMixConfig?.enabledTypes || [];
+    const hasType = prevTypes.includes(typeKey);
+    if (hasType) {
+      const candidate = prevTypes.filter((tKey) => tKey !== typeKey);
+      if (!candidate.some((tKey) => tKey !== 'eventos especiales' && tKey !== 'bonus')) {
+        visualFx.showToast(t('pmNeedOneRegularTypeToast', lang));
         return;
       }
+      store.updatePreviaMixConfig({ enabledTypes: candidate });
+    } else {
+      store.updatePreviaMixConfig({ enabledTypes: [...prevTypes, typeKey] });
+    }
+    return;
+  }
 
-      const prevTypes = state.previaMixConfig?.enabledTypes || [];
-      const hasType = prevTypes.includes(typeKey);
-      if (hasType) {
-        const candidate = prevTypes.filter((tKey) => tKey !== typeKey);
-        if (!candidate.some((tKey) => tKey !== 'eventos especiales' && tKey !== 'bonus')) {
-          visualFx.showToast(t('pmNeedOneRegularTypeToast', lang));
-          return;
-        }
-        store.updatePreviaMixConfig({ enabledTypes: candidate });
-      } else {
-        store.updatePreviaMixConfig({ enabledTypes: [...prevTypes, typeKey] });
+  if (action === 'open-mode-settings-modal') {
+    audioFx.tap();
+    this.modeSettingsModalOpen = true;
+    this.render();
+    return;
+  }
+
+  if (action === 'close-mode-settings-modal') {
+    audioFx.tap();
+    this.modeSettingsModalOpen = false;
+    this.render();
+    return;
+  }
+
+  if (action === 'vor-choose-truth' || action === 'vor-choose-dare') {
+    const choice = action === 'vor-choose-truth' ? 'verdad' : 'reto';
+    const session = state.localGame?.session;
+    if (!session) return;
+    audioFx.tap();
+    const adapter = getModeAdapter('verdad-o-reto');
+    const updatedSession = await adapter.chooseChoice(session, choice);
+    store.setState({
+      localGame: {
+        ...state.localGame,
+        session: updatedSession
       }
-      return;
-    }
+    });
+    stage3d.pulse(choice === 'verdad' ? 0x00e5ff : 0xff007f);
+    return;
+  }
 
-    if (action === 'open-mode-settings-modal') {
-      audioFx.tap();
-      this.modeSettingsModalOpen = true;
-      this.render();
-      return;
-    }
+  if (action === 'vor-set-turn-order') {
+    const order = el.dataset.order || 'secuencial';
+    audioFx.tap();
+    store.updateVerdadORetoConfig({ turnOrder: order });
+    this.render();
+    return;
+  }
 
-    if (action === 'close-mode-settings-modal') {
-      audioFx.tap();
-      this.modeSettingsModalOpen = false;
-      this.render();
-      return;
-    }
+  if (action === 'vor-adjust-max-truths') {
+    const delta = Number(el.dataset.delta) || 0;
+    audioFx.tap();
+    const current = state.verdadORetoConfig?.maxConsecutiveTruths ?? 3;
+    let next = current + delta;
+    if (next < 0) next = 5;
+    if (next > 5) next = 0;
+    store.updateVerdadORetoConfig({ maxConsecutiveTruths: next });
+    this.render();
+    return;
+  }
 
-    if (action === 'vor-choose-truth' || action === 'vor-choose-dare') {
-      const choice = action === 'vor-choose-truth' ? 'verdad' : 'reto';
-      const session = state.localGame?.session;
-      if (!session) return;
-      audioFx.tap();
-      const adapter = getModeAdapter('verdad-o-reto');
-      const updatedSession = await adapter.chooseChoice(session, choice);
-      store.setState({
-        localGame: {
-          ...state.localGame,
-          session: updatedSession
-        }
-      });
-      stage3d.pulse(choice === 'verdad' ? 0x00e5ff : 0xff007f);
-      return;
+  if (action === 'cultura-set-timer-mode') {
+    const timer = el.dataset.timer || 'infinite';
+    audioFx.tap();
+    store.updateCulturaChupisticaConfig({ timerMode: timer });
+    const session = state.localGame?.session;
+    if (session && session.config) {
+      session.config.timerMode = timer;
     }
+    this.render();
+    return;
+  }
 
-    if (action === 'vor-set-turn-order') {
-      const order = el.dataset.order || 'secuencial';
-      audioFx.tap();
-      store.updateVerdadORetoConfig({ turnOrder: order });
-      this.render();
-      return;
+  if (action === 'cultura-adjust-custom-timer') {
+    const delta = Number(el.dataset.delta) || 0;
+    audioFx.tap();
+    const current = Math.max(1, Math.min(60, Number(state.culturaChupisticaConfig?.customTimerSeconds) || 20));
+    let next = current + delta;
+    if (next < 1) next = 1;
+    if (next > 60) next = 60;
+    store.updateCulturaChupisticaConfig({ customTimerSeconds: next }, { silent: true });
+    const session = state.localGame?.session;
+    if (session && session.config) {
+      session.config.customTimerSeconds = next;
     }
+    const inputEl = document.querySelector('#cultura-custom-timer-input');
+    if (inputEl) inputEl.value = String(next);
+    const pillEl = document.querySelector('.cultura-custom-timer-box .settings-val-pill');
+    if (pillEl) pillEl.textContent = `${next}s`;
+    return;
+  }
 
-    if (action === 'vor-adjust-max-truths') {
-      const delta = Number(el.dataset.delta) || 0;
-      audioFx.tap();
-      const current = state.verdadORetoConfig?.maxConsecutiveTruths ?? 3;
-      let next = current + delta;
-      if (next < 0) next = 5;
-      if (next > 5) next = 0;
-      store.updateVerdadORetoConfig({ maxConsecutiveTruths: next });
-      this.render();
-      return;
-    }
+  if (action === 'cultura-pass-none') {
+    const session = state.localGame?.session;
+    if (!session) return;
+    this.#advanceCulturaNoFails(session);
+    return;
+  }
 
-    if (action === 'cultura-set-timer-mode') {
-      const timer = el.dataset.timer || 'infinite';
-      audioFx.tap();
-      store.updateCulturaChupisticaConfig({ timerMode: timer });
-      const session = state.localGame?.session;
-      if (session && session.config) {
-        session.config.timerMode = timer;
+  if (action === 'cultura-open-fail-modal') {
+    const session = state.localGame?.session;
+    if (!session) return;
+    audioFx.bad();
+    this.#stopCulturaTimer();
+    const adapter = getModeAdapter('cultura-chupistica');
+    adapter?.openFailModal(session);
+    store.setState({
+      localGame: {
+        ...state.localGame,
+        session
       }
-      this.render();
-      return;
-    }
+    });
+    return;
+  }
 
-    if (action === 'cultura-adjust-custom-timer') {
-      const delta = Number(el.dataset.delta) || 0;
-      audioFx.tap();
-      const current = Math.max(1, Math.min(60, Number(state.culturaChupisticaConfig?.customTimerSeconds) || 20));
-      let next = current + delta;
-      if (next < 1) next = 1;
-      if (next > 60) next = 60;
-      store.updateCulturaChupisticaConfig({ customTimerSeconds: next }, { silent: true });
-      const session = state.localGame?.session;
-      if (session && session.config) {
-        session.config.customTimerSeconds = next;
+  if (action === 'cultura-cancel-fail') {
+    const session = state.localGame?.session;
+    if (!session) return;
+    audioFx.tap();
+    const adapter = getModeAdapter('cultura-chupistica');
+    adapter?.cancelFailModal(session);
+    this.#startCulturaTimerIfNeeded(session);
+    store.setState({
+      localGame: {
+        ...state.localGame,
+        session
       }
-      const inputEl = document.querySelector('#cultura-custom-timer-input');
-      if (inputEl) inputEl.value = String(next);
-      const pillEl = document.querySelector('.cultura-custom-timer-box .settings-val-pill');
-      if (pillEl) pillEl.textContent = `${next}s`;
-      return;
-    }
+    });
+    return;
+  }
 
-    if (action === 'cultura-pass-none') {
-      const session = state.localGame?.session;
-      if (!session) return;
-      this.#advanceCulturaNoFails(session);
-      return;
-    }
+  if (action === 'cultura-select-failed-player') {
+    const playerId = el.dataset.playerId;
+    const session = state.localGame?.session;
+    if (!session || !playerId) return;
+    audioFx.bad();
+    stage3d.pulse(0xff3b30);
+    const adapter = getModeAdapter('cultura-chupistica');
+    adapter?.recordFail(session, playerId, state.localPlayers);
+    store.setState({
+      localGame: {
+        ...state.localGame,
+        session
+      }
+    });
+    return;
+  }
 
-    if (action === 'cultura-open-fail-modal') {
-      const session = state.localGame?.session;
-      if (!session) return;
-      audioFx.bad();
-      this.#stopCulturaTimer();
-      const adapter = getModeAdapter('cultura-chupistica');
-      adapter?.openFailModal(session);
-      store.setState({
-        localGame: {
-          ...state.localGame,
-          session
-        }
-      });
-      return;
-    }
-
-    if (action === 'cultura-cancel-fail') {
-      const session = state.localGame?.session;
-      if (!session) return;
-      audioFx.tap();
-      const adapter = getModeAdapter('cultura-chupistica');
-      adapter?.cancelFailModal(session);
+  if (action === 'cultura-next-round' || action === 'cultura-next-topic') {
+    const session = state.localGame?.session;
+    if (!session) return;
+    audioFx.go();
+    stage3d.pulse(0x47e9d2);
+    const adapter = getModeAdapter('cultura-chupistica');
+    adapter?.advanceToNextRound(session, state.localPlayers);
+    if (session.roundState === 'game_over') {
+      audioFx.partyBurst();
+      visualFx.triggerConfetti('party');
+    } else {
       this.#startCulturaTimerIfNeeded(session);
-      store.setState({
-        localGame: {
-          ...state.localGame,
-          session
-        }
-      });
-      return;
     }
-
-    if (action === 'cultura-select-failed-player') {
-      const playerId = el.dataset.playerId;
-      const session = state.localGame?.session;
-      if (!session || !playerId) return;
-      audioFx.bad();
-      stage3d.pulse(0xff3b30);
-      const adapter = getModeAdapter('cultura-chupistica');
-      adapter?.recordFail(session, playerId, state.localPlayers);
-      store.setState({
-        localGame: {
-          ...state.localGame,
-          session
-        }
-      });
-      return;
-    }
-
-    if (action === 'cultura-next-round' || action === 'cultura-next-topic') {
-      const session = state.localGame?.session;
-      if (!session) return;
-      audioFx.go();
-      stage3d.pulse(0x47e9d2);
-      const adapter = getModeAdapter('cultura-chupistica');
-      adapter?.advanceToNextRound(session, state.localPlayers);
-      if (session.roundState === 'game_over') {
-        audioFx.partyBurst();
-        visualFx.triggerConfetti('party');
-      } else {
-        this.#startCulturaTimerIfNeeded(session);
+    store.setState({
+      localGame: {
+        ...state.localGame,
+        session
       }
-      store.setState({
-        localGame: {
-          ...state.localGame,
-          session
-        }
-      });
-      return;
-    }
+    });
+    return;
+  }
 
-    if (action === 'cultura-toggle-scoreboard') {
-      audioFx.tap();
-      this.culturaScoreboardOpen = !this.culturaScoreboardOpen;
-      this.render();
-      return;
-    }
+  if (action === 'cultura-toggle-scoreboard') {
+    audioFx.tap();
+    this.culturaScoreboardOpen = !this.culturaScoreboardOpen;
+    this.render();
+    return;
+  }
 
-    if (action === 'cultura-close-scoreboard') {
-      audioFx.tap();
-      this.culturaScoreboardOpen = false;
-      this.render();
-      return;
-    }
+  if (action === 'cultura-close-scoreboard') {
+    audioFx.tap();
+    this.culturaScoreboardOpen = false;
+    this.render();
+    return;
+  }
 
-    if (action === 'adjust-target-cards') {
-      const delta = Number(el.dataset.delta) || 0;
-      audioFx.tap();
-      const modeId = state.activeGameModeId;
-      let current = 45;
-      if (modeId === 'yo-nunca') {
-        current = Number(state.yoNuncaConfig?.targetTurns) || 45;
-      } else if (modeId === 'quien') {
-        current = Number(state.quienConfig?.targetTurns) || 45;
-      } else if (modeId === 'hot') {
-        current = Number(state.hotConfig?.targetTurns) || 45;
-      } else if (modeId === 'verdad-o-reto') {
-        current = Number(state.verdadORetoConfig?.targetTurns) || 45;
-      } else if (modeId === 'cultura-chupistica') {
-        current = Number(state.culturaChupisticaConfig?.targetTurns) || 30;
-      } else {
-        current = Number(state.previaMixConfig?.targetTurns) || 45;
-      }
-      const next = Math.max(5, Math.min(900, current + delta));
-      if (modeId === 'yo-nunca') {
-        store.updateYoNuncaConfig({ targetTurns: next }, { silent: true });
-      } else if (modeId === 'quien') {
-        store.updateQuienConfig({ targetTurns: next }, { silent: true });
-      } else if (modeId === 'hot') {
-        store.updateHotConfig({ targetTurns: next }, { silent: true });
-      } else if (modeId === 'verdad-o-reto') {
-        store.updateVerdadORetoConfig({ targetTurns: next }, { silent: true });
-      } else if (modeId === 'cultura-chupistica') {
-        store.updateCulturaChupisticaConfig({ targetTurns: next }, { silent: true });
-      } else {
-        store.updatePreviaMixConfig({ targetTurns: next }, { silent: true });
-      }
-      const inputEl = document.querySelector('#mode-target-cards-input');
-      if (inputEl) inputEl.value = String(next);
-      const pillEl = document.querySelector('#mode-cards-val-pill');
-      if (pillEl) pillEl.textContent = `${next} ${t('cardsUnit', lang)}`;
-      return;
+  if (action === 'adjust-target-cards') {
+    const delta = Number(el.dataset.delta) || 0;
+    audioFx.tap();
+    const modeId = state.activeGameModeId;
+    let current = 45;
+    if (modeId === 'yo-nunca') {
+      current = Number(state.yoNuncaConfig?.targetTurns) || 45;
+    } else if (modeId === 'quien') {
+      current = Number(state.quienConfig?.targetTurns) || 45;
+    } else if (modeId === 'hot') {
+      current = Number(state.hotConfig?.targetTurns) || 45;
+    } else if (modeId === 'verdad-o-reto') {
+      current = Number(state.verdadORetoConfig?.targetTurns) || 45;
+    } else if (modeId === 'cultura-chupistica') {
+      current = Number(state.culturaChupisticaConfig?.targetTurns) || 30;
+    } else {
+      current = Number(state.previaMixConfig?.targetTurns) || 45;
     }
-
-    if (action === 'toggle-locale-dropdown') {
-      audioFx.tap();
-      this.localeDropdownOpen = !this.localeDropdownOpen;
-      this.render();
-      return;
+    const next = Math.max(5, Math.min(900, current + delta));
+    if (modeId === 'yo-nunca') {
+      store.updateYoNuncaConfig({ targetTurns: next }, { silent: true });
+    } else if (modeId === 'quien') {
+      store.updateQuienConfig({ targetTurns: next }, { silent: true });
+    } else if (modeId === 'hot') {
+      store.updateHotConfig({ targetTurns: next }, { silent: true });
+    } else if (modeId === 'verdad-o-reto') {
+      store.updateVerdadORetoConfig({ targetTurns: next }, { silent: true });
+    } else if (modeId === 'cultura-chupistica') {
+      store.updateCulturaChupisticaConfig({ targetTurns: next }, { silent: true });
+    } else {
+      store.updatePreviaMixConfig({ targetTurns: next }, { silent: true });
     }
+    const inputEl = document.querySelector('#mode-target-cards-input');
+    if (inputEl) inputEl.value = String(next);
+    const pillEl = document.querySelector('#mode-cards-val-pill');
+    if (pillEl) pillEl.textContent = `${next} ${t('cardsUnit', lang)}`;
+    return;
+  }
 
-    if (action === 'select-locale-option') {
-      const nextLocale = el.dataset.locale;
-      audioFx.tap();
-      this.localeDropdownOpen = false;
-      await this.#changeGameLocale(nextLocale);
-      return;
-    }
+  if (action === 'toggle-locale-dropdown') {
+    audioFx.tap();
+    this.localeDropdownOpen = !this.localeDropdownOpen;
+    this.render();
+    return;
+  }
 
-    if (action === 'skip-splash') {
-      audioFx.tap();
+  if (action === 'select-locale-option') {
+    const nextLocale = el.dataset.locale;
+    audioFx.tap();
+    this.localeDropdownOpen = false;
+    await this.#changeGameLocale(nextLocale);
+    return;
+  }
+
+  if (action === 'skip-splash') {
+    audioFx.tap();
+    void enterAppFullscreen();
+    this.#navigateWithLoader('home', 'loaderHome', {
+      beforeSwitch: () => ({ splashProgress: 100 })
+    });
+    return;
+  }
+
+  if (action === 'start-from-home') {
+    audioFx.tap();
+    stage3d.pulse(0xff4fa3);
+    if (store.getState().startFullscreen !== false) {
       void enterAppFullscreen();
-      this.#navigateWithLoader('home', 'loaderHome', {
-        beforeSwitch: () => ({ splashProgress: 100 })
-      });
-      return;
     }
+    this.#startPreloaderToPlayers();
+    return;
+  }
 
-    if (action === 'start-from-home') {
-      audioFx.tap();
-      stage3d.pulse(0xff4fa3);
-      if (store.getState().startFullscreen !== false) {
-        void enterAppFullscreen();
-      }
-      this.#startPreloaderToPlayers();
-      return;
-    }
+  if (action === 'exit-to-home') {
+    audioFx.tap();
+    await disableWakeLock();
+    await exitAppFullscreen();
+    this.#navigateWithLoader('home', 'loaderHome', {
+      beforeSwitch: () => ({ localGame: null })
+    });
+    return;
+  }
 
-    if (action === 'exit-to-home') {
-      audioFx.tap();
-      await disableWakeLock();
-      await exitAppFullscreen();
-      this.#navigateWithLoader('home', 'loaderHome', {
-        beforeSwitch: () => ({ localGame: null })
-      });
-      return;
-    }
+  if (action === 'go-home') {
+    audioFx.tap();
+    await disableWakeLock();
+    await exitAppFullscreen();
+    this.#navigateWithLoader('home', 'loaderHome');
+    return;
+  }
 
-    if (action === 'go-home') {
-      audioFx.tap();
-      await disableWakeLock();
-      await exitAppFullscreen();
-      this.#navigateWithLoader('home', 'loaderHome');
-      return;
-    }
-
-    if (action === 'install-pwa-app') {
-      audioFx.tap();
-      const result = await promptPwaInstall();
-      if (result.status === 'accepted' || result.status === 'installed') {
-        visualFx.showToast(t('installSuccessToast', lang));
-        this.render();
-      } else if (result.status === 'unavailable') {
-        visualFx.showToast(
-          t(result.ios ? 'installPromptIosToast' : 'installPromptGenericToast', lang)
-        );
-      }
-      return;
-    }
-
-    if (action === 'open-home-settings') {
-      audioFx.tap();
-      this.localeDropdownOpen = false;
-      this.homeSettingsModalOpen = true;
+  if (action === 'install-pwa-app') {
+    audioFx.tap();
+    const result = await promptPwaInstall();
+    if (result.status === 'accepted' || result.status === 'installed') {
+      visualFx.showToast(t('installSuccessToast', lang));
       this.render();
-      return;
+    } else if (result.status === 'unavailable') {
+      visualFx.showToast(
+        t(result.ios ? 'installPromptIosToast' : 'installPromptGenericToast', lang)
+      );
     }
+    return;
+  }
 
-    if (action === 'close-home-settings') {
+  if (action === 'open-home-settings') {
+    audioFx.tap();
+    this.localeDropdownOpen = false;
+    this.homeSettingsModalOpen = true;
+    this.render();
+    return;
+  }
+
+  if (action === 'close-home-settings') {
+    audioFx.tap();
+    this.localeDropdownOpen = false;
+    this.homeSettingsModalOpen = false;
+    this.render();
+    return;
+  }
+
+  if (action === 'open-coffee-modal') {
+    audioFx.tap();
+    this.coffeeModalOpen = true;
+    this.render();
+    return;
+  }
+
+  if (action === 'close-coffee-modal') {
+    audioFx.tap();
+    this.coffeeModalOpen = false;
+    this.render();
+    return;
+  }
+
+  if (action === 'trigger-coffee-support') {
+    audioFx.tap();
+    visualFx.showToast(t('coffeeThanksToast', lang));
+    this.coffeeModalOpen = false;
+    this.render();
+    return;
+  }
+
+  if (action === 'open-settings-modal') {
+    audioFx.tap();
+    this.cardAnswerModal = null;
+    this.localeDropdownOpen = false;
+    this.settingsModalOpen = true;
+    this.render();
+    return;
+  }
+
+  if (action === 'close-settings-modal') {
+    audioFx.tap();
+    this.localeDropdownOpen = false;
+    this.settingsModalOpen = false;
+    this.render();
+    return;
+  }
+
+  if (action === 'open-credits-modal') {
+    audioFx.tap();
+    this.creditsOpenedFromSettings = this.settingsModalOpen;
+    this.settingsModalOpen = false;
+    this.creditsModalOpen = true;
+    this.render();
+    return;
+  }
+
+  if (action === 'close-credits-modal') {
+    audioFx.tap();
+    this.#closeCreditsModal();
+    return;
+  }
+
+  if (action === 'credits-star-tap') {
+    this.creditsSecretTapCount = (this.creditsSecretTapCount || 0) + 1;
+    if (this.creditsSecretTapTimer) {
+      clearTimeout(this.creditsSecretTapTimer);
+    }
+    this.creditsSecretTapTimer = setTimeout(() => {
+      this.creditsSecretTapCount = 0;
+      this.creditsSecretTapTimer = null;
+    }, 2500);
+
+    if (this.creditsSecretTapCount < 5) {
       audioFx.tap();
-      this.localeDropdownOpen = false;
-      this.homeSettingsModalOpen = false;
-      this.render();
-      return;
-    }
-
-    if (action === 'open-coffee-modal') {
-      audioFx.tap();
-      this.coffeeModalOpen = true;
-      this.render();
-      return;
-    }
-
-    if (action === 'close-coffee-modal') {
-      audioFx.tap();
-      this.coffeeModalOpen = false;
-      this.render();
-      return;
-    }
-
-    if (action === 'trigger-coffee-support') {
-      audioFx.tap();
-      visualFx.showToast(t('coffeeThanksToast', lang));
-      this.coffeeModalOpen = false;
-      this.render();
-      return;
-    }
-
-    if (action === 'open-settings-modal') {
-      audioFx.tap();
-      this.cardAnswerModal = null;
-      this.localeDropdownOpen = false;
-      this.settingsModalOpen = true;
-      this.render();
-      return;
-    }
-
-    if (action === 'close-settings-modal') {
-      audioFx.tap();
-      this.localeDropdownOpen = false;
-      this.settingsModalOpen = false;
-      this.render();
-      return;
-    }
-
-    if (action === 'open-credits-modal') {
-      audioFx.tap();
-      this.creditsOpenedFromSettings = this.settingsModalOpen;
-      this.settingsModalOpen = false;
-      this.creditsModalOpen = true;
-      this.render();
-      return;
-    }
-
-    if (action === 'close-credits-modal') {
-      audioFx.tap();
-      this.#closeCreditsModal();
-      return;
-    }
-
-    if (action === 'credits-star-tap') {
-      this.creditsSecretTapCount = (this.creditsSecretTapCount || 0) + 1;
+      visualFx.animateCardPop(el);
+    } else {
+      this.creditsSecretTapCount = 0;
       if (this.creditsSecretTapTimer) {
         clearTimeout(this.creditsSecretTapTimer);
-      }
-      this.creditsSecretTapTimer = setTimeout(() => {
-        this.creditsSecretTapCount = 0;
         this.creditsSecretTapTimer = null;
-      }, 2500);
-
-      if (this.creditsSecretTapCount < 5) {
-        audioFx.tap();
-        visualFx.animateCardPop(el);
-      } else {
-        this.creditsSecretTapCount = 0;
-        if (this.creditsSecretTapTimer) {
-          clearTimeout(this.creditsSecretTapTimer);
-          this.creditsSecretTapTimer = null;
-        }
-        this.creditsModalOpen = false;
-        this.settingsModalOpen = false;
-        this.homeSettingsModalOpen = false;
-        audioFx.god();
-        visualFx.triggerConfetti('party');
-        visualFx.showToast('✨ ¡Creador de Cartas desbloqueado!');
-        await this.#openCardCreator();
       }
-      return;
-    }
-
-    if (action === 'set-lang') {
-      const nextLocale = el.dataset.locale || el.dataset.lang || 'es';
-      audioFx.tap();
-      if (nextLocale !== state.locale && nextLocale !== state.lang) {
-        await this.#changeGameLocale(nextLocale);
-      }
-      return;
-    }
-
-    if (action === 'set-text-scale') {
-      const nextScale = el.dataset.scale === 'large' ? 'large' : 'normal';
-      audioFx.tap();
-      store.setState({ textScaleMode: nextScale });
-      return;
-    }
-
-    if (action === 'toggle-sound') {
-      const nextEnabled = !state.soundEnabled;
-      store.setState({
-        sfxVolume: nextEnabled ? Math.max(60, state.sfxVolume || 80) : 0
-      });
-      audioFx.syncVolumes();
-      audioFx.tap();
-      return;
-    }
-
-    if (action === 'toggle-text-scale') {
-      audioFx.tap();
-      const nextScale =
-        state.textScaleMode === 'large' || state.textScaleMode === 'xl' ? 'normal' : 'large';
-      store.setState({ textScaleMode: nextScale });
-      visualFx.showToast(
-        t(nextScale === 'large' ? 'toastTextScaleXl' : 'toastTextScaleLarge', lang)
-      );
-      return;
-    }
-
-    if (action === 'toggle-lang') {
-      audioFx.tap();
-      store.setState({ lang: lang === 'es' ? 'en' : 'es' });
-      return;
-    }
-
-    if (action === 'open-new-player-modal') {
-      audioFx.tap();
-      if (state.localPlayers.length >= MAX_PLAYERS) {
-        visualFx.showToast(t('errMaxPlayers', lang));
-        return;
-      }
-      this.editingPlayerId = null;
-      this.draftPlayerName = '';
-      this.draftDrinksAlcohol = state.alcoholMode !== false;
-      this.newPlayerModalOpen = true;
-      this.render();
-      document.querySelector('#new-player-input')?.focus();
-      return;
-    }
-
-    if (action === 'close-new-player-modal') {
-      audioFx.tap();
-      this.newPlayerModalOpen = false;
-      this.editingPlayerId = null;
-      this.render();
-      return;
-    }
-
-    if (action === 'pick-draft-avatar') {
-      audioFx.tap();
-      this.draftAvatarIdx = Number(el.dataset.idx) || 0;
-      this.render();
-      return;
-    }
-
-    if (action === 'save-player') {
-      this.#submitPlayerModal();
-      return;
-    }
-
-    if (action === 'toggle-draft-alcohol') {
-      audioFx.tap();
-      this.draftDrinksAlcohol = !this.draftDrinksAlcohol;
-      this.render();
-      return;
-    }
-
-    if (action === 'toggle-player-alcohol') {
-      audioFx.tap();
-      store.toggleLocalPlayerAlcohol(el.dataset.id);
-      return;
-    }
-
-    if (action === 'remove-player') {
-      audioFx.tap();
-      store.removeLocalPlayer(el.dataset.id);
-      return;
-    }
-
-    if (action === 'continue-to-menu') {
-      audioFx.tap();
-      if (state.localPlayers.length < MIN_PLAYERS) {
-        visualFx.showToast(t('errMinPlayers', lang));
-        return;
-      }
-      stage3d.pulse(0xff4fa3);
-      this.#navigateWithLoader('menu', 'loaderMenu');
-      return;
-    }
-
-    if (action === 'go-players') {
-      audioFx.tap();
-      await disableWakeLock();
-      this.#navigateWithLoader('players', 'loaderPlayers');
-      return;
-    }
-
-    if (action === 'select-game-mode') {
-      const modeId = el.dataset.modeId;
-      const mode = LOCAL_GAME_MODES.find((m) => m.id === modeId);
-      if (!mode || !mode.playable) return;
-
-      if (modeId === 'hot' && state.ageGateStatus === 'minor') {
-        visualFx.showToast(t('ageGateMinorBlockedHot', lang) || 'El Modo Hot +18 requiere confirmación de mayoría de edad.');
-        audioFx.penalty();
-        return;
-      }
-
-      // Precarga proactiva en segundo plano mientras el usuario configura intensidad e instrucciones
-      const adapter = getModeAdapter(modeId);
-      const safeLocale = state.locale || 'es';
-      void adapter?.preloadLocale?.(safeLocale);
-      if (modeId === 'cultura-chupistica') {
-        import('../cards/cards.loader.js').then((m) => m.loadCulturaChupisticaCards(safeLocale)).catch(() => {});
-      } else {
-        import('../cards/cards.loader.js').then((m) => m.loadCardsLocale(safeLocale)).catch(() => {});
-      }
-
-      this.#openModeIntensity(modeId);
-      return;
-    }
-
-    if (action === 'back-from-intensity') {
-      audioFx.tap();
-      this.#navigateWithLoader('menu', 'loaderReturning');
-      return;
-    }
-
-    if (action === 'confirm-intensity-to-instructions') {
-      audioFx.tap();
-      stage3d.pulse(0xff4fa3);
-      this.#openModeInstructions(state.activeGameModeId);
-      return;
-    }
-
-    if (action === 'select-intensity-pill' || action === 'select-intensity-level') {
-      const level = Number(el.dataset.level);
-      audioFx.tap();
-      this.#handleIntensityPillClick(level);
-      return;
-    }
-
-    if (action === 'set-intensity-preset') {
-      const pMin = Number(el.dataset.min);
-      const pMax = Number(el.dataset.max);
-      this.intensityAnchor = null;
-      audioFx.tap();
-      this.#setGameIntensityRange(pMin, pMax, { renderNow: false });
-      return;
-    }
-
-    if (action === 'step-min-intensity') {
-      const delta = Number(el.dataset.delta) || 0;
-      const currentMin = Number(state.minIntensity ?? 1);
-      const currentMax = Number(state.maxIntensity ?? 10);
-      let nextMin = Math.min(10, Math.max(1, currentMin + delta));
-      let nextMax = currentMax;
-      if (nextMin > nextMax) {
-        nextMax = nextMin;
-      }
-      this.intensityAnchor = null;
-      audioFx.tap();
-      this.#setGameIntensityRange(nextMin, nextMax, { renderNow: false });
-      return;
-    }
-
-    if (action === 'step-max-intensity' || action === 'step-intensity-level') {
-      const delta = Number(el.dataset.delta) || 0;
-      const currentMin = Number(state.minIntensity ?? 1);
-      const currentMax = Number(state.maxIntensity ?? 10);
-      let nextMax = Math.min(10, Math.max(1, currentMax + delta));
-      let nextMin = currentMin;
-      if (nextMax < nextMin) {
-        nextMin = nextMax;
-      }
-      this.intensityAnchor = null;
-      audioFx.tap();
-      this.#setGameIntensityRange(nextMin, nextMax, { renderNow: false });
-      return;
-    }
-
-    if (action === 'open-card-creator') {
+      this.creditsModalOpen = false;
+      this.settingsModalOpen = false;
+      this.homeSettingsModalOpen = false;
+      audioFx.god();
+      visualFx.triggerConfetti('party');
+      visualFx.showToast('✨ ¡Creador de Cartas desbloqueado!');
       await this.#openCardCreator();
+    }
+    return;
+  }
+
+  if (action === 'set-lang') {
+    const nextLocale = el.dataset.locale || el.dataset.lang || 'es';
+    audioFx.tap();
+    if (nextLocale !== state.locale && nextLocale !== state.lang) {
+      await this.#changeGameLocale(nextLocale);
+    }
+    return;
+  }
+
+  if (action === 'set-text-scale') {
+    const nextScale = el.dataset.scale === 'large' ? 'large' : 'normal';
+    audioFx.tap();
+    store.setState({ textScaleMode: nextScale });
+    return;
+  }
+
+  if (action === 'toggle-sound') {
+    const nextEnabled = !state.soundEnabled;
+    store.setState({
+      sfxVolume: nextEnabled ? Math.max(60, state.sfxVolume || 80) : 0
+    });
+    audioFx.syncVolumes();
+    audioFx.tap();
+    return;
+  }
+
+  if (action === 'toggle-text-scale') {
+    audioFx.tap();
+    const nextScale =
+      state.textScaleMode === 'large' || state.textScaleMode === 'xl' ? 'normal' : 'large';
+    store.setState({ textScaleMode: nextScale });
+    visualFx.showToast(
+      t(nextScale === 'large' ? 'toastTextScaleXl' : 'toastTextScaleLarge', lang)
+    );
+    return;
+  }
+
+  if (action === 'toggle-lang') {
+    audioFx.tap();
+    store.setState({ lang: lang === 'es' ? 'en' : 'es' });
+    return;
+  }
+
+  if (action === 'open-new-player-modal') {
+    audioFx.tap();
+    if (state.localPlayers.length >= MAX_PLAYERS) {
+      visualFx.showToast(t('errMaxPlayers', lang));
+      return;
+    }
+    this.editingPlayerId = null;
+    this.draftPlayerName = '';
+    this.draftDrinksAlcohol = state.alcoholMode !== false;
+    this.newPlayerModalOpen = true;
+    this.render();
+    document.querySelector('#new-player-input')?.focus();
+    return;
+  }
+
+  if (action === 'close-new-player-modal') {
+    audioFx.tap();
+    this.newPlayerModalOpen = false;
+    this.editingPlayerId = null;
+    this.render();
+    return;
+  }
+
+  if (action === 'pick-draft-avatar') {
+    audioFx.tap();
+    this.draftAvatarIdx = Number(el.dataset.idx) || 0;
+    this.render();
+    return;
+  }
+
+  if (action === 'save-player') {
+    this.#submitPlayerModal();
+    return;
+  }
+
+  if (action === 'toggle-draft-alcohol') {
+    audioFx.tap();
+    this.draftDrinksAlcohol = !this.draftDrinksAlcohol;
+    this.render();
+    return;
+  }
+
+  if (action === 'toggle-player-alcohol') {
+    audioFx.tap();
+    store.toggleLocalPlayerAlcohol(el.dataset.id);
+    return;
+  }
+
+  if (action === 'remove-player') {
+    audioFx.tap();
+    store.removeLocalPlayer(el.dataset.id);
+    return;
+  }
+
+  if (action === 'continue-to-menu') {
+    audioFx.tap();
+    if (state.localPlayers.length < MIN_PLAYERS) {
+      visualFx.showToast(t('errMinPlayers', lang));
+      return;
+    }
+    stage3d.pulse(0xff4fa3);
+    this.#navigateWithLoader('menu', 'loaderMenu');
+    return;
+  }
+
+  if (action === 'go-players') {
+    audioFx.tap();
+    await disableWakeLock();
+    this.#navigateWithLoader('players', 'loaderPlayers');
+    return;
+  }
+
+  if (action === 'select-game-mode') {
+    const modeId = el.dataset.modeId;
+    const mode = LOCAL_GAME_MODES.find((m) => m.id === modeId);
+    if (!mode || !mode.playable) return;
+
+    if (modeId === 'hot' && state.ageGateStatus === 'minor') {
+      visualFx.showToast(t('ageGateMinorBlockedHot', lang) || 'El Modo Hot +18 requiere confirmación de mayoría de edad.');
+      audioFx.penalty();
       return;
     }
 
-    if (action === 'exit-creator-to-menu') {
-      audioFx.tap();
-      creatorController.closeAllModals();
-      await this.#navigateWithLoader('menu', 'loaderReturning');
+    // Precarga proactiva en segundo plano mientras el usuario configura intensidad e instrucciones
+    const adapter = getModeAdapter(modeId);
+    const safeLocale = state.locale || 'es';
+    void adapter?.preloadLocale?.(safeLocale);
+    if (modeId === 'cultura-chupistica') {
+      import('../cards/cards.loader.js').then((m) => m.loadCulturaChupisticaCards(safeLocale)).catch(() => { });
+    } else {
+      import('../cards/cards.loader.js').then((m) => m.loadCardsLocale(safeLocale)).catch(() => { });
+    }
+
+    this.#openModeIntensity(modeId);
+    return;
+  }
+
+  if (action === 'back-from-intensity') {
+    audioFx.tap();
+    this.#navigateWithLoader('menu', 'loaderReturning');
+    return;
+  }
+
+  if (action === 'confirm-intensity-to-instructions') {
+    audioFx.tap();
+    stage3d.pulse(0xff4fa3);
+    this.#openModeInstructions(state.activeGameModeId);
+    return;
+  }
+
+  if (action === 'select-intensity-pill' || action === 'select-intensity-level') {
+    const level = Number(el.dataset.level);
+    audioFx.tap();
+    this.#handleIntensityPillClick(level);
+    return;
+  }
+
+  if (action === 'set-intensity-preset') {
+    const pMin = Number(el.dataset.min);
+    const pMax = Number(el.dataset.max);
+    this.intensityAnchor = null;
+    audioFx.tap();
+    this.#setGameIntensityRange(pMin, pMax, { renderNow: false });
+    return;
+  }
+
+  if (action === 'step-min-intensity') {
+    const delta = Number(el.dataset.delta) || 0;
+    const currentMin = Number(state.minIntensity ?? 1);
+    const currentMax = Number(state.maxIntensity ?? 10);
+    let nextMin = Math.min(10, Math.max(1, currentMin + delta));
+    let nextMax = currentMax;
+    if (nextMin > nextMax) {
+      nextMax = nextMin;
+    }
+    this.intensityAnchor = null;
+    audioFx.tap();
+    this.#setGameIntensityRange(nextMin, nextMax, { renderNow: false });
+    return;
+  }
+
+  if (action === 'step-max-intensity' || action === 'step-intensity-level') {
+    const delta = Number(el.dataset.delta) || 0;
+    const currentMin = Number(state.minIntensity ?? 1);
+    const currentMax = Number(state.maxIntensity ?? 10);
+    let nextMax = Math.min(10, Math.max(1, currentMax + delta));
+    let nextMin = currentMin;
+    if (nextMax < nextMin) {
+      nextMin = nextMax;
+    }
+    this.intensityAnchor = null;
+    audioFx.tap();
+    this.#setGameIntensityRange(nextMin, nextMax, { renderNow: false });
+    return;
+  }
+
+  if (action === 'open-card-creator') {
+    await this.#openCardCreator();
+    return;
+  }
+
+  if (action === 'exit-creator-to-menu') {
+    audioFx.tap();
+    creatorController.closeAllModals();
+    await this.#navigateWithLoader('menu', 'loaderReturning');
+    return;
+  }
+
+  if (action === 'creator-open-create') {
+    audioFx.tap();
+    const res = creatorController.startCreate();
+    if (!res.ok && res.error === 'LIMIT_REACHED') {
+      visualFx.showToast('⚠️ Límite de 500 cartas alcanzado.');
+    } else {
+      this.render();
+    }
+    return;
+  }
+
+  if (action === 'creator-open-edit') {
+    audioFx.tap();
+    const cardId = el.dataset.cardId || el.closest('[data-card-id]')?.dataset.cardId;
+    const res = creatorController.startEdit(cardId);
+    if (res.ok) {
+      this.render();
+    }
+    return;
+  }
+
+  if (action === 'creator-cancel-edit') {
+    audioFx.tap();
+    creatorController.cancelEdit();
+    this.render();
+    return;
+  }
+
+  if (action === 'creator-save-card') {
+    audioFx.tap();
+    const form = document.querySelector('#creator-card-form');
+    if (!form) return;
+    const textoEl = form.querySelector('#creator-edit-texto');
+    const tipoEl = form.querySelector('#creator-edit-tipo');
+    const castigoEl = form.querySelector('#creator-edit-castigo');
+    const intensidadEl = form.querySelector('#creator-edit-intensidad');
+    const participantesEl = form.querySelector('#creator-edit-participantes');
+    const minJugadoresEl = form.querySelector('#creator-edit-min-jugadores');
+
+    const texto = (textoEl?.value || '').trim();
+    if (!texto) {
+      visualFx.showToast('⚠️ Por favor escribe el texto de la carta.');
       return;
     }
 
-    if (action === 'creator-open-create') {
-      audioFx.tap();
-      const res = creatorController.startCreate();
-      if (!res.ok && res.error === 'LIMIT_REACHED') {
-        visualFx.showToast('⚠️ Límite de 500 cartas alcanzado.');
+    const isNew = creatorController.isCreatingNew;
+    const res = creatorController.saveEdit({
+      texto,
+      tipo: tipoEl?.value || 'clásico',
+      castigo: (castigoEl?.value || '').trim() || 'Quien pierda [castigo_toma{1-3} || castigo_notoma{x}].',
+      intensidad: Number(intensidadEl?.value) || 5,
+      participantes: participantesEl?.value || 'uno',
+      min_jugadores: Number(minJugadoresEl?.value) || 2
+    });
+
+    if (res.ok) {
+      visualFx.showToast(isNew ? '✅ ¡Carta creada!' : '✅ ¡Carta actualizada!');
+      this.render();
+    } else if (res.error === 'LIMIT_REACHED') {
+      visualFx.showToast('⚠️ Has alcanzado el límite máximo de 500 cartas.');
+    }
+    return;
+  }
+
+  if (action === 'creator-start-delete') {
+    audioFx.tap();
+    const cardId = el.dataset.cardId || el.closest('[data-card-id]')?.dataset.cardId;
+    creatorController.openDeleteConfirm(cardId);
+    this.render();
+    return;
+  }
+
+  if (action === 'creator-cancel-delete') {
+    audioFx.tap();
+    creatorController.cancelDeleteConfirm();
+    this.render();
+    return;
+  }
+
+  if (action === 'creator-confirm-delete') {
+    audioFx.tap();
+    creatorController.confirmDelete();
+    visualFx.showToast('🗑️ Carta eliminada.');
+    this.render();
+    return;
+  }
+
+  if (action === 'creator-open-clear') {
+    audioFx.tap();
+    creatorController.openClearConfirm();
+    this.render();
+    return;
+  }
+
+  if (action === 'creator-cancel-clear') {
+    audioFx.tap();
+    creatorController.cancelClearConfirm();
+    this.render();
+    return;
+  }
+
+  if (action === 'creator-confirm-clear') {
+    audioFx.tap();
+    creatorController.confirmClearAll();
+    visualFx.showToast('🗑️ Toda la colección ha sido eliminada.');
+    this.render();
+    return;
+  }
+
+  if (action === 'creator-open-export') {
+    audioFx.tap();
+    creatorController.openExport();
+    this.render();
+    return;
+  }
+
+  if (action === 'creator-close-export') {
+    audioFx.tap();
+    creatorController.closeExport();
+    this.render();
+    return;
+  }
+
+  if (action === 'creator-copy-export') {
+    audioFx.tap();
+    const text = creatorController.exportContent;
+    if (navigator.clipboard?.writeText) {
+      await navigator.clipboard.writeText(text);
+      visualFx.showToast('📋 ¡Colección copiada al portapapeles!');
+    } else {
+      const textarea = document.querySelector('.editor-export-textarea');
+      textarea?.select();
+      document.execCommand('copy');
+      visualFx.showToast('📋 ¡Copiado!');
+    }
+    return;
+  }
+
+  if (action === 'creator-download-export') {
+    audioFx.tap();
+    const filename = creatorController.exportFilename || 'oh-my-shot-cartas-personalizadas.json';
+    const content = creatorController.exportContent;
+    const blob = new Blob([content], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = filename;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+    visualFx.showToast('💾 Descargando archivo JSON...');
+    return;
+  }
+
+  if (action === 'creator-open-import') {
+    audioFx.tap();
+    creatorController.openImport();
+    this.render();
+    return;
+  }
+
+  if (action === 'creator-close-import') {
+    audioFx.tap();
+    creatorController.closeImport();
+    this.render();
+    return;
+  }
+
+  if (action === 'creator-submit-import-text') {
+    audioFx.tap();
+    const textarea = document.querySelector('#creator-import-textarea');
+    const val = textarea?.value?.trim();
+    if (!val) {
+      visualFx.showToast('⚠️ Pega un JSON válido o sube un archivo.');
+      return;
+    }
+    const res = creatorController.importJson(val);
+    if (res.ok) {
+      if (res.limitCapped) {
+        visualFx.showToast(`📥 Importadas ${res.imported} cartas (alcanzó el límite de 500).`);
       } else {
-        this.render();
+        visualFx.showToast(`📥 ¡${res.imported} cartas importadas exitosamente!`);
       }
-      return;
-    }
-
-    if (action === 'creator-open-edit') {
-      audioFx.tap();
-      const cardId = el.dataset.cardId || el.closest('[data-card-id]')?.dataset.cardId;
-      const res = creatorController.startEdit(cardId);
-      if (res.ok) {
-        this.render();
-      }
-      return;
-    }
-
-    if (action === 'creator-cancel-edit') {
-      audioFx.tap();
-      creatorController.cancelEdit();
-      this.render();
-      return;
-    }
-
-    if (action === 'creator-save-card') {
-      audioFx.tap();
-      const form = document.querySelector('#creator-card-form');
-      if (!form) return;
-      const textoEl = form.querySelector('#creator-edit-texto');
-      const tipoEl = form.querySelector('#creator-edit-tipo');
-      const castigoEl = form.querySelector('#creator-edit-castigo');
-      const intensidadEl = form.querySelector('#creator-edit-intensidad');
-      const participantesEl = form.querySelector('#creator-edit-participantes');
-      const minJugadoresEl = form.querySelector('#creator-edit-min-jugadores');
-
-      const texto = (textoEl?.value || '').trim();
-      if (!texto) {
-        visualFx.showToast('⚠️ El texto de la carta no puede estar vacío.');
-        textoEl?.focus();
-        return;
-      }
-
-      const isNew = creatorController.isCreatingNew;
-      const res = creatorController.saveEdit({
-        texto,
-        tipo: tipoEl?.value || 'clásico',
-        castigo: castigoEl?.value || 'medio trago',
-        intensidad: Number(intensidadEl?.value) || 5,
-        participantes: participantesEl?.value || 'uno',
-        min_jugadores: Number(minJugadoresEl?.value) || 2
-      });
-
-      if (res.ok) {
-        visualFx.showToast(isNew ? '✅ ¡Carta creada!' : '✅ ¡Carta actualizada!');
-        this.render();
-      } else if (res.error === 'LIMIT_REACHED') {
-        visualFx.showToast('⚠️ Has alcanzado el límite máximo de 500 cartas.');
-      }
-      return;
-    }
-
-    if (action === 'creator-start-delete') {
-      audioFx.tap();
-      const cardId = el.dataset.cardId || el.closest('[data-card-id]')?.dataset.cardId;
-      creatorController.openDeleteConfirm(cardId);
-      this.render();
-      return;
-    }
-
-    if (action === 'creator-cancel-delete') {
-      audioFx.tap();
-      creatorController.cancelDeleteConfirm();
-      this.render();
-      return;
-    }
-
-    if (action === 'creator-confirm-delete') {
-      audioFx.tap();
-      creatorController.confirmDelete();
-      visualFx.showToast('🗑️ Carta eliminada.');
-      this.render();
-      return;
-    }
-
-    if (action === 'creator-open-clear') {
-      audioFx.tap();
-      creatorController.openClearConfirm();
-      this.render();
-      return;
-    }
-
-    if (action === 'creator-cancel-clear') {
-      audioFx.tap();
-      creatorController.cancelClearConfirm();
-      this.render();
-      return;
-    }
-
-    if (action === 'creator-confirm-clear') {
-      audioFx.tap();
-      creatorController.confirmClearAll();
-      visualFx.showToast('🗑️ Toda la colección ha sido eliminada.');
-      this.render();
-      return;
-    }
-
-    if (action === 'creator-open-export') {
-      audioFx.tap();
-      creatorController.openExport();
-      this.render();
-      return;
-    }
-
-    if (action === 'creator-close-export') {
-      audioFx.tap();
-      creatorController.closeExport();
-      this.render();
-      return;
-    }
-
-    if (action === 'creator-copy-export') {
-      audioFx.tap();
-      const text = creatorController.exportContent;
-      if (navigator.clipboard?.writeText) {
-        await navigator.clipboard.writeText(text);
-        visualFx.showToast('📋 ¡Colección copiada al portapapeles!');
-      } else {
-        const textarea = document.querySelector('.editor-export-textarea');
-        textarea?.select();
-        document.execCommand('copy');
-        visualFx.showToast('📋 ¡Copiado!');
-      }
-      return;
-    }
-
-    if (action === 'creator-download-export') {
-      audioFx.tap();
-      const filename = creatorController.exportFilename || 'oh-my-shot-cartas-personalizadas.json';
-      const content = creatorController.exportContent;
-      const blob = new Blob([content], { type: 'application/json' });
-      const url = URL.createObjectURL(blob);
-      const a = document.createElement('a');
-      a.href = url;
-      a.download = filename;
-      document.body.appendChild(a);
-      a.click();
-      document.body.removeChild(a);
-      URL.revokeObjectURL(url);
-      visualFx.showToast('💾 Descargando archivo JSON...');
-      return;
-    }
-
-    if (action === 'creator-open-import') {
-      audioFx.tap();
-      creatorController.openImport();
-      this.render();
-      return;
-    }
-
-    if (action === 'creator-close-import') {
-      audioFx.tap();
       creatorController.closeImport();
       this.render();
-      return;
+    } else {
+      visualFx.showToast(`⚠️ Error al importar: ${res.error || 'Formato JSON no válido'}`);
     }
+    return;
+  }
 
-    if (action === 'creator-submit-import-text') {
-      audioFx.tap();
-      const textarea = document.querySelector('#creator-import-textarea');
-      const val = textarea?.value?.trim();
-      if (!val) {
-        visualFx.showToast('⚠️ Pega un JSON válido o sube un archivo.');
-        return;
-      }
-      const res = creatorController.importJson(val);
-      if (res.ok) {
-        if (res.limitCapped) {
-          visualFx.showToast(`📥 Importadas ${res.imported} cartas (alcanzó el límite de 500).`);
-        } else {
-          visualFx.showToast(`📥 ¡${res.imported} cartas importadas exitosamente!`);
-        }
-        creatorController.closeImport();
-        this.render();
-      } else {
-        visualFx.showToast(`⚠️ Error al importar: ${res.error || 'Formato JSON no válido'}`);
-      }
-      return;
-    }
+  if (action === 'creator-clear-search') {
+    creatorController.setSearchQuery('');
+    this.render();
+    return;
+  }
 
-    if (action === 'creator-clear-search') {
-      creatorController.setSearchQuery('');
-      this.render();
-      return;
-    }
-
-    if (action === 'creator-clear-filters') {
-      creatorController.setSearchQuery('');
-      creatorController.setFilterType('all');
-      creatorController.setFilterIntensity('all');
-      this.render();
-      return;
-    }
+  if (action === 'creator-clear-filters') {
+    creatorController.setSearchQuery('');
+    creatorController.setFilterType('all');
+    creatorController.setFilterIntensity('all');
+    this.render();
+    return;
+  }
 
     if (action === 'creator-insert-token') {
       audioFx.tap();
       const token = el.dataset.token;
-      const textarea = document.querySelector('#creator-edit-texto');
-      if (textarea && token) {
-        const start = textarea.selectionStart ?? textarea.value.length;
-        const end = textarea.selectionEnd ?? textarea.value.length;
-        const old = textarea.value;
-        textarea.value = old.slice(0, start) + token + old.slice(end);
-        textarea.selectionStart = textarea.selectionEnd = start + token.length;
-        textarea.focus();
+      const targetId = el.dataset.target || 'creator-edit-texto';
+      const targetEl = document.querySelector('#' + targetId) || document.querySelector('#creator-edit-texto');
+      if (targetEl && token) {
+        const start = targetEl.selectionStart ?? targetEl.value.length;
+        const end = targetEl.selectionEnd ?? targetEl.value.length;
+        const old = targetEl.value;
+        targetEl.value = old.slice(0, start) + token + old.slice(end);
+        targetEl.selectionStart = targetEl.selectionEnd = start + token.length;
+        targetEl.focus();
       }
       return;
     }
 
-    if (action === 'back-from-instructions') {
+    if (action === 'creator-set-castigo-preset') {
       audioFx.tap();
-      this.#navigateWithLoader('intensity', 'loaderIntensity');
+      const preset = el.dataset.preset;
+      const castigoEl = document.querySelector('#creator-edit-castigo');
+      if (castigoEl && preset) {
+        castigoEl.value = preset;
+        castigoEl.focus();
+      }
       return;
     }
 
-    if (action === 'confirm-start-mode') {
-      this.#launchLocalGameMode(state.activeGameModeId);
-      return;
-    }
 
-    if (action === 'request-exit-game') {
-      audioFx.tap();
-      this.cardAnswerModal = null;
-      this.exitConfirmOpen = true;
-      this.render();
-      return;
-    }
-
-    if (action === 'cancel-exit-game') {
-      audioFx.tap();
-      this.exitConfirmOpen = false;
-      this.render();
-      return;
-    }
-
-    if (action === 'confirm-exit-game') {
-      audioFx.tap();
-      this.#stopCulturaTimer();
-      this.exitConfirmOpen = false;
-      await disableWakeLock();
-      audioFx.setMusicMood('normal');
-      this.#navigateWithLoader('menu', 'loaderReturning');
-      return;
-    }
-
-    if (action === 'next-card') {
-      this.#advanceCard({ skipped: false, feedbackType: 'god' });
-      return;
-    }
-
-    if (action === 'skip-card') {
-      this.#advanceCard({ skipped: true, feedbackType: 'bad' });
-      return;
-    }
-
-    if (action === 'add-drink') {
-      audioFx.tap();
-      store.updateLocalPlayerScore(el.dataset.id, 1);
-    }
+  if (action === 'back-from-instructions') {
+    audioFx.tap();
+    this.#navigateWithLoader('intensity', 'loaderIntensity');
+    return;
   }
+
+  if (action === 'confirm-start-mode') {
+    this.#launchLocalGameMode(state.activeGameModeId);
+    return;
+  }
+
+  if (action === 'request-exit-game') {
+    audioFx.tap();
+    this.cardAnswerModal = null;
+    this.exitConfirmOpen = true;
+    this.render();
+    return;
+  }
+
+  if (action === 'cancel-exit-game') {
+    audioFx.tap();
+    this.exitConfirmOpen = false;
+    this.render();
+    return;
+  }
+
+  if (action === 'confirm-exit-game') {
+    audioFx.tap();
+    this.#stopCulturaTimer();
+    this.exitConfirmOpen = false;
+    await disableWakeLock();
+    audioFx.setMusicMood('normal');
+    this.#navigateWithLoader('menu', 'loaderReturning');
+    return;
+  }
+
+  if (action === 'next-card') {
+    this.#advanceCard({ skipped: false, feedbackType: 'god' });
+    return;
+  }
+
+  if (action === 'skip-card') {
+    this.#advanceCard({ skipped: true, feedbackType: 'bad' });
+    return;
+  }
+
+  if (action === 'add-drink') {
+    audioFx.tap();
+    store.updateLocalPlayerScore(el.dataset.id, 1);
+  }
+}
 }

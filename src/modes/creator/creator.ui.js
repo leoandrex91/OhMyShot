@@ -126,6 +126,7 @@ export function renderCardPromptWithTokenBadges(text) {
   if (!text) return '';
   let escaped = escapeHtml(text);
 
+  // 1. Tokens de jugador
   escaped = escaped
     .replace(
       /\[player\]/gi,
@@ -142,11 +143,31 @@ export function renderCardPromptWithTokenBadges(text) {
     .replace(
       /\[all\]/gi,
       `<span class="creator-token-badge badge-all" title="Todo el grupo"><span class="token-icon" aria-hidden="true">👥</span><span class="token-tag">[all]</span></span>`
+    );
+
+  // 2. Tokens de castigo dinámico
+  escaped = escaped
+    .replace(
+      /\[\s*castigo_toma\{([^}]+)\}\s*\|\|\s*castigo_notoma\{([^}]+)\}\s*\]/gi,
+      (match, tomaRange, notomaRange) =>
+        `<span class="creator-token-badge badge-penalty-dynamic" title="Castigo adaptativo (con o sin alcohol)"><span class="token-icon" aria-hidden="true">🍻/⚡</span><span class="token-tag">[castigo_toma{${tomaRange}} || notoma{${notomaRange}}]</span></span>`
     )
     .replace(
-      /\[([a-zA-Z0-9_\-]+)\]/g,
-      (match, tag) => `<span class="creator-token-badge badge-generic"><span class="token-tag">[${tag}]</span></span>`
+      /\[\s*castigo_toma\{([^}]+)\}\s*\]/gi,
+      (match, tomaRange) =>
+        `<span class="creator-token-badge badge-penalty-toma" title="Castigo con alcohol"><span class="token-icon" aria-hidden="true">🍺</span><span class="token-tag">[castigo_toma{${tomaRange}}]</span></span>`
+    )
+    .replace(
+      /\[\s*castigo_notoma\{([^}]+)\}\s*\]/gi,
+      (match, notomaRange) =>
+        `<span class="creator-token-badge badge-penalty-notoma" title="Penitencia sin alcohol"><span class="token-icon" aria-hidden="true">🎯</span><span class="token-tag">[castigo_notoma{${notomaRange}}]</span></span>`
     );
+
+  // 3. Tokens genéricos entre corchetes
+  escaped = escaped.replace(
+    /\[([a-zA-Z0-9_\-{}|* ]+)\]/g,
+    (match, tag) => `<span class="creator-token-badge badge-generic"><span class="token-tag">[${tag}]</span></span>`
+  );
 
   return escaped;
 }
@@ -219,6 +240,7 @@ export function buildCreatorScreenHtml(state) {
       .map((card) => {
         const theme = getCustomCardTheme(card.tipo);
         const formattedPrompt = renderCardPromptWithTokenBadges(card.texto);
+        const formattedCastigo = card.castigo ? renderCardPromptWithTokenBadges(card.castigo) : '';
         const partLabel =
           card.participantes === 'duo'
             ? '2 jugadores'
@@ -252,11 +274,14 @@ export function buildCreatorScreenHtml(state) {
 
             <div class="creator-card-item-prompt">${formattedPrompt}</div>
 
+            ${formattedCastigo ? `
+              <div class="creator-card-item-penalty">
+                <span class="creator-penalty-badge-label">⚖️ Castigo:</span>
+                <span class="creator-penalty-text">${formattedCastigo}</span>
+              </div>
+            ` : ''}
+
             <div class="creator-card-item-meta">
-              <span class="creator-meta-pill" title="Castigo o trago">
-                <span aria-hidden="true">🍺</span>
-                <span>${escapeHtml(card.castigo || 'medio trago')}</span>
-              </span>
               <span class="creator-meta-pill" title="Participantes">
                 <span aria-hidden="true">👥</span>
                 <span>${escapeHtml(partLabel)}</span>
@@ -455,9 +480,9 @@ function buildEditModalHtml(lang) {
               <label for="creator-edit-texto" class="editor-form-label">Texto / Pregunta / Desafío *</label>
               <div class="editor-token-inserters">
                 <span class="editor-token-label">Tokens:</span>
-                <button type="button" class="editor-token-chip chip-player" data-action="creator-insert-token" data-token="[player]" title="Inserta el jugador protagonista">+ 👤 [player]</button>
-                <button type="button" class="editor-token-chip chip-player-x" data-action="creator-insert-token" data-token="[player_x]" title="Inserta un segundo jugador">+ 🎯 [player_x]</button>
-                <button type="button" class="editor-token-chip chip-trivia" data-action="creator-insert-token" data-token="[all]" title="Inserta 'Todos'">+ 👥 [all]</button>
+                <button type="button" class="editor-token-chip chip-player" data-action="creator-insert-token" data-target="creator-edit-texto" data-token="[player]" title="Inserta el jugador protagonista">+ 👤 [player]</button>
+                <button type="button" class="editor-token-chip chip-player-x" data-action="creator-insert-token" data-target="creator-edit-texto" data-token="[player_x]" title="Inserta un segundo jugador">+ 🎯 [player_x]</button>
+                <button type="button" class="editor-token-chip chip-trivia" data-action="creator-insert-token" data-target="creator-edit-texto" data-token="[all]" title="Inserta 'Todos'">+ 👥 [all]</button>
               </div>
             </div>
             <textarea
@@ -470,6 +495,36 @@ function buildEditModalHtml(lang) {
             >${escapeHtml(card.texto || '')}</textarea>
           </div>
 
+          <div class="editor-form-row">
+            <div class="editor-label-with-tools">
+              <label for="creator-edit-castigo" class="editor-form-label">Castigo / Penitencia (Texto o Etiquetas Dinámicas)</label>
+              <div class="editor-token-inserters">
+                <span class="editor-token-label">Etiquetas:</span>
+                <button type="button" class="editor-token-chip chip-penalty-dynamic" data-action="creator-insert-token" data-target="creator-edit-castigo" data-token="[castigo_toma{1-3} || castigo_notoma{x}]" title="Penitencia inteligente: bebe si toma alcohol, penitencia si no toma">+ 🍻/⚡ [dinámico]</button>
+                <button type="button" class="editor-token-chip chip-penalty-toma" data-action="creator-insert-token" data-target="creator-edit-castigo" data-token="[castigo_toma{1-2}]" title="Castigo de trago / shot">+ 🍺 [toma]</button>
+                <button type="button" class="editor-token-chip chip-penalty-notoma" data-action="creator-insert-token" data-target="creator-edit-castigo" data-token="[castigo_notoma{x}]" title="Penitencia sin alcohol">+ 🎯 [sin alcohol]</button>
+              </div>
+            </div>
+            <textarea
+              id="creator-edit-castigo"
+              name="castigo"
+              class="editor-custom-textarea creator-form-textarea creator-castigo-textarea"
+              rows="2"
+              placeholder="Ej: Quien pierda [castigo_toma{1-3} || castigo_notoma{x}]. o Si falla toma 2 tragos."
+            >${escapeHtml(card.castigo || '')}</textarea>
+
+            <div class="editor-quick-presets">
+              <span class="editor-presets-label">Plantillas rápidas:</span>
+              <button type="button" class="editor-preset-chip" data-action="creator-set-castigo-preset" data-preset="Quien pierda [castigo_toma{1-3} || castigo_notoma{x}].">Quien pierda...</button>
+              <button type="button" class="editor-preset-chip" data-action="creator-set-castigo-preset" data-preset="Si no cumple [castigo_toma{1-3} || castigo_notoma{x}].">Si no cumple...</button>
+              <button type="button" class="editor-preset-chip" data-action="creator-set-castigo-preset" data-preset="Si falla [castigo_toma{1-2} || castigo_notoma{x}].">Si falla...</button>
+              <button type="button" class="editor-preset-chip" data-action="creator-set-castigo-preset" data-preset="Toma 1 trago">1 trago</button>
+            </div>
+            <p class="editor-field-hint">
+              💡 Puedes escribir un texto normal o usar etiquetas como <code>[castigo_toma{1-3} || castigo_notoma{x}]</code> para que el motor adapte el castigo si el jugador bebe o no.
+            </p>
+          </div>
+
           <div class="editor-form-split-row">
             <div class="editor-form-field">
               <label for="creator-edit-tipo" class="editor-form-label">Categoría / Tipo de Carta</label>
@@ -479,44 +534,6 @@ function buildEditModalHtml(lang) {
             </div>
 
             <div class="editor-form-field">
-              <label for="creator-edit-castigo" class="editor-form-label">Castigo / Penitencia</label>
-              <input
-                type="text"
-                id="creator-edit-castigo"
-                name="castigo"
-                class="editor-custom-input"
-                placeholder="Ej: 1 trago, medio trago, fondo"
-                value="${escapeHtml(card.castigo || 'medio trago')}"
-              />
-            </div>
-          </div>
-
-          <div class="editor-form-row">
-            <div class="editor-intensity-header">
-              <label for="creator-edit-intensidad" class="editor-form-label">
-                Nivel de Intensidad: <strong id="creator-intensity-val">${currentIntensity} / 10</strong>
-              </label>
-              <img
-                id="creator-intensity-preview-img"
-                src="./assets/icons/levels/level_${String(currentIntensity).padStart(2, '0')}.webp"
-                alt="Nivel ${currentIntensity}"
-                class="editor-form-level-img"
-              />
-            </div>
-            <input
-              type="range"
-              id="creator-edit-intensidad"
-              name="intensidad"
-              class="editor-custom-range"
-              min="1"
-              max="10"
-              step="1"
-              value="${currentIntensity}"
-            />
-          </div>
-
-          <div class="editor-form-split-row">
-            <div class="editor-form-field">
               <label for="creator-edit-participantes" class="editor-form-label">Participantes</label>
               <select id="creator-edit-participantes" name="participantes" class="editor-custom-select">
                 <option value="uno" ${card.participantes === 'uno' ? 'selected' : ''}>1 jugador (Individual)</option>
@@ -524,6 +541,32 @@ function buildEditModalHtml(lang) {
                 <option value="trio" ${card.participantes === 'trio' ? 'selected' : ''}>3 jugadores (Trío)</option>
                 <option value="grupo" ${card.participantes === 'grupo' ? 'selected' : ''}>Todo el grupo (General)</option>
               </select>
+            </div>
+          </div>
+
+          <div class="editor-form-split-row">
+            <div class="editor-form-field">
+              <div class="editor-intensity-header">
+                <label for="creator-edit-intensidad" class="editor-form-label">
+                  Nivel de Intensidad: <strong id="creator-intensity-val">${currentIntensity} / 10</strong>
+                </label>
+                <img
+                  id="creator-intensity-preview-img"
+                  src="./assets/icons/levels/level_${String(currentIntensity).padStart(2, '0')}.webp"
+                  alt="Nivel ${currentIntensity}"
+                  class="editor-form-level-img"
+                />
+              </div>
+              <input
+                type="range"
+                id="creator-edit-intensidad"
+                name="intensidad"
+                class="editor-custom-range"
+                min="1"
+                max="10"
+                step="1"
+                value="${currentIntensity}"
+              />
             </div>
 
             <div class="editor-form-field">
@@ -538,6 +581,7 @@ function buildEditModalHtml(lang) {
                 value="${card.min_jugadores || 2}"
               />
             </div>
+          </div>
           </div>
         </form>
 

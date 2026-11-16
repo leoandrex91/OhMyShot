@@ -55,7 +55,9 @@ export function normalizeCustomCard(raw = {}) {
   if (tipo === 'clasico') tipo = 'clásico';
   if (tipo === 'cultura-chupistica' || tipo === 'cultura') tipo = 'cultura chupística';
   const subtipo = raw.subtipo ? String(raw.subtipo).trim() : null;
-  const castigo = String(raw.castigo || 'medio trago').trim();
+  const castigo = raw.castigo !== undefined && raw.castigo !== null
+    ? String(raw.castigo).trim()
+    : 'Quien pierda [castigo_toma{1-3} || castigo_notoma{x}].';
   const participantes = ['uno', 'duo', 'trio', 'grupo'].includes(String(raw.participantes).toLowerCase())
     ? String(raw.participantes).toLowerCase()
     : (tipo === 'cultura chupística' || tipo === 'yo nunca') ? 'grupo' : 'uno';
