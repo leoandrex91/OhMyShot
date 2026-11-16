@@ -1887,10 +1887,10 @@ export class AppShell {
   }
 
   #buildModeSettingsModal(state) {
-    const { lang, activeGameModeId, previaMixConfig, yoNuncaConfig, quienConfig, verdadORetoConfig, culturaChupisticaConfig, progressiveCurve } = state;
+    const { lang, activeGameModeId, previaMixConfig, yoNuncaConfig, quienConfig, verdadORetoConfig, hotConfig, culturaChupisticaConfig, progressiveCurve } = state;
     const isVor = activeGameModeId === 'verdad-o-reto';
     const isCultura = activeGameModeId === 'cultura-chupistica';
-    const isSimpleMode = activeGameModeId === 'yo-nunca' || activeGameModeId === 'quien';
+    const isSimpleMode = activeGameModeId === 'yo-nunca' || activeGameModeId === 'quien' || activeGameModeId === 'hot';
 
     let isBonusActive = true;
     let targetCards = 45;
@@ -1904,6 +1904,10 @@ export class AppShell {
       isBonusActive = quienConfig?.bonusEnabled !== false;
       isCustomCardsActive = quienConfig?.customCardsEnabled !== false;
       targetCards = Number(quienConfig?.targetTurns) || 45;
+    } else if (activeGameModeId === 'hot') {
+      isBonusActive = hotConfig?.bonusEnabled !== false;
+      isCustomCardsActive = hotConfig?.customCardsEnabled !== false;
+      targetCards = Number(hotConfig?.targetTurns) || 45;
     } else if (activeGameModeId === 'verdad-o-reto') {
       isBonusActive = verdadORetoConfig?.bonusEnabled !== false;
       isCustomCardsActive = verdadORetoConfig?.customCardsEnabled !== false;
@@ -4030,6 +4034,8 @@ export class AppShell {
           store.updateYoNuncaConfig({ bonusEnabled: e.target.checked });
         } else if (modeId === 'quien') {
           store.updateQuienConfig({ bonusEnabled: e.target.checked });
+        } else if (modeId === 'hot') {
+          store.updateHotConfig({ bonusEnabled: e.target.checked });
         } else if (modeId === 'verdad-o-reto') {
           store.updateVerdadORetoConfig({ bonusEnabled: e.target.checked });
         }
@@ -4048,6 +4054,8 @@ export class AppShell {
           store.updateYoNuncaConfig({ customCardsEnabled: isChecked });
         } else if (modeId === 'quien') {
           store.updateQuienConfig({ customCardsEnabled: isChecked });
+        } else if (modeId === 'hot') {
+          store.updateHotConfig({ customCardsEnabled: isChecked });
         } else if (modeId === 'verdad-o-reto') {
           store.updateVerdadORetoConfig({ customCardsEnabled: isChecked });
         } else {
@@ -4063,6 +4071,8 @@ export class AppShell {
         store.updateYoNuncaConfig({ targetTurns: val }, { silent: true });
       } else if (modeId === 'quien') {
         store.updateQuienConfig({ targetTurns: val }, { silent: true });
+      } else if (modeId === 'hot') {
+        store.updateHotConfig({ targetTurns: val }, { silent: true });
       } else if (modeId === 'verdad-o-reto') {
         store.updateVerdadORetoConfig({ targetTurns: val }, { silent: true });
       } else if (modeId === 'cultura-chupistica') {
@@ -4880,6 +4890,20 @@ export class AppShell {
         maxIntensity,
         bonusEnabled: isBonus
       };
+    } else if (modeId === 'hot') {
+      const isBonus = state.hotConfig?.bonusEnabled !== false;
+      modeConfig = {
+        locale: state.locale,
+        enabledTypes: isBonus ? ['hot', 'bonus'] : ['hot'],
+        targetTurns: state.hotConfig?.targetTurns || 45,
+        minIntensity,
+        maxIntensity,
+        bonusEnabled: isBonus,
+        enableHot: true,
+        adultsConfirmed: true,
+        everyoneConsentsHot: true,
+        customCardsEnabled: state.hotConfig?.customCardsEnabled !== false
+      };
     } else if (modeId === 'verdad-o-reto') {
       const cfg = state.verdadORetoConfig || {};
       modeConfig = {
@@ -5547,6 +5571,8 @@ export class AppShell {
         current = Number(state.yoNuncaConfig?.targetTurns) || 45;
       } else if (modeId === 'quien') {
         current = Number(state.quienConfig?.targetTurns) || 45;
+      } else if (modeId === 'hot') {
+        current = Number(state.hotConfig?.targetTurns) || 45;
       } else if (modeId === 'verdad-o-reto') {
         current = Number(state.verdadORetoConfig?.targetTurns) || 45;
       } else if (modeId === 'cultura-chupistica') {
@@ -5559,6 +5585,8 @@ export class AppShell {
         store.updateYoNuncaConfig({ targetTurns: next }, { silent: true });
       } else if (modeId === 'quien') {
         store.updateQuienConfig({ targetTurns: next }, { silent: true });
+      } else if (modeId === 'hot') {
+        store.updateHotConfig({ targetTurns: next }, { silent: true });
       } else if (modeId === 'verdad-o-reto') {
         store.updateVerdadORetoConfig({ targetTurns: next }, { silent: true });
       } else if (modeId === 'cultura-chupistica') {
@@ -5858,6 +5886,12 @@ export class AppShell {
       const modeId = el.dataset.modeId;
       const mode = LOCAL_GAME_MODES.find((m) => m.id === modeId);
       if (!mode || !mode.playable) return;
+
+      if (modeId === 'hot' && state.ageGateStatus === 'minor') {
+        visualFx.showToast(t('ageGateMinorBlockedHot', lang) || 'El Modo Hot +18 requiere confirmación de mayoría de edad.');
+        audioFx.penalty();
+        return;
+      }
 
       // Precarga proactiva en segundo plano mientras el usuario configura intensidad e instrucciones
       const adapter = getModeAdapter(modeId);

@@ -12,6 +12,7 @@ const LOCAL_PREVIA_MIX_CONFIG_KEY = 'oms_previa_mix_config_v3';
 const LOCAL_YO_NUNCA_CONFIG_KEY = 'oms_yo_nunca_config_v1';
 const LOCAL_QUIEN_CONFIG_KEY = 'oms_quien_config_v1';
 const LOCAL_VERDAD_O_RETO_CONFIG_KEY = 'oms_verdad_o_reto_config_v1';
+const LOCAL_HOT_CONFIG_KEY = 'oms_hot_config_v1';
 
 function loadSimpleModeConfig(key, defaultTurns = 45) {
   const saved = loadJsonStorage(window.localStorage, key, null);
@@ -253,6 +254,7 @@ const state = {
   yoNuncaConfig: loadSimpleModeConfig(LOCAL_YO_NUNCA_CONFIG_KEY, 45),
   quienConfig: loadSimpleModeConfig(LOCAL_QUIEN_CONFIG_KEY, 45),
   verdadORetoConfig: loadVorConfig(LOCAL_VERDAD_O_RETO_CONFIG_KEY, 45),
+  hotConfig: loadSimpleModeConfig(LOCAL_HOT_CONFIG_KEY, 45),
   culturaChupisticaConfig: loadCulturaConfig(LOCAL_CULTURA_CHUPISTICA_CONFIG_KEY, 30),
   localGame: {
     modeId: 'classic',
@@ -531,6 +533,20 @@ export const store = {
     };
     persistSimpleModeConfig(LOCAL_QUIEN_CONFIG_KEY, nextConfig);
     this.setState({ quienConfig: nextConfig }, { silent });
+    return nextConfig;
+  },
+
+  updateHotConfig(updater, { silent = false } = {}) {
+    const patch = typeof updater === 'function' ? updater(state.hotConfig) : updater;
+    const nextConfig = {
+      ...state.hotConfig,
+      ...(patch || {}),
+      bonusEnabled: (patch?.bonusEnabled !== undefined) ? patch.bonusEnabled : state.hotConfig.bonusEnabled !== false,
+      customCardsEnabled: (patch?.customCardsEnabled !== undefined) ? patch.customCardsEnabled : state.hotConfig.customCardsEnabled !== false,
+      targetTurns: Math.max(5, Math.min(900, Number(patch?.targetTurns ?? state.hotConfig.targetTurns) || 45))
+    };
+    persistSimpleModeConfig(LOCAL_HOT_CONFIG_KEY, nextConfig);
+    this.setState({ hotConfig: nextConfig }, { silent });
     return nextConfig;
   },
 

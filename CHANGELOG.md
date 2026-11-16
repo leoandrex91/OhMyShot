@@ -9,6 +9,11 @@ El formato se basa en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/
 ## [0.8.1] - 2026-11-16
 
 ### Añadido
+- **Nuevo Modo Oficial "Modo Hot +18"**:
+  - Incorporación como modo de juego independiente seleccionable en el menú principal (`src/modes/hot/`).
+  - Mazo dedicado 100% a cartas picantes (500 cartas por idioma, 1.500 en total) con preguntas íntimas individuales (`[player]`), verdades y retos en pareja (`[player] y [player_x]`).
+  - Música ambiental sensual continua (`music_hot_bg.m4a`), efectos visuales de fuego neón, control de intensidad (niveles 1 al 10) y soporte para gestos de deslizamiento (*swipe*).
+  - Bloqueo y verificación preventiva de mayoría de edad (+18) antes de iniciar partida.
 - **Consolidación de Arquitectura a 3 Idiomas Canónicos**:
   - Simplificación radical del sistema de idiomas eliminando variantes regionales fragmentadas (`es-CO`, `es-ES`, `es-MX`, `en-US`, `en-GB`, `pt-BR`, `pt-PT`) en favor de 3 idiomas universales puros: **Español (`es`)**, **Inglés (`en`)** y **Portugués (`pt`)**.
   - Catálogo consolidado de **19.134 cartas activas**, con exactamente 6.378 cartas por idioma a través de 11 categorías (`clasico`, `duelo`, `yo-nunca`, `quien-es-mas-probable`, `verdad`, `reto`, `retos-especiales`, `eventos-especiales`, `hot`, `bonus`, `cultura-chupistica`).

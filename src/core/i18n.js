@@ -107,6 +107,7 @@ const DICTIONARY = {
     ageGateNoBtn: 'No',
     ageGateYesBtn: 'Sí, soy +18',
     ageGateHotAutoToast: 'Modo HOT +18 activado automáticamente.',
+    ageGateMinorBlockedHot: 'El Modo Hot +18 requiere confirmación de mayoría de edad (+18).',
 
     // Setup de Jugadores (max 32)
     playersStepTitle: 'Reúne a tu combo',
@@ -439,6 +440,7 @@ const DICTIONARY = {
     ageGateNoBtn: 'No',
     ageGateYesBtn: 'Yes, I am 18+',
     ageGateHotAutoToast: 'HOT +18 mode enabled automatically.',
+    ageGateMinorBlockedHot: 'Hot Mode +18 requires confirmation that you are 18+.',
 
     // Player Setup (max 32)
     playersStepTitle: 'Gather your crew',
@@ -771,6 +773,7 @@ const DICTIONARY = {
     ageGateNoBtn: 'Não',
     ageGateYesBtn: 'Sim, tenho +18',
     ageGateHotAutoToast: 'Modo HOT +18 ativado automaticamente.',
+    ageGateMinorBlockedHot: 'O Modo Hot +18 requer confirmação de maioridade (+18).',
 
     // Configuração de Jogadores (máx 32)
     playersStepTitle: 'Reúna sua galera',

@@ -125,6 +125,13 @@ Preguntas directas donde todo el grupo señala a la cuenta de tres:
 - Dinámica rápida y participativa.
 - Penalizaciones automáticas para el más votado o debate abierto en empates.
 
+### 6. 🔥 Modo Hot (+18)
+Modo exclusivo para mayores de edad para subir la temperatura de la noche:
+- **500 cartas picantes por idioma** (1.500 cartas HOT exclusivas) calibradas a lo largo de 10 niveles de intensidad.
+- Preguntas íntimas individuales (`[player]`), confesiones picantes y retos en pareja (`[player] y [player_x]`).
+- Música ambiental sensual continua (`music_hot_bg.m4a`), estética visual de fuego/neón y efectos inmersivos.
+- Verificación prioritaria de mayoría de edad (+18).
+
 ---
 
 ## 💻 Instalación y Ejecución Local

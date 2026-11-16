@@ -108,6 +108,8 @@ const CORE_ASSETS = [
   './src/modes/verdad-o-reto/adapter.js',
   './src/modes/cultura-chupistica/mode.config.js',
   './src/modes/cultura-chupistica/adapter.js',
+  './src/modes/hot/mode.config.js',
+  './src/modes/hot/adapter.js',
   ...CARDS_LOCALE_FILES,
   './src/fx/bgVideoController.js',
   './src/fx/swipeController.js',

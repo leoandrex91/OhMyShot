@@ -217,6 +217,7 @@ export const CARD_CATEGORIES = Object.freeze({
   hot: {
     labelEs: 'HOT 🔥',
     labelEn: 'HOT 🔥',
+    labelPt: 'HOT 🔥',
     emoji: '🔥',
     iconImg: UI_ICONS.flame,
     color: DESIGN_TOKENS.fireOrange,
@@ -248,7 +249,8 @@ export const SPECIAL_CARD_FX = Object.freeze({
     hex: 0xff4518,
     confettiPreset: 'hot',
     badgeEs: 'CARTA HOT 🔥',
-    badgeEn: 'HOT CARD 🔥'
+    badgeEn: 'HOT CARD 🔥',
+    badgePt: 'CARTA HOT 🔥'
   },
   event: {
     mode: 'event',
