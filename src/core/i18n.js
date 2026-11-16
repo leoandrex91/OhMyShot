@@ -2,44 +2,28 @@
  * Diccionario multilingüe (ES / EN / PT) adaptado al Manual UX/UI de Oh My Shot!
  */
 export const SUPPORTED_GAME_LOCALES = Object.freeze([
-  'es-CO',
-  'es-MX',
-  'es-ES',
-  'en-US',
-  'en-GB',
-  'pt-BR',
-  'pt-PT'
+  'es',
+  'en',
+  'pt'
 ]);
 
-export function localeToBaseLang(localeOrLang = 'es-CO') {
+export function localeToBaseLang(localeOrLang = 'es') {
   const code = String(localeOrLang || '').toLowerCase();
   if (code.startsWith('en')) return 'en';
   if (code.startsWith('pt')) return 'pt';
   return 'es';
 }
 
-export function normalizeSupportedLocale(localeOrLang = 'es-CO') {
-  if (SUPPORTED_GAME_LOCALES.includes(localeOrLang)) {
-    return localeOrLang;
-  }
-  const code = String(localeOrLang || '').trim().toLowerCase().replace('_', '-');
-  const exact = SUPPORTED_GAME_LOCALES.find((loc) => loc.toLowerCase() === code);
-  if (exact) return exact;
-  if (code === 'es-es') return 'es-ES';
-  if (code === 'es-mx' || code === 'es-us') return 'es-MX';
-  if (code === 'pt-pt') return 'pt-PT';
-  if (code === 'en-gb' || code === 'en-au' || code === 'en-ie' || code === 'en-nz') return 'en-GB';
-  const base = localeToBaseLang(code);
-  if (base === 'en') return 'en-US';
-  if (base === 'pt') return 'pt-BR';
-  return 'es-CO';
+export function normalizeSupportedLocale(localeOrLang = 'es') {
+  const base = localeToBaseLang(localeOrLang);
+  return base;
 }
 
 export function detectDeviceLocale() {
-  if (typeof navigator === 'undefined') return 'es-CO';
+  if (typeof navigator === 'undefined') return 'es';
   const candidates = Array.isArray(navigator.languages) && navigator.languages.length
     ? navigator.languages
-    : [navigator.language || navigator.userLanguage || 'es-CO'];
+    : [navigator.language || navigator.userLanguage || 'es'];
   for (const candidate of candidates) {
     if (!candidate) continue;
     const raw = String(candidate).trim().toLowerCase();
@@ -47,7 +31,7 @@ export function detectDeviceLocale() {
       return normalizeSupportedLocale(raw);
     }
   }
-  return 'es-CO';
+  return 'es';
 }
 
 export function pickLocalizedText(obj, fieldBase, lang = 'es') {
@@ -151,6 +135,7 @@ const DICTIONARY = {
     languageLabel: 'Idioma y preguntas',
     languageEsLabel: 'ES · Español',
     languageEnLabel: 'EN · Inglés',
+    languagePtLabel: 'PT · Portugués',
     hotSettingTitle: 'Modo HOT +18',
     hotSettingDesc: 'Cartas picantes solo con adultos (+18) y mutuo acuerdo',
     textSizeSettingLabel: 'Tamaño de textos',
@@ -333,7 +318,7 @@ const DICTIONARY = {
     playAgainBtn: 'Jugar de nuevo',
     partyCurveRandomDesc: 'Si está activada, sube la intensidad gradualmente mientras se juega.',
     pmConfigTitle: 'Configuración de Previa Mix',
-    pmLocaleLabel: 'Idioma / Región del mazo',
+    pmLocaleLabel: 'Idioma del mazo',
     pmTypesLabel: 'Categorías activas',
     pmCurveRangeLabel: 'Curva de Fiesta (Nivel 1–10)',
     pmStartLevelLabel: 'Inicio',
@@ -478,6 +463,7 @@ const DICTIONARY = {
     languageLabel: 'Language & cards',
     languageEsLabel: 'ES · Spanish',
     languageEnLabel: 'EN · English',
+    languagePtLabel: 'PT · Portuguese',
     hotSettingTitle: 'HOT +18 Mode',
     hotSettingDesc: 'Spicy prompts for consenting 18+ adults only',
     textSizeSettingLabel: 'Text size',
@@ -660,7 +646,7 @@ const DICTIONARY = {
     playAgainBtn: 'Play again',
     partyCurveRandomDesc: 'When enabled, intensity ramps up gradually as you play.',
     pmConfigTitle: 'Previa Mix setup',
-    pmLocaleLabel: 'Card language / Region',
+    pmLocaleLabel: 'Deck language',
     pmTypesLabel: 'Active categories',
     pmCurveRangeLabel: 'Party Curve (Level 1–10)',
     pmStartLevelLabel: 'Start',
@@ -805,6 +791,7 @@ const DICTIONARY = {
     languageLabel: 'Idioma e cartas',
     languageEsLabel: 'ES · Espanhol',
     languageEnLabel: 'EN · Inglês',
+    languagePtLabel: 'PT · Português',
     hotSettingTitle: 'Modo HOT +18',
     hotSettingDesc: 'Cartas picantes apenas para maiores de 18 com consenso',
     textSizeSettingLabel: 'Tamanho do texto',
@@ -987,7 +974,7 @@ const DICTIONARY = {
     playAgainBtn: 'Jogar de novo',
     partyCurveRandomDesc: 'Se estiver ativada, aumenta a intensidade gradualmente enquanto joga.',
     pmConfigTitle: 'Configuração de Previa Mix',
-    pmLocaleLabel: 'Idioma / Região das cartas',
+    pmLocaleLabel: 'Idioma das cartas',
     pmTypesLabel: 'Categorias ativas',
     pmCurveRangeLabel: 'Curva da Festa (Nível 1–10)',
     pmStartLevelLabel: 'Início',

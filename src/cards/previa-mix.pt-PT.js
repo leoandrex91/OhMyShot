@@ -1,2 +1,2 @@
-export * from './cards.pt-PT.js';
-export { default } from './cards.pt-PT.js';
+export * from './cards.pt.js';
+export { default } from './cards.pt.js';

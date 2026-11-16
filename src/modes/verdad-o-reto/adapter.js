@@ -28,11 +28,16 @@ import { DEFAULT_VERDAD_O_RETO_CONFIG, VERDAD_O_RETO_MODE_ID } from './mode.conf
 // Cache en memoria de catálogos cargados por locale
 const catalogCache = new Map();
 
-async function getVorCatalog(locale = 'es-CO') {
-  if (catalogCache.has(locale)) {
-    return catalogCache.get(locale);
+async function getVorCatalog(locale = 'es') {
+  const normLocale = String(locale).toLowerCase().startsWith('en')
+    ? 'en'
+    : String(locale).toLowerCase().startsWith('pt')
+      ? 'pt'
+      : 'es';
+  if (catalogCache.has(normLocale)) {
+    return catalogCache.get(normLocale);
   }
-  const loaded = await loadCardsLocale(locale);
+  const loaded = await loadCardsLocale(normLocale);
   const cardsArray = Array.isArray(loaded) ? loaded : (loaded.questions || []);
 
   const verdadCards = (Array.isArray(loaded.verdadCards) && loaded.verdadCards.length > 0)
@@ -97,7 +102,7 @@ export const verdadORetoAdapter = {
     modeConfig = {}
   }) {
     const config = normalizeVorConfig(modeConfig);
-    const locale = modeConfig.locale || (appLang === 'en' ? 'en-US' : appLang === 'pt' ? 'pt-BR' : 'es-CO');
+    const locale = modeConfig.locale || (appLang === 'en' ? 'en' : appLang === 'pt' ? 'pt' : 'es');
     const catalog = await getVorCatalog(locale);
 
     // Jugadores de la sesión
@@ -526,5 +531,33 @@ export const verdadORetoAdapter = {
       maxConsecutiveTruths: maxConsecutive,
       currentChoice: session.currentChoice
     };
+  },
+
+  async setSessionLocale(session, nextLocale) {
+    if (!session) return { session, changed: false };
+    const norm = String(nextLocale).toLowerCase().startsWith('en')
+      ? 'en'
+      : String(nextLocale).toLowerCase().startsWith('pt')
+        ? 'pt'
+        : 'es';
+    if (session.locale === norm) return { session, changed: false };
+    const catalog = await getVorCatalog(norm);
+    const allCards = [
+      ...(catalog.verdadCards || []),
+      ...(catalog.retoCards || []),
+      ...(catalog.retosEspecialesCards || []),
+      ...(catalog.bonusCards || [])
+    ];
+    const byId = new Map(allCards.map((c) => [c.id, c]));
+    if (session.turns) {
+      for (const t of session.turns) {
+        if (t.verdadCard && byId.has(t.verdadCard.id)) t.verdadCard = byId.get(t.verdadCard.id);
+        if (t.retoCard && byId.has(t.retoCard.id)) t.retoCard = byId.get(t.retoCard.id);
+        if (t.resolvedCard && byId.has(t.resolvedCard.id)) t.resolvedCard = byId.get(t.resolvedCard.id);
+      }
+    }
+    session.locale = norm;
+    session.catalog = catalog;
+    return { session, changed: true };
   }
 };

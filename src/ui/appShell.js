@@ -847,7 +847,7 @@ export class AppShell {
 
   #renderLocaleDropdownHtml(state) {
     const { lang, locale } = state;
-    const activeLocale = locale || state.previaMixConfig?.locale || 'es-CO';
+    const activeLocale = locale || state.previaMixConfig?.locale || 'es';
     const activeOpt =
       PREVIA_MIX_LOCALE_OPTIONS.find((opt) => opt.code === activeLocale) || PREVIA_MIX_LOCALE_OPTIONS[0];
     const localeItemsHtml = PREVIA_MIX_LOCALE_OPTIONS.map((opt) => {
@@ -1451,7 +1451,7 @@ export class AppShell {
 
   #buildHomeView(state) {
     const { lang, locale } = state;
-    const activeLocale = locale || state.previaMixConfig?.locale || 'es-CO';
+    const activeLocale = locale || state.previaMixConfig?.locale || 'es';
     const activeOpt =
       PREVIA_MIX_LOCALE_OPTIONS.find((opt) => opt.code === activeLocale) || PREVIA_MIX_LOCALE_OPTIONS[0];
     const isHotActive = this.#isHotModeActive(state);
@@ -2708,7 +2708,7 @@ export class AppShell {
 
   #buildPromptHtml(vm) {
     const state = store.getState();
-    const lang = vm.locale || vm.lang || state.lang || 'es-CO';
+    const lang = vm.locale || vm.lang || state.lang || 'es';
     const cardResp = vm.card?.resp || vm.card?.respuesta || '';
     if (!vm.promptTokens || vm.promptTokens.length === 0) {
       const rawText = vm.card?.texto || vm.promptText || '';
@@ -4869,7 +4869,7 @@ export class AppShell {
     audioFx.setMusicMood('chill');
 
     const state = store.getState();
-    const currentLocale = state.locale || 'es-CO';
+    const currentLocale = state.locale || 'es';
     const defaultDeck = `previa-mix:${currentLocale}`;
     await editorController.init(defaultDeck);
     this.isTransitioning = false;
@@ -5882,7 +5882,7 @@ export class AppShell {
     }
 
     if (action === 'set-lang') {
-      const nextLocale = el.dataset.locale || el.dataset.lang || 'es-CO';
+      const nextLocale = el.dataset.locale || el.dataset.lang || 'es';
       audioFx.tap();
       if (nextLocale !== state.locale && nextLocale !== state.lang) {
         await this.#changeGameLocale(nextLocale);

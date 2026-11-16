@@ -12,6 +12,8 @@ export const TYPES = Object.freeze([
   'verdad', 'reto', 'retos especiales', 'eventos especiales', 'hot', 'bonus',
 ]);
 export const SUPPORTED_LOCALES = Object.freeze([
+  'es', 'en', 'pt',
+  // Compatibilidad hacia atrás
   'en-US','en-GB','es-CO','es-MX','es-ES','pt-BR','pt-PT',
 ]);
 const ALLOWED_PENALTIES = new Set(['sorbo','medio trago','1 trago']);
@@ -117,7 +119,7 @@ export function createPreviaMixGame(options){
   });
   assert(players.length>=2 && players.length<=24,'2 to 24 players required');
   assert(new Set(players.map(p=>p.id)).size===players.length,'player IDs must be unique');
-  const locale=options.locale??'es-CO';
+  const locale=options.locale??'es';
   assert(SUPPORTED_LOCALES.includes(locale),'unsupported locale');
   const types=options.enabledTypes??TYPES.filter(t=>t!=='hot');
   assert(Array.isArray(types)&&types.length>0&&types.every(t=>TYPES.includes(t)),'invalid enabledTypes');
@@ -210,7 +212,7 @@ export function getCardPlayerRequirements(card) {
   };
 }
 
-export function fillTokens(template, selected, locale = 'es-CO') {
+export function fillTokens(template, selected, locale = 'es') {
   const lang = String(locale || 'es').startsWith('en')
     ? 'en'
     : String(locale || 'es').startsWith('pt')
@@ -451,6 +453,9 @@ export function getActivePreviaMixEvents(state){
 
 /** Optional user-facing labels; IDs/categories always remain stable across languages. */
 export const TYPE_LABELS={
+  'es':['Clásico','Duelo','Yo nunca','¿Quién es más probable?','Verdad','Reto','Reto especial','Evento especial','Hot +18'],
+  'en':['Classic','Duel','Never Have I Ever','Most Likely To','Truth','Dare','Special Dare','Special Event','Hot +18'],
+  'pt':['Clássico','Duelo','Eu Nunca','Quem é Mais Provável','Verdade','Desafio','Desafio Especial','Evento Especial','Hot +18'],
   'es-CO':['Clásico','Duelo','Yo nunca','¿Quién es más probable?','Verdad','Reto','Reto especial','Evento especial','Hot +18'],
   'es-MX':['Clásico','Duelo','Yo nunca','¿Quién es más probable?','Verdad','Reto','Reto especial','Evento especial','Hot +18'],
   'es-ES':['Clásico','Duelo','Yo nunca','¿Quién es más probable?','Verdad','Reto','Reto especial','Evento especial','Hot +18'],
@@ -459,12 +464,15 @@ export const TYPE_LABELS={
   'pt-BR':['Clássico','Duelo','Eu Nunca','Quem é Mais Provável','Verdade','Desafio','Desafio Especial','Evento Especial','Hot +18'],
   'pt-PT':['Clássico','Duelo','Eu Nunca','Quem é Mais Provável','Verdade','Desafio','Desafio Especial','Evento Especial','Hot +18'],
 };
-export function getCardTypeLabel(card,locale='es-CO'){
+export function getCardTypeLabel(card,locale='es'){
   if(card?.tipo === 'bonus' || card?.isBonus) return locale?.startsWith('pt') ? 'Bônus 🎁' : 'Bonus 🎁';
   const idx=TYPES.indexOf(card?.tipo);
-  return (card?.especial?'★ ':'')+(TYPE_LABELS[locale]??TYPE_LABELS['es-CO'])[idx];
+  return (card?.especial?'★ ':'')+(TYPE_LABELS[locale]??TYPE_LABELS['es'])[idx];
 }
 export const PENALTY_LABELS = {
+  'es': { 'sorbo': 'sorbo', 'medio trago': 'medio trago', '1 trago': '1 trago', 'half a drink': 'medio trago', 'one drink': '1 trago', 'a sip': 'sorbo' },
+  'en': { 'sorbo': 'a sip', 'medio trago': 'half a drink', '1 trago': 'one drink', 'half a drink': 'half a drink', 'one drink': 'one drink', 'a sip': 'a sip', '1 drink': '1 drink', 'meio gole': 'half a drink' },
+  'pt': { 'sorbo': 'um gole', 'medio trago': 'meio copo', '1 trago': 'um copo', 'half a drink': 'meio gole', 'one drink': 'um copo', 'a sip': 'um gole', '1 drink': 'um gole', 'meio gole': 'meio gole' },
   'es-CO': { 'sorbo': 'sorbo', 'medio trago': 'medio trago', '1 trago': '1 trago', 'half a drink': 'medio trago', 'one drink': '1 trago', 'a sip': 'sorbo' },
   'es-MX': { 'sorbo': 'sorbito', 'medio trago': 'medio trago', '1 trago': '1 trago', 'half a drink': 'medio trago', 'one drink': '1 trago', 'a sip': 'sorbito' },
   'es-ES': { 'sorbo': 'sorbo', 'medio trago': 'medio trago', '1 trago': '1 trago', 'half a drink': 'medio trago', 'one drink': '1 trago', 'a sip': 'sorbo' },
@@ -473,6 +481,6 @@ export const PENALTY_LABELS = {
   'pt-BR': { 'sorbo': 'um gole', 'medio trago': 'meio copo', '1 trago': 'um copo', 'half a drink': 'meio gole', 'one drink': 'um copo', 'a sip': 'um gole', '1 drink': 'um gole', 'meio gole': 'meio gole' },
   'pt-PT': { 'sorbo': 'um gole', 'medio trago': 'meia bebida', '1 trago': 'uma bebida', 'half a drink': 'meio golo', 'one drink': 'uma bebida', 'a sip': 'um gole', '1 drink': 'um golo', 'meio gole': 'meio golo' }
 };
-export function getOptionalPenaltyLabel(castigo,locale='es-CO'){
- return (PENALTY_LABELS[locale]??PENALTY_LABELS['es-CO'])[castigo]??castigo;
+export function getOptionalPenaltyLabel(castigo,locale='es'){
+ return (PENALTY_LABELS[locale]??PENALTY_LABELS['es'])[castigo]??castigo;
 }

@@ -173,7 +173,7 @@ function loadLocalSettings() {
   };
 }
 
-function loadPreviaMixConfig(appLang = 'es', appLocale = 'es-CO', ageGateStatus = null) {
+function loadPreviaMixConfig(appLang = 'es', appLocale = 'es', ageGateStatus = null) {
   const saved = loadJsonStorage(window.localStorage, LOCAL_PREVIA_MIX_CONFIG_KEY, null);
   const isAdult = ageGateStatus === 'adult';
   const savedHotOn = isAdult && Boolean(saved?.enableHot);
@@ -223,7 +223,7 @@ function persistPreviaMixConfig(config, ageGateStatus = null) {
 const initialSettings = loadLocalSettings();
 const initialPreviaMixConfig = loadPreviaMixConfig(
   initialSettings.lang || 'es',
-  initialSettings.locale || 'es-CO',
+  initialSettings.locale || 'es',
   initialSettings.ageGateStatus
 );
 
@@ -231,7 +231,7 @@ const state = {
   clientId: getOrCreateClientId(),
   screen: 'splash', // 'splash' | 'home' | 'players' | 'menu' | 'instructions' | 'play'
   splashProgress: 0,
-  locale: initialSettings.locale || 'es-CO',
+  locale: initialSettings.locale || 'es',
   lang: initialSettings.lang || 'es',
   ageGateStatus: initialSettings.ageGateStatus || null,
   startFullscreen: initialSettings.startFullscreen !== false,

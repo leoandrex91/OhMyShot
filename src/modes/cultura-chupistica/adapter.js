@@ -27,18 +27,23 @@ import {
 // Cache en memoria de catálogos por locale
 const catalogCache = new Map();
 
-async function getCulturaCatalog(locale = 'es-CO') {
-  if (catalogCache.has(locale)) {
-    return catalogCache.get(locale);
+async function getCulturaCatalog(locale = 'es') {
+  const normLocale = String(locale).toLowerCase().startsWith('en')
+    ? 'en'
+    : String(locale).toLowerCase().startsWith('pt')
+      ? 'pt'
+      : 'es';
+  if (catalogCache.has(normLocale)) {
+    return catalogCache.get(normLocale);
   }
-  const loadedCards = await loadCulturaChupisticaCards(locale);
-  const castigos = getCastigosForLocale(locale);
+  const loadedCards = await loadCulturaChupisticaCards(normLocale);
+  const castigos = getCastigosForLocale(normLocale);
   const catalog = {
     cards: Array.isArray(loadedCards) ? loadedCards : [],
     castigos_toma: castigos.castigos_toma || [],
     castigos_notoma: castigos.castigos_notoma || []
   };
-  catalogCache.set(locale, catalog);
+  catalogCache.set(normLocale, catalog);
   return catalog;
 }
 
@@ -69,30 +74,12 @@ function shuffleArray(arr, rng = Math.random) {
   return copy;
 }
 
-export function getRitualPhrasing(locale = 'es-CO') {
-  const norm = String(locale || 'es-CO').toLowerCase();
-  if (norm.startsWith('es-mx')) {
-    return {
-      prefix: 'Caricachupas presenta:',
-      connector: '... como por ejemplo:'
-    };
-  }
-  if (norm.startsWith('es-es')) {
-    return {
-      prefix: 'Cultura Chupística de:',
-      connector: '... como por ejemplo:'
-    };
-  }
+export function getRitualPhrasing(locale = 'es') {
+  const norm = String(locale || 'es').toLowerCase();
   if (norm.startsWith('en')) {
     return {
       prefix: 'Categories of:',
       connector: '... such as:'
-    };
-  }
-  if (norm.startsWith('pt-pt')) {
-    return {
-      prefix: 'Cultura do Gole de:',
-      connector: '... como por exemplo:'
     };
   }
   if (norm.startsWith('pt')) {
@@ -101,7 +88,7 @@ export function getRitualPhrasing(locale = 'es-CO') {
       connector: '... como por exemplo:'
     };
   }
-  // Default es-CO / Latin America
+  // Default Español
   return {
     prefix: 'Cultura Chupística de:',
     connector: '... como por ejemplo:'
@@ -118,7 +105,7 @@ export const culturaChupisticaAdapter = {
     isAdultConfirmed = true
   }) {
     const config = normalizeConfig(modeConfig);
-    const locale = modeConfig.locale || (appLang === 'en' ? 'en-US' : appLang === 'pt' ? 'pt-BR' : 'es-CO');
+    const locale = modeConfig.locale || (appLang === 'en' ? 'en' : appLang === 'pt' ? 'pt' : 'es');
     const catalog = await getCulturaCatalog(locale);
 
     // Filtrar por rango de intensidad
@@ -271,5 +258,25 @@ export const culturaChupisticaAdapter = {
   cancelFailModal(session) {
     if (!session) return;
     session.roundState = 'active';
+  },
+
+  async setSessionLocale(session, nextLocale) {
+    if (!session) return { session, changed: false };
+    const norm = String(nextLocale).toLowerCase().startsWith('en')
+      ? 'en'
+      : String(nextLocale).toLowerCase().startsWith('pt')
+        ? 'pt'
+        : 'es';
+    if (session.locale === norm) return { session, changed: false };
+    const catalog = await getCulturaCatalog(norm);
+    const byId = new Map(catalog.cards.map((c) => [c.id, c]));
+    const nextDeck = (session.deck || []).map((c) => byId.get(c.id) || c);
+    session.locale = norm;
+    session.deck = nextDeck;
+    session.castigosCatalog = {
+      toma: catalog.castigos_toma,
+      notoma: catalog.castigos_notoma
+    };
+    return { session, changed: true };
   }
 };

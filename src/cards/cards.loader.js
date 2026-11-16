@@ -1,58 +1,48 @@
 import {
   castigos_toma as defaultToma,
   castigos_notoma as defaultNotoma
-} from './castigos.es-CO.js';
+} from './castigos.es.js';
 import { getCastigosForLocale } from './castigos.catalog.js';
 
 export const DEFAULT_CASTIGOS_TOMA = Object.freeze(defaultToma);
 export const DEFAULT_CASTIGOS_NOTOMA = Object.freeze(defaultNotoma);
 
 export const SUPPORTED_CARD_LOCALES = Object.freeze([
-  'es-CO',
-  'es-MX',
-  'es-ES',
-  'en-US',
-  'en-GB',
-  'pt-BR',
-  'pt-PT'
+  'es',
+  'en',
+  'pt'
 ]);
 
+function normalizeCardLocale(rawLocale = 'es') {
+  const p = String(rawLocale || '').toLowerCase();
+  if (p.startsWith('en')) return 'en';
+  if (p.startsWith('pt')) return 'pt';
+  return 'es';
+}
+
 /**
- * Carga perezosa del catálogo completo de cartas para un idioma/región.
+ * Carga perezosa del catálogo completo de cartas para un idioma ('es' | 'en' | 'pt').
  * @param {string} locale
  * @returns {Promise<Array>}
  */
-export async function loadCardsLocale(locale = 'es-CO') {
+export async function loadCardsLocale(locale = 'es') {
+  const safeLang = normalizeCardLocale(locale);
   let mod;
-  switch (locale) {
-    case 'en-US':
-      mod = await import('./cards.en-US.js');
+  switch (safeLang) {
+    case 'en':
+      mod = await import('./cards.en.js');
       break;
-    case 'en-GB':
-      mod = await import('./cards.en-GB.js');
+    case 'pt':
+      mod = await import('./cards.pt.js');
       break;
-    case 'es-CO':
-      mod = await import('./cards.es-CO.js');
-      break;
-    case 'es-MX':
-      mod = await import('./cards.es-MX.js');
-      break;
-    case 'es-ES':
-      mod = await import('./cards.es-ES.js');
-      break;
-    case 'pt-BR':
-      mod = await import('./cards.pt-BR.js');
-      break;
-    case 'pt-PT':
-      mod = await import('./cards.pt-PT.js');
-      break;
+    case 'es':
     default:
-      mod = await import('./cards.es-CO.js');
+      mod = await import('./cards.es.js');
       break;
   }
 
   const questions = mod.questions || mod.default || [];
-  const fallbackCastigos = getCastigosForLocale(locale);
+  const fallbackCastigos = getCastigosForLocale(safeLang);
   questions.castigos_toma = Array.isArray(mod.castigos_toma) && mod.castigos_toma.length
     ? mod.castigos_toma
     : fallbackCastigos.castigos_toma;
@@ -95,36 +85,23 @@ export async function loadCardsLocale(locale = 'es-CO') {
 }
 
 /**
- * Carga perezosa del catálogo de cartas de Cultura Chupística para un idioma/región.
+ * Carga perezosa del catálogo de cartas de Cultura Chupística para un idioma ('es' | 'en' | 'pt').
  * @param {string} locale
  * @returns {Promise<Array>}
  */
-export async function loadCulturaChupisticaCards(locale = 'es-CO') {
+export async function loadCulturaChupisticaCards(locale = 'es') {
+  const safeLang = normalizeCardLocale(locale);
   let mod;
-  switch (locale) {
-    case 'en-US':
-      mod = await import('./en-US/cultura-chupistica.en-US.js');
+  switch (safeLang) {
+    case 'en':
+      mod = await import('./en/cultura-chupistica.en.js');
       break;
-    case 'en-GB':
-      mod = await import('./en-GB/cultura-chupistica.en-GB.js');
+    case 'pt':
+      mod = await import('./pt/cultura-chupistica.pt.js');
       break;
-    case 'es-CO':
-      mod = await import('./es-CO/cultura-chupistica.es-CO.js');
-      break;
-    case 'es-MX':
-      mod = await import('./es-MX/cultura-chupistica.es-MX.js');
-      break;
-    case 'es-ES':
-      mod = await import('./es-ES/cultura-chupistica.es-ES.js');
-      break;
-    case 'pt-BR':
-      mod = await import('./pt-BR/cultura-chupistica.pt-BR.js');
-      break;
-    case 'pt-PT':
-      mod = await import('./pt-PT/cultura-chupistica.pt-PT.js');
-      break;
+    case 'es':
     default:
-      mod = await import('./es-CO/cultura-chupistica.es-CO.js');
+      mod = await import('./es/cultura-chupistica.es.js');
       break;
   }
   return mod.culturaChupisticaCards || mod.default || [];

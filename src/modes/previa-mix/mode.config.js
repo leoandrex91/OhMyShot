@@ -12,66 +12,30 @@ export const PREVIA_MIX_MIN_PLAYERS = 2;
 
 export const PREVIA_MIX_LOCALE_OPTIONS = Object.freeze([
   {
-    code: 'es-CO',
-    shortCode: 'CO',
-    nativeLabel: 'ES · Español (Colombia)',
-    labelEs: 'Colombia',
-    labelEn: 'Colombia',
-    labelPt: 'Colômbia',
-    baseLang: 'es'
-  },
-  {
-    code: 'es-MX',
-    shortCode: 'MX',
-    nativeLabel: 'ES · Español (México)',
-    labelEs: 'México',
-    labelEn: 'Mexico',
-    labelPt: 'México',
-    baseLang: 'es'
-  },
-  {
-    code: 'es-ES',
+    code: 'es',
     shortCode: 'ES',
-    nativeLabel: 'ES · Español (España)',
-    labelEs: 'España',
-    labelEn: 'Spain',
-    labelPt: 'Espanha',
+    nativeLabel: 'Español',
+    labelEs: 'Español',
+    labelEn: 'Spanish',
+    labelPt: 'Espanhol',
     baseLang: 'es'
   },
   {
-    code: 'en-US',
-    shortCode: 'US',
-    nativeLabel: 'EN · English (US)',
-    labelEs: 'EE. UU.',
-    labelEn: 'US',
-    labelPt: 'EUA',
+    code: 'en',
+    shortCode: 'EN',
+    nativeLabel: 'English',
+    labelEs: 'Inglés',
+    labelEn: 'English',
+    labelPt: 'Inglês',
     baseLang: 'en'
   },
   {
-    code: 'en-GB',
-    shortCode: 'UK',
-    nativeLabel: 'EN · English (UK)',
-    labelEs: 'Reino Unido',
-    labelEn: 'UK',
-    labelPt: 'Reino Unido',
-    baseLang: 'en'
-  },
-  {
-    code: 'pt-BR',
-    shortCode: 'BR',
-    nativeLabel: 'PT · Português (Brasil)',
-    labelEs: 'Brasil',
-    labelEn: 'Brazil',
-    labelPt: 'Brasil',
-    baseLang: 'pt'
-  },
-  {
-    code: 'pt-PT',
+    code: 'pt',
     shortCode: 'PT',
-    nativeLabel: 'PT · Português (Portugal)',
-    labelEs: 'Portugal',
-    labelEn: 'Portugal',
-    labelPt: 'Portugal',
+    nativeLabel: 'Português',
+    labelEs: 'Portugués',
+    labelEn: 'Portuguese',
+    labelPt: 'Português',
     baseLang: 'pt'
   }
 ]);
@@ -242,7 +206,7 @@ export const PREVIA_MIX_DEFAULT_ENABLED_TYPES = Object.freeze([
 ]);
 
 export function createDefaultPreviaMixConfig(appLang = 'es', localeOverride = null) {
-  const fallbackLocale = appLang === 'en' ? 'en-US' : appLang === 'pt' ? 'pt-BR' : 'es-CO';
+  const fallbackLocale = appLang === 'en' ? 'en' : appLang === 'pt' ? 'pt' : 'es';
   return {
     locale: localeOverride || fallbackLocale,
     localeAutoSynced: true,

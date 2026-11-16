@@ -11,13 +11,9 @@
  * - bonus_dice: Modo dados interactivo (bloquea el avance hasta tirar el dado de 1 a 6)
  */
 
-import { bonusCards as bonusCardsEsCO } from './es-CO/bonus.es-CO.js';
-import { bonusCards as bonusCardsEsMX } from './es-MX/bonus.es-MX.js';
-import { bonusCards as bonusCardsEsES } from './es-ES/bonus.es-ES.js';
-import { bonusCards as bonusCardsEnUS } from './en-US/bonus.en-US.js';
-import { bonusCards as bonusCardsEnGB } from './en-GB/bonus.en-GB.js';
-import { bonusCards as bonusCardsPtBR } from './pt-BR/bonus.pt-BR.js';
-import { bonusCards as bonusCardsPtPT } from './pt-PT/bonus.pt-PT.js';
+import { bonusCards as bonusCardsEs } from './es/bonus.es.js';
+import { bonusCards as bonusCardsEn } from './en/bonus.en.js';
+import { bonusCards as bonusCardsPt } from './pt/bonus.pt.js';
 
 export const BONUS_SUBTYPES = Object.freeze({
   SINGLE: 'bonus_single',
@@ -38,20 +34,30 @@ export const DICE_FACES = Object.freeze([
 ]);
 
 export const BONUS_CARDS_BY_LOCALE = Object.freeze({
-  'es-CO': bonusCardsEsCO,
-  'es-MX': bonusCardsEsMX,
-  'es-ES': bonusCardsEsES,
-  'en-US': bonusCardsEnUS,
-  'en-GB': bonusCardsEnGB,
-  'pt-BR': bonusCardsPtBR,
-  'pt-PT': bonusCardsPtPT
+  es: bonusCardsEs,
+  en: bonusCardsEn,
+  pt: bonusCardsPt,
+  // Compatibilidad hacia atrás
+  'es-CO': bonusCardsEs,
+  'es-MX': bonusCardsEs,
+  'es-ES': bonusCardsEs,
+  'en-US': bonusCardsEn,
+  'en-GB': bonusCardsEn,
+  'pt-BR': bonusCardsPt,
+  'pt-PT': bonusCardsPt
 });
 
 /**
- * Obtiene la lista de cartas bonus adaptadas al idioma regional indicado.
+ * Obtiene la lista de cartas bonus adaptadas al idioma indicado ('es' | 'en' | 'pt').
  */
-export function getBonusCardsForLocale(locale = 'es-CO') {
-  return BONUS_CARDS_BY_LOCALE[locale] || BONUS_CARDS_BY_LOCALE['es-CO'];
+export function getBonusCardsForLocale(locale = 'es') {
+  if (BONUS_CARDS_BY_LOCALE[locale]) {
+    return BONUS_CARDS_BY_LOCALE[locale];
+  }
+  const prefix = String(locale || '').toLowerCase();
+  if (prefix.startsWith('en')) return BONUS_CARDS_BY_LOCALE['en'];
+  if (prefix.startsWith('pt')) return BONUS_CARDS_BY_LOCALE['pt'];
+  return BONUS_CARDS_BY_LOCALE['es'];
 }
 
 export default BONUS_CARDS_BY_LOCALE;

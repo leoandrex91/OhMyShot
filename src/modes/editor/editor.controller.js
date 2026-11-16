@@ -16,14 +16,10 @@ import {
 } from './editor.storage.js';
 
 export const EDITOR_DECKS = Object.freeze([
-  { id: 'previa-mix:es-CO', label: 'Previa Mix · Colombia (es-CO)', mode: 'previa-mix', locale: 'es-CO' },
-  { id: 'previa-mix:es-MX', label: 'Previa Mix · México (es-MX)', mode: 'previa-mix', locale: 'es-MX' },
-  { id: 'previa-mix:es-ES', label: 'Previa Mix · España (es-ES)', mode: 'previa-mix', locale: 'es-ES' },
-  { id: 'previa-mix:en-US', label: 'Previa Mix · EE. UU. (en-US)', mode: 'previa-mix', locale: 'en-US' },
-  { id: 'previa-mix:en-GB', label: 'Previa Mix · Reino Unido (en-GB)', mode: 'previa-mix', locale: 'en-GB' },
-  { id: 'previa-mix:pt-BR', label: 'Previa Mix · Brasil (pt-BR)', mode: 'previa-mix', locale: 'pt-BR' },
-  { id: 'previa-mix:pt-PT', label: 'Previa Mix · Portugal (pt-PT)', mode: 'previa-mix', locale: 'pt-PT' },
-  { id: 'bonus:all', label: 'Cartas Bonus 🎁 (Universal)', mode: 'bonus', locale: 'es-CO' }
+  { id: 'previa-mix:es', label: 'Previa Mix · Español', mode: 'previa-mix', locale: 'es' },
+  { id: 'previa-mix:en', label: 'Previa Mix · English', mode: 'previa-mix', locale: 'en' },
+  { id: 'previa-mix:pt', label: 'Previa Mix · Português', mode: 'previa-mix', locale: 'pt' },
+  { id: 'bonus:all', label: 'Cartas Bonus 🎁 (Universal)', mode: 'bonus', locale: 'es' }
 ]);
 
 export const EDITOR_CATEGORIES = Object.freeze([
@@ -49,7 +45,7 @@ export const EDITOR_SAMPLE_PLAYERS = Object.freeze([
 
 export class EditorController {
   constructor() {
-    this.deckId = 'previa-mix:es-CO';
+    this.deckId = 'previa-mix:es';
     this.rawDeckCards = [];
     this.allCards = [];
     this.filteredCards = [];

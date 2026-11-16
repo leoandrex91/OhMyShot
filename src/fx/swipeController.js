@@ -14,7 +14,7 @@ export function attachCardSwipe(
     onDragEnd = null
   } = {}
 ) {
-  if (!cardEl) return () => {};
+  if (!cardEl) return () => { };
 
   const stageEl = cardEl.closest('.swipe-card-stage') || cardEl.parentElement;
   const badgeLeft = cardEl.querySelector('.swipe-stamp-left');

@@ -62,10 +62,10 @@ export function invalidatePreviaMixCatalogCache(locale = null) {
 }
 
 /**
- * Carga y cachea localmente el catálogo de 900 cartas del idioma regional elegido.
+ * Carga y cachea localmente el catálogo de cartas del idioma elegido ('es' | 'en' | 'pt').
  */
-export async function ensurePreviaMixCatalog(locale = 'es-CO') {
-  const safeLocale = SUPPORTED_LOCALES.includes(locale) ? locale : 'es-CO';
+export async function ensurePreviaMixCatalog(locale = 'es') {
+  const safeLocale = SUPPORTED_LOCALES.includes(locale) ? locale : 'es';
   if (catalogCache.has(safeLocale)) {
     return catalogCache.get(safeLocale);
   }
@@ -92,8 +92,8 @@ export async function ensurePreviaMixCatalog(locale = 'es-CO') {
   return promise;
 }
 
-export function getCachedPreviaMixCatalog(locale = 'es-CO') {
-  const safeLocale = SUPPORTED_LOCALES.includes(locale) ? locale : 'es-CO';
+export function getCachedPreviaMixCatalog(locale = 'es') {
+  const safeLocale = SUPPORTED_LOCALES.includes(locale) ? locale : 'es';
   return catalogCache.get(safeLocale) || null;
 }
 
@@ -500,7 +500,7 @@ export const previaMixAdapter = {
     if (!session || session.schemaVersion !== PREVIA_MIX_SCHEMA_VERSION) {
       return { session, changed: false };
     }
-    const safeLocale = SUPPORTED_LOCALES.includes(nextLocale) ? nextLocale : 'es-CO';
+    const safeLocale = SUPPORTED_LOCALES.includes(nextLocale) ? nextLocale : 'es';
     if (session.locale === safeLocale) {
       return { session, changed: false };
     }
