@@ -275,31 +275,104 @@ export class AppShell {
     }
   }
 
-  #startPreloaderToPlayers() {
+  #showScreenLoader(loaderKey = 'loaderPlay', customText = null) {
+    const state = store.getState();
+    const lang = state.lang || 'es';
+    const loaderEl = document.querySelector('#screen-loader');
+    if (!loaderEl) return;
+
+    document.body.classList.add('is-loading-view');
+    const text = customText || t(loaderKey, lang) || 'Cargando...';
+    loaderEl.innerHTML = `
+      <div class="screen-loader-card">
+        <div class="screen-loader-ring-wrap">
+          <div class="screen-loader-ring" aria-hidden="true"></div>
+          <img class="screen-loader-logo" src="./assets/imgs/logo_secundario.webp" alt="Oh My Shot!" />
+        </div>
+        <div class="screen-loader-eyebrow">${escapeHtml(t('loaderSub', lang) || 'OH MY SHOT!')}</div>
+        <div class="screen-loader-text">${escapeHtml(text)}</div>
+        <div class="screen-loader-bar" aria-hidden="true"><span></span></div>
+      </div>
+    `;
+    loaderEl.hidden = false;
+    loaderEl.classList.remove('is-fading');
+    loaderEl.classList.add('is-visible');
+  }
+
+  #hideScreenLoader() {
+    const loaderEl = document.querySelector('#screen-loader');
+    if (!loaderEl) return;
+    loaderEl.classList.remove('is-visible');
+    loaderEl.classList.add('is-fading');
+    const hideTimer = setTimeout(() => {
+      loaderEl.hidden = true;
+      loaderEl.classList.remove('is-fading');
+      document.body.classList.toggle(
+        'is-loading-view',
+        store.getState().screen === 'preloader' || this.isCountdownLaunching
+      );
+    }, 150);
+    this.transitionTimers.push(hideTimer);
+  }
+
+  async #startPreloaderToPlayers() {
     this.#clearPreloaderTimers();
-    store.setState({ screen: 'preloader', splashProgress: 0 });
+    store.setState({ screen: 'preloader', splashProgress: 12 });
 
-    const steps = [
-      { delay: 240, progress: 36 },
-      { delay: 980, progress: 74 },
-      { delay: 1880, progress: 100 }
-    ];
+    const state = store.getState();
+    const locale = state.locale || 'es';
 
-    for (const step of steps) {
-      const id = setTimeout(() => {
-        if (store.getState().screen !== 'preloader') return;
-        store.setState({ splashProgress: step.progress });
-      }, step.delay);
-      this.preloaderTimers.push(id);
-    }
+    const p1 = setTimeout(() => {
+      if (store.getState().screen === 'preloader') {
+        store.setState({ splashProgress: 35 });
+      }
+    }, 180);
+    this.preloaderTimers.push(p1);
 
-    const doneId = setTimeout(() => {
+    try {
+      // Precarga real en segundo plano de catálogos y módulos centrales
+      const preloadPromise = Promise.all([
+        import('../cards/cards.loader.js').then(async (m) => {
+          await Promise.all([
+            m.loadCardsLocale(locale).catch(() => []),
+            m.loadCulturaChupisticaCards(locale).catch(() => [])
+          ]);
+        }).catch((err) => console.warn('[Preloader] Advertencia de precarga:', err)),
+        // Tiempo mínimo agradable para ver el logo/botella (1.1s)
+        new Promise((res) => {
+          const id = setTimeout(res, 1100);
+          this.preloaderTimers.push(id);
+        })
+      ]);
+
+      const p2 = setTimeout(() => {
+        if (store.getState().screen === 'preloader') {
+          store.setState({ splashProgress: 75 });
+        }
+      }, 550);
+      this.preloaderTimers.push(p2);
+
+      await preloadPromise;
+
+      if (store.getState().screen !== 'preloader') return;
+      store.setState({ splashProgress: 100 });
+
+      // Pausa breve al 100% para feedback natural
+      await new Promise((res) => {
+        const id = setTimeout(res, 180);
+        this.preloaderTimers.push(id);
+      });
+
       if (store.getState().screen !== 'preloader') return;
       stage3d.pulse(0xff4fa3);
       visualFx.triggerLensFlare('#FF4FA3');
       store.setState({ screen: 'players', splashProgress: 100 });
-    }, 2900);
-    this.preloaderTimers.push(doneId);
+    } catch (err) {
+      console.warn('[Preloader] Error en flujo de preloader:', err);
+      if (store.getState().screen === 'preloader') {
+        store.setState({ screen: 'players', splashProgress: 100 });
+      }
+    }
   }
 
   #clearLaunchTimers({ resetOverlay = true } = {}) {
@@ -332,10 +405,10 @@ export class AppShell {
     }
   }
 
-  #navigateWithLoader(
+  async #navigateWithLoader(
     nextScreen,
     loaderKey,
-    { beforeSwitch = null, afterShow = null, durationMs = 480 } = {}
+    { beforeSwitch = null, afterShow = null, durationMs = 450, task = null } = {}
   ) {
     if (this.isTransitioning || this.isCountdownLaunching) return;
 
@@ -355,59 +428,50 @@ export class AppShell {
     this.editingPlayerId = null;
     this.isTransitioning = true;
 
-    const state = store.getState();
-    const { lang } = state;
-    const loaderEl = document.querySelector('#screen-loader');
+    this.#showScreenLoader(loaderKey);
+
     const reducedMotion =
       typeof window !== 'undefined' &&
       window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    const totalMs = reducedMotion ? 220 : durationMs;
-    const swapMs = Math.round(totalMs * 0.45);
+    const minMs = reducedMotion ? 200 : durationMs;
+    const swapDelay = Math.round(minMs * 0.45);
 
-    if (loaderEl) {
-      document.body.classList.add('is-loading-view');
-      loaderEl.innerHTML = `
-        <div class="screen-loader-card">
-          <div class="screen-loader-ring-wrap">
-            <div class="screen-loader-ring" aria-hidden="true"></div>
-            <img class="screen-loader-logo" src="./assets/imgs/logo_secundario.webp" alt="Oh My Shot!" />
-          </div>
-          <div class="screen-loader-eyebrow">${escapeHtml(t('loaderSub', lang))}</div>
-          <div class="screen-loader-text">${escapeHtml(t(loaderKey, lang))}</div>
-          <div class="screen-loader-bar" aria-hidden="true"><span></span></div>
-        </div>
-      `;
-      loaderEl.hidden = false;
-      loaderEl.classList.remove('is-fading');
-      loaderEl.classList.add('is-visible');
-    }
+    try {
+      const taskPromise = task ? (typeof task === 'function' ? task() : task) : null;
 
-    const swapTimer = setTimeout(() => {
+      // Espera inicial para el swap visual
+      await new Promise((res) => {
+        const id = setTimeout(res, swapDelay);
+        this.transitionTimers.push(id);
+      });
+
       window.scrollTo(0, 0);
       const patch = beforeSwitch ? beforeSwitch() : null;
       store.setState({
         ...(patch && typeof patch === 'object' ? patch : {}),
         screen: nextScreen
       });
-    }, swapMs);
 
-    const doneTimer = setTimeout(() => {
-      this.isTransitioning = false;
-      document.body.classList.toggle('is-loading-view', store.getState().screen === 'preloader');
-      visualFx.triggerLensFlare(DESIGN_TOKENS.shotPink);
-      if (loaderEl) {
-        loaderEl.classList.remove('is-visible');
-        loaderEl.classList.add('is-fading');
-        const hideTimer = setTimeout(() => {
-          loaderEl.hidden = true;
-          loaderEl.classList.remove('is-fading');
-        }, 150);
-        this.transitionTimers.push(hideTimer);
+      // Si hay una tarea asíncrona real, se espera a que termine
+      if (taskPromise) {
+        await taskPromise;
       }
-      afterShow?.();
-    }, totalMs);
 
-    this.transitionTimers.push(swapTimer, doneTimer);
+      const remainingMs = Math.max(0, minMs - swapDelay);
+      if (remainingMs > 0) {
+        await new Promise((res) => {
+          const id = setTimeout(res, remainingMs);
+          this.transitionTimers.push(id);
+        });
+      }
+    } catch (err) {
+      console.error('[navigateWithLoader] Error durante la navegación:', err);
+    } finally {
+      this.isTransitioning = false;
+      visualFx.triggerLensFlare(DESIGN_TOKENS.shotPink);
+      this.#hideScreenLoader();
+      afterShow?.();
+    }
   }
 
   #closeCreditsModal() {
@@ -4935,18 +4999,30 @@ export class AppShell {
     if (this.isTransitioning || this.isCountdownLaunching || this.isPreparingLaunch) return;
 
     this.isPreparingLaunch = true;
+    audioFx.tap();
+    this.#showScreenLoader('loaderPlay');
+
     let prebuilt = null;
     try {
       const adapter = getModeAdapter(modeId);
-      await adapter.preloadLocale?.(state.previaMixConfig?.locale);
-      prebuilt = await this.#createInitialGamePatch(modeId);
+      const safeLocale = state.locale || 'es';
+      const [result] = await Promise.all([
+        (async () => {
+          await adapter.preloadLocale?.(safeLocale);
+          return await this.#createInitialGamePatch(modeId);
+        })(),
+        new Promise((res) => setTimeout(res, 350))
+      ]);
+      prebuilt = result;
     } catch (err) {
-      console.error('[Previa Mix] Error cargando catálogo local:', err);
+      console.error('[LaunchGame] Error cargando catálogo o preparando partida:', err);
       this.isPreparingLaunch = false;
+      this.#hideScreenLoader();
       visualFx.showToast(t('catalogLoadErrorToast', state.lang));
       return;
     }
     this.isPreparingLaunch = false;
+    this.#hideScreenLoader();
 
     const overlay = document.querySelector('#launch-countdown-overlay');
     if (!overlay) {
@@ -5782,6 +5858,17 @@ export class AppShell {
       const modeId = el.dataset.modeId;
       const mode = LOCAL_GAME_MODES.find((m) => m.id === modeId);
       if (!mode || !mode.playable) return;
+
+      // Precarga proactiva en segundo plano mientras el usuario configura intensidad e instrucciones
+      const adapter = getModeAdapter(modeId);
+      const safeLocale = state.locale || 'es';
+      void adapter?.preloadLocale?.(safeLocale);
+      if (modeId === 'cultura-chupistica') {
+        import('../cards/cards.loader.js').then((m) => m.loadCulturaChupisticaCards(safeLocale)).catch(() => {});
+      } else {
+        import('../cards/cards.loader.js').then((m) => m.loadCardsLocale(safeLocale)).catch(() => {});
+      }
+
       this.#openModeIntensity(modeId);
       return;
     }
