@@ -49,6 +49,7 @@ function loadCulturaConfig(key, defaultTurns = 30) {
     timerMode,
     customTimerSeconds,
     trackFails: saved?.trackFails !== false,
+    customCardsEnabled: saved?.customCardsEnabled !== false,
     targetTurns: Math.max(5, Math.min(900, Number(saved?.targetTurns) || defaultTurns))
   };
 }
@@ -590,6 +591,7 @@ export const store = {
       timerMode,
       customTimerSeconds,
       trackFails: patch?.trackFails !== undefined ? Boolean(patch.trackFails) : current.trackFails !== false,
+      customCardsEnabled: patch?.customCardsEnabled !== undefined ? Boolean(patch.customCardsEnabled) : current.customCardsEnabled !== false,
       targetTurns: Math.max(5, Math.min(900, Number(patch?.targetTurns ?? current.targetTurns) || 30))
     };
     persistSimpleModeConfig(LOCAL_CULTURA_CHUPISTICA_CONFIG_KEY, nextConfig);

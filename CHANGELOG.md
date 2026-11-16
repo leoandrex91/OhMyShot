@@ -6,6 +6,22 @@ El formato se basa en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/
 
 ---
 
+## [0.8.2] - 2026-11-16
+
+### Añadido
+- **Creador de Cartas (Card Creator) - Soporte Completo de las 11 Categorías**:
+  - Integración de todas las 11 categorías oficiales del juego en el Creador de Cartas (`clásico`, `cultura chupística`, `yo nunca`, `quien es más probable`, `verdad`, `reto`, `retos especiales`, `duelo`, `hot`, `eventos especiales`, `bonus`), permitiendo crear y personalizar cartas para cualquier estilo o dinámica de previa.
+  - Soporte específico y tema visual para **Cultura Chupística** (`🍹`, gradiente azul-cian festivo con glow `--card-accent`) y **Retos Especiales** (`🌟`, gradiente magenta-carmesí).
+  - Normalización inteligente de cartas de Cultura Chupística: vinculación automática de campos `tema` y `texto`, y configuración de participantes en `grupo`.
+  - Integración directa en el adaptador de **Cultura Chupística** (`src/modes/cultura-chupistica/adapter.js`):
+    - Inyección prioritaria de las cartas personalizadas creadas en el mazo de partida.
+    - Switch independiente para activar/desactivar cartas personalizadas en la configuración del modo (`#mode-settings-custom-cards-check`).
+    - Renderizado con distintivo visual `⭐ CUSTOM` en la cabecera de la carta activa durante la partida.
+- **Verificación Integral E2E de Flujo de Cartas Personalizadas**:
+  - Pruebas automatizadas en Edge CDP cubriendo el ciclo de vida completo: creación, visualización en colección con tags y niveles, filtros por categoría, búsqueda reactiva, edición en modal, exportación/importación en formato JSON y ejecución real en partida de Cultura Chupística con 0 errores de consola.
+
+---
+
 ## [0.8.1] - 2026-11-16
 
 ### Añadido

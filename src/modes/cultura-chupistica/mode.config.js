@@ -45,6 +45,7 @@ export const DEFAULT_CULTURA_CHUPISTICA_CONFIG = Object.freeze({
   timerMode: 'infinite', // 'infinite' | '5s' | '10s' | '15s' | 'custom'
   customTimerSeconds: 20,
   trackFails: true,
+  customCardsEnabled: true,
   maxIntensity: 10,
   targetTurns: 30
 });

@@ -134,6 +134,17 @@ Modo exclusivo para mayores de edad para subir la temperatura de la noche:
 
 ---
 
+## 🎨 Creador de Cartas Personalizadas (Card Creator)
+
+Diseña tus propias cartas y personaliza la experiencia con bromas locales, preguntas privadas o desafíos entre amigos:
+- **Soporte Completo de las 11 Categorías**: Crea cartas para cualquiera de los estilos del juego (`Clásico`, `Cultura Chupística`, `Yo nunca`, `¿Quién es más probable?`, `Verdad`, `Reto`, `Reto especial`, `Duelo`, `Hot +18`, `Evento especial`, `Bonus`).
+- **Plantillas Dinámicas con Tokens**: Inserta fácilmente marcadores como `[player]` (jugador protagonista), `[player_x]` (segundo jugador) o `[all]` (todo el grupo) para que el motor asigne automáticamente los participantes durante la partida.
+- **Configuración Completa de Parámetros**: Define texto o tema, nivel de intensidad (1 a 10), castigo o trago sugerido, participantes (1, 2, 3 o grupo) y mínimo de jugadores en mesa.
+- **Integración Nativa en Todos los Modos**: Activa o desactiva tus cartas creadas desde el modal de ajustes de cada modo (Previa Mix, Cultura Chupística, Verdad o Reto, etc.). Las cartas personalizadas aparecen con el distintivo `⭐ CUSTOM`.
+- **Exportación e Importación JSON**: Respalda tu colección completa o compártela con tus amigos en un archivo `.json` liviano. Capacidad de almacenamiento persistente en `localStorage` de hasta 500 cartas.
+
+---
+
 ## 💻 Instalación y Ejecución Local
 
 No necesitas instalar Node.js ni configurar herramientas complejas de compilación (Webpack, Vite, etc.). La aplicación corre 100% sobre **JavaScript estándar puro (ES Modules)**.

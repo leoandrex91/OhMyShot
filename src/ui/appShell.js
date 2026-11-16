@@ -1914,7 +1914,7 @@ export class AppShell {
       targetCards = Number(verdadORetoConfig?.targetTurns) || 45;
     } else if (isCultura) {
       isBonusActive = false;
-      isCustomCardsActive = false;
+      isCustomCardsActive = culturaChupisticaConfig?.customCardsEnabled !== false;
       targetCards = Number(culturaChupisticaConfig?.targetTurns) || 30;
     } else {
       const config = previaMixConfig || {};
@@ -2227,6 +2227,7 @@ export class AppShell {
                 <span class="oms-switch-track" aria-hidden="true"></span>
               </span>
             </label>
+            ` : ''}
 
             <label class="settings-switch-row" for="mode-settings-custom-cards-check">
               <span class="settings-switch-copy">
@@ -2247,7 +2248,6 @@ export class AppShell {
                 <span class="oms-switch-track" aria-hidden="true"></span>
               </span>
             </label>
-            ` : ''}
 
             <div class="settings-item mode-cards-limit-item">
               <div class="settings-item-head">
@@ -3732,7 +3732,7 @@ export class AppShell {
                   <span class="cultura-turn-dir">↻</span>
                 </div>
                 <div class="card-header-badges">
-                  <span class="card-type-badge">${escapeHtml((vm.categoria || 'clasico').toUpperCase())}</span>
+                  <span class="card-type-badge">${vm.card?.isCustom ? '⭐ CUSTOM' : escapeHtml((vm.categoria || 'clasico').toUpperCase())}</span>
                   <span class="card-lvl-badge">${escapeHtml(t('levelLabel', lang))} ${cardLevel}</span>
                 </div>
               </div>
@@ -4058,6 +4058,8 @@ export class AppShell {
           store.updateHotConfig({ customCardsEnabled: isChecked });
         } else if (modeId === 'verdad-o-reto') {
           store.updateVerdadORetoConfig({ customCardsEnabled: isChecked });
+        } else if (modeId === 'cultura-chupistica') {
+          store.updateCulturaChupisticaConfig({ customCardsEnabled: isChecked });
         } else {
           store.updatePreviaMixConfig({ customCardsEnabled: isChecked });
         }
@@ -4923,6 +4925,7 @@ export class AppShell {
         timerMode: cfg.timerMode || 'infinite',
         customTimerSeconds: cfg.customTimerSeconds || 20,
         trackFails: cfg.trackFails !== false,
+        customCardsEnabled: cfg.customCardsEnabled !== false,
         targetTurns: cfg.targetTurns || 30,
         minIntensity,
         maxIntensity

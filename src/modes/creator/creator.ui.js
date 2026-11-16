@@ -32,6 +32,13 @@ export const CUSTOM_CARD_THEMES = Object.freeze({
     icon: '🍻',
     label: 'Clásico'
   },
+  'cultura chupística': {
+    themeClass: 'card-theme-cultura',
+    gradient: 'linear-gradient(142deg, #06B6D4 0%, #0284C7 50%, #1E40AF 100%)',
+    accent: '#06B6D4',
+    icon: '🍹',
+    label: 'Cultura Chupística'
+  },
   'yo nunca': {
     themeClass: 'card-theme-yo-nunca',
     gradient: 'linear-gradient(142deg, #3BEAD0 0%, #1DC5AE 48%, #149688 100%)',
@@ -52,6 +59,13 @@ export const CUSTOM_CARD_THEMES = Object.freeze({
     accent: '#8B5CF6',
     icon: '⚡',
     label: 'Reto'
+  },
+  'retos especiales': {
+    themeClass: 'card-theme-reto-especial',
+    gradient: 'linear-gradient(142deg, #F43F5E 0%, #E11D48 50%, #9F1239 100%)',
+    accent: '#F43F5E',
+    icon: '🌟',
+    label: 'Reto especial'
   },
   'verdad': {
     themeClass: 'card-theme-verdad',
@@ -92,6 +106,8 @@ export const CUSTOM_CARD_THEMES = Object.freeze({
 
 export function getCustomCardTheme(rawTipo) {
   const norm = String(rawTipo || '').toLowerCase().trim();
+  if (norm.includes('cultura') || norm.includes('chupistica')) return CUSTOM_CARD_THEMES['cultura chupística'];
+  if (norm.includes('retos especiales') || (norm.includes('reto') && norm.includes('especial'))) return CUSTOM_CARD_THEMES['retos especiales'];
   if (norm.includes('nunca')) return CUSTOM_CARD_THEMES['yo nunca'];
   if (norm.includes('quien') || norm.includes('probable')) return CUSTOM_CARD_THEMES['quien es más probable'];
   if (norm.includes('reto')) return CUSTOM_CARD_THEMES['reto'];
@@ -449,7 +465,7 @@ function buildEditModalHtml(lang) {
               name="texto"
               class="editor-custom-textarea creator-form-textarea"
               rows="3"
-              placeholder="Ej: [player] debe confesar su momento más vergonzoso de este año o toma 2 tragos."
+              placeholder="Ej: [player] debe confesar... / Cultura Chupística: Marcas de tequila / Yo nunca he fingido..."
               required
             >${escapeHtml(card.texto || '')}</textarea>
           </div>

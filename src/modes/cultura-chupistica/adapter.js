@@ -18,6 +18,7 @@
 
 import { loadCulturaChupisticaCards } from '../../cards/cards.loader.js';
 import { getCastigosForLocale } from '../../cards/castigos.catalog.js';
+import { getCustomCardsForMode } from '../../core/customCards.js';
 import { resolveDynamicPenalty } from '../previa-mix/adapter.js';
 import {
   CULTURA_CHUPISTICA_MODE_ID,
@@ -59,6 +60,7 @@ function normalizeConfig(raw = {}) {
     timerMode,
     customTimerSeconds,
     trackFails: raw.trackFails !== false,
+    customCardsEnabled: raw.customCardsEnabled !== false,
     minIntensity: Math.max(1, Math.min(10, Number(raw.minIntensity) || 1)),
     maxIntensity: Math.max(1, Math.min(10, Number(raw.maxIntensity) || 10)),
     targetTurns: Math.max(10, Math.min(100, Number(raw.targetTurns) || 30))
@@ -123,7 +125,25 @@ export const culturaChupisticaAdapter = {
       pool = catalog.cards.slice(0, 100);
     }
 
-    const deck = shuffleArray(pool);
+    let deck = shuffleArray(pool);
+
+    // Inyección de cartas personalizadas de Cultura Chupística si están habilitadas
+    if (config.customCardsEnabled !== false) {
+      const customCards = getCustomCardsForMode('cultura-chupistica', {
+        minIntensity: config.minIntensity,
+        maxIntensity: config.maxIntensity
+      });
+      if (customCards.length > 0) {
+        const mappedCustom = customCards.map((c) => ({
+          id: c.id,
+          categoria: 'cultura-chupistica',
+          tema: c.tema || c.texto,
+          intensidad: c.intensidad,
+          isCustom: true
+        }));
+        deck = [...shuffleArray(mappedCustom), ...deck];
+      }
+    }
 
     const failsByPlayer = {};
     for (const player of localPlayers) {

@@ -9,14 +9,16 @@ export const MAX_CUSTOM_CARDS = 500;
 
 export const CUSTOM_CARD_CATEGORIES = Object.freeze([
   { id: 'clásico', label: 'Clásico', icon: '🍻' },
+  { id: 'cultura chupística', label: 'Cultura Chupística', icon: '🍹' },
   { id: 'yo nunca', label: 'Yo nunca', icon: '🙈' },
   { id: 'quien es más probable', label: '¿Quién es más probable?', icon: '👑' },
-  { id: 'reto', label: 'Reto', icon: '⚡' },
   { id: 'verdad', label: 'Verdad', icon: '💬' },
+  { id: 'reto', label: 'Reto', icon: '⚡' },
+  { id: 'retos especiales', label: 'Reto especial', icon: '🌟' },
   { id: 'duelo', label: 'Duelo', icon: '⚔️' },
   { id: 'hot', label: 'Hot +18', icon: '🔥' },
-  { id: 'bonus', label: 'Bonus', icon: '🎁' },
-  { id: 'eventos especiales', label: 'Evento especial', icon: '⭐' }
+  { id: 'eventos especiales', label: 'Evento especial', icon: '⭐' },
+  { id: 'bonus', label: 'Bonus', icon: '🎁' }
 ]);
 
 function readCustomCardsRaw() {
@@ -47,15 +49,16 @@ function writeCustomCardsRaw(cards) {
  */
 export function normalizeCustomCard(raw = {}) {
   const id = String(raw.id || `custom_${Date.now()}_${Math.random().toString(36).slice(2, 7)}`);
-  const texto = String(raw.texto || raw.prompt || '').trim();
+  const texto = String(raw.texto || raw.tema || raw.prompt || '').trim();
   const intensidad = Math.min(10, Math.max(1, Math.round(Number(raw.intensidad) || 5)));
-  let tipo = String(raw.tipo || 'clásico').toLowerCase().trim();
+  let tipo = String(raw.tipo || raw.categoria || 'clásico').toLowerCase().trim();
   if (tipo === 'clasico') tipo = 'clásico';
+  if (tipo === 'cultura-chupistica' || tipo === 'cultura') tipo = 'cultura chupística';
   const subtipo = raw.subtipo ? String(raw.subtipo).trim() : null;
   const castigo = String(raw.castigo || 'medio trago').trim();
   const participantes = ['uno', 'duo', 'trio', 'grupo'].includes(String(raw.participantes).toLowerCase())
     ? String(raw.participantes).toLowerCase()
-    : 'uno';
+    : (tipo === 'cultura chupística' || tipo === 'yo nunca') ? 'grupo' : 'uno';
   const min_jugadores = Math.min(8, Math.max(2, Math.round(Number(raw.min_jugadores) || 2)));
   const createdAt = Number(raw.createdAt) || Date.now();
   const updatedAt = Number(raw.updatedAt) || Date.now();
@@ -63,6 +66,7 @@ export function normalizeCustomCard(raw = {}) {
   return {
     id,
     texto,
+    tema: texto,
     intensidad,
     tipo,
     subtipo,
@@ -247,6 +251,12 @@ export function getCustomCardsForMode(modeId, { enabledTypes = null, minIntensit
     if (modeId === 'quien') {
       return c.tipo === 'quien es más probable';
     }
+    if (modeId === 'cultura-chupistica') {
+      return c.tipo === 'cultura chupística';
+    }
+    if (modeId === 'hot') {
+      return c.tipo === 'hot';
+    }
     if (modeId === 'verdad-o-reto') {
       const allowed = Array.isArray(enabledTypes) && enabledTypes.length > 0
         ? enabledTypes
@@ -254,6 +264,9 @@ export function getCustomCardsForMode(modeId, { enabledTypes = null, minIntensit
       return allowed.includes(c.tipo);
     }
     if (modeId === 'previa-mix') {
+      if (c.tipo === 'cultura chupística' && (!Array.isArray(enabledTypes) || !enabledTypes.includes('cultura chupística'))) {
+        return false;
+      }
       if (Array.isArray(enabledTypes) && enabledTypes.length > 0) {
         const normTypes = enabledTypes.map((t) => (t === 'clasico' ? 'clásico' : t));
         return normTypes.includes(c.tipo) || (c.tipo === 'clásico' && normTypes.includes('clasico'));
