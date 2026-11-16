@@ -582,7 +582,6 @@ function buildEditModalHtml(lang) {
               />
             </div>
           </div>
-          </div>
         </form>
 
         <div class="editor-modal-footer">
