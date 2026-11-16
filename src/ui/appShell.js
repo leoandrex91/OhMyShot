@@ -577,69 +577,6 @@ export class AppShell {
       return;
     }
 
-    if (state.screen === 'editor') {
-      if (editorController.exportModalOpen) {
-        if (e.key === 'Escape') {
-          e.preventDefault();
-          audioFx.tap();
-          editorController.closeExport();
-          this.render();
-        }
-        return;
-      }
-      if (editorController.isEditing) {
-        if (e.key === 'Escape') {
-          e.preventDefault();
-          audioFx.tap();
-          editorController.cancelEdit();
-          this.render();
-        }
-        return;
-      }
-      const isInputFocused = ['INPUT', 'TEXTAREA', 'SELECT'].includes(document.activeElement?.tagName);
-      if (isInputFocused) {
-        if (e.key === 'Escape') {
-          document.activeElement.blur();
-        }
-        return;
-      }
-
-      if (e.key === 'ArrowRight') {
-        e.preventDefault();
-        audioFx.tap();
-        editorController.nextCard();
-        this.render();
-        return;
-      }
-      if (e.key === 'ArrowLeft') {
-        e.preventDefault();
-        audioFx.tap();
-        editorController.prevCard();
-        this.render();
-        return;
-      }
-      if (e.key === 'e' || e.key === 'E') {
-        e.preventDefault();
-        audioFx.tap();
-        editorController.startEdit();
-        this.render();
-        return;
-      }
-      if (e.key === 'n' || e.key === 'N') {
-        e.preventDefault();
-        audioFx.tap();
-        editorController.startCreateNew();
-        this.render();
-        return;
-      }
-      if (e.key === 'Escape') {
-        e.preventDefault();
-        audioFx.tap();
-        this.#navigateWithLoader('menu', 'loaderReturning');
-        return;
-      }
-    }
-
     if (this.exitConfirmOpen) {
       if (e.key === 'Escape') {
         e.preventDefault();
@@ -778,7 +715,7 @@ export class AppShell {
     const subText =
       screen === 'play' && modeInfo
         ? `${pickLocalizedText(modeInfo, 'title', lang)}`
-        : screen === 'editor'
+        : screen === 'creator'
           ? (t('cardCreatorBtn', lang) || 'Creador de Cartas')
           : '';
 
@@ -798,7 +735,7 @@ export class AppShell {
         UI_ICONS.arrowLeft,
         'ui-icon-xs'
       )}<span>${escapeHtml(t('backBtn', lang) || 'Volver')}</span></button>`;
-    } else if (screen === 'creator' || screen === 'editor') {
+    } else if (screen === 'creator') {
       backBtnHtml = `<button class="pill-btn" data-action="exit-creator-to-menu" type="button">${renderUiIconHtml(
         UI_ICONS.arrowLeft,
         'ui-icon-xs'
@@ -3764,7 +3701,6 @@ export class AppShell {
     document.body.classList.toggle('text-xl', isLargeText);
     document.body.classList.toggle('is-boot-black', state.screen === 'splash');
     document.body.classList.toggle('is-home-calm', state.screen === 'home');
-    document.body.classList.toggle('is-editor-mode', state.screen === 'editor' || state.screen === 'creator');
     document.body.classList.toggle('is-creator-mode', state.screen === 'creator');
     document.body.classList.toggle('is-age-gate-blur', isAgeGateBlocking);
     document.body.classList.toggle(
@@ -3852,11 +3788,6 @@ export class AppShell {
       html = `${this.#buildTopbar(state)}<main>${this.#buildInstructionsView(
         state
       )}</main>${settingsModalHtml}${creditsModalHtml}${modeSettingsModalHtml}${ageGateModalHtml}`;
-    } else if (state.screen === 'editor') {
-      const answerModalHtml = this.cardAnswerModal ? this.#buildCardAnswerModal(state) : '';
-      html = `${this.#buildTopbar(state)}<main class="editor-screen-main">${buildEditorScreenHtml(
-        state
-      )}</main>${answerModalHtml}${settingsModalHtml}${creditsModalHtml}${ageGateModalHtml}`;
     } else if (state.screen === 'creator') {
       html = `${this.#buildTopbar(state)}<main class="creator-screen-main">${buildCreatorScreenHtml(
         state
@@ -4312,9 +4243,6 @@ export class AppShell {
     this.#bindSettingsModalEvents(signal);
     if (state.screen === 'players') {
       this.#bindPlayerLongPress(signal);
-    }
-    if (state.screen === 'editor') {
-      this.#bindEditorEvents(signal);
     }
     if (state.screen === 'creator') {
       this.#bindCreatorEvents(signal);
@@ -4860,153 +4788,7 @@ export class AppShell {
     );
   }
 
-  async #openEditorMode() {
-    audioFx.tap();
-    this.isTransitioning = true;
-    this.render();
-    stage3d.setSpecialFx('ambient', '#06b6d4');
-    visualFx.syncGameFxState(false, 'ambient');
-    audioFx.setMusicMood('chill');
 
-    const state = store.getState();
-    const currentLocale = state.locale || 'es';
-    const defaultDeck = `previa-mix:${currentLocale}`;
-    await editorController.init(defaultDeck);
-    this.isTransitioning = false;
-    store.setState({ screen: 'editor', activeGameModeId: 'editor' });
-  }
-
-  #bindEditorEvents(signal) {
-    const deckSelect = document.querySelector('#editor-deck-select');
-    deckSelect?.addEventListener(
-      'change',
-      async (e) => {
-        audioFx.tap();
-        await editorController.loadDeck(e.target.value);
-        this.render();
-      },
-      { signal }
-    );
-
-    const orderSelect = document.querySelector('#editor-order-select');
-    orderSelect?.addEventListener(
-      'change',
-      (e) => {
-        audioFx.tap();
-        editorController.setOrderMode(e.target.value);
-        this.render();
-      },
-      { signal }
-    );
-
-    const categorySelect = document.querySelector('#editor-category-select');
-    categorySelect?.addEventListener(
-      'change',
-      (e) => {
-        audioFx.tap();
-        editorController.setFilterType(e.target.value);
-        this.render();
-      },
-      { signal }
-    );
-
-    const intensitySelect = document.querySelector('#editor-intensity-select');
-    intensitySelect?.addEventListener(
-      'change',
-      (e) => {
-        audioFx.tap();
-        editorController.setFilterIntensity(e.target.value);
-        this.render();
-      },
-      { signal }
-    );
-
-    const searchInput = document.querySelector('#editor-search-input');
-    searchInput?.addEventListener(
-      'input',
-      (e) => {
-        editorController.setSearchQuery(e.target.value);
-        this.render();
-      },
-      { signal }
-    );
-
-    const jumpInput = document.querySelector('#editor-jump-input');
-    jumpInput?.addEventListener(
-      'keydown',
-      (e) => {
-        if (e.key === 'Enter') {
-          e.preventDefault();
-          const val = Number(jumpInput.value);
-          if (Number.isFinite(val)) {
-            audioFx.tap();
-            editorController.jumpToIndex(val - 1);
-            this.render();
-          }
-        }
-      },
-      { signal }
-    );
-
-    const form = document.querySelector('#editor-card-form');
-    if (form) {
-      form.querySelectorAll('[data-action="editor-field-change"]').forEach((inputEl) => {
-        const field = inputEl.dataset.field;
-        const evtType = inputEl.tagName === 'SELECT' || inputEl.type === 'checkbox' ? 'change' : 'input';
-        inputEl.addEventListener(
-          evtType,
-          (e) => {
-            const val = inputEl.type === 'checkbox' ? inputEl.checked : inputEl.value;
-            editorController.updateEditingCard({ [field]: val });
-            if (field === 'tipo' || field === 'subtipo') {
-              this.render();
-            }
-          },
-          { signal }
-        );
-      });
-
-      const intensitySlider = document.querySelector('#edit-card-intensidad');
-      intensitySlider?.addEventListener(
-        'input',
-        (e) => {
-          const val = Number(e.target.value);
-          editorController.updateEditingCard({ intensidad: val });
-          const img = document.querySelector('#editor-intensity-preview-img');
-          const valLabel = document.querySelector('#editor-intensity-val');
-          if (img) img.src = `./assets/icons/levels/level_${String(val).padStart(2, '0')}.webp`;
-          if (valLabel) valLabel.textContent = `${val} / 10`;
-        },
-        { signal }
-      );
-    }
-
-    const editBackdrop = document.querySelector('#editor-edit-modal-backdrop');
-    editBackdrop?.addEventListener(
-      'click',
-      (e) => {
-        if (e.target === editBackdrop) {
-          audioFx.tap();
-          editorController.cancelEdit();
-          this.render();
-        }
-      },
-      { signal }
-    );
-
-    const exportBackdrop = document.querySelector('#editor-export-modal-backdrop');
-    exportBackdrop?.addEventListener(
-      'click',
-      (e) => {
-        if (e.target === exportBackdrop) {
-          audioFx.tap();
-          editorController.closeExport();
-          this.render();
-        }
-      },
-      { signal }
-    );
-  }
 
   async #createInitialGamePatch(modeId) {
     const state = store.getState();
@@ -5875,8 +5657,8 @@ export class AppShell {
         this.homeSettingsModalOpen = false;
         audioFx.god();
         visualFx.triggerConfetti('party');
-        visualFx.showToast('🛠️ ¡Editor de Cartas secreto desbloqueado!');
-        await this.#openEditorMode();
+        visualFx.showToast('✨ ¡Creador de Cartas desbloqueado!');
+        await this.#openCardCreator();
       }
       return;
     }
@@ -6000,11 +5782,6 @@ export class AppShell {
       const modeId = el.dataset.modeId;
       const mode = LOCAL_GAME_MODES.find((m) => m.id === modeId);
       if (!mode || !mode.playable) return;
-      if (modeId === 'editor') {
-        audioFx.tap();
-        await this.#openEditorMode();
-        return;
-      }
       this.#openModeIntensity(modeId);
       return;
     }
@@ -6298,194 +6075,6 @@ export class AppShell {
         textarea.value = old.slice(0, start) + token + old.slice(end);
         textarea.selectionStart = textarea.selectionEnd = start + token.length;
         textarea.focus();
-      }
-      return;
-    }
-
-    if (action === 'exit-editor-to-menu') {
-      audioFx.tap();
-      editorController.cancelEdit();
-      editorController.closeExport();
-      this.#navigateWithLoader('menu', 'loaderReturning');
-      return;
-    }
-
-    if (action === 'editor-prev-card') {
-      audioFx.tap();
-      editorController.prevCard();
-      this.render();
-      return;
-    }
-
-    if (action === 'editor-next-card') {
-      audioFx.tap();
-      editorController.nextCard();
-      this.render();
-      return;
-    }
-
-    if (action === 'editor-random-card') {
-      audioFx.tap();
-      editorController.randomCard();
-      this.render();
-      return;
-    }
-
-    if (action === 'editor-do-jump') {
-      audioFx.tap();
-      const input = document.querySelector('#editor-jump-input');
-      const val = Number(input?.value);
-      if (Number.isFinite(val)) {
-        editorController.jumpToIndex(val - 1);
-        this.render();
-      }
-      return;
-    }
-
-    if (action === 'editor-open-edit') {
-      audioFx.tap();
-      editorController.startEdit();
-      this.render();
-      return;
-    }
-
-    if (action === 'editor-create-new') {
-      audioFx.tap();
-      editorController.startCreateNew();
-      this.render();
-      return;
-    }
-
-    if (action === 'editor-set-order') {
-      audioFx.tap();
-      const order = el.dataset.order || 'order';
-      editorController.setOrderMode(order);
-      this.render();
-      return;
-    }
-
-    if (action === 'editor-toggle-mobile-filters') {
-      audioFx.tap();
-      editorController.toggleMobileFilters();
-      this.render();
-      return;
-    }
-
-    if (action === 'editor-cancel-edit') {
-      audioFx.tap();
-      editorController.cancelEdit();
-      this.render();
-      return;
-    }
-
-    if (action === 'editor-save-card') {
-      audioFx.tap();
-      const ok = editorController.saveEdit();
-      if (ok) {
-        invalidatePreviaMixCatalogCache();
-        visualFx.showToast('¡Carta guardada exitosamente! 💾');
-        audioFx.god();
-      }
-      this.render();
-      return;
-    }
-
-    if (action === 'editor-delete-card') {
-      audioFx.tap();
-      const lang = store.get('lang') || 'es';
-      if (window.confirm(t('confirmDeleteCard', lang))) {
-        editorController.deleteCurrentCard();
-        invalidatePreviaMixCatalogCache();
-        visualFx.showToast(t('cardDeletedToast', lang));
-        this.render();
-      }
-      return;
-    }
-
-    if (action === 'editor-reset-deck') {
-      audioFx.tap();
-      const lang = store.get('lang') || 'es';
-      if (window.confirm(t('confirmResetDeck', lang))) {
-        editorController.resetCurrentDeck();
-        invalidatePreviaMixCatalogCache();
-        visualFx.showToast(t('deckResetToast', lang));
-        this.render();
-      }
-      return;
-    }
-
-    if (action === 'editor-open-export') {
-      audioFx.tap();
-      const format = el.dataset.format || 'json';
-      editorController.openExport(format);
-      this.render();
-      return;
-    }
-
-    if (action === 'editor-switch-export-format') {
-      audioFx.tap();
-      const format = el.dataset.format || 'json';
-      editorController.openExport(format);
-      this.render();
-      return;
-    }
-
-    if (action === 'editor-close-export') {
-      audioFx.tap();
-      editorController.closeExport();
-      this.render();
-      return;
-    }
-
-    if (action === 'editor-copy-clipboard') {
-      audioFx.tap();
-      const text = editorController.exportContent;
-      if (navigator.clipboard?.writeText) {
-        navigator.clipboard.writeText(text)
-          .then(() => visualFx.showToast('¡Copiado al portapapeles! 📋'))
-          .catch(() => visualFx.showToast('No se pudo copiar automáticamente.'));
-      }
-      return;
-    }
-
-    if (action === 'editor-download-file') {
-      audioFx.tap();
-      const filename = editorController.exportFilename || 'cartas.json';
-      const content = editorController.exportContent;
-      const blob = new Blob([content], { type: 'text/plain;charset=utf-8' });
-      const url = URL.createObjectURL(blob);
-      const a = document.createElement('a');
-      a.href = url;
-      a.download = filename;
-      document.body.appendChild(a);
-      a.click();
-      document.body.removeChild(a);
-      URL.revokeObjectURL(url);
-      visualFx.showToast(`¡Descargando ${filename}! 📥`);
-      return;
-    }
-
-    if (action === 'editor-clear-search') {
-      audioFx.tap();
-      editorController.setSearchQuery('');
-      this.render();
-      return;
-    }
-
-    if (action === 'editor-insert-token') {
-      audioFx.tap();
-      const token = el.dataset.token || '';
-      const textarea = document.querySelector('#edit-card-texto');
-      if (textarea) {
-        const start = textarea.selectionStart ?? textarea.value.length;
-        const end = textarea.selectionEnd ?? textarea.value.length;
-        const val = textarea.value;
-        const nextVal = val.slice(0, start) + token + val.slice(end);
-        textarea.value = nextVal;
-        textarea.focus();
-        const nextPos = start + token.length;
-        textarea.setSelectionRange(nextPos, nextPos);
-        editorController.updateEditingCard({ texto: nextVal });
       }
       return;
     }
