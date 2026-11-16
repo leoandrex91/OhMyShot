@@ -19,7 +19,6 @@ import {
   loadPreviaMixLocale
 } from './previa-mix.locales.js';
 import { getCastigosForLocale } from '../../cards/castigos.catalog.js';
-import { applyOverridesToCards } from '../editor/editor.storage.js';
 import { getCustomCardsForMode } from '../../core/customCards.js';
 import {
   PREVIA_MIX_DEFAULT_ENABLED_TYPES,
@@ -78,10 +77,9 @@ export async function ensurePreviaMixCatalog(locale = 'es') {
       if (!Array.isArray(cards) || cards.length === 0) {
         throw new Error(`[Previa Mix] Catálogo vacío o inválido para ${safeLocale}`);
       }
-      const withOverrides = applyOverridesToCards(`previa-mix:${safeLocale}`, cards);
-      catalogCache.set(safeLocale, withOverrides);
+      catalogCache.set(safeLocale, cards);
       catalogPromises.delete(safeLocale);
-      return withOverrides;
+      return cards;
     })
     .catch((err) => {
       catalogPromises.delete(safeLocale);
