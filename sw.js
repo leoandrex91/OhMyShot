@@ -1,4 +1,4 @@
-const CACHE_NAME = 'oh-my-shot-v0.7.01';
+const CACHE_NAME = 'oh-my-shot-v0.7.1';
 
 const AVATAR_ASSETS = Array.from(
   { length: 36 },
@@ -124,7 +124,14 @@ const CARDS_LOCALE_FILES = [
   './src/cards/pt-PT/reto.pt-PT.js',
   './src/cards/pt-PT/retos-especiales.pt-PT.js',
   './src/cards/pt-PT/verdad.pt-PT.js',
-  './src/cards/pt-PT/yo-nunca.pt-PT.js'
+  './src/cards/pt-PT/yo-nunca.pt-PT.js',
+  './src/cards/en-GB/cultura-chupistica.en-GB.js',
+  './src/cards/en-US/cultura-chupistica.en-US.js',
+  './src/cards/es-CO/cultura-chupistica.es-CO.js',
+  './src/cards/es-ES/cultura-chupistica.es-ES.js',
+  './src/cards/es-MX/cultura-chupistica.es-MX.js',
+  './src/cards/pt-BR/cultura-chupistica.pt-BR.js',
+  './src/cards/pt-PT/cultura-chupistica.pt-PT.js'
 ];
 
 const CORE_ASSETS = [
@@ -160,6 +167,10 @@ const CORE_ASSETS = [
   './src/modes/yo-nunca/adapter.js',
   './src/modes/quien/mode.config.js',
   './src/modes/quien/adapter.js',
+  './src/modes/verdad-o-reto/mode.config.js',
+  './src/modes/verdad-o-reto/adapter.js',
+  './src/modes/cultura-chupistica/mode.config.js',
+  './src/modes/cultura-chupistica/adapter.js',
   ...CARDS_LOCALE_FILES,
   './src/fx/bgVideoController.js',
   './src/fx/swipeController.js',

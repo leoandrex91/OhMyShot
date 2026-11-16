@@ -142,6 +142,10 @@ export class AppShell {
     this.intensityAnchor = null;
     this.creditsSecretTapCount = 0;
     this.creditsSecretTapTimer = null;
+    this.culturaScoreboardOpen = false;
+    this.culturaTimerInterval = null;
+    this.culturaTimeRemaining = 0;
+    this.culturaTimeTotal = 0;
   }
 
   mount() {
@@ -164,8 +168,55 @@ export class AppShell {
   }
 
   #clearTransitionTimers() {
+    this.#stopCulturaTimer();
     while (this.transitionTimers.length) {
       clearTimeout(this.transitionTimers.pop());
+    }
+  }
+
+  #startCulturaTimerIfNeeded(session) {
+    this.#stopCulturaTimer();
+    const state = store.getState();
+    if (state.screen !== 'play' || state.activeGameModeId !== 'cultura-chupistica') return;
+    if (!session || session.roundState !== 'active') return;
+
+    const timerMode = session.config?.timerMode || 'infinite';
+    if (timerMode === 'infinite') return;
+
+    const totalSeconds = parseInt(timerMode, 10) || 6;
+    this.culturaTimeTotal = totalSeconds;
+    this.culturaTimeRemaining = totalSeconds;
+
+    const timerEl = document.querySelector('#cultura-timer-display');
+    if (timerEl) timerEl.textContent = `${this.culturaTimeRemaining}s`;
+
+    this.culturaTimerInterval = setInterval(() => {
+      this.culturaTimeRemaining -= 1;
+      const el = document.querySelector('#cultura-timer-display');
+      if (el) el.textContent = `${this.culturaTimeRemaining}s`;
+
+      if (this.culturaTimeRemaining <= 0) {
+        this.#stopCulturaTimer();
+        audioFx.bad();
+        const adapter = getModeAdapter('cultura-chupistica');
+        adapter?.openFailModal(session);
+        this.render();
+      }
+    }, 1000);
+  }
+
+  #stopCulturaTimer() {
+    if (this.culturaTimerInterval) {
+      clearInterval(this.culturaTimerInterval);
+      this.culturaTimerInterval = null;
+    }
+  }
+
+  #resetCulturaTimer() {
+    if (this.culturaTimeTotal > 0 && this.culturaTimerInterval) {
+      this.culturaTimeRemaining = this.culturaTimeTotal;
+      const el = document.querySelector('#cultura-timer-display');
+      if (el) el.textContent = `${this.culturaTimeRemaining}s`;
     }
   }
 
@@ -1484,25 +1535,25 @@ export class AppShell {
           <div class="home-changelog-releases">
             <div class="home-changelog-item">
               <div class="home-changelog-item-head">
-                <span class="changelog-version-tag changelog-version-tag-latest">v0.7.01</span>
+                <span class="changelog-version-tag changelog-version-tag-latest">v0.8.0</span>
+                <strong class="changelog-version-title">${escapeHtml(t('homeChangelogV080Title', lang))}</strong>
+              </div>
+              <ul class="home-changelog-list">
+                <li>${escapeHtml(t('homeChangelogV080Item1', lang))}</li>
+                <li>${escapeHtml(t('homeChangelogV080Item2', lang))}</li>
+                <li>${escapeHtml(t('homeChangelogV080Item3', lang))}</li>
+              </ul>
+            </div>
+
+            <div class="home-changelog-item">
+              <div class="home-changelog-item-head">
+                <span class="changelog-version-tag">v0.7.01</span>
                 <strong class="changelog-version-title">${escapeHtml(t('homeChangelogV0701Title', lang))}</strong>
               </div>
               <ul class="home-changelog-list">
                 <li>${escapeHtml(t('homeChangelogV0701Item1', lang))}</li>
                 <li>${escapeHtml(t('homeChangelogV0701Item2', lang))}</li>
                 <li>${escapeHtml(t('homeChangelogV0701Item3', lang))}</li>
-              </ul>
-            </div>
-
-            <div class="home-changelog-item">
-              <div class="home-changelog-item-head">
-                <span class="changelog-version-tag">v0.7.0</span>
-                <strong class="changelog-version-title">${escapeHtml(t('homeChangelogV070Title', lang))}</strong>
-              </div>
-              <ul class="home-changelog-list">
-                <li>${escapeHtml(t('homeChangelogV070Item1', lang))}</li>
-                <li>${escapeHtml(t('homeChangelogV070Item2', lang))}</li>
-                <li>${escapeHtml(t('homeChangelogV070Item3', lang))}</li>
               </ul>
             </div>
           </div>
@@ -1778,8 +1829,9 @@ export class AppShell {
   }
 
   #buildModeSettingsModal(state) {
-    const { lang, activeGameModeId, previaMixConfig, yoNuncaConfig, quienConfig, verdadORetoConfig, progressiveCurve } = state;
+    const { lang, activeGameModeId, previaMixConfig, yoNuncaConfig, quienConfig, verdadORetoConfig, culturaChupisticaConfig, progressiveCurve } = state;
     const isVor = activeGameModeId === 'verdad-o-reto';
+    const isCultura = activeGameModeId === 'cultura-chupistica';
     const isSimpleMode = activeGameModeId === 'yo-nunca' || activeGameModeId === 'quien';
 
     let isBonusActive = true;
@@ -1798,6 +1850,10 @@ export class AppShell {
       isBonusActive = verdadORetoConfig?.bonusEnabled !== false;
       isCustomCardsActive = verdadORetoConfig?.customCardsEnabled !== false;
       targetCards = Number(verdadORetoConfig?.targetTurns) || 45;
+    } else if (isCultura) {
+      isBonusActive = false;
+      isCustomCardsActive = false;
+      targetCards = Number(culturaChupisticaConfig?.targetTurns) || 30;
     } else {
       const config = previaMixConfig || {};
       const enabledSet = new Set(config.enabledTypes || []);
@@ -1895,6 +1951,60 @@ export class AppShell {
           </span>
         </label>
       `;
+    } else if (isCultura) {
+      const timerMode = culturaChupisticaConfig?.timerMode || 'infinite';
+      const trackFails = culturaChupisticaConfig?.trackFails !== false;
+      const timerOptions = [
+        { id: 'infinite', label: t('culturaTimerInfinite', lang) || '♾️ Libre (Palmadas)' },
+        { id: '4s', label: t('culturaTimer4s', lang) || '4s (Descontrol)' },
+        { id: '6s', label: t('culturaTimer6s', lang) || '6s (Normal)' },
+        { id: '8s', label: t('culturaTimer8s', lang) || '8s (Tranqui)' }
+      ];
+      const timerButtonsHtml = timerOptions
+        .map((opt) => `
+          <button
+            type="button"
+            class="vor-order-pill ${timerMode === opt.id ? 'is-active' : ''}"
+            data-action="cultura-set-timer-mode"
+            data-timer="${opt.id}"
+          >${escapeHtml(opt.label)}</button>
+        `)
+        .join('');
+
+      categoriesOrBonusHtml = `
+        <div class="settings-item cultura-timer-item">
+          <div class="settings-item-head">
+            <span class="settings-item-label">
+              ${renderUiIconHtml(UI_ICONS.clock || UI_ICONS.deck, 'ui-icon-sm')}
+              <span>${escapeHtml(t('culturaTimerModeTitle', lang))}</span>
+            </span>
+          </div>
+          <div class="vor-order-pills cultura-timer-pills">
+            ${timerButtonsHtml}
+          </div>
+          <p class="pm-inline-hint">${escapeHtml(t('culturaTimerModeDesc', lang))}</p>
+        </div>
+
+        <label class="settings-switch-row" for="cultura-settings-fails-check">
+          <span class="settings-switch-copy">
+            ${renderUiIconHtml(UI_ICONS.warning, 'ui-icon-sm')}
+            <span>
+              <strong>${escapeHtml(t('culturaTrackFailsTitle', lang))}</strong>
+              <small>${escapeHtml(t('culturaTrackFailsDesc', lang))}</small>
+            </span>
+          </span>
+          <span class="oms-switch-wrap">
+            <input
+              id="cultura-settings-fails-check"
+              class="oms-switch-input"
+              type="checkbox"
+              role="switch"
+              ${trackFails ? 'checked' : ''}
+            />
+            <span class="oms-switch-track" aria-hidden="true"></span>
+          </span>
+        </label>
+      `;
     } else if (isSimpleMode) {
       categoriesOrBonusHtml = `
         <label class="settings-switch-row" for="mode-settings-bonus-check">
@@ -1953,9 +2063,11 @@ export class AppShell {
 
     const subtitle = isVor
       ? t('vorModeSubtitleSettings', lang)
-      : isSimpleMode
-        ? t('modeSettingsSubtitleBonusOnly', lang)
-        : t('modeSettingsSubtitle', lang);
+      : isCultura
+        ? (t('culturaSubtitleSettings', lang) || t('modeSettingsSubtitle', lang))
+        : isSimpleMode
+          ? t('modeSettingsSubtitleBonusOnly', lang)
+          : t('modeSettingsSubtitle', lang);
 
     return `
       <div
@@ -1987,6 +2099,7 @@ export class AppShell {
           <div class="settings-list">
             ${categoriesOrBonusHtml}
 
+            ${!isCultura ? `
             <label class="settings-switch-row" for="mode-settings-curve-check">
               <span class="settings-switch-copy">
                 ${renderUiIconHtml(UI_ICONS.flame, 'ui-icon-sm')}
@@ -2026,6 +2139,7 @@ export class AppShell {
                 <span class="oms-switch-track" aria-hidden="true"></span>
               </span>
             </label>
+            ` : ''}
 
             <div class="settings-item mode-cards-limit-item">
               <div class="settings-item-head">
@@ -2864,6 +2978,10 @@ export class AppShell {
       `;
     }
 
+    if (activeGameModeId === 'cultura-chupistica') {
+      return this.#buildCulturaChupisticaView(state, vm);
+    }
+
     if (localGame?.finished) {
       const modeInfo = getModeDefinition(activeGameModeId) || LOCAL_GAME_MODES[0];
       const modeName = pickLocalizedText(modeInfo, 'title', lang);
@@ -3230,6 +3348,295 @@ export class AppShell {
     `;
   }
 
+  #buildCulturaChupisticaView(state, vm) {
+    const { lang } = state;
+    const modeInfo = getModeDefinition('cultura-chupistica') || LOCAL_GAME_MODES[0];
+    const modeName = pickLocalizedText(modeInfo, 'title', lang);
+
+    // 1. Game Over / Podium Screen
+    if (vm.isGameOver || vm.roundState === 'game_over' || state.localGame?.finished) {
+      const winner = vm.winner;
+      const loser = vm.shotKing;
+      return `
+        <section class="play-stage cultura-play-stage">
+          <div class="cultura-gameover-card glass-panel">
+            <div class="cultura-gameover-header">
+              <span class="mode-pill">${modeInfo.iconImg ? renderUiIconHtml(modeInfo.iconImg, 'ui-icon-xs') : '🍻'} ${escapeHtml(modeName)}</span>
+              <h2 class="cultura-gameover-title">${escapeHtml(t('culturaGameOverTitle', lang))}</h2>
+              <p class="cultura-gameover-subtitle">${escapeHtml(t('roundLabel', lang))} ${vm.targetTurns}/${vm.targetTurns} · ${escapeHtml(t('culturaScoreboardTitle', lang))}</p>
+            </div>
+
+            <div class="cultura-podium-grid">
+              ${winner ? `
+              <div class="cultura-podium-card is-winner">
+                <div class="cultura-podium-badge">${escapeHtml(t('culturaWinnerPill', lang))}</div>
+                <div class="cultura-podium-avatar-wrap">
+                  ${renderAvatarHtml(winner.player.avatarEmoji, 'avatar-img cultura-podium-avatar', '')}
+                </div>
+                <strong class="cultura-podium-name">${escapeHtml(winner.player.name)}</strong>
+                <span class="cultura-podium-stat">${winner.fails} ${escapeHtml(t('culturaFailsCount', lang))}</span>
+                <small class="cultura-podium-desc">${escapeHtml(t('culturaWinnerDesc', lang))}</small>
+              </div>
+              ` : ''}
+
+              ${loser && (!winner || loser.player.id !== winner.player.id) ? `
+              <div class="cultura-podium-card is-loser">
+                <div class="cultura-podium-badge is-loser-badge">${escapeHtml(t('culturaLoserPill', lang))}</div>
+                <div class="cultura-podium-avatar-wrap">
+                  ${renderAvatarHtml(loser.player.avatarEmoji, 'avatar-img cultura-podium-avatar', '')}
+                </div>
+                <strong class="cultura-podium-name">${escapeHtml(loser.player.name)}</strong>
+                <span class="cultura-podium-stat">${loser.fails} ${escapeHtml(t('culturaFailsCount', lang))}</span>
+                <small class="cultura-podium-desc">${escapeHtml(t('culturaLoserDesc', lang))}</small>
+              </div>
+              ` : ''}
+            </div>
+
+            <div class="cultura-table-wrap">
+              <table class="cultura-scoreboard-table">
+                <thead>
+                  <tr>
+                    <th>#</th>
+                    <th>${escapeHtml(t('playerColumnTitle', lang) || 'Jugador')}</th>
+                    <th style="text-align: right;">${escapeHtml(t('culturaFailsCount', lang))}</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  ${vm.scoreboard.map((entry, idx) => `
+                    <tr>
+                      <td class="cultura-table-rank">#${idx + 1}</td>
+                      <td class="cultura-table-player">
+                        ${renderAvatarHtml(entry.player.avatarEmoji, 'avatar-img avatar-mini-img', '')}
+                        <span>${escapeHtml(entry.player.name)}</span>
+                      </td>
+                      <td class="cultura-table-fails">
+                        <span class="cultura-fail-pill ${entry.fails === 0 ? 'is-clean' : ''}">${entry.fails}</span>
+                      </td>
+                    </tr>
+                  `).join('')}
+                </tbody>
+              </table>
+            </div>
+
+            <div class="cultura-gameover-actions">
+              <button class="btn btn-primary" data-action="confirm-start-mode" type="button">
+                <span>${escapeHtml(t('playAgainBtn', lang))}</span>
+              </button>
+              <button class="btn btn-ghost" data-action="confirm-exit-game" type="button">
+                <span>${escapeHtml(t('backToModesBtn', lang))}</span>
+              </button>
+            </div>
+          </div>
+        </section>
+      `;
+    }
+
+    // 2. Penalty Revealed Screen
+    if (vm.roundState === 'penalty_revealed') {
+      const failedPlayer = vm.lastFailedPlayer || { name: 'Alguien', avatarEmoji: '' };
+      const failsCount = vm.scoreboard?.find((s) => s.player?.id === failedPlayer.id)?.fails || 1;
+      const penaltyText = vm.lastPenalty?.description || vm.lastPenalty?.title || 'Toma 1 trago';
+
+      return `
+        <section class="play-stage cultura-play-stage">
+          <div class="cultura-penalty-card glass-panel">
+            <div class="cultura-penalty-header">
+              <span class="cultura-penalty-alert-icon">💥</span>
+              <h2 class="cultura-penalty-headline">¡${escapeHtml(failedPlayer.name)} falló!</h2>
+            </div>
+
+            <div class="cultura-penalty-avatar-spotlight">
+              ${renderAvatarHtml(failedPlayer.avatarEmoji, 'avatar-img cultura-penalty-avatar', '')}
+              <span class="cultura-penalty-fails-badge">
+                ${failsCount} ${escapeHtml(t('culturaFailsCount', lang))}
+              </span>
+            </div>
+
+            <div class="cultura-penalty-box">
+              <span class="cultura-penalty-label">Penitencia asignada</span>
+              <p class="cultura-penalty-desc">${escapeHtml(penaltyText)}</p>
+            </div>
+
+            <div class="cultura-penalty-actions">
+              <button class="btn btn-primary btn-cultura-next" data-action="cultura-next-round" type="button">
+                <span>${escapeHtml(t('culturaNextRoundBtn', lang))}</span>
+              </button>
+            </div>
+          </div>
+        </section>
+      `;
+    }
+
+    // 3. Active Play Screen (and optional Fail Modal & Scoreboard Drawer)
+    const cardLevel = Math.min(10, Math.max(1, Math.round(Number(vm.intensidad) || 1)));
+    const levelBarHtml = `
+      <img
+        src="./assets/icons/levels/level_${String(cardLevel).padStart(2, '0')}.webp"
+        alt="${escapeHtml(t('levelLabel', lang))} ${cardLevel}"
+        title="${escapeHtml(t('levelLabel', lang))} ${cardLevel}"
+        class="level-bar-img"
+        loading="eager"
+        decoding="async"
+      />
+    `;
+
+    const timerPillHtml =
+      vm.timerMode === 'infinite'
+        ? `<div class="cultura-timer-pill is-infinite"><span>${escapeHtml(t('culturaInfiniteTimer', lang))}</span></div>`
+        : `<div class="cultura-timer-pill is-countdown"><span class="cultura-timer-clock">⏱️</span><span id="cultura-timer-display">${this.culturaTimeRemaining || parseInt(vm.timerMode, 10)}s</span></div>`;
+
+    let failModalHtml = '';
+    if (vm.roundState === 'fail_selection') {
+      failModalHtml = `
+        <div class="oms-modal-backdrop cultura-modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="cultura-fail-title">
+          <div class="oms-modal-card cultura-fail-modal-card">
+            <div class="cultura-fail-modal-head">
+              <span class="cultura-fail-modal-icon">💥</span>
+              <div>
+                <h2 id="cultura-fail-title" class="oms-modal-title">${escapeHtml(t('culturaWhoFailedTitle', lang))}</h2>
+                <p class="settings-modal-subtitle">${escapeHtml(t('culturaWhoFailedDesc', lang))}</p>
+              </div>
+            </div>
+
+            <div class="cultura-players-fail-grid">
+              ${state.localPlayers.map((player) => {
+                const fails = state.localGame?.session?.failsByPlayer?.[player.id] || 0;
+                return `
+                  <button
+                    type="button"
+                    class="cultura-player-fail-btn"
+                    data-action="cultura-select-failed-player"
+                    data-player-id="${escapeHtml(player.id)}"
+                  >
+                    <div class="cultura-fail-avatar-wrap">
+                      ${renderAvatarHtml(player.avatarEmoji, 'avatar-img avatar-mini-img', '')}
+                    </div>
+                    <span class="cultura-fail-player-name">${escapeHtml(player.name)}</span>
+                    <span class="cultura-fail-player-count">${fails} ${escapeHtml(t('culturaFailsCount', lang))}</span>
+                  </button>
+                `;
+              }).join('')}
+            </div>
+
+            <div class="cultura-fail-modal-actions">
+              <button class="btn btn-secondary" data-action="cultura-cancel-fail" type="button" style="width: 100%;">
+                <span>${escapeHtml(t('cancelBtn', lang))}</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      `;
+    }
+
+    let scoreboardModalHtml = '';
+    if (this.culturaScoreboardOpen) {
+      scoreboardModalHtml = `
+        <div class="oms-modal-backdrop cultura-scoreboard-backdrop" role="dialog" aria-modal="true">
+          <div class="oms-modal-card cultura-scoreboard-card" style="max-width: 440px; width: 100%;">
+            <div class="new-player-modal-head">
+              <div class="settings-title-wrap">
+                <span style="font-size: 1.6rem;">🏆</span>
+                <div>
+                  <h2 class="oms-modal-title">${escapeHtml(t('culturaScoreboardTitle', lang))}</h2>
+                  <p class="settings-modal-subtitle">${escapeHtml(t('roundLabel', lang))} ${vm.currentTurn}/${vm.targetTurns}</p>
+                </div>
+              </div>
+              <button type="button" class="modal-close-btn" data-action="cultura-close-scoreboard">
+                ${renderUiIconHtml(UI_ICONS.closeX, 'ui-icon-sm')}
+              </button>
+            </div>
+            <div class="cultura-table-wrap" style="margin-top: 14px;">
+              <table class="cultura-scoreboard-table">
+                <tbody>
+                  ${vm.scoreboard.map((entry, idx) => `
+                    <tr>
+                      <td class="cultura-table-rank">#${idx + 1}</td>
+                      <td class="cultura-table-player">
+                        ${renderAvatarHtml(entry.player.avatarEmoji, 'avatar-img avatar-mini-img', '')}
+                        <span>${escapeHtml(entry.player.name)}</span>
+                      </td>
+                      <td class="cultura-table-fails">
+                        <span class="cultura-fail-pill ${entry.fails === 0 ? 'is-clean' : ''}">${entry.fails} ${escapeHtml(t('culturaFailsCount', lang))}</span>
+                      </td>
+                    </tr>
+                  `).join('')}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      `;
+    }
+
+    return `
+      <section class="play-stage cultura-play-stage">
+        <div class="play-hud cultura-hud">
+          <div class="play-progress-row">
+            <span class="count-pill">${escapeHtml(t('roundLabel', lang))} ${vm.currentTurn}/${vm.targetTurns}</span>
+            ${timerPillHtml}
+            ${levelBarHtml}
+          </div>
+
+          <div class="cultura-circle-hud">
+            <div class="cultura-starter-tag">
+              <span class="cultura-tag-label">${escapeHtml(t('culturaStarts', lang))}:</span>
+              <span class="cultura-starter-pill">
+                ${renderAvatarHtml(vm.starterPlayer?.avatarEmoji, 'avatar-img avatar-mini-img', '')}
+                <strong>${escapeHtml(vm.starterPlayer?.name || 'Jugador')}</strong>
+              </span>
+            </div>
+            <div class="cultura-direction-tag">
+              <span class="cultura-direction-icon">↻</span>
+              <span>${escapeHtml(t('culturaDirection', lang))}</span>
+            </div>
+            ${vm.trackFails ? `
+              <button type="button" class="cultura-scoreboard-toggle-btn" data-action="cultura-toggle-scoreboard" title="${escapeHtml(t('culturaScoreboardTitle', lang))}">
+                <span>🏆</span>
+              </button>
+            ` : ''}
+          </div>
+        </div>
+
+        <div class="deck-stage-center cultura-deck-stage">
+          <div class="cultura-card">
+            <div class="cultura-card-glow" aria-hidden="true"></div>
+            <div class="cultura-card-header">
+              <span class="cultura-cat-badge">${escapeHtml((vm.categoria || 'clasico').toUpperCase())}</span>
+              <span class="cultura-lvl-badge">${escapeHtml(t('levelLabel', lang))} ${vm.intensidad}</span>
+            </div>
+
+            <div class="cultura-card-body">
+              <p class="cultura-ritual-prefix">${escapeHtml(vm.ritualPrefix)}</p>
+              <h1 class="cultura-topic-title">${escapeHtml(vm.tema)}</h1>
+              <p class="cultura-ritual-connector">${escapeHtml(vm.ritualConnector)}</p>
+            </div>
+
+            <div class="cultura-card-footer-actions">
+              <button type="button" class="btn btn-cultura-pass" data-action="cultura-pass-turn">
+                <span class="cultura-btn-icon">👉</span>
+                <span class="cultura-btn-text">${escapeHtml(t('culturaPassBtn', lang))}</span>
+              </button>
+
+              ${vm.trackFails ? `
+              <button type="button" class="btn btn-cultura-fail" data-action="cultura-open-fail-modal">
+                <span class="cultura-btn-icon">💥</span>
+                <span class="cultura-btn-text">${escapeHtml(t('culturaFailBtn', lang))}</span>
+              </button>
+              ` : `
+              <button type="button" class="btn btn-secondary cultura-next-btn" data-action="cultura-next-round">
+                <span>${escapeHtml(t('culturaNextRoundBtn', lang))}</span>
+              </button>
+              `}
+            </div>
+          </div>
+        </div>
+
+        ${failModalHtml}
+        ${scoreboardModalHtml}
+      </section>
+    `;
+  }
+
   render() {
     const state = store.getState();
     document.documentElement.lang = state.locale || state.lang || 'es';
@@ -3492,6 +3899,15 @@ export class AppShell {
       { signal }
     );
 
+    document.querySelector('#cultura-settings-fails-check')?.addEventListener(
+      'change',
+      (e) => {
+        audioFx.tap();
+        store.updateCulturaChupisticaConfig({ trackFails: e.target.checked });
+      },
+      { signal }
+    );
+
     document.querySelector('#mode-settings-bonus-check')?.addEventListener(
       'change',
       (e) => {
@@ -3535,6 +3951,8 @@ export class AppShell {
         store.updateQuienConfig({ targetTurns: val }, { silent: true });
       } else if (modeId === 'verdad-o-reto') {
         store.updateVerdadORetoConfig({ targetTurns: val }, { silent: true });
+      } else if (modeId === 'cultura-chupistica') {
+        store.updateCulturaChupisticaConfig({ targetTurns: val }, { silent: true });
       } else {
         store.updatePreviaMixConfig({ targetTurns: val }, { silent: true });
       }
@@ -3823,6 +4241,20 @@ export class AppShell {
     );
 
     if (state.screen === 'play') {
+      if (state.activeGameModeId === 'cultura-chupistica') {
+        const session = state.localGame?.session;
+        document.documentElement.style.setProperty('--active-accent', '#a855f7');
+        audioFx.setMusicMood('play');
+        if (session && session.roundState === 'active' && session.config?.timerMode !== 'infinite') {
+          if (!this.culturaTimerInterval) {
+            this.#startCulturaTimerIfNeeded(session);
+          }
+        } else {
+          this.#stopCulturaTimer();
+        }
+        return;
+      }
+
       if (state.localGame?.finished) {
         audioFx.setMusicMood('normal');
         return;
@@ -4449,6 +4881,16 @@ export class AppShell {
         minIntensity,
         maxIntensity
       };
+    } else if (modeId === 'cultura-chupistica') {
+      const cfg = state.culturaChupisticaConfig || {};
+      modeConfig = {
+        locale: state.locale,
+        timerMode: cfg.timerMode || 'infinite',
+        trackFails: cfg.trackFails !== false,
+        targetTurns: cfg.targetTurns || 30,
+        minIntensity,
+        maxIntensity
+      };
     } else {
       modeConfig = {
         ...(state.previaMixConfig || {}),
@@ -4949,6 +5391,117 @@ export class AppShell {
       return;
     }
 
+    if (action === 'cultura-set-timer-mode') {
+      const timer = el.dataset.timer || 'infinite';
+      audioFx.tap();
+      store.updateCulturaChupisticaConfig({ timerMode: timer });
+      this.render();
+      return;
+    }
+
+    if (action === 'cultura-pass-turn') {
+      const session = state.localGame?.session;
+      if (!session) return;
+      audioFx.tap();
+      const players = state.localPlayers;
+      if (players && players.length > 0) {
+        session.activeStarterIdx = ((session.activeStarterIdx ?? 0) + 1) % players.length;
+      }
+      this.#resetCulturaTimer();
+      store.setState({
+        localGame: {
+          ...state.localGame,
+          session
+        }
+      });
+      return;
+    }
+
+    if (action === 'cultura-open-fail-modal') {
+      const session = state.localGame?.session;
+      if (!session) return;
+      audioFx.bad();
+      this.#stopCulturaTimer();
+      const adapter = getModeAdapter('cultura-chupistica');
+      adapter?.openFailModal(session);
+      store.setState({
+        localGame: {
+          ...state.localGame,
+          session
+        }
+      });
+      return;
+    }
+
+    if (action === 'cultura-cancel-fail') {
+      const session = state.localGame?.session;
+      if (!session) return;
+      audioFx.tap();
+      const adapter = getModeAdapter('cultura-chupistica');
+      adapter?.cancelFailModal(session);
+      this.#startCulturaTimerIfNeeded(session);
+      store.setState({
+        localGame: {
+          ...state.localGame,
+          session
+        }
+      });
+      return;
+    }
+
+    if (action === 'cultura-select-failed-player') {
+      const playerId = el.dataset.playerId;
+      const session = state.localGame?.session;
+      if (!session || !playerId) return;
+      audioFx.bad();
+      stage3d.pulse(0xff3b30);
+      const adapter = getModeAdapter('cultura-chupistica');
+      adapter?.recordFail(session, playerId, state.localPlayers);
+      store.setState({
+        localGame: {
+          ...state.localGame,
+          session
+        }
+      });
+      return;
+    }
+
+    if (action === 'cultura-next-round' || action === 'cultura-next-topic') {
+      const session = state.localGame?.session;
+      if (!session) return;
+      audioFx.go();
+      stage3d.pulse(0x47e9d2);
+      const adapter = getModeAdapter('cultura-chupistica');
+      adapter?.advanceToNextRound(session, state.localPlayers);
+      if (session.roundState === 'game_over') {
+        audioFx.partyBurst();
+        visualFx.triggerConfetti('party');
+      } else {
+        this.#startCulturaTimerIfNeeded(session);
+      }
+      store.setState({
+        localGame: {
+          ...state.localGame,
+          session
+        }
+      });
+      return;
+    }
+
+    if (action === 'cultura-toggle-scoreboard') {
+      audioFx.tap();
+      this.culturaScoreboardOpen = !this.culturaScoreboardOpen;
+      this.render();
+      return;
+    }
+
+    if (action === 'cultura-close-scoreboard') {
+      audioFx.tap();
+      this.culturaScoreboardOpen = false;
+      this.render();
+      return;
+    }
+
     if (action === 'adjust-target-cards') {
       const delta = Number(el.dataset.delta) || 0;
       audioFx.tap();
@@ -4960,6 +5513,8 @@ export class AppShell {
         current = Number(state.quienConfig?.targetTurns) || 45;
       } else if (modeId === 'verdad-o-reto') {
         current = Number(state.verdadORetoConfig?.targetTurns) || 45;
+      } else if (modeId === 'cultura-chupistica') {
+        current = Number(state.culturaChupisticaConfig?.targetTurns) || 30;
       } else {
         current = Number(state.previaMixConfig?.targetTurns) || 45;
       }
@@ -4970,6 +5525,8 @@ export class AppShell {
         store.updateQuienConfig({ targetTurns: next }, { silent: true });
       } else if (modeId === 'verdad-o-reto') {
         store.updateVerdadORetoConfig({ targetTurns: next }, { silent: true });
+      } else if (modeId === 'cultura-chupistica') {
+        store.updateCulturaChupisticaConfig({ targetTurns: next }, { silent: true });
       } else {
         store.updatePreviaMixConfig({ targetTurns: next }, { silent: true });
       }
@@ -5783,6 +6340,7 @@ export class AppShell {
 
     if (action === 'confirm-exit-game') {
       audioFx.tap();
+      this.#stopCulturaTimer();
       this.exitConfirmOpen = false;
       await disableWakeLock();
       audioFx.setMusicMood('normal');

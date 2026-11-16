@@ -93,3 +93,39 @@ export async function loadCardsLocale(locale = 'es-CO') {
 
   return questions;
 }
+
+/**
+ * Carga perezosa del catálogo de cartas de Cultura Chupística para un idioma/región.
+ * @param {string} locale
+ * @returns {Promise<Array>}
+ */
+export async function loadCulturaChupisticaCards(locale = 'es-CO') {
+  let mod;
+  switch (locale) {
+    case 'en-US':
+      mod = await import('./en-US/cultura-chupistica.en-US.js');
+      break;
+    case 'en-GB':
+      mod = await import('./en-GB/cultura-chupistica.en-GB.js');
+      break;
+    case 'es-CO':
+      mod = await import('./es-CO/cultura-chupistica.es-CO.js');
+      break;
+    case 'es-MX':
+      mod = await import('./es-MX/cultura-chupistica.es-MX.js');
+      break;
+    case 'es-ES':
+      mod = await import('./es-ES/cultura-chupistica.es-ES.js');
+      break;
+    case 'pt-BR':
+      mod = await import('./pt-BR/cultura-chupistica.pt-BR.js');
+      break;
+    case 'pt-PT':
+      mod = await import('./pt-PT/cultura-chupistica.pt-PT.js');
+      break;
+    default:
+      mod = await import('./es-CO/cultura-chupistica.es-CO.js');
+      break;
+  }
+  return mod.culturaChupisticaCards || mod.default || [];
+}

@@ -6,6 +6,32 @@ El formato se basa en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/
 
 ---
 
+## [0.8.0] - 2026-11-15
+
+### Añadido
+- **Nuevo Modo Oficial "Cultura Chupística"**:
+  - Implementación completa del modo de juego tradicional de rondas por categorías para fiestas y previas.
+  - Generación de **14.000 cartas temáticas únicas** (exactamente 2.000 cartas distribuidas en 10 niveles de intensidad por país/idioma en `es-CO`, `es-MX`, `es-ES`, `en-US`, `en-GB`, `pt-BR` y `pt-PT`).
+  - **Cero ejemplos en cartas**: Los temas se presentan 100% limpios sin revelar respuestas spoiler.
+  - **Cantos rituales localizados dinámicamente**:
+    - Colombia y Latinoamérica (`es-CO`): *"Cultura Chupística de [Categoría], como por ejemplo:"*
+    - México (`es-MX`): *"Caricachupas presenta: [Categoría], como por ejemplo:"*
+    - España (`es-ES`): *"Cultura Chupística de [Categoría], como por ejemplo:"*
+    - Estados Unidos y Reino Unido (`en-US`, `en-GB`): *"Categories of [Category], such as:"*
+    - Brasil y Portugal (`pt-BR`, `pt-PT`): *"Cultura Chupística / Cultura do Gole de [Categoria], como por exemplo:"*
+  - **Temporizador configurable**:
+    - Opción de tiempo infinito / libre (por defecto) para mantener el compás natural con palmadas entre amigos.
+    - Opciones de temporizador de turno con cuenta atrás de 4s (Descontrol), 6s (Normal) y 8s (Tranqui).
+  - **Sistema de seguimiento de fallos y puntos**:
+    - Botón táctil gigante *"¡Pasa! 👉"* para avanzar el turno por el círculo de jugadores.
+    - Botón táctil *"💥 ¡Alguien Falló!"* que despliega un modal selector de jugador para registrar quién repitió, dudó o se equivocó.
+    - Asignación de castigos dinámicos respetando la preferencia del jugador (con o sin alcohol).
+    - **Podio y Marcador Final**: Pantalla de fin de partida que corona a la *"🏆 Mente Rápida"* (menos fallos) y al *"🍻 El Más Prendido / Rey del Shot"* (más fallos), con tabla de posiciones completa.
+  - Selector de rondas objetivo (10 a 100 temas) y configuración en el modal de ajustes de modo.
+  - Soporte completo en Service Worker (`v0.8.0`) y precarga offline de todos los catálogos.
+
+---
+
 ## [0.7.01] - 2026-11-15
 
 ### Añadido

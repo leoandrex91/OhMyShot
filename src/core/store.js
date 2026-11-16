@@ -36,6 +36,20 @@ function loadVorConfig(key, defaultTurns = 45) {
   };
 }
 
+const LOCAL_CULTURA_CHUPISTICA_CONFIG_KEY = 'oms_cultura_chupistica_config';
+
+function loadCulturaConfig(key, defaultTurns = 30) {
+  const saved = loadJsonStorage(window.localStorage, key, null);
+  const timerMode = ['infinite', '4s', '6s', '8s'].includes(saved?.timerMode)
+    ? saved.timerMode
+    : 'infinite';
+  return {
+    timerMode,
+    trackFails: saved?.trackFails !== false,
+    targetTurns: Math.max(5, Math.min(900, Number(saved?.targetTurns) || defaultTurns))
+  };
+}
+
 function persistSimpleModeConfig(key, config) {
   try {
     window.localStorage.setItem(key, JSON.stringify(config));
@@ -237,6 +251,7 @@ const state = {
   yoNuncaConfig: loadSimpleModeConfig(LOCAL_YO_NUNCA_CONFIG_KEY, 45),
   quienConfig: loadSimpleModeConfig(LOCAL_QUIEN_CONFIG_KEY, 45),
   verdadORetoConfig: loadVorConfig(LOCAL_VERDAD_O_RETO_CONFIG_KEY, 45),
+  culturaChupisticaConfig: loadCulturaConfig(LOCAL_CULTURA_CHUPISTICA_CONFIG_KEY, 30),
   localGame: {
     modeId: 'classic',
     session: null,
@@ -539,6 +554,24 @@ export const store = {
     };
     persistSimpleModeConfig(LOCAL_VERDAD_O_RETO_CONFIG_KEY, nextConfig);
     this.setState({ verdadORetoConfig: nextConfig }, { silent });
+    return nextConfig;
+  },
+
+  updateCulturaChupisticaConfig(updater, { silent = false } = {}) {
+    const patch = typeof updater === 'function' ? updater(state.culturaChupisticaConfig) : updater;
+    const current = state.culturaChupisticaConfig || {};
+    const timerMode = ['infinite', '4s', '6s', '8s'].includes(patch?.timerMode)
+      ? patch.timerMode
+      : current.timerMode || 'infinite';
+    const nextConfig = {
+      ...current,
+      ...(patch || {}),
+      timerMode,
+      trackFails: patch?.trackFails !== undefined ? Boolean(patch.trackFails) : current.trackFails !== false,
+      targetTurns: Math.max(5, Math.min(900, Number(patch?.targetTurns ?? current.targetTurns) || 30))
+    };
+    persistSimpleModeConfig(LOCAL_CULTURA_CHUPISTICA_CONFIG_KEY, nextConfig);
+    this.setState({ culturaChupisticaConfig: nextConfig }, { silent });
     return nextConfig;
   },
 

@@ -7,8 +7,16 @@ import { quienAdapter } from './quien/adapter.js';
 import { QUIEN_MODE_DEFINITION, QUIEN_MODE_ID } from './quien/mode.config.js';
 import { verdadORetoAdapter } from './verdad-o-reto/adapter.js';
 import { VERDAD_O_RETO_MODE_DEFINITION, VERDAD_O_RETO_MODE_ID } from './verdad-o-reto/mode.config.js';
+import { culturaChupisticaAdapter } from './cultura-chupistica/adapter.js';
+import { CULTURA_CHUPISTICA_MODE_DEFINITION, CULTURA_CHUPISTICA_MODE_ID } from './cultura-chupistica/mode.config.js';
 
-export { PREVIA_MIX_MODE_ID, YO_NUNCA_MODE_ID, QUIEN_MODE_ID, VERDAD_O_RETO_MODE_ID };
+export {
+  PREVIA_MIX_MODE_ID,
+  YO_NUNCA_MODE_ID,
+  QUIEN_MODE_ID,
+  VERDAD_O_RETO_MODE_ID,
+  CULTURA_CHUPISTICA_MODE_ID
+};
 
 export const EDITOR_MODE_ID = 'editor';
 
@@ -47,16 +55,18 @@ export const EDITOR_MODE_DEFINITION = Object.freeze({
  */
 export const GAME_MODES_REGISTRY = Object.freeze([
   PREVIA_MIX_MODE_DEFINITION,
+  CULTURA_CHUPISTICA_MODE_DEFINITION,
+  VERDAD_O_RETO_MODE_DEFINITION,
   YO_NUNCA_MODE_DEFINITION,
-  QUIEN_MODE_DEFINITION,
-  VERDAD_O_RETO_MODE_DEFINITION
+  QUIEN_MODE_DEFINITION
 ]);
 
 const ADAPTERS_BY_ID = new Map([
   [PREVIA_MIX_MODE_ID, previaMixAdapter],
+  [CULTURA_CHUPISTICA_MODE_ID, culturaChupisticaAdapter],
+  [VERDAD_O_RETO_MODE_ID, verdadORetoAdapter],
   [YO_NUNCA_MODE_ID, yoNuncaAdapter],
-  [QUIEN_MODE_ID, quienAdapter],
-  [VERDAD_O_RETO_MODE_ID, verdadORetoAdapter]
+  [QUIEN_MODE_ID, quienAdapter]
 ]);
 
 export function getModeDefinition(modeId) {
