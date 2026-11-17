@@ -10,6 +10,7 @@ import { getBonusCardsForLocale } from '../../config/bonusCards.catalog.js';
 export const TYPES = Object.freeze([
   'clásico', 'duelo', 'yo nunca', 'quien es más probable',
   'verdad', 'reto', 'retos especiales', 'eventos especiales', 'hot', 'bonus',
+  'verdad_hot', 'reto_hot', 'yo_nunca_hot', 'quien_hot', 'cultura_hot'
 ]);
 export const SUPPORTED_LOCALES = Object.freeze([
   'es', 'en', 'pt',
@@ -453,21 +454,25 @@ export function getActivePreviaMixEvents(state){
 
 /** Optional user-facing labels; IDs/categories always remain stable across languages. */
 export const TYPE_LABELS={
-  'es':['Clásico','Duelo','Yo nunca','¿Quién es más probable?','Verdad','Reto','Reto especial','Evento especial','Hot +18'],
-  'en':['Classic','Duel','Never Have I Ever','Most Likely To','Truth','Dare','Special Dare','Special Event','Hot +18'],
-  'pt':['Clássico','Duelo','Eu Nunca','Quem é Mais Provável','Verdade','Desafio','Desafio Especial','Evento Especial','Hot +18'],
-  'es-CO':['Clásico','Duelo','Yo nunca','¿Quién es más probable?','Verdad','Reto','Reto especial','Evento especial','Hot +18'],
-  'es-MX':['Clásico','Duelo','Yo nunca','¿Quién es más probable?','Verdad','Reto','Reto especial','Evento especial','Hot +18'],
-  'es-ES':['Clásico','Duelo','Yo nunca','¿Quién es más probable?','Verdad','Reto','Reto especial','Evento especial','Hot +18'],
-  'en-US':['Classic','Duel','Never Have I Ever','Most Likely To','Truth','Dare','Special Dare','Special Event','Hot +18'],
-  'en-GB':['Classic','Duel','Never Have I Ever','Most Likely To','Truth','Dare','Special Dare','Special Event','Hot +18'],
-  'pt-BR':['Clássico','Duelo','Eu Nunca','Quem é Mais Provável','Verdade','Desafio','Desafio Especial','Evento Especial','Hot +18'],
-  'pt-PT':['Clássico','Duelo','Eu Nunca','Quem é Mais Provável','Verdade','Desafio','Desafio Especial','Evento Especial','Hot +18'],
+  'es':['Clásico','Duelo','Yo nunca','¿Quién es más probable?','Verdad','Reto','Reto especial','Evento especial','Hot +18','Bonus 🎁','Verdad Hot 🌶️','Reto Hot ⚡','Yo Nunca Hot 🙈','¿Quién Hot? 👑','Cultura Hot 🍹'],
+  'en':['Classic','Duel','Never Have I Ever','Most Likely To','Truth','Dare','Special Dare','Special Event','Hot +18','Bonus 🎁','Truth Hot 🌶️','Dare Hot ⚡','Never Have I Ever Hot 🙈','Who Most Likely Hot 👑','Spicy Trivia 🍹'],
+  'pt':['Clássico','Duelo','Eu Nunca','Quem é Mais Provável','Verdade','Desafio','Desafio Especial','Evento Especial','Hot +18','Bônus 🎁','Verdade Hot 🌶️','Desafio Hot ⚡','Eu Nunca Hot 🙈','Quem É Mais Provável Hot 👑','Cultura Hot 🍹'],
+  'es-CO':['Clásico','Duelo','Yo nunca','¿Quién es más probable?','Verdad','Reto','Reto especial','Evento especial','Hot +18','Bonus 🎁','Verdad Hot 🌶️','Reto Hot ⚡','Yo Nunca Hot 🙈','¿Quién Hot? 👑','Cultura Hot 🍹'],
+  'es-MX':['Clásico','Duelo','Yo nunca','¿Quién es más probable?','Verdad','Reto','Reto especial','Evento especial','Hot +18','Bonus 🎁','Verdad Hot 🌶️','Reto Hot ⚡','Yo Nunca Hot 🙈','¿Quién Hot? 👑','Cultura Hot 🍹'],
+  'es-ES':['Clásico','Duelo','Yo nunca','¿Quién es más probable?','Verdad','Reto','Reto especial','Evento especial','Hot +18','Bonus 🎁','Verdad Hot 🌶️','Reto Hot ⚡','Yo Nunca Hot 🙈','¿Quién Hot? 👑','Cultura Hot 🍹'],
+  'en-US':['Classic','Duel','Never Have I Ever','Most Likely To','Truth','Dare','Special Dare','Special Event','Hot +18','Bonus 🎁','Truth Hot 🌶️','Dare Hot ⚡','Never Have I Ever Hot 🙈','Who Most Likely Hot 👑','Spicy Trivia 🍹'],
+  'en-GB':['Classic','Duel','Never Have I Ever','Most Likely To','Truth','Dare','Special Dare','Special Event','Hot +18','Bonus 🎁','Truth Hot 🌶️','Dare Hot ⚡','Never Have I Ever Hot 🙈','Who Most Likely Hot 👑','Spicy Trivia 🍹'],
+  'pt-BR':['Clássico','Duelo','Eu Nunca','Quem é Mais Provável','Verdade','Desafio','Desafio Especial','Evento Especial','Hot +18','Bônus 🎁','Verdade Hot 🌶️','Desafio Hot ⚡','Eu Nunca Hot 🙈','Quem É Mais Provável Hot 👑','Cultura Hot 🍹'],
+  'pt-PT':['Clássico','Duelo','Eu Nunca','Quem é Mais Provável','Verdade','Desafio','Desafio Especial','Evento Especial','Hot +18','Bônus 🎁','Verdade Hot 🌶️','Desafio Hot ⚡','Eu Nunca Hot 🙈','Quem É Mais Provável Hot 👑','Cultura Hot 🍹'],
 };
 export function getCardTypeLabel(card,locale='es'){
   if(card?.tipo === 'bonus' || card?.isBonus) return locale?.startsWith('pt') ? 'Bônus 🎁' : 'Bonus 🎁';
   const idx=TYPES.indexOf(card?.tipo);
-  return (card?.especial?'★ ':'')+(TYPE_LABELS[locale]??TYPE_LABELS['es'])[idx];
+  const labels = TYPE_LABELS[locale] ?? TYPE_LABELS['es'];
+  if (idx >= 0 && labels && labels[idx]) {
+    return (card?.especial ? '★ ' : '') + labels[idx];
+  }
+  return card?.tipo || 'Hot +18';
 }
 export const PENALTY_LABELS = {
   'es': { 'sorbo': 'sorbo', 'medio trago': 'medio trago', '1 trago': '1 trago', 'half a drink': 'medio trago', 'one drink': '1 trago', 'a sip': 'sorbo' },

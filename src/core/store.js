@@ -13,6 +13,9 @@ const LOCAL_YO_NUNCA_CONFIG_KEY = 'oms_yo_nunca_config_v1';
 const LOCAL_QUIEN_CONFIG_KEY = 'oms_quien_config_v1';
 const LOCAL_VERDAD_O_RETO_CONFIG_KEY = 'oms_verdad_o_reto_config_v1';
 const LOCAL_HOT_CONFIG_KEY = 'oms_hot_config_v1';
+const LOCAL_VERDAD_O_RETO_HOT_CONFIG_KEY = 'oms_verdad_o_reto_hot_config_v1';
+const LOCAL_CULTURA_CHUPISTICA_HOT_CONFIG_KEY = 'oms_cultura_chupistica_hot_config_v1';
+const LOCAL_MIX_HOT_CONFIG_KEY = 'oms_mix_hot_config_v1';
 
 function loadSimpleModeConfig(key, defaultTurns = 45) {
   const saved = loadJsonStorage(window.localStorage, key, null);
@@ -256,6 +259,9 @@ const state = {
   quienConfig: loadSimpleModeConfig(LOCAL_QUIEN_CONFIG_KEY, 45),
   verdadORetoConfig: loadVorConfig(LOCAL_VERDAD_O_RETO_CONFIG_KEY, 45),
   hotConfig: loadSimpleModeConfig(LOCAL_HOT_CONFIG_KEY, 45),
+  verdadORetoHotConfig: loadVorConfig(LOCAL_VERDAD_O_RETO_HOT_CONFIG_KEY, 45),
+  culturaChupisticaHotConfig: loadCulturaConfig(LOCAL_CULTURA_CHUPISTICA_HOT_CONFIG_KEY, 30),
+  mixHotConfig: loadSimpleModeConfig(LOCAL_MIX_HOT_CONFIG_KEY, 45),
   culturaChupisticaConfig: loadCulturaConfig(LOCAL_CULTURA_CHUPISTICA_CONFIG_KEY, 30),
   localGame: {
     modeId: 'classic',
@@ -596,6 +602,69 @@ export const store = {
     };
     persistSimpleModeConfig(LOCAL_CULTURA_CHUPISTICA_CONFIG_KEY, nextConfig);
     this.setState({ culturaChupisticaConfig: nextConfig }, { silent });
+    return nextConfig;
+  },
+
+  updateVerdadORetoHotConfig(updater, { silent = false } = {}) {
+    const patch = typeof updater === 'function' ? updater(state.verdadORetoHotConfig) : updater;
+    const current = state.verdadORetoHotConfig || {};
+    const nextConfig = {
+      ...current,
+      ...(patch || {}),
+      turnOrder:
+        patch?.turnOrder === 'aleatorio'
+          ? 'aleatorio'
+          : patch?.turnOrder === 'secuencial'
+            ? 'secuencial'
+            : current.turnOrder || 'secuencial',
+      maxConsecutiveTruths:
+        patch?.maxConsecutiveTruths !== undefined
+          ? Math.max(0, Math.min(10, Math.round(Number(patch.maxConsecutiveTruths) || 0)))
+          : current.maxConsecutiveTruths ?? 3,
+      bonusEnabled: (patch?.bonusEnabled !== undefined) ? patch.bonusEnabled : current.bonusEnabled !== false,
+      customCardsEnabled: (patch?.customCardsEnabled !== undefined) ? patch.customCardsEnabled : current.customCardsEnabled !== false,
+      targetTurns: Math.max(5, Math.min(900, Number(patch?.targetTurns ?? current.targetTurns) || 45))
+    };
+    persistSimpleModeConfig(LOCAL_VERDAD_O_RETO_HOT_CONFIG_KEY, nextConfig);
+    this.setState({ verdadORetoHotConfig: nextConfig }, { silent });
+    return nextConfig;
+  },
+
+  updateCulturaChupisticaHotConfig(updater, { silent = false } = {}) {
+    const patch = typeof updater === 'function' ? updater(state.culturaChupisticaHotConfig) : updater;
+    const current = state.culturaChupisticaHotConfig || {};
+    const timerMode = ['infinite', '5s', '10s', '15s', 'custom'].includes(patch?.timerMode)
+      ? patch.timerMode
+      : current.timerMode || 'infinite';
+    const customTimerSeconds = patch?.customTimerSeconds !== undefined
+      ? Math.max(1, Math.min(60, Number(patch.customTimerSeconds) || 20))
+      : (current.customTimerSeconds || 20);
+    const nextConfig = {
+      ...current,
+      ...(patch || {}),
+      timerMode,
+      customTimerSeconds,
+      trackFails: patch?.trackFails !== undefined ? Boolean(patch.trackFails) : current.trackFails !== false,
+      customCardsEnabled: patch?.customCardsEnabled !== undefined ? Boolean(patch.customCardsEnabled) : current.customCardsEnabled !== false,
+      targetTurns: Math.max(5, Math.min(900, Number(patch?.targetTurns ?? current.targetTurns) || 30))
+    };
+    persistSimpleModeConfig(LOCAL_CULTURA_CHUPISTICA_HOT_CONFIG_KEY, nextConfig);
+    this.setState({ culturaChupisticaHotConfig: nextConfig }, { silent });
+    return nextConfig;
+  },
+
+  updateMixHotConfig(updater, { silent = false } = {}) {
+    const patch = typeof updater === 'function' ? updater(state.mixHotConfig) : updater;
+    const current = state.mixHotConfig || {};
+    const nextConfig = {
+      ...current,
+      ...(patch || {}),
+      bonusEnabled: (patch?.bonusEnabled !== undefined) ? patch.bonusEnabled : current.bonusEnabled !== false,
+      customCardsEnabled: (patch?.customCardsEnabled !== undefined) ? patch.customCardsEnabled : current.customCardsEnabled !== false,
+      targetTurns: Math.max(5, Math.min(900, Number(patch?.targetTurns ?? current.targetTurns) || 45))
+    };
+    persistSimpleModeConfig(LOCAL_MIX_HOT_CONFIG_KEY, nextConfig);
+    this.setState({ mixHotConfig: nextConfig }, { silent });
     return nextConfig;
   },
 

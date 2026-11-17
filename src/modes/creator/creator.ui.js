@@ -86,7 +86,42 @@ export const CUSTOM_CARD_THEMES = Object.freeze({
     gradient: 'linear-gradient(142deg, #2E0514 0%, #990D2E 48%, #D12B17 100%)',
     accent: '#FF4518',
     icon: '🔥',
-    label: 'Hot +18'
+    label: 'Clásico Hot +18'
+  },
+  'verdad_hot': {
+    themeClass: 'card-theme-verdad-hot',
+    gradient: 'linear-gradient(142deg, #881337 0%, #be123c 48%, #f43f5e 100%)',
+    accent: '#f43f5e',
+    icon: '🌶️',
+    label: 'Verdad Hot +18'
+  },
+  'reto_hot': {
+    themeClass: 'card-theme-reto-hot',
+    gradient: 'linear-gradient(142deg, #4c0519 0%, #9f1239 48%, #fb7185 100%)',
+    accent: '#fb7185',
+    icon: '⚡',
+    label: 'Reto Hot +18'
+  },
+  'yo_nunca_hot': {
+    themeClass: 'card-theme-yo-nunca-hot',
+    gradient: 'linear-gradient(142deg, #701a75 0%, #a21caf 48%, #f43f5e 100%)',
+    accent: '#f43f5e',
+    icon: '🙈',
+    label: 'Yo Nunca Hot +18'
+  },
+  'quien_hot': {
+    themeClass: 'card-theme-quien-hot',
+    gradient: 'linear-gradient(142deg, #78350f 0%, #d97706 48%, #f59e0b 100%)',
+    accent: '#f59e0b',
+    icon: '👑',
+    label: 'Quién Hot +18'
+  },
+  'cultura_hot': {
+    themeClass: 'card-theme-cultura-hot',
+    gradient: 'linear-gradient(142deg, #450a0a 0%, #b91c1c 48%, #ef4444 100%)',
+    accent: '#ef4444',
+    icon: '🍹',
+    label: 'Cultura Hot +18'
   },
   'bonus': {
     themeClass: 'card-theme-bonus',
@@ -106,6 +141,11 @@ export const CUSTOM_CARD_THEMES = Object.freeze({
 
 export function getCustomCardTheme(rawTipo) {
   const norm = String(rawTipo || '').toLowerCase().trim();
+  if (norm === 'verdad_hot' || (norm.includes('verdad') && norm.includes('hot'))) return CUSTOM_CARD_THEMES['verdad_hot'];
+  if (norm === 'reto_hot' || (norm.includes('reto') && norm.includes('hot'))) return CUSTOM_CARD_THEMES['reto_hot'];
+  if (norm === 'yo_nunca_hot' || (norm.includes('nunca') && norm.includes('hot'))) return CUSTOM_CARD_THEMES['yo_nunca_hot'];
+  if (norm === 'quien_hot' || (norm.includes('quien') && norm.includes('hot'))) return CUSTOM_CARD_THEMES['quien_hot'];
+  if (norm === 'cultura_hot' || ((norm.includes('cultura') || norm.includes('chupistica')) && norm.includes('hot'))) return CUSTOM_CARD_THEMES['cultura_hot'];
   if (norm.includes('cultura') || norm.includes('chupistica')) return CUSTOM_CARD_THEMES['cultura chupística'];
   if (norm.includes('retos especiales') || (norm.includes('reto') && norm.includes('especial'))) return CUSTOM_CARD_THEMES['retos especiales'];
   if (norm.includes('nunca')) return CUSTOM_CARD_THEMES['yo nunca'];

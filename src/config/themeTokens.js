@@ -4,11 +4,11 @@
  * `src/config/constants.js` y las carpetas independientes en `src/modes/*`.
  */
 
-export const APP_VERSION = '0.8.1';
+export const APP_VERSION = '0.8.2';
 
 export const PROJECT_META = Object.freeze({
   name: 'Oh My Shot!',
-  version: '0.8.1',
+  version: '0.8.2',
   creator: 'leoandre91',
   githubUser: 'leoandrex91/OhMyShot',
   githubRepo: 'leoandrex91/OhMyShot',
@@ -297,7 +297,8 @@ export const SPECIAL_CARD_FX = Object.freeze({
 export function resolveCardFxMode(card) {
   if (!card) return 'ambient';
   if (card.tipo === 'bonus' || card.category === 'bonus' || card.isBonus) return 'bonus';
-  if (card.tipo === 'hot' || card.category === 'hot') return 'hot';
+  const tipoStr = String(card.tipo || card.category || '');
+  if (tipoStr === 'hot' || tipoStr.endsWith('_hot') || tipoStr.includes('hot')) return 'hot';
   if (card.tipo === 'eventos especiales' || card.category === 'event') return 'event';
   if (card.tipo === 'duelo' || card.category === 'versus') return 'duel';
   if (

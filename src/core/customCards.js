@@ -16,7 +16,12 @@ export const CUSTOM_CARD_CATEGORIES = Object.freeze([
   { id: 'reto', label: 'Reto', icon: '⚡' },
   { id: 'retos especiales', label: 'Reto especial', icon: '🌟' },
   { id: 'duelo', label: 'Duelo', icon: '⚔️' },
-  { id: 'hot', label: 'Hot +18', icon: '🔥' },
+  { id: 'hot', label: 'Clásico Hot +18', icon: '🔥' },
+  { id: 'verdad_hot', label: 'Verdad Hot +18', icon: '🌶️' },
+  { id: 'reto_hot', label: 'Reto Hot +18', icon: '⚡' },
+  { id: 'yo_nunca_hot', label: 'Yo Nunca Hot +18', icon: '🙈' },
+  { id: 'quien_hot', label: 'Quién Hot +18', icon: '👑' },
+  { id: 'cultura_hot', label: 'Cultura Hot +18', icon: '🍹' },
   { id: 'eventos especiales', label: 'Evento especial', icon: '⭐' },
   { id: 'bonus', label: 'Bonus', icon: '🎁' }
 ]);
@@ -54,13 +59,18 @@ export function normalizeCustomCard(raw = {}) {
   let tipo = String(raw.tipo || raw.categoria || 'clásico').toLowerCase().trim();
   if (tipo === 'clasico') tipo = 'clásico';
   if (tipo === 'cultura-chupistica' || tipo === 'cultura') tipo = 'cultura chupística';
+  if (tipo === 'verdad-hot') tipo = 'verdad_hot';
+  if (tipo === 'reto-hot') tipo = 'reto_hot';
+  if (tipo === 'yo-nunca-hot') tipo = 'yo_nunca_hot';
+  if (tipo === 'quien-hot') tipo = 'quien_hot';
+  if (tipo === 'cultura-hot') tipo = 'cultura_hot';
   const subtipo = raw.subtipo ? String(raw.subtipo).trim() : null;
   const castigo = raw.castigo !== undefined && raw.castigo !== null
     ? String(raw.castigo).trim()
     : 'Quien pierda [castigo_toma{1-3} || castigo_notoma{x}].';
   const participantes = ['uno', 'duo', 'trio', 'grupo'].includes(String(raw.participantes).toLowerCase())
     ? String(raw.participantes).toLowerCase()
-    : (tipo === 'cultura chupística' || tipo === 'yo nunca') ? 'grupo' : 'uno';
+    : (tipo === 'cultura chupística' || tipo === 'cultura_hot' || tipo === 'yo nunca' || tipo === 'yo_nunca_hot') ? 'grupo' : 'uno';
   const min_jugadores = Math.min(8, Math.max(2, Math.round(Number(raw.min_jugadores) || 2)));
   const createdAt = Number(raw.createdAt) || Date.now();
   const updatedAt = Number(raw.updatedAt) || Date.now();
@@ -258,6 +268,15 @@ export function getCustomCardsForMode(modeId, { enabledTypes = null, minIntensit
     }
     if (modeId === 'hot') {
       return c.tipo === 'hot';
+    }
+    if (modeId === 'verdad-o-reto-hot') {
+      return ['verdad_hot', 'reto_hot', 'verdad', 'reto'].includes(c.tipo);
+    }
+    if (modeId === 'cultura-chupistica-hot') {
+      return c.tipo === 'cultura_hot' || c.tipo === 'cultura chupística';
+    }
+    if (modeId === 'mix-hot') {
+      return ['hot', 'verdad_hot', 'reto_hot', 'yo_nunca_hot', 'quien_hot', 'cultura_hot'].includes(c.tipo);
     }
     if (modeId === 'verdad-o-reto') {
       const allowed = Array.isArray(enabledTypes) && enabledTypes.length > 0

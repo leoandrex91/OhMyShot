@@ -2134,6 +2134,104 @@ body.text-xl .game-card-icon-img {
 }
 
 /* ==========================================================================
+   HOT MODES HUB & DEDICATED SCREEN
+   ========================================================================== */
+
+.hot-hub-card {
+  position: relative;
+  border-width: 2px !important;
+  transition: transform 0.16s ease, box-shadow 0.22s ease, border-color 0.22s ease;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.hot-hub-card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: radial-gradient(circle at 80% 20%, rgba(255, 79, 163, 0.4) 0%, transparent 60%);
+  opacity: 0.8;
+}
+
+.hot-hub-card:hover {
+  transform: translateY(-3px) scale(1.01);
+  box-shadow: 0 16px 44px rgba(244, 63, 94, 0.45), 0 0 24px rgba(255, 79, 163, 0.35) !important;
+}
+
+.hot-hub-icon {
+  background: rgba(244, 63, 94, 0.3) !important;
+  border-color: rgba(255, 255, 255, 0.4) !important;
+  box-shadow: 0 0 20px rgba(244, 63, 94, 0.6) !important;
+}
+
+.hot-hub-badge {
+  background: rgba(244, 63, 94, 0.4) !important;
+  border: 1px solid #f43f5e !important;
+  color: #fff !important;
+  font-weight: 800;
+  box-shadow: 0 0 12px rgba(244, 63, 94, 0.5);
+}
+
+.hot-menu-header {
+  padding-bottom: 6px;
+}
+
+.hot-menu-heading-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.hot-menu-badge-row {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.hot-pill-tag {
+  background: #f43f5e;
+  color: #fff;
+  font-size: 0.72rem;
+  font-weight: 900;
+  padding: 2px 8px;
+  border-radius: 6px;
+  letter-spacing: 0.05em;
+  box-shadow: 0 0 12px rgba(244, 63, 94, 0.6);
+}
+
+.hot-eyebrow-text {
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  color: #fb7185;
+  text-transform: uppercase;
+}
+
+.hot-menu-title {
+  font-family: var(--oms-font-heading);
+  font-size: calc(1.75rem * var(--text-scale));
+  font-weight: 900;
+  line-height: 1.15;
+  margin: 0;
+  background: linear-gradient(135deg, #fff 25%, #f43f5e 85%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hot-menu-subtitle {
+  font-size: 0.88rem;
+  color: rgba(255, 255, 255, 0.75);
+  margin: 0;
+  line-height: 1.4;
+}
+
+.back-to-standard-modes-btn {
+  max-width: 380px;
+  margin: 0 auto;
+}
+
+/* ==========================================================================
    MESA DE JUEGO TACTIL (PANTALLA C — CARTA VIBRANTE + ACCIONES ACCESIBLES)
    ========================================================================== */
 .play-stage {
@@ -8660,6 +8758,7 @@ body.is-card-swiping .bg-video-wrap {
   inset: 0 !important;
   z-index: 99999 !important;
   display: flex !important;
+  flex-direction: column !important;
   align-items: center !important;
   justify-content: center !important;
   padding: 14px !important;
@@ -8667,6 +8766,7 @@ body.is-card-swiping .bg-video-wrap {
   backdrop-filter: blur(14px) !important;
   -webkit-backdrop-filter: blur(14px) !important;
   overflow-y: auto !important;
+  -webkit-overflow-scrolling: touch !important;
   box-sizing: border-box !important;
   animation: creatorBackdropFade 0.18s ease-out;
 }
@@ -8686,7 +8786,10 @@ body.is-card-swiping .bg-video-wrap {
 .creator-export-dialog,
 .creator-import-dialog {
   position: relative !important;
-  width: min(500px, 100%) !important;
+  width: min(520px, 100%) !important;
+  max-width: 100% !important;
+  flex-shrink: 0 !important;
+  margin: auto !important;
   max-height: 92dvh !important;
   display: flex !important;
   flex-direction: column !important;
@@ -8718,15 +8821,74 @@ body.is-card-swiping .bg-video-wrap {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-shrink: 0;
 }
 
 .creator-modal-scroll {
-  overflow-y: auto;
-  max-height: calc(92dvh - 130px);
-  padding: 16px 18px;
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
+  overflow-y: auto !important;
+  -webkit-overflow-scrolling: touch !important;
+  max-height: calc(92dvh - 130px) !important;
+  padding: 16px 18px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 12px !important;
+  flex: 1 1 auto !important;
+  min-height: 0 !important;
+}
+
+.creator-edit-dialog .editor-modal-footer {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: stretch !important;
+  align-items: stretch !important;
+  gap: 10px !important;
+  padding: 12px 16px !important;
+  border-top: 1.5px solid var(--oms-border, #49365F) !important;
+  background: rgba(24, 16, 40, 0.95) !important;
+  flex-shrink: 0 !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+.creator-edit-dialog .editor-modal-footer > .btn {
+  flex: 1 1 0 !important;
+  width: auto !important;
+  min-width: 0 !important;
+  min-height: 48px !important;
+  padding: 8px 10px !important;
+  font-size: 0.88rem !important;
+  margin: 0 !important;
+}
+
+@media (max-width: 480px) {
+  .creator-modal-backdrop {
+    padding: 10px 8px !important;
+  }
+
+  .creator-edit-dialog {
+    max-height: 96dvh !important;
+    border-radius: 18px !important;
+  }
+
+  .creator-dialog-header {
+    padding: 12px 14px 10px !important;
+  }
+
+  .creator-modal-scroll {
+    padding: 12px 14px !important;
+    gap: 10px !important;
+    max-height: calc(96dvh - 120px) !important;
+  }
+
+  .editor-form-split-row {
+    grid-template-columns: 1fr !important;
+    gap: 10px !important;
+  }
+
+  .creator-edit-dialog .editor-modal-footer {
+    padding: 12px 14px !important;
+    gap: 8px !important;
+  }
 }
 
 .creator-confirm-dialog {

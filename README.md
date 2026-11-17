@@ -5,10 +5,10 @@
 **La aplicación web progresiva (PWA) definitiva de juegos para previas y fiestas entre amigos.**  
 *100% local, interactiva, moderna, sin dependencias pesadas, arquitectura Vanilla ES Modules y estética cyberpunk / neón party.*
 
-[![Version](https://img.shields.io/badge/version-0.8.1-ff007f.svg?style=for-the-badge)](package.json)
+[![Version](https://img.shields.io/badge/version-0.8.2-ff007f.svg?style=for-the-badge)](package.json)
 [![PWA Ready](https://img.shields.io/badge/PWA-100%25%20Offline-00e5ff.svg?style=for-the-badge)](manifest.webmanifest)
 [![Vanilla JS](https://img.shields.io/badge/Vanilla-ES%20Modules-f59e0b.svg?style=for-the-badge)](src/main.js)
-[![Cards](https://img.shields.io/badge/Total%20Cards-19%2C134%20(3%20Idiomas)-10b981.svg?style=for-the-badge)](src/cards/)
+[![Cards](https://img.shields.io/badge/Total%20Cards-19%2C572%20(3%20Idiomas)-10b981.svg?style=for-the-badge)](src/cards/)
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-a855f7.svg?style=for-the-badge)](LICENSE)
 
 [🎮 Jugar en Vivo](#-cómo-jugarlo-en-vivo) • [✨ Características](#-características-principales) • [📸 Capturas](#-capturas-de-pantalla) • [🕹️ Modos de Juego](#-modos-de-juego) • [🚀 Ejecución Local](#-instalación-y-ejecución-local) • [📁 Arquitectura](#-estructura-del-proyecto)
@@ -125,22 +125,27 @@ Preguntas directas donde todo el grupo señala a la cuenta de tres:
 - Dinámica rápida y participativa.
 - Penalizaciones automáticas para el más votado o debate abierto en empates.
 
-### 6. 🔥 Modo Hot (+18)
-Modo exclusivo para mayores de edad para subir la temperatura de la noche:
-- **500 cartas picantes por idioma** (1.500 cartas HOT exclusivas) calibradas a lo largo de 10 niveles de intensidad.
-- Preguntas íntimas individuales (`[player]`), confesiones picantes y retos en pareja (`[player] y [player_x]`).
-- Música ambiental sensual continua (`music_hot_bg.m4a`), estética visual de fuego/neón y efectos inmersivos.
-- Verificación prioritaria de mayoría de edad (+18).
+### 6. 🔥 Modos Hot (+18) - Pantalla Dedicada Exclusiva
+Zona independiente para mayores de edad para subir la temperatura de la noche, accesible desde una tarjeta destacada con glow de fuego neón:
+- **Colección de 4 Modos Picantes**:
+  - **Clásico Hot**: Preguntas íntimas (`[player]`), confesiones picantes y retos en pareja (`[player] y [player_x]`).
+  - **Verdad o Reto Hot**: Selección interactiva con verdades íntimas sin filtro y retos atrevidos (`verdad_hot` y `reto_hot`).
+  - **Cultura Chupística Hot**: Rondas temáticas picantes sin censura por turnos con temporizador y penalizaciones ardientes (`cultura_hot`).
+  - **Mix Hot (Especial Todo en Uno)**: Combina las 6 categorías picantes en un mazo continuo con navegación por deslizamiento (*swipe*).
+- **Música sensual continua** (`music_hot_bg.m4a`), estética visual de fuego/neón y efectos inmersivos.
+- **Verificación prioritaria de mayoría de edad (+18)** antes de acceder.
 
 ---
 
 ## 🎨 Creador de Cartas Personalizadas (Card Creator)
 
 Diseña tus propias cartas y personaliza la experiencia con bromas locales, preguntas privadas o desafíos entre amigos:
-- **Soporte Completo de las 11 Categorías**: Crea cartas para cualquiera de los estilos del juego (`Clásico`, `Cultura Chupística`, `Yo nunca`, `¿Quién es más probable?`, `Verdad`, `Reto`, `Reto especial`, `Duelo`, `Hot +18`, `Evento especial`, `Bonus`).
+- **Soporte Completo de las 16 Categorías**: Crea cartas para cualquiera de los estilos del juego (10 categorías estándar y 6 categorías picantes Hot +18).
+- **Etiquetas Dinámicas de Castigo**: Soporta texto personalizado y etiquetas dinámicas como `[castigo_toma{1-3}]` y `[castigo_notoma{x}]` con botones de inserción rápida.
 - **Plantillas Dinámicas con Tokens**: Inserta fácilmente marcadores como `[player]` (jugador protagonista), `[player_x]` (segundo jugador) o `[all]` (todo el grupo) para que el motor asigne automáticamente los participantes durante la partida.
 - **Configuración Completa de Parámetros**: Define texto o tema, nivel de intensidad (1 a 10), castigo o trago sugerido, participantes (1, 2, 3 o grupo) y mínimo de jugadores en mesa.
-- **Integración Nativa en Todos los Modos**: Activa o desactiva tus cartas creadas desde el modal de ajustes de cada modo (Previa Mix, Cultura Chupística, Verdad o Reto, etc.). Las cartas personalizadas aparecen con el distintivo `⭐ CUSTOM`.
+- **Modal 100% Responsivo para Móviles**: Diálogo rediseñado y adaptado a pantallas táctiles de cualquier tamaño.
+- **Integración Nativa en Todos los Modos**: Activa o desactiva tus cartas creadas desde el modal de ajustes de cada modo. Las cartas personalizadas aparecen con el distintivo `⭐ CUSTOM`.
 - **Exportación e Importación JSON**: Respalda tu colección completa o compártela con tus amigos en un archivo `.json` liviano. Capacidad de almacenamiento persistente en `localStorage` de hasta 500 cartas.
 
 ---
@@ -199,7 +204,7 @@ OhMyShot/
 │   │   └── cards.loader.js     # Cargador asíncrono y precarga de cartas
 │   ├── config/                 # Constantes, tokens de diseño y metadatos
 │   │   ├── constants.js        # Constantes globales del juego
-│   │   └── themeTokens.js      # Colores oficiales, versión (v0.8.1) y tema
+│   │   └── themeTokens.js      # Colores oficiales, versión (v0.8.2) y tema
 │   ├── core/                   # Módulos de infraestructura y estado
 │   │   ├── store.js            # Almacén de estado reactivo local
 │   │   ├── i18n.js             # Motor de internacionalización y diccionarios (ES, EN, PT)
@@ -226,7 +231,7 @@ OhMyShot/
 │   └── main.js                 # Punto de entrada de la aplicación
 ├── index.html                  # HTML principal de la PWA
 ├── manifest.webmanifest        # Manifiesto PWA para instalación en Android / iOS
-├── package.json                # Metadatos del proyecto (v0.8.1)
+├── package.json                # Metadatos del proyecto (v0.8.2)
 ├── CHANGELOG.md                # Historial completo de versiones y cambios
 └── sw.js                       # Service Worker para funcionamiento 100% offline
 ```

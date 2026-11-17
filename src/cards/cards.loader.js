@@ -106,3 +106,62 @@ export async function loadCulturaChupisticaCards(locale = 'es') {
   }
   return mod.culturaChupisticaCards || mod.default || [];
 }
+
+/**
+ * Carga perezosa del paquete completo de cartas HOT adicionales
+ * (verdad_hot, reto_hot, yo_nunca_hot, quien_hot, cultura_hot).
+ * @param {string} locale
+ * @returns {Promise<{ verdadHot: Array, retoHot: Array, yoNuncaHot: Array, quienHot: Array, culturaHot: Array }>}
+ */
+export async function loadHotCardsLocale(locale = 'es') {
+  const safeLang = normalizeCardLocale(locale);
+  let verdadMod, retoMod, yoNuncaMod, quienMod, culturaMod;
+  switch (safeLang) {
+    case 'en':
+      [verdadMod, retoMod, yoNuncaMod, quienMod, culturaMod] = await Promise.all([
+        import('./en/verdad-hot.en.js'),
+        import('./en/reto-hot.en.js'),
+        import('./en/yo-nunca-hot.en.js'),
+        import('./en/quien-hot.en.js'),
+        import('./en/cultura-hot.en.js')
+      ]);
+      break;
+    case 'pt':
+      [verdadMod, retoMod, yoNuncaMod, quienMod, culturaMod] = await Promise.all([
+        import('./pt/verdad-hot.pt.js'),
+        import('./pt/reto-hot.pt.js'),
+        import('./pt/yo-nunca-hot.pt.js'),
+        import('./pt/quien-hot.pt.js'),
+        import('./pt/cultura-hot.pt.js')
+      ]);
+      break;
+    case 'es':
+    default:
+      [verdadMod, retoMod, yoNuncaMod, quienMod, culturaMod] = await Promise.all([
+        import('./es/verdad-hot.es.js'),
+        import('./es/reto-hot.es.js'),
+        import('./es/yo-nunca-hot.es.js'),
+        import('./es/quien-hot.es.js'),
+        import('./es/cultura-hot.es.js')
+      ]);
+      break;
+  }
+
+  return {
+    verdadHot: verdadMod.verdadHotCards || [],
+    retoHot: retoMod.retoHotCards || [],
+    yoNuncaHot: yoNuncaMod.yoNuncaHotCards || [],
+    quienHot: quienMod.quienHotCards || [],
+    culturaHot: culturaMod.culturaHotCards || []
+  };
+}
+
+/**
+ * Carga los temas de Cultura Chupística Hot para un idioma.
+ * @param {string} locale
+ * @returns {Promise<Array>}
+ */
+export async function loadCulturaHotCards(locale = 'es') {
+  const bundle = await loadHotCardsLocale(locale);
+  return bundle.culturaHot || [];
+}

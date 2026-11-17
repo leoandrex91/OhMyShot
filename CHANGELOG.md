@@ -9,16 +9,32 @@ El formato se basa en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/
 ## [0.8.2] - 2026-11-16
 
 ### Añadido
-- **Creador de Cartas (Card Creator) - Soporte Completo de las 11 Categorías**:
-  - Integración de todas las 11 categorías oficiales del juego en el Creador de Cartas (`clásico`, `cultura chupística`, `yo nunca`, `quien es más probable`, `verdad`, `reto`, `retos especiales`, `duelo`, `hot`, `eventos especiales`, `bonus`), permitiendo crear y personalizar cartas para cualquier estilo o dinámica de previa.
-  - Soporte específico y tema visual para **Cultura Chupística** (`🍹`, gradiente azul-cian festivo con glow `--card-accent`) y **Retos Especiales** (`🌟`, gradiente magenta-carmesí).
-  - Normalización inteligente de cartas de Cultura Chupística: vinculación automática de campos `tema` y `texto`, y configuración de participantes en `grupo`.
-  - Integración directa en el adaptador de **Cultura Chupística** (`src/modes/cultura-chupistica/adapter.js`):
-    - Inyección prioritaria de las cartas personalizadas creadas en el mazo de partida.
-    - Switch independiente para activar/desactivar cartas personalizadas en la configuración del modo (`#mode-settings-custom-cards-check`).
-    - Renderizado con distintivo visual `⭐ CUSTOM` en la cabecera de la carta activa durante la partida.
-- **Verificación Integral E2E de Flujo de Cartas Personalizadas**:
-  - Pruebas automatizadas en Edge CDP cubriendo el ciclo de vida completo: creación, visualización en colección con tags y niveles, filtros por categoría, búsqueda reactiva, edición en modal, exportación/importación en formato JSON y ejecución real en partida de Cultura Chupística con 0 errores de consola.
+- **Pantalla Independiente de Modos Hot +18 (`hot-menu`)**:
+  - Agrupación de todos los 4 modos picantes (+18) en su propia pantalla dedicada: **Clásico Hot**, **Verdad o Reto Hot**, **Cultura Chupística Hot** y **Mix Hot**.
+  - Tarjeta de acceso exclusivo en el menú principal con efecto neón de fuego, badge "+18 · 4 Modos" y verificación de edad preventiva.
+  - Flujo bidireccional fluido: botón "← Modos" y botón "Volver a Modos Estándar", con retorno inteligente desde las pantallas de calibración de intensidad e instrucciones.
+  - Textos multilingües completos (`es`, `en`, `pt`) para la cabecera, etiquetas y descripciones de la zona Hot.
+- **Colección Completa de 4 Modos Oficiales Hot +18**:
+  - **Verdad o Reto Hot +18 (`verdad-o-reto-hot`)**: Adaptador interactivo con selección de Verdad o Reto con cartas íntimas exclusivas (`verdad_hot` y `reto_hot`), límite de verdades consecutivas y estilo carmesí neón (`#f43f5e`).
+  - **Cultura Chupística Hot +18 (`cultura-chupistica-hot`)**: Dinámica de rondas por turnos con temporizador y temas de conversación para adultos (`cultura_hot`), sistema de fallos y penitencias picantes (`#ef4444`).
+  - **Mix Hot +18 (`mix-hot`)**: Modo especial todo en uno que combina las 6 categorías picantes en un mazo continuo con swipe (`hot`, `verdad_hot`, `reto_hot`, `yo_nunca_hot`, `quien_hot`, `cultura_hot`) y estilo magenta eléctrico (`#ec4899`).
+  - **Clásico Hot +18 (`hot`)**: Modo picante original con 500 cartas calibradas en 10 niveles y música sensual continua.
+- **Nuevos Mazos de Cartas Hot Multilingües (15 archivos en ES, EN, PT)**:
+  - 438 cartas nuevas: `verdad_hot` (138 cartas), `reto_hot` (90 cartas), `yo_nunca_hot` (75 cartas), `quien_hot` (60 cartas), `cultura_hot` (75 cartas).
+  - El catálogo global asciende a **19.572 cartas activas** distribuidas equitativamente en 3 idiomas (6.524 por idioma).
+- **Creador de Cartas (Card Creator) - Soporte Integral para 16 Categorías & Etiquetas de Castigo**:
+  - Inclusión de las 16 categorías del juego en selectores y filtros (tanto las 10 estándar como las 6 picantes).
+  - Soporte de etiquetas dinámicas de castigo en el texto (`[castigo_toma{1-3}]`, `[castigo_notoma{x}]`) y plantillas rápidas.
+  - Inyección prioritaria de cartas creadas en todos los modos con distintivo visual `⭐ CUSTOM`.
+
+### Corregido
+- **Menús de Intensidad e Instrucciones - Corrección de Etiquetas HTML Crudas**:
+  - Eliminación de espacios accidentales en plantillas de `src/ui/appShell.js` (`< section`, `< button`, `< li`, `data - action`) que causaban que el navegador interpretara las etiquetas HTML como texto plano visible.
+- **Creador de Cartas - Estructura y Estilos Móviles**:
+  - Eliminación de etiqueta `</div>` prematura que partía el modal en columnas estrechas en pantallas móviles.
+  - Diálogo 100% responsivo para cualquier resolución con centrado perfecto (`margin: auto`) y botones "Cancelar" y "Guardar Carta" alineados simétricamente.
+- **Service Worker & Caché Offline**:
+  - Versión de caché actualizada a `oh-my-shot-v0.8.2` en `sw.js` garantizando actualización inmediata en todos los clientes PWA instalados.
 
 ---
 
